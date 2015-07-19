@@ -12,7 +12,7 @@ Note that you only have to create @System.Xml.Linq.XDocument objects if you requ
 In many circumstances, you can work directly with @System.Xml.Linq.XElement.
 Working directly with @System.Xml.Linq.XElement is a simpler programming model.
 
-@System.Xml.Linq.XDocument derives from @System.Xml.Linq.XContainer.
+@System.Xml.Linq.XDocument derives from @"System.Xml.Linq.XContainer".
 Therefore, it can contain child nodes.
 However, @System.Xml.Linq.XDocument objects can have only one child @System.Xml.Linq.XElement node. This reflects the XML standard that there can be only one root element in an XML document.
 
@@ -41,3 +41,7 @@ By using the @System.Xml.Linq.XElement class, you can create an XML tree, add ot
 To construct an @System.Xml.Linq.XDocument, use functional construction, just like you do to construct @System.Xml.Linq.XElement objects.
 
 The following code creates an @System.Xml.Linq.XDocument object and its associated contained objects.
+
+```csharp
+{{'../../Sample/Program.cs'[10-29]}}
+```

@@ -3,7 +3,7 @@
     {
       "name": "api",
       "files": [
-        "../../src/**/src/**/*.csproj"
+        "../../src/System.Xml.XDocument/src/**/*.csproj"
       ],
       "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
     }
@@ -12,7 +12,8 @@
     {
       "files": [
         "**/*.md",
-        "**/toc.yml"
+        "**/toc.yml",
+        "**/*.png"
       ],
       "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
     }

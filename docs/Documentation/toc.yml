@@ -1,5 +1,6 @@
-﻿
-- name: Home
+﻿- name: Home
   href: README.md
+- name: Conceptual Documentation
+  href: conceptualdoc/
 - name: API Documentation
   href: api/

@@ -41,8 +41,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="toc.yml" />
-    <Content Include="packages.config" />
     <Content Include="apidoc\XDocument.md" />
+    <Content Include="conceptualdoc\assembly-format.md" />
+    <Content Include="conceptualdoc\class-libraries.md" />
+    <Content Include="conceptualdoc\common-type-system.md" />
+    <Content Include="conceptualdoc\console.md" />
+    <Content Include="conceptualdoc\delegates-lambdas.md" />
+    <Content Include="conceptualdoc\framework-libraries.md" />
+    <Content Include="conceptualdoc\gc-overview.md" />
+    <Content Include="conceptualdoc\generics.md" />
+    <Content Include="conceptualdoc\installing-core-linux.md" />
+    <Content Include="conceptualdoc\installing-core-osx.md" />
+    <Content Include="conceptualdoc\installing-core-windows.md" />
+    <Content Include="conceptualdoc\intro-clr.md" />
+    <Content Include="conceptualdoc\managed-code.md" />
+    <Content Include="conceptualdoc\primer.md" />
+    <Content Include="conceptualdoc\roslyn-overview.md" />
+    <Content Include="conceptualdoc\supporting-core.md" />
+    <Content Include="conceptualdoc\toc.yml" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -54,6 +71,7 @@
   <ItemGroup>
     <Content Include="Web.config" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -79,12 +97,12 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\docfx.msbuild.0.1.0-alpha-1507151051\build\docfx.msbuild.targets" Condition="Exists('..\packages\docfx.msbuild.0.1.0-alpha-1507151051\build\docfx.msbuild.targets')" />
+  <Import Project="..\packages\docfx.msbuild.0.1.0-alpha-1507181647\build\docfx.msbuild.targets" Condition="Exists('..\packages\docfx.msbuild.0.1.0-alpha-1507181647\build\docfx.msbuild.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\docfx.msbuild.0.1.0-alpha-1507151051\build\docfx.msbuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.msbuild.0.1.0-alpha-1507151051\build\docfx.msbuild.targets'))" />
+    <Error Condition="!Exists('..\packages\docfx.msbuild.0.1.0-alpha-1507181647\build\docfx.msbuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.msbuild.0.1.0-alpha-1507181647\build\docfx.msbuild.targets'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
