@@ -3,7 +3,7 @@
     {
       "name": "api",
       "files": [
-        "../../src/System.Xml.XDocument/src/**/*.csproj"
+        "../../src/**/src/**/*.csproj"
       ],
       "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
     }
