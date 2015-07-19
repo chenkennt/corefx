@@ -1,0 +1,59 @@
+items:
+- uid: System.Runtime.InteropServices
+  id: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.RuntimeInformation
+  - System.Runtime.InteropServices.OSPlatform
+  - System.Runtime.InteropServices.ComAwareEventInfo
+  - System.Runtime.InteropServices.HandleCollector
+  - System.Runtime.InteropServices.DefaultParameterValueAttribute
+  href: System.Runtime.InteropServices.yml
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+  source:
+    remote:
+      path: src/System.Runtime.InteropServices.RuntimeInformation/src/OSPlatform.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: f36ebcfc
+    path: src/System.Runtime.InteropServices.RuntimeInformation/src/OSPlatform.cs
+    startLine: 3
+  assemblies:
+  - System.Runtime.InteropServices.RuntimeInformation
+references:
+- uid: System.Runtime.InteropServices.RuntimeInformation
+  isExternal: false
+  href: System.Runtime.InteropServices.RuntimeInformation.yml
+  name: RuntimeInformation
+  fullName: System.Runtime.InteropServices.RuntimeInformation
+  type: Class
+- uid: System.Runtime.InteropServices.OSPlatform
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.OSPlatform.yml
+  name: OSPlatform
+  fullName: System.Runtime.InteropServices.OSPlatform
+  type: Struct
+- uid: System.Runtime.InteropServices.ComAwareEventInfo
+  isExternal: false
+  href: System.Runtime.InteropServices.ComAwareEventInfo.yml
+  name: ComAwareEventInfo
+  fullName: System.Runtime.InteropServices.ComAwareEventInfo
+  type: Class
+- uid: System.Runtime.InteropServices.HandleCollector
+  isExternal: false
+  href: System.Runtime.InteropServices.HandleCollector.yml
+  name: HandleCollector
+  fullName: System.Runtime.InteropServices.HandleCollector
+  type: Class
+- uid: System.Runtime.InteropServices.DefaultParameterValueAttribute
+  isExternal: false
+  href: System.Runtime.InteropServices.DefaultParameterValueAttribute.yml
+  name: DefaultParameterValueAttribute
+  fullName: System.Runtime.InteropServices.DefaultParameterValueAttribute
+  type: Class
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
