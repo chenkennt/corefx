@@ -4,28 +4,28 @@ items:
   parent: System.Xml
   children:
   - System.Xml.XmlAttribute.#ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
+  - System.Xml.XmlAttribute.AppendChild(System.Xml.XmlNode)
+  - System.Xml.XmlAttribute.BaseURI
   - System.Xml.XmlAttribute.CloneNode(System.Boolean)
-  - System.Xml.XmlAttribute.ParentNode
-  - System.Xml.XmlAttribute.Name
+  - System.Xml.XmlAttribute.InnerText
+  - System.Xml.XmlAttribute.InnerXml
+  - System.Xml.XmlAttribute.InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
+  - System.Xml.XmlAttribute.InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
   - System.Xml.XmlAttribute.LocalName
+  - System.Xml.XmlAttribute.Name
   - System.Xml.XmlAttribute.NamespaceURI
-  - System.Xml.XmlAttribute.Prefix
   - System.Xml.XmlAttribute.NodeType
   - System.Xml.XmlAttribute.OwnerDocument
-  - System.Xml.XmlAttribute.Value
-  - System.Xml.XmlAttribute.InnerText
-  - System.Xml.XmlAttribute.Specified
-  - System.Xml.XmlAttribute.InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
-  - System.Xml.XmlAttribute.InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
-  - System.Xml.XmlAttribute.ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
-  - System.Xml.XmlAttribute.RemoveChild(System.Xml.XmlNode)
-  - System.Xml.XmlAttribute.PrependChild(System.Xml.XmlNode)
-  - System.Xml.XmlAttribute.AppendChild(System.Xml.XmlNode)
   - System.Xml.XmlAttribute.OwnerElement
-  - System.Xml.XmlAttribute.InnerXml
-  - System.Xml.XmlAttribute.WriteTo(XmlWriter)
+  - System.Xml.XmlAttribute.ParentNode
+  - System.Xml.XmlAttribute.Prefix
+  - System.Xml.XmlAttribute.PrependChild(System.Xml.XmlNode)
+  - System.Xml.XmlAttribute.RemoveChild(System.Xml.XmlNode)
+  - System.Xml.XmlAttribute.ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
+  - System.Xml.XmlAttribute.Specified
+  - System.Xml.XmlAttribute.Value
   - System.Xml.XmlAttribute.WriteContentTo(XmlWriter)
-  - System.Xml.XmlAttribute.BaseURI
+  - System.Xml.XmlAttribute.WriteTo(XmlWriter)
   href: System.Xml.XmlAttribute.yml
   name: XmlAttribute
   fullName: System.Xml.XmlAttribute
@@ -124,7 +124,6 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlAttribute.ParentNode
   id: ParentNode
@@ -146,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.ParentNode
 - uid: System.Xml.XmlAttribute.Name
   id: Name
@@ -168,7 +166,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlAttribute.LocalName
   id: LocalName
@@ -190,7 +187,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlAttribute.NamespaceURI
   id: NamespaceURI
@@ -212,7 +208,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.NamespaceURI
 - uid: System.Xml.XmlAttribute.Prefix
   id: Prefix
@@ -234,7 +229,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.Prefix
 - uid: System.Xml.XmlAttribute.NodeType
   id: NodeType
@@ -256,7 +250,6 @@ items:
     parameters: []
     return:
       type: XmlNodeType
-      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlAttribute.OwnerDocument
   id: OwnerDocument
@@ -278,7 +271,6 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlDocument
-      description: 
   overridden: System.Xml.XmlNode.OwnerDocument
 - uid: System.Xml.XmlAttribute.Value
   id: Value
@@ -300,7 +292,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.Value
 - uid: System.Xml.XmlAttribute.InnerText
   id: InnerText
@@ -322,7 +313,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.InnerText
 - uid: System.Xml.XmlAttribute.Specified
   id: Specified
@@ -344,7 +334,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlAttribute.InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
   id: InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
   parent: System.Xml.XmlAttribute
@@ -369,7 +358,6 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
   id: InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -395,7 +383,6 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
   id: ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -421,7 +408,6 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.RemoveChild(System.Xml.XmlNode)
   id: RemoveChild(System.Xml.XmlNode)
@@ -445,7 +431,6 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.RemoveChild(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.PrependChild(System.Xml.XmlNode)
   id: PrependChild(System.Xml.XmlNode)
@@ -469,7 +454,6 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.PrependChild(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.AppendChild(System.Xml.XmlNode)
   id: AppendChild(System.Xml.XmlNode)
@@ -493,7 +477,6 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNode.AppendChild(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.OwnerElement
   id: OwnerElement
@@ -515,7 +498,6 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlElement
-      description: 
 - uid: System.Xml.XmlAttribute.InnerXml
   id: InnerXml
   parent: System.Xml.XmlAttribute
@@ -536,7 +518,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.InnerXml
 - uid: System.Xml.XmlAttribute.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)
@@ -600,7 +581,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Xml.XmlNode.BaseURI
 references:
 - uid: System.Xml
@@ -611,6 +591,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Xml.XmlNode
@@ -703,12 +684,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -722,12 +705,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNode.IsReadOnly
@@ -832,6 +817,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -845,6 +831,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNode.GetPrefixOfNamespace(System.String)
@@ -864,6 +851,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -877,6 +865,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNode.Item(System.String)
@@ -898,6 +887,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -911,6 +901,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNode.Item(System.String,System.String)
@@ -932,12 +923,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -951,12 +944,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNode.PreviousText
@@ -968,6 +963,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -975,6 +971,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -984,6 +981,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -991,6 +989,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -998,12 +997,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1011,17 +1012,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1029,18 +1033,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1048,23 +1055,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1072,18 +1083,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1091,23 +1105,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1115,6 +1133,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1124,6 +1143,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1131,6 +1151,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1138,6 +1159,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1147,6 +1169,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1154,6 +1177,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1161,6 +1185,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1170,6 +1195,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1181,6 +1207,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Xml.XmlDocument
@@ -1207,6 +1234,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1220,11 +1248,13 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Xml.XmlNode.ParentNode

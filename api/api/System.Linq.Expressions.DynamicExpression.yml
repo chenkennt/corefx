@@ -3,27 +3,27 @@ items:
   id: DynamicExpression
   parent: System.Linq.Expressions
   children:
-  - System.Linq.Expressions.DynamicExpression.CanReduce
-  - System.Linq.Expressions.DynamicExpression.Reduce
-  - System.Linq.Expressions.DynamicExpression.Type
-  - System.Linq.Expressions.DynamicExpression.NodeType
-  - System.Linq.Expressions.DynamicExpression.Binder
-  - System.Linq.Expressions.DynamicExpression.DelegateType
-  - System.Linq.Expressions.DynamicExpression.Arguments
   - System.Linq.Expressions.DynamicExpression.Accept(ExpressionVisitor)
-  - System.Linq.Expressions.DynamicExpression.Update(System.Collections.Generic.IEnumerable{Expression})
-  - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,Expression[])
-  - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,System.Collections.Generic.IEnumerable{Expression})
+  - System.Linq.Expressions.DynamicExpression.Arguments
+  - System.Linq.Expressions.DynamicExpression.Binder
+  - System.Linq.Expressions.DynamicExpression.CanReduce
+  - System.Linq.Expressions.DynamicExpression.DelegateType
   - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,Expression)
   - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,Expression,Expression)
   - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,Expression,Expression,Expression)
   - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,Expression,Expression,Expression,Expression)
-  - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,System.Collections.Generic.IEnumerable{Expression})
-  - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,Expression[])
+  - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,Expression[])
+  - System.Linq.Expressions.DynamicExpression.Dynamic(System.Runtime.CompilerServices.CallSiteBinder,System.Type,System.Collections.Generic.IEnumerable{Expression})
   - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,Expression)
   - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,Expression,Expression)
   - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,Expression,Expression,Expression)
   - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,Expression,Expression,Expression,Expression)
+  - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,Expression[])
+  - System.Linq.Expressions.DynamicExpression.MakeDynamic(System.Type,System.Runtime.CompilerServices.CallSiteBinder,System.Collections.Generic.IEnumerable{Expression})
+  - System.Linq.Expressions.DynamicExpression.NodeType
+  - System.Linq.Expressions.DynamicExpression.Reduce
+  - System.Linq.Expressions.DynamicExpression.Type
+  - System.Linq.Expressions.DynamicExpression.Update(System.Collections.Generic.IEnumerable{Expression})
   href: System.Linq.Expressions.DynamicExpression.yml
   name: DynamicExpression
   fullName: System.Linq.Expressions.DynamicExpression
@@ -67,7 +67,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Expressions.DynamicExpression.Reduce
   id: Reduce
   parent: System.Linq.Expressions.DynamicExpression
@@ -87,7 +86,6 @@ items:
     content.vb: Public Overrides Function Reduce As Expression
     return:
       type: Expression
-      description: 
 - uid: System.Linq.Expressions.DynamicExpression.Type
   id: Type
   parent: System.Linq.Expressions.DynamicExpression
@@ -801,6 +799,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -810,6 +809,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: Expression
@@ -820,6 +820,7 @@ references:
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: ExpressionType
@@ -855,6 +856,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{Expression}
   parent: System.Collections.ObjectModel
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ReadOnlyCollection<Expression>
   name.vb: ReadOnlyCollection(Of Expression)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<Expression>
@@ -864,6 +866,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - uid: Expression
@@ -877,6 +880,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: Expression
@@ -888,6 +892,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
   parent: System.Collections.ObjectModel
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ReadOnlyCollection<T>
   name.vb: ReadOnlyCollection(Of T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
@@ -897,6 +902,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -908,6 +914,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -926,6 +933,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{Expression}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Expression>
   name.vb: IEnumerable(Of Expression)
   fullName: System.Collections.Generic.IEnumerable<Expression>
@@ -935,6 +943,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: Expression
@@ -948,6 +957,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: Expression
@@ -967,6 +977,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -976,6 +987,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -987,6 +999,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T

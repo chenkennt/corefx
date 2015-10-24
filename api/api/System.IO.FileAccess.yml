@@ -4,8 +4,8 @@ items:
   parent: System.IO
   children:
   - System.IO.FileAccess.Read
-  - System.IO.FileAccess.Write
   - System.IO.FileAccess.ReadWrite
+  - System.IO.FileAccess.Write
   href: System.IO.FileAccess.yml
   name: FileAccess
   fullName: System.IO.FileAccess

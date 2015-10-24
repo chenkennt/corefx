@@ -3,11 +3,11 @@ items:
   id: TraceOptions
   parent: System.Diagnostics
   children:
-  - System.Diagnostics.TraceOptions.None
   - System.Diagnostics.TraceOptions.DateTime
-  - System.Diagnostics.TraceOptions.Timestamp
+  - System.Diagnostics.TraceOptions.None
   - System.Diagnostics.TraceOptions.ProcessId
   - System.Diagnostics.TraceOptions.ThreadId
+  - System.Diagnostics.TraceOptions.Timestamp
   href: System.Diagnostics.TraceOptions.yml
   name: TraceOptions
   fullName: System.Diagnostics.TraceOptions

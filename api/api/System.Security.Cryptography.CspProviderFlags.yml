@@ -3,15 +3,15 @@ items:
   id: CspProviderFlags
   parent: System.Security.Cryptography
   children:
-  - System.Security.Cryptography.CspProviderFlags.NoFlags
-  - System.Security.Cryptography.CspProviderFlags.UseMachineKeyStore
-  - System.Security.Cryptography.CspProviderFlags.UseDefaultKeyContainer
-  - System.Security.Cryptography.CspProviderFlags.UseNonExportableKey
-  - System.Security.Cryptography.CspProviderFlags.UseExistingKey
-  - System.Security.Cryptography.CspProviderFlags.UseArchivableKey
-  - System.Security.Cryptography.CspProviderFlags.UseUserProtectedKey
-  - System.Security.Cryptography.CspProviderFlags.NoPrompt
   - System.Security.Cryptography.CspProviderFlags.CreateEphemeralKey
+  - System.Security.Cryptography.CspProviderFlags.NoFlags
+  - System.Security.Cryptography.CspProviderFlags.NoPrompt
+  - System.Security.Cryptography.CspProviderFlags.UseArchivableKey
+  - System.Security.Cryptography.CspProviderFlags.UseDefaultKeyContainer
+  - System.Security.Cryptography.CspProviderFlags.UseExistingKey
+  - System.Security.Cryptography.CspProviderFlags.UseMachineKeyStore
+  - System.Security.Cryptography.CspProviderFlags.UseNonExportableKey
+  - System.Security.Cryptography.CspProviderFlags.UseUserProtectedKey
   href: System.Security.Cryptography.CspProviderFlags.yml
   name: CspProviderFlags
   fullName: System.Security.Cryptography.CspProviderFlags

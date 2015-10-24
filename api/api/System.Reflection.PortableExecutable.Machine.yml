@@ -3,30 +3,30 @@ items:
   id: Machine
   parent: System.Reflection.PortableExecutable
   children:
-  - System.Reflection.PortableExecutable.Machine.Unknown
-  - System.Reflection.PortableExecutable.Machine.I386
-  - System.Reflection.PortableExecutable.Machine.WceMipsV2
   - System.Reflection.PortableExecutable.Machine.Alpha
+  - System.Reflection.PortableExecutable.Machine.Alpha64
+  - System.Reflection.PortableExecutable.Machine.AM33
+  - System.Reflection.PortableExecutable.Machine.Amd64
+  - System.Reflection.PortableExecutable.Machine.Arm
+  - System.Reflection.PortableExecutable.Machine.ArmThumb2
+  - System.Reflection.PortableExecutable.Machine.Ebc
+  - System.Reflection.PortableExecutable.Machine.I386
+  - System.Reflection.PortableExecutable.Machine.IA64
+  - System.Reflection.PortableExecutable.Machine.M32R
+  - System.Reflection.PortableExecutable.Machine.MIPS16
+  - System.Reflection.PortableExecutable.Machine.MipsFpu
+  - System.Reflection.PortableExecutable.Machine.MipsFpu16
+  - System.Reflection.PortableExecutable.Machine.PowerPC
+  - System.Reflection.PortableExecutable.Machine.PowerPCFP
   - System.Reflection.PortableExecutable.Machine.SH3
   - System.Reflection.PortableExecutable.Machine.SH3Dsp
   - System.Reflection.PortableExecutable.Machine.SH3E
   - System.Reflection.PortableExecutable.Machine.SH4
   - System.Reflection.PortableExecutable.Machine.SH5
-  - System.Reflection.PortableExecutable.Machine.Arm
   - System.Reflection.PortableExecutable.Machine.Thumb
-  - System.Reflection.PortableExecutable.Machine.ArmThumb2
-  - System.Reflection.PortableExecutable.Machine.AM33
-  - System.Reflection.PortableExecutable.Machine.PowerPC
-  - System.Reflection.PortableExecutable.Machine.PowerPCFP
-  - System.Reflection.PortableExecutable.Machine.IA64
-  - System.Reflection.PortableExecutable.Machine.MIPS16
-  - System.Reflection.PortableExecutable.Machine.Alpha64
-  - System.Reflection.PortableExecutable.Machine.MipsFpu
-  - System.Reflection.PortableExecutable.Machine.MipsFpu16
   - System.Reflection.PortableExecutable.Machine.Tricore
-  - System.Reflection.PortableExecutable.Machine.Ebc
-  - System.Reflection.PortableExecutable.Machine.Amd64
-  - System.Reflection.PortableExecutable.Machine.M32R
+  - System.Reflection.PortableExecutable.Machine.Unknown
+  - System.Reflection.PortableExecutable.Machine.WceMipsV2
   href: System.Reflection.PortableExecutable.Machine.yml
   name: Machine
   fullName: System.Reflection.PortableExecutable.Machine

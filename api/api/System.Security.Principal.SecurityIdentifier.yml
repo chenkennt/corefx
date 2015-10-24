@@ -3,28 +3,28 @@ items:
   id: SecurityIdentifier
   parent: System.Security.Principal
   children:
-  - System.Security.Principal.SecurityIdentifier.MinBinaryLength
-  - System.Security.Principal.SecurityIdentifier.MaxBinaryLength
-  - System.Security.Principal.SecurityIdentifier.#ctor(System.String)
   - System.Security.Principal.SecurityIdentifier.#ctor(System.Byte[],System.Int32)
   - System.Security.Principal.SecurityIdentifier.#ctor(System.IntPtr)
   - System.Security.Principal.SecurityIdentifier.#ctor(System.Security.Principal.WellKnownSidType,System.Security.Principal.SecurityIdentifier)
-  - System.Security.Principal.SecurityIdentifier.BinaryLength
+  - System.Security.Principal.SecurityIdentifier.#ctor(System.String)
   - System.Security.Principal.SecurityIdentifier.AccountDomainSid
+  - System.Security.Principal.SecurityIdentifier.BinaryLength
+  - System.Security.Principal.SecurityIdentifier.CompareTo(System.Security.Principal.SecurityIdentifier)
   - System.Security.Principal.SecurityIdentifier.Equals(System.Object)
   - System.Security.Principal.SecurityIdentifier.Equals(System.Security.Principal.SecurityIdentifier)
+  - System.Security.Principal.SecurityIdentifier.GetBinaryForm(System.Byte[],System.Int32)
   - System.Security.Principal.SecurityIdentifier.GetHashCode
-  - System.Security.Principal.SecurityIdentifier.ToString
-  - System.Security.Principal.SecurityIdentifier.Value
-  - System.Security.Principal.SecurityIdentifier.IsValidTargetType(System.Type)
   - System.Security.Principal.SecurityIdentifier.IsAccountSid
-  - System.Security.Principal.SecurityIdentifier.Translate(System.Type)
+  - System.Security.Principal.SecurityIdentifier.IsEqualDomainSid(System.Security.Principal.SecurityIdentifier)
+  - System.Security.Principal.SecurityIdentifier.IsValidTargetType(System.Type)
+  - System.Security.Principal.SecurityIdentifier.IsWellKnown(System.Security.Principal.WellKnownSidType)
+  - System.Security.Principal.SecurityIdentifier.MaxBinaryLength
+  - System.Security.Principal.SecurityIdentifier.MinBinaryLength
   - System.Security.Principal.SecurityIdentifier.op_Equality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
   - System.Security.Principal.SecurityIdentifier.op_Inequality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
-  - System.Security.Principal.SecurityIdentifier.CompareTo(System.Security.Principal.SecurityIdentifier)
-  - System.Security.Principal.SecurityIdentifier.IsWellKnown(System.Security.Principal.WellKnownSidType)
-  - System.Security.Principal.SecurityIdentifier.GetBinaryForm(System.Byte[],System.Int32)
-  - System.Security.Principal.SecurityIdentifier.IsEqualDomainSid(System.Security.Principal.SecurityIdentifier)
+  - System.Security.Principal.SecurityIdentifier.ToString
+  - System.Security.Principal.SecurityIdentifier.Translate(System.Type)
+  - System.Security.Principal.SecurityIdentifier.Value
   href: System.Security.Principal.SecurityIdentifier.yml
   name: SecurityIdentifier
   fullName: System.Security.Principal.SecurityIdentifier
@@ -193,7 +193,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.AccountDomainSid
   id: AccountDomainSid
   parent: System.Security.Principal.SecurityIdentifier
@@ -214,7 +213,6 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.SecurityIdentifier
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Security.Principal.SecurityIdentifier
@@ -237,7 +235,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.Principal.IdentityReference.Equals(System.Object)
 - uid: System.Security.Principal.SecurityIdentifier.Equals(System.Security.Principal.SecurityIdentifier)
   id: Equals(System.Security.Principal.SecurityIdentifier)
@@ -261,7 +258,6 @@ items:
       type: System.Security.Principal.SecurityIdentifier
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.GetHashCode
   id: GetHashCode
   parent: System.Security.Principal.SecurityIdentifier
@@ -281,7 +277,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Security.Principal.IdentityReference.GetHashCode
 - uid: System.Security.Principal.SecurityIdentifier.ToString
   id: ToString
@@ -302,7 +297,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Security.Principal.IdentityReference.ToString
 - uid: System.Security.Principal.SecurityIdentifier.Value
   id: Value
@@ -324,7 +318,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Security.Principal.IdentityReference.Value
 - uid: System.Security.Principal.SecurityIdentifier.IsValidTargetType(System.Type)
   id: IsValidTargetType(System.Type)
@@ -348,7 +341,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.Principal.IdentityReference.IsValidTargetType(System.Type)
 - uid: System.Security.Principal.SecurityIdentifier.IsAccountSid
   id: IsAccountSid
@@ -369,7 +361,6 @@ items:
     content.vb: Public Function IsAccountSid As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.Translate(System.Type)
   id: Translate(System.Type)
   parent: System.Security.Principal.SecurityIdentifier
@@ -392,7 +383,6 @@ items:
       type: System.Type
     return:
       type: System.Security.Principal.IdentityReference
-      description: 
   overridden: System.Security.Principal.IdentityReference.Translate(System.Type)
 - uid: System.Security.Principal.SecurityIdentifier.op_Equality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
   id: op_Equality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
@@ -418,7 +408,6 @@ items:
       type: System.Security.Principal.SecurityIdentifier
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.op_Inequality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
   id: op_Inequality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.SecurityIdentifier
@@ -443,7 +432,6 @@ items:
       type: System.Security.Principal.SecurityIdentifier
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.CompareTo(System.Security.Principal.SecurityIdentifier)
   id: CompareTo(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.SecurityIdentifier
@@ -466,7 +454,6 @@ items:
       type: System.Security.Principal.SecurityIdentifier
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.IsWellKnown(System.Security.Principal.WellKnownSidType)
   id: IsWellKnown(System.Security.Principal.WellKnownSidType)
   parent: System.Security.Principal.SecurityIdentifier
@@ -489,7 +476,6 @@ items:
       type: System.Security.Principal.WellKnownSidType
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.SecurityIdentifier.GetBinaryForm(System.Byte[],System.Int32)
   id: GetBinaryForm(System.Byte[],System.Int32)
   parent: System.Security.Principal.SecurityIdentifier
@@ -536,16 +522,15 @@ items:
       type: System.Security.Principal.SecurityIdentifier
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Security.Principal.IdentityReference
@@ -558,6 +543,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -565,18 +551,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -584,23 +573,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -608,18 +601,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -627,23 +623,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -651,6 +651,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -660,6 +661,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -667,6 +669,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -674,6 +677,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -683,6 +687,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -694,10 +699,12 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -707,6 +714,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -714,16 +722,19 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.IntPtr
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   name: IntPtr
   fullName: System.IntPtr
 - uid: System.Security.Principal.WellKnownSidType
@@ -757,6 +768,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -770,11 +782,13 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Security.Principal.IdentityReference.GetHashCode
@@ -848,6 +862,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -861,11 +876,13 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: System.Security.Principal.IdentityReference.Translate(System.Type)
@@ -885,6 +902,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -898,5 +916,6 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )

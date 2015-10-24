@@ -4,12 +4,12 @@ items:
   parent: System.Collections.ObjectModel
   children:
   - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.#ctor(System.Collections.ObjectModel.ObservableCollection{`0})
-  - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.System#Collections#Specialized#INotifyCollectionChanged#CollectionChanged
   - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.CollectionChanged
   - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)
-  - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.System#ComponentModel#INotifyPropertyChanged#PropertyChanged
-  - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.PropertyChanged
   - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.PropertyChanged
+  - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.System#Collections#Specialized#INotifyCollectionChanged#CollectionChanged
+  - System.Collections.ObjectModel.ReadOnlyObservableCollection`1.System#ComponentModel#INotifyPropertyChanged#PropertyChanged
   href: System.Collections.ObjectModel.ReadOnlyObservableCollection`1.yml
   name: ReadOnlyObservableCollection<T>
   name.vb: ReadOnlyObservableCollection(Of T)
@@ -245,11 +245,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   parent: System.Collections.ObjectModel
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ReadOnlyCollection<T>
   name.vb: ReadOnlyCollection(Of T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
@@ -259,6 +261,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -270,6 +273,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -279,6 +283,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.Contains({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.Contains({T})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Contains(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Contains(T)
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Contains(T)
@@ -287,6 +292,7 @@ references:
     name: Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -298,6 +304,7 @@ references:
     name: Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -307,6 +314,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.CopyTo({T}[],System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.CopyTo({T}[],System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: CopyTo(T[], Int32)
   name.vb: CopyTo(T(), Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.CopyTo(T[], System.Int32)
@@ -316,6 +324,7 @@ references:
     name: CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -328,6 +337,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -335,6 +345,7 @@ references:
     name: CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -347,11 +358,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.GetEnumerator
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: GetEnumerator()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.GetEnumerator()
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).GetEnumerator()
@@ -360,6 +373,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -369,6 +383,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -376,6 +391,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.IndexOf({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.IndexOf({T})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IndexOf(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.IndexOf(T)
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).IndexOf(T)
@@ -384,6 +400,7 @@ references:
     name: IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -395,6 +412,7 @@ references:
     name: IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -404,6 +422,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#IList{T}#get_Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#get_Item(System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList<T>.get_Item(Int32)
   name.vb: System.Collections.Generic.IList<T>.get_Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.get_Item(System.Int32)
@@ -419,6 +438,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -432,11 +452,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#IList{T}#set_Item(System.Int32,{T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#set_Item(System.Int32,{T})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList<T>.set_Item(Int32, T)
   name.vb: System.Collections.Generic.IList<T>.set_Item(Int32, T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.set_Item(System.Int32, T)
@@ -452,6 +474,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -469,6 +492,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -478,6 +502,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#ICollection{T}#Add({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Add({T})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.Add(T)
   name.vb: System.Collections.Generic.ICollection<T>.Add(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Add(T)
@@ -487,6 +512,7 @@ references:
     name: ICollection<T>.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -498,6 +524,7 @@ references:
     name: System.Collections.Generic.ICollection<T>.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.ICollection<T>.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -507,6 +534,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#ICollection{T}#Clear
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Clear
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.Clear()
   name.vb: System.Collections.Generic.ICollection<T>.Clear()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Clear()
@@ -516,6 +544,7 @@ references:
     name: ICollection<T>.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -525,6 +554,7 @@ references:
     name: System.Collections.Generic.ICollection<T>.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.ICollection<T>.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -532,6 +562,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#IList{T}#Insert(System.Int32,{T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Insert(System.Int32,{T})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList<T>.Insert(Int32, T)
   name.vb: System.Collections.Generic.IList<T>.Insert(Int32, T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Insert(System.Int32, T)
@@ -541,12 +572,14 @@ references:
     name: IList<T>.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -558,12 +591,14 @@ references:
     name: System.Collections.Generic.IList<T>.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.IList<T>.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -573,6 +608,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#ICollection{T}#Remove({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Remove({T})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.Remove(T)
   name.vb: System.Collections.Generic.ICollection<T>.Remove(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Remove(T)
@@ -582,6 +618,7 @@ references:
     name: ICollection<T>.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -593,6 +630,7 @@ references:
     name: System.Collections.Generic.ICollection<T>.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.ICollection<T>.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -602,6 +640,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList<T>.RemoveAt(Int32)
   name.vb: System.Collections.Generic.IList<T>.RemoveAt(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
@@ -611,12 +650,14 @@ references:
     name: IList<T>.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -624,17 +665,20 @@ references:
     name: System.Collections.Generic.IList<T>.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.IList<T>.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IEnumerable#GetEnumerator
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IEnumerable.GetEnumerator()
   name.vb: System.Collections.IEnumerable.GetEnumerator()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IEnumerable.GetEnumerator()
@@ -644,6 +688,7 @@ references:
     name: IEnumerable.GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -653,6 +698,7 @@ references:
     name: System.Collections.IEnumerable.GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -660,6 +706,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection.CopyTo(Array, Int32)
   name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
@@ -669,18 +716,21 @@ references:
     name: ICollection.CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -688,23 +738,27 @@ references:
     name: System.Collections.ICollection.CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#get_Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#get_Item(System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList.get_Item(Int32)
   name.vb: System.Collections.IList.get_Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.get_Item(System.Int32)
@@ -720,6 +774,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -733,11 +788,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#set_Item(System.Int32,System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#set_Item(System.Int32,System.Object)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList.set_Item(Int32, Object)
   name.vb: System.Collections.IList.set_Item(Int32, Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.set_Item(System.Int32, System.Object)
@@ -753,12 +810,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -772,17 +831,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#Add(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Add(System.Object)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Add(Object)
   name.vb: System.Collections.IList.Add(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Add(System.Object)
@@ -792,12 +854,14 @@ references:
     name: IList.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -805,17 +869,20 @@ references:
     name: System.Collections.IList.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#Clear
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Clear
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Clear()
   name.vb: System.Collections.IList.Clear()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Clear()
@@ -825,6 +892,7 @@ references:
     name: IList.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -834,6 +902,7 @@ references:
     name: System.Collections.IList.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -841,6 +910,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#Contains(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Contains(System.Object)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Contains(Object)
   name.vb: System.Collections.IList.Contains(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Contains(System.Object)
@@ -850,12 +920,14 @@ references:
     name: IList.Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -863,17 +935,20 @@ references:
     name: System.Collections.IList.Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#IndexOf(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IndexOf(System.Object)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.IndexOf(Object)
   name.vb: System.Collections.IList.IndexOf(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IndexOf(System.Object)
@@ -883,12 +958,14 @@ references:
     name: IList.IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -896,17 +973,20 @@ references:
     name: System.Collections.IList.IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Insert(System.Int32,System.Object)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Insert(Int32, Object)
   name.vb: System.Collections.IList.Insert(Int32, Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Insert(System.Int32, System.Object)
@@ -916,18 +996,21 @@ references:
     name: IList.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -935,23 +1018,27 @@ references:
     name: System.Collections.IList.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#Remove(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Remove(System.Object)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Remove(Object)
   name.vb: System.Collections.IList.Remove(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Remove(System.Object)
@@ -961,12 +1048,14 @@ references:
     name: IList.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -974,17 +1063,20 @@ references:
     name: System.Collections.IList.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#RemoveAt(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#RemoveAt(System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.RemoveAt(Int32)
   name.vb: System.Collections.IList.RemoveAt(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.RemoveAt(System.Int32)
@@ -994,12 +1086,14 @@ references:
     name: IList.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1007,23 +1101,27 @@ references:
     name: System.Collections.IList.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.Count
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.Count
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Count
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Count
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Count
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.Item(System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Item[Int32]
   name.vb: Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Item[System.Int32]
@@ -1033,12 +1131,14 @@ references:
     name: Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '['
     fullName: '['
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -1046,23 +1146,27 @@ references:
     name: Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.Items
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.Items
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Items
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Items
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Items
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#ICollection{T}#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.IsReadOnly
   name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
@@ -1070,6 +1174,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#Generic#IList{T}#Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Item(System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList<T>.Item[Int32]
   name.vb: System.Collections.Generic.IList<T>.Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Item[System.Int32]
@@ -1079,12 +1184,14 @@ references:
     name: IList<T>.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '['
     fullName: '['
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -1092,17 +1199,20 @@ references:
     name: System.Collections.Generic.IList<T>.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.IList<T>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#ICollection#IsSynchronized
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#IsSynchronized
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection.IsSynchronized
   name.vb: System.Collections.ICollection.IsSynchronized
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.IsSynchronized
@@ -1110,6 +1220,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#ICollection#SyncRoot
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#SyncRoot
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection.SyncRoot
   name.vb: System.Collections.ICollection.SyncRoot
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.SyncRoot
@@ -1117,6 +1228,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#IsFixedSize
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IsFixedSize
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.IsFixedSize
   name.vb: System.Collections.IList.IsFixedSize
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IsFixedSize
@@ -1124,6 +1236,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IsReadOnly
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.IsReadOnly
   name.vb: System.Collections.IList.IsReadOnly
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IsReadOnly
@@ -1131,6 +1244,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}.System#Collections#IList#Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Item(System.Int32)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Item[Int32]
   name.vb: System.Collections.IList.Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Item[System.Int32]
@@ -1140,12 +1254,14 @@ references:
     name: IList.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '['
     fullName: '['
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -1153,17 +1269,20 @@ references:
     name: System.Collections.IList.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1171,6 +1290,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1180,6 +1300,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1187,6 +1308,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1194,12 +1316,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1207,17 +1331,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1225,18 +1352,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1244,23 +1374,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1268,18 +1402,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1287,23 +1424,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1311,6 +1452,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1320,6 +1462,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1327,6 +1470,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1334,6 +1478,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1343,6 +1488,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1350,6 +1496,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1357,6 +1504,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1366,6 +1514,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1377,6 +1526,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
   parent: System.Collections.ObjectModel
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ReadOnlyCollection<T>
   name.vb: ReadOnlyCollection(Of T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
@@ -1386,6 +1536,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1397,6 +1548,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1406,6 +1558,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.Contains({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Contains(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Contains(T)
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Contains(T)
@@ -1414,6 +1567,7 @@ references:
     name: Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1425,6 +1579,7 @@ references:
     name: Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1434,6 +1589,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.CopyTo({T}[],System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: CopyTo(T[], Int32)
   name.vb: CopyTo(T(), Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.CopyTo(T[], System.Int32)
@@ -1443,6 +1599,7 @@ references:
     name: CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1455,6 +1612,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1462,6 +1620,7 @@ references:
     name: CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1474,11 +1633,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: GetEnumerator()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.GetEnumerator()
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).GetEnumerator()
@@ -1487,6 +1648,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1496,6 +1658,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1503,6 +1666,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.IndexOf({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IndexOf(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.IndexOf(T)
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).IndexOf(T)
@@ -1511,6 +1675,7 @@ references:
     name: IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1522,6 +1687,7 @@ references:
     name: IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1531,6 +1697,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#get_Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList<T>.get_Item(Int32)
   name.vb: System.Collections.Generic.IList<T>.get_Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.get_Item(System.Int32)
@@ -1546,6 +1713,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1559,11 +1727,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#set_Item(System.Int32,{T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList<T>.set_Item(Int32, T)
   name.vb: System.Collections.Generic.IList<T>.set_Item(Int32, T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.set_Item(System.Int32, T)
@@ -1579,6 +1749,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1596,6 +1767,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1605,6 +1777,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Add({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.Add(T)
   name.vb: System.Collections.Generic.ICollection<T>.Add(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Add(T)
@@ -1614,6 +1787,7 @@ references:
     name: ICollection<T>.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1625,6 +1799,7 @@ references:
     name: System.Collections.Generic.ICollection<T>.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.ICollection<T>.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1634,6 +1809,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Clear
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.Clear()
   name.vb: System.Collections.Generic.ICollection<T>.Clear()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Clear()
@@ -1643,6 +1819,7 @@ references:
     name: ICollection<T>.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1652,6 +1829,7 @@ references:
     name: System.Collections.Generic.ICollection<T>.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.ICollection<T>.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1659,6 +1837,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Insert(System.Int32,{T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList<T>.Insert(Int32, T)
   name.vb: System.Collections.Generic.IList<T>.Insert(Int32, T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Insert(System.Int32, T)
@@ -1668,12 +1847,14 @@ references:
     name: IList<T>.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1685,12 +1866,14 @@ references:
     name: System.Collections.Generic.IList<T>.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.IList<T>.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1700,6 +1883,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Remove({T})
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.Remove(T)
   name.vb: System.Collections.Generic.ICollection<T>.Remove(T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Remove(T)
@@ -1709,6 +1893,7 @@ references:
     name: ICollection<T>.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1720,6 +1905,7 @@ references:
     name: System.Collections.Generic.ICollection<T>.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.ICollection<T>.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: T
@@ -1729,6 +1915,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList<T>.RemoveAt(Int32)
   name.vb: System.Collections.Generic.IList<T>.RemoveAt(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
@@ -1738,12 +1925,14 @@ references:
     name: IList<T>.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1751,17 +1940,20 @@ references:
     name: System.Collections.Generic.IList<T>.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.IList<T>.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IEnumerable.GetEnumerator()
   name.vb: System.Collections.IEnumerable.GetEnumerator()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IEnumerable.GetEnumerator()
@@ -1771,6 +1963,7 @@ references:
     name: IEnumerable.GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1780,6 +1973,7 @@ references:
     name: System.Collections.IEnumerable.GetEnumerator
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1787,6 +1981,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection.CopyTo(Array, Int32)
   name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
@@ -1796,18 +1991,21 @@ references:
     name: ICollection.CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1815,23 +2013,27 @@ references:
     name: System.Collections.ICollection.CopyTo
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#get_Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList.get_Item(Int32)
   name.vb: System.Collections.IList.get_Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.get_Item(System.Int32)
@@ -1847,6 +2049,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1860,11 +2063,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#set_Item(System.Int32,System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: IList.set_Item(Int32, Object)
   name.vb: System.Collections.IList.set_Item(Int32, Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.set_Item(System.Int32, System.Object)
@@ -1880,12 +2085,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1899,17 +2106,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Add(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Add(Object)
   name.vb: System.Collections.IList.Add(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Add(System.Object)
@@ -1919,12 +2129,14 @@ references:
     name: IList.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1932,17 +2144,20 @@ references:
     name: System.Collections.IList.Add
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Clear
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Clear()
   name.vb: System.Collections.IList.Clear()
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Clear()
@@ -1952,6 +2167,7 @@ references:
     name: IList.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1961,6 +2177,7 @@ references:
     name: System.Collections.IList.Clear
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - name: )
@@ -1968,6 +2185,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Contains(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Contains(Object)
   name.vb: System.Collections.IList.Contains(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Contains(System.Object)
@@ -1977,12 +2195,14 @@ references:
     name: IList.Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1990,17 +2210,20 @@ references:
     name: System.Collections.IList.Contains
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IndexOf(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.IndexOf(Object)
   name.vb: System.Collections.IList.IndexOf(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IndexOf(System.Object)
@@ -2010,12 +2233,14 @@ references:
     name: IList.IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2023,17 +2248,20 @@ references:
     name: System.Collections.IList.IndexOf
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.IndexOf
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Insert(Int32, Object)
   name.vb: System.Collections.IList.Insert(Int32, Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Insert(System.Int32, System.Object)
@@ -2043,18 +2271,21 @@ references:
     name: IList.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2062,23 +2293,27 @@ references:
     name: System.Collections.IList.Insert
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Insert
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Remove(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Remove(Object)
   name.vb: System.Collections.IList.Remove(Object)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Remove(System.Object)
@@ -2088,12 +2323,14 @@ references:
     name: IList.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2101,17 +2338,20 @@ references:
     name: System.Collections.IList.Remove
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#RemoveAt(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.RemoveAt(Int32)
   name.vb: System.Collections.IList.RemoveAt(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.RemoveAt(System.Int32)
@@ -2121,12 +2361,14 @@ references:
     name: IList.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2134,23 +2376,27 @@ references:
     name: System.Collections.IList.RemoveAt
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.RemoveAt
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.Count
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Count
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Count
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Count
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Item[Int32]
   name.vb: Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Item[System.Int32]
@@ -2160,12 +2406,14 @@ references:
     name: Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '['
     fullName: '['
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -2173,23 +2421,27 @@ references:
     name: Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.Items
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: Items
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.Items
   fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T).Items
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection<T>.IsReadOnly
   name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
@@ -2197,6 +2449,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList<T>.Item[Int32]
   name.vb: System.Collections.Generic.IList<T>.Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Item[System.Int32]
@@ -2206,12 +2459,14 @@ references:
     name: IList<T>.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.Generic.IList<T>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '['
     fullName: '['
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -2219,17 +2474,20 @@ references:
     name: System.Collections.Generic.IList<T>.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.Generic.IList<T>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#IsSynchronized
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection.IsSynchronized
   name.vb: System.Collections.ICollection.IsSynchronized
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.IsSynchronized
@@ -2237,6 +2495,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#SyncRoot
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ICollection.SyncRoot
   name.vb: System.Collections.ICollection.SyncRoot
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.ICollection.SyncRoot
@@ -2244,6 +2503,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IsFixedSize
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.IsFixedSize
   name.vb: System.Collections.IList.IsFixedSize
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IsFixedSize
@@ -2251,6 +2511,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.IsReadOnly
   name.vb: System.Collections.IList.IsReadOnly
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.IsReadOnly
@@ -2258,6 +2519,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: IList.Item[Int32]
   name.vb: System.Collections.IList.Item(Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Item[System.Int32]
@@ -2267,12 +2529,14 @@ references:
     name: IList.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>.System.Collections.IList.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '['
     fullName: '['
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -2280,12 +2544,14 @@ references:
     name: System.Collections.IList.Item
     fullName: System.Collections.ObjectModel.ReadOnlyCollection(Of T).System.Collections.IList.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ObjectModel.ObservableCollection{{T}}

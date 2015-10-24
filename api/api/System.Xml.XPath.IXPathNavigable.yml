@@ -41,7 +41,6 @@ items:
     content.vb: Function CreateNavigator As XPathNavigator
     return:
       type: System.Xml.XPath.XPathNavigator
-      description: 
 references:
 - uid: System.Xml.XPath
   isExternal: false
@@ -54,4 +53,3 @@ references:
   href: System.Xml.XPath.XPathNavigator.yml
   name: XPathNavigator
   fullName: System.Xml.XPath.XPathNavigator
-  type: Class

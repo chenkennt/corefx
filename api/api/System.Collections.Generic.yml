@@ -4,6 +4,7 @@ items:
   children:
   - System.Collections.Generic.HashSet`1
   - System.Collections.Generic.HashSet`1.Enumerator
+  - System.Collections.Generic.ISet`1
   - System.Collections.Generic.LinkedList`1
   - System.Collections.Generic.LinkedList`1.Enumerator
   - System.Collections.Generic.LinkedListNode`1
@@ -20,22 +21,57 @@ items:
   - System.Collections.Generic.SortedSet`1.Enumerator
   - System.Collections.Generic.Stack`1
   - System.Collections.Generic.Stack`1.Enumerator
-  - System.Collections.Generic.ISet`1
   href: System.Collections.Generic.yml
   name: System.Collections.Generic
   fullName: System.Collections.Generic
   type: Namespace
   source:
     remote:
-      path: src/Common/src/System/Collections/Generic/EnumerableHelpers.cs
+      path: src/System.Runtime/src/System/Collections/Generic/ISet.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/Common/src/System/Collections/Generic/EnumerableHelpers.cs
-    startLine: 3
+    path: src/System.Runtime/src/System/Collections/Generic/ISet.cs
+    startLine: 5
   assemblies:
-  - System.Collections
+  - System.Runtime
 references:
+- uid: System.Collections.Generic.ISet`1
+  isExternal: false
+  href: System.Collections.Generic.ISet`1.yml
+  name: ISet<T>
+  name.vb: ISet(Of T)
+  fullName: System.Collections.Generic.ISet<T>
+  fullName.vb: System.Collections.Generic.ISet(Of T)
+  type: Interface
+  summary: >-
+    Generic collection that guarantees the uniqueness of its elements, as defined
+
+    by some comparer. It also supports basic set operations such as Union, Intersection,
+
+    Complement and Exclusive Complement.
+  spec.csharp:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    fullName: System.Collections.Generic.ISet
+    href: System.Collections.Generic.ISet`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    fullName: System.Collections.Generic.ISet
+    href: System.Collections.Generic.ISet`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
 - uid: System.Collections.Generic.HashSet`1
   isExternal: false
   href: System.Collections.Generic.HashSet`1.yml
@@ -562,42 +598,6 @@ references:
     href: System.Collections.Generic.Stack`1.Enumerator.yml
   - name: '(Of '
     fullName: '(Of '
-  - name: )
-    fullName: )
-- uid: System.Collections.Generic.ISet`1
-  isExternal: false
-  href: System.Collections.Generic.ISet`1.yml
-  name: ISet<T>
-  name.vb: ISet(Of T)
-  fullName: System.Collections.Generic.ISet<T>
-  fullName.vb: System.Collections.Generic.ISet(Of T)
-  type: Interface
-  summary: >-
-    Generic collection that guarantees the uniqueness of its elements, as defined
-
-    by some comparer. It also supports basic set operations such as Union, Intersection,
-
-    Complement and Exclusive Complement.
-  spec.csharp:
-  - uid: System.Collections.Generic.ISet`1
-    name: ISet
-    fullName: System.Collections.Generic.ISet
-    href: System.Collections.Generic.ISet`1.yml
-  - name: <
-    fullName: <
-  - name: T
-    fullName: T
-  - name: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.ISet`1
-    name: ISet
-    fullName: System.Collections.Generic.ISet
-    href: System.Collections.Generic.ISet`1.yml
-  - name: '(Of '
-    fullName: '(Of '
-  - name: T
-    fullName: T
   - name: )
     fullName: )
 - uid: System.Collections.Generic

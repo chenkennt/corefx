@@ -4,45 +4,45 @@ items:
   parent: System.Linq.Expressions
   children:
   - System.Linq.Expressions.ExpressionVisitor.#ctor
-  - System.Linq.Expressions.ExpressionVisitor.Visit(System.Linq.Expressions.Expression)
   - System.Linq.Expressions.ExpressionVisitor.Visit(System.Collections.ObjectModel.ReadOnlyCollection{System.Linq.Expressions.Expression})
+  - System.Linq.Expressions.ExpressionVisitor.Visit(System.Linq.Expressions.Expression)
   - System.Linq.Expressions.ExpressionVisitor.Visit``1(System.Collections.ObjectModel.ReadOnlyCollection{``0},System.Func{``0,``0})
   - System.Linq.Expressions.ExpressionVisitor.VisitAndConvert``1(``0,System.String)
   - System.Linq.Expressions.ExpressionVisitor.VisitAndConvert``1(System.Collections.ObjectModel.ReadOnlyCollection{``0},System.String)
   - System.Linq.Expressions.ExpressionVisitor.VisitBinary(System.Linq.Expressions.BinaryExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitBlock(System.Linq.Expressions.BlockExpression)
+  - System.Linq.Expressions.ExpressionVisitor.VisitCatchBlock(System.Linq.Expressions.CatchBlock)
   - System.Linq.Expressions.ExpressionVisitor.VisitConditional(System.Linq.Expressions.ConditionalExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitConstant(System.Linq.Expressions.ConstantExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitDebugInfo(System.Linq.Expressions.DebugInfoExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitDefault(System.Linq.Expressions.DefaultExpression)
+  - System.Linq.Expressions.ExpressionVisitor.VisitElementInit(System.Linq.Expressions.ElementInit)
   - System.Linq.Expressions.ExpressionVisitor.VisitExtension(System.Linq.Expressions.Expression)
   - System.Linq.Expressions.ExpressionVisitor.VisitGoto(System.Linq.Expressions.GotoExpression)
+  - System.Linq.Expressions.ExpressionVisitor.VisitIndex(System.Linq.Expressions.IndexExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitInvocation(System.Linq.Expressions.InvocationExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitLabelTarget(System.Linq.Expressions.LabelTarget)
   - System.Linq.Expressions.ExpressionVisitor.VisitLabel(System.Linq.Expressions.LabelExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitLambda``1(System.Linq.Expressions.Expression{``0})
+  - System.Linq.Expressions.ExpressionVisitor.VisitLabelTarget(System.Linq.Expressions.LabelTarget)
   - System.Linq.Expressions.ExpressionVisitor.VisitLambda(System.Linq.Expressions.LambdaExpression)
+  - System.Linq.Expressions.ExpressionVisitor.VisitLambda``1(System.Linq.Expressions.Expression{``0})
+  - System.Linq.Expressions.ExpressionVisitor.VisitListInit(System.Linq.Expressions.ListInitExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitLoop(System.Linq.Expressions.LoopExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitMember(System.Linq.Expressions.MemberExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitIndex(System.Linq.Expressions.IndexExpression)
+  - System.Linq.Expressions.ExpressionVisitor.VisitMemberAssignment(System.Linq.Expressions.MemberAssignment)
+  - System.Linq.Expressions.ExpressionVisitor.VisitMemberBinding(System.Linq.Expressions.MemberBinding)
+  - System.Linq.Expressions.ExpressionVisitor.VisitMemberInit(System.Linq.Expressions.MemberInitExpression)
+  - System.Linq.Expressions.ExpressionVisitor.VisitMemberListBinding(System.Linq.Expressions.MemberListBinding)
+  - System.Linq.Expressions.ExpressionVisitor.VisitMemberMemberBinding(System.Linq.Expressions.MemberMemberBinding)
   - System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitNewArray(System.Linq.Expressions.NewArrayExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitNew(System.Linq.Expressions.NewExpression)
+  - System.Linq.Expressions.ExpressionVisitor.VisitNewArray(System.Linq.Expressions.NewArrayExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitParameter(System.Linq.Expressions.ParameterExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitRuntimeVariables(System.Linq.Expressions.RuntimeVariablesExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitSwitchCase(System.Linq.Expressions.SwitchCase)
   - System.Linq.Expressions.ExpressionVisitor.VisitSwitch(System.Linq.Expressions.SwitchExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitCatchBlock(System.Linq.Expressions.CatchBlock)
+  - System.Linq.Expressions.ExpressionVisitor.VisitSwitchCase(System.Linq.Expressions.SwitchCase)
   - System.Linq.Expressions.ExpressionVisitor.VisitTry(System.Linq.Expressions.TryExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitTypeBinary(System.Linq.Expressions.TypeBinaryExpression)
   - System.Linq.Expressions.ExpressionVisitor.VisitUnary(System.Linq.Expressions.UnaryExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitMemberInit(System.Linq.Expressions.MemberInitExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitListInit(System.Linq.Expressions.ListInitExpression)
-  - System.Linq.Expressions.ExpressionVisitor.VisitElementInit(System.Linq.Expressions.ElementInit)
-  - System.Linq.Expressions.ExpressionVisitor.VisitMemberBinding(System.Linq.Expressions.MemberBinding)
-  - System.Linq.Expressions.ExpressionVisitor.VisitMemberAssignment(System.Linq.Expressions.MemberAssignment)
-  - System.Linq.Expressions.ExpressionVisitor.VisitMemberMemberBinding(System.Linq.Expressions.MemberMemberBinding)
-  - System.Linq.Expressions.ExpressionVisitor.VisitMemberListBinding(System.Linq.Expressions.MemberListBinding)
   href: System.Linq.Expressions.ExpressionVisitor.yml
   name: ExpressionVisitor
   fullName: System.Linq.Expressions.ExpressionVisitor
@@ -1245,11 +1245,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1257,6 +1259,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1266,6 +1269,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1273,6 +1277,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1280,12 +1285,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1293,17 +1300,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1311,18 +1321,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1330,23 +1343,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1354,18 +1371,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1373,23 +1393,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1397,6 +1421,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1406,6 +1431,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1413,6 +1439,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1420,6 +1447,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1429,6 +1457,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1436,6 +1465,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1443,6 +1473,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1452,6 +1483,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1479,7 +1511,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{System.Linq.Expressions.Expression}
   parent: System.Collections.ObjectModel
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1
-  href: System.Linq.Expressions.Expression.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ReadOnlyCollection<Expression>
   name.vb: ReadOnlyCollection(Of Expression)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<System.Linq.Expressions.Expression>
@@ -1489,6 +1521,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -1502,6 +1535,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -1513,6 +1547,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
   parent: System.Collections.ObjectModel
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ReadOnlyCollection<T>
   name.vb: ReadOnlyCollection(Of T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
@@ -1522,6 +1557,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1533,6 +1569,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1546,6 +1583,7 @@ references:
 - uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
   parent: System.Collections.ObjectModel
   definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   name: ReadOnlyCollection<T>
   name.vb: ReadOnlyCollection(Of T)
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
@@ -1555,6 +1593,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1566,6 +1605,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1575,6 +1615,7 @@ references:
 - uid: System.Func{{T},{T}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<T, T>
   name.vb: Func(Of T, T)
   fullName: System.Func<T, T>
@@ -1584,6 +1625,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: T
@@ -1599,6 +1641,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1612,6 +1655,7 @@ references:
 - uid: System.Func`2
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<T, TResult>
   name.vb: Func(Of T, TResult)
   fullName: System.Func<T, TResult>
@@ -1621,6 +1665,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: T
@@ -1636,6 +1681,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1654,6 +1700,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Linq.Expressions.BinaryExpression

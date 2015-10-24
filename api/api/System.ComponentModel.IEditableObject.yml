@@ -4,8 +4,8 @@ items:
   parent: System.ComponentModel
   children:
   - System.ComponentModel.IEditableObject.BeginEdit
-  - System.ComponentModel.IEditableObject.EndEdit
   - System.ComponentModel.IEditableObject.CancelEdit
+  - System.ComponentModel.IEditableObject.EndEdit
   href: System.ComponentModel.IEditableObject.yml
   name: IEditableObject
   fullName: System.ComponentModel.IEditableObject

@@ -3,29 +3,29 @@ items:
   id: DynamicMetaObject
   parent: System.Dynamic
   children:
-  - System.Dynamic.DynamicMetaObject.EmptyMetaObjects
   - System.Dynamic.DynamicMetaObject.#ctor(Expression,System.Dynamic.BindingRestrictions)
   - System.Dynamic.DynamicMetaObject.#ctor(Expression,System.Dynamic.BindingRestrictions,System.Object)
-  - System.Dynamic.DynamicMetaObject.Expression
-  - System.Dynamic.DynamicMetaObject.Restrictions
-  - System.Dynamic.DynamicMetaObject.Value
-  - System.Dynamic.DynamicMetaObject.HasValue
-  - System.Dynamic.DynamicMetaObject.RuntimeType
-  - System.Dynamic.DynamicMetaObject.LimitType
+  - System.Dynamic.DynamicMetaObject.BindBinaryOperation(System.Dynamic.BinaryOperationBinder,System.Dynamic.DynamicMetaObject)
   - System.Dynamic.DynamicMetaObject.BindConvert(System.Dynamic.ConvertBinder)
-  - System.Dynamic.DynamicMetaObject.BindGetMember(System.Dynamic.GetMemberBinder)
-  - System.Dynamic.DynamicMetaObject.BindSetMember(System.Dynamic.SetMemberBinder,System.Dynamic.DynamicMetaObject)
+  - System.Dynamic.DynamicMetaObject.BindCreateInstance(System.Dynamic.CreateInstanceBinder,System.Dynamic.DynamicMetaObject[])
+  - System.Dynamic.DynamicMetaObject.BindDeleteIndex(System.Dynamic.DeleteIndexBinder,System.Dynamic.DynamicMetaObject[])
   - System.Dynamic.DynamicMetaObject.BindDeleteMember(System.Dynamic.DeleteMemberBinder)
   - System.Dynamic.DynamicMetaObject.BindGetIndex(System.Dynamic.GetIndexBinder,System.Dynamic.DynamicMetaObject[])
-  - System.Dynamic.DynamicMetaObject.BindSetIndex(System.Dynamic.SetIndexBinder,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject)
-  - System.Dynamic.DynamicMetaObject.BindDeleteIndex(System.Dynamic.DeleteIndexBinder,System.Dynamic.DynamicMetaObject[])
-  - System.Dynamic.DynamicMetaObject.BindInvokeMember(System.Dynamic.InvokeMemberBinder,System.Dynamic.DynamicMetaObject[])
+  - System.Dynamic.DynamicMetaObject.BindGetMember(System.Dynamic.GetMemberBinder)
   - System.Dynamic.DynamicMetaObject.BindInvoke(System.Dynamic.InvokeBinder,System.Dynamic.DynamicMetaObject[])
-  - System.Dynamic.DynamicMetaObject.BindCreateInstance(System.Dynamic.CreateInstanceBinder,System.Dynamic.DynamicMetaObject[])
+  - System.Dynamic.DynamicMetaObject.BindInvokeMember(System.Dynamic.InvokeMemberBinder,System.Dynamic.DynamicMetaObject[])
+  - System.Dynamic.DynamicMetaObject.BindSetIndex(System.Dynamic.SetIndexBinder,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject)
+  - System.Dynamic.DynamicMetaObject.BindSetMember(System.Dynamic.SetMemberBinder,System.Dynamic.DynamicMetaObject)
   - System.Dynamic.DynamicMetaObject.BindUnaryOperation(System.Dynamic.UnaryOperationBinder)
-  - System.Dynamic.DynamicMetaObject.BindBinaryOperation(System.Dynamic.BinaryOperationBinder,System.Dynamic.DynamicMetaObject)
-  - System.Dynamic.DynamicMetaObject.GetDynamicMemberNames
   - System.Dynamic.DynamicMetaObject.Create(System.Object,Expression)
+  - System.Dynamic.DynamicMetaObject.EmptyMetaObjects
+  - System.Dynamic.DynamicMetaObject.Expression
+  - System.Dynamic.DynamicMetaObject.GetDynamicMemberNames
+  - System.Dynamic.DynamicMetaObject.HasValue
+  - System.Dynamic.DynamicMetaObject.LimitType
+  - System.Dynamic.DynamicMetaObject.Restrictions
+  - System.Dynamic.DynamicMetaObject.RuntimeType
+  - System.Dynamic.DynamicMetaObject.Value
   href: System.Dynamic.DynamicMetaObject.yml
   name: DynamicMetaObject
   fullName: System.Dynamic.DynamicMetaObject
@@ -655,11 +655,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -667,6 +669,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -676,6 +679,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -683,6 +687,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -690,12 +695,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -703,17 +710,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -721,18 +731,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -740,23 +753,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -764,18 +781,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -783,23 +803,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -807,6 +831,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -816,6 +841,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -823,6 +849,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -830,6 +857,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -839,6 +867,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -846,6 +875,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -853,6 +883,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -862,6 +893,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -893,11 +925,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: System.Dynamic.ConvertBinder
@@ -1018,6 +1052,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.String}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<String>
   name.vb: IEnumerable(Of String)
   fullName: System.Collections.Generic.IEnumerable<System.String>
@@ -1027,12 +1062,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1040,17 +1077,20 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1060,6 +1100,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1071,6 +1112,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T

@@ -3,13 +3,13 @@ items:
   id: WriteState
   parent: System.Xml
   children:
-  - System.Xml.WriteState.Start
-  - System.Xml.WriteState.Prolog
-  - System.Xml.WriteState.Element
   - System.Xml.WriteState.Attribute
-  - System.Xml.WriteState.Content
   - System.Xml.WriteState.Closed
+  - System.Xml.WriteState.Content
+  - System.Xml.WriteState.Element
   - System.Xml.WriteState.Error
+  - System.Xml.WriteState.Prolog
+  - System.Xml.WriteState.Start
   href: System.Xml.WriteState.yml
   name: WriteState
   fullName: System.Xml.WriteState

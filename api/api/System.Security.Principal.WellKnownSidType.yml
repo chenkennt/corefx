@@ -3,68 +3,68 @@ items:
   id: WellKnownSidType
   parent: System.Security.Principal
   children:
-  - System.Security.Principal.WellKnownSidType.NullSid
-  - System.Security.Principal.WellKnownSidType.WorldSid
-  - System.Security.Principal.WellKnownSidType.LocalSid
-  - System.Security.Principal.WellKnownSidType.CreatorOwnerSid
-  - System.Security.Principal.WellKnownSidType.CreatorGroupSid
-  - System.Security.Principal.WellKnownSidType.CreatorOwnerServerSid
-  - System.Security.Principal.WellKnownSidType.CreatorGroupServerSid
-  - System.Security.Principal.WellKnownSidType.NTAuthoritySid
-  - System.Security.Principal.WellKnownSidType.DialupSid
-  - System.Security.Principal.WellKnownSidType.NetworkSid
-  - System.Security.Principal.WellKnownSidType.BatchSid
-  - System.Security.Principal.WellKnownSidType.InteractiveSid
-  - System.Security.Principal.WellKnownSidType.ServiceSid
-  - System.Security.Principal.WellKnownSidType.AnonymousSid
-  - System.Security.Principal.WellKnownSidType.ProxySid
-  - System.Security.Principal.WellKnownSidType.EnterpriseControllersSid
-  - System.Security.Principal.WellKnownSidType.SelfSid
-  - System.Security.Principal.WellKnownSidType.AuthenticatedUserSid
-  - System.Security.Principal.WellKnownSidType.RestrictedCodeSid
-  - System.Security.Principal.WellKnownSidType.TerminalServerSid
-  - System.Security.Principal.WellKnownSidType.RemoteLogonIdSid
-  - System.Security.Principal.WellKnownSidType.LogonIdsSid
-  - System.Security.Principal.WellKnownSidType.LocalSystemSid
-  - System.Security.Principal.WellKnownSidType.LocalServiceSid
-  - System.Security.Principal.WellKnownSidType.NetworkServiceSid
-  - System.Security.Principal.WellKnownSidType.BuiltinDomainSid
-  - System.Security.Principal.WellKnownSidType.BuiltinAdministratorsSid
-  - System.Security.Principal.WellKnownSidType.BuiltinUsersSid
-  - System.Security.Principal.WellKnownSidType.BuiltinGuestsSid
-  - System.Security.Principal.WellKnownSidType.BuiltinPowerUsersSid
-  - System.Security.Principal.WellKnownSidType.BuiltinAccountOperatorsSid
-  - System.Security.Principal.WellKnownSidType.BuiltinSystemOperatorsSid
-  - System.Security.Principal.WellKnownSidType.BuiltinPrintOperatorsSid
-  - System.Security.Principal.WellKnownSidType.BuiltinBackupOperatorsSid
-  - System.Security.Principal.WellKnownSidType.BuiltinReplicatorSid
-  - System.Security.Principal.WellKnownSidType.BuiltinPreWindows2000CompatibleAccessSid
-  - System.Security.Principal.WellKnownSidType.BuiltinRemoteDesktopUsersSid
-  - System.Security.Principal.WellKnownSidType.BuiltinNetworkConfigurationOperatorsSid
   - System.Security.Principal.WellKnownSidType.AccountAdministratorSid
-  - System.Security.Principal.WellKnownSidType.AccountGuestSid
-  - System.Security.Principal.WellKnownSidType.AccountKrbtgtSid
-  - System.Security.Principal.WellKnownSidType.AccountDomainAdminsSid
-  - System.Security.Principal.WellKnownSidType.AccountDomainUsersSid
-  - System.Security.Principal.WellKnownSidType.AccountDomainGuestsSid
+  - System.Security.Principal.WellKnownSidType.AccountCertAdminsSid
   - System.Security.Principal.WellKnownSidType.AccountComputersSid
   - System.Security.Principal.WellKnownSidType.AccountControllersSid
-  - System.Security.Principal.WellKnownSidType.AccountCertAdminsSid
-  - System.Security.Principal.WellKnownSidType.AccountSchemaAdminsSid
+  - System.Security.Principal.WellKnownSidType.AccountDomainAdminsSid
+  - System.Security.Principal.WellKnownSidType.AccountDomainGuestsSid
+  - System.Security.Principal.WellKnownSidType.AccountDomainUsersSid
   - System.Security.Principal.WellKnownSidType.AccountEnterpriseAdminsSid
+  - System.Security.Principal.WellKnownSidType.AccountGuestSid
+  - System.Security.Principal.WellKnownSidType.AccountKrbtgtSid
   - System.Security.Principal.WellKnownSidType.AccountPolicyAdminsSid
   - System.Security.Principal.WellKnownSidType.AccountRasAndIasServersSid
-  - System.Security.Principal.WellKnownSidType.NtlmAuthenticationSid
-  - System.Security.Principal.WellKnownSidType.DigestAuthenticationSid
-  - System.Security.Principal.WellKnownSidType.SChannelAuthenticationSid
-  - System.Security.Principal.WellKnownSidType.ThisOrganizationSid
-  - System.Security.Principal.WellKnownSidType.OtherOrganizationSid
-  - System.Security.Principal.WellKnownSidType.BuiltinIncomingForestTrustBuildersSid
-  - System.Security.Principal.WellKnownSidType.BuiltinPerformanceMonitoringUsersSid
-  - System.Security.Principal.WellKnownSidType.BuiltinPerformanceLoggingUsersSid
+  - System.Security.Principal.WellKnownSidType.AccountSchemaAdminsSid
+  - System.Security.Principal.WellKnownSidType.AnonymousSid
+  - System.Security.Principal.WellKnownSidType.AuthenticatedUserSid
+  - System.Security.Principal.WellKnownSidType.BatchSid
+  - System.Security.Principal.WellKnownSidType.BuiltinAccountOperatorsSid
+  - System.Security.Principal.WellKnownSidType.BuiltinAdministratorsSid
   - System.Security.Principal.WellKnownSidType.BuiltinAuthorizationAccessSid
-  - System.Security.Principal.WellKnownSidType.WinBuiltinTerminalServerLicenseServersSid
+  - System.Security.Principal.WellKnownSidType.BuiltinBackupOperatorsSid
+  - System.Security.Principal.WellKnownSidType.BuiltinDomainSid
+  - System.Security.Principal.WellKnownSidType.BuiltinGuestsSid
+  - System.Security.Principal.WellKnownSidType.BuiltinIncomingForestTrustBuildersSid
+  - System.Security.Principal.WellKnownSidType.BuiltinNetworkConfigurationOperatorsSid
+  - System.Security.Principal.WellKnownSidType.BuiltinPerformanceLoggingUsersSid
+  - System.Security.Principal.WellKnownSidType.BuiltinPerformanceMonitoringUsersSid
+  - System.Security.Principal.WellKnownSidType.BuiltinPowerUsersSid
+  - System.Security.Principal.WellKnownSidType.BuiltinPreWindows2000CompatibleAccessSid
+  - System.Security.Principal.WellKnownSidType.BuiltinPrintOperatorsSid
+  - System.Security.Principal.WellKnownSidType.BuiltinRemoteDesktopUsersSid
+  - System.Security.Principal.WellKnownSidType.BuiltinReplicatorSid
+  - System.Security.Principal.WellKnownSidType.BuiltinSystemOperatorsSid
+  - System.Security.Principal.WellKnownSidType.BuiltinUsersSid
+  - System.Security.Principal.WellKnownSidType.CreatorGroupServerSid
+  - System.Security.Principal.WellKnownSidType.CreatorGroupSid
+  - System.Security.Principal.WellKnownSidType.CreatorOwnerServerSid
+  - System.Security.Principal.WellKnownSidType.CreatorOwnerSid
+  - System.Security.Principal.WellKnownSidType.DialupSid
+  - System.Security.Principal.WellKnownSidType.DigestAuthenticationSid
+  - System.Security.Principal.WellKnownSidType.EnterpriseControllersSid
+  - System.Security.Principal.WellKnownSidType.InteractiveSid
+  - System.Security.Principal.WellKnownSidType.LocalServiceSid
+  - System.Security.Principal.WellKnownSidType.LocalSid
+  - System.Security.Principal.WellKnownSidType.LocalSystemSid
+  - System.Security.Principal.WellKnownSidType.LogonIdsSid
   - System.Security.Principal.WellKnownSidType.MaxDefined
+  - System.Security.Principal.WellKnownSidType.NetworkServiceSid
+  - System.Security.Principal.WellKnownSidType.NetworkSid
+  - System.Security.Principal.WellKnownSidType.NTAuthoritySid
+  - System.Security.Principal.WellKnownSidType.NtlmAuthenticationSid
+  - System.Security.Principal.WellKnownSidType.NullSid
+  - System.Security.Principal.WellKnownSidType.OtherOrganizationSid
+  - System.Security.Principal.WellKnownSidType.ProxySid
+  - System.Security.Principal.WellKnownSidType.RemoteLogonIdSid
+  - System.Security.Principal.WellKnownSidType.RestrictedCodeSid
+  - System.Security.Principal.WellKnownSidType.SChannelAuthenticationSid
+  - System.Security.Principal.WellKnownSidType.SelfSid
+  - System.Security.Principal.WellKnownSidType.ServiceSid
+  - System.Security.Principal.WellKnownSidType.TerminalServerSid
+  - System.Security.Principal.WellKnownSidType.ThisOrganizationSid
+  - System.Security.Principal.WellKnownSidType.WinBuiltinTerminalServerLicenseServersSid
+  - System.Security.Principal.WellKnownSidType.WorldSid
   href: System.Security.Principal.WellKnownSidType.yml
   name: WellKnownSidType
   fullName: System.Security.Principal.WellKnownSidType
@@ -1080,4 +1080,3 @@ references:
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace

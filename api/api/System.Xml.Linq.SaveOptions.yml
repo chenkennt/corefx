@@ -3,8 +3,8 @@ items:
   id: SaveOptions
   parent: System.Xml.Linq
   children:
-  - System.Xml.Linq.SaveOptions.None
   - System.Xml.Linq.SaveOptions.DisableFormatting
+  - System.Xml.Linq.SaveOptions.None
   - System.Xml.Linq.SaveOptions.OmitDuplicateNamespaces
   href: System.Xml.Linq.SaveOptions.yml
   name: SaveOptions

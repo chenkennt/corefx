@@ -6,13 +6,13 @@ items:
   - System.Security.Cryptography.X509Certificates.X509ChainPolicy.#ctor
   - System.Security.Cryptography.X509Certificates.X509ChainPolicy.ApplicationPolicy
   - System.Security.Cryptography.X509Certificates.X509ChainPolicy.CertificatePolicy
-  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationMode
-  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationFlag
-  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationFlags
-  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationTime
-  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.UrlRetrievalTimeout
   - System.Security.Cryptography.X509Certificates.X509ChainPolicy.ExtraStore
   - System.Security.Cryptography.X509Certificates.X509ChainPolicy.Reset
+  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationFlag
+  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationMode
+  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.UrlRetrievalTimeout
+  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationFlags
+  - System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationTime
   href: System.Security.Cryptography.X509Certificates.X509ChainPolicy.yml
   name: X509ChainPolicy
   fullName: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -78,7 +78,6 @@ items:
     parameters: []
     return:
       type: OidCollection
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.CertificatePolicy
   id: CertificatePolicy
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -99,7 +98,6 @@ items:
     parameters: []
     return:
       type: OidCollection
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationMode
   id: RevocationMode
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -120,7 +118,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509RevocationMode
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationFlag
   id: RevocationFlag
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -141,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509RevocationFlag
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationFlags
   id: VerificationFlags
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -162,7 +158,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509VerificationFlags
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationTime
   id: VerificationTime
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -183,7 +178,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.UrlRetrievalTimeout
   id: UrlRetrievalTimeout
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -204,7 +198,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.ExtraStore
   id: ExtraStore
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -225,7 +218,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.Reset
   id: Reset
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -252,11 +244,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -264,6 +258,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -273,6 +268,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -280,6 +276,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -287,12 +284,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -300,17 +299,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -318,18 +320,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -337,23 +342,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -361,18 +370,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -380,23 +392,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -404,6 +420,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -413,6 +430,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -420,6 +438,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -427,6 +446,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -436,6 +456,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -443,6 +464,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -450,6 +472,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -459,6 +482,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -495,11 +519,13 @@ references:
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection

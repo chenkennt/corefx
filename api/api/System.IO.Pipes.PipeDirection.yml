@@ -4,8 +4,8 @@ items:
   parent: System.IO.Pipes
   children:
   - System.IO.Pipes.PipeDirection.In
-  - System.IO.Pipes.PipeDirection.Out
   - System.IO.Pipes.PipeDirection.InOut
+  - System.IO.Pipes.PipeDirection.Out
   href: System.IO.Pipes.PipeDirection.yml
   name: PipeDirection
   fullName: System.IO.Pipes.PipeDirection

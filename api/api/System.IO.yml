@@ -2,123 +2,51 @@ items:
 - uid: System.IO
   id: System.IO
   children:
-  - System.IO.InvalidDataException
-  - System.IO.FileAccess
-  - System.IO.FileAttributes
-  - System.IO.FileMode
-  - System.IO.FileShare
+  - System.IO.Directory
+  - System.IO.DirectoryInfo
   - System.IO.DriveInfo
   - System.IO.DriveNotFoundException
   - System.IO.DriveType
-  - System.IO.Path
-  - System.IO.UnmanagedMemoryAccessor
-  - System.IO.UnmanagedMemoryStream
-  - System.IO.HandleInheritability
   - System.IO.ErrorEventArgs
   - System.IO.ErrorEventHandler
+  - System.IO.File
+  - System.IO.FileAccess
+  - System.IO.FileAttributes
+  - System.IO.FileInfo
+  - System.IO.FileMode
+  - System.IO.FileOptions
+  - System.IO.FileShare
+  - System.IO.FileStream
   - System.IO.FileSystemEventArgs
   - System.IO.FileSystemEventHandler
+  - System.IO.FileSystemInfo
   - System.IO.FileSystemWatcher
+  - System.IO.HandleInheritability
   - System.IO.InternalBufferOverflowException
+  - System.IO.InvalidDataException
   - System.IO.NotifyFilters
+  - System.IO.Path
   - System.IO.RenamedEventArgs
   - System.IO.RenamedEventHandler
-  - System.IO.WatcherChangeTypes
-  - System.IO.Directory
-  - System.IO.DirectoryInfo
-  - System.IO.File
-  - System.IO.FileInfo
-  - System.IO.FileOptions
-  - System.IO.FileStream
-  - System.IO.FileSystemInfo
   - System.IO.SearchOption
+  - System.IO.UnmanagedMemoryAccessor
+  - System.IO.UnmanagedMemoryStream
+  - System.IO.WatcherChangeTypes
   href: System.IO.yml
   name: System.IO
   fullName: System.IO
   type: Namespace
   source:
     remote:
-      path: src/System.IO/src/System/IO/InvalidDataException.cs
+      path: src/System.Runtime.Handles/src/System/IO/HandleInheritability.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.IO/src/System/IO/InvalidDataException.cs
-    startLine: 5
+    path: src/System.Runtime.Handles/src/System/IO/HandleInheritability.cs
+    startLine: 3
   assemblies:
-  - System.IO
+  - System.Runtime.Handles
 references:
-- uid: System.IO.InvalidDataException
-  isExternal: false
-  href: System.IO.InvalidDataException.yml
-  name: InvalidDataException
-  fullName: System.IO.InvalidDataException
-  type: Class
-- uid: System.IO.FileAccess
-  parent: System.IO
-  isExternal: false
-  href: System.IO.FileAccess.yml
-  name: FileAccess
-  fullName: System.IO.FileAccess
-  type: Enum
-- uid: System.IO.FileAttributes
-  parent: System.IO
-  isExternal: false
-  href: System.IO.FileAttributes.yml
-  name: FileAttributes
-  fullName: System.IO.FileAttributes
-  type: Enum
-- uid: System.IO.FileMode
-  parent: System.IO
-  isExternal: false
-  href: System.IO.FileMode.yml
-  name: FileMode
-  fullName: System.IO.FileMode
-  type: Enum
-- uid: System.IO.FileShare
-  parent: System.IO
-  isExternal: false
-  href: System.IO.FileShare.yml
-  name: FileShare
-  fullName: System.IO.FileShare
-  type: Enum
-- uid: System.IO.DriveInfo
-  isExternal: false
-  href: System.IO.DriveInfo.yml
-  name: DriveInfo
-  fullName: System.IO.DriveInfo
-  type: Class
-- uid: System.IO.DriveNotFoundException
-  isExternal: false
-  href: System.IO.DriveNotFoundException.yml
-  name: DriveNotFoundException
-  fullName: System.IO.DriveNotFoundException
-  type: Class
-- uid: System.IO.DriveType
-  parent: System.IO
-  isExternal: false
-  href: System.IO.DriveType.yml
-  name: DriveType
-  fullName: System.IO.DriveType
-  type: Enum
-- uid: System.IO.Path
-  isExternal: false
-  href: System.IO.Path.yml
-  name: Path
-  fullName: System.IO.Path
-  type: Class
-- uid: System.IO.UnmanagedMemoryAccessor
-  isExternal: false
-  href: System.IO.UnmanagedMemoryAccessor.yml
-  name: UnmanagedMemoryAccessor
-  fullName: System.IO.UnmanagedMemoryAccessor
-  type: Class
-- uid: System.IO.UnmanagedMemoryStream
-  isExternal: false
-  href: System.IO.UnmanagedMemoryStream.yml
-  name: UnmanagedMemoryStream
-  fullName: System.IO.UnmanagedMemoryStream
-  type: Class
-  summary: Stream over a memory pointer or over a SafeBuffer
 - uid: System.IO.HandleInheritability
   parent: System.IO
   isExternal: false
@@ -190,6 +118,78 @@ references:
   name: WatcherChangeTypes
   fullName: System.IO.WatcherChangeTypes
   type: Enum
+- uid: System.IO.FileAccess
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAccess.yml
+  name: FileAccess
+  fullName: System.IO.FileAccess
+  type: Enum
+- uid: System.IO.FileAttributes
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAttributes.yml
+  name: FileAttributes
+  fullName: System.IO.FileAttributes
+  type: Enum
+- uid: System.IO.FileMode
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileMode.yml
+  name: FileMode
+  fullName: System.IO.FileMode
+  type: Enum
+- uid: System.IO.FileShare
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileShare.yml
+  name: FileShare
+  fullName: System.IO.FileShare
+  type: Enum
+- uid: System.IO.UnmanagedMemoryAccessor
+  isExternal: false
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: UnmanagedMemoryAccessor
+  fullName: System.IO.UnmanagedMemoryAccessor
+  type: Class
+- uid: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  href: System.IO.UnmanagedMemoryStream.yml
+  name: UnmanagedMemoryStream
+  fullName: System.IO.UnmanagedMemoryStream
+  type: Class
+  summary: Stream over a memory pointer or over a SafeBuffer
+- uid: System.IO.Path
+  isExternal: false
+  href: System.IO.Path.yml
+  name: Path
+  fullName: System.IO.Path
+  type: Class
+- uid: System.IO.DriveInfo
+  isExternal: false
+  href: System.IO.DriveInfo.yml
+  name: DriveInfo
+  fullName: System.IO.DriveInfo
+  type: Class
+- uid: System.IO.DriveNotFoundException
+  isExternal: false
+  href: System.IO.DriveNotFoundException.yml
+  name: DriveNotFoundException
+  fullName: System.IO.DriveNotFoundException
+  type: Class
+- uid: System.IO.DriveType
+  parent: System.IO
+  isExternal: false
+  href: System.IO.DriveType.yml
+  name: DriveType
+  fullName: System.IO.DriveType
+  type: Enum
+- uid: System.IO.InvalidDataException
+  isExternal: false
+  href: System.IO.InvalidDataException.yml
+  name: InvalidDataException
+  fullName: System.IO.InvalidDataException
+  type: Class
 - uid: System.IO.Directory
   isExternal: false
   href: System.IO.Directory.yml
@@ -199,6 +199,7 @@ references:
 - uid: System.IO.DirectoryInfo
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.DirectoryInfo.yml
   name: DirectoryInfo
   fullName: System.IO.DirectoryInfo
 - uid: System.IO.File
@@ -223,11 +224,10 @@ references:
   type: Enum
 - uid: System.IO.FileStream
   parent: System.IO
-  isExternal: false
-  href: System.IO.FileStream.yml
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.FileStream.yml
   name: FileStream
   fullName: System.IO.FileStream
-  type: Class
 - uid: System.IO.FileSystemInfo
   parent: System.IO
   isExternal: false

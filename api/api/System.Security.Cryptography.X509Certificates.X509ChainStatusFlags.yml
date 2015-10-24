@@ -3,32 +3,32 @@ items:
   id: X509ChainStatusFlags
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NoError
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotTimeValid
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotTimeNested
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.Revoked
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotSignatureValid
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotValidForUsage
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.UntrustedRoot
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.RevocationStatusUnknown
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.CtlNotSignatureValid
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.CtlNotTimeValid
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.CtlNotValidForUsage
   - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.Cyclic
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidExtension
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidPolicyConstraints
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidBasicConstraints
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidNameConstraints
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasNotSupportedNameConstraint
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.ExplicitDistrust
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasExcludedNameConstraint
   - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasNotDefinedNameConstraint
   - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasNotPermittedNameConstraint
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasExcludedNameConstraint
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.PartialChain
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.CtlNotTimeValid
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.CtlNotSignatureValid
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.CtlNotValidForUsage
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.OfflineRevocation
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NoIssuanceChainPolicy
-  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.ExplicitDistrust
   - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasNotSupportedCriticalExtension
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasNotSupportedNameConstraint
   - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.HasWeakSignature
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidBasicConstraints
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidExtension
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidNameConstraints
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.InvalidPolicyConstraints
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NoError
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NoIssuanceChainPolicy
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotSignatureValid
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotTimeNested
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotTimeValid
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NotValidForUsage
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.OfflineRevocation
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.PartialChain
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.RevocationStatusUnknown
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.Revoked
+  - System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.UntrustedRoot
   href: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.yml
   name: X509ChainStatusFlags
   fullName: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags

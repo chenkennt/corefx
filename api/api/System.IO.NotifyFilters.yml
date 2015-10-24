@@ -3,14 +3,14 @@ items:
   id: NotifyFilters
   parent: System.IO
   children:
-  - System.IO.NotifyFilters.FileName
-  - System.IO.NotifyFilters.DirectoryName
   - System.IO.NotifyFilters.Attributes
-  - System.IO.NotifyFilters.Size
-  - System.IO.NotifyFilters.LastWrite
-  - System.IO.NotifyFilters.LastAccess
   - System.IO.NotifyFilters.CreationTime
+  - System.IO.NotifyFilters.DirectoryName
+  - System.IO.NotifyFilters.FileName
+  - System.IO.NotifyFilters.LastAccess
+  - System.IO.NotifyFilters.LastWrite
   - System.IO.NotifyFilters.Security
+  - System.IO.NotifyFilters.Size
   href: System.IO.NotifyFilters.yml
   name: NotifyFilters
   fullName: System.IO.NotifyFilters

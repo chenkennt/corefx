@@ -50,7 +50,6 @@ items:
     parameters: []
     return:
       type: '{TKey}'
-      description: 
 references:
 - uid: System.Linq
   isExternal: false
@@ -60,6 +59,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TElement}}.GetEnumerator
   parent: System.Collections.Generic.IEnumerable{{TElement}}
   definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<TElement>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of TElement).GetEnumerator()
@@ -68,6 +68,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<TElement>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -77,6 +78,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of TElement).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -84,6 +86,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
   parent: System.Collections.Generic.IEnumerable`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
@@ -92,6 +95,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -101,6 +105,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -108,6 +113,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TElement}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TElement>
   name.vb: IEnumerable(Of TElement)
   fullName: System.Collections.Generic.IEnumerable<TElement>
@@ -117,6 +123,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TElement
@@ -128,6 +135,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TElement
@@ -137,6 +145,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -146,6 +155,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -157,6 +167,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T

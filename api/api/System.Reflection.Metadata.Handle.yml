@@ -3,15 +3,15 @@ items:
   id: Handle
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.Handle.Kind
-  - System.Reflection.Metadata.Handle.IsNil
+  - System.Reflection.Metadata.Handle.AssemblyDefinition
   - System.Reflection.Metadata.Handle.Equals(System.Object)
   - System.Reflection.Metadata.Handle.Equals(System.Reflection.Metadata.Handle)
   - System.Reflection.Metadata.Handle.GetHashCode
+  - System.Reflection.Metadata.Handle.IsNil
+  - System.Reflection.Metadata.Handle.Kind
+  - System.Reflection.Metadata.Handle.ModuleDefinition
   - System.Reflection.Metadata.Handle.op_Equality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
   - System.Reflection.Metadata.Handle.op_Inequality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
-  - System.Reflection.Metadata.Handle.ModuleDefinition
-  - System.Reflection.Metadata.Handle.AssemblyDefinition
   href: System.Reflection.Metadata.Handle.yml
   name: Handle
   fullName: System.Reflection.Metadata.Handle
@@ -59,7 +59,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.HandleKind
-      description: 
 - uid: System.Reflection.Metadata.Handle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.Handle
@@ -80,7 +79,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Metadata.Handle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.Handle
@@ -103,7 +101,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.Handle.Equals(System.Reflection.Metadata.Handle)
   id: Equals(System.Reflection.Metadata.Handle)
@@ -127,7 +124,6 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Metadata.Handle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.Handle
@@ -147,7 +143,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.Handle.op_Equality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
   id: op_Equality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
@@ -173,7 +168,6 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Metadata.Handle.op_Inequality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
   id: op_Inequality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
   parent: System.Reflection.Metadata.Handle
@@ -198,7 +192,6 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Metadata.Handle.ModuleDefinition
   id: ModuleDefinition
   parent: System.Reflection.Metadata.Handle
@@ -250,6 +243,7 @@ references:
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -257,6 +251,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -266,6 +261,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -273,6 +269,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -280,18 +277,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -299,23 +299,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -323,18 +327,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -342,23 +349,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -366,6 +377,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -375,6 +387,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -382,11 +395,13 @@ references:
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -403,11 +418,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -415,12 +432,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -428,17 +447,20 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -446,6 +468,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -455,6 +478,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -462,5 +486,6 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

@@ -3,9 +3,9 @@ items:
   id: Partitioner`1
   parent: System.Collections.Concurrent
   children:
+  - System.Collections.Concurrent.Partitioner`1.GetDynamicPartitions
   - System.Collections.Concurrent.Partitioner`1.GetPartitions(System.Int32)
   - System.Collections.Concurrent.Partitioner`1.SupportsDynamicPartitions
-  - System.Collections.Concurrent.Partitioner`1.GetDynamicPartitions
   href: System.Collections.Concurrent.Partitioner`1.yml
   name: Partitioner<TSource>
   name.vb: Partitioner(Of TSource)
@@ -185,11 +185,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -197,6 +199,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -206,6 +209,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -213,6 +217,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -220,12 +225,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -233,17 +240,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -251,18 +261,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -270,23 +283,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -294,18 +311,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -313,23 +333,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -337,6 +361,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -346,6 +371,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -353,6 +379,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -360,6 +387,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -369,6 +397,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -376,6 +405,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -383,6 +413,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -392,6 +423,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -403,11 +435,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Collections.Generic.IList{System.Collections.Generic.IEnumerator{{TSource}}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IList`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   name: IList<IEnumerator<TSource>>
   name.vb: IList(Of IEnumerator(Of TSource))
   fullName: System.Collections.Generic.IList<System.Collections.Generic.IEnumerator<TSource>>
@@ -417,12 +451,14 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: <
     fullName: <
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -436,12 +472,14 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -453,6 +491,7 @@ references:
 - uid: System.Collections.Generic.IList`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   name: IList<T>
   name.vb: IList(Of T)
   fullName: System.Collections.Generic.IList<T>
@@ -462,6 +501,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: <
     fullName: <
   - name: T
@@ -473,6 +513,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -486,6 +527,7 @@ references:
 - uid: System.Collections.Concurrent.Partitioner`1
   parent: System.Collections.Concurrent
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   name: Partitioner<TSource>
   name.vb: Partitioner(Of TSource)
   fullName: System.Collections.Concurrent.Partitioner<TSource>
@@ -495,6 +537,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -506,6 +549,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -515,12 +559,14 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.NotSupportedException
 - uid: System.Collections.Generic.IEnumerable{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TSource>
   name.vb: IEnumerable(Of TSource)
   fullName: System.Collections.Generic.IEnumerable<TSource>
@@ -530,6 +576,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -541,6 +588,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -550,6 +598,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -559,6 +608,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -570,6 +620,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T

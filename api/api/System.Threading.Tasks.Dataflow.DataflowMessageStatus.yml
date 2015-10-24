@@ -5,9 +5,9 @@ items:
   children:
   - System.Threading.Tasks.Dataflow.DataflowMessageStatus.Accepted
   - System.Threading.Tasks.Dataflow.DataflowMessageStatus.Declined
-  - System.Threading.Tasks.Dataflow.DataflowMessageStatus.Postponed
-  - System.Threading.Tasks.Dataflow.DataflowMessageStatus.NotAvailable
   - System.Threading.Tasks.Dataflow.DataflowMessageStatus.DecliningPermanently
+  - System.Threading.Tasks.Dataflow.DataflowMessageStatus.NotAvailable
+  - System.Threading.Tasks.Dataflow.DataflowMessageStatus.Postponed
   href: System.Threading.Tasks.Dataflow.DataflowMessageStatus.yml
   name: DataflowMessageStatus
   fullName: System.Threading.Tasks.Dataflow.DataflowMessageStatus

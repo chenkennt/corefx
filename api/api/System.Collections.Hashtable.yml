@@ -3,17 +3,16 @@ items:
   id: Hashtable
   parent: System.Collections
   children:
-  - System.Collections.Hashtable.EqualityComparer
   - System.Collections.Hashtable.#ctor
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Collections.IEqualityComparer)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single,System.Collections.IEqualityComparer)
+  - System.Collections.Hashtable.#ctor(System.Collections.IEqualityComparer)
   - System.Collections.Hashtable.#ctor(System.Int32)
+  - System.Collections.Hashtable.#ctor(System.Int32,System.Collections.IEqualityComparer)
   - System.Collections.Hashtable.#ctor(System.Int32,System.Single)
   - System.Collections.Hashtable.#ctor(System.Int32,System.Single,System.Collections.IEqualityComparer)
-  - System.Collections.Hashtable.#ctor(System.Collections.IEqualityComparer)
-  - System.Collections.Hashtable.#ctor(System.Int32,System.Collections.IEqualityComparer)
-  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary)
-  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single)
-  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Collections.IEqualityComparer)
-  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single,System.Collections.IEqualityComparer)
   - System.Collections.Hashtable.Add(System.Object,System.Object)
   - System.Collections.Hashtable.Clear
   - System.Collections.Hashtable.Clone
@@ -21,20 +20,21 @@ items:
   - System.Collections.Hashtable.ContainsKey(System.Object)
   - System.Collections.Hashtable.ContainsValue(System.Object)
   - System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
-  - System.Collections.Hashtable.Item(System.Object)
-  - System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
+  - System.Collections.Hashtable.Count
+  - System.Collections.Hashtable.EqualityComparer
   - System.Collections.Hashtable.GetEnumerator
   - System.Collections.Hashtable.GetHash(System.Object)
-  - System.Collections.Hashtable.IsReadOnly
   - System.Collections.Hashtable.IsFixedSize
+  - System.Collections.Hashtable.IsReadOnly
   - System.Collections.Hashtable.IsSynchronized
+  - System.Collections.Hashtable.Item(System.Object)
   - System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
   - System.Collections.Hashtable.Keys
-  - System.Collections.Hashtable.Values
   - System.Collections.Hashtable.Remove(System.Object)
-  - System.Collections.Hashtable.SyncRoot
-  - System.Collections.Hashtable.Count
   - System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
+  - System.Collections.Hashtable.SyncRoot
+  - System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
+  - System.Collections.Hashtable.Values
   href: System.Collections.Hashtable.yml
   name: Hashtable
   fullName: System.Collections.Hashtable
@@ -87,7 +87,6 @@ items:
     parameters: []
     return:
       type: System.Collections.IEqualityComparer
-      description: 
 - uid: System.Collections.Hashtable.#ctor
   id: '#ctor'
   parent: System.Collections.Hashtable
@@ -359,7 +358,6 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Hashtable.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.Hashtable
@@ -382,7 +380,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Hashtable.ContainsKey(System.Object)
   id: ContainsKey(System.Object)
   parent: System.Collections.Hashtable
@@ -405,7 +402,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Hashtable.ContainsValue(System.Object)
   id: ContainsValue(System.Object)
   parent: System.Collections.Hashtable
@@ -428,7 +424,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.Hashtable
@@ -475,7 +470,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Hashtable
@@ -496,7 +490,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Collections.Hashtable.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.Hashtable
@@ -516,7 +509,6 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Collections.Hashtable.GetHash(System.Object)
   id: GetHash(System.Object)
   parent: System.Collections.Hashtable
@@ -539,7 +531,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Hashtable.IsReadOnly
   id: IsReadOnly
   parent: System.Collections.Hashtable
@@ -560,7 +551,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Hashtable.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.Hashtable
@@ -581,7 +571,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Hashtable.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.Hashtable
@@ -602,7 +591,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
   id: KeyEquals(System.Object,System.Object)
   parent: System.Collections.Hashtable
@@ -627,7 +615,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Hashtable.Keys
   id: Keys
   parent: System.Collections.Hashtable
@@ -648,7 +635,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.Hashtable.Values
   id: Values
   parent: System.Collections.Hashtable
@@ -669,7 +655,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.Hashtable.Remove(System.Object)
   id: Remove(System.Object)
   parent: System.Collections.Hashtable
@@ -710,7 +695,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Hashtable.Count
   id: Count
   parent: System.Collections.Hashtable
@@ -731,7 +715,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
   id: Synchronized(System.Collections.Hashtable)
   parent: System.Collections.Hashtable
@@ -754,7 +737,6 @@ items:
       type: System.Collections.Hashtable
     return:
       type: System.Collections.Hashtable
-      description: 
 references:
 - uid: System.Collections
   isExternal: false
@@ -763,11 +745,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -775,6 +759,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -784,6 +769,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -791,6 +777,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -798,12 +785,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -811,17 +800,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -829,18 +821,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -848,23 +843,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -872,18 +871,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -891,23 +893,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -915,6 +921,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -924,6 +931,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -931,6 +939,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -938,6 +947,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -947,6 +957,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -954,6 +965,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -961,6 +973,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -970,6 +983,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -981,46 +995,50 @@ references:
 - uid: System.Collections.IEqualityComparer
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEqualityComparer.yml
   name: IEqualityComparer
   fullName: System.Collections.IEqualityComparer
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Collections.IDictionary
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: IDictionary
   fullName: System.Collections.IDictionary
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array
 - uid: System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerator.yml
   name: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections.IDictionaryEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionaryEnumerator.yml
   name: IDictionaryEnumerator
   fullName: System.Collections.IDictionaryEnumerator
 - uid: System.Collections.ICollection
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: ICollection
   fullName: System.Collections.ICollection
 - uid: System.Collections.Hashtable

@@ -4,8 +4,8 @@ items:
   parent: System.Xml
   children:
   - System.Xml.ConformanceLevel.Auto
-  - System.Xml.ConformanceLevel.Fragment
   - System.Xml.ConformanceLevel.Document
+  - System.Xml.ConformanceLevel.Fragment
   href: System.Xml.ConformanceLevel.yml
   name: ConformanceLevel
   fullName: System.Xml.ConformanceLevel

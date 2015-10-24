@@ -2,12 +2,12 @@ items:
 - uid: System.IO.MemoryMappedFiles
   id: System.IO.MemoryMappedFiles
   children:
-  - System.IO.MemoryMappedFiles.MemoryMappedFileOptions
-  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess
   - System.IO.MemoryMappedFiles.MemoryMappedFile
+  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+  - System.IO.MemoryMappedFiles.MemoryMappedFileOptions
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights
   - System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
   - System.IO.MemoryMappedFiles.MemoryMappedViewStream
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights
   href: System.IO.MemoryMappedFiles.yml
   name: System.IO.MemoryMappedFiles
   fullName: System.IO.MemoryMappedFiles

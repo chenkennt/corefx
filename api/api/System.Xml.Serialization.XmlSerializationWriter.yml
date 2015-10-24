@@ -3,88 +3,88 @@ items:
   id: XmlSerializationWriter
   parent: System.Xml.Serialization
   children:
+  - System.Xml.Serialization.XmlSerializationWriter.CreateChoiceIdentifierValueException(System.String,System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidAnyTypeException(System.Object)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidAnyTypeException(System.Type)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidChoiceIdentifierValueException(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidEnumValueException(System.Object,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateMismatchChoiceException(System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateUnknownAnyElementException(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(System.Object)
+  - System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(System.Type)
   - System.Xml.Serialization.XmlSerializationWriter.EscapeName
-  - System.Xml.Serialization.XmlSerializationWriter.Writer
-  - System.Xml.Serialization.XmlSerializationWriter.XmlNamespaces
   - System.Xml.Serialization.XmlSerializationWriter.FromByteArrayBase64(System.Byte[])
   - System.Xml.Serialization.XmlSerializationWriter.FromByteArrayHex(System.Byte[])
-  - System.Xml.Serialization.XmlSerializationWriter.FromDateTime(System.DateTime)
-  - System.Xml.Serialization.XmlSerializationWriter.FromDate(System.DateTime)
-  - System.Xml.Serialization.XmlSerializationWriter.FromTime(System.DateTime)
   - System.Xml.Serialization.XmlSerializationWriter.FromChar(System.Char)
+  - System.Xml.Serialization.XmlSerializationWriter.FromDate(System.DateTime)
+  - System.Xml.Serialization.XmlSerializationWriter.FromDateTime(System.DateTime)
   - System.Xml.Serialization.XmlSerializationWriter.FromEnum(System.Int64,System.String[],System.Int64[])
   - System.Xml.Serialization.XmlSerializationWriter.FromEnum(System.Int64,System.String[],System.Int64[],System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.FromTime(System.DateTime)
   - System.Xml.Serialization.XmlSerializationWriter.FromXmlName(System.String)
   - System.Xml.Serialization.XmlSerializationWriter.FromXmlNCName(System.String)
   - System.Xml.Serialization.XmlSerializationWriter.FromXmlNmToken(System.String)
   - System.Xml.Serialization.XmlSerializationWriter.FromXmlNmTokens(System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteXsiType(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteTypedPrimitive(System.String,System.String,System.Object,System.Boolean)
   - System.Xml.Serialization.XmlSerializationWriter.FromXmlQualifiedName(XmlQualifiedName)
   - System.Xml.Serialization.XmlSerializationWriter.FromXmlQualifiedName(XmlQualifiedName,System.Boolean)
+  - System.Xml.Serialization.XmlSerializationWriter.InitCallbacks
+  - System.Xml.Serialization.XmlSerializationWriter.TopLevelElement
+  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.Byte[])
+  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String,System.Byte[])
+  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementLiteral(XmlNode,System.String,System.String,System.Boolean,System.Boolean)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,System.String,XmlQualifiedName,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,XmlQualifiedName,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.Byte[])
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.Byte[],XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.Byte[])
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.Byte[],XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteEmptyTag(System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteEmptyTag(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteEndElement
+  - System.Xml.Serialization.XmlSerializationWriter.WriteEndElement(System.Object)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNamespaceDeclarations(System.Xml.Serialization.XmlSerializerNamespaces)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableQualifiedNameEncoded(System.String,System.String,XmlQualifiedName,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableQualifiedNameLiteral(System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringEncoded(System.String,System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringEncodedRaw(System.String,System.String,System.Byte[],XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringEncodedRaw(System.String,System.String,System.String,XmlQualifiedName)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringLiteral(System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringLiteralRaw(System.String,System.String,System.Byte[])
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringLiteralRaw(System.String,System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagEncoded(System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagEncoded(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagLiteral(System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagLiteral(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.Writer
+  - System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable,System.String,System.String,System.Boolean)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable,System.String,System.String,System.Boolean,System.Boolean)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteStartDocument
   - System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(System.String)
   - System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(System.String,System.String)
   - System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(System.String,System.String,System.Boolean)
   - System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(System.String,System.String,System.Object)
   - System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(System.String,System.String,System.Object,System.Boolean)
   - System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(System.String,System.String,System.Object,System.Boolean,System.Xml.Serialization.XmlSerializerNamespaces)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagEncoded(System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagEncoded(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagLiteral(System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullTagLiteral(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteEmptyTag(System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteEmptyTag(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteEndElement
-  - System.Xml.Serialization.XmlSerializationWriter.WriteEndElement(System.Object)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable,System.String,System.String,System.Boolean)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable,System.String,System.String,System.Boolean,System.Boolean)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringEncoded(System.String,System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringLiteral(System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringEncodedRaw(System.String,System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringEncodedRaw(System.String,System.String,System.Byte[],XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringLiteralRaw(System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableStringLiteralRaw(System.String,System.String,System.Byte[])
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableQualifiedNameEncoded(System.String,System.String,XmlQualifiedName,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNullableQualifiedNameLiteral(System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementLiteral(XmlNode,System.String,System.String,System.Boolean,System.Boolean)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(System.Object)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(System.Type)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateMismatchChoiceException(System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateUnknownAnyElementException(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidChoiceIdentifierValueException(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateChoiceIdentifierValueException(System.String,System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidEnumValueException(System.Object,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidAnyTypeException(System.Object)
-  - System.Xml.Serialization.XmlSerializationWriter.CreateInvalidAnyTypeException(System.Type)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteTypedPrimitive(System.String,System.String,System.Object,System.Boolean)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteValue(System.Byte[])
+  - System.Xml.Serialization.XmlSerializationWriter.WriteValue(System.String)
   - System.Xml.Serialization.XmlSerializationWriter.WriteXmlAttribute(XmlNode)
   - System.Xml.Serialization.XmlSerializationWriter.WriteXmlAttribute(XmlNode,System.Object)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String,System.Byte[])
-  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.Byte[])
-  - System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(System.String,System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteValue(System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteValue(System.Byte[])
-  - System.Xml.Serialization.XmlSerializationWriter.WriteStartDocument
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementString(System.String,System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.Byte[])
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.Byte[])
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.Byte[],XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(System.String,System.String,System.Byte[],XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,XmlQualifiedName,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,System.String,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.WriteElementQualifiedName(System.String,System.String,XmlQualifiedName,XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationWriter.InitCallbacks
-  - System.Xml.Serialization.XmlSerializationWriter.TopLevelElement
-  - System.Xml.Serialization.XmlSerializationWriter.WriteNamespaceDeclarations(System.Xml.Serialization.XmlSerializerNamespaces)
+  - System.Xml.Serialization.XmlSerializationWriter.WriteXsiType(System.String,System.String)
+  - System.Xml.Serialization.XmlSerializationWriter.XmlNamespaces
   href: System.Xml.Serialization.XmlSerializationWriter.yml
   name: XmlSerializationWriter
   fullName: System.Xml.Serialization.XmlSerializationWriter
@@ -2035,6 +2035,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Xml.Serialization.XmlSerializationGeneratedCode
@@ -2046,6 +2047,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -2053,6 +2055,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2062,6 +2065,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2069,6 +2073,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -2076,12 +2081,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2089,17 +2096,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -2107,18 +2117,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2126,23 +2139,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -2150,18 +2167,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2169,23 +2189,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -2193,6 +2217,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2202,6 +2227,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2209,6 +2235,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -2216,6 +2243,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2225,6 +2253,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2232,6 +2261,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -2239,6 +2269,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2248,6 +2279,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2259,6 +2291,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: XmlWriter
@@ -2266,16 +2299,9 @@ references:
   name: XmlWriter
   fullName: XmlWriter
 - uid: System.Collections.IList
-  parent: System.Collections
-  isExternal: true
-  name: IList
-  fullName: System.Collections.IList
-- uid: System.Collections
-  isExternal: false
-  name: System.Collections
-  fullName: System.Collections
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -2285,6 +2311,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -2292,30 +2319,36 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.Char
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char
   fullName: System.Char
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -2325,6 +2358,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -2332,10 +2366,12 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()
 - uid: System.Int64[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64[]
   name.vb: Int64()
   fullName: System.Int64[]
@@ -2345,6 +2381,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -2352,6 +2389,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ()
     fullName: ()
 - uid: XmlQualifiedName
@@ -2376,10 +2414,12 @@ references:
 - uid: System.Exception
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Exception
   fullName: System.Exception
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type

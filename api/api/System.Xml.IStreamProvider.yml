@@ -42,7 +42,6 @@ items:
     content.vb: Function GetStream As Stream
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Xml.IStreamProvider.ReleaseStream(System.IO.Stream)
   id: ReleaseStream(System.IO.Stream)
   parent: System.Xml.IStreamProvider
@@ -72,6 +71,7 @@ references:
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.IO

@@ -3,13 +3,13 @@ items:
   id: WebSocketState
   parent: System.Net.WebSockets
   children:
-  - System.Net.WebSockets.WebSocketState.None
-  - System.Net.WebSockets.WebSocketState.Connecting
-  - System.Net.WebSockets.WebSocketState.Open
-  - System.Net.WebSockets.WebSocketState.CloseSent
-  - System.Net.WebSockets.WebSocketState.CloseReceived
-  - System.Net.WebSockets.WebSocketState.Closed
   - System.Net.WebSockets.WebSocketState.Aborted
+  - System.Net.WebSockets.WebSocketState.Closed
+  - System.Net.WebSockets.WebSocketState.CloseReceived
+  - System.Net.WebSockets.WebSocketState.CloseSent
+  - System.Net.WebSockets.WebSocketState.Connecting
+  - System.Net.WebSockets.WebSocketState.None
+  - System.Net.WebSockets.WebSocketState.Open
   href: System.Net.WebSockets.WebSocketState.yml
   name: WebSocketState
   fullName: System.Net.WebSockets.WebSocketState

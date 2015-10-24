@@ -3,72 +3,72 @@ items:
   id: Process
   parent: System.Diagnostics
   children:
-  - System.Diagnostics.Process.OutputDataReceived
-  - System.Diagnostics.Process.ErrorDataReceived
   - System.Diagnostics.Process.#ctor
-  - System.Diagnostics.Process.SafeHandle
   - System.Diagnostics.Process.BasePriority
+  - System.Diagnostics.Process.BeginErrorReadLine
+  - System.Diagnostics.Process.BeginOutputReadLine
+  - System.Diagnostics.Process.CancelErrorRead
+  - System.Diagnostics.Process.CancelOutputRead
+  - System.Diagnostics.Process.Dispose
+  - System.Diagnostics.Process.Dispose(System.Boolean)
+  - System.Diagnostics.Process.EnableRaisingEvents
+  - System.Diagnostics.Process.EnterDebugMode
+  - System.Diagnostics.Process.ErrorDataReceived
   - System.Diagnostics.Process.ExitCode
-  - System.Diagnostics.Process.HasExited
+  - System.Diagnostics.Process.Exited
   - System.Diagnostics.Process.ExitTime
+  - System.Diagnostics.Process.GetCurrentProcess
+  - System.Diagnostics.Process.GetProcessById(System.Int32)
+  - System.Diagnostics.Process.GetProcessById(System.Int32,System.String)
+  - System.Diagnostics.Process.GetProcesses
+  - System.Diagnostics.Process.GetProcesses(System.String)
+  - System.Diagnostics.Process.GetProcessesByName(System.String)
+  - System.Diagnostics.Process.GetProcessesByName(System.String,System.String)
+  - System.Diagnostics.Process.HasExited
   - System.Diagnostics.Process.Id
+  - System.Diagnostics.Process.Kill
+  - System.Diagnostics.Process.LeaveDebugMode
   - System.Diagnostics.Process.MachineName
+  - System.Diagnostics.Process.MainModule
   - System.Diagnostics.Process.MaxWorkingSet
   - System.Diagnostics.Process.MinWorkingSet
   - System.Diagnostics.Process.Modules
   - System.Diagnostics.Process.NonpagedSystemMemorySize64
+  - System.Diagnostics.Process.OnExited
+  - System.Diagnostics.Process.OutputDataReceived
   - System.Diagnostics.Process.PagedMemorySize64
   - System.Diagnostics.Process.PagedSystemMemorySize64
   - System.Diagnostics.Process.PeakPagedMemorySize64
-  - System.Diagnostics.Process.PeakWorkingSet64
   - System.Diagnostics.Process.PeakVirtualMemorySize64
+  - System.Diagnostics.Process.PeakWorkingSet64
   - System.Diagnostics.Process.PriorityBoostEnabled
   - System.Diagnostics.Process.PriorityClass
   - System.Diagnostics.Process.PrivateMemorySize64
+  - System.Diagnostics.Process.PrivilegedProcessorTime
   - System.Diagnostics.Process.ProcessName
   - System.Diagnostics.Process.ProcessorAffinity
+  - System.Diagnostics.Process.Refresh
+  - System.Diagnostics.Process.SafeHandle
   - System.Diagnostics.Process.SessionId
-  - System.Diagnostics.Process.StartInfo
-  - System.Diagnostics.Process.Threads
-  - System.Diagnostics.Process.VirtualMemorySize64
-  - System.Diagnostics.Process.EnableRaisingEvents
+  - System.Diagnostics.Process.StandardError
   - System.Diagnostics.Process.StandardInput
   - System.Diagnostics.Process.StandardOutput
-  - System.Diagnostics.Process.StandardError
-  - System.Diagnostics.Process.WorkingSet64
-  - System.Diagnostics.Process.Exited
-  - System.Diagnostics.Process.Dispose(System.Boolean)
-  - System.Diagnostics.Process.GetProcessById(System.Int32,System.String)
-  - System.Diagnostics.Process.GetProcessById(System.Int32)
-  - System.Diagnostics.Process.GetProcessesByName(System.String)
-  - System.Diagnostics.Process.GetProcessesByName(System.String,System.String)
-  - System.Diagnostics.Process.GetProcesses
-  - System.Diagnostics.Process.GetProcesses(System.String)
-  - System.Diagnostics.Process.GetCurrentProcess
-  - System.Diagnostics.Process.OnExited
-  - System.Diagnostics.Process.Refresh
   - System.Diagnostics.Process.Start
-  - System.Diagnostics.Process.Start(System.String,System.String,System.Security.SecureString,System.String)
-  - System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
+  - System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)
   - System.Diagnostics.Process.Start(System.String)
   - System.Diagnostics.Process.Start(System.String,System.String)
-  - System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)
-  - System.Diagnostics.Process.ToString
-  - System.Diagnostics.Process.WaitForExit
-  - System.Diagnostics.Process.WaitForExit(System.Int32)
-  - System.Diagnostics.Process.BeginOutputReadLine
-  - System.Diagnostics.Process.BeginErrorReadLine
-  - System.Diagnostics.Process.CancelOutputRead
-  - System.Diagnostics.Process.CancelErrorRead
-  - System.Diagnostics.Process.Dispose
-  - System.Diagnostics.Process.EnterDebugMode
-  - System.Diagnostics.Process.LeaveDebugMode
-  - System.Diagnostics.Process.Kill
-  - System.Diagnostics.Process.MainModule
-  - System.Diagnostics.Process.PrivilegedProcessorTime
+  - System.Diagnostics.Process.Start(System.String,System.String,System.Security.SecureString,System.String)
+  - System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
+  - System.Diagnostics.Process.StartInfo
   - System.Diagnostics.Process.StartTime
+  - System.Diagnostics.Process.Threads
+  - System.Diagnostics.Process.ToString
   - System.Diagnostics.Process.TotalProcessorTime
   - System.Diagnostics.Process.UserProcessorTime
+  - System.Diagnostics.Process.VirtualMemorySize64
+  - System.Diagnostics.Process.WaitForExit
+  - System.Diagnostics.Process.WaitForExit(System.Int32)
+  - System.Diagnostics.Process.WorkingSet64
   href: System.Diagnostics.Process.yml
   name: Process
   fullName: System.Diagnostics.Process
@@ -173,7 +173,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeProcessHandle
-      description: 
 - uid: System.Diagnostics.Process.BasePriority
   id: BasePriority
   parent: System.Diagnostics.Process
@@ -354,7 +353,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.ProcessModuleCollection
-      description: 
 - uid: System.Diagnostics.Process.NonpagedSystemMemorySize64
   id: NonpagedSystemMemorySize64
   parent: System.Diagnostics.Process
@@ -375,7 +373,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.PagedMemorySize64
   id: PagedMemorySize64
   parent: System.Diagnostics.Process
@@ -396,7 +393,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.PagedSystemMemorySize64
   id: PagedSystemMemorySize64
   parent: System.Diagnostics.Process
@@ -417,7 +413,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.PeakPagedMemorySize64
   id: PeakPagedMemorySize64
   parent: System.Diagnostics.Process
@@ -438,7 +433,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.PeakWorkingSet64
   id: PeakWorkingSet64
   parent: System.Diagnostics.Process
@@ -459,7 +453,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.PeakVirtualMemorySize64
   id: PeakVirtualMemorySize64
   parent: System.Diagnostics.Process
@@ -480,7 +473,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.PriorityBoostEnabled
   id: PriorityBoostEnabled
   parent: System.Diagnostics.Process
@@ -541,7 +533,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.ProcessName
   id: ProcessName
   parent: System.Diagnostics.Process
@@ -602,7 +593,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.Process.StartInfo
   id: StartInfo
   parent: System.Diagnostics.Process
@@ -663,7 +653,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.EnableRaisingEvents
   id: EnableRaisingEvents
   parent: System.Diagnostics.Process
@@ -764,7 +753,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Diagnostics.Process.Exited
   id: Exited
   parent: System.Diagnostics.Process
@@ -1035,7 +1023,6 @@ items:
       type: System.String
     return:
       type: System.Diagnostics.Process
-      description: 
 - uid: System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
   id: Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
   parent: System.Diagnostics.Process
@@ -1066,7 +1053,6 @@ items:
       type: System.String
     return:
       type: System.Diagnostics.Process
-      description: 
 - uid: System.Diagnostics.Process.Start(System.String)
   id: Start(System.String)
   parent: System.Diagnostics.Process
@@ -1154,7 +1140,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Diagnostics.Process.WaitForExit
   id: WaitForExit
@@ -1466,11 +1451,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1478,12 +1465,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1491,17 +1480,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1509,18 +1501,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1528,23 +1523,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1552,18 +1551,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1571,23 +1573,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1595,6 +1601,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1604,6 +1611,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1611,6 +1619,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1618,6 +1627,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1627,6 +1637,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1634,6 +1645,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1641,6 +1653,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1650,6 +1663,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1667,26 +1681,31 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IntPtr
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   name: IntPtr
   fullName: System.IntPtr
 - uid: System.Diagnostics.ProcessModuleCollection
@@ -1699,6 +1718,7 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Diagnostics.ProcessPriorityClass
@@ -1725,6 +1745,7 @@ references:
 - uid: System.IO.StreamWriter
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.StreamWriter.yml
   name: StreamWriter
   fullName: System.IO.StreamWriter
 - uid: System.IO
@@ -1734,6 +1755,7 @@ references:
 - uid: System.IO.StreamReader
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.StreamReader.yml
   name: StreamReader
   fullName: System.IO.StreamReader
 - uid: System.Diagnostics.Process
@@ -1766,16 +1788,20 @@ references:
     fullName: ()
 - uid: System.Security.SecureString
   parent: System.Security
-  isExternal: true
+  isExternal: false
+  href: System.Security.SecureString.yml
   name: SecureString
   fullName: System.Security.SecureString
+  type: Class
 - uid: System.Security
   isExternal: false
   name: System.Security
   fullName: System.Security
+  type: Namespace
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1783,6 +1809,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1792,6 +1819,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1806,6 +1834,7 @@ references:
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.Diagnostics.Process.UserProcessorTime

@@ -3,163 +3,163 @@ items:
   id: UnicodeRanges
   parent: System.Text.Unicode
   children:
-  - System.Text.Unicode.UnicodeRanges.None
   - System.Text.Unicode.UnicodeRanges.All
+  - System.Text.Unicode.UnicodeRanges.AlphabeticPresentationForms
+  - System.Text.Unicode.UnicodeRanges.Arabic
+  - System.Text.Unicode.UnicodeRanges.ArabicExtendedA
+  - System.Text.Unicode.UnicodeRanges.ArabicPresentationFormsA
+  - System.Text.Unicode.UnicodeRanges.ArabicPresentationFormsB
+  - System.Text.Unicode.UnicodeRanges.ArabicSupplement
+  - System.Text.Unicode.UnicodeRanges.Armenian
+  - System.Text.Unicode.UnicodeRanges.Arrows
+  - System.Text.Unicode.UnicodeRanges.Balinese
+  - System.Text.Unicode.UnicodeRanges.Bamum
   - System.Text.Unicode.UnicodeRanges.BasicLatin
+  - System.Text.Unicode.UnicodeRanges.Batak
+  - System.Text.Unicode.UnicodeRanges.Bengali
+  - System.Text.Unicode.UnicodeRanges.BlockElements
+  - System.Text.Unicode.UnicodeRanges.Bopomofo
+  - System.Text.Unicode.UnicodeRanges.BopomofoExtended
+  - System.Text.Unicode.UnicodeRanges.BoxDrawing
+  - System.Text.Unicode.UnicodeRanges.BraillePatterns
+  - System.Text.Unicode.UnicodeRanges.Buginese
+  - System.Text.Unicode.UnicodeRanges.Buhid
+  - System.Text.Unicode.UnicodeRanges.Cham
+  - System.Text.Unicode.UnicodeRanges.Cherokee
+  - System.Text.Unicode.UnicodeRanges.CjkCompatibility
+  - System.Text.Unicode.UnicodeRanges.CjkCompatibilityForms
+  - System.Text.Unicode.UnicodeRanges.CjkCompatibilityIdeographs
+  - System.Text.Unicode.UnicodeRanges.CjkRadicalsSupplement
+  - System.Text.Unicode.UnicodeRanges.CjkStrokes
+  - System.Text.Unicode.UnicodeRanges.CjkSymbolsandPunctuation
+  - System.Text.Unicode.UnicodeRanges.CjkUnifiedIdeographs
+  - System.Text.Unicode.UnicodeRanges.CjkUnifiedIdeographsExtensionA
+  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarks
+  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarksExtended
+  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarksforSymbols
+  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarksSupplement
+  - System.Text.Unicode.UnicodeRanges.CombiningHalfMarks
+  - System.Text.Unicode.UnicodeRanges.CommonIndicNumberForms
+  - System.Text.Unicode.UnicodeRanges.ControlPictures
+  - System.Text.Unicode.UnicodeRanges.Coptic
+  - System.Text.Unicode.UnicodeRanges.CurrencySymbols
+  - System.Text.Unicode.UnicodeRanges.Cyrillic
+  - System.Text.Unicode.UnicodeRanges.CyrillicExtendedA
+  - System.Text.Unicode.UnicodeRanges.CyrillicExtendedB
+  - System.Text.Unicode.UnicodeRanges.CyrillicSupplement
+  - System.Text.Unicode.UnicodeRanges.Devanagari
+  - System.Text.Unicode.UnicodeRanges.DevanagariExtended
+  - System.Text.Unicode.UnicodeRanges.Dingbats
+  - System.Text.Unicode.UnicodeRanges.EnclosedAlphanumerics
+  - System.Text.Unicode.UnicodeRanges.EnclosedCjkLettersandMonths
+  - System.Text.Unicode.UnicodeRanges.Ethiopic
+  - System.Text.Unicode.UnicodeRanges.EthiopicExtended
+  - System.Text.Unicode.UnicodeRanges.EthiopicExtendedA
+  - System.Text.Unicode.UnicodeRanges.EthiopicSupplement
+  - System.Text.Unicode.UnicodeRanges.GeneralPunctuation
+  - System.Text.Unicode.UnicodeRanges.GeometricShapes
+  - System.Text.Unicode.UnicodeRanges.Georgian
+  - System.Text.Unicode.UnicodeRanges.GeorgianSupplement
+  - System.Text.Unicode.UnicodeRanges.Glagolitic
+  - System.Text.Unicode.UnicodeRanges.GreekandCoptic
+  - System.Text.Unicode.UnicodeRanges.GreekExtended
+  - System.Text.Unicode.UnicodeRanges.Gujarati
+  - System.Text.Unicode.UnicodeRanges.Gurmukhi
+  - System.Text.Unicode.UnicodeRanges.HalfwidthandFullwidthForms
+  - System.Text.Unicode.UnicodeRanges.HangulCompatibilityJamo
+  - System.Text.Unicode.UnicodeRanges.HangulJamo
+  - System.Text.Unicode.UnicodeRanges.HangulJamoExtendedA
+  - System.Text.Unicode.UnicodeRanges.HangulJamoExtendedB
+  - System.Text.Unicode.UnicodeRanges.HangulSyllables
+  - System.Text.Unicode.UnicodeRanges.Hanunoo
+  - System.Text.Unicode.UnicodeRanges.Hebrew
+  - System.Text.Unicode.UnicodeRanges.Hiragana
+  - System.Text.Unicode.UnicodeRanges.IdeographicDescriptionCharacters
+  - System.Text.Unicode.UnicodeRanges.IpaExtensions
+  - System.Text.Unicode.UnicodeRanges.Javanese
+  - System.Text.Unicode.UnicodeRanges.Kanbun
+  - System.Text.Unicode.UnicodeRanges.KangxiRadicals
+  - System.Text.Unicode.UnicodeRanges.Kannada
+  - System.Text.Unicode.UnicodeRanges.Katakana
+  - System.Text.Unicode.UnicodeRanges.KatakanaPhoneticExtensions
+  - System.Text.Unicode.UnicodeRanges.KayahLi
+  - System.Text.Unicode.UnicodeRanges.Khmer
+  - System.Text.Unicode.UnicodeRanges.KhmerSymbols
+  - System.Text.Unicode.UnicodeRanges.Lao
   - System.Text.Unicode.UnicodeRanges.Latin1Supplement
   - System.Text.Unicode.UnicodeRanges.LatinExtendedA
+  - System.Text.Unicode.UnicodeRanges.LatinExtendedAdditional
   - System.Text.Unicode.UnicodeRanges.LatinExtendedB
-  - System.Text.Unicode.UnicodeRanges.IpaExtensions
-  - System.Text.Unicode.UnicodeRanges.SpacingModifierLetters
-  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarks
-  - System.Text.Unicode.UnicodeRanges.GreekandCoptic
-  - System.Text.Unicode.UnicodeRanges.Cyrillic
-  - System.Text.Unicode.UnicodeRanges.CyrillicSupplement
-  - System.Text.Unicode.UnicodeRanges.Armenian
-  - System.Text.Unicode.UnicodeRanges.Hebrew
-  - System.Text.Unicode.UnicodeRanges.Arabic
-  - System.Text.Unicode.UnicodeRanges.Syriac
-  - System.Text.Unicode.UnicodeRanges.ArabicSupplement
-  - System.Text.Unicode.UnicodeRanges.Thaana
-  - System.Text.Unicode.UnicodeRanges.NKo
-  - System.Text.Unicode.UnicodeRanges.Samaritan
-  - System.Text.Unicode.UnicodeRanges.Mandaic
-  - System.Text.Unicode.UnicodeRanges.ArabicExtendedA
-  - System.Text.Unicode.UnicodeRanges.Devanagari
-  - System.Text.Unicode.UnicodeRanges.Bengali
-  - System.Text.Unicode.UnicodeRanges.Gurmukhi
-  - System.Text.Unicode.UnicodeRanges.Gujarati
-  - System.Text.Unicode.UnicodeRanges.Oriya
-  - System.Text.Unicode.UnicodeRanges.Tamil
-  - System.Text.Unicode.UnicodeRanges.Telugu
-  - System.Text.Unicode.UnicodeRanges.Kannada
-  - System.Text.Unicode.UnicodeRanges.Malayalam
-  - System.Text.Unicode.UnicodeRanges.Sinhala
-  - System.Text.Unicode.UnicodeRanges.Thai
-  - System.Text.Unicode.UnicodeRanges.Lao
-  - System.Text.Unicode.UnicodeRanges.Tibetan
-  - System.Text.Unicode.UnicodeRanges.Myanmar
-  - System.Text.Unicode.UnicodeRanges.Georgian
-  - System.Text.Unicode.UnicodeRanges.HangulJamo
-  - System.Text.Unicode.UnicodeRanges.Ethiopic
-  - System.Text.Unicode.UnicodeRanges.EthiopicSupplement
-  - System.Text.Unicode.UnicodeRanges.Cherokee
-  - System.Text.Unicode.UnicodeRanges.UnifiedCanadianAboriginalSyllabics
-  - System.Text.Unicode.UnicodeRanges.Ogham
-  - System.Text.Unicode.UnicodeRanges.Runic
-  - System.Text.Unicode.UnicodeRanges.Tagalog
-  - System.Text.Unicode.UnicodeRanges.Hanunoo
-  - System.Text.Unicode.UnicodeRanges.Buhid
-  - System.Text.Unicode.UnicodeRanges.Tagbanwa
-  - System.Text.Unicode.UnicodeRanges.Khmer
-  - System.Text.Unicode.UnicodeRanges.Mongolian
-  - System.Text.Unicode.UnicodeRanges.UnifiedCanadianAboriginalSyllabicsExtended
-  - System.Text.Unicode.UnicodeRanges.Limbu
-  - System.Text.Unicode.UnicodeRanges.TaiLe
-  - System.Text.Unicode.UnicodeRanges.NewTaiLue
-  - System.Text.Unicode.UnicodeRanges.KhmerSymbols
-  - System.Text.Unicode.UnicodeRanges.Buginese
-  - System.Text.Unicode.UnicodeRanges.TaiTham
-  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarksExtended
-  - System.Text.Unicode.UnicodeRanges.Balinese
-  - System.Text.Unicode.UnicodeRanges.Sundanese
-  - System.Text.Unicode.UnicodeRanges.Batak
+  - System.Text.Unicode.UnicodeRanges.LatinExtendedC
+  - System.Text.Unicode.UnicodeRanges.LatinExtendedD
+  - System.Text.Unicode.UnicodeRanges.LatinExtendedE
   - System.Text.Unicode.UnicodeRanges.Lepcha
+  - System.Text.Unicode.UnicodeRanges.LetterlikeSymbols
+  - System.Text.Unicode.UnicodeRanges.Limbu
+  - System.Text.Unicode.UnicodeRanges.Lisu
+  - System.Text.Unicode.UnicodeRanges.Malayalam
+  - System.Text.Unicode.UnicodeRanges.Mandaic
+  - System.Text.Unicode.UnicodeRanges.MathematicalOperators
+  - System.Text.Unicode.UnicodeRanges.MeeteiMayek
+  - System.Text.Unicode.UnicodeRanges.MeeteiMayekExtensions
+  - System.Text.Unicode.UnicodeRanges.MiscellaneousMathematicalSymbolsA
+  - System.Text.Unicode.UnicodeRanges.MiscellaneousMathematicalSymbolsB
+  - System.Text.Unicode.UnicodeRanges.MiscellaneousSymbols
+  - System.Text.Unicode.UnicodeRanges.MiscellaneousSymbolsandArrows
+  - System.Text.Unicode.UnicodeRanges.MiscellaneousTechnical
+  - System.Text.Unicode.UnicodeRanges.ModifierToneLetters
+  - System.Text.Unicode.UnicodeRanges.Mongolian
+  - System.Text.Unicode.UnicodeRanges.Myanmar
+  - System.Text.Unicode.UnicodeRanges.MyanmarExtendedA
+  - System.Text.Unicode.UnicodeRanges.MyanmarExtendedB
+  - System.Text.Unicode.UnicodeRanges.NewTaiLue
+  - System.Text.Unicode.UnicodeRanges.NKo
+  - System.Text.Unicode.UnicodeRanges.None
+  - System.Text.Unicode.UnicodeRanges.NumberForms
+  - System.Text.Unicode.UnicodeRanges.Ogham
   - System.Text.Unicode.UnicodeRanges.OlChiki
-  - System.Text.Unicode.UnicodeRanges.SundaneseSupplement
-  - System.Text.Unicode.UnicodeRanges.VedicExtensions
+  - System.Text.Unicode.UnicodeRanges.OpticalCharacterRecognition
+  - System.Text.Unicode.UnicodeRanges.Oriya
+  - System.Text.Unicode.UnicodeRanges.Phagspa
   - System.Text.Unicode.UnicodeRanges.PhoneticExtensions
   - System.Text.Unicode.UnicodeRanges.PhoneticExtensionsSupplement
-  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarksSupplement
-  - System.Text.Unicode.UnicodeRanges.LatinExtendedAdditional
-  - System.Text.Unicode.UnicodeRanges.GreekExtended
-  - System.Text.Unicode.UnicodeRanges.GeneralPunctuation
-  - System.Text.Unicode.UnicodeRanges.SuperscriptsandSubscripts
-  - System.Text.Unicode.UnicodeRanges.CurrencySymbols
-  - System.Text.Unicode.UnicodeRanges.CombiningDiacriticalMarksforSymbols
-  - System.Text.Unicode.UnicodeRanges.LetterlikeSymbols
-  - System.Text.Unicode.UnicodeRanges.NumberForms
-  - System.Text.Unicode.UnicodeRanges.Arrows
-  - System.Text.Unicode.UnicodeRanges.MathematicalOperators
-  - System.Text.Unicode.UnicodeRanges.MiscellaneousTechnical
-  - System.Text.Unicode.UnicodeRanges.ControlPictures
-  - System.Text.Unicode.UnicodeRanges.OpticalCharacterRecognition
-  - System.Text.Unicode.UnicodeRanges.EnclosedAlphanumerics
-  - System.Text.Unicode.UnicodeRanges.BoxDrawing
-  - System.Text.Unicode.UnicodeRanges.BlockElements
-  - System.Text.Unicode.UnicodeRanges.GeometricShapes
-  - System.Text.Unicode.UnicodeRanges.MiscellaneousSymbols
-  - System.Text.Unicode.UnicodeRanges.Dingbats
-  - System.Text.Unicode.UnicodeRanges.MiscellaneousMathematicalSymbolsA
-  - System.Text.Unicode.UnicodeRanges.SupplementalArrowsA
-  - System.Text.Unicode.UnicodeRanges.BraillePatterns
-  - System.Text.Unicode.UnicodeRanges.SupplementalArrowsB
-  - System.Text.Unicode.UnicodeRanges.MiscellaneousMathematicalSymbolsB
-  - System.Text.Unicode.UnicodeRanges.SupplementalMathematicalOperators
-  - System.Text.Unicode.UnicodeRanges.MiscellaneousSymbolsandArrows
-  - System.Text.Unicode.UnicodeRanges.Glagolitic
-  - System.Text.Unicode.UnicodeRanges.LatinExtendedC
-  - System.Text.Unicode.UnicodeRanges.Coptic
-  - System.Text.Unicode.UnicodeRanges.GeorgianSupplement
-  - System.Text.Unicode.UnicodeRanges.Tifinagh
-  - System.Text.Unicode.UnicodeRanges.EthiopicExtended
-  - System.Text.Unicode.UnicodeRanges.CyrillicExtendedA
-  - System.Text.Unicode.UnicodeRanges.SupplementalPunctuation
-  - System.Text.Unicode.UnicodeRanges.CjkRadicalsSupplement
-  - System.Text.Unicode.UnicodeRanges.KangxiRadicals
-  - System.Text.Unicode.UnicodeRanges.IdeographicDescriptionCharacters
-  - System.Text.Unicode.UnicodeRanges.CjkSymbolsandPunctuation
-  - System.Text.Unicode.UnicodeRanges.Hiragana
-  - System.Text.Unicode.UnicodeRanges.Katakana
-  - System.Text.Unicode.UnicodeRanges.Bopomofo
-  - System.Text.Unicode.UnicodeRanges.HangulCompatibilityJamo
-  - System.Text.Unicode.UnicodeRanges.Kanbun
-  - System.Text.Unicode.UnicodeRanges.BopomofoExtended
-  - System.Text.Unicode.UnicodeRanges.CjkStrokes
-  - System.Text.Unicode.UnicodeRanges.KatakanaPhoneticExtensions
-  - System.Text.Unicode.UnicodeRanges.EnclosedCjkLettersandMonths
-  - System.Text.Unicode.UnicodeRanges.CjkCompatibility
-  - System.Text.Unicode.UnicodeRanges.CjkUnifiedIdeographsExtensionA
-  - System.Text.Unicode.UnicodeRanges.YijingHexagramSymbols
-  - System.Text.Unicode.UnicodeRanges.CjkUnifiedIdeographs
-  - System.Text.Unicode.UnicodeRanges.YiSyllables
-  - System.Text.Unicode.UnicodeRanges.YiRadicals
-  - System.Text.Unicode.UnicodeRanges.Lisu
-  - System.Text.Unicode.UnicodeRanges.Vai
-  - System.Text.Unicode.UnicodeRanges.CyrillicExtendedB
-  - System.Text.Unicode.UnicodeRanges.Bamum
-  - System.Text.Unicode.UnicodeRanges.ModifierToneLetters
-  - System.Text.Unicode.UnicodeRanges.LatinExtendedD
-  - System.Text.Unicode.UnicodeRanges.SylotiNagri
-  - System.Text.Unicode.UnicodeRanges.CommonIndicNumberForms
-  - System.Text.Unicode.UnicodeRanges.Phagspa
-  - System.Text.Unicode.UnicodeRanges.Saurashtra
-  - System.Text.Unicode.UnicodeRanges.DevanagariExtended
-  - System.Text.Unicode.UnicodeRanges.KayahLi
   - System.Text.Unicode.UnicodeRanges.Rejang
-  - System.Text.Unicode.UnicodeRanges.HangulJamoExtendedA
-  - System.Text.Unicode.UnicodeRanges.Javanese
-  - System.Text.Unicode.UnicodeRanges.MyanmarExtendedB
-  - System.Text.Unicode.UnicodeRanges.Cham
-  - System.Text.Unicode.UnicodeRanges.MyanmarExtendedA
-  - System.Text.Unicode.UnicodeRanges.TaiViet
-  - System.Text.Unicode.UnicodeRanges.MeeteiMayekExtensions
-  - System.Text.Unicode.UnicodeRanges.EthiopicExtendedA
-  - System.Text.Unicode.UnicodeRanges.LatinExtendedE
-  - System.Text.Unicode.UnicodeRanges.MeeteiMayek
-  - System.Text.Unicode.UnicodeRanges.HangulSyllables
-  - System.Text.Unicode.UnicodeRanges.HangulJamoExtendedB
-  - System.Text.Unicode.UnicodeRanges.CjkCompatibilityIdeographs
-  - System.Text.Unicode.UnicodeRanges.AlphabeticPresentationForms
-  - System.Text.Unicode.UnicodeRanges.ArabicPresentationFormsA
-  - System.Text.Unicode.UnicodeRanges.VariationSelectors
-  - System.Text.Unicode.UnicodeRanges.VerticalForms
-  - System.Text.Unicode.UnicodeRanges.CombiningHalfMarks
-  - System.Text.Unicode.UnicodeRanges.CjkCompatibilityForms
+  - System.Text.Unicode.UnicodeRanges.Runic
+  - System.Text.Unicode.UnicodeRanges.Samaritan
+  - System.Text.Unicode.UnicodeRanges.Saurashtra
+  - System.Text.Unicode.UnicodeRanges.Sinhala
   - System.Text.Unicode.UnicodeRanges.SmallFormVariants
-  - System.Text.Unicode.UnicodeRanges.ArabicPresentationFormsB
-  - System.Text.Unicode.UnicodeRanges.HalfwidthandFullwidthForms
+  - System.Text.Unicode.UnicodeRanges.SpacingModifierLetters
   - System.Text.Unicode.UnicodeRanges.Specials
+  - System.Text.Unicode.UnicodeRanges.Sundanese
+  - System.Text.Unicode.UnicodeRanges.SundaneseSupplement
+  - System.Text.Unicode.UnicodeRanges.SuperscriptsandSubscripts
+  - System.Text.Unicode.UnicodeRanges.SupplementalArrowsA
+  - System.Text.Unicode.UnicodeRanges.SupplementalArrowsB
+  - System.Text.Unicode.UnicodeRanges.SupplementalMathematicalOperators
+  - System.Text.Unicode.UnicodeRanges.SupplementalPunctuation
+  - System.Text.Unicode.UnicodeRanges.SylotiNagri
+  - System.Text.Unicode.UnicodeRanges.Syriac
+  - System.Text.Unicode.UnicodeRanges.Tagalog
+  - System.Text.Unicode.UnicodeRanges.Tagbanwa
+  - System.Text.Unicode.UnicodeRanges.TaiLe
+  - System.Text.Unicode.UnicodeRanges.TaiTham
+  - System.Text.Unicode.UnicodeRanges.TaiViet
+  - System.Text.Unicode.UnicodeRanges.Tamil
+  - System.Text.Unicode.UnicodeRanges.Telugu
+  - System.Text.Unicode.UnicodeRanges.Thaana
+  - System.Text.Unicode.UnicodeRanges.Thai
+  - System.Text.Unicode.UnicodeRanges.Tibetan
+  - System.Text.Unicode.UnicodeRanges.Tifinagh
+  - System.Text.Unicode.UnicodeRanges.UnifiedCanadianAboriginalSyllabics
+  - System.Text.Unicode.UnicodeRanges.UnifiedCanadianAboriginalSyllabicsExtended
+  - System.Text.Unicode.UnicodeRanges.Vai
+  - System.Text.Unicode.UnicodeRanges.VariationSelectors
+  - System.Text.Unicode.UnicodeRanges.VedicExtensions
+  - System.Text.Unicode.UnicodeRanges.VerticalForms
+  - System.Text.Unicode.UnicodeRanges.YijingHexagramSymbols
+  - System.Text.Unicode.UnicodeRanges.YiRadicals
+  - System.Text.Unicode.UnicodeRanges.YiSyllables
   href: System.Text.Unicode.UnicodeRanges.yml
   name: UnicodeRanges
   fullName: System.Text.Unicode.UnicodeRanges
@@ -3668,11 +3668,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -3680,6 +3682,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3689,6 +3692,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3696,6 +3700,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -3703,12 +3708,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3716,17 +3723,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -3734,18 +3744,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3753,23 +3766,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -3777,18 +3794,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3796,23 +3816,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -3820,6 +3844,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3829,6 +3854,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3836,6 +3862,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -3843,6 +3870,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3852,6 +3880,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3859,6 +3888,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -3866,6 +3896,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3875,6 +3906,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )

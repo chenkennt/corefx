@@ -3,9 +3,9 @@ items:
   id: IIdentity
   parent: System.Security.Principal
   children:
-  - System.Security.Principal.IIdentity.Name
   - System.Security.Principal.IIdentity.AuthenticationType
   - System.Security.Principal.IIdentity.IsAuthenticated
+  - System.Security.Principal.IIdentity.Name
   href: System.Security.Principal.IIdentity.yml
   name: IIdentity
   fullName: System.Security.Principal.IIdentity
@@ -44,7 +44,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Principal.IIdentity.AuthenticationType
   id: AuthenticationType
   parent: System.Security.Principal.IIdentity
@@ -65,7 +64,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Principal.IIdentity.IsAuthenticated
   id: IsAuthenticated
   parent: System.Security.Principal.IIdentity
@@ -86,16 +84,15 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System
@@ -105,5 +102,6 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

@@ -3,19 +3,19 @@ items:
   id: XObject
   parent: System.Xml.Linq
   children:
-  - System.Xml.Linq.XObject.BaseUri
-  - System.Xml.Linq.XObject.Document
-  - System.Xml.Linq.XObject.NodeType
-  - System.Xml.Linq.XObject.Parent
   - System.Xml.Linq.XObject.AddAnnotation(System.Object)
   - System.Xml.Linq.XObject.Annotation(System.Type)
   - System.Xml.Linq.XObject.Annotation``1
   - System.Xml.Linq.XObject.Annotations(System.Type)
   - System.Xml.Linq.XObject.Annotations``1
-  - System.Xml.Linq.XObject.RemoveAnnotations(System.Type)
-  - System.Xml.Linq.XObject.RemoveAnnotations``1
+  - System.Xml.Linq.XObject.BaseUri
   - System.Xml.Linq.XObject.Changed
   - System.Xml.Linq.XObject.Changing
+  - System.Xml.Linq.XObject.Document
+  - System.Xml.Linq.XObject.NodeType
+  - System.Xml.Linq.XObject.Parent
+  - System.Xml.Linq.XObject.RemoveAnnotations(System.Type)
+  - System.Xml.Linq.XObject.RemoveAnnotations``1
   href: System.Xml.Linq.XObject.yml
   name: XObject
   fullName: System.Xml.Linq.XObject
@@ -354,6 +354,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -371,6 +372,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Xml.Linq.XDocument
@@ -396,6 +398,7 @@ references:
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: '{T}'
@@ -405,6 +408,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Object}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Object>
   name.vb: IEnumerable(Of Object)
   fullName: System.Collections.Generic.IEnumerable<System.Object>
@@ -414,12 +418,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -427,17 +433,20 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -447,6 +456,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -458,6 +468,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -471,6 +482,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -480,6 +492,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -491,6 +504,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T

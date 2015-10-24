@@ -116,6 +116,7 @@ references:
 - uid: System.IServiceProvider.GetService(System.Type)
   parent: System.IServiceProvider
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   name: GetService(Type)
   fullName: System.IServiceProvider.GetService(System.Type)
   spec.csharp:
@@ -123,12 +124,14 @@ references:
     name: GetService
     fullName: System.IServiceProvider.GetService
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   - name: (
     fullName: (
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -136,17 +139,20 @@ references:
     name: GetService
     fullName: System.IServiceProvider.GetService
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   - name: (
     fullName: (
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.IServiceProvider
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   name: IServiceProvider
   fullName: System.IServiceProvider
 - uid: System
@@ -168,10 +174,12 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String

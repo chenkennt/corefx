@@ -4,9 +4,9 @@ items:
   parent: System.Net.Http
   children:
   - System.Net.Http.WindowsProxyUsePolicy.DoNotUseProxy
+  - System.Net.Http.WindowsProxyUsePolicy.UseCustomProxy
   - System.Net.Http.WindowsProxyUsePolicy.UseWinHttpProxy
   - System.Net.Http.WindowsProxyUsePolicy.UseWinInetProxy
-  - System.Net.Http.WindowsProxyUsePolicy.UseCustomProxy
   href: System.Net.Http.WindowsProxyUsePolicy.yml
   name: WindowsProxyUsePolicy
   fullName: System.Net.Http.WindowsProxyUsePolicy

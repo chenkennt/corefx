@@ -89,6 +89,7 @@ references:
   type: Namespace
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -98,6 +99,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -105,16 +107,19 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.Encoding.yml
   name: Encoding
   fullName: System.Text.Encoding
 - uid: System.Xml.XmlDictionaryReaderQuotas
@@ -141,6 +146,7 @@ references:
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.IO

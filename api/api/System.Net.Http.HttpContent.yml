@@ -3,20 +3,20 @@ items:
   id: HttpContent
   parent: System.Net.Http
   children:
-  - System.Net.Http.HttpContent.Headers
   - System.Net.Http.HttpContent.#ctor
-  - System.Net.Http.HttpContent.ReadAsStringAsync
-  - System.Net.Http.HttpContent.ReadAsByteArrayAsync
-  - System.Net.Http.HttpContent.ReadAsStreamAsync
-  - System.Net.Http.HttpContent.SerializeToStreamAsync(System.IO.Stream,TransportContext)
-  - System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,TransportContext)
   - System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
+  - System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,TransportContext)
+  - System.Net.Http.HttpContent.CreateContentReadStreamAsync
+  - System.Net.Http.HttpContent.Dispose
+  - System.Net.Http.HttpContent.Dispose(System.Boolean)
+  - System.Net.Http.HttpContent.Headers
   - System.Net.Http.HttpContent.LoadIntoBufferAsync
   - System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
-  - System.Net.Http.HttpContent.CreateContentReadStreamAsync
+  - System.Net.Http.HttpContent.ReadAsByteArrayAsync
+  - System.Net.Http.HttpContent.ReadAsStreamAsync
+  - System.Net.Http.HttpContent.ReadAsStringAsync
+  - System.Net.Http.HttpContent.SerializeToStreamAsync(System.IO.Stream,TransportContext)
   - System.Net.Http.HttpContent.TryComputeLength(System.Int64@)
-  - System.Net.Http.HttpContent.Dispose(System.Boolean)
-  - System.Net.Http.HttpContent.Dispose
   href: System.Net.Http.HttpContent.yml
   name: HttpContent
   fullName: System.Net.Http.HttpContent
@@ -67,7 +67,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpContentHeaders
-      description: 
 - uid: System.Net.Http.HttpContent.#ctor
   id: '#ctor'
   parent: System.Net.Http.HttpContent
@@ -104,7 +103,6 @@ items:
     content.vb: Public Function ReadAsStringAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
-      description: 
 - uid: System.Net.Http.HttpContent.ReadAsByteArrayAsync
   id: ReadAsByteArrayAsync
   parent: System.Net.Http.HttpContent
@@ -124,7 +122,6 @@ items:
     content.vb: Public Function ReadAsByteArrayAsync As Task(Of Byte())
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: 
 - uid: System.Net.Http.HttpContent.ReadAsStreamAsync
   id: ReadAsStreamAsync
   parent: System.Net.Http.HttpContent
@@ -144,7 +141,6 @@ items:
     content.vb: Public Function ReadAsStreamAsync As Task(Of Stream)
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
-      description: 
 - uid: System.Net.Http.HttpContent.SerializeToStreamAsync(System.IO.Stream,TransportContext)
   id: SerializeToStreamAsync(System.IO.Stream,TransportContext)
   parent: System.Net.Http.HttpContent
@@ -169,7 +165,6 @@ items:
       type: TransportContext
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,TransportContext)
   id: CopyToAsync(System.IO.Stream,TransportContext)
   parent: System.Net.Http.HttpContent
@@ -194,7 +189,6 @@ items:
       type: TransportContext
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
   id: CopyToAsync(System.IO.Stream)
   parent: System.Net.Http.HttpContent
@@ -217,7 +211,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync
   id: LoadIntoBufferAsync
   parent: System.Net.Http.HttpContent
@@ -237,7 +230,6 @@ items:
     content.vb: Public Function LoadIntoBufferAsync As Task
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
   id: LoadIntoBufferAsync(System.Int64)
   parent: System.Net.Http.HttpContent
@@ -260,7 +252,6 @@ items:
       type: System.Int64
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.Net.Http.HttpContent.CreateContentReadStreamAsync
   id: CreateContentReadStreamAsync
   parent: System.Net.Http.HttpContent
@@ -280,7 +271,6 @@ items:
     content.vb: Protected Overridable Function CreateContentReadStreamAsync As Task(Of Stream)
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
-      description: 
 - uid: System.Net.Http.HttpContent.TryComputeLength(System.Int64@)
   id: TryComputeLength(System.Int64@)
   parent: System.Net.Http.HttpContent
@@ -305,7 +295,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpContent.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.Net.Http.HttpContent
@@ -352,11 +341,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -364,6 +355,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -373,6 +365,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -380,6 +373,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -387,12 +381,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -400,17 +396,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -418,18 +417,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -437,23 +439,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -461,18 +467,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -480,23 +489,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -504,6 +517,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -513,6 +527,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -520,6 +535,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -527,6 +543,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -536,6 +553,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -543,6 +561,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -550,6 +569,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -559,6 +579,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -582,6 +603,7 @@ references:
 - uid: System.Threading.Tasks.Task{System.String}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<String>
   name.vb: Task(Of String)
   fullName: System.Threading.Tasks.Task<System.String>
@@ -591,12 +613,14 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -604,17 +628,20 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Task`1
   parent: System.Threading.Tasks
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<TResult>
   name.vb: Task(Of TResult)
   fullName: System.Threading.Tasks.Task<TResult>
@@ -624,6 +651,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -635,6 +663,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -649,6 +678,7 @@ references:
 - uid: System.Threading.Tasks.Task{System.Byte[]}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<Byte[]>
   name.vb: Task(Of Byte())
   fullName: System.Threading.Tasks.Task<System.Byte[]>
@@ -658,12 +688,14 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: '>'
@@ -673,12 +705,14 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: )
@@ -686,6 +720,7 @@ references:
 - uid: System.Threading.Tasks.Task{System.IO.Stream}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<Stream>
   name.vb: Task(Of Stream)
   fullName: System.Threading.Tasks.Task<System.IO.Stream>
@@ -695,12 +730,14 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -708,17 +745,20 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: TransportContext
@@ -728,6 +768,7 @@ references:
 - uid: System.Threading.Tasks.Task
   parent: System.Threading.Tasks
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task.yml
   name: Task
   fullName: System.Threading.Tasks.Task
 - uid: System.IO
@@ -737,10 +778,12 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

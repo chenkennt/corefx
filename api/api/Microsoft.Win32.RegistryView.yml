@@ -4,8 +4,8 @@ items:
   parent: Microsoft.Win32
   children:
   - Microsoft.Win32.RegistryView.Default
-  - Microsoft.Win32.RegistryView.Registry64
   - Microsoft.Win32.RegistryView.Registry32
+  - Microsoft.Win32.RegistryView.Registry64
   href: Microsoft.Win32.RegistryView.yml
   name: RegistryView
   fullName: Microsoft.Win32.RegistryView

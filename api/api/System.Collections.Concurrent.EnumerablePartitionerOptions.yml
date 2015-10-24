@@ -3,8 +3,8 @@ items:
   id: EnumerablePartitionerOptions
   parent: System.Collections.Concurrent
   children:
-  - System.Collections.Concurrent.EnumerablePartitionerOptions.None
   - System.Collections.Concurrent.EnumerablePartitionerOptions.NoBuffering
+  - System.Collections.Concurrent.EnumerablePartitionerOptions.None
   href: System.Collections.Concurrent.EnumerablePartitionerOptions.yml
   name: EnumerablePartitionerOptions
   fullName: System.Collections.Concurrent.EnumerablePartitionerOptions

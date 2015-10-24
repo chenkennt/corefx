@@ -3,23 +3,23 @@ items:
   id: XmlNodeType
   parent: System.Xml
   children:
-  - System.Xml.XmlNodeType.None
-  - System.Xml.XmlNodeType.Element
   - System.Xml.XmlNodeType.Attribute
-  - System.Xml.XmlNodeType.Text
   - System.Xml.XmlNodeType.CDATA
-  - System.Xml.XmlNodeType.EntityReference
-  - System.Xml.XmlNodeType.Entity
-  - System.Xml.XmlNodeType.ProcessingInstruction
   - System.Xml.XmlNodeType.Comment
   - System.Xml.XmlNodeType.Document
-  - System.Xml.XmlNodeType.DocumentType
   - System.Xml.XmlNodeType.DocumentFragment
-  - System.Xml.XmlNodeType.Notation
-  - System.Xml.XmlNodeType.Whitespace
-  - System.Xml.XmlNodeType.SignificantWhitespace
+  - System.Xml.XmlNodeType.DocumentType
+  - System.Xml.XmlNodeType.Element
   - System.Xml.XmlNodeType.EndElement
   - System.Xml.XmlNodeType.EndEntity
+  - System.Xml.XmlNodeType.Entity
+  - System.Xml.XmlNodeType.EntityReference
+  - System.Xml.XmlNodeType.None
+  - System.Xml.XmlNodeType.Notation
+  - System.Xml.XmlNodeType.ProcessingInstruction
+  - System.Xml.XmlNodeType.SignificantWhitespace
+  - System.Xml.XmlNodeType.Text
+  - System.Xml.XmlNodeType.Whitespace
   - System.Xml.XmlNodeType.XmlDeclaration
   href: System.Xml.XmlNodeType.yml
   name: XmlNodeType

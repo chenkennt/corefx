@@ -3,18 +3,18 @@ items:
   id: DllCharacteristics
   parent: System.Reflection.PortableExecutable
   children:
-  - System.Reflection.PortableExecutable.DllCharacteristics.ProcessInit
-  - System.Reflection.PortableExecutable.DllCharacteristics.ProcessTerm
-  - System.Reflection.PortableExecutable.DllCharacteristics.ThreadInit
-  - System.Reflection.PortableExecutable.DllCharacteristics.ThreadTerm
+  - System.Reflection.PortableExecutable.DllCharacteristics.AppContainer
   - System.Reflection.PortableExecutable.DllCharacteristics.DynamicBase
-  - System.Reflection.PortableExecutable.DllCharacteristics.NxCompatible
+  - System.Reflection.PortableExecutable.DllCharacteristics.NoBind
   - System.Reflection.PortableExecutable.DllCharacteristics.NoIsolation
   - System.Reflection.PortableExecutable.DllCharacteristics.NoSeh
-  - System.Reflection.PortableExecutable.DllCharacteristics.NoBind
-  - System.Reflection.PortableExecutable.DllCharacteristics.AppContainer
-  - System.Reflection.PortableExecutable.DllCharacteristics.WdmDriver
+  - System.Reflection.PortableExecutable.DllCharacteristics.NxCompatible
+  - System.Reflection.PortableExecutable.DllCharacteristics.ProcessInit
+  - System.Reflection.PortableExecutable.DllCharacteristics.ProcessTerm
   - System.Reflection.PortableExecutable.DllCharacteristics.TerminalServerAware
+  - System.Reflection.PortableExecutable.DllCharacteristics.ThreadInit
+  - System.Reflection.PortableExecutable.DllCharacteristics.ThreadTerm
+  - System.Reflection.PortableExecutable.DllCharacteristics.WdmDriver
   href: System.Reflection.PortableExecutable.DllCharacteristics.yml
   name: DllCharacteristics
   fullName: System.Reflection.PortableExecutable.DllCharacteristics

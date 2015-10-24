@@ -3,12 +3,12 @@ items:
   id: ThreadPriorityLevel
   parent: System.Diagnostics
   children:
+  - System.Diagnostics.ThreadPriorityLevel.AboveNormal
+  - System.Diagnostics.ThreadPriorityLevel.BelowNormal
+  - System.Diagnostics.ThreadPriorityLevel.Highest
   - System.Diagnostics.ThreadPriorityLevel.Idle
   - System.Diagnostics.ThreadPriorityLevel.Lowest
-  - System.Diagnostics.ThreadPriorityLevel.BelowNormal
   - System.Diagnostics.ThreadPriorityLevel.Normal
-  - System.Diagnostics.ThreadPriorityLevel.AboveNormal
-  - System.Diagnostics.ThreadPriorityLevel.Highest
   - System.Diagnostics.ThreadPriorityLevel.TimeCritical
   href: System.Diagnostics.ThreadPriorityLevel.yml
   name: ThreadPriorityLevel

@@ -3,10 +3,10 @@ items:
   id: ProcessWindowStyle
   parent: System.Diagnostics
   children:
-  - System.Diagnostics.ProcessWindowStyle.Normal
   - System.Diagnostics.ProcessWindowStyle.Hidden
-  - System.Diagnostics.ProcessWindowStyle.Minimized
   - System.Diagnostics.ProcessWindowStyle.Maximized
+  - System.Diagnostics.ProcessWindowStyle.Minimized
+  - System.Diagnostics.ProcessWindowStyle.Normal
   href: System.Diagnostics.ProcessWindowStyle.yml
   name: ProcessWindowStyle
   fullName: System.Diagnostics.ProcessWindowStyle

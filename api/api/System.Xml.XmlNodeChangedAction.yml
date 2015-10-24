@@ -3,9 +3,9 @@ items:
   id: XmlNodeChangedAction
   parent: System.Xml
   children:
+  - System.Xml.XmlNodeChangedAction.Change
   - System.Xml.XmlNodeChangedAction.Insert
   - System.Xml.XmlNodeChangedAction.Remove
-  - System.Xml.XmlNodeChangedAction.Change
   href: System.Xml.XmlNodeChangedAction.yml
   name: XmlNodeChangedAction
   fullName: System.Xml.XmlNodeChangedAction

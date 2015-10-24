@@ -3,60 +3,60 @@ items:
   id: XmlDictionaryWriter
   parent: System.Xml
   children:
+  - System.Xml.XmlDictionaryWriter.CanCanonicalize
+  - System.Xml.XmlDictionaryWriter.Close
   - System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream)
   - System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary)
   - System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession)
   - System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession,System.Boolean)
+  - System.Xml.XmlDictionaryWriter.CreateDictionaryWriter(XmlWriter)
   - System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream)
   - System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream,System.Text.Encoding)
   - System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream,System.Text.Encoding,System.Boolean)
-  - System.Xml.XmlDictionaryWriter.CreateDictionaryWriter(XmlWriter)
-  - System.Xml.XmlDictionaryWriter.WriteStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryWriter.WriteStartElement(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryWriter.WriteStartAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryWriter.WriteStartAttribute(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryWriter.WriteAttributeString(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String)
-  - System.Xml.XmlDictionaryWriter.WriteXmlnsAttribute(System.String,System.String)
-  - System.Xml.XmlDictionaryWriter.WriteXmlnsAttribute(System.String,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryWriter.WriteXmlAttribute(System.String,System.String)
-  - System.Xml.XmlDictionaryWriter.WriteXmlAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.Dispose(System.Boolean)
+  - System.Xml.XmlDictionaryWriter.EndCanonicalization
+  - System.Xml.XmlDictionaryWriter.StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Boolean[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.DateTime[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Decimal[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Double[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Guid[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Int16[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Int32[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Int64[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Single[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.TimeSpan[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32)
   - System.Xml.XmlDictionaryWriter.WriteAttributeString(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String)
-  - System.Xml.XmlDictionaryWriter.WriteElementString(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String)
+  - System.Xml.XmlDictionaryWriter.WriteAttributeString(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String)
   - System.Xml.XmlDictionaryWriter.WriteElementString(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String)
-  - System.Xml.XmlDictionaryWriter.WriteString(System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteElementString(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String)
+  - System.Xml.XmlDictionaryWriter.WriteNode(System.Xml.XmlDictionaryReader,System.Boolean)
+  - System.Xml.XmlDictionaryWriter.WriteNode(XmlReader,System.Boolean)
   - System.Xml.XmlDictionaryWriter.WriteQualifiedName(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryWriter.WriteValue(System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryWriter.WriteValue(System.Xml.UniqueId)
+  - System.Xml.XmlDictionaryWriter.WriteStartAttribute(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteStartAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteStartElement(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteString(System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteTextNode(System.Xml.XmlDictionaryReader,System.Boolean)
   - System.Xml.XmlDictionaryWriter.WriteValue(System.Guid)
   - System.Xml.XmlDictionaryWriter.WriteValue(System.TimeSpan)
-  - System.Xml.XmlDictionaryWriter.CanCanonicalize
-  - System.Xml.XmlDictionaryWriter.StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
-  - System.Xml.XmlDictionaryWriter.EndCanonicalization
-  - System.Xml.XmlDictionaryWriter.WriteTextNode(System.Xml.XmlDictionaryReader,System.Boolean)
-  - System.Xml.XmlDictionaryWriter.WriteNode(XmlReader,System.Boolean)
-  - System.Xml.XmlDictionaryWriter.WriteNode(System.Xml.XmlDictionaryReader,System.Boolean)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Boolean[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Int16[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Int32[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Int64[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Single[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Double[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Decimal[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.DateTime[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.Guid[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.String,System.String,System.TimeSpan[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryWriter.Dispose(System.Boolean)
-  - System.Xml.XmlDictionaryWriter.Close
+  - System.Xml.XmlDictionaryWriter.WriteValue(System.Xml.UniqueId)
+  - System.Xml.XmlDictionaryWriter.WriteValue(System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteXmlAttribute(System.String,System.String)
+  - System.Xml.XmlDictionaryWriter.WriteXmlAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryWriter.WriteXmlnsAttribute(System.String,System.String)
+  - System.Xml.XmlDictionaryWriter.WriteXmlnsAttribute(System.String,System.Xml.XmlDictionaryString)
   href: System.Xml.XmlDictionaryWriter.yml
   name: XmlDictionaryWriter
   fullName: System.Xml.XmlDictionaryWriter
@@ -99,7 +99,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary)
   id: CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary)
   parent: System.Xml.XmlDictionaryWriter
@@ -124,7 +123,6 @@ items:
       type: System.Xml.IXmlDictionary
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession)
   id: CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession)
   parent: System.Xml.XmlDictionaryWriter
@@ -151,7 +149,6 @@ items:
       type: System.Xml.XmlBinaryWriterSession
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession,System.Boolean)
   id: CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession,System.Boolean)
   parent: System.Xml.XmlDictionaryWriter
@@ -180,7 +177,6 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream)
   id: CreateTextWriter(System.IO.Stream)
   parent: System.Xml.XmlDictionaryWriter
@@ -203,7 +199,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream,System.Text.Encoding)
   id: CreateTextWriter(System.IO.Stream,System.Text.Encoding)
   parent: System.Xml.XmlDictionaryWriter
@@ -228,7 +223,6 @@ items:
       type: System.Text.Encoding
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream,System.Text.Encoding,System.Boolean)
   id: CreateTextWriter(System.IO.Stream,System.Text.Encoding,System.Boolean)
   parent: System.Xml.XmlDictionaryWriter
@@ -255,7 +249,6 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateDictionaryWriter(XmlWriter)
   id: CreateDictionaryWriter(XmlWriter)
   parent: System.Xml.XmlDictionaryWriter
@@ -278,7 +271,6 @@ items:
       type: XmlWriter
     return:
       type: System.Xml.XmlDictionaryWriter
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.WriteStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: WriteStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryWriter
@@ -701,7 +693,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryWriter.StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
   id: StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
   parent: System.Xml.XmlDictionaryWriter
@@ -1497,6 +1488,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -1506,6 +1498,7 @@ references:
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.Xml.XmlDictionaryWriter
@@ -1534,11 +1527,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.Encoding.yml
   name: Encoding
   fullName: System.Text.Encoding
 - uid: System.Text
@@ -1559,6 +1554,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Xml.UniqueId
@@ -1571,15 +1567,18 @@ references:
 - uid: System.Guid
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: Guid
   fullName: System.Guid
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -1589,6 +1588,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1596,6 +1596,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()
 - uid: System.Xml.XmlDictionaryReader
@@ -1611,6 +1612,7 @@ references:
   fullName: XmlReader
 - uid: System.Boolean[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean[]
   name.vb: Boolean()
   fullName: System.Boolean[]
@@ -1620,6 +1622,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1627,15 +1630,18 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ()
     fullName: ()
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Int16[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   name: Int16[]
   name.vb: Int16()
   fullName: System.Int16[]
@@ -1645,6 +1651,7 @@ references:
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1652,10 +1659,12 @@ references:
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: ()
     fullName: ()
 - uid: System.Int32[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32[]
   name.vb: Int32()
   fullName: System.Int32[]
@@ -1665,6 +1674,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1672,10 +1682,12 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ()
     fullName: ()
 - uid: System.Int64[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64[]
   name.vb: Int64()
   fullName: System.Int64[]
@@ -1685,6 +1697,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1692,10 +1705,12 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ()
     fullName: ()
 - uid: System.Single[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single[]
   name.vb: Single()
   fullName: System.Single[]
@@ -1705,6 +1720,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1712,10 +1728,12 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: ()
     fullName: ()
 - uid: System.Double[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double[]
   name.vb: Double()
   fullName: System.Double[]
@@ -1725,6 +1743,7 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1732,10 +1751,12 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: ()
     fullName: ()
 - uid: System.Decimal[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal[]
   name.vb: Decimal()
   fullName: System.Decimal[]
@@ -1745,6 +1766,7 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1752,10 +1774,12 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: ()
     fullName: ()
 - uid: System.DateTime[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime[]
   name.vb: DateTime()
   fullName: System.DateTime[]
@@ -1765,6 +1789,7 @@ references:
     name: DateTime
     fullName: System.DateTime
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1772,10 +1797,12 @@ references:
     name: DateTime
     fullName: System.DateTime
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   - name: ()
     fullName: ()
 - uid: System.Guid[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: Guid[]
   name.vb: Guid()
   fullName: System.Guid[]
@@ -1785,6 +1812,7 @@ references:
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1792,10 +1820,12 @@ references:
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ()
     fullName: ()
 - uid: System.TimeSpan[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan[]
   name.vb: TimeSpan()
   fullName: System.TimeSpan[]
@@ -1805,6 +1835,7 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1812,5 +1843,6 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ()
     fullName: ()

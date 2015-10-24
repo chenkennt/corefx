@@ -2,17 +2,17 @@ items:
 - uid: System.Reflection
   id: System.Reflection
   children:
-  - System.Reflection.DispatchProxy
-  - System.Reflection.DeclarativeSecurityAction
-  - System.Reflection.MethodImportAttributes
-  - System.Reflection.ManifestResourceAttributes
-  - System.Reflection.AssemblyHashAlgorithm
-  - System.Reflection.AssemblyFlags
-  - System.Reflection.TypeExtensions
   - System.Reflection.AssemblyExtensions
+  - System.Reflection.AssemblyFlags
+  - System.Reflection.AssemblyHashAlgorithm
+  - System.Reflection.DeclarativeSecurityAction
+  - System.Reflection.DispatchProxy
   - System.Reflection.EventInfoExtensions
+  - System.Reflection.ManifestResourceAttributes
+  - System.Reflection.MethodImportAttributes
   - System.Reflection.MethodInfoExtensions
   - System.Reflection.PropertyInfoExtensions
+  - System.Reflection.TypeExtensions
   href: System.Reflection.yml
   name: System.Reflection
   fullName: System.Reflection

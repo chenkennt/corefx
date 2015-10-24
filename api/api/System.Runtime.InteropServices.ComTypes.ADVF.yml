@@ -3,12 +3,12 @@ items:
   id: ADVF
   parent: System.Runtime.InteropServices.ComTypes
   children:
-  - System.Runtime.InteropServices.ComTypes.ADVF.ADVF_NODATA
-  - System.Runtime.InteropServices.ComTypes.ADVF.ADVF_PRIMEFIRST
-  - System.Runtime.InteropServices.ComTypes.ADVF.ADVF_ONLYONCE
   - System.Runtime.InteropServices.ComTypes.ADVF.ADVF_DATAONSTOP
-  - System.Runtime.InteropServices.ComTypes.ADVF.ADVFCACHE_NOHANDLER
+  - System.Runtime.InteropServices.ComTypes.ADVF.ADVF_NODATA
+  - System.Runtime.InteropServices.ComTypes.ADVF.ADVF_ONLYONCE
+  - System.Runtime.InteropServices.ComTypes.ADVF.ADVF_PRIMEFIRST
   - System.Runtime.InteropServices.ComTypes.ADVF.ADVFCACHE_FORCEBUILTIN
+  - System.Runtime.InteropServices.ComTypes.ADVF.ADVFCACHE_NOHANDLER
   - System.Runtime.InteropServices.ComTypes.ADVF.ADVFCACHE_ONSAVE
   href: System.Runtime.InteropServices.ComTypes.ADVF.yml
   name: ADVF

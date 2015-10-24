@@ -4,9 +4,9 @@ items:
   parent: System.Collections.Concurrent
   children:
   - System.Collections.Concurrent.IProducerConsumerCollection`1.CopyTo(`0[],System.Int32)
+  - System.Collections.Concurrent.IProducerConsumerCollection`1.ToArray
   - System.Collections.Concurrent.IProducerConsumerCollection`1.TryAdd(`0)
   - System.Collections.Concurrent.IProducerConsumerCollection`1.TryTake(`0@)
-  - System.Collections.Concurrent.IProducerConsumerCollection`1.ToArray
   href: System.Collections.Concurrent.IProducerConsumerCollection`1.yml
   name: IProducerConsumerCollection<T>
   name.vb: IProducerConsumerCollection(Of T)
@@ -190,6 +190,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{T}}.GetEnumerator
   parent: System.Collections.Generic.IEnumerable{{T}}
   definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
@@ -198,6 +199,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -207,6 +209,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -214,6 +217,7 @@ references:
 - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: CopyTo(Array, Int32)
   fullName: System.Collections.ICollection.CopyTo(System.Array, System.Int32)
   spec.csharp:
@@ -221,18 +225,21 @@ references:
     name: CopyTo
     fullName: System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -240,38 +247,45 @@ references:
     name: CopyTo
     fullName: System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ICollection.Count
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: Count
   fullName: System.Collections.ICollection.Count
 - uid: System.Collections.ICollection.SyncRoot
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: SyncRoot
   fullName: System.Collections.ICollection.SyncRoot
 - uid: System.Collections.ICollection.IsSynchronized
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: IsSynchronized
   fullName: System.Collections.ICollection.IsSynchronized
 - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
   parent: System.Collections.Generic.IEnumerable`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
@@ -280,6 +294,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -289,6 +304,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -296,6 +312,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -305,6 +322,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -316,6 +334,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -325,11 +344,13 @@ references:
 - uid: System.Collections.ICollection
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: ICollection
   fullName: System.Collections.ICollection
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -339,6 +360,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -350,6 +372,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -397,10 +420,6 @@ references:
   - name: )
     fullName: )
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array
 - uid: System.ArgumentNullException
 - uid: System.ArgumentOutOfRangeException
 - uid: System.ArgumentException
@@ -423,6 +442,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System
@@ -436,5 +456,6 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

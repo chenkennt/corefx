@@ -3,14 +3,14 @@ items:
   id: RegistryValueKind
   parent: Microsoft.Win32
   children:
-  - Microsoft.Win32.RegistryValueKind.String
-  - Microsoft.Win32.RegistryValueKind.ExpandString
   - Microsoft.Win32.RegistryValueKind.Binary
   - Microsoft.Win32.RegistryValueKind.DWord
+  - Microsoft.Win32.RegistryValueKind.ExpandString
   - Microsoft.Win32.RegistryValueKind.MultiString
-  - Microsoft.Win32.RegistryValueKind.QWord
-  - Microsoft.Win32.RegistryValueKind.Unknown
   - Microsoft.Win32.RegistryValueKind.None
+  - Microsoft.Win32.RegistryValueKind.QWord
+  - Microsoft.Win32.RegistryValueKind.String
+  - Microsoft.Win32.RegistryValueKind.Unknown
   href: Microsoft.Win32.RegistryValueKind.yml
   name: RegistryValueKind
   fullName: Microsoft.Win32.RegistryValueKind

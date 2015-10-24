@@ -3,16 +3,16 @@ items:
   id: CSharpBinderFlags
   parent: Microsoft.CSharp.RuntimeBinder
   children:
-  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.None
+  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.BinaryOperationLogical
   - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.CheckedContext
+  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ConvertArrayIndex
+  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ConvertExplicit
   - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.InvokeSimpleName
   - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.InvokeSpecialName
-  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.BinaryOperationLogical
-  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ConvertExplicit
-  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ConvertArrayIndex
+  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.None
+  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ResultDiscarded
   - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ResultIndexed
   - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ValueFromCompoundAssignment
-  - Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ResultDiscarded
   href: Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.yml
   name: CSharpBinderFlags
   fullName: Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags

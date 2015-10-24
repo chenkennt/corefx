@@ -3,9 +3,9 @@ items:
   id: X509SubjectKeyIdentifierHashAlgorithm
   parent: System.Security.Cryptography.X509Certificates
   children:
+  - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm.CapiSha1
   - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm.Sha1
   - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm.ShortSha1
-  - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm.CapiSha1
   href: System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm.yml
   name: X509SubjectKeyIdentifierHashAlgorithm
   fullName: System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm

@@ -47,7 +47,6 @@ items:
       type: System.Linq.Expressions.Expression
     return:
       type: System.Linq.IQueryable
-      description: 
 - uid: System.Linq.IQueryProvider.CreateQuery``1(System.Linq.Expressions.Expression)
   id: CreateQuery``1(System.Linq.Expressions.Expression)
   parent: System.Linq.IQueryProvider
@@ -74,7 +73,6 @@ items:
     - id: TElement
     return:
       type: System.Linq.IQueryable{{TElement}}
-      description: 
 - uid: System.Linq.IQueryProvider.Execute(System.Linq.Expressions.Expression)
   id: Execute(System.Linq.Expressions.Expression)
   parent: System.Linq.IQueryProvider
@@ -97,7 +95,6 @@ items:
       type: System.Linq.Expressions.Expression
     return:
       type: System.Object
-      description: 
 - uid: System.Linq.IQueryProvider.Execute``1(System.Linq.Expressions.Expression)
   id: Execute``1(System.Linq.Expressions.Expression)
   parent: System.Linq.IQueryProvider
@@ -124,7 +121,6 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
-      description: 
 references:
 - uid: System.Linq
   isExternal: false
@@ -213,6 +209,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System

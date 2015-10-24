@@ -6,32 +6,32 @@ items:
   - System.Reflection.Metadata.BlobReader.#ctor(System.Byte*,System.Int32)
   - System.Reflection.Metadata.BlobReader.Length
   - System.Reflection.Metadata.BlobReader.Offset
+  - System.Reflection.Metadata.BlobReader.ReadBoolean
+  - System.Reflection.Metadata.BlobReader.ReadByte
+  - System.Reflection.Metadata.BlobReader.ReadBytes(System.Int32)
+  - System.Reflection.Metadata.BlobReader.ReadChar
+  - System.Reflection.Metadata.BlobReader.ReadCompressedInteger
+  - System.Reflection.Metadata.BlobReader.ReadCompressedSignedInteger
+  - System.Reflection.Metadata.BlobReader.ReadDouble
+  - System.Reflection.Metadata.BlobReader.ReadInt16
+  - System.Reflection.Metadata.BlobReader.ReadInt32
+  - System.Reflection.Metadata.BlobReader.ReadInt64
+  - System.Reflection.Metadata.BlobReader.ReadSByte
+  - System.Reflection.Metadata.BlobReader.ReadSerializationTypeCode
+  - System.Reflection.Metadata.BlobReader.ReadSerializedString
+  - System.Reflection.Metadata.BlobReader.ReadSignatureHeader
+  - System.Reflection.Metadata.BlobReader.ReadSignatureTypeCode
+  - System.Reflection.Metadata.BlobReader.ReadSingle
+  - System.Reflection.Metadata.BlobReader.ReadTypeHandle
+  - System.Reflection.Metadata.BlobReader.ReadUInt16
+  - System.Reflection.Metadata.BlobReader.ReadUInt32
+  - System.Reflection.Metadata.BlobReader.ReadUInt64
+  - System.Reflection.Metadata.BlobReader.ReadUTF16(System.Int32)
+  - System.Reflection.Metadata.BlobReader.ReadUTF8(System.Int32)
   - System.Reflection.Metadata.BlobReader.RemainingBytes
   - System.Reflection.Metadata.BlobReader.Reset
-  - System.Reflection.Metadata.BlobReader.ReadBoolean
-  - System.Reflection.Metadata.BlobReader.ReadSByte
-  - System.Reflection.Metadata.BlobReader.ReadByte
-  - System.Reflection.Metadata.BlobReader.ReadChar
-  - System.Reflection.Metadata.BlobReader.ReadInt16
-  - System.Reflection.Metadata.BlobReader.ReadUInt16
-  - System.Reflection.Metadata.BlobReader.ReadInt32
-  - System.Reflection.Metadata.BlobReader.ReadUInt32
-  - System.Reflection.Metadata.BlobReader.ReadInt64
-  - System.Reflection.Metadata.BlobReader.ReadUInt64
-  - System.Reflection.Metadata.BlobReader.ReadSingle
-  - System.Reflection.Metadata.BlobReader.ReadDouble
-  - System.Reflection.Metadata.BlobReader.ReadSignatureHeader
-  - System.Reflection.Metadata.BlobReader.ReadUTF8(System.Int32)
-  - System.Reflection.Metadata.BlobReader.ReadUTF16(System.Int32)
-  - System.Reflection.Metadata.BlobReader.ReadBytes(System.Int32)
   - System.Reflection.Metadata.BlobReader.TryReadCompressedInteger(System.Int32@)
-  - System.Reflection.Metadata.BlobReader.ReadCompressedInteger
   - System.Reflection.Metadata.BlobReader.TryReadCompressedSignedInteger(System.Int32@)
-  - System.Reflection.Metadata.BlobReader.ReadCompressedSignedInteger
-  - System.Reflection.Metadata.BlobReader.ReadSerializationTypeCode
-  - System.Reflection.Metadata.BlobReader.ReadSignatureTypeCode
-  - System.Reflection.Metadata.BlobReader.ReadSerializedString
-  - System.Reflection.Metadata.BlobReader.ReadTypeHandle
   href: System.Reflection.Metadata.BlobReader.yml
   name: BlobReader
   fullName: System.Reflection.Metadata.BlobReader
@@ -99,7 +99,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.Offset
   id: Offset
   parent: System.Reflection.Metadata.BlobReader
@@ -120,7 +119,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.RemainingBytes
   id: RemainingBytes
   parent: System.Reflection.Metadata.BlobReader
@@ -141,7 +139,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.Reset
   id: Reset
   parent: System.Reflection.Metadata.BlobReader
@@ -178,7 +175,6 @@ items:
     content.vb: Public Function ReadBoolean As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadSByte
   id: ReadSByte
   parent: System.Reflection.Metadata.BlobReader
@@ -198,7 +194,6 @@ items:
     content.vb: Public Function ReadSByte As SByte
     return:
       type: System.SByte
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadByte
   id: ReadByte
   parent: System.Reflection.Metadata.BlobReader
@@ -218,7 +213,6 @@ items:
     content.vb: Public Function ReadByte As Byte
     return:
       type: System.Byte
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadChar
   id: ReadChar
   parent: System.Reflection.Metadata.BlobReader
@@ -238,7 +232,6 @@ items:
     content.vb: Public Function ReadChar As Char
     return:
       type: System.Char
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadInt16
   id: ReadInt16
   parent: System.Reflection.Metadata.BlobReader
@@ -258,7 +251,6 @@ items:
     content.vb: Public Function ReadInt16 As Short
     return:
       type: System.Int16
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUInt16
   id: ReadUInt16
   parent: System.Reflection.Metadata.BlobReader
@@ -278,7 +270,6 @@ items:
     content.vb: Public Function ReadUInt16 As UShort
     return:
       type: System.UInt16
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadInt32
   id: ReadInt32
   parent: System.Reflection.Metadata.BlobReader
@@ -298,7 +289,6 @@ items:
     content.vb: Public Function ReadInt32 As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUInt32
   id: ReadUInt32
   parent: System.Reflection.Metadata.BlobReader
@@ -318,7 +308,6 @@ items:
     content.vb: Public Function ReadUInt32 As UInteger
     return:
       type: System.UInt32
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadInt64
   id: ReadInt64
   parent: System.Reflection.Metadata.BlobReader
@@ -338,7 +327,6 @@ items:
     content.vb: Public Function ReadInt64 As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUInt64
   id: ReadUInt64
   parent: System.Reflection.Metadata.BlobReader
@@ -358,7 +346,6 @@ items:
     content.vb: Public Function ReadUInt64 As ULong
     return:
       type: System.UInt64
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadSingle
   id: ReadSingle
   parent: System.Reflection.Metadata.BlobReader
@@ -378,7 +365,6 @@ items:
     content.vb: Public Function ReadSingle As Single
     return:
       type: System.Single
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadDouble
   id: ReadDouble
   parent: System.Reflection.Metadata.BlobReader
@@ -398,7 +384,6 @@ items:
     content.vb: Public Function ReadDouble As Double
     return:
       type: System.Double
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadSignatureHeader
   id: ReadSignatureHeader
   parent: System.Reflection.Metadata.BlobReader
@@ -418,7 +403,6 @@ items:
     content.vb: Public Function ReadSignatureHeader As SignatureHeader
     return:
       type: System.Reflection.Metadata.SignatureHeader
-      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUTF8(System.Int32)
   id: ReadUTF8(System.Int32)
   parent: System.Reflection.Metadata.BlobReader
@@ -717,6 +701,7 @@ references:
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -724,12 +709,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -737,17 +724,20 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -755,6 +745,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -764,6 +755,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -771,6 +763,7 @@ references:
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -778,6 +771,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -787,6 +781,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -794,6 +789,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -801,18 +797,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -820,23 +819,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -844,18 +847,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -863,23 +869,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -887,6 +897,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -896,6 +907,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -903,11 +915,13 @@ references:
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -916,6 +930,7 @@ references:
   fullName: System
 - uid: System.Byte*
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte*
   fullName: System.Byte*
   spec.csharp:
@@ -923,6 +938,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '*'
     fullName: '*'
   spec.vb:
@@ -930,66 +946,79 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '*'
     fullName: '*'
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.SByte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   name: SByte
   fullName: System.SByte
 - uid: System.Byte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte
   fullName: System.Byte
 - uid: System.Char
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char
   fullName: System.Char
 - uid: System.Int16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   name: Int16
   fullName: System.Int16
 - uid: System.UInt16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   name: UInt16
   fullName: System.UInt16
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.Reflection.Metadata.SignatureHeader
@@ -1004,10 +1033,12 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -1017,6 +1048,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1024,6 +1056,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.Reflection.Metadata.SerializationTypeCode.Invalid

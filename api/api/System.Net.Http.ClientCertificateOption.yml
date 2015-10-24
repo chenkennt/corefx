@@ -3,8 +3,8 @@ items:
   id: ClientCertificateOption
   parent: System.Net.Http
   children:
-  - System.Net.Http.ClientCertificateOption.Manual
   - System.Net.Http.ClientCertificateOption.Automatic
+  - System.Net.Http.ClientCertificateOption.Manual
   href: System.Net.Http.ClientCertificateOption.yml
   name: ClientCertificateOption
   fullName: System.Net.Http.ClientCertificateOption

@@ -4,20 +4,10 @@ items:
   parent: System.IO
   children:
   - System.IO.DirectoryInfo.#ctor(System.String)
-  - System.IO.DirectoryInfo.Name
-  - System.IO.DirectoryInfo.Parent
-  - System.IO.DirectoryInfo.CreateSubdirectory(System.String)
   - System.IO.DirectoryInfo.Create
-  - System.IO.DirectoryInfo.Exists
-  - System.IO.DirectoryInfo.GetFiles(System.String)
-  - System.IO.DirectoryInfo.GetFiles(System.String,System.IO.SearchOption)
-  - System.IO.DirectoryInfo.GetFiles
-  - System.IO.DirectoryInfo.GetDirectories
-  - System.IO.DirectoryInfo.GetFileSystemInfos(System.String)
-  - System.IO.DirectoryInfo.GetFileSystemInfos(System.String,System.IO.SearchOption)
-  - System.IO.DirectoryInfo.GetFileSystemInfos
-  - System.IO.DirectoryInfo.GetDirectories(System.String)
-  - System.IO.DirectoryInfo.GetDirectories(System.String,System.IO.SearchOption)
+  - System.IO.DirectoryInfo.CreateSubdirectory(System.String)
+  - System.IO.DirectoryInfo.Delete
+  - System.IO.DirectoryInfo.Delete(System.Boolean)
   - System.IO.DirectoryInfo.EnumerateDirectories
   - System.IO.DirectoryInfo.EnumerateDirectories(System.String)
   - System.IO.DirectoryInfo.EnumerateDirectories(System.String,System.IO.SearchOption)
@@ -27,10 +17,20 @@ items:
   - System.IO.DirectoryInfo.EnumerateFileSystemInfos
   - System.IO.DirectoryInfo.EnumerateFileSystemInfos(System.String)
   - System.IO.DirectoryInfo.EnumerateFileSystemInfos(System.String,System.IO.SearchOption)
-  - System.IO.DirectoryInfo.Root
+  - System.IO.DirectoryInfo.Exists
+  - System.IO.DirectoryInfo.GetDirectories
+  - System.IO.DirectoryInfo.GetDirectories(System.String)
+  - System.IO.DirectoryInfo.GetDirectories(System.String,System.IO.SearchOption)
+  - System.IO.DirectoryInfo.GetFiles
+  - System.IO.DirectoryInfo.GetFiles(System.String)
+  - System.IO.DirectoryInfo.GetFiles(System.String,System.IO.SearchOption)
+  - System.IO.DirectoryInfo.GetFileSystemInfos
+  - System.IO.DirectoryInfo.GetFileSystemInfos(System.String)
+  - System.IO.DirectoryInfo.GetFileSystemInfos(System.String,System.IO.SearchOption)
   - System.IO.DirectoryInfo.MoveTo(System.String)
-  - System.IO.DirectoryInfo.Delete
-  - System.IO.DirectoryInfo.Delete(System.Boolean)
+  - System.IO.DirectoryInfo.Name
+  - System.IO.DirectoryInfo.Parent
+  - System.IO.DirectoryInfo.Root
   - System.IO.DirectoryInfo.ToString
   href: System.IO.DirectoryInfo.yml
   name: DirectoryInfo
@@ -112,7 +112,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.IO.FileSystemInfo.Name
 - uid: System.IO.DirectoryInfo.Parent
   id: Parent
@@ -134,7 +133,6 @@ items:
     parameters: []
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.CreateSubdirectory(System.String)
   id: CreateSubdirectory(System.String)
   parent: System.IO.DirectoryInfo
@@ -157,7 +155,6 @@ items:
       type: System.String
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.Create
   id: Create
   parent: System.IO.DirectoryInfo
@@ -195,7 +192,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.FileSystemInfo.Exists
 - uid: System.IO.DirectoryInfo.GetFiles(System.String)
   id: GetFiles(System.String)
@@ -219,7 +215,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFiles(System.String,System.IO.SearchOption)
   id: GetFiles(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -244,7 +239,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.IO.FileInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFiles
   id: GetFiles
   parent: System.IO.DirectoryInfo
@@ -264,7 +258,6 @@ items:
     content.vb: Public Function GetFiles As FileInfo()
     return:
       type: System.IO.FileInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetDirectories
   id: GetDirectories
   parent: System.IO.DirectoryInfo
@@ -284,7 +277,6 @@ items:
     content.vb: Public Function GetDirectories As DirectoryInfo()
     return:
       type: System.IO.DirectoryInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFileSystemInfos(System.String)
   id: GetFileSystemInfos(System.String)
   parent: System.IO.DirectoryInfo
@@ -307,7 +299,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileSystemInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFileSystemInfos(System.String,System.IO.SearchOption)
   id: GetFileSystemInfos(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -332,7 +323,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.IO.FileSystemInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFileSystemInfos
   id: GetFileSystemInfos
   parent: System.IO.DirectoryInfo
@@ -352,7 +342,6 @@ items:
     content.vb: Public Function GetFileSystemInfos As FileSystemInfo()
     return:
       type: System.IO.FileSystemInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetDirectories(System.String)
   id: GetDirectories(System.String)
   parent: System.IO.DirectoryInfo
@@ -375,7 +364,6 @@ items:
       type: System.String
     return:
       type: System.IO.DirectoryInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetDirectories(System.String,System.IO.SearchOption)
   id: GetDirectories(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -400,7 +388,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.IO.DirectoryInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateDirectories
   id: EnumerateDirectories
   parent: System.IO.DirectoryInfo
@@ -420,7 +407,6 @@ items:
     content.vb: Public Function EnumerateDirectories As IEnumerable(Of DirectoryInfo)
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateDirectories(System.String)
   id: EnumerateDirectories(System.String)
   parent: System.IO.DirectoryInfo
@@ -443,7 +429,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateDirectories(System.String,System.IO.SearchOption)
   id: EnumerateDirectories(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -468,7 +453,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFiles
   id: EnumerateFiles
   parent: System.IO.DirectoryInfo
@@ -488,7 +472,6 @@ items:
     content.vb: Public Function EnumerateFiles As IEnumerable(Of FileInfo)
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFiles(System.String)
   id: EnumerateFiles(System.String)
   parent: System.IO.DirectoryInfo
@@ -511,7 +494,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFiles(System.String,System.IO.SearchOption)
   id: EnumerateFiles(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -536,7 +518,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFileSystemInfos
   id: EnumerateFileSystemInfos
   parent: System.IO.DirectoryInfo
@@ -556,7 +537,6 @@ items:
     content.vb: Public Function EnumerateFileSystemInfos As IEnumerable(Of FileSystemInfo)
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileSystemInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFileSystemInfos(System.String)
   id: EnumerateFileSystemInfos(System.String)
   parent: System.IO.DirectoryInfo
@@ -579,7 +559,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileSystemInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFileSystemInfos(System.String,System.IO.SearchOption)
   id: EnumerateFileSystemInfos(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -604,7 +583,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileSystemInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.Root
   id: Root
   parent: System.IO.DirectoryInfo
@@ -625,7 +603,6 @@ items:
     parameters: []
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.MoveTo(System.String)
   id: MoveTo(System.String)
   parent: System.IO.DirectoryInfo
@@ -703,7 +680,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.IO
@@ -713,6 +689,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.IO.FileSystemInfo
@@ -815,6 +792,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -822,12 +800,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -835,17 +815,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -853,18 +836,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -872,23 +858,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -896,18 +886,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -915,23 +908,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -939,6 +936,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -948,6 +946,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -955,6 +954,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -962,6 +962,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -971,6 +972,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -978,6 +980,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -985,6 +988,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -994,6 +998,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1005,6 +1010,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IO.FileSystemInfo.Name
@@ -1016,6 +1022,7 @@ references:
 - uid: System.IO.DirectoryInfo
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.DirectoryInfo.yml
   name: DirectoryInfo
   fullName: System.IO.DirectoryInfo
 - uid: System.IO.FileSystemInfo.Exists
@@ -1027,6 +1034,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.IO.FileInfo[]
@@ -1102,7 +1110,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.IO.DirectoryInfo.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<DirectoryInfo>
   name.vb: IEnumerable(Of DirectoryInfo)
   fullName: System.Collections.Generic.IEnumerable<System.IO.DirectoryInfo>
@@ -1112,6 +1120,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.IO.DirectoryInfo
@@ -1125,6 +1134,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.IO.DirectoryInfo
@@ -1136,6 +1146,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1145,6 +1156,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1156,6 +1168,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1169,7 +1182,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.IO.FileInfo}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.IO.FileInfo.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<FileInfo>
   name.vb: IEnumerable(Of FileInfo)
   fullName: System.Collections.Generic.IEnumerable<System.IO.FileInfo>
@@ -1179,6 +1192,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.IO.FileInfo
@@ -1192,6 +1206,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.IO.FileInfo
@@ -1203,7 +1218,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.IO.FileSystemInfo}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.IO.FileSystemInfo.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<FileSystemInfo>
   name.vb: IEnumerable(Of FileSystemInfo)
   fullName: System.Collections.Generic.IEnumerable<System.IO.FileSystemInfo>
@@ -1213,6 +1228,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.IO.FileSystemInfo
@@ -1226,6 +1242,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.IO.FileSystemInfo
@@ -1261,6 +1278,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1268,6 +1286,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1277,6 +1296,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )

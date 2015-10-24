@@ -3,9 +3,9 @@ items:
   id: ServiceStartMode
   parent: System.ServiceProcess
   children:
-  - System.ServiceProcess.ServiceStartMode.Manual
   - System.ServiceProcess.ServiceStartMode.Automatic
   - System.ServiceProcess.ServiceStartMode.Disabled
+  - System.ServiceProcess.ServiceStartMode.Manual
   href: System.ServiceProcess.ServiceStartMode.yml
   name: ServiceStartMode
   fullName: System.ServiceProcess.ServiceStartMode

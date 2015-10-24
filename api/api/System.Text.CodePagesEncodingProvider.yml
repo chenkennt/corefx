@@ -3,9 +3,9 @@ items:
   id: CodePagesEncodingProvider
   parent: System.Text
   children:
-  - System.Text.CodePagesEncodingProvider.Instance
   - System.Text.CodePagesEncodingProvider.GetEncoding(System.Int32)
   - System.Text.CodePagesEncodingProvider.GetEncoding(System.String)
+  - System.Text.CodePagesEncodingProvider.Instance
   href: System.Text.CodePagesEncodingProvider.yml
   name: CodePagesEncodingProvider
   fullName: System.Text.CodePagesEncodingProvider
@@ -61,7 +61,6 @@ items:
     parameters: []
     return:
       type: System.Text.EncodingProvider
-      description: 
 - uid: System.Text.CodePagesEncodingProvider.GetEncoding(System.Int32)
   id: GetEncoding(System.Int32)
   parent: System.Text.CodePagesEncodingProvider
@@ -84,7 +83,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.Encoding
-      description: 
   overridden: System.Text.EncodingProvider.GetEncoding(System.Int32)
 - uid: System.Text.CodePagesEncodingProvider.GetEncoding(System.String)
   id: GetEncoding(System.String)
@@ -108,7 +106,6 @@ items:
       type: System.String
     return:
       type: System.Text.Encoding
-      description: 
   overridden: System.Text.EncodingProvider.GetEncoding(System.String)
 references:
 - uid: System.Text
@@ -118,16 +115,19 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Text.EncodingProvider
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   name: EncodingProvider
   fullName: System.Text.EncodingProvider
 - uid: System.Text.EncodingProvider.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
   parent: System.Text.EncodingProvider
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   name: GetEncoding(String, EncoderFallback, DecoderFallback)
   fullName: System.Text.EncodingProvider.GetEncoding(System.String, System.Text.EncoderFallback, System.Text.DecoderFallback)
   spec.csharp:
@@ -135,24 +135,28 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.EncoderFallback
     name: EncoderFallback
     fullName: System.Text.EncoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncoderFallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.DecoderFallback
     name: DecoderFallback
     fullName: System.Text.DecoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.DecoderFallback.yml
   - name: )
     fullName: )
   spec.vb:
@@ -160,29 +164,34 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.EncoderFallback
     name: EncoderFallback
     fullName: System.Text.EncoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncoderFallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.DecoderFallback
     name: DecoderFallback
     fullName: System.Text.DecoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.DecoderFallback.yml
   - name: )
     fullName: )
 - uid: System.Text.EncodingProvider.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
   parent: System.Text.EncodingProvider
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   name: GetEncoding(Int32, EncoderFallback, DecoderFallback)
   fullName: System.Text.EncodingProvider.GetEncoding(System.Int32, System.Text.EncoderFallback, System.Text.DecoderFallback)
   spec.csharp:
@@ -190,24 +199,28 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.EncoderFallback
     name: EncoderFallback
     fullName: System.Text.EncoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncoderFallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.DecoderFallback
     name: DecoderFallback
     fullName: System.Text.DecoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.DecoderFallback.yml
   - name: )
     fullName: )
   spec.vb:
@@ -215,29 +228,34 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.EncoderFallback
     name: EncoderFallback
     fullName: System.Text.EncoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncoderFallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Text.DecoderFallback
     name: DecoderFallback
     fullName: System.Text.DecoderFallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.DecoderFallback.yml
   - name: )
     fullName: )
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -245,6 +263,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -254,6 +273,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -261,6 +281,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -268,12 +289,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -281,17 +304,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -299,18 +325,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -318,23 +347,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -342,18 +375,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -361,23 +397,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -385,6 +425,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -394,6 +435,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -401,6 +443,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -408,6 +451,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -417,6 +461,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -424,6 +469,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -431,6 +477,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -440,6 +487,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -451,6 +499,7 @@ references:
 - uid: System.Text.EncodingProvider.GetEncoding(System.Int32)
   parent: System.Text.EncodingProvider
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   name: GetEncoding(Int32)
   fullName: System.Text.EncodingProvider.GetEncoding(System.Int32)
   spec.csharp:
@@ -458,12 +507,14 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -471,27 +522,32 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.Encoding.yml
   name: Encoding
   fullName: System.Text.Encoding
 - uid: System.Text.EncodingProvider.GetEncoding(System.String)
   parent: System.Text.EncodingProvider
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   name: GetEncoding(String)
   fullName: System.Text.EncodingProvider.GetEncoding(System.String)
   spec.csharp:
@@ -499,12 +555,14 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -512,16 +570,19 @@ references:
     name: GetEncoding
     fullName: System.Text.EncodingProvider.GetEncoding
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Text.EncodingProvider.yml
   - name: (
     fullName: (
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String

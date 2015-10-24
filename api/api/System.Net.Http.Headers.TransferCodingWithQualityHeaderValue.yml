@@ -3,10 +3,10 @@ items:
   id: TransferCodingWithQualityHeaderValue
   parent: System.Net.Http.Headers
   children:
-  - System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.Quality
   - System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.#ctor(System.String)
   - System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.#ctor(System.String,System.Double)
   - System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.Parse(System.String)
+  - System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.Quality
   - System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.TryParse(System.String,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue@)
   href: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.yml
   name: TransferCodingWithQualityHeaderValue
@@ -60,7 +60,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
@@ -125,7 +124,6 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue.TryParse(System.String,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue@)
   parent: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
@@ -152,7 +150,6 @@ items:
       type: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false
@@ -162,6 +159,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -200,6 +198,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -219,6 +218,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -268,6 +268,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -281,6 +282,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.GetHashCode
@@ -310,6 +312,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -317,18 +320,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -336,23 +342,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -360,18 +370,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -379,23 +392,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -403,6 +420,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -412,6 +430,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -419,6 +438,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -426,6 +446,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -435,6 +456,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -446,6 +468,7 @@ references:
 - uid: System.Nullable{System.Double}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Double>
   name.vb: Nullable(Of Double)
   fullName: System.Nullable<System.Double>
@@ -455,12 +478,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -468,17 +493,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Nullable`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<T>
   name.vb: Nullable(Of T)
   fullName: System.Nullable<T>
@@ -488,6 +516,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -499,6 +528,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -508,11 +538,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
@@ -525,5 +557,6 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

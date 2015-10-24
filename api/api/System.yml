@@ -2,21 +2,6 @@ items:
 - uid: System
   id: System
   children:
-  - System.Console
-  - System.ConsoleCancelEventHandler
-  - System.ConsoleCancelEventArgs
-  - System.ConsoleColor
-  - System.ConsoleSpecialKey
-  - System.Uri
-  - System.UriBuilder
-  - System.UriKind
-  - System.UriComponents
-  - System.UriFormat
-  - System.UriFormatException
-  - System.UriHostNameType
-  - System.BitConverter
-  - System.IServiceProvider
-  - System.Action`9
   - System.Action`10
   - System.Action`11
   - System.Action`12
@@ -24,6 +9,13 @@ items:
   - System.Action`14
   - System.Action`15
   - System.Action`16
+  - System.Action`9
+  - System.BitConverter
+  - System.Console
+  - System.ConsoleCancelEventArgs
+  - System.ConsoleCancelEventHandler
+  - System.ConsoleColor
+  - System.ConsoleSpecialKey
   - System.Func`10
   - System.Func`11
   - System.Func`12
@@ -32,116 +24,31 @@ items:
   - System.Func`15
   - System.Func`16
   - System.Func`17
+  - System.IServiceProvider
   - System.Lazy`2
   - System.StringNormalizationExtensions
+  - System.Uri
+  - System.UriBuilder
+  - System.UriComponents
+  - System.UriFormat
+  - System.UriFormatException
+  - System.UriHostNameType
+  - System.UriKind
   href: System.yml
   name: System
   fullName: System
   type: Namespace
   source:
     remote:
-      path: src/Common/src/System/Text/EncodingHelper.cs
+      path: src/System.Runtime/src/System/Runtime/CompilerServices/StrongBox.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/Common/src/System/Text/EncodingHelper.cs
-    startLine: 6
+    path: src/System.Runtime/src/System/Runtime/CompilerServices/StrongBox.cs
+    startLine: 3
   assemblies:
-  - System.Console
+  - System.Runtime
 references:
-- uid: System.Console
-  isExternal: false
-  href: System.Console.yml
-  name: Console
-  fullName: System.Console
-  type: Class
-- uid: System.ConsoleCancelEventHandler
-  parent: System
-  isExternal: false
-  href: System.ConsoleCancelEventHandler.yml
-  name: ConsoleCancelEventHandler
-  fullName: System.ConsoleCancelEventHandler
-  type: Delegate
-- uid: System.ConsoleCancelEventArgs
-  parent: System
-  isExternal: false
-  href: System.ConsoleCancelEventArgs.yml
-  name: ConsoleCancelEventArgs
-  fullName: System.ConsoleCancelEventArgs
-  type: Class
-- uid: System.ConsoleColor
-  parent: System
-  isExternal: false
-  href: System.ConsoleColor.yml
-  name: ConsoleColor
-  fullName: System.ConsoleColor
-  type: Enum
-- uid: System.ConsoleSpecialKey
-  parent: System
-  isExternal: false
-  href: System.ConsoleSpecialKey.yml
-  name: ConsoleSpecialKey
-  fullName: System.ConsoleSpecialKey
-  type: Enum
-- uid: System.Uri
-  parent: System
-  isExternal: false
-  href: System.Uri.yml
-  name: Uri
-  fullName: System.Uri
-  type: Class
-- uid: System.UriBuilder
-  isExternal: false
-  href: System.UriBuilder.yml
-  name: UriBuilder
-  fullName: System.UriBuilder
-  type: Class
-- uid: System.UriKind
-  parent: System
-  isExternal: false
-  href: System.UriKind.yml
-  name: UriKind
-  fullName: System.UriKind
-  type: Enum
-- uid: System.UriComponents
-  parent: System
-  isExternal: false
-  href: System.UriComponents.yml
-  name: UriComponents
-  fullName: System.UriComponents
-  type: Enum
-- uid: System.UriFormat
-  parent: System
-  isExternal: false
-  href: System.UriFormat.yml
-  name: UriFormat
-  fullName: System.UriFormat
-  type: Enum
-- uid: System.UriFormatException
-  isExternal: false
-  href: System.UriFormatException.yml
-  name: UriFormatException
-  fullName: System.UriFormatException
-  type: Class
-  summary: An exception class used when an invalid Uniform Resource Identifier is detected.
-- uid: System.UriHostNameType
-  parent: System
-  isExternal: false
-  href: System.UriHostNameType.yml
-  name: UriHostNameType
-  fullName: System.UriHostNameType
-  type: Enum
-- uid: System.BitConverter
-  isExternal: false
-  href: System.BitConverter.yml
-  name: BitConverter
-  fullName: System.BitConverter
-  type: Class
-- uid: System.IServiceProvider
-  parent: System
-  isExternal: true
-  name: IServiceProvider
-  fullName: System.IServiceProvider
 - uid: System.Action`9
   isExternal: false
   href: System.Action`9.yml
@@ -2196,6 +2103,100 @@ references:
     fullName: TMetadata
   - name: )
     fullName: )
+- uid: System.BitConverter
+  isExternal: false
+  href: System.BitConverter.yml
+  name: BitConverter
+  fullName: System.BitConverter
+  type: Class
+- uid: System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
+  name: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System.Uri
+  parent: System
+  isExternal: false
+  href: System.Uri.yml
+  name: Uri
+  fullName: System.Uri
+  type: Class
+- uid: System.UriBuilder
+  isExternal: false
+  href: System.UriBuilder.yml
+  name: UriBuilder
+  fullName: System.UriBuilder
+  type: Class
+- uid: System.UriKind
+  parent: System
+  isExternal: false
+  href: System.UriKind.yml
+  name: UriKind
+  fullName: System.UriKind
+  type: Enum
+- uid: System.UriComponents
+  parent: System
+  isExternal: false
+  href: System.UriComponents.yml
+  name: UriComponents
+  fullName: System.UriComponents
+  type: Enum
+- uid: System.UriFormat
+  parent: System
+  isExternal: false
+  href: System.UriFormat.yml
+  name: UriFormat
+  fullName: System.UriFormat
+  type: Enum
+- uid: System.UriFormatException
+  isExternal: false
+  href: System.UriFormatException.yml
+  name: UriFormatException
+  fullName: System.UriFormatException
+  type: Class
+  summary: An exception class used when an invalid Uniform Resource Identifier is detected.
+- uid: System.UriHostNameType
+  parent: System
+  isExternal: false
+  href: System.UriHostNameType.yml
+  name: UriHostNameType
+  fullName: System.UriHostNameType
+  type: Enum
+- uid: System.Console
+  isExternal: false
+  href: System.Console.yml
+  name: Console
+  fullName: System.Console
+  type: Class
+- uid: System.ConsoleCancelEventHandler
+  parent: System
+  isExternal: false
+  href: System.ConsoleCancelEventHandler.yml
+  name: ConsoleCancelEventHandler
+  fullName: System.ConsoleCancelEventHandler
+  type: Delegate
+- uid: System.ConsoleCancelEventArgs
+  parent: System
+  isExternal: false
+  href: System.ConsoleCancelEventArgs.yml
+  name: ConsoleCancelEventArgs
+  fullName: System.ConsoleCancelEventArgs
+  type: Class
+- uid: System.ConsoleColor
+  parent: System
+  isExternal: false
+  href: System.ConsoleColor.yml
+  name: ConsoleColor
+  fullName: System.ConsoleColor
+  type: Enum
+- uid: System.ConsoleSpecialKey
+  parent: System
+  isExternal: false
+  href: System.ConsoleSpecialKey.yml
+  name: ConsoleSpecialKey
+  fullName: System.ConsoleSpecialKey
+  type: Enum
 - uid: System.StringNormalizationExtensions
   isExternal: false
   href: System.StringNormalizationExtensions.yml

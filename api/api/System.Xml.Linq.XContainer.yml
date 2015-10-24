@@ -3,8 +3,6 @@ items:
   id: XContainer
   parent: System.Xml.Linq
   children:
-  - System.Xml.Linq.XContainer.FirstNode
-  - System.Xml.Linq.XContainer.LastNode
   - System.Xml.Linq.XContainer.Add(System.Object)
   - System.Xml.Linq.XContainer.Add(System.Object[])
   - System.Xml.Linq.XContainer.AddFirst(System.Object)
@@ -16,6 +14,8 @@ items:
   - System.Xml.Linq.XContainer.Element(System.Xml.Linq.XName)
   - System.Xml.Linq.XContainer.Elements
   - System.Xml.Linq.XContainer.Elements(System.Xml.Linq.XName)
+  - System.Xml.Linq.XContainer.FirstNode
+  - System.Xml.Linq.XContainer.LastNode
   - System.Xml.Linq.XContainer.Nodes
   - System.Xml.Linq.XContainer.RemoveNodes
   - System.Xml.Linq.XContainer.ReplaceNodes(System.Object)
@@ -605,6 +605,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Xml.Linq.XObject
@@ -667,6 +668,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -680,6 +682,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XNode.AddAfterSelf(System.Object[])
@@ -701,6 +704,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -716,6 +720,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ()
     fullName: ()
   - name: )
@@ -737,6 +742,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -750,6 +756,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XNode.AddBeforeSelf(System.Object[])
@@ -771,6 +778,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -786,6 +794,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ()
     fullName: ()
   - name: )
@@ -1243,6 +1252,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1256,6 +1266,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XNode.ReplaceWith(System.Object[])
@@ -1277,6 +1288,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -1292,6 +1304,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ()
     fullName: ()
   - name: )
@@ -1469,6 +1482,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1482,6 +1496,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.Annotation(System.Type)
@@ -1501,6 +1516,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1514,6 +1530,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.Annotation``1
@@ -1559,6 +1576,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1572,6 +1590,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.Annotations``1
@@ -1617,6 +1636,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1630,6 +1650,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.RemoveAnnotations``1
@@ -1676,6 +1697,7 @@ references:
   fullName: System
 - uid: System.Object[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object[]
   name.vb: Object()
   fullName: System.Object[]
@@ -1685,6 +1707,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1692,6 +1715,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ()
     fullName: ()
 - uid: System.Xml.Linq.XContainer.Add(System.Object)
@@ -1711,6 +1735,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1724,6 +1749,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.InvalidOperationException
@@ -1734,6 +1760,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1743,6 +1770,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1754,6 +1782,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1763,7 +1792,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Xml.Linq.XNode}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.Xml.Linq.XNode.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<XNode>
   name.vb: IEnumerable(Of XNode)
   fullName: System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>
@@ -1773,6 +1802,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Xml.Linq.XNode
@@ -1786,6 +1816,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Xml.Linq.XNode
@@ -1802,7 +1833,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Xml.Linq.XElement}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.Xml.Linq.XElement.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<XElement>
   name.vb: IEnumerable(Of XElement)
   fullName: System.Collections.Generic.IEnumerable<System.Xml.Linq.XElement>
@@ -1812,6 +1843,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Xml.Linq.XElement
@@ -1825,6 +1857,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Xml.Linq.XElement
@@ -1844,6 +1877,7 @@ references:
 - uid: System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.Collections

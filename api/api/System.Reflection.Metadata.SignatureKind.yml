@@ -3,11 +3,11 @@ items:
   id: SignatureKind
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.SignatureKind.Method
   - System.Reflection.Metadata.SignatureKind.Field
   - System.Reflection.Metadata.SignatureKind.LocalVariables
-  - System.Reflection.Metadata.SignatureKind.Property
+  - System.Reflection.Metadata.SignatureKind.Method
   - System.Reflection.Metadata.SignatureKind.MethodSpecification
+  - System.Reflection.Metadata.SignatureKind.Property
   href: System.Reflection.Metadata.SignatureKind.yml
   name: SignatureKind
   fullName: System.Reflection.Metadata.SignatureKind

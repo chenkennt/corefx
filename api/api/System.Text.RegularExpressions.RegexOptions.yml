@@ -3,17 +3,17 @@ items:
   id: RegexOptions
   parent: System.Text.RegularExpressions
   children:
-  - System.Text.RegularExpressions.RegexOptions.None
-  - System.Text.RegularExpressions.RegexOptions.IgnoreCase
-  - System.Text.RegularExpressions.RegexOptions.Multiline
-  - System.Text.RegularExpressions.RegexOptions.ExplicitCapture
   - System.Text.RegularExpressions.RegexOptions.Compiled
-  - System.Text.RegularExpressions.RegexOptions.Singleline
-  - System.Text.RegularExpressions.RegexOptions.IgnorePatternWhitespace
-  - System.Text.RegularExpressions.RegexOptions.RightToLeft
+  - System.Text.RegularExpressions.RegexOptions.CultureInvariant
   - System.Text.RegularExpressions.RegexOptions.Debug
   - System.Text.RegularExpressions.RegexOptions.ECMAScript
-  - System.Text.RegularExpressions.RegexOptions.CultureInvariant
+  - System.Text.RegularExpressions.RegexOptions.ExplicitCapture
+  - System.Text.RegularExpressions.RegexOptions.IgnoreCase
+  - System.Text.RegularExpressions.RegexOptions.IgnorePatternWhitespace
+  - System.Text.RegularExpressions.RegexOptions.Multiline
+  - System.Text.RegularExpressions.RegexOptions.None
+  - System.Text.RegularExpressions.RegexOptions.RightToLeft
+  - System.Text.RegularExpressions.RegexOptions.Singleline
   href: System.Text.RegularExpressions.RegexOptions.yml
   name: RegexOptions
   fullName: System.Text.RegularExpressions.RegexOptions

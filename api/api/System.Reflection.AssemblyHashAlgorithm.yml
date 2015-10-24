@@ -3,8 +3,8 @@ items:
   id: AssemblyHashAlgorithm
   parent: System.Reflection
   children:
-  - System.Reflection.AssemblyHashAlgorithm.None
   - System.Reflection.AssemblyHashAlgorithm.MD5
+  - System.Reflection.AssemblyHashAlgorithm.None
   - System.Reflection.AssemblyHashAlgorithm.Sha1
   - System.Reflection.AssemblyHashAlgorithm.Sha256
   - System.Reflection.AssemblyHashAlgorithm.Sha384

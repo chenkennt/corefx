@@ -3,8 +3,8 @@ items:
   id: SearchOption
   parent: System.IO
   children:
-  - System.IO.SearchOption.TopDirectoryOnly
   - System.IO.SearchOption.AllDirectories
+  - System.IO.SearchOption.TopDirectoryOnly
   href: System.IO.SearchOption.yml
   name: SearchOption
   fullName: System.IO.SearchOption

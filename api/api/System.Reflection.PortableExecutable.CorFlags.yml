@@ -3,13 +3,13 @@ items:
   id: CorFlags
   parent: System.Reflection.PortableExecutable
   children:
-  - System.Reflection.PortableExecutable.CorFlags.ILOnly
-  - System.Reflection.PortableExecutable.CorFlags.Requires32Bit
   - System.Reflection.PortableExecutable.CorFlags.ILLibrary
-  - System.Reflection.PortableExecutable.CorFlags.StrongNameSigned
+  - System.Reflection.PortableExecutable.CorFlags.ILOnly
   - System.Reflection.PortableExecutable.CorFlags.NativeEntryPoint
-  - System.Reflection.PortableExecutable.CorFlags.TrackDebugData
   - System.Reflection.PortableExecutable.CorFlags.Prefers32Bit
+  - System.Reflection.PortableExecutable.CorFlags.Requires32Bit
+  - System.Reflection.PortableExecutable.CorFlags.StrongNameSigned
+  - System.Reflection.PortableExecutable.CorFlags.TrackDebugData
   href: System.Reflection.PortableExecutable.CorFlags.yml
   name: CorFlags
   fullName: System.Reflection.PortableExecutable.CorFlags

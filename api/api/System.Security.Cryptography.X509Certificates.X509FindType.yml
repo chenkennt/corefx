@@ -3,21 +3,21 @@ items:
   id: X509FindType
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectName
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectDistinguishedName
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerName
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerDistinguishedName
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySerialNumber
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeValid
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeNotYetValid
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeExpired
-  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTemplateName
   - System.Security.Cryptography.X509Certificates.X509FindType.FindByApplicationPolicy
   - System.Security.Cryptography.X509Certificates.X509FindType.FindByCertificatePolicy
   - System.Security.Cryptography.X509Certificates.X509FindType.FindByExtension
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerDistinguishedName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerName
   - System.Security.Cryptography.X509Certificates.X509FindType.FindByKeyUsage
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySerialNumber
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectDistinguishedName
   - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectKeyIdentifier
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTemplateName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeExpired
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeNotYetValid
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeValid
   href: System.Security.Cryptography.X509Certificates.X509FindType.yml
   name: X509FindType
   fullName: System.Security.Cryptography.X509Certificates.X509FindType

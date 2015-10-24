@@ -3,29 +3,29 @@ items:
   id: MemoryMappedFile
   parent: System.IO.MemoryMappedFiles
   children:
-  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String)
-  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
-  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
-  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
-  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream
-  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64)
-  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose
   - System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose(System.Boolean)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
   - System.IO.MemoryMappedFiles.MemoryMappedFile.SafeMemoryMappedFileHandle
   href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
   name: MemoryMappedFile
@@ -83,7 +83,6 @@ items:
       type: System.String
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
   id: OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -108,7 +107,6 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileRights
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
   id: OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -135,7 +133,6 @@ items:
       type: HandleInheritability
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String)
   id: CreateFromFile(System.String)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -158,7 +155,6 @@ items:
       type: System.String
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode)
   id: CreateFromFile(System.String,System.IO.FileMode)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -183,7 +179,6 @@ items:
       type: System.IO.FileMode
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String)
   id: CreateFromFile(System.String,System.IO.FileMode,System.String)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -210,7 +205,6 @@ items:
       type: System.String
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
   id: CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -239,7 +233,6 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -270,7 +263,6 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
   id: CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -303,7 +295,6 @@ items:
       type: System.Boolean
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64)
   id: CreateNew(System.String,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -328,7 +319,6 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -355,7 +345,6 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   id: CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -386,7 +375,6 @@ items:
       type: HandleInheritability
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64)
   id: CreateOrOpen(System.String,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -411,7 +399,6 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -438,7 +425,6 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   id: CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -469,7 +455,6 @@ items:
       type: HandleInheritability
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream
   id: CreateViewStream
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -489,7 +474,6 @@ items:
     content.vb: Public Function CreateViewStream As MemoryMappedViewStream
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64)
   id: CreateViewStream(System.Int64,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -514,7 +498,6 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -541,7 +524,6 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor
   id: CreateViewAccessor
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -561,7 +543,6 @@ items:
     content.vb: Public Function CreateViewAccessor As MemoryMappedViewAccessor
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64)
   id: CreateViewAccessor(System.Int64,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -586,7 +567,6 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -613,7 +593,6 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose
   id: Dispose
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -671,7 +650,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle
-      description: 
 references:
 - uid: System.IO.MemoryMappedFiles
   isExternal: false
@@ -681,11 +659,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -693,6 +673,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -702,6 +683,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -709,6 +691,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -716,12 +699,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -729,17 +714,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -747,18 +735,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -766,23 +757,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -790,18 +785,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -809,23 +807,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -833,6 +835,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -842,6 +845,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -849,6 +853,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -856,6 +861,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -865,6 +871,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -872,6 +879,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -879,6 +887,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -888,6 +897,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -899,6 +909,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -933,6 +944,7 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
@@ -944,14 +956,14 @@ references:
   type: Enum
 - uid: System.IO.FileStream
   parent: System.IO
-  isExternal: false
-  href: System.IO.FileStream.yml
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.FileStream.yml
   name: FileStream
   fullName: System.IO.FileStream
-  type: Class
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFileOptions

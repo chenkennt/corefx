@@ -3,47 +3,47 @@ items:
   id: Matrix3x2
   parent: System.Numerics
   children:
+  - System.Numerics.Matrix3x2.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix3x2.Add(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
+  - System.Numerics.Matrix3x2.CreateRotation(System.Single)
+  - System.Numerics.Matrix3x2.CreateRotation(System.Single,System.Numerics.Vector2)
+  - System.Numerics.Matrix3x2.CreateScale(System.Numerics.Vector2)
+  - System.Numerics.Matrix3x2.CreateScale(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Matrix3x2.CreateScale(System.Single)
+  - System.Numerics.Matrix3x2.CreateScale(System.Single,System.Numerics.Vector2)
+  - System.Numerics.Matrix3x2.CreateScale(System.Single,System.Single)
+  - System.Numerics.Matrix3x2.CreateScale(System.Single,System.Single,System.Numerics.Vector2)
+  - System.Numerics.Matrix3x2.CreateSkew(System.Single,System.Single)
+  - System.Numerics.Matrix3x2.CreateSkew(System.Single,System.Single,System.Numerics.Vector2)
+  - System.Numerics.Matrix3x2.CreateTranslation(System.Numerics.Vector2)
+  - System.Numerics.Matrix3x2.CreateTranslation(System.Single,System.Single)
+  - System.Numerics.Matrix3x2.Equals(System.Numerics.Matrix3x2)
+  - System.Numerics.Matrix3x2.Equals(System.Object)
+  - System.Numerics.Matrix3x2.GetDeterminant
+  - System.Numerics.Matrix3x2.GetHashCode
+  - System.Numerics.Matrix3x2.Identity
+  - System.Numerics.Matrix3x2.Invert(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2@)
+  - System.Numerics.Matrix3x2.IsIdentity
+  - System.Numerics.Matrix3x2.Lerp(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2,System.Single)
   - System.Numerics.Matrix3x2.M11
   - System.Numerics.Matrix3x2.M12
   - System.Numerics.Matrix3x2.M21
   - System.Numerics.Matrix3x2.M22
   - System.Numerics.Matrix3x2.M31
   - System.Numerics.Matrix3x2.M32
-  - System.Numerics.Matrix3x2.Identity
-  - System.Numerics.Matrix3x2.IsIdentity
-  - System.Numerics.Matrix3x2.Translation
-  - System.Numerics.Matrix3x2.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix3x2.CreateTranslation(System.Numerics.Vector2)
-  - System.Numerics.Matrix3x2.CreateTranslation(System.Single,System.Single)
-  - System.Numerics.Matrix3x2.CreateScale(System.Single,System.Single)
-  - System.Numerics.Matrix3x2.CreateScale(System.Single,System.Single,System.Numerics.Vector2)
-  - System.Numerics.Matrix3x2.CreateScale(System.Numerics.Vector2)
-  - System.Numerics.Matrix3x2.CreateScale(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Matrix3x2.CreateScale(System.Single)
-  - System.Numerics.Matrix3x2.CreateScale(System.Single,System.Numerics.Vector2)
-  - System.Numerics.Matrix3x2.CreateSkew(System.Single,System.Single)
-  - System.Numerics.Matrix3x2.CreateSkew(System.Single,System.Single,System.Numerics.Vector2)
-  - System.Numerics.Matrix3x2.CreateRotation(System.Single)
-  - System.Numerics.Matrix3x2.CreateRotation(System.Single,System.Numerics.Vector2)
-  - System.Numerics.Matrix3x2.GetDeterminant
-  - System.Numerics.Matrix3x2.Invert(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2@)
-  - System.Numerics.Matrix3x2.Lerp(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2,System.Single)
-  - System.Numerics.Matrix3x2.Negate(System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix3x2.Add(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix3x2.Subtract(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
   - System.Numerics.Matrix3x2.Multiply(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
   - System.Numerics.Matrix3x2.Multiply(System.Numerics.Matrix3x2,System.Single)
-  - System.Numerics.Matrix3x2.op_UnaryNegation(System.Numerics.Matrix3x2)
+  - System.Numerics.Matrix3x2.Negate(System.Numerics.Matrix3x2)
   - System.Numerics.Matrix3x2.op_Addition(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix3x2.op_Subtraction(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix3x2.op_Multiply(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix3x2.op_Multiply(System.Numerics.Matrix3x2,System.Single)
   - System.Numerics.Matrix3x2.op_Equality(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
   - System.Numerics.Matrix3x2.op_Inequality(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix3x2.Equals(System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix3x2.Equals(System.Object)
+  - System.Numerics.Matrix3x2.op_Multiply(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
+  - System.Numerics.Matrix3x2.op_Multiply(System.Numerics.Matrix3x2,System.Single)
+  - System.Numerics.Matrix3x2.op_Subtraction(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
+  - System.Numerics.Matrix3x2.op_UnaryNegation(System.Numerics.Matrix3x2)
+  - System.Numerics.Matrix3x2.Subtract(System.Numerics.Matrix3x2,System.Numerics.Matrix3x2)
   - System.Numerics.Matrix3x2.ToString
-  - System.Numerics.Matrix3x2.GetHashCode
+  - System.Numerics.Matrix3x2.Translation
   href: System.Numerics.Matrix3x2.yml
   name: Matrix3x2
   fullName: System.Numerics.Matrix3x2
@@ -1120,6 +1120,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1127,18 +1128,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1146,23 +1150,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1170,18 +1178,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1189,23 +1200,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1213,6 +1228,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1222,6 +1238,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1229,6 +1246,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -1246,6 +1264,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Numerics.Vector2
@@ -1259,11 +1278,13 @@ references:
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -1271,12 +1292,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1284,22 +1307,26 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -1307,6 +1334,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1316,6 +1344,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1323,11 +1352,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -1335,6 +1366,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1344,6 +1376,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1351,5 +1384,6 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

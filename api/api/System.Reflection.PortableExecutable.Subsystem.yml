@@ -3,18 +3,18 @@ items:
   id: Subsystem
   parent: System.Reflection.PortableExecutable
   children:
-  - System.Reflection.PortableExecutable.Subsystem.Unknown
-  - System.Reflection.PortableExecutable.Subsystem.Native
-  - System.Reflection.PortableExecutable.Subsystem.WindowsGui
-  - System.Reflection.PortableExecutable.Subsystem.WindowsCui
-  - System.Reflection.PortableExecutable.Subsystem.OS2Cui
-  - System.Reflection.PortableExecutable.Subsystem.PosixCui
-  - System.Reflection.PortableExecutable.Subsystem.NativeWindows
-  - System.Reflection.PortableExecutable.Subsystem.WindowsCEGui
   - System.Reflection.PortableExecutable.Subsystem.EfiApplication
   - System.Reflection.PortableExecutable.Subsystem.EfiBootServiceDriver
-  - System.Reflection.PortableExecutable.Subsystem.EfiRuntimeDriver
   - System.Reflection.PortableExecutable.Subsystem.EfiRom
+  - System.Reflection.PortableExecutable.Subsystem.EfiRuntimeDriver
+  - System.Reflection.PortableExecutable.Subsystem.Native
+  - System.Reflection.PortableExecutable.Subsystem.NativeWindows
+  - System.Reflection.PortableExecutable.Subsystem.OS2Cui
+  - System.Reflection.PortableExecutable.Subsystem.PosixCui
+  - System.Reflection.PortableExecutable.Subsystem.Unknown
+  - System.Reflection.PortableExecutable.Subsystem.WindowsCEGui
+  - System.Reflection.PortableExecutable.Subsystem.WindowsCui
+  - System.Reflection.PortableExecutable.Subsystem.WindowsGui
   - System.Reflection.PortableExecutable.Subsystem.Xbox
   href: System.Reflection.PortableExecutable.Subsystem.yml
   name: Subsystem

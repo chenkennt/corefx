@@ -4,12 +4,12 @@ items:
   parent: System.Security.Cryptography.X509Certificates
   children:
   - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.#ctor
-  - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.#ctor(System.Boolean,System.Boolean,System.Int32,System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.#ctor(AsnEncodedData,System.Boolean)
+  - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.#ctor(System.Boolean,System.Boolean,System.Int32,System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.CertificateAuthority
+  - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.CopyFrom(AsnEncodedData)
   - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.HasPathLengthConstraint
   - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.PathLengthConstraint
-  - System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.CopyFrom(AsnEncodedData)
   href: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.yml
   name: X509BasicConstraintsExtension
   fullName: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
@@ -118,7 +118,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.HasPathLengthConstraint
   id: HasPathLengthConstraint
   parent: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
@@ -139,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.PathLengthConstraint
   id: PathLengthConstraint
   parent: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
@@ -160,7 +158,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension.CopyFrom(AsnEncodedData)
   id: CopyFrom(AsnEncodedData)
   parent: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
@@ -191,6 +188,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Security.Cryptography.X509Certificates.X509Extension
@@ -213,11 +211,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: AsnEncodedData

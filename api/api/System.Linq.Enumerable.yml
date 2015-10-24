@@ -3,181 +3,181 @@ items:
   id: Enumerable
   parent: System.Linq
   children:
-  - System.Linq.Enumerable.Where``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.Where``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
-  - System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,``1})
-  - System.Linq.Enumerable.SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
-  - System.Linq.Enumerable.SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}})
-  - System.Linq.Enumerable.SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
-  - System.Linq.Enumerable.SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
-  - System.Linq.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  - System.Linq.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
-  - System.Linq.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  - System.Linq.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
-  - System.Linq.Enumerable.Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
-  - System.Linq.Enumerable.Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
-  - System.Linq.Enumerable.GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
-  - System.Linq.Enumerable.GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
-  - System.Linq.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
-  - System.Linq.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
-  - System.Linq.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
-  - System.Linq.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.Enumerable.Aggregate``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  - System.Linq.Enumerable.Aggregate``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  - System.Linq.Enumerable.Aggregate``3(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``2})
+  - System.Linq.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.AsEnumerable``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Decimal})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Double})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Int32})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Int64})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Single})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  - System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)
+  - System.Linq.Enumerable.Concat``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Contains``1(System.Collections.Generic.IEnumerable{``0},``0)
+  - System.Linq.Enumerable.Contains``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.Enumerable.Count``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Count``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0)
+  - System.Linq.Enumerable.Distinct``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Distinct``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.Enumerable.ElementAt``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - System.Linq.Enumerable.ElementAtOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - System.Linq.Enumerable.Empty``1
+  - System.Linq.Enumerable.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.Enumerable.First``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.First``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   - System.Linq.Enumerable.GroupBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   - System.Linq.Enumerable.GroupBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   - System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
   - System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
   - System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2})
-  - System.Linq.Enumerable.GroupBy``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3})
   - System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.Enumerable.GroupBy``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3})
   - System.Linq.Enumerable.GroupBy``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.Enumerable.Concat``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Zip``3(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,``2})
-  - System.Linq.Enumerable.Distinct``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Distinct``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.Enumerable.Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.Enumerable.GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
+  - System.Linq.Enumerable.GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
   - System.Linq.Enumerable.Intersect``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   - System.Linq.Enumerable.Intersect``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.Enumerable.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.Enumerable.Reverse``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.Enumerable.AsEnumerable``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.Enumerable.ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-  - System.Linq.Enumerable.ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.Enumerable.ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.Enumerable.ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-  - System.Linq.Enumerable.ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.Enumerable.DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0)
-  - System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)
-  - System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)
-  - System.Linq.Enumerable.First``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.First``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
+  - System.Linq.Enumerable.Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
   - System.Linq.Enumerable.Last``1(System.Collections.Generic.IEnumerable{``0})
   - System.Linq.Enumerable.Last``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   - System.Linq.Enumerable.LastOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   - System.Linq.Enumerable.LastOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.LongCount``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.LongCount``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Decimal})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Double})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Int32})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Int64})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Single})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  - System.Linq.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Decimal})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Double})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Int32})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Int64})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Single})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  - System.Linq.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)
+  - System.Linq.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.Enumerable.Range(System.Int32,System.Int32)
+  - System.Linq.Enumerable.Repeat``1(``0,System.Int32)
+  - System.Linq.Enumerable.Reverse``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,``1})
+  - System.Linq.Enumerable.SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
+  - System.Linq.Enumerable.SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}})
+  - System.Linq.Enumerable.SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
+  - System.Linq.Enumerable.SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
+  - System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   - System.Linq.Enumerable.Single``1(System.Collections.Generic.IEnumerable{``0})
   - System.Linq.Enumerable.Single``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   - System.Linq.Enumerable.SingleOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   - System.Linq.Enumerable.SingleOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.ElementAt``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  - System.Linq.Enumerable.ElementAtOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  - System.Linq.Enumerable.Range(System.Int32,System.Int32)
-  - System.Linq.Enumerable.Repeat``1(``0,System.Int32)
-  - System.Linq.Enumerable.Empty``1
-  - System.Linq.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.Count``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Count``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.LongCount``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.LongCount``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
-  - System.Linq.Enumerable.Contains``1(System.Collections.Generic.IEnumerable{``0},``0)
-  - System.Linq.Enumerable.Contains``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.Enumerable.Aggregate``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
-  - System.Linq.Enumerable.Aggregate``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
-  - System.Linq.Enumerable.Aggregate``3(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``2})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Int32})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Int64})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Single})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Double})
-  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - System.Linq.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
   - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Decimal})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Double})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Int32})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Int64})
   - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
-  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Single})
   - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Int32})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Int64})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Single})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Double})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Decimal})
-  - System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
-  - System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
-  - System.Linq.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Int32})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Int64})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Double})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Single})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Decimal})
-  - System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
-  - System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
-  - System.Linq.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Int32})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Int64})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Single})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Double})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Decimal})
-  - System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
-  - System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  - System.Linq.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - System.Linq.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
+  - System.Linq.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.Enumerable.ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  - System.Linq.Enumerable.ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - System.Linq.Enumerable.ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.Enumerable.ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  - System.Linq.Enumerable.ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.Enumerable.Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.Enumerable.Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.Enumerable.Where``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - System.Linq.Enumerable.Where``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
+  - System.Linq.Enumerable.Zip``3(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,``2})
   href: System.Linq.Enumerable.yml
   name: Enumerable
   fullName: System.Linq.Enumerable
@@ -234,7 +234,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Where``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
   id: Where``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
   parent: System.Linq.Enumerable
@@ -263,7 +262,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -293,7 +291,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,``1})
   id: Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,``1})
   parent: System.Linq.Enumerable
@@ -323,7 +320,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
   id: SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
   parent: System.Linq.Enumerable
@@ -353,7 +349,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}})
   id: SelectMany``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}})
   parent: System.Linq.Enumerable
@@ -383,7 +378,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
   id: SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
   parent: System.Linq.Enumerable
@@ -416,7 +410,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
   id: SelectMany``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
   parent: System.Linq.Enumerable
@@ -449,7 +442,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   id: Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   parent: System.Linq.Enumerable
@@ -478,7 +470,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -507,7 +498,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
   id: TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
   parent: System.Linq.Enumerable
@@ -536,7 +526,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   id: Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   parent: System.Linq.Enumerable
@@ -565,7 +554,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -594,7 +582,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
   id: SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
   parent: System.Linq.Enumerable
@@ -623,7 +610,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
   id: Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
   parent: System.Linq.Enumerable
@@ -661,7 +647,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
   id: Join``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
   parent: System.Linq.Enumerable
@@ -701,7 +686,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
   id: GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
   parent: System.Linq.Enumerable
@@ -739,7 +723,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
   id: GroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
   parent: System.Linq.Enumerable
@@ -779,7 +762,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -809,7 +791,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   id: OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Enumerable
@@ -841,7 +822,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -871,7 +851,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   id: OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Enumerable
@@ -903,7 +882,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
   id: ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -933,7 +911,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   id: ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Enumerable
@@ -965,7 +942,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
   id: ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -995,7 +971,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   id: ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Enumerable
@@ -1027,7 +1002,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.IOrderedEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: GroupBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -1057,7 +1031,6 @@ items:
     - id: TKey
     return:
       type: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TSource}}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -1089,7 +1062,6 @@ items:
     - id: TKey
     return:
       type: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TSource}}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
   id: GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
   parent: System.Linq.Enumerable
@@ -1122,7 +1094,6 @@ items:
     - id: TElement
     return:
       type: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TElement}}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -1157,7 +1128,6 @@ items:
     - id: TElement
     return:
       type: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TElement}}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2})
   id: GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2})
   parent: System.Linq.Enumerable
@@ -1190,7 +1160,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3})
   id: GroupBy``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3})
   parent: System.Linq.Enumerable
@@ -1226,7 +1195,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -1261,7 +1229,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.GroupBy``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -1299,7 +1266,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Concat``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Concat``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1328,7 +1294,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Zip``3(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,``2})
   id: Zip``3(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,``2})
   parent: System.Linq.Enumerable
@@ -1361,7 +1326,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Distinct``1(System.Collections.Generic.IEnumerable{``0})
   id: Distinct``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1388,7 +1352,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Distinct``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Distinct``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Enumerable
@@ -1417,7 +1380,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1446,7 +1408,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Union``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Enumerable
@@ -1477,7 +1438,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Intersect``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Intersect``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1506,7 +1466,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Intersect``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Intersect``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Enumerable
@@ -1537,7 +1496,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1566,7 +1524,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Enumerable
@@ -1597,7 +1554,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.Reverse``1(System.Collections.Generic.IEnumerable{``0})
   id: Reverse``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1624,7 +1580,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   id: SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1653,7 +1608,6 @@ items:
     - id: TSource
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Enumerable.SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: SequenceEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Enumerable
@@ -1684,7 +1638,6 @@ items:
     - id: TSource
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Enumerable.AsEnumerable``1(System.Collections.Generic.IEnumerable{``0})
   id: AsEnumerable``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1711,7 +1664,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})
   id: ToArray``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1738,7 +1690,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}[]'
-      description: 
 - uid: System.Linq.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})
   id: ToList``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -1765,7 +1716,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.List{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -1795,7 +1745,6 @@ items:
     - id: TKey
     return:
       type: System.Collections.Generic.Dictionary{{TKey},{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   id: ToDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -1827,7 +1776,6 @@ items:
     - id: TKey
     return:
       type: System.Collections.Generic.Dictionary{{TKey},{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
   id: ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
   parent: System.Linq.Enumerable
@@ -1860,7 +1808,6 @@ items:
     - id: TElement
     return:
       type: System.Collections.Generic.Dictionary{{TKey},{TElement}}
-      description: 
 - uid: System.Linq.Enumerable.ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
   id: ToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -1895,7 +1842,6 @@ items:
     - id: TElement
     return:
       type: System.Collections.Generic.Dictionary{{TKey},{TElement}}
-      description: 
 - uid: System.Linq.Enumerable.ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -1925,7 +1871,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.ILookup{{TKey},{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   id: ToLookup``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -1957,7 +1902,6 @@ items:
     - id: TKey
     return:
       type: System.Linq.ILookup{{TKey},{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
   id: ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
   parent: System.Linq.Enumerable
@@ -1990,7 +1934,6 @@ items:
     - id: TElement
     return:
       type: System.Linq.ILookup{{TKey},{TElement}}
-      description: 
 - uid: System.Linq.Enumerable.ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
   id: ToLookup``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Enumerable
@@ -2025,7 +1968,6 @@ items:
     - id: TElement
     return:
       type: System.Linq.ILookup{{TKey},{TElement}}
-      description: 
 - uid: System.Linq.Enumerable.DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0})
   id: DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2052,7 +1994,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0)
   id: DefaultIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0)
   parent: System.Linq.Enumerable
@@ -2081,7 +2022,6 @@ items:
     - id: TSource
     return:
       type: System.Collections.Generic.IEnumerable{{TSource}}
-      description: 
 - uid: System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)
   id: OfType``1(System.Collections.IEnumerable)
   parent: System.Linq.Enumerable
@@ -2108,7 +2048,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)
   id: Cast``1(System.Collections.IEnumerable)
   parent: System.Linq.Enumerable
@@ -2135,7 +2074,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.First``1(System.Collections.Generic.IEnumerable{``0})
   id: First``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2162,7 +2100,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.First``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: First``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2191,7 +2128,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   id: FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2218,7 +2154,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2247,7 +2182,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Last``1(System.Collections.Generic.IEnumerable{``0})
   id: Last``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2274,7 +2208,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Last``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: Last``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2303,7 +2236,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.LastOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   id: LastOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2330,7 +2262,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.LastOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: LastOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2359,7 +2290,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Single``1(System.Collections.Generic.IEnumerable{``0})
   id: Single``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2386,7 +2316,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Single``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: Single``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2415,7 +2344,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.SingleOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   id: SingleOrDefault``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2442,7 +2370,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.SingleOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: SingleOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2471,7 +2398,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.ElementAt``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   id: ElementAt``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   parent: System.Linq.Enumerable
@@ -2500,7 +2426,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.ElementAtOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   id: ElementAtOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   parent: System.Linq.Enumerable
@@ -2529,7 +2454,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Range(System.Int32,System.Int32)
   id: Range(System.Int32,System.Int32)
   parent: System.Linq.Enumerable
@@ -2554,7 +2478,6 @@ items:
       type: System.Int32
     return:
       type: System.Collections.Generic.IEnumerable{System.Int32}
-      description: 
 - uid: System.Linq.Enumerable.Repeat``1(``0,System.Int32)
   id: Repeat``1(``0,System.Int32)
   parent: System.Linq.Enumerable
@@ -2583,7 +2506,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Empty``1
   id: Empty``1
   parent: System.Linq.Enumerable
@@ -2607,7 +2529,6 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
-      description: 
 - uid: System.Linq.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0})
   id: Any``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2634,7 +2555,6 @@ items:
     - id: TSource
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2663,7 +2583,6 @@ items:
     - id: TSource
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2692,7 +2611,6 @@ items:
     - id: TSource
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Enumerable.Count``1(System.Collections.Generic.IEnumerable{``0})
   id: Count``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2719,7 +2637,6 @@ items:
     - id: TSource
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.Count``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: Count``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2748,7 +2665,6 @@ items:
     - id: TSource
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.LongCount``1(System.Collections.Generic.IEnumerable{``0})
   id: LongCount``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -2775,7 +2691,6 @@ items:
     - id: TSource
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.LongCount``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   id: LongCount``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
   parent: System.Linq.Enumerable
@@ -2804,7 +2719,6 @@ items:
     - id: TSource
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.Contains``1(System.Collections.Generic.IEnumerable{``0},``0)
   id: Contains``1(System.Collections.Generic.IEnumerable{``0},``0)
   parent: System.Linq.Enumerable
@@ -2833,7 +2747,6 @@ items:
     - id: TSource
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Enumerable.Contains``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
   id: Contains``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Enumerable
@@ -2864,7 +2777,6 @@ items:
     - id: TSource
     return:
       type: System.Boolean
-      description: 
 - uid: System.Linq.Enumerable.Aggregate``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
   id: Aggregate``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
   parent: System.Linq.Enumerable
@@ -2893,7 +2805,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Aggregate``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
   id: Aggregate``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
   parent: System.Linq.Enumerable
@@ -2925,7 +2836,6 @@ items:
     - id: TAccumulate
     return:
       type: '{TAccumulate}'
-      description: 
 - uid: System.Linq.Enumerable.Aggregate``3(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``2})
   id: Aggregate``3(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``2})
   parent: System.Linq.Enumerable
@@ -2960,7 +2870,6 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Int32})
   id: Sum(System.Collections.Generic.IEnumerable{System.Int32})
   parent: System.Linq.Enumerable
@@ -2985,7 +2894,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int32}
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   id: Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -3010,7 +2918,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}}
     return:
       type: System.Nullable{System.Int32}
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Int64})
   id: Sum(System.Collections.Generic.IEnumerable{System.Int64})
   parent: System.Linq.Enumerable
@@ -3035,7 +2942,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int64}
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   id: Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -3060,7 +2966,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}}
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Single})
   id: Sum(System.Collections.Generic.IEnumerable{System.Single})
   parent: System.Linq.Enumerable
@@ -3085,7 +2990,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Single}
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   id: Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -3110,7 +3014,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Single}}
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Double})
   id: Sum(System.Collections.Generic.IEnumerable{System.Double})
   parent: System.Linq.Enumerable
@@ -3135,7 +3038,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Double}
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   id: Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -3160,7 +3062,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Double}}
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Decimal})
   id: Sum(System.Collections.Generic.IEnumerable{System.Decimal})
   parent: System.Linq.Enumerable
@@ -3185,7 +3086,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Decimal}
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   id: Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -3210,7 +3110,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}}
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   parent: System.Linq.Enumerable
@@ -3239,7 +3138,6 @@ items:
     - id: TSource
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -3268,7 +3166,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int32}
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   parent: System.Linq.Enumerable
@@ -3297,7 +3194,6 @@ items:
     - id: TSource
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -3326,7 +3222,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   parent: System.Linq.Enumerable
@@ -3355,7 +3250,6 @@ items:
     - id: TSource
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -3384,7 +3278,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   parent: System.Linq.Enumerable
@@ -3413,7 +3306,6 @@ items:
     - id: TSource
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -3442,7 +3334,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   parent: System.Linq.Enumerable
@@ -3471,7 +3362,6 @@ items:
     - id: TSource
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -3500,7 +3390,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Int32})
   id: Min(System.Collections.Generic.IEnumerable{System.Int32})
   parent: System.Linq.Enumerable
@@ -3525,7 +3414,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int32}
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   id: Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -3550,7 +3438,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}}
     return:
       type: System.Nullable{System.Int32}
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Int64})
   id: Min(System.Collections.Generic.IEnumerable{System.Int64})
   parent: System.Linq.Enumerable
@@ -3575,7 +3462,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int64}
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   id: Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -3600,7 +3486,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}}
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Single})
   id: Min(System.Collections.Generic.IEnumerable{System.Single})
   parent: System.Linq.Enumerable
@@ -3625,7 +3510,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Single}
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   id: Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -3650,7 +3534,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Single}}
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Double})
   id: Min(System.Collections.Generic.IEnumerable{System.Double})
   parent: System.Linq.Enumerable
@@ -3675,7 +3558,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Double}
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   id: Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -3700,7 +3582,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Double}}
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Decimal})
   id: Min(System.Collections.Generic.IEnumerable{System.Decimal})
   parent: System.Linq.Enumerable
@@ -3725,7 +3606,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Decimal}
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   id: Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -3750,7 +3630,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}}
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})
   id: Min``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -3777,7 +3656,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   parent: System.Linq.Enumerable
@@ -3806,7 +3684,6 @@ items:
     - id: TSource
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -3835,7 +3712,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int32}
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   parent: System.Linq.Enumerable
@@ -3864,7 +3740,6 @@ items:
     - id: TSource
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -3893,7 +3768,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   parent: System.Linq.Enumerable
@@ -3922,7 +3796,6 @@ items:
     - id: TSource
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -3951,7 +3824,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   parent: System.Linq.Enumerable
@@ -3980,7 +3852,6 @@ items:
     - id: TSource
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -4009,7 +3880,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   parent: System.Linq.Enumerable
@@ -4038,7 +3908,6 @@ items:
     - id: TSource
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -4067,7 +3936,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 - uid: System.Linq.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -4097,7 +3965,6 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Int32})
   id: Max(System.Collections.Generic.IEnumerable{System.Int32})
   parent: System.Linq.Enumerable
@@ -4122,7 +3989,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int32}
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   id: Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -4147,7 +4013,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}}
     return:
       type: System.Nullable{System.Int32}
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Int64})
   id: Max(System.Collections.Generic.IEnumerable{System.Int64})
   parent: System.Linq.Enumerable
@@ -4172,7 +4037,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int64}
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   id: Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -4197,7 +4061,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}}
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Double})
   id: Max(System.Collections.Generic.IEnumerable{System.Double})
   parent: System.Linq.Enumerable
@@ -4222,7 +4085,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Double}
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   id: Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -4247,7 +4109,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Double}}
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Single})
   id: Max(System.Collections.Generic.IEnumerable{System.Single})
   parent: System.Linq.Enumerable
@@ -4272,7 +4133,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Single}
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   id: Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -4297,7 +4157,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Single}}
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Decimal})
   id: Max(System.Collections.Generic.IEnumerable{System.Decimal})
   parent: System.Linq.Enumerable
@@ -4322,7 +4181,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Decimal}
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   id: Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -4347,7 +4205,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}}
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})
   id: Max``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Enumerable
@@ -4374,7 +4231,6 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   parent: System.Linq.Enumerable
@@ -4403,7 +4259,6 @@ items:
     - id: TSource
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -4432,7 +4287,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int32}
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   parent: System.Linq.Enumerable
@@ -4461,7 +4315,6 @@ items:
     - id: TSource
     return:
       type: System.Int64
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -4490,7 +4343,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   parent: System.Linq.Enumerable
@@ -4519,7 +4371,6 @@ items:
     - id: TSource
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -4548,7 +4399,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   parent: System.Linq.Enumerable
@@ -4577,7 +4427,6 @@ items:
     - id: TSource
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -4606,7 +4455,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   parent: System.Linq.Enumerable
@@ -4635,7 +4483,6 @@ items:
     - id: TSource
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -4664,7 +4511,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 - uid: System.Linq.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   id: Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   parent: System.Linq.Enumerable
@@ -4694,7 +4540,6 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Int32})
   id: Average(System.Collections.Generic.IEnumerable{System.Int32})
   parent: System.Linq.Enumerable
@@ -4719,7 +4564,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int32}
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   id: Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -4744,7 +4588,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}}
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Int64})
   id: Average(System.Collections.Generic.IEnumerable{System.Int64})
   parent: System.Linq.Enumerable
@@ -4769,7 +4612,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int64}
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   id: Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -4794,7 +4636,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}}
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Single})
   id: Average(System.Collections.Generic.IEnumerable{System.Single})
   parent: System.Linq.Enumerable
@@ -4819,7 +4660,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Single}
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   id: Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -4844,7 +4684,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Single}}
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Double})
   id: Average(System.Collections.Generic.IEnumerable{System.Double})
   parent: System.Linq.Enumerable
@@ -4869,7 +4708,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Double}
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   id: Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -4894,7 +4732,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Double}}
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Decimal})
   id: Average(System.Collections.Generic.IEnumerable{System.Decimal})
   parent: System.Linq.Enumerable
@@ -4919,7 +4756,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Decimal}
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   id: Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -4944,7 +4780,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}}
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
   parent: System.Linq.Enumerable
@@ -4973,7 +4808,6 @@ items:
     - id: TSource
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
   parent: System.Linq.Enumerable
@@ -5002,7 +4836,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
   parent: System.Linq.Enumerable
@@ -5031,7 +4864,6 @@ items:
     - id: TSource
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
   parent: System.Linq.Enumerable
@@ -5060,7 +4892,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
   parent: System.Linq.Enumerable
@@ -5089,7 +4920,6 @@ items:
     - id: TSource
     return:
       type: System.Single
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
   parent: System.Linq.Enumerable
@@ -5118,7 +4948,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Single}
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
   parent: System.Linq.Enumerable
@@ -5147,7 +4976,6 @@ items:
     - id: TSource
     return:
       type: System.Double
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
   parent: System.Linq.Enumerable
@@ -5176,7 +5004,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
   parent: System.Linq.Enumerable
@@ -5205,7 +5032,6 @@ items:
     - id: TSource
     return:
       type: System.Decimal
-      description: 
 - uid: System.Linq.Enumerable.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
   parent: System.Linq.Enumerable
@@ -5234,7 +5060,6 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Decimal}
-      description: 
 references:
 - uid: System.Linq
   isExternal: false
@@ -5244,11 +5069,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -5256,6 +5083,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5265,6 +5093,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5272,6 +5101,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -5279,12 +5109,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5292,17 +5124,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -5310,18 +5145,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5329,23 +5167,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -5353,18 +5195,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5372,23 +5217,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -5396,6 +5245,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5405,6 +5255,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5412,6 +5263,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -5419,6 +5271,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5428,6 +5281,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5435,6 +5289,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -5442,6 +5297,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5451,6 +5307,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -5462,6 +5319,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TSource>
   name.vb: IEnumerable(Of TSource)
   fullName: System.Collections.Generic.IEnumerable<TSource>
@@ -5471,6 +5329,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5482,6 +5341,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5491,6 +5351,7 @@ references:
 - uid: System.Func{{TSource},System.Boolean}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Boolean>
   name.vb: Func(Of TSource, Boolean)
   fullName: System.Func<TSource, System.Boolean>
@@ -5500,6 +5361,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5510,6 +5372,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -5517,6 +5380,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5527,11 +5391,13 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -5541,6 +5407,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -5552,6 +5419,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -5565,6 +5433,7 @@ references:
 - uid: System.Func`2
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<T, TResult>
   name.vb: Func(Of T, TResult)
   fullName: System.Func<T, TResult>
@@ -5574,6 +5443,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: T
@@ -5589,6 +5459,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -5602,6 +5473,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,System.Boolean}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, Boolean>
   name.vb: Func(Of TSource, Int32, Boolean)
   fullName: System.Func<TSource, System.Int32, System.Boolean>
@@ -5611,6 +5483,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5621,12 +5494,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -5634,6 +5509,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5644,17 +5520,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Func`3
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<T1, T2, TResult>
   name.vb: Func(Of T1, T2, TResult)
   fullName: System.Func<T1, T2, TResult>
@@ -5664,6 +5543,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: T1
@@ -5683,6 +5563,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T1
@@ -5700,6 +5581,7 @@ references:
 - uid: System.Func{{TSource},{TResult}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, TResult>
   name.vb: Func(Of TSource, TResult)
   fullName: System.Func<TSource, TResult>
@@ -5709,6 +5591,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5724,6 +5607,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5737,6 +5621,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TResult}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TResult>
   name.vb: IEnumerable(Of TResult)
   fullName: System.Collections.Generic.IEnumerable<TResult>
@@ -5746,6 +5631,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -5757,6 +5643,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -5766,6 +5653,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, TResult>
   name.vb: Func(Of TSource, Int32, TResult)
   fullName: System.Func<TSource, System.Int32, TResult>
@@ -5775,6 +5663,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5785,6 +5674,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: TResult
@@ -5796,6 +5686,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5806,6 +5697,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: TResult
@@ -5815,6 +5707,7 @@ references:
 - uid: System.Func{{TSource},System.Collections.Generic.IEnumerable{{TResult}}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, IEnumerable<TResult>>
   name.vb: Func(Of TSource, IEnumerable(Of TResult))
   fullName: System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>
@@ -5824,6 +5717,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5834,6 +5728,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -5847,6 +5742,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5857,6 +5753,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -5868,6 +5765,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,System.Collections.Generic.IEnumerable{{TResult}}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, IEnumerable<TResult>>
   name.vb: Func(Of TSource, Int32, IEnumerable(Of TResult))
   fullName: System.Func<TSource, System.Int32, System.Collections.Generic.IEnumerable<TResult>>
@@ -5877,6 +5775,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5887,12 +5786,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -5906,6 +5807,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5916,12 +5818,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -5933,6 +5837,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,System.Collections.Generic.IEnumerable{{TCollection}}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, IEnumerable<TCollection>>
   name.vb: Func(Of TSource, Int32, IEnumerable(Of TCollection))
   fullName: System.Func<TSource, System.Int32, System.Collections.Generic.IEnumerable<TCollection>>
@@ -5942,6 +5847,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -5952,12 +5858,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TCollection
@@ -5971,6 +5879,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -5981,12 +5890,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TCollection
@@ -5998,6 +5909,7 @@ references:
 - uid: System.Func{{TSource},{TCollection},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, TCollection, TResult>
   name.vb: Func(Of TSource, TCollection, TResult)
   fullName: System.Func<TSource, TCollection, TResult>
@@ -6007,6 +5919,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -6026,6 +5939,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -6043,6 +5957,7 @@ references:
 - uid: System.Func{{TSource},System.Collections.Generic.IEnumerable{{TCollection}}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, IEnumerable<TCollection>>
   name.vb: Func(Of TSource, IEnumerable(Of TCollection))
   fullName: System.Func<TSource, System.Collections.Generic.IEnumerable<TCollection>>
@@ -6052,6 +5967,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -6062,6 +5978,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TCollection
@@ -6075,6 +5992,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -6085,6 +6003,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TCollection
@@ -6096,11 +6015,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Collections.Generic.IEnumerable{{TOuter}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TOuter>
   name.vb: IEnumerable(Of TOuter)
   fullName: System.Collections.Generic.IEnumerable<TOuter>
@@ -6110,6 +6031,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TOuter
@@ -6121,6 +6043,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOuter
@@ -6130,6 +6053,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TInner}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TInner>
   name.vb: IEnumerable(Of TInner)
   fullName: System.Collections.Generic.IEnumerable<TInner>
@@ -6139,6 +6063,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TInner
@@ -6150,6 +6075,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInner
@@ -6159,6 +6085,7 @@ references:
 - uid: System.Func{{TOuter},{TKey}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TOuter, TKey>
   name.vb: Func(Of TOuter, TKey)
   fullName: System.Func<TOuter, TKey>
@@ -6168,6 +6095,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TOuter
@@ -6183,6 +6111,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOuter
@@ -6196,6 +6125,7 @@ references:
 - uid: System.Func{{TInner},{TKey}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TInner, TKey>
   name.vb: Func(Of TInner, TKey)
   fullName: System.Func<TInner, TKey>
@@ -6205,6 +6135,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TInner
@@ -6220,6 +6151,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInner
@@ -6233,6 +6165,7 @@ references:
 - uid: System.Func{{TOuter},{TInner},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TOuter, TInner, TResult>
   name.vb: Func(Of TOuter, TInner, TResult)
   fullName: System.Func<TOuter, TInner, TResult>
@@ -6242,6 +6175,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TOuter
@@ -6261,6 +6195,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOuter
@@ -6278,6 +6213,7 @@ references:
 - uid: System.Collections.Generic.IEqualityComparer{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEqualityComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<TKey>
   name.vb: IEqualityComparer(Of TKey)
   fullName: System.Collections.Generic.IEqualityComparer<TKey>
@@ -6287,6 +6223,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -6298,6 +6235,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -6307,6 +6245,7 @@ references:
 - uid: System.Collections.Generic.IEqualityComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<T>
   name.vb: IEqualityComparer(Of T)
   fullName: System.Collections.Generic.IEqualityComparer<T>
@@ -6316,6 +6255,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -6327,6 +6267,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -6336,6 +6277,7 @@ references:
 - uid: System.Func{{TOuter},System.Collections.Generic.IEnumerable{{TInner}},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TOuter, IEnumerable<TInner>, TResult>
   name.vb: Func(Of TOuter, IEnumerable(Of TInner), TResult)
   fullName: System.Func<TOuter, System.Collections.Generic.IEnumerable<TInner>, TResult>
@@ -6345,6 +6287,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TOuter
@@ -6355,6 +6298,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TInner
@@ -6372,6 +6316,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOuter
@@ -6382,6 +6327,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInner
@@ -6397,6 +6343,7 @@ references:
 - uid: System.Func{{TSource},{TKey}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, TKey>
   name.vb: Func(Of TSource, TKey)
   fullName: System.Func<TSource, TKey>
@@ -6406,6 +6353,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -6421,6 +6369,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -6495,6 +6444,7 @@ references:
 - uid: System.Collections.Generic.IComparer{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<TKey>
   name.vb: IComparer(Of TKey)
   fullName: System.Collections.Generic.IComparer<TKey>
@@ -6504,6 +6454,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -6515,6 +6466,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -6524,6 +6476,7 @@ references:
 - uid: System.Collections.Generic.IComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<T>
   name.vb: IComparer(Of T)
   fullName: System.Collections.Generic.IComparer<T>
@@ -6533,6 +6486,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -6544,6 +6498,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -6553,7 +6508,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TSource}}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.Linq.IGrouping`2.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<IGrouping<TKey, TSource>>
   name.vb: IEnumerable(Of IGrouping(Of TKey, TSource))
   fullName: System.Collections.Generic.IEnumerable<System.Linq.IGrouping<TKey, TSource>>
@@ -6563,6 +6518,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.IGrouping`2
@@ -6586,6 +6542,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.IGrouping`2
@@ -6607,6 +6564,7 @@ references:
 - uid: System.Func{{TSource},{TElement}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, TElement>
   name.vb: Func(Of TSource, TElement)
   fullName: System.Func<TSource, TElement>
@@ -6616,6 +6574,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -6631,6 +6590,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -6644,7 +6604,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TElement}}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.Linq.IGrouping`2.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<IGrouping<TKey, TElement>>
   name.vb: IEnumerable(Of IGrouping(Of TKey, TElement))
   fullName: System.Collections.Generic.IEnumerable<System.Linq.IGrouping<TKey, TElement>>
@@ -6654,6 +6614,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.IGrouping`2
@@ -6677,6 +6638,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.IGrouping`2
@@ -6698,6 +6660,7 @@ references:
 - uid: System.Func{{TKey},System.Collections.Generic.IEnumerable{{TSource}},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TKey, IEnumerable<TSource>, TResult>
   name.vb: Func(Of TKey, IEnumerable(Of TSource), TResult)
   fullName: System.Func<TKey, System.Collections.Generic.IEnumerable<TSource>, TResult>
@@ -6707,6 +6670,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TKey
@@ -6717,6 +6681,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -6734,6 +6699,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -6744,6 +6710,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -6759,6 +6726,7 @@ references:
 - uid: System.Func{{TKey},System.Collections.Generic.IEnumerable{{TElement}},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TKey, IEnumerable<TElement>, TResult>
   name.vb: Func(Of TKey, IEnumerable(Of TElement), TResult)
   fullName: System.Func<TKey, System.Collections.Generic.IEnumerable<TElement>, TResult>
@@ -6768,6 +6736,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TKey
@@ -6778,6 +6747,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TElement
@@ -6795,6 +6765,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -6805,6 +6776,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TElement
@@ -6820,6 +6792,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TFirst}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TFirst>
   name.vb: IEnumerable(Of TFirst)
   fullName: System.Collections.Generic.IEnumerable<TFirst>
@@ -6829,6 +6802,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TFirst
@@ -6840,6 +6814,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TFirst
@@ -6849,6 +6824,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TSecond}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TSecond>
   name.vb: IEnumerable(Of TSecond)
   fullName: System.Collections.Generic.IEnumerable<TSecond>
@@ -6858,6 +6834,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSecond
@@ -6869,6 +6846,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSecond
@@ -6878,6 +6856,7 @@ references:
 - uid: System.Func{{TFirst},{TSecond},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TFirst, TSecond, TResult>
   name.vb: Func(Of TFirst, TSecond, TResult)
   fullName: System.Func<TFirst, TSecond, TResult>
@@ -6887,6 +6866,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TFirst
@@ -6906,6 +6886,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TFirst
@@ -6923,6 +6904,7 @@ references:
 - uid: System.Collections.Generic.IEqualityComparer{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEqualityComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<TSource>
   name.vb: IEqualityComparer(Of TSource)
   fullName: System.Collections.Generic.IEqualityComparer<TSource>
@@ -6932,6 +6914,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -6943,6 +6926,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -6952,6 +6936,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: '{TSource}[]'
@@ -6973,6 +6958,7 @@ references:
 - uid: System.Collections.Generic.List{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   name: List<TSource>
   name.vb: List(Of TSource)
   fullName: System.Collections.Generic.List<TSource>
@@ -6982,6 +6968,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -6993,6 +6980,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -7002,6 +6990,7 @@ references:
 - uid: System.Collections.Generic.List`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   name: List<T>
   name.vb: List(Of T)
   fullName: System.Collections.Generic.List<T>
@@ -7011,6 +7000,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: <
     fullName: <
   - name: T
@@ -7022,6 +7012,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -7031,6 +7022,7 @@ references:
 - uid: System.Collections.Generic.Dictionary{{TKey},{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   name: Dictionary<TKey, TSource>
   name.vb: Dictionary(Of TKey, TSource)
   fullName: System.Collections.Generic.Dictionary<TKey, TSource>
@@ -7040,6 +7032,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -7055,6 +7048,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -7068,6 +7062,7 @@ references:
 - uid: System.Collections.Generic.Dictionary`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   name: Dictionary<TKey, TValue>
   name.vb: Dictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.Dictionary<TKey, TValue>
@@ -7077,6 +7072,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -7092,6 +7088,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -7105,6 +7102,7 @@ references:
 - uid: System.Collections.Generic.Dictionary{{TKey},{TElement}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   name: Dictionary<TKey, TElement>
   name.vb: Dictionary(Of TKey, TElement)
   fullName: System.Collections.Generic.Dictionary<TKey, TElement>
@@ -7114,6 +7112,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -7129,6 +7128,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -7261,6 +7261,7 @@ references:
 - uid: System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.Collections
@@ -7270,6 +7271,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Int32}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Int32>
   name.vb: IEnumerable(Of Int32)
   fullName: System.Collections.Generic.IEnumerable<System.Int32>
@@ -7279,12 +7281,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7292,12 +7296,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: '{TResult}'
@@ -7307,11 +7313,13 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Func{{TSource},{TSource},{TSource}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, TSource, TSource>
   name.vb: Func(Of TSource, TSource, TSource)
   fullName: System.Func<TSource, TSource, TSource>
@@ -7321,6 +7329,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -7340,6 +7349,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -7361,6 +7371,7 @@ references:
 - uid: System.Func{{TAccumulate},{TSource},{TAccumulate}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TAccumulate, TSource, TAccumulate>
   name.vb: Func(Of TAccumulate, TSource, TAccumulate)
   fullName: System.Func<TAccumulate, TSource, TAccumulate>
@@ -7370,6 +7381,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TAccumulate
@@ -7389,6 +7401,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TAccumulate
@@ -7406,6 +7419,7 @@ references:
 - uid: System.Func{{TAccumulate},{TResult}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TAccumulate, TResult>
   name.vb: Func(Of TAccumulate, TResult)
   fullName: System.Func<TAccumulate, TResult>
@@ -7415,6 +7429,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TAccumulate
@@ -7430,6 +7445,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TAccumulate
@@ -7443,6 +7459,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Nullable<Int32>>
   name.vb: IEnumerable(Of Nullable(Of Int32))
   fullName: System.Collections.Generic.IEnumerable<System.Nullable<System.Int32>>
@@ -7452,18 +7469,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -7473,18 +7493,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   - name: )
@@ -7492,6 +7515,7 @@ references:
 - uid: System.Nullable{System.Int32}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int32>
   name.vb: Nullable(Of Int32)
   fullName: System.Nullable<System.Int32>
@@ -7501,12 +7525,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7514,17 +7540,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Nullable`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<T>
   name.vb: Nullable(Of T)
   fullName: System.Nullable<T>
@@ -7534,6 +7563,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -7545,6 +7575,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -7554,6 +7585,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Int64}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Int64>
   name.vb: IEnumerable(Of Int64)
   fullName: System.Collections.Generic.IEnumerable<System.Int64>
@@ -7563,12 +7595,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7576,17 +7610,20 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Nullable<Int64>>
   name.vb: IEnumerable(Of Nullable(Of Int64))
   fullName: System.Collections.Generic.IEnumerable<System.Nullable<System.Int64>>
@@ -7596,18 +7633,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -7617,18 +7657,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   - name: )
@@ -7636,6 +7679,7 @@ references:
 - uid: System.Nullable{System.Int64}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int64>
   name.vb: Nullable(Of Int64)
   fullName: System.Nullable<System.Int64>
@@ -7645,12 +7689,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7658,17 +7704,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable{System.Single}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Single>
   name.vb: IEnumerable(Of Single)
   fullName: System.Collections.Generic.IEnumerable<System.Single>
@@ -7678,12 +7727,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7691,22 +7742,26 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Collections.Generic.IEnumerable{System.Nullable{System.Single}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Nullable<Single>>
   name.vb: IEnumerable(Of Nullable(Of Single))
   fullName: System.Collections.Generic.IEnumerable<System.Nullable<System.Single>>
@@ -7716,18 +7771,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -7737,18 +7795,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
   - name: )
@@ -7756,6 +7817,7 @@ references:
 - uid: System.Nullable{System.Single}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Single>
   name.vb: Nullable(Of Single)
   fullName: System.Nullable<System.Single>
@@ -7765,12 +7827,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7778,17 +7842,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable{System.Double}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Double>
   name.vb: IEnumerable(Of Double)
   fullName: System.Collections.Generic.IEnumerable<System.Double>
@@ -7798,12 +7865,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7811,22 +7880,26 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.Collections.Generic.IEnumerable{System.Nullable{System.Double}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Nullable<Double>>
   name.vb: IEnumerable(Of Nullable(Of Double))
   fullName: System.Collections.Generic.IEnumerable<System.Nullable<System.Double>>
@@ -7836,18 +7909,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -7857,18 +7933,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
   - name: )
@@ -7876,6 +7955,7 @@ references:
 - uid: System.Nullable{System.Double}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Double>
   name.vb: Nullable(Of Double)
   fullName: System.Nullable<System.Double>
@@ -7885,12 +7965,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7898,17 +7980,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable{System.Decimal}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Decimal>
   name.vb: IEnumerable(Of Decimal)
   fullName: System.Collections.Generic.IEnumerable<System.Decimal>
@@ -7918,12 +8003,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -7931,22 +8018,26 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Nullable<Decimal>>
   name.vb: IEnumerable(Of Nullable(Of Decimal))
   fullName: System.Collections.Generic.IEnumerable<System.Nullable<System.Decimal>>
@@ -7956,18 +8047,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -7977,18 +8071,21 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Nullable`1
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
   - name: )
@@ -7996,6 +8093,7 @@ references:
 - uid: System.Nullable{System.Decimal}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Decimal>
   name.vb: Nullable(Of Decimal)
   fullName: System.Nullable<System.Decimal>
@@ -8005,12 +8103,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -8018,17 +8118,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Int32}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Int32>
   name.vb: Func(Of TSource, Int32)
   fullName: System.Func<TSource, System.Int32>
@@ -8038,6 +8141,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8048,6 +8152,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -8055,6 +8160,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8065,11 +8171,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Int32}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Int32>>
   name.vb: Func(Of TSource, Nullable(Of Int32))
   fullName: System.Func<TSource, System.Nullable<System.Int32>>
@@ -8079,6 +8187,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8089,12 +8198,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -8104,6 +8215,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8114,12 +8226,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   - name: )
@@ -8127,6 +8241,7 @@ references:
 - uid: System.Func{{TSource},System.Int64}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Int64>
   name.vb: Func(Of TSource, Int64)
   fullName: System.Func<TSource, System.Int64>
@@ -8136,6 +8251,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8146,6 +8262,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -8153,6 +8270,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8163,11 +8281,13 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Int64}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Int64>>
   name.vb: Func(Of TSource, Nullable(Of Int64))
   fullName: System.Func<TSource, System.Nullable<System.Int64>>
@@ -8177,6 +8297,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8187,12 +8308,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -8202,6 +8325,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8212,12 +8336,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   - name: )
@@ -8225,6 +8351,7 @@ references:
 - uid: System.Func{{TSource},System.Single}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Single>
   name.vb: Func(Of TSource, Single)
   fullName: System.Func<TSource, System.Single>
@@ -8234,6 +8361,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8244,6 +8372,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -8251,6 +8380,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8261,11 +8391,13 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Single}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Single>>
   name.vb: Func(Of TSource, Nullable(Of Single))
   fullName: System.Func<TSource, System.Nullable<System.Single>>
@@ -8275,6 +8407,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8285,12 +8418,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -8300,6 +8435,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8310,12 +8446,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
   - name: )
@@ -8323,6 +8461,7 @@ references:
 - uid: System.Func{{TSource},System.Double}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Double>
   name.vb: Func(Of TSource, Double)
   fullName: System.Func<TSource, System.Double>
@@ -8332,6 +8471,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8342,6 +8482,7 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -8349,6 +8490,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8359,11 +8501,13 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Double}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Double>>
   name.vb: Func(Of TSource, Nullable(Of Double))
   fullName: System.Func<TSource, System.Nullable<System.Double>>
@@ -8373,6 +8517,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8383,12 +8528,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -8398,6 +8545,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8408,12 +8556,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
   - name: )
@@ -8421,6 +8571,7 @@ references:
 - uid: System.Func{{TSource},System.Decimal}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Decimal>
   name.vb: Func(Of TSource, Decimal)
   fullName: System.Func<TSource, System.Decimal>
@@ -8430,6 +8581,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8440,6 +8592,7 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -8447,6 +8600,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8457,11 +8611,13 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Decimal}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Decimal>>
   name.vb: Func(Of TSource, Nullable(Of Decimal))
   fullName: System.Func<TSource, System.Nullable<System.Decimal>>
@@ -8471,6 +8627,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -8481,12 +8638,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -8496,6 +8655,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -8506,12 +8666,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
   - name: )

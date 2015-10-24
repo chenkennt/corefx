@@ -2,11 +2,11 @@ items:
 - uid: System.Runtime.InteropServices
   id: System.Runtime.InteropServices
   children:
-  - System.Runtime.InteropServices.RuntimeInformation
-  - System.Runtime.InteropServices.OSPlatform
   - System.Runtime.InteropServices.ComAwareEventInfo
-  - System.Runtime.InteropServices.HandleCollector
   - System.Runtime.InteropServices.DefaultParameterValueAttribute
+  - System.Runtime.InteropServices.HandleCollector
+  - System.Runtime.InteropServices.OSPlatform
+  - System.Runtime.InteropServices.RuntimeInformation
   href: System.Runtime.InteropServices.yml
   name: System.Runtime.InteropServices
   fullName: System.Runtime.InteropServices

@@ -147,6 +147,7 @@ references:
     name: Exception
     fullName: System.Exception
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: )
     fullName: )
   spec.vb:
@@ -160,6 +161,7 @@ references:
     name: Exception
     fullName: System.Exception
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Dataflow.IDataflowBlock
@@ -214,6 +216,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Threading.Tasks.Dataflow.DataflowMessageStatus

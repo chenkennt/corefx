@@ -7,38 +7,38 @@ items:
   - System.Collections.Generic.SortedSet`1.#ctor(System.Collections.Generic.IComparer{`0})
   - System.Collections.Generic.SortedSet`1.#ctor(System.Collections.Generic.IEnumerable{`0})
   - System.Collections.Generic.SortedSet`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IComparer{`0})
-  - System.Collections.Generic.SortedSet`1.Count
-  - System.Collections.Generic.SortedSet`1.Comparer
-  - System.Collections.Generic.SortedSet`1.System#Collections#Generic#ICollection{T}#IsReadOnly
-  - System.Collections.Generic.SortedSet`1.System#Collections#ICollection#IsSynchronized
-  - System.Collections.Generic.SortedSet`1.System#Collections#ICollection#SyncRoot
   - System.Collections.Generic.SortedSet`1.Add(`0)
-  - System.Collections.Generic.SortedSet`1.System#Collections#Generic#ICollection{T}#Add(`0)
-  - System.Collections.Generic.SortedSet`1.Remove(`0)
   - System.Collections.Generic.SortedSet`1.Clear
+  - System.Collections.Generic.SortedSet`1.Comparer
   - System.Collections.Generic.SortedSet`1.Contains(`0)
   - System.Collections.Generic.SortedSet`1.CopyTo(`0[])
   - System.Collections.Generic.SortedSet`1.CopyTo(`0[],System.Int32)
   - System.Collections.Generic.SortedSet`1.CopyTo(`0[],System.Int32,System.Int32)
-  - System.Collections.Generic.SortedSet`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.Generic.SortedSet`1.Count
+  - System.Collections.Generic.SortedSet`1.ExceptWith(System.Collections.Generic.IEnumerable{`0})
   - System.Collections.Generic.SortedSet`1.GetEnumerator
+  - System.Collections.Generic.SortedSet`1.GetViewBetween(`0,`0)
+  - System.Collections.Generic.SortedSet`1.IntersectWith(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.Max
+  - System.Collections.Generic.SortedSet`1.Min
+  - System.Collections.Generic.SortedSet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.Remove(`0)
+  - System.Collections.Generic.SortedSet`1.RemoveWhere(System.Predicate{`0})
+  - System.Collections.Generic.SortedSet`1.Reverse
+  - System.Collections.Generic.SortedSet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.SymmetricExceptWith(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Generic.SortedSet`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  - System.Collections.Generic.SortedSet`1.System#Collections#Generic#ICollection{T}#IsReadOnly
   - System.Collections.Generic.SortedSet`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  - System.Collections.Generic.SortedSet`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.Generic.SortedSet`1.System#Collections#ICollection#IsSynchronized
+  - System.Collections.Generic.SortedSet`1.System#Collections#ICollection#SyncRoot
   - System.Collections.Generic.SortedSet`1.System#Collections#IEnumerable#GetEnumerator
   - System.Collections.Generic.SortedSet`1.UnionWith(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.IntersectWith(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.ExceptWith(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.SymmetricExceptWith(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Generic.SortedSet`1.RemoveWhere(System.Predicate{`0})
-  - System.Collections.Generic.SortedSet`1.Min
-  - System.Collections.Generic.SortedSet`1.Max
-  - System.Collections.Generic.SortedSet`1.Reverse
-  - System.Collections.Generic.SortedSet`1.GetViewBetween(`0,`0)
   href: System.Collections.Generic.SortedSet`1.yml
   name: SortedSet<T>
   name.vb: SortedSet(Of T)
@@ -58,17 +58,26 @@ items:
   namespace: System.Collections.Generic
   syntax:
     content: 'public class SortedSet<T> : ISet<T>, ICollection<T>, ICollection, IReadOnlyCollection<T>, IEnumerable<T>, IEnumerable'
-    content.vb: Public Class SortedSet(Of T) Inherits ISet(Of T) Implements ICollection(Of T), ICollection, IReadOnlyCollection(Of T), IEnumerable(Of T), IEnumerable
+    content.vb: Public Class SortedSet(Of T) Implements ISet(Of T), ICollection(Of T), ICollection, IReadOnlyCollection(Of T), IEnumerable(Of T), IEnumerable
     typeParameters:
     - id: T
   inheritance:
   - System.Object
   implements:
+  - System.Collections.Generic.ISet{{T}}
   - System.Collections.Generic.ICollection{{T}}
   - System.Collections.ICollection
   - System.Collections.Generic.IReadOnlyCollection{{T}}
   - System.Collections.Generic.IEnumerable{{T}}
   - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: System.Collections.Generic.SortedSet`1.#ctor
   id: '#ctor'
   parent: System.Collections.Generic.SortedSet`1
@@ -176,7 +185,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.Comparer
   id: Comparer
   parent: System.Collections.Generic.SortedSet`1
@@ -198,7 +206,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IComparer{{T}}
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.System#Collections#Generic#ICollection{T}#IsReadOnly
   id: System#Collections#Generic#ICollection{T}#IsReadOnly
   parent: System.Collections.Generic.SortedSet`1
@@ -221,7 +228,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.Generic.SortedSet`1
@@ -244,7 +250,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.Generic.SortedSet`1
@@ -267,7 +272,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.Add(`0)
   id: Add(`0)
   parent: System.Collections.Generic.SortedSet`1
@@ -337,10 +341,8 @@ items:
     parameters:
     - id: item
       type: '{T}'
-      description: 
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.Clear
   id: Clear
   parent: System.Collections.Generic.SortedSet`1
@@ -382,7 +384,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.CopyTo(`0[])
   id: CopyTo(`0[])
   parent: System.Collections.Generic.SortedSet`1
@@ -499,7 +500,6 @@ items:
     content.vb: Public Function GetEnumerator As SortedSet(Of T).Enumerator
     return:
       type: System.Collections.Generic.SortedSet`1.Enumerator
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{T}#GetEnumerator
   parent: System.Collections.Generic.SortedSet`1
@@ -521,7 +521,6 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<T>.GetEnumerator As IEnumerator(Of T) Implements IEnumerable(Of T).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{{T}}
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Generic.SortedSet`1
@@ -543,7 +542,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.UnionWith(System.Collections.Generic.IEnumerable{`0})
   id: UnionWith(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -576,7 +574,6 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.IntersectWith(System.Collections.Generic.IEnumerable{`0})
   id: IntersectWith(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -607,7 +604,6 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.ExceptWith(System.Collections.Generic.IEnumerable{`0})
   id: ExceptWith(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -638,7 +634,6 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.SymmetricExceptWith(System.Collections.Generic.IEnumerable{`0})
   id: SymmetricExceptWith(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -669,7 +664,6 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})
   id: IsSubsetOf(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -693,10 +687,8 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
   id: IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -720,10 +712,8 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
   id: IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -747,10 +737,8 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
   id: IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -774,10 +762,8 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})
   id: SetEquals(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -801,10 +787,8 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})
   id: Overlaps(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -828,10 +812,8 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.RemoveWhere(System.Predicate{`0})
   id: RemoveWhere(System.Predicate{`0})
   parent: System.Collections.Generic.SortedSet`1
@@ -856,7 +838,6 @@ items:
       type: System.Predicate{{T}}
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.Min
   id: Min
   parent: System.Collections.Generic.SortedSet`1
@@ -878,7 +859,6 @@ items:
     parameters: []
     return:
       type: '{T}'
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.Max
   id: Max
   parent: System.Collections.Generic.SortedSet`1
@@ -900,7 +880,6 @@ items:
     parameters: []
     return:
       type: '{T}'
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.Reverse
   id: Reverse
   parent: System.Collections.Generic.SortedSet`1
@@ -921,7 +900,6 @@ items:
     content.vb: Public Function Reverse As IEnumerable(Of T)
     return:
       type: System.Collections.Generic.IEnumerable{{T}}
-      description: 
 - uid: System.Collections.Generic.SortedSet`1.GetViewBetween(`0,`0)
   id: GetViewBetween(`0,`0)
   parent: System.Collections.Generic.SortedSet`1
@@ -959,8 +937,249 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
 - uid: System
   isExternal: false
   name: System
@@ -968,6 +1187,7 @@ references:
 - uid: System.Collections.Generic.IComparer{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<T>
   name.vb: IComparer(Of T)
   fullName: System.Collections.Generic.IComparer<T>
@@ -977,6 +1197,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -988,6 +1209,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -997,6 +1219,7 @@ references:
 - uid: System.Collections.Generic.IComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<T>
   name.vb: IComparer(Of T)
   fullName: System.Collections.Generic.IComparer<T>
@@ -1006,6 +1229,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1017,6 +1241,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1026,6 +1251,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1035,6 +1261,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1046,6 +1273,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1055,6 +1283,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1064,6 +1293,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1075,6 +1305,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1084,11 +1315,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: '{T}'
@@ -1112,10 +1345,6 @@ references:
   - name: ()
     fullName: ()
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array
 - uid: System.Collections.Generic.SortedSet`1.Enumerator
   parent: System.Collections.Generic
   isExternal: false
@@ -1146,6 +1375,7 @@ references:
 - uid: System.Collections.Generic.IEnumerator{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerator`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   name: IEnumerator<T>
   name.vb: IEnumerator(Of T)
   fullName: System.Collections.Generic.IEnumerator<T>
@@ -1155,6 +1385,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1166,6 +1397,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1175,6 +1407,7 @@ references:
 - uid: System.Collections.Generic.IEnumerator`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   name: IEnumerator<T>
   name.vb: IEnumerator(Of T)
   fullName: System.Collections.Generic.IEnumerator<T>
@@ -1184,6 +1417,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1195,6 +1429,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1204,6 +1439,7 @@ references:
 - uid: System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerator.yml
   name: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections
@@ -1213,6 +1449,7 @@ references:
 - uid: System.Predicate{{T}}
   parent: System
   definition: System.Predicate`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: Predicate<T>
   name.vb: Predicate(Of T)
   fullName: System.Predicate<T>
@@ -1222,6 +1459,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1233,6 +1471,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1242,6 +1481,7 @@ references:
 - uid: System.Predicate`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: Predicate<T>
   name.vb: Predicate(Of T)
   fullName: System.Predicate<T>
@@ -1251,6 +1491,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1262,6 +1503,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T

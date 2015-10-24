@@ -6,8 +6,8 @@ items:
   - System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.#ctor
   - System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.#ctor(AsnEncodedData,System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.#ctor(OidCollection,System.Boolean)
-  - System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.EnhancedKeyUsages
   - System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.CopyFrom(AsnEncodedData)
+  - System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.EnhancedKeyUsages
   href: System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.yml
   name: X509EnhancedKeyUsageExtension
   fullName: System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
@@ -112,7 +112,6 @@ items:
     parameters: []
     return:
       type: OidCollection
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension.CopyFrom(AsnEncodedData)
   id: CopyFrom(AsnEncodedData)
   parent: System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
@@ -143,6 +142,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Security.Cryptography.X509Certificates.X509Extension
@@ -169,6 +169,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: OidCollection

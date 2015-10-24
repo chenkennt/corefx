@@ -2,10 +2,10 @@ items:
 - uid: System.Threading.Tasks
   id: System.Threading.Tasks
   children:
-  - System.Threading.Tasks.ParallelOptions
   - System.Threading.Tasks.Parallel
-  - System.Threading.Tasks.ParallelLoopState
   - System.Threading.Tasks.ParallelLoopResult
+  - System.Threading.Tasks.ParallelLoopState
+  - System.Threading.Tasks.ParallelOptions
   - System.Threading.Tasks.TaskExtensions
   href: System.Threading.Tasks.yml
   name: System.Threading.Tasks

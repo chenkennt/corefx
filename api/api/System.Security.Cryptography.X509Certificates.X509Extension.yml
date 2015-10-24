@@ -7,8 +7,8 @@ items:
   - System.Security.Cryptography.X509Certificates.X509Extension.#ctor(AsnEncodedData,System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509Extension.#ctor(Oid,System.Byte[],System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509Extension.#ctor(System.String,System.Byte[],System.Boolean)
-  - System.Security.Cryptography.X509Certificates.X509Extension.Critical
   - System.Security.Cryptography.X509Certificates.X509Extension.CopyFrom(AsnEncodedData)
+  - System.Security.Cryptography.X509Certificates.X509Extension.Critical
   href: System.Security.Cryptography.X509Certificates.X509Extension.yml
   name: X509Extension
   fullName: System.Security.Cryptography.X509Certificates.X509Extension
@@ -140,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Extension.CopyFrom(AsnEncodedData)
   id: CopyFrom(AsnEncodedData)
   parent: System.Security.Cryptography.X509Certificates.X509Extension
@@ -170,6 +169,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -183,6 +183,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: Oid
@@ -191,6 +192,7 @@ references:
   fullName: Oid
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -200,6 +202,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -207,10 +210,12 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String

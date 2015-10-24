@@ -3,116 +3,116 @@ items:
   id: XmlDictionaryReader
   parent: System.Xml
   children:
-  - System.Xml.XmlDictionaryReader.CreateDictionaryReader(XmlReader)
-  - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
-  - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas)
+  - System.Xml.XmlDictionaryReader.CanCanonicalize
+  - System.Xml.XmlDictionaryReader.Close
   - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas)
   - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession)
-  - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
+  - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas)
+  - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
   - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas)
   - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession)
-  - System.Xml.XmlDictionaryReader.CreateTextReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
+  - System.Xml.XmlDictionaryReader.CreateBinaryReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
+  - System.Xml.XmlDictionaryReader.CreateDictionaryReader(XmlReader)
   - System.Xml.XmlDictionaryReader.CreateTextReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas)
-  - System.Xml.XmlDictionaryReader.CreateTextReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
+  - System.Xml.XmlDictionaryReader.CreateTextReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
   - System.Xml.XmlDictionaryReader.CreateTextReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose)
-  - System.Xml.XmlDictionaryReader.CanCanonicalize
-  - System.Xml.XmlDictionaryReader.Quotas
-  - System.Xml.XmlDictionaryReader.StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
+  - System.Xml.XmlDictionaryReader.CreateTextReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
   - System.Xml.XmlDictionaryReader.EndCanonicalization
-  - System.Xml.XmlDictionaryReader.MoveToStartElement
-  - System.Xml.XmlDictionaryReader.MoveToStartElement(System.String)
-  - System.Xml.XmlDictionaryReader.MoveToStartElement(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.MoveToStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.GetAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.IndexOfLocalName(System.String[],System.String)
+  - System.Xml.XmlDictionaryReader.IndexOfLocalName(System.Xml.XmlDictionaryString[],System.Xml.XmlDictionaryString)
   - System.Xml.XmlDictionaryReader.IsLocalName(System.String)
   - System.Xml.XmlDictionaryReader.IsLocalName(System.Xml.XmlDictionaryString)
   - System.Xml.XmlDictionaryReader.IsNamespaceUri(System.String)
   - System.Xml.XmlDictionaryReader.IsNamespaceUri(System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.IsStartArray(System.Type@)
+  - System.Xml.XmlDictionaryReader.IsStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.IsTextNode(XmlNodeType)
+  - System.Xml.XmlDictionaryReader.MoveToStartElement
+  - System.Xml.XmlDictionaryReader.MoveToStartElement(System.String)
+  - System.Xml.XmlDictionaryReader.MoveToStartElement(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.MoveToStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.Quotas
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Boolean[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.DateTime[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Decimal[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Double[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Guid[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int16[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int32[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int64[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Single[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.TimeSpan[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadBooleanArray(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadBooleanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadContentAs(System.Type,IXmlNamespaceResolver)
+  - System.Xml.XmlDictionaryReader.ReadContentAsBase64
+  - System.Xml.XmlDictionaryReader.ReadContentAsBinHex
+  - System.Xml.XmlDictionaryReader.ReadContentAsBinHex(System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadContentAsChars(System.Char[],System.Int32,System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadContentAsDecimal
+  - System.Xml.XmlDictionaryReader.ReadContentAsFloat
+  - System.Xml.XmlDictionaryReader.ReadContentAsGuid
+  - System.Xml.XmlDictionaryReader.ReadContentAsQualifiedName(System.String@,System.String@)
+  - System.Xml.XmlDictionaryReader.ReadContentAsString
+  - System.Xml.XmlDictionaryReader.ReadContentAsString(System.Int32)
+  - System.Xml.XmlDictionaryReader.ReadContentAsString(System.String[],System.Int32@)
+  - System.Xml.XmlDictionaryReader.ReadContentAsString(System.Xml.XmlDictionaryString[],System.Int32@)
+  - System.Xml.XmlDictionaryReader.ReadContentAsTimeSpan
+  - System.Xml.XmlDictionaryReader.ReadContentAsUniqueId
+  - System.Xml.XmlDictionaryReader.ReadDateTimeArray(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadDateTimeArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadDecimalArray(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadDecimalArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadDoubleArray(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadDoubleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsBase64
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsBinHex
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsBoolean
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsDateTime
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsDecimal
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsDouble
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsFloat
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsGuid
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsInt
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsLong
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsString
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsTimeSpan
+  - System.Xml.XmlDictionaryReader.ReadElementContentAsUniqueId
   - System.Xml.XmlDictionaryReader.ReadFullStartElement
   - System.Xml.XmlDictionaryReader.ReadFullStartElement(System.String)
   - System.Xml.XmlDictionaryReader.ReadFullStartElement(System.String,System.String)
   - System.Xml.XmlDictionaryReader.ReadFullStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadGuidArray(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadGuidArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadInt16Array(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadInt16Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadInt32Array(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadInt32Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadInt64Array(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadInt64Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
+  - System.Xml.XmlDictionaryReader.ReadSingleArray(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadSingleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   - System.Xml.XmlDictionaryReader.ReadStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.IsStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.IndexOfLocalName(System.String[],System.String)
-  - System.Xml.XmlDictionaryReader.IndexOfLocalName(System.Xml.XmlDictionaryString[],System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.GetAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.TryGetBase64ContentLength(System.Int32@)
+  - System.Xml.XmlDictionaryReader.ReadTimeSpanArray(System.String,System.String)
+  - System.Xml.XmlDictionaryReader.ReadTimeSpanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   - System.Xml.XmlDictionaryReader.ReadValueAsBase64(System.Byte[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadContentAsBase64
-  - System.Xml.XmlDictionaryReader.ReadContentAsString
-  - System.Xml.XmlDictionaryReader.ReadContentAsString(System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadContentAsBinHex
-  - System.Xml.XmlDictionaryReader.ReadContentAsBinHex(System.Int32)
-  - System.Xml.XmlDictionaryReader.IsTextNode(XmlNodeType)
-  - System.Xml.XmlDictionaryReader.ReadContentAsChars(System.Char[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadContentAs(System.Type,IXmlNamespaceResolver)
-  - System.Xml.XmlDictionaryReader.ReadContentAsString(System.String[],System.Int32@)
-  - System.Xml.XmlDictionaryReader.ReadContentAsString(System.Xml.XmlDictionaryString[],System.Int32@)
-  - System.Xml.XmlDictionaryReader.ReadContentAsDecimal
-  - System.Xml.XmlDictionaryReader.ReadContentAsFloat
-  - System.Xml.XmlDictionaryReader.ReadContentAsUniqueId
-  - System.Xml.XmlDictionaryReader.ReadContentAsGuid
-  - System.Xml.XmlDictionaryReader.ReadContentAsTimeSpan
-  - System.Xml.XmlDictionaryReader.ReadContentAsQualifiedName(System.String@,System.String@)
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsString
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsBoolean
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsInt
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsLong
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsFloat
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsDouble
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsDecimal
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsDateTime
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsUniqueId
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsGuid
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsTimeSpan
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsBase64
-  - System.Xml.XmlDictionaryReader.ReadElementContentAsBinHex
+  - System.Xml.XmlDictionaryReader.StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
+  - System.Xml.XmlDictionaryReader.TryGetArrayLength(System.Int32@)
+  - System.Xml.XmlDictionaryReader.TryGetBase64ContentLength(System.Int32@)
   - System.Xml.XmlDictionaryReader.TryGetLocalNameAsDictionaryString(System.Xml.XmlDictionaryString@)
   - System.Xml.XmlDictionaryReader.TryGetNamespaceUriAsDictionaryString(System.Xml.XmlDictionaryString@)
   - System.Xml.XmlDictionaryReader.TryGetValueAsDictionaryString(System.Xml.XmlDictionaryString@)
-  - System.Xml.XmlDictionaryReader.IsStartArray(System.Type@)
-  - System.Xml.XmlDictionaryReader.TryGetArrayLength(System.Int32@)
-  - System.Xml.XmlDictionaryReader.ReadBooleanArray(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadBooleanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Boolean[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadInt16Array(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadInt16Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int16[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadInt32Array(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadInt32Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int32[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadInt64Array(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadInt64Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int64[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadSingleArray(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadSingleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Single[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadDoubleArray(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadDoubleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Double[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadDecimalArray(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadDecimalArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Decimal[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadDateTimeArray(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadDateTimeArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.DateTime[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadGuidArray(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadGuidArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Guid[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadTimeSpanArray(System.String,System.String)
-  - System.Xml.XmlDictionaryReader.ReadTimeSpanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.TimeSpan[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32)
-  - System.Xml.XmlDictionaryReader.Close
   href: System.Xml.XmlDictionaryReader.yml
   name: XmlDictionaryReader
   fullName: System.Xml.XmlDictionaryReader
@@ -155,7 +155,6 @@ items:
       type: XmlReader
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
   id: CreateBinaryReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -182,7 +181,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas)
   id: CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -213,7 +211,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas)
   id: CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -246,7 +243,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession)
   id: CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession)
   parent: System.Xml.XmlDictionaryReader
@@ -281,7 +277,6 @@ items:
       type: System.Xml.XmlBinaryReaderSession
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateBinaryReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
   id: CreateBinaryReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -306,7 +301,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas)
   id: CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -333,7 +327,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession)
   id: CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession)
   parent: System.Xml.XmlDictionaryReader
@@ -362,7 +355,6 @@ items:
       type: System.Xml.XmlBinaryReaderSession
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateTextReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
   id: CreateTextReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -389,7 +381,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateTextReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas)
   id: CreateTextReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -420,7 +411,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateTextReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
   id: CreateTextReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas)
   parent: System.Xml.XmlDictionaryReader
@@ -445,7 +435,6 @@ items:
       type: System.Xml.XmlDictionaryReaderQuotas
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CreateTextReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose)
   id: CreateTextReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose)
   parent: System.Xml.XmlDictionaryReader
@@ -474,7 +463,6 @@ items:
       type: System.Xml.OnXmlDictionaryReaderClose
     return:
       type: System.Xml.XmlDictionaryReader
-      description: 
 - uid: System.Xml.XmlDictionaryReader.CanCanonicalize
   id: CanCanonicalize
   parent: System.Xml.XmlDictionaryReader
@@ -495,7 +483,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.Quotas
   id: Quotas
   parent: System.Xml.XmlDictionaryReader
@@ -516,7 +503,6 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlDictionaryReaderQuotas
-      description: 
 - uid: System.Xml.XmlDictionaryReader.StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
   id: StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
   parent: System.Xml.XmlDictionaryReader
@@ -663,7 +649,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.IsLocalName(System.Xml.XmlDictionaryString)
   id: IsLocalName(System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -686,7 +671,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.IsNamespaceUri(System.String)
   id: IsNamespaceUri(System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -709,7 +693,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.IsNamespaceUri(System.Xml.XmlDictionaryString)
   id: IsNamespaceUri(System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -732,7 +715,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadFullStartElement
   id: ReadFullStartElement
   parent: System.Xml.XmlDictionaryReader
@@ -860,7 +842,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.IndexOfLocalName(System.String[],System.String)
   id: IndexOfLocalName(System.String[],System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -887,7 +868,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.IndexOfLocalName(System.Xml.XmlDictionaryString[],System.Xml.XmlDictionaryString)
   id: IndexOfLocalName(System.Xml.XmlDictionaryString[],System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -914,7 +894,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.GetAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: GetAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -939,7 +918,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlDictionaryReader.TryGetBase64ContentLength(System.Int32@)
   id: TryGetBase64ContentLength(System.Int32@)
   parent: System.Xml.XmlDictionaryReader
@@ -964,7 +942,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadValueAsBase64(System.Byte[],System.Int32,System.Int32)
   id: ReadValueAsBase64(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -993,7 +970,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsBase64
   id: ReadContentAsBase64
   parent: System.Xml.XmlDictionaryReader
@@ -1013,7 +989,6 @@ items:
     content.vb: Public Overridable Function ReadContentAsBase64 As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsString
   id: ReadContentAsString
   parent: System.Xml.XmlDictionaryReader
@@ -1033,7 +1008,6 @@ items:
     content.vb: Public Overrides Function ReadContentAsString As String
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsString(System.Int32)
   id: ReadContentAsString(System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -1056,7 +1030,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsBinHex
   id: ReadContentAsBinHex
   parent: System.Xml.XmlDictionaryReader
@@ -1076,7 +1049,6 @@ items:
     content.vb: Public Overridable Function ReadContentAsBinHex As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsBinHex(System.Int32)
   id: ReadContentAsBinHex(System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -1099,7 +1071,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.IsTextNode(XmlNodeType)
   id: IsTextNode(XmlNodeType)
   parent: System.Xml.XmlDictionaryReader
@@ -1122,7 +1093,6 @@ items:
       type: XmlNodeType
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsChars(System.Char[],System.Int32,System.Int32)
   id: ReadContentAsChars(System.Char[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -1151,7 +1121,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAs(System.Type,IXmlNamespaceResolver)
   id: ReadContentAs(System.Type,IXmlNamespaceResolver)
   parent: System.Xml.XmlDictionaryReader
@@ -1176,7 +1145,6 @@ items:
       type: IXmlNamespaceResolver
     return:
       type: System.Object
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsString(System.String[],System.Int32@)
   id: ReadContentAsString(System.String[],System.Int32@)
   parent: System.Xml.XmlDictionaryReader
@@ -1203,7 +1171,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsString(System.Xml.XmlDictionaryString[],System.Int32@)
   id: ReadContentAsString(System.Xml.XmlDictionaryString[],System.Int32@)
   parent: System.Xml.XmlDictionaryReader
@@ -1230,7 +1197,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsDecimal
   id: ReadContentAsDecimal
   parent: System.Xml.XmlDictionaryReader
@@ -1250,7 +1216,6 @@ items:
     content.vb: Public Overrides Function ReadContentAsDecimal As Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsFloat
   id: ReadContentAsFloat
   parent: System.Xml.XmlDictionaryReader
@@ -1270,7 +1235,6 @@ items:
     content.vb: Public Overrides Function ReadContentAsFloat As Single
     return:
       type: System.Single
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsUniqueId
   id: ReadContentAsUniqueId
   parent: System.Xml.XmlDictionaryReader
@@ -1290,7 +1254,6 @@ items:
     content.vb: Public Overridable Function ReadContentAsUniqueId As UniqueId
     return:
       type: System.Xml.UniqueId
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsGuid
   id: ReadContentAsGuid
   parent: System.Xml.XmlDictionaryReader
@@ -1310,7 +1273,6 @@ items:
     content.vb: Public Overridable Function ReadContentAsGuid As Guid
     return:
       type: System.Guid
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsTimeSpan
   id: ReadContentAsTimeSpan
   parent: System.Xml.XmlDictionaryReader
@@ -1330,7 +1292,6 @@ items:
     content.vb: Public Overridable Function ReadContentAsTimeSpan As TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadContentAsQualifiedName(System.String@,System.String@)
   id: ReadContentAsQualifiedName(System.String@,System.String@)
   parent: System.Xml.XmlDictionaryReader
@@ -1374,7 +1335,6 @@ items:
     content.vb: Public Overrides Function ReadElementContentAsString As String
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsBoolean
   id: ReadElementContentAsBoolean
   parent: System.Xml.XmlDictionaryReader
@@ -1394,7 +1354,6 @@ items:
     content.vb: Public Overrides Function ReadElementContentAsBoolean As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsInt
   id: ReadElementContentAsInt
   parent: System.Xml.XmlDictionaryReader
@@ -1414,7 +1373,6 @@ items:
     content.vb: Public Overrides Function ReadElementContentAsInt As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsLong
   id: ReadElementContentAsLong
   parent: System.Xml.XmlDictionaryReader
@@ -1434,7 +1392,6 @@ items:
     content.vb: Public Overrides Function ReadElementContentAsLong As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsFloat
   id: ReadElementContentAsFloat
   parent: System.Xml.XmlDictionaryReader
@@ -1454,7 +1411,6 @@ items:
     content.vb: Public Overrides Function ReadElementContentAsFloat As Single
     return:
       type: System.Single
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsDouble
   id: ReadElementContentAsDouble
   parent: System.Xml.XmlDictionaryReader
@@ -1474,7 +1430,6 @@ items:
     content.vb: Public Overrides Function ReadElementContentAsDouble As Double
     return:
       type: System.Double
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsDecimal
   id: ReadElementContentAsDecimal
   parent: System.Xml.XmlDictionaryReader
@@ -1494,7 +1449,6 @@ items:
     content.vb: Public Overrides Function ReadElementContentAsDecimal As Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsDateTime
   id: ReadElementContentAsDateTime
   parent: System.Xml.XmlDictionaryReader
@@ -1514,7 +1468,6 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsDateTime As Date
     return:
       type: System.DateTime
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsUniqueId
   id: ReadElementContentAsUniqueId
   parent: System.Xml.XmlDictionaryReader
@@ -1534,7 +1487,6 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsUniqueId As UniqueId
     return:
       type: System.Xml.UniqueId
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsGuid
   id: ReadElementContentAsGuid
   parent: System.Xml.XmlDictionaryReader
@@ -1554,7 +1506,6 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsGuid As Guid
     return:
       type: System.Guid
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsTimeSpan
   id: ReadElementContentAsTimeSpan
   parent: System.Xml.XmlDictionaryReader
@@ -1574,7 +1525,6 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsTimeSpan As TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsBase64
   id: ReadElementContentAsBase64
   parent: System.Xml.XmlDictionaryReader
@@ -1594,7 +1544,6 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsBase64 As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadElementContentAsBinHex
   id: ReadElementContentAsBinHex
   parent: System.Xml.XmlDictionaryReader
@@ -1614,7 +1563,6 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsBinHex As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.TryGetLocalNameAsDictionaryString(System.Xml.XmlDictionaryString@)
   id: TryGetLocalNameAsDictionaryString(System.Xml.XmlDictionaryString@)
   parent: System.Xml.XmlDictionaryReader
@@ -1639,7 +1587,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.TryGetNamespaceUriAsDictionaryString(System.Xml.XmlDictionaryString@)
   id: TryGetNamespaceUriAsDictionaryString(System.Xml.XmlDictionaryString@)
   parent: System.Xml.XmlDictionaryReader
@@ -1664,7 +1611,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.TryGetValueAsDictionaryString(System.Xml.XmlDictionaryString@)
   id: TryGetValueAsDictionaryString(System.Xml.XmlDictionaryString@)
   parent: System.Xml.XmlDictionaryReader
@@ -1689,7 +1635,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.IsStartArray(System.Type@)
   id: IsStartArray(System.Type@)
   parent: System.Xml.XmlDictionaryReader
@@ -1714,7 +1659,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.TryGetArrayLength(System.Int32@)
   id: TryGetArrayLength(System.Int32@)
   parent: System.Xml.XmlDictionaryReader
@@ -1739,7 +1683,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadBooleanArray(System.String,System.String)
   id: ReadBooleanArray(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -1764,7 +1707,6 @@ items:
       type: System.String
     return:
       type: System.Boolean[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadBooleanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadBooleanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -1789,7 +1731,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Boolean[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Boolean[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -1822,7 +1763,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -1855,7 +1795,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadInt16Array(System.String,System.String)
   id: ReadInt16Array(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -1880,7 +1819,6 @@ items:
       type: System.String
     return:
       type: System.Int16[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadInt16Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadInt16Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -1905,7 +1843,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Int16[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int16[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Int16[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -1938,7 +1875,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -1971,7 +1907,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadInt32Array(System.String,System.String)
   id: ReadInt32Array(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -1996,7 +1931,6 @@ items:
       type: System.String
     return:
       type: System.Int32[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadInt32Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadInt32Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2021,7 +1955,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Int32[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int32[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Int32[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2054,7 +1987,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2087,7 +2019,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadInt64Array(System.String,System.String)
   id: ReadInt64Array(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -2112,7 +2043,6 @@ items:
       type: System.String
     return:
       type: System.Int64[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadInt64Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadInt64Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2137,7 +2067,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Int64[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Int64[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Int64[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2170,7 +2099,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2203,7 +2131,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadSingleArray(System.String,System.String)
   id: ReadSingleArray(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -2228,7 +2155,6 @@ items:
       type: System.String
     return:
       type: System.Single[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadSingleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadSingleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2253,7 +2179,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Single[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Single[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Single[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2286,7 +2211,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2319,7 +2243,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadDoubleArray(System.String,System.String)
   id: ReadDoubleArray(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -2344,7 +2267,6 @@ items:
       type: System.String
     return:
       type: System.Double[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadDoubleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadDoubleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2369,7 +2291,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Double[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Double[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Double[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2402,7 +2323,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2435,7 +2355,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadDecimalArray(System.String,System.String)
   id: ReadDecimalArray(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -2460,7 +2379,6 @@ items:
       type: System.String
     return:
       type: System.Decimal[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadDecimalArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadDecimalArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2485,7 +2403,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Decimal[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Decimal[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Decimal[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2518,7 +2435,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2551,7 +2467,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadDateTimeArray(System.String,System.String)
   id: ReadDateTimeArray(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -2576,7 +2491,6 @@ items:
       type: System.String
     return:
       type: System.DateTime[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadDateTimeArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadDateTimeArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2601,7 +2515,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.DateTime[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.DateTime[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.DateTime[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2634,7 +2547,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2667,7 +2579,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadGuidArray(System.String,System.String)
   id: ReadGuidArray(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -2692,7 +2603,6 @@ items:
       type: System.String
     return:
       type: System.Guid[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadGuidArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadGuidArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2717,7 +2627,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Guid[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.Guid[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.Guid[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2750,7 +2659,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2783,7 +2691,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadTimeSpanArray(System.String,System.String)
   id: ReadTimeSpanArray(System.String,System.String)
   parent: System.Xml.XmlDictionaryReader
@@ -2808,7 +2715,6 @@ items:
       type: System.String
     return:
       type: System.TimeSpan[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadTimeSpanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: ReadTimeSpanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryReader
@@ -2833,7 +2739,6 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.TimeSpan[]
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.String,System.String,System.TimeSpan[],System.Int32,System.Int32)
   id: ReadArray(System.String,System.String,System.TimeSpan[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2866,7 +2771,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32)
   id: ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32)
   parent: System.Xml.XmlDictionaryReader
@@ -2899,7 +2803,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlDictionaryReader.Close
   id: Close
   parent: System.Xml.XmlDictionaryReader
@@ -2926,6 +2829,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -2945,6 +2849,7 @@ references:
   type: Class
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -2954,6 +2859,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -2961,6 +2867,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.Xml.XmlDictionaryReaderQuotas
@@ -2973,6 +2880,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Xml.IXmlDictionary
@@ -2990,6 +2898,7 @@ references:
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.IO
@@ -2999,6 +2908,7 @@ references:
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.Encoding.yml
   name: Encoding
   fullName: System.Text.Encoding
 - uid: System.Xml.OnXmlDictionaryReaderClose
@@ -3014,10 +2924,12 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -3027,6 +2939,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3034,11 +2947,13 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Xml.XmlDictionaryString
@@ -3075,6 +2990,7 @@ references:
   fullName: XmlNodeType
 - uid: System.Char[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char[]
   name.vb: Char()
   fullName: System.Char[]
@@ -3084,6 +3000,7 @@ references:
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3091,11 +3008,13 @@ references:
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: ()
     fullName: ()
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: IXmlNamespaceResolver
@@ -3105,11 +3024,13 @@ references:
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Xml.UniqueId
@@ -3122,30 +3043,36 @@ references:
 - uid: System.Guid
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: Guid
   fullName: System.Guid
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.Boolean[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean[]
   name.vb: Boolean()
   fullName: System.Boolean[]
@@ -3155,6 +3082,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3162,10 +3090,12 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ()
     fullName: ()
 - uid: System.Int16[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   name: Int16[]
   name.vb: Int16()
   fullName: System.Int16[]
@@ -3175,6 +3105,7 @@ references:
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3182,10 +3113,12 @@ references:
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: ()
     fullName: ()
 - uid: System.Int32[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32[]
   name.vb: Int32()
   fullName: System.Int32[]
@@ -3195,6 +3128,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3202,10 +3136,12 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ()
     fullName: ()
 - uid: System.Int64[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64[]
   name.vb: Int64()
   fullName: System.Int64[]
@@ -3215,6 +3151,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3222,10 +3159,12 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ()
     fullName: ()
 - uid: System.Single[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single[]
   name.vb: Single()
   fullName: System.Single[]
@@ -3235,6 +3174,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3242,10 +3182,12 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: ()
     fullName: ()
 - uid: System.Double[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double[]
   name.vb: Double()
   fullName: System.Double[]
@@ -3255,6 +3197,7 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3262,10 +3205,12 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: ()
     fullName: ()
 - uid: System.Decimal[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal[]
   name.vb: Decimal()
   fullName: System.Decimal[]
@@ -3275,6 +3220,7 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3282,10 +3228,12 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: ()
     fullName: ()
 - uid: System.DateTime[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime[]
   name.vb: DateTime()
   fullName: System.DateTime[]
@@ -3295,6 +3243,7 @@ references:
     name: DateTime
     fullName: System.DateTime
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3302,10 +3251,12 @@ references:
     name: DateTime
     fullName: System.DateTime
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   - name: ()
     fullName: ()
 - uid: System.Guid[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: Guid[]
   name.vb: Guid()
   fullName: System.Guid[]
@@ -3315,6 +3266,7 @@ references:
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3322,10 +3274,12 @@ references:
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ()
     fullName: ()
 - uid: System.TimeSpan[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan[]
   name.vb: TimeSpan()
   fullName: System.TimeSpan[]
@@ -3335,6 +3289,7 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3342,5 +3297,6 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ()
     fullName: ()

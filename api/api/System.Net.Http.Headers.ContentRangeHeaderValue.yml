@@ -3,20 +3,20 @@ items:
   id: ContentRangeHeaderValue
   parent: System.Net.Http.Headers
   children:
-  - System.Net.Http.Headers.ContentRangeHeaderValue.Unit
-  - System.Net.Http.Headers.ContentRangeHeaderValue.From
-  - System.Net.Http.Headers.ContentRangeHeaderValue.To
-  - System.Net.Http.Headers.ContentRangeHeaderValue.Length
-  - System.Net.Http.Headers.ContentRangeHeaderValue.HasLength
-  - System.Net.Http.Headers.ContentRangeHeaderValue.HasRange
-  - System.Net.Http.Headers.ContentRangeHeaderValue.#ctor(System.Int64,System.Int64,System.Int64)
   - System.Net.Http.Headers.ContentRangeHeaderValue.#ctor(System.Int64)
   - System.Net.Http.Headers.ContentRangeHeaderValue.#ctor(System.Int64,System.Int64)
+  - System.Net.Http.Headers.ContentRangeHeaderValue.#ctor(System.Int64,System.Int64,System.Int64)
   - System.Net.Http.Headers.ContentRangeHeaderValue.Equals(System.Object)
+  - System.Net.Http.Headers.ContentRangeHeaderValue.From
   - System.Net.Http.Headers.ContentRangeHeaderValue.GetHashCode
-  - System.Net.Http.Headers.ContentRangeHeaderValue.ToString
+  - System.Net.Http.Headers.ContentRangeHeaderValue.HasLength
+  - System.Net.Http.Headers.ContentRangeHeaderValue.HasRange
+  - System.Net.Http.Headers.ContentRangeHeaderValue.Length
   - System.Net.Http.Headers.ContentRangeHeaderValue.Parse(System.String)
+  - System.Net.Http.Headers.ContentRangeHeaderValue.To
+  - System.Net.Http.Headers.ContentRangeHeaderValue.ToString
   - System.Net.Http.Headers.ContentRangeHeaderValue.TryParse(System.String,System.Net.Http.Headers.ContentRangeHeaderValue@)
+  - System.Net.Http.Headers.ContentRangeHeaderValue.Unit
   href: System.Net.Http.Headers.ContentRangeHeaderValue.yml
   name: ContentRangeHeaderValue
   fullName: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -62,7 +62,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.From
   id: From
   parent: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -83,7 +82,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.To
   id: To
   parent: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -104,7 +102,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.Length
   id: Length
   parent: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -125,7 +122,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Int64}
-      description: 
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.HasLength
   id: HasLength
   parent: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -146,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.HasRange
   id: HasRange
   parent: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -167,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.#ctor(System.Int64,System.Int64,System.Int64)
   id: '#ctor(System.Int64,System.Int64,System.Int64)'
   parent: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -256,7 +250,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.GetHashCode
   id: GetHashCode
@@ -277,7 +270,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.ToString
   id: ToString
@@ -298,7 +290,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -322,7 +313,6 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.ContentRangeHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.ContentRangeHeaderValue.TryParse(System.String,System.Net.Http.Headers.ContentRangeHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.ContentRangeHeaderValue@)
   parent: System.Net.Http.Headers.ContentRangeHeaderValue
@@ -349,7 +339,6 @@ items:
       type: System.Net.Http.Headers.ContentRangeHeaderValue
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false
@@ -359,11 +348,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -371,18 +362,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -390,23 +384,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -414,18 +412,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -433,23 +434,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -457,6 +462,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -466,6 +472,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -473,6 +480,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -480,6 +488,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -489,6 +498,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -500,11 +510,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Nullable{System.Int64}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int64>
   name.vb: Nullable(Of Int64)
   fullName: System.Nullable<System.Int64>
@@ -514,12 +526,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -527,17 +541,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Nullable`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<T>
   name.vb: Nullable(Of T)
   fullName: System.Nullable<T>
@@ -547,6 +564,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -558,6 +576,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -567,16 +586,19 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -584,12 +606,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -597,17 +621,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -615,6 +642,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -624,6 +652,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -631,11 +660,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -643,6 +674,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -652,6 +684,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )

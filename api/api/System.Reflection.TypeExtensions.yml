@@ -90,7 +90,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.ConstructorInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetConstructors(System.Type)
   id: GetConstructors(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -113,7 +112,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.ConstructorInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetConstructors(System.Type,System.Reflection.BindingFlags)
   id: GetConstructors(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -138,7 +136,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.ConstructorInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetDefaultMembers(System.Type)
   id: GetDefaultMembers(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -161,7 +158,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetEvent(System.Type,System.String)
   id: GetEvent(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -186,7 +182,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.EventInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetEvent(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetEvent(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -213,7 +208,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetEvents(System.Type)
   id: GetEvents(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -236,7 +230,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.EventInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetEvents(System.Type,System.Reflection.BindingFlags)
   id: GetEvents(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -261,7 +254,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetField(System.Type,System.String)
   id: GetField(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -286,7 +278,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetField(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetField(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -313,7 +304,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetFields(System.Type)
   id: GetFields(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -336,7 +326,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetFields(System.Type,System.Reflection.BindingFlags)
   id: GetFields(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -361,7 +350,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetGenericArguments(System.Type)
   id: GetGenericArguments(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -384,7 +372,6 @@ items:
       type: System.Type
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetInterfaces(System.Type)
   id: GetInterfaces(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -407,7 +394,6 @@ items:
       type: System.Type
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMember(System.Type,System.String)
   id: GetMember(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -432,7 +418,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMember(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetMember(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -459,7 +444,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMembers(System.Type)
   id: GetMembers(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -482,7 +466,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMembers(System.Type,System.Reflection.BindingFlags)
   id: GetMembers(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -507,7 +490,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMethod(System.Type,System.String)
   id: GetMethod(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -532,7 +514,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMethod(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetMethod(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -559,7 +540,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMethod(System.Type,System.String,System.Type[])
   id: GetMethod(System.Type,System.String,System.Type[])
   parent: System.Reflection.TypeExtensions
@@ -588,7 +568,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMethods(System.Type)
   id: GetMethods(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -611,7 +590,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetMethods(System.Type,System.Reflection.BindingFlags)
   id: GetMethods(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -636,7 +614,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetNestedType(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetNestedType(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -663,7 +640,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.TypeExtensions.GetNestedTypes(System.Type,System.Reflection.BindingFlags)
   id: GetNestedTypes(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -688,7 +664,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetProperties(System.Type)
   id: GetProperties(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -711,7 +686,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.PropertyInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetProperties(System.Type,System.Reflection.BindingFlags)
   id: GetProperties(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -736,7 +710,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo[]
-      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String)
   id: GetProperty(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -761,7 +734,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetProperty(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -788,7 +760,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String,System.Type)
   id: GetProperty(System.Type,System.String,System.Type)
   parent: System.Reflection.TypeExtensions
@@ -815,7 +786,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String,System.Type,System.Type[])
   id: GetProperty(System.Type,System.String,System.Type,System.Type[])
   parent: System.Reflection.TypeExtensions
@@ -846,7 +816,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.TypeExtensions.IsAssignableFrom(System.Type,System.Type)
   id: IsAssignableFrom(System.Type,System.Type)
   parent: System.Reflection.TypeExtensions
@@ -871,7 +840,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.TypeExtensions.IsInstanceOfType(System.Type,System.Object)
   id: IsInstanceOfType(System.Type,System.Object)
   parent: System.Reflection.TypeExtensions
@@ -896,7 +864,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false
@@ -906,11 +873,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -918,6 +887,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -927,6 +897,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -934,6 +905,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -941,12 +913,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -954,17 +928,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -972,18 +949,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -991,23 +971,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1015,18 +999,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1034,23 +1021,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1058,6 +1049,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1067,6 +1059,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1074,6 +1067,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1081,6 +1075,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1090,6 +1085,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1097,6 +1093,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1104,6 +1101,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1113,6 +1111,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1124,10 +1123,12 @@ references:
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: System.Type[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type[]
   name.vb: Type()
   fullName: System.Type[]
@@ -1137,6 +1138,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1144,15 +1146,18 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
 - uid: System.Reflection.ConstructorInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   name: ConstructorInfo
   fullName: System.Reflection.ConstructorInfo
 - uid: System.Reflection.ConstructorInfo[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   name: ConstructorInfo[]
   name.vb: ConstructorInfo()
   fullName: System.Reflection.ConstructorInfo[]
@@ -1162,6 +1167,7 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1169,15 +1175,18 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ()
     fullName: ()
 - uid: System.Reflection.BindingFlags
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.BindingFlags.yml
   name: BindingFlags
   fullName: System.Reflection.BindingFlags
 - uid: System.Reflection.MemberInfo[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   name: MemberInfo[]
   name.vb: MemberInfo()
   fullName: System.Reflection.MemberInfo[]
@@ -1187,6 +1196,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1194,20 +1204,24 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ()
     fullName: ()
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Reflection.EventInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.EventInfo.yml
   name: EventInfo
   fullName: System.Reflection.EventInfo
 - uid: System.Reflection.EventInfo[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.EventInfo.yml
   name: EventInfo[]
   name.vb: EventInfo()
   fullName: System.Reflection.EventInfo[]
@@ -1217,6 +1231,7 @@ references:
     name: EventInfo
     fullName: System.Reflection.EventInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.EventInfo.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1224,15 +1239,18 @@ references:
     name: EventInfo
     fullName: System.Reflection.EventInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.EventInfo.yml
   - name: ()
     fullName: ()
 - uid: System.Reflection.FieldInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.FieldInfo.yml
   name: FieldInfo
   fullName: System.Reflection.FieldInfo
 - uid: System.Reflection.FieldInfo[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.FieldInfo.yml
   name: FieldInfo[]
   name.vb: FieldInfo()
   fullName: System.Reflection.FieldInfo[]
@@ -1242,6 +1260,7 @@ references:
     name: FieldInfo
     fullName: System.Reflection.FieldInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.FieldInfo.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1249,15 +1268,18 @@ references:
     name: FieldInfo
     fullName: System.Reflection.FieldInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.FieldInfo.yml
   - name: ()
     fullName: ()
 - uid: System.Reflection.MethodInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   name: MethodInfo
   fullName: System.Reflection.MethodInfo
 - uid: System.Reflection.MethodInfo[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   name: MethodInfo[]
   name.vb: MethodInfo()
   fullName: System.Reflection.MethodInfo[]
@@ -1267,6 +1289,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1274,10 +1297,12 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ()
     fullName: ()
 - uid: System.Reflection.PropertyInfo[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   name: PropertyInfo[]
   name.vb: PropertyInfo()
   fullName: System.Reflection.PropertyInfo[]
@@ -1287,6 +1312,7 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1294,15 +1320,18 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: ()
     fullName: ()
 - uid: System.Reflection.PropertyInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   name: PropertyInfo
   fullName: System.Reflection.PropertyInfo
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

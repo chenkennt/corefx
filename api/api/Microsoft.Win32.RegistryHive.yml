@@ -4,11 +4,11 @@ items:
   parent: Microsoft.Win32
   children:
   - Microsoft.Win32.RegistryHive.ClassesRoot
+  - Microsoft.Win32.RegistryHive.CurrentConfig
   - Microsoft.Win32.RegistryHive.CurrentUser
   - Microsoft.Win32.RegistryHive.LocalMachine
-  - Microsoft.Win32.RegistryHive.Users
   - Microsoft.Win32.RegistryHive.PerformanceData
-  - Microsoft.Win32.RegistryHive.CurrentConfig
+  - Microsoft.Win32.RegistryHive.Users
   href: Microsoft.Win32.RegistryHive.yml
   name: RegistryHive
   fullName: Microsoft.Win32.RegistryHive

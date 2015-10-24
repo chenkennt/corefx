@@ -3,11 +3,11 @@ items:
   id: UriHostNameType
   parent: System
   children:
-  - System.UriHostNameType.Unknown
   - System.UriHostNameType.Basic
   - System.UriHostNameType.Dns
   - System.UriHostNameType.IPv4
   - System.UriHostNameType.IPv6
+  - System.UriHostNameType.Unknown
   href: System.UriHostNameType.yml
   name: UriHostNameType
   fullName: System.UriHostNameType

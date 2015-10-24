@@ -6,10 +6,10 @@ items:
   - System.Reflection.Metadata.Ecma335.EditAndContinueOperation
   - System.Reflection.Metadata.Ecma335.ExportedTypeExtensions
   - System.Reflection.Metadata.Ecma335.HeapIndex
+  - System.Reflection.Metadata.Ecma335.MetadataAggregator
   - System.Reflection.Metadata.Ecma335.MetadataReaderExtensions
   - System.Reflection.Metadata.Ecma335.MetadataTokens
   - System.Reflection.Metadata.Ecma335.TableIndex
-  - System.Reflection.Metadata.Ecma335.MetadataAggregator
   href: System.Reflection.Metadata.Ecma335.yml
   name: System.Reflection.Metadata.Ecma335
   fullName: System.Reflection.Metadata.Ecma335

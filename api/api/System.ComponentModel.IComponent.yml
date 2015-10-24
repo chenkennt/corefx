@@ -3,8 +3,8 @@ items:
   id: IComponent
   parent: System.ComponentModel
   children:
-  - System.ComponentModel.IComponent.Site
   - System.ComponentModel.IComponent.Disposed
+  - System.ComponentModel.IComponent.Site
   href: System.ComponentModel.IComponent.yml
   name: IComponent
   fullName: System.ComponentModel.IComponent
@@ -71,6 +71,7 @@ references:
 - uid: System.IDisposable.Dispose
   parent: System.IDisposable
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IDisposable.yml
   name: Dispose()
   fullName: System.IDisposable.Dispose()
   spec.csharp:
@@ -78,6 +79,7 @@ references:
     name: Dispose
     fullName: System.IDisposable.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IDisposable.yml
   - name: (
     fullName: (
   - name: )
@@ -87,6 +89,7 @@ references:
     name: Dispose
     fullName: System.IDisposable.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IDisposable.yml
   - name: (
     fullName: (
   - name: )
@@ -94,6 +97,7 @@ references:
 - uid: System.IDisposable
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IDisposable.yml
   name: IDisposable
   fullName: System.IDisposable
 - uid: System

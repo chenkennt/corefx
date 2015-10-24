@@ -2,39 +2,33 @@ items:
 - uid: System.Net
   id: System.Net
   children:
-  - System.Net.WebUtility
-  - System.Net.WebHeaderCollection
-  - System.Net.HttpResponseHeader
   - System.Net.HttpRequestHeader
+  - System.Net.HttpResponseHeader
   - System.Net.HttpWebRequest
   - System.Net.HttpWebResponse
   - System.Net.IWebRequestCreate
   - System.Net.ProtocolViolationException
   - System.Net.WebException
   - System.Net.WebExceptionStatus
+  - System.Net.WebHeaderCollection
   - System.Net.WebRequest
   - System.Net.WebResponse
+  - System.Net.WebUtility
   href: System.Net.yml
   name: System.Net
   fullName: System.Net
   type: Namespace
   source:
     remote:
-      path: src/System.Runtime.Extensions/src/System/Net/Configuration/UnicodeEncodingConformance.cs
+      path: src/Common/src/System/Net/HttpValidationHelpers.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Runtime.Extensions/src/System/Net/Configuration/UnicodeEncodingConformance.cs
-    startLine: 5
+    path: src/Common/src/System/Net/HttpValidationHelpers.cs
+    startLine: 3
   assemblies:
-  - System.Runtime.Extensions
+  - System.Net.WebHeaderCollection
 references:
-- uid: System.Net.WebUtility
-  isExternal: false
-  href: System.Net.WebUtility.yml
-  name: WebUtility
-  fullName: System.Net.WebUtility
-  type: Class
 - uid: System.Net.WebHeaderCollection
   isExternal: false
   href: System.Net.WebHeaderCollection.yml
@@ -105,6 +99,12 @@ references:
   href: System.Net.WebResponse.yml
   name: WebResponse
   fullName: System.Net.WebResponse
+  type: Class
+- uid: System.Net.WebUtility
+  isExternal: false
+  href: System.Net.WebUtility.yml
+  name: WebUtility
+  fullName: System.Net.WebUtility
   type: Class
 - uid: System.Net
   isExternal: false

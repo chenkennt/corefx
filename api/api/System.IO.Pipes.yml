@@ -4,12 +4,12 @@ items:
   children:
   - System.IO.Pipes.AnonymousPipeClientStream
   - System.IO.Pipes.AnonymousPipeServerStream
-  - System.IO.Pipes.PipeDirection
-  - System.IO.Pipes.PipeOptions
-  - System.IO.Pipes.PipeTransmissionMode
   - System.IO.Pipes.NamedPipeClientStream
   - System.IO.Pipes.NamedPipeServerStream
+  - System.IO.Pipes.PipeDirection
+  - System.IO.Pipes.PipeOptions
   - System.IO.Pipes.PipeStream
+  - System.IO.Pipes.PipeTransmissionMode
   href: System.IO.Pipes.yml
   name: System.IO.Pipes
   fullName: System.IO.Pipes

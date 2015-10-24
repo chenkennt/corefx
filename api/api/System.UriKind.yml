@@ -3,9 +3,9 @@ items:
   id: UriKind
   parent: System
   children:
-  - System.UriKind.RelativeOrAbsolute
   - System.UriKind.Absolute
   - System.UriKind.Relative
+  - System.UriKind.RelativeOrAbsolute
   href: System.UriKind.yml
   name: UriKind
   fullName: System.UriKind

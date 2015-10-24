@@ -3,20 +3,20 @@ items:
   id: RegistryRights
   parent: System.Security.AccessControl
   children:
-  - System.Security.AccessControl.RegistryRights.QueryValues
-  - System.Security.AccessControl.RegistryRights.SetValue
-  - System.Security.AccessControl.RegistryRights.CreateSubKey
-  - System.Security.AccessControl.RegistryRights.EnumerateSubKeys
-  - System.Security.AccessControl.RegistryRights.Notify
-  - System.Security.AccessControl.RegistryRights.CreateLink
-  - System.Security.AccessControl.RegistryRights.ExecuteKey
-  - System.Security.AccessControl.RegistryRights.ReadKey
-  - System.Security.AccessControl.RegistryRights.WriteKey
-  - System.Security.AccessControl.RegistryRights.Delete
-  - System.Security.AccessControl.RegistryRights.ReadPermissions
   - System.Security.AccessControl.RegistryRights.ChangePermissions
-  - System.Security.AccessControl.RegistryRights.TakeOwnership
+  - System.Security.AccessControl.RegistryRights.CreateLink
+  - System.Security.AccessControl.RegistryRights.CreateSubKey
+  - System.Security.AccessControl.RegistryRights.Delete
+  - System.Security.AccessControl.RegistryRights.EnumerateSubKeys
+  - System.Security.AccessControl.RegistryRights.ExecuteKey
   - System.Security.AccessControl.RegistryRights.FullControl
+  - System.Security.AccessControl.RegistryRights.Notify
+  - System.Security.AccessControl.RegistryRights.QueryValues
+  - System.Security.AccessControl.RegistryRights.ReadKey
+  - System.Security.AccessControl.RegistryRights.ReadPermissions
+  - System.Security.AccessControl.RegistryRights.SetValue
+  - System.Security.AccessControl.RegistryRights.TakeOwnership
+  - System.Security.AccessControl.RegistryRights.WriteKey
   href: System.Security.AccessControl.RegistryRights.yml
   name: RegistryRights
   fullName: System.Security.AccessControl.RegistryRights

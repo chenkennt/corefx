@@ -3,11 +3,11 @@ items:
   id: IAdviseSink
   parent: System.Runtime.InteropServices.ComTypes
   children:
+  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnClose
   - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnDataChange(System.Runtime.InteropServices.ComTypes.FORMATETC@,System.Runtime.InteropServices.ComTypes.STGMEDIUM@)
-  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnViewChange(System.Int32,System.Int32)
   - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnRename(System.Runtime.InteropServices.ComTypes.IMoniker)
   - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnSave
-  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnClose
+  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnViewChange(System.Int32,System.Int32)
   href: System.Runtime.InteropServices.ComTypes.IAdviseSink.yml
   name: IAdviseSink
   fullName: System.Runtime.InteropServices.ComTypes.IAdviseSink
@@ -148,6 +148,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System
@@ -157,5 +158,6 @@ references:
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.ComTypes.IMoniker.yml
   name: IMoniker
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker

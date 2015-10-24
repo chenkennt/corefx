@@ -3,8 +3,8 @@ items:
   id: ManifestResourceAttributes
   parent: System.Reflection
   children:
-  - System.Reflection.ManifestResourceAttributes.Public
   - System.Reflection.ManifestResourceAttributes.Private
+  - System.Reflection.ManifestResourceAttributes.Public
   - System.Reflection.ManifestResourceAttributes.VisibilityMask
   href: System.Reflection.ManifestResourceAttributes.yml
   name: ManifestResourceAttributes

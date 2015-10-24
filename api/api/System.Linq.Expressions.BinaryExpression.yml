@@ -3,16 +3,16 @@ items:
   id: BinaryExpression
   parent: System.Linq.Expressions
   children:
+  - System.Linq.Expressions.BinaryExpression.Accept(System.Linq.Expressions.ExpressionVisitor)
   - System.Linq.Expressions.BinaryExpression.CanReduce
-  - System.Linq.Expressions.BinaryExpression.Right
-  - System.Linq.Expressions.BinaryExpression.Left
-  - System.Linq.Expressions.BinaryExpression.Method
-  - System.Linq.Expressions.BinaryExpression.Update(System.Linq.Expressions.Expression,System.Linq.Expressions.LambdaExpression,System.Linq.Expressions.Expression)
-  - System.Linq.Expressions.BinaryExpression.Reduce
   - System.Linq.Expressions.BinaryExpression.Conversion
   - System.Linq.Expressions.BinaryExpression.IsLifted
   - System.Linq.Expressions.BinaryExpression.IsLiftedToNull
-  - System.Linq.Expressions.BinaryExpression.Accept(System.Linq.Expressions.ExpressionVisitor)
+  - System.Linq.Expressions.BinaryExpression.Left
+  - System.Linq.Expressions.BinaryExpression.Method
+  - System.Linq.Expressions.BinaryExpression.Reduce
+  - System.Linq.Expressions.BinaryExpression.Right
+  - System.Linq.Expressions.BinaryExpression.Update(System.Linq.Expressions.Expression,System.Linq.Expressions.LambdaExpression,System.Linq.Expressions.Expression)
   href: System.Linq.Expressions.BinaryExpression.yml
   name: BinaryExpression
   fullName: System.Linq.Expressions.BinaryExpression
@@ -599,6 +599,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Linq.Expressions.Expression
@@ -744,12 +745,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -781,12 +784,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MakeBinary(System.Linq.Expressions.ExpressionType,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Boolean,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -824,12 +829,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -867,12 +874,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -954,12 +963,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -985,12 +996,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ReferenceEqual(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -1110,12 +1123,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1141,12 +1156,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ReferenceNotEqual(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -1266,12 +1283,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1297,12 +1316,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.LessThan(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -1378,12 +1399,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1409,12 +1432,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.GreaterThanOrEqual(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -1490,12 +1515,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1521,12 +1548,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.LessThanOrEqual(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -1602,12 +1631,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1633,12 +1664,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.AndAlso(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -1714,6 +1747,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1739,6 +1773,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.OrElse(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -1814,6 +1849,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1839,6 +1875,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Coalesce(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -2014,6 +2051,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2039,6 +2077,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.AddAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -2114,6 +2153,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2139,6 +2179,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.AddAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -2170,6 +2211,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2201,6 +2243,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2282,6 +2325,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2307,6 +2351,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.AddAssignChecked(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -2338,6 +2383,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2369,6 +2415,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2450,6 +2497,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2475,6 +2523,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Subtract(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -2550,6 +2599,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2575,6 +2625,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.SubtractAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -2650,6 +2701,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2675,6 +2727,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.SubtractAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -2706,6 +2759,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2737,6 +2791,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2818,6 +2873,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2843,6 +2899,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.SubtractAssignChecked(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -2874,6 +2931,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2905,6 +2963,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -2986,6 +3045,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3011,6 +3071,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Divide(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -3086,6 +3147,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3111,6 +3173,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.DivideAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -3186,6 +3249,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3211,6 +3275,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.DivideAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -3242,6 +3307,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -3273,6 +3339,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -3354,6 +3421,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3379,6 +3447,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ModuloAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -3454,6 +3523,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3479,6 +3549,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ModuloAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -3510,6 +3581,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -3541,6 +3613,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -3622,6 +3695,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3647,6 +3721,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MultiplyAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -3722,6 +3797,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3747,6 +3823,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MultiplyAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -3778,6 +3855,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -3809,6 +3887,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -3890,6 +3969,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3915,6 +3995,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MultiplyAssignChecked(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -3946,6 +4027,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -3977,6 +4059,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -4058,6 +4141,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4083,6 +4167,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.LeftShift(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -4158,6 +4243,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4183,6 +4269,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.LeftShiftAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -4258,6 +4345,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4283,6 +4371,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.LeftShiftAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -4314,6 +4403,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -4345,6 +4435,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -4426,6 +4517,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4451,6 +4543,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.RightShiftAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -4526,6 +4619,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4551,6 +4645,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.RightShiftAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -4582,6 +4677,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -4613,6 +4709,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -4694,6 +4791,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4719,6 +4817,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.AndAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -4794,6 +4893,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4819,6 +4919,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.AndAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -4850,6 +4951,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -4881,6 +4983,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -4962,6 +5065,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -4987,6 +5091,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.OrAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -5062,6 +5167,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5087,6 +5193,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.OrAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -5118,6 +5225,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -5149,6 +5257,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -5230,6 +5339,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5255,6 +5365,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ExclusiveOrAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -5330,6 +5441,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5355,6 +5467,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ExclusiveOrAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -5386,6 +5499,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -5417,6 +5531,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -5498,6 +5613,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5523,6 +5639,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.PowerAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -5598,6 +5715,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -5623,6 +5741,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.PowerAssign(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.LambdaExpression)
@@ -5654,6 +5773,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -5685,6 +5805,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.LambdaExpression
@@ -6042,6 +6163,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -6063,6 +6185,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -6092,6 +6215,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -6113,6 +6237,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -6142,12 +6267,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -6169,12 +6296,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -6204,6 +6333,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6233,6 +6363,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6270,12 +6401,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6305,12 +6438,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6348,6 +6483,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6362,6 +6498,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -6383,6 +6520,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6397,6 +6535,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -6426,12 +6565,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6446,6 +6587,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -6467,12 +6609,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6487,6 +6631,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -6514,6 +6659,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -6533,6 +6679,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -6602,6 +6749,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -6627,6 +6775,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -6714,6 +6863,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6745,6 +6895,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -6856,6 +7007,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -6887,6 +7039,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.IfThen(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -7006,6 +7159,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7019,6 +7173,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Constant(System.Object,System.Type)
@@ -7038,12 +7193,14 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7057,12 +7214,14 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.DebugInfo(System.Linq.Expressions.SymbolDocumentInfo,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -7088,24 +7247,28 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7125,24 +7288,28 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ClearDebugInfo(System.Linq.Expressions.SymbolDocumentInfo)
@@ -7218,6 +7385,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7231,6 +7399,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ElementInit(System.Reflection.MethodInfo,System.Linq.Expressions.Expression[])
@@ -7252,6 +7421,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -7273,6 +7443,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -7302,12 +7473,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -7329,12 +7502,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -7486,6 +7661,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: <
     fullName: <
   - name: T
@@ -7505,6 +7681,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -7532,6 +7709,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7545,6 +7723,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.RequiresCanRead(System.Linq.Expressions.Expression,System.String)
@@ -7570,6 +7749,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7589,6 +7769,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.RequiresCanRead(System.Collections.Generic.IEnumerable{System.Linq.Expressions.Expression},System.String)
@@ -7610,6 +7791,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -7624,6 +7806,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7637,6 +7820,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -7651,6 +7835,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Break(System.Linq.Expressions.LabelTarget)
@@ -7752,6 +7937,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7771,6 +7957,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Break(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression,System.Type)
@@ -7802,6 +7989,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7827,6 +8015,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Continue(System.Linq.Expressions.LabelTarget)
@@ -7884,6 +8073,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7903,6 +8093,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Return(System.Linq.Expressions.LabelTarget)
@@ -7960,6 +8151,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -7979,6 +8171,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Return(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression)
@@ -8054,6 +8247,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -8079,6 +8273,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Goto(System.Linq.Expressions.LabelTarget)
@@ -8136,6 +8331,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -8155,6 +8351,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Goto(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression)
@@ -8230,6 +8427,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -8255,6 +8453,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MakeGoto(System.Linq.Expressions.GotoExpressionKind,System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression,System.Type)
@@ -8292,6 +8491,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -8323,6 +8523,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MakeIndex(System.Linq.Expressions.Expression,System.Reflection.PropertyInfo,System.Collections.Generic.IEnumerable{System.Linq.Expressions.Expression})
@@ -8350,12 +8551,14 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -8383,12 +8586,14 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -8474,6 +8679,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -8501,6 +8707,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -8536,6 +8743,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -8563,6 +8771,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -8598,6 +8807,7 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -8625,6 +8835,7 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -8660,12 +8871,14 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -8693,12 +8906,14 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -8784,6 +8999,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -8811,6 +9027,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -8938,6 +9155,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -8951,6 +9169,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Label(System.Type)
@@ -8970,6 +9189,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -8983,6 +9203,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Label(System.Type,System.String)
@@ -9002,12 +9223,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -9021,12 +9244,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Lambda``1(System.Linq.Expressions.Expression,System.Linq.Expressions.ParameterExpression[])
@@ -9104,6 +9329,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9131,6 +9357,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9166,6 +9393,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9193,6 +9421,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9228,12 +9457,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9261,12 +9492,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9302,12 +9535,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9335,12 +9570,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9376,18 +9613,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9415,18 +9655,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9512,6 +9755,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9539,6 +9783,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9574,6 +9819,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9601,6 +9847,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9636,12 +9883,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9669,12 +9918,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9704,6 +9955,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9731,6 +9983,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9766,6 +10019,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9778,6 +10032,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9799,6 +10054,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9811,6 +10067,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9840,6 +10097,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9852,6 +10110,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9873,6 +10132,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9885,6 +10145,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9914,6 +10175,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9926,12 +10188,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -9953,6 +10217,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -9965,12 +10230,14 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10006,12 +10273,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10039,12 +10308,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10080,18 +10351,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10119,18 +10393,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10160,6 +10437,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -10172,12 +10450,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10199,6 +10479,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -10211,12 +10492,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10246,6 +10529,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -10258,18 +10542,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10291,6 +10578,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -10303,18 +10591,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -10344,6 +10635,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -10359,6 +10651,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
   - name: )
@@ -10382,6 +10675,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -10390,6 +10684,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -10403,6 +10698,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -10411,6 +10707,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.GetActionType(System.Type[])
@@ -10432,6 +10729,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -10447,6 +10745,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
   - name: )
@@ -10470,6 +10769,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -10478,6 +10778,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -10491,6 +10792,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -10499,6 +10801,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.GetDelegateType(System.Type[])
@@ -10520,6 +10823,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -10535,6 +10839,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
   - name: )
@@ -10614,6 +10919,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -10641,6 +10947,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -10676,6 +10983,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -10703,6 +11011,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -10738,12 +11047,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -10771,12 +11082,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -10862,6 +11175,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ElementInit
@@ -10889,6 +11203,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ElementInit
@@ -11048,6 +11363,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -11067,6 +11383,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -11092,6 +11409,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -11111,6 +11429,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -11142,6 +11461,7 @@ references:
     name: FieldInfo
     fullName: System.Reflection.FieldInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.FieldInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11161,6 +11481,7 @@ references:
     name: FieldInfo
     fullName: System.Reflection.FieldInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.FieldInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Field(System.Linq.Expressions.Expression,System.String)
@@ -11186,6 +11507,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11205,6 +11527,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Field(System.Linq.Expressions.Expression,System.Type,System.String)
@@ -11230,12 +11553,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11255,12 +11580,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Property(System.Linq.Expressions.Expression,System.String)
@@ -11286,6 +11613,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11305,6 +11633,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Property(System.Linq.Expressions.Expression,System.Type,System.String)
@@ -11330,12 +11659,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11355,12 +11686,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Property(System.Linq.Expressions.Expression,System.Reflection.PropertyInfo)
@@ -11386,6 +11719,7 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11405,6 +11739,7 @@ references:
     name: PropertyInfo
     fullName: System.Reflection.PropertyInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Property(System.Linq.Expressions.Expression,System.Reflection.MethodInfo)
@@ -11430,6 +11765,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11449,6 +11785,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.PropertyOrField(System.Linq.Expressions.Expression,System.String)
@@ -11474,6 +11811,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11493,6 +11831,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MakeMemberAccess(System.Linq.Expressions.Expression,System.Reflection.MemberInfo)
@@ -11518,6 +11857,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -11537,6 +11877,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MemberInit(System.Linq.Expressions.NewExpression,System.Linq.Expressions.MemberBinding[])
@@ -11614,6 +11955,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.MemberBinding
@@ -11641,6 +11983,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.MemberBinding
@@ -11670,6 +12013,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ElementInit
@@ -11691,6 +12035,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ElementInit
@@ -11720,12 +12065,14 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ElementInit
@@ -11747,12 +12094,14 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ElementInit
@@ -11782,6 +12131,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ElementInit
@@ -11803,6 +12153,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ElementInit
@@ -11832,12 +12183,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ElementInit
@@ -11859,12 +12212,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ElementInit
@@ -11894,6 +12249,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.MemberBinding
@@ -11915,6 +12271,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.MemberBinding
@@ -11944,12 +12301,14 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.MemberBinding
@@ -11971,12 +12330,14 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.MemberBinding
@@ -12006,6 +12367,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.MemberBinding
@@ -12027,6 +12389,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.MemberBinding
@@ -12056,12 +12419,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.MemberBinding
@@ -12083,12 +12448,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.MemberBinding
@@ -12116,6 +12483,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12135,6 +12503,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12160,6 +12529,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12185,6 +12555,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12216,6 +12587,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12247,6 +12619,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12284,6 +12657,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12321,6 +12695,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12364,6 +12739,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12407,6 +12783,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12458,6 +12835,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12479,6 +12857,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12508,12 +12887,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -12535,12 +12916,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -12574,6 +12957,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -12593,6 +12977,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Call(System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.Expression[])
@@ -12620,6 +13005,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12647,6 +13033,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12680,6 +13067,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12711,6 +13099,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12748,6 +13137,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12785,6 +13175,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -12830,12 +13221,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -12865,12 +13258,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -12902,18 +13297,21 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -12937,18 +13335,21 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -12986,12 +13387,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13019,12 +13422,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13054,6 +13459,7 @@ references:
     name: MethodBase
     fullName: System.Reflection.MethodBase
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodBase.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ExpressionType
@@ -13066,6 +13472,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13087,6 +13494,7 @@ references:
     name: MethodBase
     fullName: System.Reflection.MethodBase
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodBase.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ExpressionType
@@ -13099,6 +13507,7 @@ references:
     name: ReadOnlyCollection
     fullName: System.Collections.ObjectModel.ReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13128,6 +13537,7 @@ references:
     name: MethodBase
     fullName: System.Reflection.MethodBase
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodBase.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ExpressionType
@@ -13140,12 +13550,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -13161,6 +13573,7 @@ references:
     name: MethodBase
     fullName: System.Reflection.MethodBase
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodBase.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ExpressionType
@@ -13173,12 +13586,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ()
     fullName: ()
   - name: )
@@ -13200,6 +13615,7 @@ references:
     name: MethodBase
     fullName: System.Reflection.MethodBase
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodBase.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ExpressionType
@@ -13218,6 +13634,7 @@ references:
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -13231,6 +13648,7 @@ references:
     name: MethodBase
     fullName: System.Reflection.MethodBase
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodBase.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.ExpressionType
@@ -13249,6 +13667,7 @@ references:
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ArrayIndex(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression[])
@@ -13326,6 +13745,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13353,6 +13773,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13382,6 +13803,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -13403,6 +13825,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -13432,12 +13855,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13459,12 +13884,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13494,6 +13921,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -13515,6 +13943,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -13544,12 +13973,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13571,12 +14002,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13604,6 +14037,7 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -13617,6 +14051,7 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.New(System.Reflection.ConstructorInfo,System.Linq.Expressions.Expression[])
@@ -13638,6 +14073,7 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -13659,6 +14095,7 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -13688,12 +14125,14 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13715,12 +14154,14 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13750,12 +14191,14 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13770,12 +14213,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: '>'
     fullName: '>'
   - name: )
@@ -13791,12 +14236,14 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13811,12 +14258,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: )
     fullName: )
   - name: )
@@ -13840,12 +14289,14 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -13860,6 +14311,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -13875,12 +14327,14 @@ references:
     name: ConstructorInfo
     fullName: System.Reflection.ConstructorInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -13895,6 +14349,7 @@ references:
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ()
     fullName: ()
   - name: )
@@ -13916,6 +14371,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -13929,6 +14385,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Parameter(System.Type)
@@ -13948,6 +14405,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -13961,6 +14419,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Variable(System.Type)
@@ -13980,6 +14439,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -13993,6 +14453,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Parameter(System.Type,System.String)
@@ -14012,12 +14473,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -14031,12 +14494,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Variable(System.Type,System.String)
@@ -14056,12 +14521,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -14075,12 +14542,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.RuntimeVariables(System.Linq.Expressions.ParameterExpression[])
@@ -14140,6 +14609,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.ParameterExpression
@@ -14161,6 +14631,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.ParameterExpression
@@ -14246,6 +14717,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.Expression
@@ -14273,6 +14745,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.Expression
@@ -14426,6 +14899,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.SwitchCase
@@ -14459,6 +14933,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.SwitchCase
@@ -14488,6 +14963,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -14506,6 +14982,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.SwitchCase
@@ -14527,6 +15004,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -14545,6 +15023,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.SwitchCase
@@ -14586,12 +15065,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.SwitchCase
@@ -14625,12 +15106,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.SwitchCase
@@ -14660,6 +15143,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -14678,12 +15162,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.SwitchCase
@@ -14705,6 +15191,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -14723,12 +15210,14 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.SwitchCase
@@ -14756,6 +15245,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -14769,6 +15259,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.SymbolDocument(System.String,System.Guid)
@@ -14788,12 +15279,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: )
     fullName: )
   spec.vb:
@@ -14807,12 +15300,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.SymbolDocument(System.String,System.Guid,System.Guid)
@@ -14832,18 +15327,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: )
     fullName: )
   spec.vb:
@@ -14857,18 +15355,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.SymbolDocument(System.String,System.Guid,System.Guid,System.Guid)
@@ -14888,24 +15389,28 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: )
     fullName: )
   spec.vb:
@@ -14919,24 +15424,28 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.TryFault(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression)
@@ -15158,6 +15667,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -15182,6 +15692,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.Expressions.CatchBlock
@@ -15203,6 +15714,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Linq.Expressions.Expression
@@ -15227,6 +15739,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.Expressions.CatchBlock
@@ -15260,6 +15773,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15279,6 +15793,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.TypeEqual(System.Linq.Expressions.Expression,System.Type)
@@ -15304,6 +15819,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15323,6 +15839,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MakeUnary(System.Linq.Expressions.ExpressionType,System.Linq.Expressions.Expression,System.Type)
@@ -15354,6 +15871,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15379,6 +15897,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.MakeUnary(System.Linq.Expressions.ExpressionType,System.Linq.Expressions.Expression,System.Type,System.Reflection.MethodInfo)
@@ -15410,12 +15929,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15441,12 +15962,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Negate(System.Linq.Expressions.Expression)
@@ -15504,6 +16027,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15523,6 +16047,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.UnaryPlus(System.Linq.Expressions.Expression)
@@ -15580,6 +16105,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15599,6 +16125,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.NegateChecked(System.Linq.Expressions.Expression)
@@ -15656,6 +16183,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15675,6 +16203,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Not(System.Linq.Expressions.Expression)
@@ -15732,6 +16261,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15751,6 +16281,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.IsFalse(System.Linq.Expressions.Expression)
@@ -15808,6 +16339,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15827,6 +16359,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.IsTrue(System.Linq.Expressions.Expression)
@@ -15884,6 +16417,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15903,6 +16437,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.OnesComplement(System.Linq.Expressions.Expression)
@@ -15960,6 +16495,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -15979,6 +16515,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.TypeAs(System.Linq.Expressions.Expression,System.Type)
@@ -16004,6 +16541,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16023,6 +16561,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Unbox(System.Linq.Expressions.Expression,System.Type)
@@ -16048,6 +16587,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16067,6 +16607,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Convert(System.Linq.Expressions.Expression,System.Type)
@@ -16092,6 +16633,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16111,6 +16653,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Convert(System.Linq.Expressions.Expression,System.Type,System.Reflection.MethodInfo)
@@ -16136,12 +16679,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16161,12 +16706,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ConvertChecked(System.Linq.Expressions.Expression,System.Type)
@@ -16192,6 +16739,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16211,6 +16759,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ConvertChecked(System.Linq.Expressions.Expression,System.Type,System.Reflection.MethodInfo)
@@ -16236,12 +16785,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16261,12 +16812,14 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.ArrayLength(System.Linq.Expressions.Expression)
@@ -16374,6 +16927,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16387,6 +16941,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Throw(System.Linq.Expressions.Expression)
@@ -16444,6 +16999,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16463,6 +17019,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Increment(System.Linq.Expressions.Expression)
@@ -16520,6 +17077,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16539,6 +17097,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.Decrement(System.Linq.Expressions.Expression)
@@ -16596,6 +17155,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16615,6 +17175,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.PreIncrementAssign(System.Linq.Expressions.Expression)
@@ -16672,6 +17233,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16691,6 +17253,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.PreDecrementAssign(System.Linq.Expressions.Expression)
@@ -16748,6 +17311,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16767,6 +17331,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.PostIncrementAssign(System.Linq.Expressions.Expression)
@@ -16824,6 +17389,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16843,6 +17409,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.Expression.PostDecrementAssign(System.Linq.Expressions.Expression)
@@ -16900,6 +17467,7 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16919,11 +17487,13 @@ references:
     name: MethodInfo
     fullName: System.Reflection.MethodInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -16931,12 +17501,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16944,17 +17516,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -16962,18 +17537,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -16981,23 +17559,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -17005,18 +17587,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -17024,23 +17609,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -17048,6 +17637,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -17057,6 +17647,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -17064,6 +17655,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -17071,6 +17663,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -17080,6 +17673,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -17087,6 +17681,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -17094,6 +17689,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -17103,6 +17699,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -17120,11 +17717,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Reflection.MethodInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   name: MethodInfo
   fullName: System.Reflection.MethodInfo
 - uid: System.Reflection

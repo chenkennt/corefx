@@ -3,23 +3,23 @@ items:
   id: Barrier
   parent: System.Threading
   children:
-  - System.Threading.Barrier.ParticipantsRemaining
-  - System.Threading.Barrier.ParticipantCount
-  - System.Threading.Barrier.CurrentPhaseNumber
   - System.Threading.Barrier.#ctor(System.Int32)
   - System.Threading.Barrier.#ctor(System.Int32,System.Action{System.Threading.Barrier})
   - System.Threading.Barrier.AddParticipant
   - System.Threading.Barrier.AddParticipants(System.Int32)
+  - System.Threading.Barrier.CurrentPhaseNumber
+  - System.Threading.Barrier.Dispose
+  - System.Threading.Barrier.Dispose(System.Boolean)
+  - System.Threading.Barrier.ParticipantCount
+  - System.Threading.Barrier.ParticipantsRemaining
   - System.Threading.Barrier.RemoveParticipant
   - System.Threading.Barrier.RemoveParticipants(System.Int32)
   - System.Threading.Barrier.SignalAndWait
+  - System.Threading.Barrier.SignalAndWait(System.Int32)
+  - System.Threading.Barrier.SignalAndWait(System.Int32,System.Threading.CancellationToken)
   - System.Threading.Barrier.SignalAndWait(System.Threading.CancellationToken)
   - System.Threading.Barrier.SignalAndWait(System.TimeSpan)
   - System.Threading.Barrier.SignalAndWait(System.TimeSpan,System.Threading.CancellationToken)
-  - System.Threading.Barrier.SignalAndWait(System.Int32)
-  - System.Threading.Barrier.SignalAndWait(System.Int32,System.Threading.CancellationToken)
-  - System.Threading.Barrier.Dispose
-  - System.Threading.Barrier.Dispose(System.Boolean)
   href: System.Threading.Barrier.yml
   name: Barrier
   fullName: System.Threading.Barrier
@@ -725,11 +725,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -737,6 +739,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -746,6 +749,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -753,6 +757,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -760,12 +765,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -773,17 +780,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -791,18 +801,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -810,23 +823,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -834,18 +851,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -853,23 +873,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -877,6 +901,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -886,6 +911,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -893,6 +919,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -900,6 +927,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -909,6 +937,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -916,6 +945,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -923,6 +953,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -932,6 +963,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -943,11 +975,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Threading.Barrier
@@ -961,6 +995,7 @@ references:
 - uid: System.Action`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T>
   name.vb: Action(Of T)
   fullName: System.Action<T>
@@ -970,6 +1005,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T
@@ -981,6 +1017,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -990,7 +1027,7 @@ references:
 - uid: System.Action{System.Threading.Barrier}
   parent: System
   definition: System.Action`1
-  href: System.Threading.Barrier.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<Barrier>
   name.vb: Action(Of Barrier)
   fullName: System.Action<System.Threading.Barrier>
@@ -1000,6 +1037,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - uid: System.Threading.Barrier
@@ -1013,6 +1051,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Threading.Barrier
@@ -1026,17 +1065,20 @@ references:
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   name: CancellationToken
   fullName: System.Threading.CancellationToken
 - uid: System.OperationCanceledException
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Threading.Timeout.Infinite

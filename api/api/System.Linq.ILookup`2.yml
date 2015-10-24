@@ -3,9 +3,9 @@ items:
   id: ILookup`2
   parent: System.Linq
   children:
+  - System.Linq.ILookup`2.Contains(`0)
   - System.Linq.ILookup`2.Count
   - System.Linq.ILookup`2.Item(`0)
-  - System.Linq.ILookup`2.Contains(`0)
   href: System.Linq.ILookup`2.yml
   name: ILookup<TKey, TElement>
   name.vb: ILookup(Of TKey, TElement)
@@ -53,7 +53,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Linq.ILookup`2.Item(`0)
   id: Item(`0)
   parent: System.Linq.ILookup`2
@@ -78,7 +77,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Collections.Generic.IEnumerable{{TElement}}
-      description: 
 - uid: System.Linq.ILookup`2.Contains(`0)
   id: Contains(`0)
   parent: System.Linq.ILookup`2
@@ -102,7 +100,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Linq
   isExternal: false
@@ -112,6 +109,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TElement}}}.GetEnumerator
   parent: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TElement}}}
   definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<System.Linq.IGrouping<TKey, TElement>>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of System.Linq.IGrouping(Of TKey, TElement)).GetEnumerator()
@@ -120,6 +118,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<System.Linq.IGrouping<TKey, TElement>>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -129,6 +128,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of System.Linq.IGrouping(Of TKey, TElement)).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -136,6 +136,7 @@ references:
 - uid: System.Collections.IEnumerable.GetEnumerator
   parent: System.Collections.IEnumerable
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: GetEnumerator()
   fullName: System.Collections.IEnumerable.GetEnumerator()
   spec.csharp:
@@ -143,6 +144,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   - name: (
     fullName: (
   - name: )
@@ -152,6 +154,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   - name: (
     fullName: (
   - name: )
@@ -159,6 +162,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
   parent: System.Collections.Generic.IEnumerable`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
@@ -167,6 +171,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -176,6 +181,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -183,7 +189,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Linq.IGrouping{{TKey},{TElement}}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.Linq.IGrouping`2.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<IGrouping<TKey, TElement>>
   name.vb: IEnumerable(Of IGrouping(Of TKey, TElement))
   fullName: System.Collections.Generic.IEnumerable<System.Linq.IGrouping<TKey, TElement>>
@@ -193,6 +199,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Linq.IGrouping`2
@@ -216,6 +223,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Linq.IGrouping`2
@@ -237,11 +245,13 @@ references:
 - uid: System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -251,6 +261,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -262,6 +273,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -279,6 +291,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System
@@ -292,6 +305,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TElement}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TElement>
   name.vb: IEnumerable(Of TElement)
   fullName: System.Collections.Generic.IEnumerable<TElement>
@@ -301,6 +315,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TElement
@@ -312,6 +327,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TElement
@@ -321,5 +337,6 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

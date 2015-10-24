@@ -3,10 +3,10 @@ items:
   id: ParallelMergeOptions
   parent: System.Linq
   children:
-  - System.Linq.ParallelMergeOptions.Default
-  - System.Linq.ParallelMergeOptions.NotBuffered
   - System.Linq.ParallelMergeOptions.AutoBuffered
+  - System.Linq.ParallelMergeOptions.Default
   - System.Linq.ParallelMergeOptions.FullyBuffered
+  - System.Linq.ParallelMergeOptions.NotBuffered
   href: System.Linq.ParallelMergeOptions.yml
   name: ParallelMergeOptions
   fullName: System.Linq.ParallelMergeOptions

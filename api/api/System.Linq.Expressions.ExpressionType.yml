@@ -4,90 +4,90 @@ items:
   parent: System.Linq.Expressions
   children:
   - System.Linq.Expressions.ExpressionType.Add
+  - System.Linq.Expressions.ExpressionType.AddAssign
+  - System.Linq.Expressions.ExpressionType.AddAssignChecked
   - System.Linq.Expressions.ExpressionType.AddChecked
   - System.Linq.Expressions.ExpressionType.And
   - System.Linq.Expressions.ExpressionType.AndAlso
-  - System.Linq.Expressions.ExpressionType.ArrayLength
+  - System.Linq.Expressions.ExpressionType.AndAssign
   - System.Linq.Expressions.ExpressionType.ArrayIndex
+  - System.Linq.Expressions.ExpressionType.ArrayLength
+  - System.Linq.Expressions.ExpressionType.Assign
+  - System.Linq.Expressions.ExpressionType.Block
   - System.Linq.Expressions.ExpressionType.Call
   - System.Linq.Expressions.ExpressionType.Coalesce
   - System.Linq.Expressions.ExpressionType.Conditional
   - System.Linq.Expressions.ExpressionType.Constant
   - System.Linq.Expressions.ExpressionType.Convert
   - System.Linq.Expressions.ExpressionType.ConvertChecked
+  - System.Linq.Expressions.ExpressionType.DebugInfo
+  - System.Linq.Expressions.ExpressionType.Decrement
+  - System.Linq.Expressions.ExpressionType.Default
   - System.Linq.Expressions.ExpressionType.Divide
+  - System.Linq.Expressions.ExpressionType.DivideAssign
+  - System.Linq.Expressions.ExpressionType.Dynamic
   - System.Linq.Expressions.ExpressionType.Equal
   - System.Linq.Expressions.ExpressionType.ExclusiveOr
+  - System.Linq.Expressions.ExpressionType.ExclusiveOrAssign
+  - System.Linq.Expressions.ExpressionType.Extension
+  - System.Linq.Expressions.ExpressionType.Goto
   - System.Linq.Expressions.ExpressionType.GreaterThan
   - System.Linq.Expressions.ExpressionType.GreaterThanOrEqual
+  - System.Linq.Expressions.ExpressionType.Increment
+  - System.Linq.Expressions.ExpressionType.Index
   - System.Linq.Expressions.ExpressionType.Invoke
+  - System.Linq.Expressions.ExpressionType.IsFalse
+  - System.Linq.Expressions.ExpressionType.IsTrue
+  - System.Linq.Expressions.ExpressionType.Label
   - System.Linq.Expressions.ExpressionType.Lambda
   - System.Linq.Expressions.ExpressionType.LeftShift
+  - System.Linq.Expressions.ExpressionType.LeftShiftAssign
   - System.Linq.Expressions.ExpressionType.LessThan
   - System.Linq.Expressions.ExpressionType.LessThanOrEqual
   - System.Linq.Expressions.ExpressionType.ListInit
+  - System.Linq.Expressions.ExpressionType.Loop
   - System.Linq.Expressions.ExpressionType.MemberAccess
   - System.Linq.Expressions.ExpressionType.MemberInit
   - System.Linq.Expressions.ExpressionType.Modulo
+  - System.Linq.Expressions.ExpressionType.ModuloAssign
   - System.Linq.Expressions.ExpressionType.Multiply
+  - System.Linq.Expressions.ExpressionType.MultiplyAssign
+  - System.Linq.Expressions.ExpressionType.MultiplyAssignChecked
   - System.Linq.Expressions.ExpressionType.MultiplyChecked
   - System.Linq.Expressions.ExpressionType.Negate
-  - System.Linq.Expressions.ExpressionType.UnaryPlus
   - System.Linq.Expressions.ExpressionType.NegateChecked
   - System.Linq.Expressions.ExpressionType.New
-  - System.Linq.Expressions.ExpressionType.NewArrayInit
   - System.Linq.Expressions.ExpressionType.NewArrayBounds
+  - System.Linq.Expressions.ExpressionType.NewArrayInit
   - System.Linq.Expressions.ExpressionType.Not
   - System.Linq.Expressions.ExpressionType.NotEqual
+  - System.Linq.Expressions.ExpressionType.OnesComplement
   - System.Linq.Expressions.ExpressionType.Or
+  - System.Linq.Expressions.ExpressionType.OrAssign
   - System.Linq.Expressions.ExpressionType.OrElse
   - System.Linq.Expressions.ExpressionType.Parameter
+  - System.Linq.Expressions.ExpressionType.PostDecrementAssign
+  - System.Linq.Expressions.ExpressionType.PostIncrementAssign
   - System.Linq.Expressions.ExpressionType.Power
+  - System.Linq.Expressions.ExpressionType.PowerAssign
+  - System.Linq.Expressions.ExpressionType.PreDecrementAssign
+  - System.Linq.Expressions.ExpressionType.PreIncrementAssign
   - System.Linq.Expressions.ExpressionType.Quote
   - System.Linq.Expressions.ExpressionType.RightShift
-  - System.Linq.Expressions.ExpressionType.Subtract
-  - System.Linq.Expressions.ExpressionType.SubtractChecked
-  - System.Linq.Expressions.ExpressionType.TypeAs
-  - System.Linq.Expressions.ExpressionType.TypeIs
-  - System.Linq.Expressions.ExpressionType.Assign
-  - System.Linq.Expressions.ExpressionType.Block
-  - System.Linq.Expressions.ExpressionType.DebugInfo
-  - System.Linq.Expressions.ExpressionType.Decrement
-  - System.Linq.Expressions.ExpressionType.Dynamic
-  - System.Linq.Expressions.ExpressionType.Default
-  - System.Linq.Expressions.ExpressionType.Extension
-  - System.Linq.Expressions.ExpressionType.Goto
-  - System.Linq.Expressions.ExpressionType.Increment
-  - System.Linq.Expressions.ExpressionType.Index
-  - System.Linq.Expressions.ExpressionType.Label
+  - System.Linq.Expressions.ExpressionType.RightShiftAssign
   - System.Linq.Expressions.ExpressionType.RuntimeVariables
-  - System.Linq.Expressions.ExpressionType.Loop
+  - System.Linq.Expressions.ExpressionType.Subtract
+  - System.Linq.Expressions.ExpressionType.SubtractAssign
+  - System.Linq.Expressions.ExpressionType.SubtractAssignChecked
+  - System.Linq.Expressions.ExpressionType.SubtractChecked
   - System.Linq.Expressions.ExpressionType.Switch
   - System.Linq.Expressions.ExpressionType.Throw
   - System.Linq.Expressions.ExpressionType.Try
-  - System.Linq.Expressions.ExpressionType.Unbox
-  - System.Linq.Expressions.ExpressionType.AddAssign
-  - System.Linq.Expressions.ExpressionType.AndAssign
-  - System.Linq.Expressions.ExpressionType.DivideAssign
-  - System.Linq.Expressions.ExpressionType.ExclusiveOrAssign
-  - System.Linq.Expressions.ExpressionType.LeftShiftAssign
-  - System.Linq.Expressions.ExpressionType.ModuloAssign
-  - System.Linq.Expressions.ExpressionType.MultiplyAssign
-  - System.Linq.Expressions.ExpressionType.OrAssign
-  - System.Linq.Expressions.ExpressionType.PowerAssign
-  - System.Linq.Expressions.ExpressionType.RightShiftAssign
-  - System.Linq.Expressions.ExpressionType.SubtractAssign
-  - System.Linq.Expressions.ExpressionType.AddAssignChecked
-  - System.Linq.Expressions.ExpressionType.MultiplyAssignChecked
-  - System.Linq.Expressions.ExpressionType.SubtractAssignChecked
-  - System.Linq.Expressions.ExpressionType.PreIncrementAssign
-  - System.Linq.Expressions.ExpressionType.PreDecrementAssign
-  - System.Linq.Expressions.ExpressionType.PostIncrementAssign
-  - System.Linq.Expressions.ExpressionType.PostDecrementAssign
+  - System.Linq.Expressions.ExpressionType.TypeAs
   - System.Linq.Expressions.ExpressionType.TypeEqual
-  - System.Linq.Expressions.ExpressionType.OnesComplement
-  - System.Linq.Expressions.ExpressionType.IsTrue
-  - System.Linq.Expressions.ExpressionType.IsFalse
+  - System.Linq.Expressions.ExpressionType.TypeIs
+  - System.Linq.Expressions.ExpressionType.UnaryPlus
+  - System.Linq.Expressions.ExpressionType.Unbox
   href: System.Linq.Expressions.ExpressionType.yml
   name: ExpressionType
   fullName: System.Linq.Expressions.ExpressionType

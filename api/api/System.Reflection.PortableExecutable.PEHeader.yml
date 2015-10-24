@@ -3,49 +3,49 @@ items:
   id: PEHeader
   parent: System.Reflection.PortableExecutable
   children:
-  - System.Reflection.PortableExecutable.PEHeader.Magic
-  - System.Reflection.PortableExecutable.PEHeader.MajorLinkerVersion
-  - System.Reflection.PortableExecutable.PEHeader.MinorLinkerVersion
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfCode
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfInitializedData
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfUninitializedData
   - System.Reflection.PortableExecutable.PEHeader.AddressOfEntryPoint
   - System.Reflection.PortableExecutable.PEHeader.BaseOfCode
   - System.Reflection.PortableExecutable.PEHeader.BaseOfData
-  - System.Reflection.PortableExecutable.PEHeader.ImageBase
-  - System.Reflection.PortableExecutable.PEHeader.SectionAlignment
-  - System.Reflection.PortableExecutable.PEHeader.FileAlignment
-  - System.Reflection.PortableExecutable.PEHeader.MajorOperatingSystemVersion
-  - System.Reflection.PortableExecutable.PEHeader.MinorOperatingSystemVersion
-  - System.Reflection.PortableExecutable.PEHeader.MajorImageVersion
-  - System.Reflection.PortableExecutable.PEHeader.MinorImageVersion
-  - System.Reflection.PortableExecutable.PEHeader.MajorSubsystemVersion
-  - System.Reflection.PortableExecutable.PEHeader.MinorSubsystemVersion
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfImage
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfHeaders
-  - System.Reflection.PortableExecutable.PEHeader.CheckSum
-  - System.Reflection.PortableExecutable.PEHeader.Subsystem
-  - System.Reflection.PortableExecutable.PEHeader.DllCharacteristics
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfStackReserve
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfStackCommit
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfHeapReserve
-  - System.Reflection.PortableExecutable.PEHeader.SizeOfHeapCommit
-  - System.Reflection.PortableExecutable.PEHeader.NumberOfRvaAndSizes
-  - System.Reflection.PortableExecutable.PEHeader.ExportTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.ImportTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.ResourceTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.ExceptionTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.CertificateTableDirectory
   - System.Reflection.PortableExecutable.PEHeader.BaseRelocationTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.DebugTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.CopyrightTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.GlobalPointerTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.ThreadLocalStorageTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.LoadConfigTableDirectory
   - System.Reflection.PortableExecutable.PEHeader.BoundImportTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.ImportAddressTableDirectory
-  - System.Reflection.PortableExecutable.PEHeader.DelayImportTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.CertificateTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.CheckSum
+  - System.Reflection.PortableExecutable.PEHeader.CopyrightTableDirectory
   - System.Reflection.PortableExecutable.PEHeader.CorHeaderTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.DebugTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.DelayImportTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.DllCharacteristics
+  - System.Reflection.PortableExecutable.PEHeader.ExceptionTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.ExportTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.FileAlignment
+  - System.Reflection.PortableExecutable.PEHeader.GlobalPointerTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.ImageBase
+  - System.Reflection.PortableExecutable.PEHeader.ImportAddressTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.ImportTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.LoadConfigTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.Magic
+  - System.Reflection.PortableExecutable.PEHeader.MajorImageVersion
+  - System.Reflection.PortableExecutable.PEHeader.MajorLinkerVersion
+  - System.Reflection.PortableExecutable.PEHeader.MajorOperatingSystemVersion
+  - System.Reflection.PortableExecutable.PEHeader.MajorSubsystemVersion
+  - System.Reflection.PortableExecutable.PEHeader.MinorImageVersion
+  - System.Reflection.PortableExecutable.PEHeader.MinorLinkerVersion
+  - System.Reflection.PortableExecutable.PEHeader.MinorOperatingSystemVersion
+  - System.Reflection.PortableExecutable.PEHeader.MinorSubsystemVersion
+  - System.Reflection.PortableExecutable.PEHeader.NumberOfRvaAndSizes
+  - System.Reflection.PortableExecutable.PEHeader.ResourceTableDirectory
+  - System.Reflection.PortableExecutable.PEHeader.SectionAlignment
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfCode
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfHeaders
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfHeapCommit
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfHeapReserve
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfImage
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfInitializedData
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfStackCommit
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfStackReserve
+  - System.Reflection.PortableExecutable.PEHeader.SizeOfUninitializedData
+  - System.Reflection.PortableExecutable.PEHeader.Subsystem
+  - System.Reflection.PortableExecutable.PEHeader.ThreadLocalStorageTableDirectory
   href: System.Reflection.PortableExecutable.PEHeader.yml
   name: PEHeader
   fullName: System.Reflection.PortableExecutable.PEHeader
@@ -577,7 +577,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DllCharacteristics
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.SizeOfStackReserve
   id: SizeOfStackReserve
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -709,7 +708,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ImportTableDirectory
   id: ImportTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -730,7 +728,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ResourceTableDirectory
   id: ResourceTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -751,7 +748,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ExceptionTableDirectory
   id: ExceptionTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -772,7 +768,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.CertificateTableDirectory
   id: CertificateTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -819,7 +814,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.DebugTableDirectory
   id: DebugTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -840,7 +834,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.CopyrightTableDirectory
   id: CopyrightTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -861,7 +854,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.GlobalPointerTableDirectory
   id: GlobalPointerTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -882,7 +874,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ThreadLocalStorageTableDirectory
   id: ThreadLocalStorageTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -903,7 +894,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.LoadConfigTableDirectory
   id: LoadConfigTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -924,7 +914,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.BoundImportTableDirectory
   id: BoundImportTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -945,7 +934,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ImportAddressTableDirectory
   id: ImportAddressTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -966,7 +954,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.DelayImportTableDirectory
   id: DelayImportTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -987,7 +974,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.CorHeaderTableDirectory
   id: CorHeaderTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -1008,7 +994,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
-      description: 
 references:
 - uid: System.Reflection.PortableExecutable
   isExternal: false
@@ -1018,11 +1003,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1030,6 +1017,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1039,6 +1027,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1046,6 +1035,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1053,12 +1043,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1066,17 +1058,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1084,18 +1079,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1103,23 +1101,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1127,18 +1129,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1146,23 +1151,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1170,6 +1179,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1179,6 +1189,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1186,6 +1197,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1193,6 +1205,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1202,6 +1215,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1209,6 +1223,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1216,6 +1231,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1225,6 +1241,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1243,16 +1260,19 @@ references:
 - uid: System.Byte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte
   fullName: System.Byte
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64
 - uid: System.Reflection.PortableExecutable.PEHeader.FileAlignment
@@ -1260,11 +1280,13 @@ references:
 - uid: System.UInt16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   name: UInt16
   fullName: System.UInt16
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.Reflection.PortableExecutable.Subsystem

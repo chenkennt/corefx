@@ -3,43 +3,43 @@ items:
   id: XAttribute
   parent: System.Xml.Linq
   children:
-  - System.Xml.Linq.XAttribute.EmptySequence
-  - System.Xml.Linq.XAttribute.#ctor(System.Xml.Linq.XName,System.Object)
   - System.Xml.Linq.XAttribute.#ctor(System.Xml.Linq.XAttribute)
+  - System.Xml.Linq.XAttribute.#ctor(System.Xml.Linq.XName,System.Object)
+  - System.Xml.Linq.XAttribute.EmptySequence
   - System.Xml.Linq.XAttribute.IsNamespaceDeclaration
   - System.Xml.Linq.XAttribute.Name
   - System.Xml.Linq.XAttribute.NextAttribute
   - System.Xml.Linq.XAttribute.NodeType
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Boolean
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.DateTime
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.DateTimeOffset
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Decimal
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Double
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Guid
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Int32
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Int64
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Boolean}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.DateTime}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.DateTimeOffset}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Decimal}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Double}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Guid}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Int32}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Int64}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Single}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.TimeSpan}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.UInt32}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.UInt64}
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Single
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.String
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.TimeSpan
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.UInt32
+  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.UInt64
   - System.Xml.Linq.XAttribute.PreviousAttribute
-  - System.Xml.Linq.XAttribute.Value
   - System.Xml.Linq.XAttribute.Remove
   - System.Xml.Linq.XAttribute.SetValue(System.Object)
   - System.Xml.Linq.XAttribute.ToString
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.String
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Boolean
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Boolean}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Int32
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Int32}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.UInt32
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.UInt32}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Int64
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Int64}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.UInt64
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.UInt64}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Single
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Single}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Double
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Double}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Decimal
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Decimal}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.DateTime
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.DateTime}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.DateTimeOffset
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.DateTimeOffset}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.TimeSpan
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.TimeSpan}
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Guid
-  - System.Xml.Linq.XAttribute.op_Explicit(System.Xml.Linq.XAttribute)~System.Nullable{System.Guid}
+  - System.Xml.Linq.XAttribute.Value
   href: System.Xml.Linq.XAttribute.yml
   name: XAttribute
   fullName: System.Xml.Linq.XAttribute
@@ -1088,6 +1088,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Xml.Linq.XObject
@@ -1133,6 +1134,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1146,6 +1148,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.Annotation(System.Type)
@@ -1165,6 +1168,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1178,6 +1182,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.Annotation``1
@@ -1223,6 +1228,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1236,6 +1242,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.Annotations``1
@@ -1281,6 +1288,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1294,6 +1302,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Xml.Linq.XObject.RemoveAnnotations``1
@@ -1341,7 +1350,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Xml.Linq.XAttribute}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  href: System.Xml.Linq.XAttribute.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<XAttribute>
   name.vb: IEnumerable(Of XAttribute)
   fullName: System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>
@@ -1351,6 +1360,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Xml.Linq.XAttribute
@@ -1364,6 +1374,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Xml.Linq.XAttribute
@@ -1375,6 +1386,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1384,6 +1396,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1395,6 +1408,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1425,6 +1439,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Xml.Linq.XObject.NodeType
@@ -1440,6 +1455,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.InvalidOperationException
@@ -1451,6 +1467,7 @@ references:
 - uid: System.Nullable{System.Boolean}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Boolean>
   name.vb: Nullable(Of Boolean)
   fullName: System.Nullable<System.Boolean>
@@ -1460,12 +1477,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1473,17 +1492,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Nullable`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<T>
   name.vb: Nullable(Of T)
   fullName: System.Nullable<T>
@@ -1493,6 +1515,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1504,6 +1527,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1513,11 +1537,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Nullable{System.Int32}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int32>
   name.vb: Nullable(Of Int32)
   fullName: System.Nullable<System.Int32>
@@ -1527,12 +1553,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1540,22 +1568,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.Nullable{System.UInt32}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<UInt32>
   name.vb: Nullable(Of UInt32)
   fullName: System.Nullable<System.UInt32>
@@ -1565,12 +1597,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1578,22 +1612,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: )
     fullName: )
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Nullable{System.Int64}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int64>
   name.vb: Nullable(Of Int64)
   fullName: System.Nullable<System.Int64>
@@ -1603,12 +1641,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1616,22 +1656,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64
 - uid: System.Nullable{System.UInt64}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<UInt64>
   name.vb: Nullable(Of UInt64)
   fullName: System.Nullable<System.UInt64>
@@ -1641,12 +1685,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.UInt64
     name: UInt64
     fullName: System.UInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1654,22 +1700,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.UInt64
     name: UInt64
     fullName: System.UInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   - name: )
     fullName: )
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Nullable{System.Single}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Single>
   name.vb: Nullable(Of Single)
   fullName: System.Nullable<System.Single>
@@ -1679,12 +1729,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1692,22 +1744,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.Nullable{System.Double}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Double>
   name.vb: Nullable(Of Double)
   fullName: System.Nullable<System.Double>
@@ -1717,12 +1773,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1730,22 +1788,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.Nullable{System.Decimal}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Decimal>
   name.vb: Nullable(Of Decimal)
   fullName: System.Nullable<System.Decimal>
@@ -1755,12 +1817,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1768,22 +1832,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.Nullable{System.DateTime}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<DateTime>
   name.vb: Nullable(Of DateTime)
   fullName: System.Nullable<System.DateTime>
@@ -1793,12 +1861,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.DateTime
     name: DateTime
     fullName: System.DateTime
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1806,22 +1876,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.DateTime
     name: DateTime
     fullName: System.DateTime
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   - name: )
     fullName: )
 - uid: System.DateTimeOffset
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTimeOffset.yml
   name: DateTimeOffset
   fullName: System.DateTimeOffset
 - uid: System.Nullable{System.DateTimeOffset}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<DateTimeOffset>
   name.vb: Nullable(Of DateTimeOffset)
   fullName: System.Nullable<System.DateTimeOffset>
@@ -1831,12 +1905,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.DateTimeOffset
     name: DateTimeOffset
     fullName: System.DateTimeOffset
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTimeOffset.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1844,22 +1920,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.DateTimeOffset
     name: DateTimeOffset
     fullName: System.DateTimeOffset
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTimeOffset.yml
   - name: )
     fullName: )
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.Nullable{System.TimeSpan}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<TimeSpan>
   name.vb: Nullable(Of TimeSpan)
   fullName: System.Nullable<System.TimeSpan>
@@ -1869,12 +1949,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1882,22 +1964,26 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: )
     fullName: )
 - uid: System.Guid
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: Guid
   fullName: System.Guid
 - uid: System.Nullable{System.Guid}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Guid>
   name.vb: Nullable(Of Guid)
   fullName: System.Nullable<System.Guid>
@@ -1907,12 +1993,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1920,11 +2008,13 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: )
     fullName: )

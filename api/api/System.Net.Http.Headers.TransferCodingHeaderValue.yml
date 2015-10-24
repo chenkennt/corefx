@@ -3,15 +3,15 @@ items:
   id: TransferCodingHeaderValue
   parent: System.Net.Http.Headers
   children:
-  - System.Net.Http.Headers.TransferCodingHeaderValue.Value
-  - System.Net.Http.Headers.TransferCodingHeaderValue.Parameters
   - System.Net.Http.Headers.TransferCodingHeaderValue.#ctor(System.Net.Http.Headers.TransferCodingHeaderValue)
   - System.Net.Http.Headers.TransferCodingHeaderValue.#ctor(System.String)
-  - System.Net.Http.Headers.TransferCodingHeaderValue.Parse(System.String)
-  - System.Net.Http.Headers.TransferCodingHeaderValue.TryParse(System.String,System.Net.Http.Headers.TransferCodingHeaderValue@)
-  - System.Net.Http.Headers.TransferCodingHeaderValue.ToString
   - System.Net.Http.Headers.TransferCodingHeaderValue.Equals(System.Object)
   - System.Net.Http.Headers.TransferCodingHeaderValue.GetHashCode
+  - System.Net.Http.Headers.TransferCodingHeaderValue.Parameters
+  - System.Net.Http.Headers.TransferCodingHeaderValue.Parse(System.String)
+  - System.Net.Http.Headers.TransferCodingHeaderValue.ToString
+  - System.Net.Http.Headers.TransferCodingHeaderValue.TryParse(System.String,System.Net.Http.Headers.TransferCodingHeaderValue@)
+  - System.Net.Http.Headers.TransferCodingHeaderValue.Value
   href: System.Net.Http.Headers.TransferCodingHeaderValue.yml
   name: TransferCodingHeaderValue
   fullName: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -57,7 +57,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.Parameters
   id: Parameters
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -78,7 +77,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{System.Net.Http.Headers.NameValueHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.#ctor(System.Net.Http.Headers.TransferCodingHeaderValue)
   id: '#ctor(System.Net.Http.Headers.TransferCodingHeaderValue)'
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -141,7 +139,6 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.TransferCodingHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.TryParse(System.String,System.Net.Http.Headers.TransferCodingHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.TransferCodingHeaderValue@)
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -168,7 +165,6 @@ items:
       type: System.Net.Http.Headers.TransferCodingHeaderValue
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.ToString
   id: ToString
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -188,7 +184,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -212,7 +207,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.GetHashCode
   id: GetHashCode
@@ -233,7 +227,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Net.Http.Headers
@@ -244,11 +237,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -256,18 +251,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -275,23 +273,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -299,18 +301,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -318,23 +323,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -342,6 +351,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -351,6 +361,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -358,6 +369,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -365,6 +377,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -374,6 +387,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -385,12 +399,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Collections.Generic.ICollection{System.Net.Http.Headers.NameValueHeaderValue}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.ICollection`1
-  href: System.Net.Http.Headers.NameValueHeaderValue.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   name: ICollection<NameValueHeaderValue>
   name.vb: ICollection(Of NameValueHeaderValue)
   fullName: System.Collections.Generic.ICollection<System.Net.Http.Headers.NameValueHeaderValue>
@@ -400,6 +415,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: <
     fullName: <
   - uid: System.Net.Http.Headers.NameValueHeaderValue
@@ -413,6 +429,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Net.Http.Headers.NameValueHeaderValue
@@ -424,6 +441,7 @@ references:
 - uid: System.Collections.Generic.ICollection`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   name: ICollection<T>
   name.vb: ICollection(Of T)
   fullName: System.Collections.Generic.ICollection<T>
@@ -433,6 +451,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -444,6 +463,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -464,11 +484,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -476,6 +498,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -485,6 +508,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -492,6 +516,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -499,12 +524,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -512,17 +539,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -530,6 +560,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -539,6 +570,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -546,5 +578,6 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

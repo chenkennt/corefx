@@ -3,16 +3,16 @@ items:
   id: X500DistinguishedNameFlags
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.None
-  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.Reversed
-  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.UseSemicolons
   - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.DoNotUsePlusSign
   - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.DoNotUseQuotes
+  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.ForceUTF8Encoding
+  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.None
+  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.Reversed
   - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.UseCommas
   - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.UseNewLines
-  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.UseUTF8Encoding
+  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.UseSemicolons
   - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.UseT61Encoding
-  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.ForceUTF8Encoding
+  - System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.UseUTF8Encoding
   href: System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags.yml
   name: X500DistinguishedNameFlags
   fullName: System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags

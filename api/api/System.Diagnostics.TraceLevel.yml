@@ -3,11 +3,11 @@ items:
   id: TraceLevel
   parent: System.Diagnostics
   children:
-  - System.Diagnostics.TraceLevel.Off
   - System.Diagnostics.TraceLevel.Error
-  - System.Diagnostics.TraceLevel.Warning
   - System.Diagnostics.TraceLevel.Info
+  - System.Diagnostics.TraceLevel.Off
   - System.Diagnostics.TraceLevel.Verbose
+  - System.Diagnostics.TraceLevel.Warning
   href: System.Diagnostics.TraceLevel.yml
   name: TraceLevel
   fullName: System.Diagnostics.TraceLevel

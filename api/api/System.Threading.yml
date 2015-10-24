@@ -2,30 +2,55 @@ items:
 - uid: System.Threading
   id: System.Threading
   children:
-  - System.Threading.Semaphore
-  - System.Threading.BarrierPostPhaseException
   - System.Threading.Barrier
+  - System.Threading.BarrierPostPhaseException
   - System.Threading.CountdownEvent
   - System.Threading.LockRecursionPolicy
-  - System.Threading.ReaderWriterLockSlim
-  - System.Threading.WaitHandleExtensions
-  - System.Threading.ThreadPoolBoundHandle
   - System.Threading.PreAllocatedOverlapped
+  - System.Threading.ReaderWriterLockSlim
+  - System.Threading.Semaphore
+  - System.Threading.ThreadPoolBoundHandle
+  - System.Threading.WaitHandleExtensions
   href: System.Threading.yml
   name: System.Threading
   fullName: System.Threading
   type: Namespace
   source:
     remote:
-      path: src/System.Threading/src/System/Threading/Semaphore.Windows.cs
+      path: src/System.Runtime.Handles/src/System/Threading/WaitHandleExtensions.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Threading/src/System/Threading/Semaphore.Windows.cs
+    path: src/System.Runtime.Handles/src/System/Threading/WaitHandleExtensions.cs
     startLine: 6
   assemblies:
-  - System.Threading
+  - System.Runtime.Handles
 references:
+- uid: System.Threading.WaitHandleExtensions
+  isExternal: false
+  href: System.Threading.WaitHandleExtensions.yml
+  name: WaitHandleExtensions
+  fullName: System.Threading.WaitHandleExtensions
+  type: Class
+- uid: System.Threading.ThreadPoolBoundHandle
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.ThreadPoolBoundHandle.yml
+  name: ThreadPoolBoundHandle
+  fullName: System.Threading.ThreadPoolBoundHandle
+  type: Class
+  summary: >-
+    Represents an I/O handle that is bound to the system thread pool and enables low-level
+
+    components to receive notifications for asynchronous I/O operations.
+- uid: System.Threading.PreAllocatedOverlapped
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.PreAllocatedOverlapped.yml
+  name: PreAllocatedOverlapped
+  fullName: System.Threading.PreAllocatedOverlapped
+  type: Class
+  summary: Represents pre-allocated state for native overlapped I/O operations.
 - uid: System.Threading.Semaphore
   parent: System.Threading
   isExternal: false
@@ -77,31 +102,6 @@ references:
     for more than a few instructions (in particular, we never call event APIs
 
     or in fact any non-trivial API while holding the spin lock).
-- uid: System.Threading.WaitHandleExtensions
-  isExternal: false
-  href: System.Threading.WaitHandleExtensions.yml
-  name: WaitHandleExtensions
-  fullName: System.Threading.WaitHandleExtensions
-  type: Class
-- uid: System.Threading.ThreadPoolBoundHandle
-  parent: System.Threading
-  isExternal: false
-  href: System.Threading.ThreadPoolBoundHandle.yml
-  name: ThreadPoolBoundHandle
-  fullName: System.Threading.ThreadPoolBoundHandle
-  type: Class
-  summary: >-
-    Represents an I/O handle that is bound to the system thread pool and enables low-level
-
-    components to receive notifications for asynchronous I/O operations.
-- uid: System.Threading.PreAllocatedOverlapped
-  parent: System.Threading
-  isExternal: false
-  href: System.Threading.PreAllocatedOverlapped.yml
-  name: PreAllocatedOverlapped
-  fullName: System.Threading.PreAllocatedOverlapped
-  type: Class
-  summary: Represents pre-allocated state for native overlapped I/O operations.
 - uid: System.Threading
   isExternal: false
   name: System.Threading

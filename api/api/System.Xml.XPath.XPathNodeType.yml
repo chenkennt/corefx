@@ -3,16 +3,16 @@ items:
   id: XPathNodeType
   parent: System.Xml.XPath
   children:
-  - System.Xml.XPath.XPathNodeType.Root
-  - System.Xml.XPath.XPathNodeType.Element
-  - System.Xml.XPath.XPathNodeType.Attribute
-  - System.Xml.XPath.XPathNodeType.Namespace
-  - System.Xml.XPath.XPathNodeType.Text
-  - System.Xml.XPath.XPathNodeType.SignificantWhitespace
-  - System.Xml.XPath.XPathNodeType.Whitespace
-  - System.Xml.XPath.XPathNodeType.ProcessingInstruction
-  - System.Xml.XPath.XPathNodeType.Comment
   - System.Xml.XPath.XPathNodeType.All
+  - System.Xml.XPath.XPathNodeType.Attribute
+  - System.Xml.XPath.XPathNodeType.Comment
+  - System.Xml.XPath.XPathNodeType.Element
+  - System.Xml.XPath.XPathNodeType.Namespace
+  - System.Xml.XPath.XPathNodeType.ProcessingInstruction
+  - System.Xml.XPath.XPathNodeType.Root
+  - System.Xml.XPath.XPathNodeType.SignificantWhitespace
+  - System.Xml.XPath.XPathNodeType.Text
+  - System.Xml.XPath.XPathNodeType.Whitespace
   href: System.Xml.XPath.XPathNodeType.yml
   name: XPathNodeType
   fullName: System.Xml.XPath.XPathNodeType

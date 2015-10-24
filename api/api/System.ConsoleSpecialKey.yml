@@ -3,8 +3,8 @@ items:
   id: ConsoleSpecialKey
   parent: System
   children:
-  - System.ConsoleSpecialKey.ControlC
   - System.ConsoleSpecialKey.ControlBreak
+  - System.ConsoleSpecialKey.ControlC
   href: System.ConsoleSpecialKey.yml
   name: ConsoleSpecialKey
   fullName: System.ConsoleSpecialKey

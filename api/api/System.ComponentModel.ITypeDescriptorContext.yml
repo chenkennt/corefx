@@ -5,9 +5,9 @@ items:
   children:
   - System.ComponentModel.ITypeDescriptorContext.Container
   - System.ComponentModel.ITypeDescriptorContext.Instance
-  - System.ComponentModel.ITypeDescriptorContext.PropertyDescriptor
-  - System.ComponentModel.ITypeDescriptorContext.OnComponentChanging
   - System.ComponentModel.ITypeDescriptorContext.OnComponentChanged
+  - System.ComponentModel.ITypeDescriptorContext.OnComponentChanging
+  - System.ComponentModel.ITypeDescriptorContext.PropertyDescriptor
   href: System.ComponentModel.ITypeDescriptorContext.yml
   name: ITypeDescriptorContext
   fullName: System.ComponentModel.ITypeDescriptorContext
@@ -133,6 +133,7 @@ references:
 - uid: System.IServiceProvider.GetService(System.Type)
   parent: System.IServiceProvider
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   name: GetService(Type)
   fullName: System.IServiceProvider.GetService(System.Type)
   spec.csharp:
@@ -140,12 +141,14 @@ references:
     name: GetService
     fullName: System.IServiceProvider.GetService
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   - name: (
     fullName: (
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -153,17 +156,20 @@ references:
     name: GetService
     fullName: System.IServiceProvider.GetService
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   - name: (
     fullName: (
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.IServiceProvider
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IServiceProvider.yml
   name: IServiceProvider
   fullName: System.IServiceProvider
 - uid: System
@@ -177,6 +183,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.ComponentModel.PropertyDescriptor
@@ -189,5 +196,6 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

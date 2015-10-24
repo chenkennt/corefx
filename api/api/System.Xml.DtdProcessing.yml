@@ -3,9 +3,9 @@ items:
   id: DtdProcessing
   parent: System.Xml
   children:
-  - System.Xml.DtdProcessing.Prohibit
   - System.Xml.DtdProcessing.Ignore
   - System.Xml.DtdProcessing.Parse
+  - System.Xml.DtdProcessing.Prohibit
   href: System.Xml.DtdProcessing.yml
   name: DtdProcessing
   fullName: System.Xml.DtdProcessing

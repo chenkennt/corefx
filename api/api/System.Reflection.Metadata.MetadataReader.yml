@@ -6,59 +6,59 @@ items:
   - System.Reflection.Metadata.MetadataReader.#ctor(System.Byte*,System.Int32)
   - System.Reflection.Metadata.MetadataReader.#ctor(System.Byte*,System.Int32,System.Reflection.Metadata.MetadataReaderOptions)
   - System.Reflection.Metadata.MetadataReader.#ctor(System.Byte*,System.Int32,System.Reflection.Metadata.MetadataReaderOptions,System.Reflection.Metadata.MetadataStringDecoder)
-  - System.Reflection.Metadata.MetadataReader.Options
-  - System.Reflection.Metadata.MetadataReader.MetadataVersion
-  - System.Reflection.Metadata.MetadataReader.MetadataKind
-  - System.Reflection.Metadata.MetadataReader.StringComparer
-  - System.Reflection.Metadata.MetadataReader.IsAssembly
+  - System.Reflection.Metadata.MetadataReader.AssemblyFiles
   - System.Reflection.Metadata.MetadataReader.AssemblyReferences
-  - System.Reflection.Metadata.MetadataReader.TypeDefinitions
-  - System.Reflection.Metadata.MetadataReader.TypeReferences
   - System.Reflection.Metadata.MetadataReader.CustomAttributes
   - System.Reflection.Metadata.MetadataReader.DeclarativeSecurityAttributes
-  - System.Reflection.Metadata.MetadataReader.MemberReferences
-  - System.Reflection.Metadata.MetadataReader.ManifestResources
-  - System.Reflection.Metadata.MetadataReader.AssemblyFiles
-  - System.Reflection.Metadata.MetadataReader.ExportedTypes
-  - System.Reflection.Metadata.MetadataReader.MethodDefinitions
-  - System.Reflection.Metadata.MetadataReader.FieldDefinitions
   - System.Reflection.Metadata.MetadataReader.EventDefinitions
-  - System.Reflection.Metadata.MetadataReader.PropertyDefinitions
+  - System.Reflection.Metadata.MetadataReader.ExportedTypes
+  - System.Reflection.Metadata.MetadataReader.FieldDefinitions
   - System.Reflection.Metadata.MetadataReader.GetAssemblyDefinition
-  - System.Reflection.Metadata.MetadataReader.GetString(System.Reflection.Metadata.StringHandle)
-  - System.Reflection.Metadata.MetadataReader.GetString(System.Reflection.Metadata.NamespaceDefinitionHandle)
+  - System.Reflection.Metadata.MetadataReader.GetAssemblyFile(System.Reflection.Metadata.AssemblyFileHandle)
+  - System.Reflection.Metadata.MetadataReader.GetAssemblyReference(System.Reflection.Metadata.AssemblyReferenceHandle)
   - System.Reflection.Metadata.MetadataReader.GetBlobBytes(System.Reflection.Metadata.BlobHandle)
   - System.Reflection.Metadata.MetadataReader.GetBlobContent(System.Reflection.Metadata.BlobHandle)
   - System.Reflection.Metadata.MetadataReader.GetBlobReader(System.Reflection.Metadata.BlobHandle)
-  - System.Reflection.Metadata.MetadataReader.GetUserString(System.Reflection.Metadata.UserStringHandle)
-  - System.Reflection.Metadata.MetadataReader.GetGuid(System.Reflection.Metadata.GuidHandle)
-  - System.Reflection.Metadata.MetadataReader.GetModuleDefinition
-  - System.Reflection.Metadata.MetadataReader.GetAssemblyReference(System.Reflection.Metadata.AssemblyReferenceHandle)
-  - System.Reflection.Metadata.MetadataReader.GetTypeDefinition(System.Reflection.Metadata.TypeDefinitionHandle)
-  - System.Reflection.Metadata.MetadataReader.GetNamespaceDefinitionRoot
-  - System.Reflection.Metadata.MetadataReader.GetNamespaceDefinition(System.Reflection.Metadata.NamespaceDefinitionHandle)
-  - System.Reflection.Metadata.MetadataReader.GetTypeReference(System.Reflection.Metadata.TypeReferenceHandle)
-  - System.Reflection.Metadata.MetadataReader.GetExportedType(System.Reflection.Metadata.ExportedTypeHandle)
-  - System.Reflection.Metadata.MetadataReader.GetCustomAttributes(System.Reflection.Metadata.EntityHandle)
-  - System.Reflection.Metadata.MetadataReader.GetCustomAttribute(System.Reflection.Metadata.CustomAttributeHandle)
-  - System.Reflection.Metadata.MetadataReader.GetDeclarativeSecurityAttribute(System.Reflection.Metadata.DeclarativeSecurityAttributeHandle)
   - System.Reflection.Metadata.MetadataReader.GetConstant(System.Reflection.Metadata.ConstantHandle)
-  - System.Reflection.Metadata.MetadataReader.GetMethodDefinition(System.Reflection.Metadata.MethodDefinitionHandle)
-  - System.Reflection.Metadata.MetadataReader.GetFieldDefinition(System.Reflection.Metadata.FieldDefinitionHandle)
-  - System.Reflection.Metadata.MetadataReader.GetPropertyDefinition(System.Reflection.Metadata.PropertyDefinitionHandle)
+  - System.Reflection.Metadata.MetadataReader.GetCustomAttribute(System.Reflection.Metadata.CustomAttributeHandle)
+  - System.Reflection.Metadata.MetadataReader.GetCustomAttributes(System.Reflection.Metadata.EntityHandle)
+  - System.Reflection.Metadata.MetadataReader.GetDeclarativeSecurityAttribute(System.Reflection.Metadata.DeclarativeSecurityAttributeHandle)
   - System.Reflection.Metadata.MetadataReader.GetEventDefinition(System.Reflection.Metadata.EventDefinitionHandle)
-  - System.Reflection.Metadata.MetadataReader.GetMethodImplementation(System.Reflection.Metadata.MethodImplementationHandle)
-  - System.Reflection.Metadata.MetadataReader.GetMemberReference(System.Reflection.Metadata.MemberReferenceHandle)
-  - System.Reflection.Metadata.MetadataReader.GetMethodSpecification(System.Reflection.Metadata.MethodSpecificationHandle)
-  - System.Reflection.Metadata.MetadataReader.GetParameter(System.Reflection.Metadata.ParameterHandle)
+  - System.Reflection.Metadata.MetadataReader.GetExportedType(System.Reflection.Metadata.ExportedTypeHandle)
+  - System.Reflection.Metadata.MetadataReader.GetFieldDefinition(System.Reflection.Metadata.FieldDefinitionHandle)
   - System.Reflection.Metadata.MetadataReader.GetGenericParameter(System.Reflection.Metadata.GenericParameterHandle)
   - System.Reflection.Metadata.MetadataReader.GetGenericParameterConstraint(System.Reflection.Metadata.GenericParameterConstraintHandle)
-  - System.Reflection.Metadata.MetadataReader.GetManifestResource(System.Reflection.Metadata.ManifestResourceHandle)
-  - System.Reflection.Metadata.MetadataReader.GetAssemblyFile(System.Reflection.Metadata.AssemblyFileHandle)
-  - System.Reflection.Metadata.MetadataReader.GetStandaloneSignature(System.Reflection.Metadata.StandaloneSignatureHandle)
-  - System.Reflection.Metadata.MetadataReader.GetTypeSpecification(System.Reflection.Metadata.TypeSpecificationHandle)
-  - System.Reflection.Metadata.MetadataReader.GetModuleReference(System.Reflection.Metadata.ModuleReferenceHandle)
+  - System.Reflection.Metadata.MetadataReader.GetGuid(System.Reflection.Metadata.GuidHandle)
   - System.Reflection.Metadata.MetadataReader.GetInterfaceImplementation(System.Reflection.Metadata.InterfaceImplementationHandle)
+  - System.Reflection.Metadata.MetadataReader.GetManifestResource(System.Reflection.Metadata.ManifestResourceHandle)
+  - System.Reflection.Metadata.MetadataReader.GetMemberReference(System.Reflection.Metadata.MemberReferenceHandle)
+  - System.Reflection.Metadata.MetadataReader.GetMethodDefinition(System.Reflection.Metadata.MethodDefinitionHandle)
+  - System.Reflection.Metadata.MetadataReader.GetMethodImplementation(System.Reflection.Metadata.MethodImplementationHandle)
+  - System.Reflection.Metadata.MetadataReader.GetMethodSpecification(System.Reflection.Metadata.MethodSpecificationHandle)
+  - System.Reflection.Metadata.MetadataReader.GetModuleDefinition
+  - System.Reflection.Metadata.MetadataReader.GetModuleReference(System.Reflection.Metadata.ModuleReferenceHandle)
+  - System.Reflection.Metadata.MetadataReader.GetNamespaceDefinition(System.Reflection.Metadata.NamespaceDefinitionHandle)
+  - System.Reflection.Metadata.MetadataReader.GetNamespaceDefinitionRoot
+  - System.Reflection.Metadata.MetadataReader.GetParameter(System.Reflection.Metadata.ParameterHandle)
+  - System.Reflection.Metadata.MetadataReader.GetPropertyDefinition(System.Reflection.Metadata.PropertyDefinitionHandle)
+  - System.Reflection.Metadata.MetadataReader.GetStandaloneSignature(System.Reflection.Metadata.StandaloneSignatureHandle)
+  - System.Reflection.Metadata.MetadataReader.GetString(System.Reflection.Metadata.NamespaceDefinitionHandle)
+  - System.Reflection.Metadata.MetadataReader.GetString(System.Reflection.Metadata.StringHandle)
+  - System.Reflection.Metadata.MetadataReader.GetTypeDefinition(System.Reflection.Metadata.TypeDefinitionHandle)
+  - System.Reflection.Metadata.MetadataReader.GetTypeReference(System.Reflection.Metadata.TypeReferenceHandle)
+  - System.Reflection.Metadata.MetadataReader.GetTypeSpecification(System.Reflection.Metadata.TypeSpecificationHandle)
+  - System.Reflection.Metadata.MetadataReader.GetUserString(System.Reflection.Metadata.UserStringHandle)
+  - System.Reflection.Metadata.MetadataReader.IsAssembly
+  - System.Reflection.Metadata.MetadataReader.ManifestResources
+  - System.Reflection.Metadata.MetadataReader.MemberReferences
+  - System.Reflection.Metadata.MetadataReader.MetadataKind
+  - System.Reflection.Metadata.MetadataReader.MetadataVersion
+  - System.Reflection.Metadata.MetadataReader.MethodDefinitions
+  - System.Reflection.Metadata.MetadataReader.Options
+  - System.Reflection.Metadata.MetadataReader.PropertyDefinitions
+  - System.Reflection.Metadata.MetadataReader.StringComparer
+  - System.Reflection.Metadata.MetadataReader.TypeDefinitions
+  - System.Reflection.Metadata.MetadataReader.TypeReferences
   href: System.Reflection.Metadata.MetadataReader.yml
   name: MetadataReader
   fullName: System.Reflection.Metadata.MetadataReader
@@ -200,7 +200,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MetadataReaderOptions
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.MetadataVersion
   id: MetadataVersion
   parent: System.Reflection.Metadata.MetadataReader
@@ -221,7 +220,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.MetadataKind
   id: MetadataKind
   parent: System.Reflection.Metadata.MetadataReader
@@ -242,7 +240,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MetadataKind
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.StringComparer
   id: StringComparer
   parent: System.Reflection.Metadata.MetadataReader
@@ -263,7 +260,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MetadataStringComparer
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.IsAssembly
   id: IsAssembly
   parent: System.Reflection.Metadata.MetadataReader
@@ -284,7 +280,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.AssemblyReferences
   id: AssemblyReferences
   parent: System.Reflection.Metadata.MetadataReader
@@ -305,7 +300,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.AssemblyReferenceHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.TypeDefinitions
   id: TypeDefinitions
   parent: System.Reflection.Metadata.MetadataReader
@@ -326,7 +320,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.TypeDefinitionHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.TypeReferences
   id: TypeReferences
   parent: System.Reflection.Metadata.MetadataReader
@@ -347,7 +340,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.TypeReferenceHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.CustomAttributes
   id: CustomAttributes
   parent: System.Reflection.Metadata.MetadataReader
@@ -368,7 +360,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.DeclarativeSecurityAttributes
   id: DeclarativeSecurityAttributes
   parent: System.Reflection.Metadata.MetadataReader
@@ -389,7 +380,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.MemberReferences
   id: MemberReferences
   parent: System.Reflection.Metadata.MetadataReader
@@ -410,7 +400,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MemberReferenceHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.ManifestResources
   id: ManifestResources
   parent: System.Reflection.Metadata.MetadataReader
@@ -431,7 +420,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.ManifestResourceHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.AssemblyFiles
   id: AssemblyFiles
   parent: System.Reflection.Metadata.MetadataReader
@@ -452,7 +440,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.AssemblyFileHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.ExportedTypes
   id: ExportedTypes
   parent: System.Reflection.Metadata.MetadataReader
@@ -473,7 +460,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.ExportedTypeHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.MethodDefinitions
   id: MethodDefinitions
   parent: System.Reflection.Metadata.MetadataReader
@@ -494,7 +480,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MethodDefinitionHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.FieldDefinitions
   id: FieldDefinitions
   parent: System.Reflection.Metadata.MetadataReader
@@ -515,7 +500,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.FieldDefinitionHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.EventDefinitions
   id: EventDefinitions
   parent: System.Reflection.Metadata.MetadataReader
@@ -536,7 +520,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.EventDefinitionHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.PropertyDefinitions
   id: PropertyDefinitions
   parent: System.Reflection.Metadata.MetadataReader
@@ -557,7 +540,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.PropertyDefinitionHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetAssemblyDefinition
   id: GetAssemblyDefinition
   parent: System.Reflection.Metadata.MetadataReader
@@ -577,7 +559,6 @@ items:
     content.vb: Public Function GetAssemblyDefinition As AssemblyDefinition
     return:
       type: System.Reflection.Metadata.AssemblyDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetString(System.Reflection.Metadata.StringHandle)
   id: GetString(System.Reflection.Metadata.StringHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -600,7 +581,6 @@ items:
       type: System.Reflection.Metadata.StringHandle
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetString(System.Reflection.Metadata.NamespaceDefinitionHandle)
   id: GetString(System.Reflection.Metadata.NamespaceDefinitionHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -623,7 +603,6 @@ items:
       type: System.Reflection.Metadata.NamespaceDefinitionHandle
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetBlobBytes(System.Reflection.Metadata.BlobHandle)
   id: GetBlobBytes(System.Reflection.Metadata.BlobHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -646,7 +625,6 @@ items:
       type: System.Reflection.Metadata.BlobHandle
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetBlobContent(System.Reflection.Metadata.BlobHandle)
   id: GetBlobContent(System.Reflection.Metadata.BlobHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -669,7 +647,6 @@ items:
       type: System.Reflection.Metadata.BlobHandle
     return:
       type: ImmutableArray{System.Byte}
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetBlobReader(System.Reflection.Metadata.BlobHandle)
   id: GetBlobReader(System.Reflection.Metadata.BlobHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -692,7 +669,6 @@ items:
       type: System.Reflection.Metadata.BlobHandle
     return:
       type: System.Reflection.Metadata.BlobReader
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetUserString(System.Reflection.Metadata.UserStringHandle)
   id: GetUserString(System.Reflection.Metadata.UserStringHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -715,7 +691,6 @@ items:
       type: System.Reflection.Metadata.UserStringHandle
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetGuid(System.Reflection.Metadata.GuidHandle)
   id: GetGuid(System.Reflection.Metadata.GuidHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -738,7 +713,6 @@ items:
       type: System.Reflection.Metadata.GuidHandle
     return:
       type: System.Guid
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetModuleDefinition
   id: GetModuleDefinition
   parent: System.Reflection.Metadata.MetadataReader
@@ -758,7 +732,6 @@ items:
     content.vb: Public Function GetModuleDefinition As ModuleDefinition
     return:
       type: System.Reflection.Metadata.ModuleDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetAssemblyReference(System.Reflection.Metadata.AssemblyReferenceHandle)
   id: GetAssemblyReference(System.Reflection.Metadata.AssemblyReferenceHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -781,7 +754,6 @@ items:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
     return:
       type: System.Reflection.Metadata.AssemblyReference
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetTypeDefinition(System.Reflection.Metadata.TypeDefinitionHandle)
   id: GetTypeDefinition(System.Reflection.Metadata.TypeDefinitionHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -804,7 +776,6 @@ items:
       type: System.Reflection.Metadata.TypeDefinitionHandle
     return:
       type: System.Reflection.Metadata.TypeDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetNamespaceDefinitionRoot
   id: GetNamespaceDefinitionRoot
   parent: System.Reflection.Metadata.MetadataReader
@@ -824,7 +795,6 @@ items:
     content.vb: Public Function GetNamespaceDefinitionRoot As NamespaceDefinition
     return:
       type: System.Reflection.Metadata.NamespaceDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetNamespaceDefinition(System.Reflection.Metadata.NamespaceDefinitionHandle)
   id: GetNamespaceDefinition(System.Reflection.Metadata.NamespaceDefinitionHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -847,7 +817,6 @@ items:
       type: System.Reflection.Metadata.NamespaceDefinitionHandle
     return:
       type: System.Reflection.Metadata.NamespaceDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetTypeReference(System.Reflection.Metadata.TypeReferenceHandle)
   id: GetTypeReference(System.Reflection.Metadata.TypeReferenceHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -870,7 +839,6 @@ items:
       type: System.Reflection.Metadata.TypeReferenceHandle
     return:
       type: System.Reflection.Metadata.TypeReference
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetExportedType(System.Reflection.Metadata.ExportedTypeHandle)
   id: GetExportedType(System.Reflection.Metadata.ExportedTypeHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -893,7 +861,6 @@ items:
       type: System.Reflection.Metadata.ExportedTypeHandle
     return:
       type: System.Reflection.Metadata.ExportedType
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetCustomAttributes(System.Reflection.Metadata.EntityHandle)
   id: GetCustomAttributes(System.Reflection.Metadata.EntityHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -916,7 +883,6 @@ items:
       type: System.Reflection.Metadata.EntityHandle
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetCustomAttribute(System.Reflection.Metadata.CustomAttributeHandle)
   id: GetCustomAttribute(System.Reflection.Metadata.CustomAttributeHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -939,7 +905,6 @@ items:
       type: System.Reflection.Metadata.CustomAttributeHandle
     return:
       type: System.Reflection.Metadata.CustomAttribute
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetDeclarativeSecurityAttribute(System.Reflection.Metadata.DeclarativeSecurityAttributeHandle)
   id: GetDeclarativeSecurityAttribute(System.Reflection.Metadata.DeclarativeSecurityAttributeHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -962,7 +927,6 @@ items:
       type: System.Reflection.Metadata.DeclarativeSecurityAttributeHandle
     return:
       type: System.Reflection.Metadata.DeclarativeSecurityAttribute
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetConstant(System.Reflection.Metadata.ConstantHandle)
   id: GetConstant(System.Reflection.Metadata.ConstantHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -985,7 +949,6 @@ items:
       type: System.Reflection.Metadata.ConstantHandle
     return:
       type: System.Reflection.Metadata.Constant
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetMethodDefinition(System.Reflection.Metadata.MethodDefinitionHandle)
   id: GetMethodDefinition(System.Reflection.Metadata.MethodDefinitionHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1008,7 +971,6 @@ items:
       type: System.Reflection.Metadata.MethodDefinitionHandle
     return:
       type: System.Reflection.Metadata.MethodDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetFieldDefinition(System.Reflection.Metadata.FieldDefinitionHandle)
   id: GetFieldDefinition(System.Reflection.Metadata.FieldDefinitionHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1031,7 +993,6 @@ items:
       type: System.Reflection.Metadata.FieldDefinitionHandle
     return:
       type: System.Reflection.Metadata.FieldDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetPropertyDefinition(System.Reflection.Metadata.PropertyDefinitionHandle)
   id: GetPropertyDefinition(System.Reflection.Metadata.PropertyDefinitionHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1054,7 +1015,6 @@ items:
       type: System.Reflection.Metadata.PropertyDefinitionHandle
     return:
       type: System.Reflection.Metadata.PropertyDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetEventDefinition(System.Reflection.Metadata.EventDefinitionHandle)
   id: GetEventDefinition(System.Reflection.Metadata.EventDefinitionHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1077,7 +1037,6 @@ items:
       type: System.Reflection.Metadata.EventDefinitionHandle
     return:
       type: System.Reflection.Metadata.EventDefinition
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetMethodImplementation(System.Reflection.Metadata.MethodImplementationHandle)
   id: GetMethodImplementation(System.Reflection.Metadata.MethodImplementationHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1100,7 +1059,6 @@ items:
       type: System.Reflection.Metadata.MethodImplementationHandle
     return:
       type: System.Reflection.Metadata.MethodImplementation
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetMemberReference(System.Reflection.Metadata.MemberReferenceHandle)
   id: GetMemberReference(System.Reflection.Metadata.MemberReferenceHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1123,7 +1081,6 @@ items:
       type: System.Reflection.Metadata.MemberReferenceHandle
     return:
       type: System.Reflection.Metadata.MemberReference
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetMethodSpecification(System.Reflection.Metadata.MethodSpecificationHandle)
   id: GetMethodSpecification(System.Reflection.Metadata.MethodSpecificationHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1146,7 +1103,6 @@ items:
       type: System.Reflection.Metadata.MethodSpecificationHandle
     return:
       type: System.Reflection.Metadata.MethodSpecification
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetParameter(System.Reflection.Metadata.ParameterHandle)
   id: GetParameter(System.Reflection.Metadata.ParameterHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1169,7 +1125,6 @@ items:
       type: System.Reflection.Metadata.ParameterHandle
     return:
       type: System.Reflection.Metadata.Parameter
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetGenericParameter(System.Reflection.Metadata.GenericParameterHandle)
   id: GetGenericParameter(System.Reflection.Metadata.GenericParameterHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1192,7 +1147,6 @@ items:
       type: System.Reflection.Metadata.GenericParameterHandle
     return:
       type: System.Reflection.Metadata.GenericParameter
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetGenericParameterConstraint(System.Reflection.Metadata.GenericParameterConstraintHandle)
   id: GetGenericParameterConstraint(System.Reflection.Metadata.GenericParameterConstraintHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1215,7 +1169,6 @@ items:
       type: System.Reflection.Metadata.GenericParameterConstraintHandle
     return:
       type: System.Reflection.Metadata.GenericParameterConstraint
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetManifestResource(System.Reflection.Metadata.ManifestResourceHandle)
   id: GetManifestResource(System.Reflection.Metadata.ManifestResourceHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1238,7 +1191,6 @@ items:
       type: System.Reflection.Metadata.ManifestResourceHandle
     return:
       type: System.Reflection.Metadata.ManifestResource
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetAssemblyFile(System.Reflection.Metadata.AssemblyFileHandle)
   id: GetAssemblyFile(System.Reflection.Metadata.AssemblyFileHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1261,7 +1213,6 @@ items:
       type: System.Reflection.Metadata.AssemblyFileHandle
     return:
       type: System.Reflection.Metadata.AssemblyFile
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetStandaloneSignature(System.Reflection.Metadata.StandaloneSignatureHandle)
   id: GetStandaloneSignature(System.Reflection.Metadata.StandaloneSignatureHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1284,7 +1235,6 @@ items:
       type: System.Reflection.Metadata.StandaloneSignatureHandle
     return:
       type: System.Reflection.Metadata.StandaloneSignature
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetTypeSpecification(System.Reflection.Metadata.TypeSpecificationHandle)
   id: GetTypeSpecification(System.Reflection.Metadata.TypeSpecificationHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1307,7 +1257,6 @@ items:
       type: System.Reflection.Metadata.TypeSpecificationHandle
     return:
       type: System.Reflection.Metadata.TypeSpecification
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetModuleReference(System.Reflection.Metadata.ModuleReferenceHandle)
   id: GetModuleReference(System.Reflection.Metadata.ModuleReferenceHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1330,7 +1279,6 @@ items:
       type: System.Reflection.Metadata.ModuleReferenceHandle
     return:
       type: System.Reflection.Metadata.ModuleReference
-      description: 
 - uid: System.Reflection.Metadata.MetadataReader.GetInterfaceImplementation(System.Reflection.Metadata.InterfaceImplementationHandle)
   id: GetInterfaceImplementation(System.Reflection.Metadata.InterfaceImplementationHandle)
   parent: System.Reflection.Metadata.MetadataReader
@@ -1353,7 +1301,6 @@ items:
       type: System.Reflection.Metadata.InterfaceImplementationHandle
     return:
       type: System.Reflection.Metadata.InterfaceImplementation
-      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false
@@ -1363,11 +1310,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1375,6 +1324,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1384,6 +1334,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1391,6 +1342,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1398,12 +1350,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1411,17 +1365,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1429,18 +1386,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1448,23 +1408,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1472,18 +1436,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1491,23 +1458,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1515,6 +1486,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1524,6 +1496,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1531,6 +1504,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1538,6 +1512,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1547,6 +1522,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1554,6 +1530,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1561,6 +1538,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1570,6 +1548,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1587,6 +1566,7 @@ references:
   summary: Reads metadata as defined byte the ECMA 335 CLI specification.
 - uid: System.Byte*
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte*
   fullName: System.Byte*
   spec.csharp:
@@ -1594,6 +1574,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '*'
     fullName: '*'
   spec.vb:
@@ -1601,11 +1582,13 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '*'
     fullName: '*'
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System.Reflection.PortableExecutable.PEReader,System.Reflection.Metadata.MetadataReaderOptions)
@@ -1631,6 +1614,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Reflection.Metadata.MetadataKind
@@ -1654,6 +1638,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Reflection.Metadata.AssemblyReferenceHandleCollection
@@ -1773,6 +1758,7 @@ references:
   type: Struct
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -1782,6 +1768,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1789,10 +1776,12 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: ImmutableArray{System.Byte}
   definition: ImmutableArray`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: ImmutableArray<Byte>
   name.vb: ImmutableArray(Of Byte)
   fullName: ImmutableArray<System.Byte>
@@ -1808,6 +1797,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1821,6 +1811,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: )
     fullName: )
 - uid: ImmutableArray`1
@@ -1836,8 +1827,7 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - name: 
-    fullName: 
+  - {}
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1847,8 +1837,7 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - name: 
-    fullName: 
+  - {}
   - name: )
     fullName: )
 - uid: System.Reflection.Metadata.BlobReader
@@ -1874,6 +1863,7 @@ references:
 - uid: System.Guid
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: Guid
   fullName: System.Guid
 - uid: System.Reflection.Metadata.ModuleDefinition

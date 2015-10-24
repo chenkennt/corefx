@@ -3,126 +3,126 @@ items:
   id: BigInteger
   parent: System.Numerics
   children:
-  - System.Numerics.BigInteger.Zero
-  - System.Numerics.BigInteger.One
-  - System.Numerics.BigInteger.MinusOne
+  - System.Numerics.BigInteger.#ctor(System.Byte[])
+  - System.Numerics.BigInteger.#ctor(System.Decimal)
+  - System.Numerics.BigInteger.#ctor(System.Double)
+  - System.Numerics.BigInteger.#ctor(System.Int32)
+  - System.Numerics.BigInteger.#ctor(System.Int64)
+  - System.Numerics.BigInteger.#ctor(System.Single)
+  - System.Numerics.BigInteger.#ctor(System.UInt32)
+  - System.Numerics.BigInteger.#ctor(System.UInt64)
+  - System.Numerics.BigInteger.Abs(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Add(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Compare(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.CompareTo(System.Int64)
+  - System.Numerics.BigInteger.CompareTo(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.CompareTo(System.UInt64)
+  - System.Numerics.BigInteger.Divide(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@)
+  - System.Numerics.BigInteger.Equals(System.Int64)
+  - System.Numerics.BigInteger.Equals(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Equals(System.Object)
+  - System.Numerics.BigInteger.Equals(System.UInt64)
+  - System.Numerics.BigInteger.GetHashCode
+  - System.Numerics.BigInteger.GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.IsEven
+  - System.Numerics.BigInteger.IsOne
   - System.Numerics.BigInteger.IsPowerOfTwo
   - System.Numerics.BigInteger.IsZero
-  - System.Numerics.BigInteger.IsOne
-  - System.Numerics.BigInteger.IsEven
+  - System.Numerics.BigInteger.Log(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Log(System.Numerics.BigInteger,System.Double)
+  - System.Numerics.BigInteger.Log10(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Max(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Min(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.MinusOne
+  - System.Numerics.BigInteger.ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Negate(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.One
+  - System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Decrement(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Equality(System.Int64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Int64)
+  - System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.UInt64)
+  - System.Numerics.BigInteger.op_Equality(System.UInt64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Explicit(System.Decimal)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Explicit(System.Double)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Byte
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Decimal
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Double
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int16
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int32
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int64
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.SByte
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Single
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt16
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt32
+  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt64
+  - System.Numerics.BigInteger.op_Explicit(System.Single)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_GreaterThan(System.Int64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Int64)
+  - System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.UInt64)
+  - System.Numerics.BigInteger.op_GreaterThan(System.UInt64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64)
+  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.UInt64)
+  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.UInt64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Implicit(System.Byte)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Implicit(System.Int16)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Implicit(System.Int32)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Implicit(System.Int64)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Implicit(System.SByte)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Implicit(System.UInt16)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Implicit(System.UInt32)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Implicit(System.UInt64)~System.Numerics.BigInteger
+  - System.Numerics.BigInteger.op_Increment(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Inequality(System.Int64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Int64)
+  - System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.UInt64)
+  - System.Numerics.BigInteger.op_Inequality(System.UInt64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_LeftShift(System.Numerics.BigInteger,System.Int32)
+  - System.Numerics.BigInteger.op_LessThan(System.Int64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Int64)
+  - System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.UInt64)
+  - System.Numerics.BigInteger.op_LessThan(System.UInt64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64)
+  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.UInt64)
+  - System.Numerics.BigInteger.op_LessThanOrEqual(System.UInt64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_OnesComplement(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_RightShift(System.Numerics.BigInteger,System.Int32)
+  - System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_UnaryNegation(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.op_UnaryPlus(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Parse(System.String)
+  - System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles)
+  - System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  - System.Numerics.BigInteger.Parse(System.String,System.IFormatProvider)
+  - System.Numerics.BigInteger.Pow(System.Numerics.BigInteger,System.Int32)
+  - System.Numerics.BigInteger.Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger)
   - System.Numerics.BigInteger.Sign
-  - System.Numerics.BigInteger.Equals(System.Object)
-  - System.Numerics.BigInteger.GetHashCode
-  - System.Numerics.BigInteger.Equals(System.Int64)
-  - System.Numerics.BigInteger.Equals(System.UInt64)
-  - System.Numerics.BigInteger.Equals(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.CompareTo(System.Int64)
-  - System.Numerics.BigInteger.CompareTo(System.UInt64)
-  - System.Numerics.BigInteger.CompareTo(System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger)
   - System.Numerics.BigInteger.System#IComparable#CompareTo(System.Object)
   - System.Numerics.BigInteger.ToByteArray
   - System.Numerics.BigInteger.ToString
   - System.Numerics.BigInteger.ToString(System.IFormatProvider)
   - System.Numerics.BigInteger.ToString(System.String)
   - System.Numerics.BigInteger.ToString(System.String,System.IFormatProvider)
-  - System.Numerics.BigInteger.#ctor(System.Int32)
-  - System.Numerics.BigInteger.#ctor(System.UInt32)
-  - System.Numerics.BigInteger.#ctor(System.Int64)
-  - System.Numerics.BigInteger.#ctor(System.UInt64)
-  - System.Numerics.BigInteger.#ctor(System.Single)
-  - System.Numerics.BigInteger.#ctor(System.Double)
-  - System.Numerics.BigInteger.#ctor(System.Decimal)
-  - System.Numerics.BigInteger.#ctor(System.Byte[])
-  - System.Numerics.BigInteger.Parse(System.String)
-  - System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles)
-  - System.Numerics.BigInteger.Parse(System.String,System.IFormatProvider)
-  - System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
-  - System.Numerics.BigInteger.TryParse(System.String,System.Numerics.BigInteger@)
   - System.Numerics.BigInteger.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@)
-  - System.Numerics.BigInteger.Compare(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Abs(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Add(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Divide(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@)
-  - System.Numerics.BigInteger.Negate(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Log(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Log(System.Numerics.BigInteger,System.Double)
-  - System.Numerics.BigInteger.Log10(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Max(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Min(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.Pow(System.Numerics.BigInteger,System.Int32)
-  - System.Numerics.BigInteger.op_Implicit(System.Byte)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Implicit(System.SByte)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Implicit(System.Int16)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Implicit(System.UInt16)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Implicit(System.Int32)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Implicit(System.UInt32)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Implicit(System.Int64)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Implicit(System.UInt64)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Explicit(System.Single)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Explicit(System.Double)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Explicit(System.Decimal)~System.Numerics.BigInteger
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Byte
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.SByte
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int16
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt16
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int32
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt32
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int64
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt64
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Single
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Double
-  - System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Decimal
-  - System.Numerics.BigInteger.op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_LeftShift(System.Numerics.BigInteger,System.Int32)
-  - System.Numerics.BigInteger.op_RightShift(System.Numerics.BigInteger,System.Int32)
-  - System.Numerics.BigInteger.op_OnesComplement(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_UnaryNegation(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_UnaryPlus(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Increment(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Decrement(System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Int64)
-  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64)
-  - System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Int64)
-  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64)
-  - System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Int64)
-  - System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Int64)
-  - System.Numerics.BigInteger.op_LessThan(System.Int64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_GreaterThan(System.Int64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Equality(System.Int64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Inequality(System.Int64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.UInt64)
-  - System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.UInt64)
-  - System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.UInt64)
-  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.UInt64)
-  - System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.UInt64)
-  - System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.UInt64)
-  - System.Numerics.BigInteger.op_LessThan(System.UInt64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_LessThanOrEqual(System.UInt64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_GreaterThan(System.UInt64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_GreaterThanOrEqual(System.UInt64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Equality(System.UInt64,System.Numerics.BigInteger)
-  - System.Numerics.BigInteger.op_Inequality(System.UInt64,System.Numerics.BigInteger)
+  - System.Numerics.BigInteger.TryParse(System.String,System.Numerics.BigInteger@)
+  - System.Numerics.BigInteger.Zero
   href: System.Numerics.BigInteger.yml
   name: BigInteger
   fullName: System.Numerics.BigInteger
@@ -170,7 +170,6 @@ items:
     parameters: []
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.One
   id: One
   parent: System.Numerics.BigInteger
@@ -191,7 +190,6 @@ items:
     parameters: []
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.MinusOne
   id: MinusOne
   parent: System.Numerics.BigInteger
@@ -212,7 +210,6 @@ items:
     parameters: []
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.IsPowerOfTwo
   id: IsPowerOfTwo
   parent: System.Numerics.BigInteger
@@ -233,7 +230,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.IsZero
   id: IsZero
   parent: System.Numerics.BigInteger
@@ -254,7 +250,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.IsOne
   id: IsOne
   parent: System.Numerics.BigInteger
@@ -275,7 +270,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.IsEven
   id: IsEven
   parent: System.Numerics.BigInteger
@@ -296,7 +290,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.Sign
   id: Sign
   parent: System.Numerics.BigInteger
@@ -317,7 +310,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Numerics.BigInteger.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Numerics.BigInteger
@@ -340,7 +332,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Numerics.BigInteger.GetHashCode
   id: GetHashCode
@@ -361,7 +352,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Numerics.BigInteger.Equals(System.Int64)
   id: Equals(System.Int64)
@@ -385,7 +375,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.Equals(System.UInt64)
   id: Equals(System.UInt64)
   parent: System.Numerics.BigInteger
@@ -408,7 +397,6 @@ items:
       type: System.UInt64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.Equals(System.Numerics.BigInteger)
   id: Equals(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -431,7 +419,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.CompareTo(System.Int64)
   id: CompareTo(System.Int64)
   parent: System.Numerics.BigInteger
@@ -454,7 +441,6 @@ items:
       type: System.Int64
     return:
       type: System.Int32
-      description: 
 - uid: System.Numerics.BigInteger.CompareTo(System.UInt64)
   id: CompareTo(System.UInt64)
   parent: System.Numerics.BigInteger
@@ -477,7 +463,6 @@ items:
       type: System.UInt64
     return:
       type: System.Int32
-      description: 
 - uid: System.Numerics.BigInteger.CompareTo(System.Numerics.BigInteger)
   id: CompareTo(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -500,7 +485,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Int32
-      description: 
 - uid: System.Numerics.BigInteger.System#IComparable#CompareTo(System.Object)
   id: System#IComparable#CompareTo(System.Object)
   parent: System.Numerics.BigInteger
@@ -524,7 +508,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Numerics.BigInteger.ToByteArray
   id: ToByteArray
   parent: System.Numerics.BigInteger
@@ -544,7 +527,6 @@ items:
     content.vb: Public Function ToByteArray As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Numerics.BigInteger.ToString
   id: ToString
   parent: System.Numerics.BigInteger
@@ -564,7 +546,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Numerics.BigInteger.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
@@ -588,7 +569,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Numerics.BigInteger.ToString(System.String)
   id: ToString(System.String)
   parent: System.Numerics.BigInteger
@@ -611,7 +591,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Numerics.BigInteger.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.Numerics.BigInteger
@@ -636,7 +615,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Numerics.BigInteger.#ctor(System.Int32)
   id: '#ctor(System.Int32)'
   parent: System.Numerics.BigInteger
@@ -821,7 +799,6 @@ items:
       type: System.String
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles)
   id: Parse(System.String,System.Globalization.NumberStyles)
   parent: System.Numerics.BigInteger
@@ -846,7 +823,6 @@ items:
       type: System.Globalization.NumberStyles
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.Numerics.BigInteger
@@ -871,7 +847,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   id: Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   parent: System.Numerics.BigInteger
@@ -898,7 +873,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.TryParse(System.String,System.Numerics.BigInteger@)
   id: TryParse(System.String,System.Numerics.BigInteger@)
   parent: System.Numerics.BigInteger
@@ -925,7 +899,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@)
   id: TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@)
   parent: System.Numerics.BigInteger
@@ -956,7 +929,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.Compare(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Compare(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -981,7 +953,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Int32
-      description: 
 - uid: System.Numerics.BigInteger.Abs(System.Numerics.BigInteger)
   id: Abs(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1004,7 +975,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Add(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Add(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1029,7 +999,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1054,7 +1023,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1079,7 +1047,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Divide(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Divide(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1104,7 +1071,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1129,7 +1095,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@)
   id: DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@)
   parent: System.Numerics.BigInteger
@@ -1158,7 +1123,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Negate(System.Numerics.BigInteger)
   id: Negate(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1181,7 +1145,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Log(System.Numerics.BigInteger)
   id: Log(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1204,7 +1167,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Double
-      description: 
 - uid: System.Numerics.BigInteger.Log(System.Numerics.BigInteger,System.Double)
   id: Log(System.Numerics.BigInteger,System.Double)
   parent: System.Numerics.BigInteger
@@ -1229,7 +1191,6 @@ items:
       type: System.Double
     return:
       type: System.Double
-      description: 
 - uid: System.Numerics.BigInteger.Log10(System.Numerics.BigInteger)
   id: Log10(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1252,7 +1213,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Double
-      description: 
 - uid: System.Numerics.BigInteger.GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1277,7 +1237,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Max(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Max(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1302,7 +1261,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Min(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: Min(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1327,7 +1285,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1354,7 +1311,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.Pow(System.Numerics.BigInteger,System.Int32)
   id: Pow(System.Numerics.BigInteger,System.Int32)
   parent: System.Numerics.BigInteger
@@ -1379,7 +1335,6 @@ items:
       type: System.Int32
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.Byte)~System.Numerics.BigInteger
   id: op_Implicit(System.Byte)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1404,7 +1359,6 @@ items:
       type: System.Byte
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.SByte)~System.Numerics.BigInteger
   id: op_Implicit(System.SByte)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1429,7 +1383,6 @@ items:
       type: System.SByte
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.Int16)~System.Numerics.BigInteger
   id: op_Implicit(System.Int16)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1454,7 +1407,6 @@ items:
       type: System.Int16
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.UInt16)~System.Numerics.BigInteger
   id: op_Implicit(System.UInt16)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1479,7 +1431,6 @@ items:
       type: System.UInt16
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.Int32)~System.Numerics.BigInteger
   id: op_Implicit(System.Int32)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1504,7 +1455,6 @@ items:
       type: System.Int32
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.UInt32)~System.Numerics.BigInteger
   id: op_Implicit(System.UInt32)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1529,7 +1479,6 @@ items:
       type: System.UInt32
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.Int64)~System.Numerics.BigInteger
   id: op_Implicit(System.Int64)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1554,7 +1503,6 @@ items:
       type: System.Int64
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Implicit(System.UInt64)~System.Numerics.BigInteger
   id: op_Implicit(System.UInt64)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1579,7 +1527,6 @@ items:
       type: System.UInt64
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Single)~System.Numerics.BigInteger
   id: op_Explicit(System.Single)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1604,7 +1551,6 @@ items:
       type: System.Single
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Double)~System.Numerics.BigInteger
   id: op_Explicit(System.Double)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1629,7 +1575,6 @@ items:
       type: System.Double
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Decimal)~System.Numerics.BigInteger
   id: op_Explicit(System.Decimal)~System.Numerics.BigInteger
   parent: System.Numerics.BigInteger
@@ -1654,7 +1599,6 @@ items:
       type: System.Decimal
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Byte
   id: op_Explicit(System.Numerics.BigInteger)~System.Byte
   parent: System.Numerics.BigInteger
@@ -1679,7 +1623,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Byte
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.SByte
   id: op_Explicit(System.Numerics.BigInteger)~System.SByte
   parent: System.Numerics.BigInteger
@@ -1704,7 +1647,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.SByte
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int16
   id: op_Explicit(System.Numerics.BigInteger)~System.Int16
   parent: System.Numerics.BigInteger
@@ -1729,7 +1671,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Int16
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt16
   id: op_Explicit(System.Numerics.BigInteger)~System.UInt16
   parent: System.Numerics.BigInteger
@@ -1754,7 +1695,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.UInt16
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int32
   id: op_Explicit(System.Numerics.BigInteger)~System.Int32
   parent: System.Numerics.BigInteger
@@ -1779,7 +1719,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Int32
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt32
   id: op_Explicit(System.Numerics.BigInteger)~System.UInt32
   parent: System.Numerics.BigInteger
@@ -1804,7 +1743,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.UInt32
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int64
   id: op_Explicit(System.Numerics.BigInteger)~System.Int64
   parent: System.Numerics.BigInteger
@@ -1829,7 +1767,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Int64
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt64
   id: op_Explicit(System.Numerics.BigInteger)~System.UInt64
   parent: System.Numerics.BigInteger
@@ -1854,7 +1791,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.UInt64
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Single
   id: op_Explicit(System.Numerics.BigInteger)~System.Single
   parent: System.Numerics.BigInteger
@@ -1879,7 +1815,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Single
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Double
   id: op_Explicit(System.Numerics.BigInteger)~System.Double
   parent: System.Numerics.BigInteger
@@ -1904,7 +1839,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Double
-      description: 
 - uid: System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Decimal
   id: op_Explicit(System.Numerics.BigInteger)~System.Decimal
   parent: System.Numerics.BigInteger
@@ -1929,7 +1863,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Decimal
-      description: 
 - uid: System.Numerics.BigInteger.op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1954,7 +1887,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -1979,7 +1911,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2004,7 +1935,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_LeftShift(System.Numerics.BigInteger,System.Int32)
   id: op_LeftShift(System.Numerics.BigInteger,System.Int32)
   parent: System.Numerics.BigInteger
@@ -2029,7 +1959,6 @@ items:
       type: System.Int32
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_RightShift(System.Numerics.BigInteger,System.Int32)
   id: op_RightShift(System.Numerics.BigInteger,System.Int32)
   parent: System.Numerics.BigInteger
@@ -2054,7 +1983,6 @@ items:
       type: System.Int32
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_OnesComplement(System.Numerics.BigInteger)
   id: op_OnesComplement(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2077,7 +2005,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_UnaryNegation(System.Numerics.BigInteger)
   id: op_UnaryNegation(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2100,7 +2027,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_UnaryPlus(System.Numerics.BigInteger)
   id: op_UnaryPlus(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2123,7 +2049,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Increment(System.Numerics.BigInteger)
   id: op_Increment(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2146,7 +2071,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Decrement(System.Numerics.BigInteger)
   id: op_Decrement(System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2169,7 +2093,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2194,7 +2117,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2219,7 +2141,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2244,7 +2165,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2269,7 +2189,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2294,7 +2213,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.BigInteger
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2319,7 +2237,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2344,7 +2261,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2369,7 +2285,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2394,7 +2309,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2419,7 +2333,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger)
   id: op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2444,7 +2357,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Int64)
   id: op_LessThan(System.Numerics.BigInteger,System.Int64)
   parent: System.Numerics.BigInteger
@@ -2469,7 +2381,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64)
   id: op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64)
   parent: System.Numerics.BigInteger
@@ -2494,7 +2405,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Int64)
   id: op_GreaterThan(System.Numerics.BigInteger,System.Int64)
   parent: System.Numerics.BigInteger
@@ -2519,7 +2429,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64)
   id: op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64)
   parent: System.Numerics.BigInteger
@@ -2544,7 +2453,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Int64)
   id: op_Equality(System.Numerics.BigInteger,System.Int64)
   parent: System.Numerics.BigInteger
@@ -2569,7 +2477,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Int64)
   id: op_Inequality(System.Numerics.BigInteger,System.Int64)
   parent: System.Numerics.BigInteger
@@ -2594,7 +2501,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThan(System.Int64,System.Numerics.BigInteger)
   id: op_LessThan(System.Int64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2619,7 +2525,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger)
   id: op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2644,7 +2549,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThan(System.Int64,System.Numerics.BigInteger)
   id: op_GreaterThan(System.Int64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2669,7 +2573,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger)
   id: op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2694,7 +2597,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Equality(System.Int64,System.Numerics.BigInteger)
   id: op_Equality(System.Int64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2719,7 +2621,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Inequality(System.Int64,System.Numerics.BigInteger)
   id: op_Inequality(System.Int64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2744,7 +2645,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.UInt64)
   id: op_LessThan(System.Numerics.BigInteger,System.UInt64)
   parent: System.Numerics.BigInteger
@@ -2769,7 +2669,6 @@ items:
       type: System.UInt64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.UInt64)
   id: op_LessThanOrEqual(System.Numerics.BigInteger,System.UInt64)
   parent: System.Numerics.BigInteger
@@ -2794,7 +2693,6 @@ items:
       type: System.UInt64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.UInt64)
   id: op_GreaterThan(System.Numerics.BigInteger,System.UInt64)
   parent: System.Numerics.BigInteger
@@ -2819,7 +2717,6 @@ items:
       type: System.UInt64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.UInt64)
   id: op_GreaterThanOrEqual(System.Numerics.BigInteger,System.UInt64)
   parent: System.Numerics.BigInteger
@@ -2844,7 +2741,6 @@ items:
       type: System.UInt64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.UInt64)
   id: op_Equality(System.Numerics.BigInteger,System.UInt64)
   parent: System.Numerics.BigInteger
@@ -2869,7 +2765,6 @@ items:
       type: System.UInt64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.UInt64)
   id: op_Inequality(System.Numerics.BigInteger,System.UInt64)
   parent: System.Numerics.BigInteger
@@ -2894,7 +2789,6 @@ items:
       type: System.UInt64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThan(System.UInt64,System.Numerics.BigInteger)
   id: op_LessThan(System.UInt64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2919,7 +2813,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_LessThanOrEqual(System.UInt64,System.Numerics.BigInteger)
   id: op_LessThanOrEqual(System.UInt64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2944,7 +2837,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThan(System.UInt64,System.Numerics.BigInteger)
   id: op_GreaterThan(System.UInt64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2969,7 +2861,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_GreaterThanOrEqual(System.UInt64,System.Numerics.BigInteger)
   id: op_GreaterThanOrEqual(System.UInt64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -2994,7 +2885,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Equality(System.UInt64,System.Numerics.BigInteger)
   id: op_Equality(System.UInt64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -3019,7 +2909,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 - uid: System.Numerics.BigInteger.op_Inequality(System.UInt64,System.Numerics.BigInteger)
   id: op_Inequality(System.UInt64,System.Numerics.BigInteger)
   parent: System.Numerics.BigInteger
@@ -3044,7 +2933,6 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Numerics
   isExternal: false
@@ -3054,6 +2942,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -3061,18 +2950,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3080,23 +2972,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -3104,18 +3000,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3123,23 +3022,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -3147,6 +3050,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3156,6 +3060,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3163,6 +3068,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -3179,16 +3085,19 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -3196,12 +3105,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3209,22 +3120,26 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -3232,6 +3147,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -3241,6 +3157,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -3248,15 +3165,18 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -3266,6 +3186,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3273,11 +3194,13 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -3285,6 +3208,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -3294,6 +3218,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -3301,36 +3226,43 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IFormatProvider
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IFormatProvider.yml
   name: IFormatProvider
   fullName: System.IFormatProvider
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.Globalization.NumberStyles
   parent: System.Globalization
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Globalization.NumberStyles.yml
   name: NumberStyles
   fullName: System.Globalization.NumberStyles
 - uid: System.Globalization
@@ -3340,20 +3272,24 @@ references:
 - uid: System.Byte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte
   fullName: System.Byte
 - uid: System.SByte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   name: SByte
   fullName: System.SByte
 - uid: System.Int16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   name: Int16
   fullName: System.Int16
 - uid: System.UInt16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   name: UInt16
   fullName: System.UInt16

@@ -4,9 +4,9 @@ items:
   parent: System.Runtime.InteropServices.ComTypes
   children:
   - System.Runtime.InteropServices.ComTypes.DVASPECT.DVASPECT_CONTENT
-  - System.Runtime.InteropServices.ComTypes.DVASPECT.DVASPECT_THUMBNAIL
-  - System.Runtime.InteropServices.ComTypes.DVASPECT.DVASPECT_ICON
   - System.Runtime.InteropServices.ComTypes.DVASPECT.DVASPECT_DOCPRINT
+  - System.Runtime.InteropServices.ComTypes.DVASPECT.DVASPECT_ICON
+  - System.Runtime.InteropServices.ComTypes.DVASPECT.DVASPECT_THUMBNAIL
   href: System.Runtime.InteropServices.ComTypes.DVASPECT.yml
   name: DVASPECT
   fullName: System.Runtime.InteropServices.ComTypes.DVASPECT

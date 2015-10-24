@@ -3,58 +3,58 @@ items:
   id: Vector2
   parent: System.Numerics
   children:
-  - System.Numerics.Vector2.Zero
-  - System.Numerics.Vector2.One
-  - System.Numerics.Vector2.UnitX
-  - System.Numerics.Vector2.UnitY
-  - System.Numerics.Vector2.GetHashCode
-  - System.Numerics.Vector2.Equals(System.Object)
-  - System.Numerics.Vector2.ToString
-  - System.Numerics.Vector2.ToString(System.String)
-  - System.Numerics.Vector2.ToString(System.String,System.IFormatProvider)
-  - System.Numerics.Vector2.Length
-  - System.Numerics.Vector2.LengthSquared
+  - System.Numerics.Vector2.#ctor(System.Single)
+  - System.Numerics.Vector2.#ctor(System.Single,System.Single)
+  - System.Numerics.Vector2.Abs(System.Numerics.Vector2)
+  - System.Numerics.Vector2.Add(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.Clamp(System.Numerics.Vector2,System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.CopyTo(System.Single[])
+  - System.Numerics.Vector2.CopyTo(System.Single[],System.Int32)
   - System.Numerics.Vector2.Distance(System.Numerics.Vector2,System.Numerics.Vector2)
   - System.Numerics.Vector2.DistanceSquared(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Normalize(System.Numerics.Vector2)
-  - System.Numerics.Vector2.Reflect(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Clamp(System.Numerics.Vector2,System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Single)
+  - System.Numerics.Vector2.Dot(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.Equals(System.Numerics.Vector2)
+  - System.Numerics.Vector2.Equals(System.Object)
+  - System.Numerics.Vector2.GetHashCode
+  - System.Numerics.Vector2.Length
+  - System.Numerics.Vector2.LengthSquared
   - System.Numerics.Vector2.Lerp(System.Numerics.Vector2,System.Numerics.Vector2,System.Single)
-  - System.Numerics.Vector2.Transform(System.Numerics.Vector2,System.Numerics.Matrix3x2)
-  - System.Numerics.Vector2.Transform(System.Numerics.Vector2,System.Numerics.Matrix4x4)
-  - System.Numerics.Vector2.TransformNormal(System.Numerics.Vector2,System.Numerics.Matrix3x2)
-  - System.Numerics.Vector2.TransformNormal(System.Numerics.Vector2,System.Numerics.Matrix4x4)
-  - System.Numerics.Vector2.Transform(System.Numerics.Vector2,System.Numerics.Quaternion)
-  - System.Numerics.Vector2.Add(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Subtract(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.Max(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.Min(System.Numerics.Vector2,System.Numerics.Vector2)
   - System.Numerics.Vector2.Multiply(System.Numerics.Vector2,System.Numerics.Vector2)
   - System.Numerics.Vector2.Multiply(System.Numerics.Vector2,System.Single)
   - System.Numerics.Vector2.Multiply(System.Single,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Single)
   - System.Numerics.Vector2.Negate(System.Numerics.Vector2)
-  - System.Numerics.Vector2.X
-  - System.Numerics.Vector2.Y
-  - System.Numerics.Vector2.#ctor(System.Single)
-  - System.Numerics.Vector2.#ctor(System.Single,System.Single)
-  - System.Numerics.Vector2.CopyTo(System.Single[])
-  - System.Numerics.Vector2.CopyTo(System.Single[],System.Int32)
-  - System.Numerics.Vector2.Equals(System.Numerics.Vector2)
-  - System.Numerics.Vector2.Dot(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Min(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Max(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.Abs(System.Numerics.Vector2)
-  - System.Numerics.Vector2.SquareRoot(System.Numerics.Vector2)
+  - System.Numerics.Vector2.Normalize(System.Numerics.Vector2)
+  - System.Numerics.Vector2.One
   - System.Numerics.Vector2.op_Addition(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.op_Subtraction(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Numerics.Vector2)
-  - System.Numerics.Vector2.op_Multiply(System.Single,System.Numerics.Vector2)
-  - System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Single)
   - System.Numerics.Vector2.op_Division(System.Numerics.Vector2,System.Numerics.Vector2)
   - System.Numerics.Vector2.op_Division(System.Numerics.Vector2,System.Single)
-  - System.Numerics.Vector2.op_UnaryNegation(System.Numerics.Vector2)
   - System.Numerics.Vector2.op_Equality(System.Numerics.Vector2,System.Numerics.Vector2)
   - System.Numerics.Vector2.op_Inequality(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Single)
+  - System.Numerics.Vector2.op_Multiply(System.Single,System.Numerics.Vector2)
+  - System.Numerics.Vector2.op_Subtraction(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.op_UnaryNegation(System.Numerics.Vector2)
+  - System.Numerics.Vector2.Reflect(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.SquareRoot(System.Numerics.Vector2)
+  - System.Numerics.Vector2.Subtract(System.Numerics.Vector2,System.Numerics.Vector2)
+  - System.Numerics.Vector2.ToString
+  - System.Numerics.Vector2.ToString(System.String)
+  - System.Numerics.Vector2.ToString(System.String,System.IFormatProvider)
+  - System.Numerics.Vector2.Transform(System.Numerics.Vector2,System.Numerics.Matrix3x2)
+  - System.Numerics.Vector2.Transform(System.Numerics.Vector2,System.Numerics.Matrix4x4)
+  - System.Numerics.Vector2.Transform(System.Numerics.Vector2,System.Numerics.Quaternion)
+  - System.Numerics.Vector2.TransformNormal(System.Numerics.Vector2,System.Numerics.Matrix3x2)
+  - System.Numerics.Vector2.TransformNormal(System.Numerics.Vector2,System.Numerics.Matrix4x4)
+  - System.Numerics.Vector2.UnitX
+  - System.Numerics.Vector2.UnitY
+  - System.Numerics.Vector2.X
+  - System.Numerics.Vector2.Y
+  - System.Numerics.Vector2.Zero
   href: System.Numerics.Vector2.yml
   name: Vector2
   fullName: System.Numerics.Vector2
@@ -1457,6 +1457,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1464,18 +1465,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1483,23 +1487,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1507,18 +1515,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1526,23 +1537,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1550,6 +1565,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1559,6 +1575,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1566,6 +1583,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -1583,6 +1601,7 @@ references:
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -1590,6 +1609,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1599,6 +1619,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1606,16 +1627,19 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -1623,12 +1647,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1636,22 +1662,26 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -1659,6 +1689,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1668,6 +1699,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1675,16 +1707,19 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IFormatProvider
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IFormatProvider.yml
   name: IFormatProvider
   fullName: System.IFormatProvider
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Numerics.Matrix3x2
@@ -1716,6 +1751,7 @@ references:
     which is used to efficiently rotate an object about the (x,y,z) vector by the angle theta, where w = cos(theta/2).
 - uid: System.Single[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single[]
   name.vb: Single()
   fullName: System.Single[]
@@ -1725,6 +1761,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1732,6 +1769,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: ()
     fullName: ()
 - uid: System.ArgumentNullException

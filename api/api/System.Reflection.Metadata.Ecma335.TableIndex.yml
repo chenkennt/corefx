@@ -3,51 +3,51 @@ items:
   id: TableIndex
   parent: System.Reflection.Metadata.Ecma335
   children:
-  - System.Reflection.Metadata.Ecma335.TableIndex.Module
-  - System.Reflection.Metadata.Ecma335.TableIndex.TypeRef
-  - System.Reflection.Metadata.Ecma335.TableIndex.TypeDef
-  - System.Reflection.Metadata.Ecma335.TableIndex.FieldPtr
-  - System.Reflection.Metadata.Ecma335.TableIndex.Field
-  - System.Reflection.Metadata.Ecma335.TableIndex.MethodPtr
-  - System.Reflection.Metadata.Ecma335.TableIndex.MethodDef
-  - System.Reflection.Metadata.Ecma335.TableIndex.ParamPtr
-  - System.Reflection.Metadata.Ecma335.TableIndex.Param
-  - System.Reflection.Metadata.Ecma335.TableIndex.InterfaceImpl
-  - System.Reflection.Metadata.Ecma335.TableIndex.MemberRef
+  - System.Reflection.Metadata.Ecma335.TableIndex.Assembly
+  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyOS
+  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyProcessor
+  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyRef
+  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyRefOS
+  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyRefProcessor
+  - System.Reflection.Metadata.Ecma335.TableIndex.ClassLayout
   - System.Reflection.Metadata.Ecma335.TableIndex.Constant
   - System.Reflection.Metadata.Ecma335.TableIndex.CustomAttribute
-  - System.Reflection.Metadata.Ecma335.TableIndex.FieldMarshal
   - System.Reflection.Metadata.Ecma335.TableIndex.DeclSecurity
-  - System.Reflection.Metadata.Ecma335.TableIndex.ClassLayout
-  - System.Reflection.Metadata.Ecma335.TableIndex.FieldLayout
-  - System.Reflection.Metadata.Ecma335.TableIndex.StandAloneSig
-  - System.Reflection.Metadata.Ecma335.TableIndex.EventMap
-  - System.Reflection.Metadata.Ecma335.TableIndex.EventPtr
-  - System.Reflection.Metadata.Ecma335.TableIndex.Event
-  - System.Reflection.Metadata.Ecma335.TableIndex.PropertyMap
-  - System.Reflection.Metadata.Ecma335.TableIndex.PropertyPtr
-  - System.Reflection.Metadata.Ecma335.TableIndex.Property
-  - System.Reflection.Metadata.Ecma335.TableIndex.MethodSemantics
-  - System.Reflection.Metadata.Ecma335.TableIndex.MethodImpl
-  - System.Reflection.Metadata.Ecma335.TableIndex.ModuleRef
-  - System.Reflection.Metadata.Ecma335.TableIndex.TypeSpec
-  - System.Reflection.Metadata.Ecma335.TableIndex.ImplMap
-  - System.Reflection.Metadata.Ecma335.TableIndex.FieldRva
   - System.Reflection.Metadata.Ecma335.TableIndex.EncLog
   - System.Reflection.Metadata.Ecma335.TableIndex.EncMap
-  - System.Reflection.Metadata.Ecma335.TableIndex.Assembly
-  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyProcessor
-  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyOS
-  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyRef
-  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyRefProcessor
-  - System.Reflection.Metadata.Ecma335.TableIndex.AssemblyRefOS
-  - System.Reflection.Metadata.Ecma335.TableIndex.File
+  - System.Reflection.Metadata.Ecma335.TableIndex.Event
+  - System.Reflection.Metadata.Ecma335.TableIndex.EventMap
+  - System.Reflection.Metadata.Ecma335.TableIndex.EventPtr
   - System.Reflection.Metadata.Ecma335.TableIndex.ExportedType
-  - System.Reflection.Metadata.Ecma335.TableIndex.ManifestResource
-  - System.Reflection.Metadata.Ecma335.TableIndex.NestedClass
+  - System.Reflection.Metadata.Ecma335.TableIndex.Field
+  - System.Reflection.Metadata.Ecma335.TableIndex.FieldLayout
+  - System.Reflection.Metadata.Ecma335.TableIndex.FieldMarshal
+  - System.Reflection.Metadata.Ecma335.TableIndex.FieldPtr
+  - System.Reflection.Metadata.Ecma335.TableIndex.FieldRva
+  - System.Reflection.Metadata.Ecma335.TableIndex.File
   - System.Reflection.Metadata.Ecma335.TableIndex.GenericParam
-  - System.Reflection.Metadata.Ecma335.TableIndex.MethodSpec
   - System.Reflection.Metadata.Ecma335.TableIndex.GenericParamConstraint
+  - System.Reflection.Metadata.Ecma335.TableIndex.ImplMap
+  - System.Reflection.Metadata.Ecma335.TableIndex.InterfaceImpl
+  - System.Reflection.Metadata.Ecma335.TableIndex.ManifestResource
+  - System.Reflection.Metadata.Ecma335.TableIndex.MemberRef
+  - System.Reflection.Metadata.Ecma335.TableIndex.MethodDef
+  - System.Reflection.Metadata.Ecma335.TableIndex.MethodImpl
+  - System.Reflection.Metadata.Ecma335.TableIndex.MethodPtr
+  - System.Reflection.Metadata.Ecma335.TableIndex.MethodSemantics
+  - System.Reflection.Metadata.Ecma335.TableIndex.MethodSpec
+  - System.Reflection.Metadata.Ecma335.TableIndex.Module
+  - System.Reflection.Metadata.Ecma335.TableIndex.ModuleRef
+  - System.Reflection.Metadata.Ecma335.TableIndex.NestedClass
+  - System.Reflection.Metadata.Ecma335.TableIndex.Param
+  - System.Reflection.Metadata.Ecma335.TableIndex.ParamPtr
+  - System.Reflection.Metadata.Ecma335.TableIndex.Property
+  - System.Reflection.Metadata.Ecma335.TableIndex.PropertyMap
+  - System.Reflection.Metadata.Ecma335.TableIndex.PropertyPtr
+  - System.Reflection.Metadata.Ecma335.TableIndex.StandAloneSig
+  - System.Reflection.Metadata.Ecma335.TableIndex.TypeDef
+  - System.Reflection.Metadata.Ecma335.TableIndex.TypeRef
+  - System.Reflection.Metadata.Ecma335.TableIndex.TypeSpec
   href: System.Reflection.Metadata.Ecma335.TableIndex.yml
   name: TableIndex
   fullName: System.Reflection.Metadata.Ecma335.TableIndex

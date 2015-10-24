@@ -4,16 +4,16 @@ items:
   parent: System.Security.Cryptography
   children:
   - System.Security.Cryptography.OidGroup.All
-  - System.Security.Cryptography.OidGroup.HashAlgorithm
+  - System.Security.Cryptography.OidGroup.Attribute
   - System.Security.Cryptography.OidGroup.EncryptionAlgorithm
+  - System.Security.Cryptography.OidGroup.EnhancedKeyUsage
+  - System.Security.Cryptography.OidGroup.ExtensionOrAttribute
+  - System.Security.Cryptography.OidGroup.HashAlgorithm
+  - System.Security.Cryptography.OidGroup.KeyDerivationFunction
+  - System.Security.Cryptography.OidGroup.Policy
   - System.Security.Cryptography.OidGroup.PublicKeyAlgorithm
   - System.Security.Cryptography.OidGroup.SignatureAlgorithm
-  - System.Security.Cryptography.OidGroup.Attribute
-  - System.Security.Cryptography.OidGroup.ExtensionOrAttribute
-  - System.Security.Cryptography.OidGroup.EnhancedKeyUsage
-  - System.Security.Cryptography.OidGroup.Policy
   - System.Security.Cryptography.OidGroup.Template
-  - System.Security.Cryptography.OidGroup.KeyDerivationFunction
   href: System.Security.Cryptography.OidGroup.yml
   name: OidGroup
   fullName: System.Security.Cryptography.OidGroup

@@ -3,13 +3,13 @@ items:
   id: XPathResultType
   parent: System.Xml.XPath
   children:
+  - System.Xml.XPath.XPathResultType.Any
+  - System.Xml.XPath.XPathResultType.Boolean
+  - System.Xml.XPath.XPathResultType.Error
+  - System.Xml.XPath.XPathResultType.Navigator
+  - System.Xml.XPath.XPathResultType.NodeSet
   - System.Xml.XPath.XPathResultType.Number
   - System.Xml.XPath.XPathResultType.String
-  - System.Xml.XPath.XPathResultType.Boolean
-  - System.Xml.XPath.XPathResultType.NodeSet
-  - System.Xml.XPath.XPathResultType.Navigator
-  - System.Xml.XPath.XPathResultType.Any
-  - System.Xml.XPath.XPathResultType.Error
   href: System.Xml.XPath.XPathResultType.yml
   name: XPathResultType
   fullName: System.Xml.XPath.XPathResultType

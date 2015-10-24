@@ -4,9 +4,9 @@ items:
   parent: System.ComponentModel
   children:
   - System.ComponentModel.EditorBrowsableAttribute.#ctor(System.ComponentModel.EditorBrowsableState)
-  - System.ComponentModel.EditorBrowsableAttribute.State
   - System.ComponentModel.EditorBrowsableAttribute.Equals(System.Object)
   - System.ComponentModel.EditorBrowsableAttribute.GetHashCode
+  - System.ComponentModel.EditorBrowsableAttribute.State
   href: System.ComponentModel.EditorBrowsableAttribute.yml
   name: EditorBrowsableAttribute
   fullName: System.ComponentModel.EditorBrowsableAttribute
@@ -137,7 +137,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Attribute.Equals(System.Object)
 - uid: System.ComponentModel.EditorBrowsableAttribute.GetHashCode
   id: GetHashCode
@@ -158,7 +157,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Attribute.GetHashCode
 references:
 - uid: System.ComponentModel
@@ -169,16 +167,19 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Attribute
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: Attribute
   fullName: System.Attribute
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(MemberInfo, Type)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type)
   spec.csharp:
@@ -186,18 +187,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -205,23 +209,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(MemberInfo, Type, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type, System.Boolean)
   spec.csharp:
@@ -229,24 +237,28 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -254,29 +266,34 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(MemberInfo)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
   spec.csharp:
@@ -284,12 +301,14 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -297,17 +316,20 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(MemberInfo, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Boolean)
   spec.csharp:
@@ -315,18 +337,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -334,23 +359,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(MemberInfo, Type)
   fullName: System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type)
   spec.csharp:
@@ -358,18 +387,21 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -377,23 +409,27 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(MemberInfo, Type, Boolean)
   fullName: System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type, System.Boolean)
   spec.csharp:
@@ -401,24 +437,28 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -426,29 +466,34 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(MemberInfo, Type)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type)
   spec.csharp:
@@ -456,18 +501,21 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -475,23 +523,27 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(MemberInfo, Type, Boolean)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type, System.Boolean)
   spec.csharp:
@@ -499,24 +551,28 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -524,29 +580,34 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.MemberInfo
     name: MemberInfo
     fullName: System.Reflection.MemberInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MemberInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(ParameterInfo)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
   spec.csharp:
@@ -554,12 +615,14 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: )
     fullName: )
   spec.vb:
@@ -567,17 +630,20 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(ParameterInfo, Type)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type)
   spec.csharp:
@@ -585,18 +651,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -604,23 +673,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(ParameterInfo, Type, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type, System.Boolean)
   spec.csharp:
@@ -628,24 +701,28 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -653,29 +730,34 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(ParameterInfo, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Boolean)
   spec.csharp:
@@ -683,18 +765,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -702,23 +787,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(ParameterInfo, Type)
   fullName: System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type)
   spec.csharp:
@@ -726,18 +815,21 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -745,23 +837,27 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(ParameterInfo, Type, Boolean)
   fullName: System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type, System.Boolean)
   spec.csharp:
@@ -769,24 +865,28 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -794,29 +894,34 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(ParameterInfo, Type)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type)
   spec.csharp:
@@ -824,18 +929,21 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -843,23 +951,27 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(ParameterInfo, Type, Boolean)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type, System.Boolean)
   spec.csharp:
@@ -867,24 +979,28 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -892,29 +1008,34 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.ParameterInfo
     name: ParameterInfo
     fullName: System.Reflection.ParameterInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ParameterInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Module, Type)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type)
   spec.csharp:
@@ -922,18 +1043,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -941,23 +1065,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Module)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module)
   spec.csharp:
@@ -965,12 +1093,14 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: )
     fullName: )
   spec.vb:
@@ -978,17 +1108,20 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Module, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Boolean)
   spec.csharp:
@@ -996,18 +1129,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1015,23 +1151,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Module, Type, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type, System.Boolean)
   spec.csharp:
@@ -1039,24 +1179,28 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1064,29 +1208,34 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(Module, Type)
   fullName: System.Attribute.IsDefined(System.Reflection.Module, System.Type)
   spec.csharp:
@@ -1094,18 +1243,21 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1113,23 +1265,27 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(Module, Type, Boolean)
   fullName: System.Attribute.IsDefined(System.Reflection.Module, System.Type, System.Boolean)
   spec.csharp:
@@ -1137,24 +1293,28 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1162,29 +1322,34 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(Module, Type)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type)
   spec.csharp:
@@ -1192,18 +1357,21 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1211,23 +1379,27 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(Module, Type, Boolean)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type, System.Boolean)
   spec.csharp:
@@ -1235,24 +1407,28 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1260,29 +1436,34 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Module
     name: Module
     fullName: System.Reflection.Module
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Module.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Assembly, Type)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type)
   spec.csharp:
@@ -1290,18 +1471,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1309,23 +1493,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Assembly, Type, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type, System.Boolean)
   spec.csharp:
@@ -1333,24 +1521,28 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1358,29 +1550,34 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Assembly)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
   spec.csharp:
@@ -1388,12 +1585,14 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1401,17 +1600,20 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttributes(Assembly, Boolean)
   fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Boolean)
   spec.csharp:
@@ -1419,18 +1621,21 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1438,23 +1643,27 @@ references:
     name: GetCustomAttributes
     fullName: System.Attribute.GetCustomAttributes
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(Assembly, Type)
   fullName: System.Attribute.IsDefined(System.Reflection.Assembly, System.Type)
   spec.csharp:
@@ -1462,18 +1671,21 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1481,23 +1693,27 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefined(Assembly, Type, Boolean)
   fullName: System.Attribute.IsDefined(System.Reflection.Assembly, System.Type, System.Boolean)
   spec.csharp:
@@ -1505,24 +1721,28 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1530,29 +1750,34 @@ references:
     name: IsDefined
     fullName: System.Attribute.IsDefined
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(Assembly, Type)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type)
   spec.csharp:
@@ -1560,18 +1785,21 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1579,23 +1807,27 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetCustomAttribute(Assembly, Type, Boolean)
   fullName: System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, System.Boolean)
   spec.csharp:
@@ -1603,24 +1835,28 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1628,29 +1864,34 @@ references:
     name: GetCustomAttribute
     fullName: System.Attribute.GetCustomAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Reflection.Assembly
     name: Assembly
     fullName: System.Reflection.Assembly
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.Assembly.yml
   - name: ', '
     fullName: ', '
   - uid: System.Type
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Attribute.Match(System.Object)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: Match(Object)
   fullName: System.Attribute.Match(System.Object)
   spec.csharp:
@@ -1658,12 +1899,14 @@ references:
     name: Match
     fullName: System.Attribute.Match
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1671,17 +1914,20 @@ references:
     name: Match
     fullName: System.Attribute.Match
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Attribute.IsDefaultAttribute
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: IsDefaultAttribute()
   fullName: System.Attribute.IsDefaultAttribute()
   spec.csharp:
@@ -1689,6 +1935,7 @@ references:
     name: IsDefaultAttribute
     fullName: System.Attribute.IsDefaultAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - name: )
@@ -1698,6 +1945,7 @@ references:
     name: IsDefaultAttribute
     fullName: System.Attribute.IsDefaultAttribute
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - name: )
@@ -1705,6 +1953,7 @@ references:
 - uid: System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: _Attribute.GetTypeInfoCount(UInt32)
   name.vb: System.Runtime.InteropServices._Attribute.GetTypeInfoCount(UInt32)
   fullName: System.Attribute.System.Runtime.InteropServices._Attribute.GetTypeInfoCount(System.UInt32)
@@ -1719,6 +1968,7 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1732,11 +1982,13 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: )
     fullName: )
 - uid: System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: _Attribute.GetTypeInfo(UInt32, UInt32, IntPtr)
   name.vb: System.Runtime.InteropServices._Attribute.GetTypeInfo(UInt32, UInt32, IntPtr)
   fullName: System.Attribute.System.Runtime.InteropServices._Attribute.GetTypeInfo(System.UInt32, System.UInt32, System.IntPtr)
@@ -1751,18 +2003,21 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1776,23 +2031,27 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
 - uid: System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: _Attribute.GetIDsOfNames(Guid, IntPtr, UInt32, UInt32, IntPtr)
   name.vb: System.Runtime.InteropServices._Attribute.GetIDsOfNames(Guid, IntPtr, UInt32, UInt32, IntPtr)
   fullName: System.Attribute.System.Runtime.InteropServices._Attribute.GetIDsOfNames(System.Guid, System.IntPtr, System.UInt32, System.UInt32, System.IntPtr)
@@ -1807,30 +2066,35 @@ references:
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1844,35 +2108,41 @@ references:
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
 - uid: System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: _Attribute.Invoke(UInt32, Guid, UInt32, Int16, IntPtr, IntPtr, IntPtr, IntPtr)
   name.vb: System.Runtime.InteropServices._Attribute.Invoke(UInt32, Guid, UInt32, Int16, IntPtr, IntPtr, IntPtr, IntPtr)
   fullName: System.Attribute.System.Runtime.InteropServices._Attribute.Invoke(System.UInt32, System.Guid, System.UInt32, System.Int16, System.IntPtr, System.IntPtr, System.IntPtr, System.IntPtr)
@@ -1887,48 +2157,56 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int16
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1942,58 +2220,68 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Guid
     name: Guid
     fullName: System.Guid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int16
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: ', '
     fullName: ', '
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
 - uid: System.Attribute.TypeId
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: TypeId
   fullName: System.Attribute.TypeId
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -2001,6 +2289,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2010,6 +2299,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2017,6 +2307,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -2024,18 +2315,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2043,23 +2337,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -2067,18 +2365,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2086,23 +2387,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -2110,6 +2415,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2119,6 +2425,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2126,6 +2433,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -2133,6 +2441,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2142,6 +2451,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2160,6 +2470,7 @@ references:
 - uid: System.Attribute.Equals(System.Object)
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: Equals(Object)
   fullName: System.Attribute.Equals(System.Object)
   spec.csharp:
@@ -2167,12 +2478,14 @@ references:
     name: Equals
     fullName: System.Attribute.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2180,22 +2493,26 @@ references:
     name: Equals
     fullName: System.Attribute.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Attribute.GetHashCode
   parent: System.Attribute
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   name: GetHashCode()
   fullName: System.Attribute.GetHashCode()
   spec.csharp:
@@ -2203,6 +2520,7 @@ references:
     name: GetHashCode
     fullName: System.Attribute.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - name: )
@@ -2212,6 +2530,7 @@ references:
     name: GetHashCode
     fullName: System.Attribute.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Attribute.yml
   - name: (
     fullName: (
   - name: )
@@ -2219,5 +2538,6 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

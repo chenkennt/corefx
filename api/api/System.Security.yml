@@ -21,9 +21,11 @@ items:
 references:
 - uid: System.Security.SecureString
   parent: System.Security
-  isExternal: true
+  isExternal: false
+  href: System.Security.SecureString.yml
   name: SecureString
   fullName: System.Security.SecureString
+  type: Class
 - uid: System.Security.SecureStringMarshal
   isExternal: false
   href: System.Security.SecureStringMarshal.yml
@@ -34,3 +36,4 @@ references:
   isExternal: false
   name: System.Security
   fullName: System.Security
+  type: Namespace

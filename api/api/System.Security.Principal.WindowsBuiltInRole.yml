@@ -3,15 +3,15 @@ items:
   id: WindowsBuiltInRole
   parent: System.Security.Principal
   children:
+  - System.Security.Principal.WindowsBuiltInRole.AccountOperator
   - System.Security.Principal.WindowsBuiltInRole.Administrator
-  - System.Security.Principal.WindowsBuiltInRole.User
+  - System.Security.Principal.WindowsBuiltInRole.BackupOperator
   - System.Security.Principal.WindowsBuiltInRole.Guest
   - System.Security.Principal.WindowsBuiltInRole.PowerUser
-  - System.Security.Principal.WindowsBuiltInRole.AccountOperator
-  - System.Security.Principal.WindowsBuiltInRole.SystemOperator
   - System.Security.Principal.WindowsBuiltInRole.PrintOperator
-  - System.Security.Principal.WindowsBuiltInRole.BackupOperator
   - System.Security.Principal.WindowsBuiltInRole.Replicator
+  - System.Security.Principal.WindowsBuiltInRole.SystemOperator
+  - System.Security.Principal.WindowsBuiltInRole.User
   href: System.Security.Principal.WindowsBuiltInRole.yml
   name: WindowsBuiltInRole
   fullName: System.Security.Principal.WindowsBuiltInRole
@@ -179,4 +179,3 @@ references:
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace

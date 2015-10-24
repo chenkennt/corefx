@@ -8,15 +8,17 @@ items:
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.GetItemContractMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonDataContractMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonMemberIndexMethod
+  - System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonMemberNameMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.GetRevisedItemContractMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.GetUninitializedObjectMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.IsStartElementMethod0
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.IsStartElementMethod2
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.LocalNameProperty
-  - System.Runtime.Serialization.JsonFormatGeneratorStatics.NamespaceProperty
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.MoveNextMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.MoveToContentMethod
+  - System.Runtime.Serialization.JsonFormatGeneratorStatics.NamespaceProperty
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.NodeTypeProperty
+  - System.Runtime.Serialization.JsonFormatGeneratorStatics.ParseEnumMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.ReadJsonValueMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.SerializationExceptionCtor
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.ThrowDuplicateMemberExceptionMethod
@@ -31,8 +33,6 @@ items:
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteJsonValueMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteStartElementMethod
   - System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteStartElementStringMethod
-  - System.Runtime.Serialization.JsonFormatGeneratorStatics.ParseEnumMethod
-  - System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonMemberNameMethod
   href: System.Runtime.Serialization.JsonFormatGeneratorStatics.yml
   name: JsonFormatGeneratorStatics
   fullName: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -81,7 +81,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetCurrentMethod
   id: GetCurrentMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -102,7 +101,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetItemContractMethod
   id: GetItemContractMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -123,7 +121,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonDataContractMethod
   id: GetJsonDataContractMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -144,7 +141,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonMemberIndexMethod
   id: GetJsonMemberIndexMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -165,7 +161,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetRevisedItemContractMethod
   id: GetRevisedItemContractMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -186,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetUninitializedObjectMethod
   id: GetUninitializedObjectMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -207,7 +201,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.IsStartElementMethod0
   id: IsStartElementMethod0
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -228,7 +221,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.IsStartElementMethod2
   id: IsStartElementMethod2
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -249,7 +241,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.LocalNameProperty
   id: LocalNameProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -270,7 +261,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.NamespaceProperty
   id: NamespaceProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -291,7 +281,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.MoveNextMethod
   id: MoveNextMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -312,7 +301,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.MoveToContentMethod
   id: MoveToContentMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -333,7 +321,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.NodeTypeProperty
   id: NodeTypeProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -354,7 +341,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ReadJsonValueMethod
   id: ReadJsonValueMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -375,7 +361,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.SerializationExceptionCtor
   id: SerializationExceptionCtor
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -396,7 +381,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ConstructorInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ThrowDuplicateMemberExceptionMethod
   id: ThrowDuplicateMemberExceptionMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -417,7 +401,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ThrowMissingRequiredMembersMethod
   id: ThrowMissingRequiredMembersMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -438,7 +421,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.TypeHandleProperty
   id: TypeHandleProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -459,7 +441,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.UseSimpleDictionaryFormatReadProperty
   id: UseSimpleDictionaryFormatReadProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -480,7 +461,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.UseSimpleDictionaryFormatWriteProperty
   id: UseSimpleDictionaryFormatWriteProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -501,7 +481,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteAttributeStringMethod
   id: WriteAttributeStringMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -522,7 +501,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteEndElementMethod
   id: WriteEndElementMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -543,7 +521,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteJsonISerializableMethod
   id: WriteJsonISerializableMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -564,7 +541,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteJsonNameWithMappingMethod
   id: WriteJsonNameWithMappingMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -585,7 +561,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteJsonValueMethod
   id: WriteJsonValueMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -606,7 +581,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteStartElementMethod
   id: WriteStartElementMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -627,7 +601,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteStartElementStringMethod
   id: WriteStartElementStringMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -648,7 +621,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ParseEnumMethod
   id: ParseEnumMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -669,7 +641,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonMemberNameMethod
   id: GetJsonMemberNameMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -690,7 +661,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false
@@ -699,11 +669,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -711,6 +683,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -720,6 +693,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -727,6 +701,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -734,12 +709,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -747,17 +724,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -765,18 +745,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -784,23 +767,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -808,18 +795,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -827,23 +817,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -851,6 +845,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -860,6 +855,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -867,6 +863,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -874,6 +871,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -883,6 +881,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -890,6 +889,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -897,6 +897,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -906,6 +907,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -917,6 +919,7 @@ references:
 - uid: System.Reflection.PropertyInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.PropertyInfo.yml
   name: PropertyInfo
   fullName: System.Reflection.PropertyInfo
 - uid: System.Reflection
@@ -927,10 +930,12 @@ references:
 - uid: System.Reflection.MethodInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.MethodInfo.yml
   name: MethodInfo
   fullName: System.Reflection.MethodInfo
 - uid: System.Reflection.ConstructorInfo
   parent: System.Reflection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Reflection.ConstructorInfo.yml
   name: ConstructorInfo
   fullName: System.Reflection.ConstructorInfo

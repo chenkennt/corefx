@@ -44,7 +44,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 references:
 - uid: System
   isExternal: false
@@ -53,10 +52,12 @@ references:
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object

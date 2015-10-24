@@ -5,20 +5,20 @@ items:
   children:
   - System.Xml.XmlWriterSettings.#ctor
   - System.Xml.XmlWriterSettings.Async
-  - System.Xml.XmlWriterSettings.Encoding
-  - System.Xml.XmlWriterSettings.OmitXmlDeclaration
-  - System.Xml.XmlWriterSettings.NewLineHandling
-  - System.Xml.XmlWriterSettings.NewLineChars
-  - System.Xml.XmlWriterSettings.Indent
-  - System.Xml.XmlWriterSettings.IndentChars
-  - System.Xml.XmlWriterSettings.NewLineOnAttributes
+  - System.Xml.XmlWriterSettings.CheckCharacters
+  - System.Xml.XmlWriterSettings.Clone
   - System.Xml.XmlWriterSettings.CloseOutput
   - System.Xml.XmlWriterSettings.ConformanceLevel
-  - System.Xml.XmlWriterSettings.CheckCharacters
+  - System.Xml.XmlWriterSettings.Encoding
+  - System.Xml.XmlWriterSettings.Indent
+  - System.Xml.XmlWriterSettings.IndentChars
   - System.Xml.XmlWriterSettings.NamespaceHandling
-  - System.Xml.XmlWriterSettings.WriteEndDocumentOnClose
+  - System.Xml.XmlWriterSettings.NewLineChars
+  - System.Xml.XmlWriterSettings.NewLineHandling
+  - System.Xml.XmlWriterSettings.NewLineOnAttributes
+  - System.Xml.XmlWriterSettings.OmitXmlDeclaration
   - System.Xml.XmlWriterSettings.Reset
-  - System.Xml.XmlWriterSettings.Clone
+  - System.Xml.XmlWriterSettings.WriteEndDocumentOnClose
   href: System.Xml.XmlWriterSettings.yml
   name: XmlWriterSettings
   fullName: System.Xml.XmlWriterSettings
@@ -84,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlWriterSettings.Encoding
   id: Encoding
   parent: System.Xml.XmlWriterSettings
@@ -105,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Xml.XmlWriterSettings.OmitXmlDeclaration
   id: OmitXmlDeclaration
   parent: System.Xml.XmlWriterSettings
@@ -126,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlWriterSettings.NewLineHandling
   id: NewLineHandling
   parent: System.Xml.XmlWriterSettings
@@ -147,7 +144,6 @@ items:
     parameters: []
     return:
       type: System.Xml.NewLineHandling
-      description: 
 - uid: System.Xml.XmlWriterSettings.NewLineChars
   id: NewLineChars
   parent: System.Xml.XmlWriterSettings
@@ -168,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlWriterSettings.Indent
   id: Indent
   parent: System.Xml.XmlWriterSettings
@@ -189,7 +184,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlWriterSettings.IndentChars
   id: IndentChars
   parent: System.Xml.XmlWriterSettings
@@ -210,7 +204,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlWriterSettings.NewLineOnAttributes
   id: NewLineOnAttributes
   parent: System.Xml.XmlWriterSettings
@@ -231,7 +224,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlWriterSettings.CloseOutput
   id: CloseOutput
   parent: System.Xml.XmlWriterSettings
@@ -252,7 +244,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlWriterSettings.ConformanceLevel
   id: ConformanceLevel
   parent: System.Xml.XmlWriterSettings
@@ -273,7 +264,6 @@ items:
     parameters: []
     return:
       type: System.Xml.ConformanceLevel
-      description: 
 - uid: System.Xml.XmlWriterSettings.CheckCharacters
   id: CheckCharacters
   parent: System.Xml.XmlWriterSettings
@@ -294,7 +284,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlWriterSettings.NamespaceHandling
   id: NamespaceHandling
   parent: System.Xml.XmlWriterSettings
@@ -315,7 +304,6 @@ items:
     parameters: []
     return:
       type: System.Xml.NamespaceHandling
-      description: 
 - uid: System.Xml.XmlWriterSettings.WriteEndDocumentOnClose
   id: WriteEndDocumentOnClose
   parent: System.Xml.XmlWriterSettings
@@ -336,7 +324,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlWriterSettings.Reset
   id: Reset
   parent: System.Xml.XmlWriterSettings
@@ -373,7 +360,6 @@ items:
     content.vb: Public Function Clone As XmlWriterSettings
     return:
       type: System.Xml.XmlWriterSettings
-      description: 
 references:
 - uid: System.Xml
   isExternal: false
@@ -383,11 +369,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -395,6 +383,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -404,6 +393,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -411,6 +401,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -418,12 +409,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -431,17 +424,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -449,18 +445,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -468,23 +467,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -492,18 +495,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -511,23 +517,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -535,6 +545,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -544,6 +555,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -551,6 +563,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -558,6 +571,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -567,6 +581,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -574,6 +589,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -581,6 +597,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -590,6 +607,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -601,11 +619,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.Encoding.yml
   name: Encoding
   fullName: System.Text.Encoding
 - uid: System.Text
@@ -622,6 +642,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Xml.ConformanceLevel

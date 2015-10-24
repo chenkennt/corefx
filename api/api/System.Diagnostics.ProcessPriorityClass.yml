@@ -3,12 +3,12 @@ items:
   id: ProcessPriorityClass
   parent: System.Diagnostics
   children:
-  - System.Diagnostics.ProcessPriorityClass.Normal
-  - System.Diagnostics.ProcessPriorityClass.Idle
-  - System.Diagnostics.ProcessPriorityClass.High
-  - System.Diagnostics.ProcessPriorityClass.RealTime
-  - System.Diagnostics.ProcessPriorityClass.BelowNormal
   - System.Diagnostics.ProcessPriorityClass.AboveNormal
+  - System.Diagnostics.ProcessPriorityClass.BelowNormal
+  - System.Diagnostics.ProcessPriorityClass.High
+  - System.Diagnostics.ProcessPriorityClass.Idle
+  - System.Diagnostics.ProcessPriorityClass.Normal
+  - System.Diagnostics.ProcessPriorityClass.RealTime
   href: System.Diagnostics.ProcessPriorityClass.yml
   name: ProcessPriorityClass
   fullName: System.Diagnostics.ProcessPriorityClass

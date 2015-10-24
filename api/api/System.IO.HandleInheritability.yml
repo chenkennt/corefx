@@ -3,8 +3,8 @@ items:
   id: HandleInheritability
   parent: System.IO
   children:
-  - System.IO.HandleInheritability.None
   - System.IO.HandleInheritability.Inheritable
+  - System.IO.HandleInheritability.None
   href: System.IO.HandleInheritability.yml
   name: HandleInheritability
   fullName: System.IO.HandleInheritability

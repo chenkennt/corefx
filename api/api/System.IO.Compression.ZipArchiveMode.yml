@@ -3,8 +3,8 @@ items:
   id: ZipArchiveMode
   parent: System.IO.Compression
   children:
-  - System.IO.Compression.ZipArchiveMode.Read
   - System.IO.Compression.ZipArchiveMode.Create
+  - System.IO.Compression.ZipArchiveMode.Read
   - System.IO.Compression.ZipArchiveMode.Update
   href: System.IO.Compression.ZipArchiveMode.yml
   name: ZipArchiveMode

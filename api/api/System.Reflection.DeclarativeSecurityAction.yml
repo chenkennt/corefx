@@ -3,13 +3,13 @@ items:
   id: DeclarativeSecurityAction
   parent: System.Reflection
   children:
-  - System.Reflection.DeclarativeSecurityAction.None
-  - System.Reflection.DeclarativeSecurityAction.Demand
   - System.Reflection.DeclarativeSecurityAction.Assert
+  - System.Reflection.DeclarativeSecurityAction.Demand
   - System.Reflection.DeclarativeSecurityAction.Deny
-  - System.Reflection.DeclarativeSecurityAction.PermitOnly
-  - System.Reflection.DeclarativeSecurityAction.LinkDemand
   - System.Reflection.DeclarativeSecurityAction.InheritanceDemand
+  - System.Reflection.DeclarativeSecurityAction.LinkDemand
+  - System.Reflection.DeclarativeSecurityAction.None
+  - System.Reflection.DeclarativeSecurityAction.PermitOnly
   - System.Reflection.DeclarativeSecurityAction.RequestMinimum
   - System.Reflection.DeclarativeSecurityAction.RequestOptional
   - System.Reflection.DeclarativeSecurityAction.RequestRefuse

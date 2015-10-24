@@ -3,9 +3,9 @@ items:
   id: IDynamicExpression
   parent: System.Linq.Expressions
   children:
+  - System.Linq.Expressions.IDynamicExpression.CreateCallSite
   - System.Linq.Expressions.IDynamicExpression.DelegateType
   - System.Linq.Expressions.IDynamicExpression.Rewrite(System.Linq.Expressions.Expression[])
-  - System.Linq.Expressions.IDynamicExpression.CreateCallSite
   href: System.Linq.Expressions.IDynamicExpression.yml
   name: IDynamicExpression
   fullName: System.Linq.Expressions.IDynamicExpression
@@ -125,6 +125,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -138,6 +139,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Linq.Expressions.IArgumentProvider.ArgumentCount
@@ -216,6 +218,7 @@ references:
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: System
@@ -254,5 +257,6 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object

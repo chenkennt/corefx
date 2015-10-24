@@ -6,36 +6,36 @@ items:
   - System.IO.UnmanagedMemoryAccessor.#ctor
   - System.IO.UnmanagedMemoryAccessor.#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64)
   - System.IO.UnmanagedMemoryAccessor.#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
-  - System.IO.UnmanagedMemoryAccessor.Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
-  - System.IO.UnmanagedMemoryAccessor.Capacity
   - System.IO.UnmanagedMemoryAccessor.CanRead
   - System.IO.UnmanagedMemoryAccessor.CanWrite
-  - System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
+  - System.IO.UnmanagedMemoryAccessor.Capacity
   - System.IO.UnmanagedMemoryAccessor.Dispose
+  - System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
+  - System.IO.UnmanagedMemoryAccessor.Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
   - System.IO.UnmanagedMemoryAccessor.IsOpen
   - System.IO.UnmanagedMemoryAccessor.ReadBoolean(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadByte(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadChar(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadInt16(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadInt32(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadInt64(System.Int64)
-  - System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
-  - System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
-  - System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadSByte(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadUInt32(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Boolean)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Byte)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Char)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Decimal)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Double)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int16)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int32)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int64)
-  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Decimal)
-  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Single)
-  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Double)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.SByte)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Single)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt16)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt32)
   - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt64)
@@ -256,7 +256,6 @@ items:
     parameters:
     - id: disposing
       type: System.Boolean
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.Dispose
   id: Dispose
   parent: System.IO.UnmanagedMemoryAccessor
@@ -458,7 +457,6 @@ items:
       description: The position of the first byte of the value.
     return:
       type: System.Decimal
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
   id: ReadSingle(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -480,10 +478,8 @@ items:
     parameters:
     - id: position
       type: System.Int64
-      description: 
     return:
       type: System.Single
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
   id: ReadDouble(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -531,7 +527,6 @@ items:
       description: The position of the first byte of the value.
     return:
       type: System.SByte
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
   id: ReadUInt16(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -579,7 +574,6 @@ items:
       description: The position of the first byte of the value.
     return:
       type: System.UInt32
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
   id: ReadUInt64(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -604,7 +598,6 @@ items:
       description: The position of the first byte of the value.
     return:
       type: System.UInt64
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Boolean)
   id: Write(System.Int64,System.Boolean)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -938,11 +931,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -950,6 +945,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -959,6 +955,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -966,6 +963,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -973,12 +971,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -986,17 +986,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1004,18 +1007,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1023,23 +1029,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1047,18 +1057,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1066,23 +1079,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1090,6 +1107,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1099,6 +1117,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1106,6 +1125,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1113,6 +1133,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1122,6 +1143,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1129,6 +1151,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1136,6 +1159,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1145,6 +1169,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1156,11 +1181,13 @@ references:
 - uid: System.Runtime.InteropServices.SafeBuffer
   parent: System.Runtime.InteropServices
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeBuffer.yml
   name: SafeBuffer
   fullName: System.Runtime.InteropServices.SafeBuffer
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Runtime.InteropServices
@@ -1177,60 +1204,72 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Byte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte
   fullName: System.Byte
 - uid: System.Char
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char
   fullName: System.Char
 - uid: System.Int16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   name: Int16
   fullName: System.Int16
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.SByte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   name: SByte
   fullName: System.SByte
 - uid: System.UInt16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   name: UInt16
   fullName: System.UInt16
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64

@@ -2,14 +2,14 @@ items:
 - uid: System.Text.RegularExpressions
   id: System.Text.RegularExpressions
   children:
-  - System.Text.RegularExpressions.Regex
-  - System.Text.RegularExpressions.MatchEvaluator
   - System.Text.RegularExpressions.Capture
   - System.Text.RegularExpressions.CaptureCollection
   - System.Text.RegularExpressions.Group
   - System.Text.RegularExpressions.GroupCollection
   - System.Text.RegularExpressions.Match
   - System.Text.RegularExpressions.MatchCollection
+  - System.Text.RegularExpressions.MatchEvaluator
+  - System.Text.RegularExpressions.Regex
   - System.Text.RegularExpressions.RegexMatchTimeoutException
   - System.Text.RegularExpressions.RegexOptions
   href: System.Text.RegularExpressions.yml

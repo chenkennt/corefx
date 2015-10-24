@@ -2,42 +2,55 @@ items:
 - uid: System.ComponentModel
   id: System.ComponentModel
   children:
-  - System.ComponentModel.Win32Exception
+  - System.ComponentModel.ArrayConverter
+  - System.ComponentModel.AsyncCompletedEventArgs
+  - System.ComponentModel.AsyncCompletedEventHandler
+  - System.ComponentModel.AsyncOperation
+  - System.ComponentModel.AsyncOperationManager
+  - System.ComponentModel.BackgroundWorker
+  - System.ComponentModel.BaseNumberConverter
+  - System.ComponentModel.BooleanConverter
+  - System.ComponentModel.ByteConverter
+  - System.ComponentModel.CancelEventArgs
+  - System.ComponentModel.CharConverter
+  - System.ComponentModel.CollectionConverter
   - System.ComponentModel.ComponentCollection
+  - System.ComponentModel.DataErrorsChangedEventArgs
+  - System.ComponentModel.DateTimeConverter
+  - System.ComponentModel.DateTimeOffsetConverter
+  - System.ComponentModel.DecimalConverter
+  - System.ComponentModel.DefaultValueAttribute
+  - System.ComponentModel.DoubleConverter
+  - System.ComponentModel.DoWorkEventArgs
+  - System.ComponentModel.DoWorkEventHandler
+  - System.ComponentModel.EditorBrowsableAttribute
+  - System.ComponentModel.EditorBrowsableState
+  - System.ComponentModel.EnumConverter
+  - System.ComponentModel.GuidConverter
+  - System.ComponentModel.IChangeTracking
   - System.ComponentModel.IComponent
   - System.ComponentModel.IContainer
-  - System.ComponentModel.ISite
-  - System.ComponentModel.CancelEventArgs
-  - System.ComponentModel.IChangeTracking
   - System.ComponentModel.IEditableObject
-  - System.ComponentModel.IRevertibleChangeTracking
-  - System.ComponentModel.DataErrorsChangedEventArgs
   - System.ComponentModel.INotifyDataErrorInfo
   - System.ComponentModel.INotifyPropertyChanged
   - System.ComponentModel.INotifyPropertyChanging
+  - System.ComponentModel.Int16Converter
+  - System.ComponentModel.Int32Converter
+  - System.ComponentModel.Int64Converter
+  - System.ComponentModel.IRevertibleChangeTracking
+  - System.ComponentModel.ISite
+  - System.ComponentModel.ITypeDescriptorContext
+  - System.ComponentModel.MultilineStringConverter
+  - System.ComponentModel.NullableConverter
+  - System.ComponentModel.ProgressChangedEventArgs
+  - System.ComponentModel.ProgressChangedEventHandler
   - System.ComponentModel.PropertyChangedEventArgs
   - System.ComponentModel.PropertyChangedEventHandler
   - System.ComponentModel.PropertyChangingEventArgs
   - System.ComponentModel.PropertyChangingEventHandler
-  - System.ComponentModel.ArrayConverter
-  - System.ComponentModel.BaseNumberConverter
-  - System.ComponentModel.BooleanConverter
-  - System.ComponentModel.ByteConverter
-  - System.ComponentModel.CharConverter
-  - System.ComponentModel.CollectionConverter
-  - System.ComponentModel.DateTimeConverter
-  - System.ComponentModel.DateTimeOffsetConverter
-  - System.ComponentModel.DecimalConverter
-  - System.ComponentModel.DoubleConverter
-  - System.ComponentModel.EnumConverter
-  - System.ComponentModel.GuidConverter
-  - System.ComponentModel.Int16Converter
-  - System.ComponentModel.Int32Converter
-  - System.ComponentModel.Int64Converter
-  - System.ComponentModel.ITypeDescriptorContext
-  - System.ComponentModel.MultilineStringConverter
-  - System.ComponentModel.NullableConverter
   - System.ComponentModel.PropertyDescriptor
+  - System.ComponentModel.RunWorkerCompletedEventArgs
+  - System.ComponentModel.RunWorkerCompletedEventHandler
   - System.ComponentModel.SByteConverter
   - System.ComponentModel.SingleConverter
   - System.ComponentModel.StringConverter
@@ -49,97 +62,41 @@ items:
   - System.ComponentModel.UInt16Converter
   - System.ComponentModel.UInt32Converter
   - System.ComponentModel.UInt64Converter
-  - System.ComponentModel.DefaultValueAttribute
-  - System.ComponentModel.EditorBrowsableAttribute
-  - System.ComponentModel.EditorBrowsableState
-  - System.ComponentModel.AsyncCompletedEventHandler
-  - System.ComponentModel.AsyncCompletedEventArgs
-  - System.ComponentModel.AsyncOperation
-  - System.ComponentModel.AsyncOperationManager
-  - System.ComponentModel.ProgressChangedEventHandler
-  - System.ComponentModel.ProgressChangedEventArgs
-  - System.ComponentModel.BackgroundWorker
-  - System.ComponentModel.DoWorkEventHandler
-  - System.ComponentModel.DoWorkEventArgs
-  - System.ComponentModel.RunWorkerCompletedEventHandler
-  - System.ComponentModel.RunWorkerCompletedEventArgs
+  - System.ComponentModel.Win32Exception
   href: System.ComponentModel.yml
   name: System.ComponentModel
   fullName: System.ComponentModel
   type: Namespace
   source:
     remote:
-      path: src/Microsoft.Win32.Primitives/src/System/ComponentModel/Win32Exception.Windows.cs
+      path: src/System.Runtime/src/System/ComponentModel/EditorBrowsableAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/Microsoft.Win32.Primitives/src/System/ComponentModel/Win32Exception.Windows.cs
-    startLine: 5
+    path: src/System.Runtime/src/System/ComponentModel/EditorBrowsableAttribute.cs
+    startLine: 3
   assemblies:
-  - Microsoft.Win32.Primitives
+  - System.Runtime
 references:
-- uid: System.ComponentModel.Win32Exception
+- uid: System.ComponentModel.DefaultValueAttribute
   isExternal: false
-  href: System.ComponentModel.Win32Exception.yml
-  name: Win32Exception
-  fullName: System.ComponentModel.Win32Exception
+  href: System.ComponentModel.DefaultValueAttribute.yml
+  name: DefaultValueAttribute
+  fullName: System.ComponentModel.DefaultValueAttribute
   type: Class
-- uid: System.ComponentModel.ComponentCollection
+- uid: System.ComponentModel.EditorBrowsableAttribute
   isExternal: false
-  href: System.ComponentModel.ComponentCollection.yml
-  name: ComponentCollection
-  fullName: System.ComponentModel.ComponentCollection
+  href: System.ComponentModel.EditorBrowsableAttribute.yml
+  name: EditorBrowsableAttribute
+  fullName: System.ComponentModel.EditorBrowsableAttribute
   type: Class
-- uid: System.ComponentModel.IComponent
-  isExternal: false
-  href: System.ComponentModel.IComponent.yml
-  name: IComponent
-  fullName: System.ComponentModel.IComponent
-  type: Interface
-- uid: System.ComponentModel.IContainer
-  isExternal: false
-  href: System.ComponentModel.IContainer.yml
-  name: IContainer
-  fullName: System.ComponentModel.IContainer
-  type: Interface
-- uid: System.ComponentModel.ISite
+- uid: System.ComponentModel.EditorBrowsableState
   parent: System.ComponentModel
   isExternal: false
-  href: System.ComponentModel.ISite.yml
-  name: ISite
-  fullName: System.ComponentModel.ISite
-  type: Interface
-- uid: System.ComponentModel.CancelEventArgs
-  isExternal: false
-  href: System.ComponentModel.CancelEventArgs.yml
-  name: CancelEventArgs
-  fullName: System.ComponentModel.CancelEventArgs
-  type: Class
-  summary: EventArgs used to describe a cancel event.
-- uid: System.ComponentModel.IChangeTracking
-  isExternal: false
-  href: System.ComponentModel.IChangeTracking.yml
-  name: IChangeTracking
-  fullName: System.ComponentModel.IChangeTracking
-  type: Interface
-  summary: >-
-    Defines the mechanism for querying the object for changes and resetting of
-
-    the changed status.
-- uid: System.ComponentModel.IEditableObject
-  isExternal: false
-  href: System.ComponentModel.IEditableObject.yml
-  name: IEditableObject
-  fullName: System.ComponentModel.IEditableObject
-  type: Interface
-  summary: Provides functionality to commit or rollback changes to an object that is used as a data source.
-- uid: System.ComponentModel.IRevertibleChangeTracking
-  isExternal: false
-  href: System.ComponentModel.IRevertibleChangeTracking.yml
-  name: IRevertibleChangeTracking
-  fullName: System.ComponentModel.IRevertibleChangeTracking
-  type: Interface
-  summary: Provides support for rolling back the changes
+  href: System.ComponentModel.EditorBrowsableState.yml
+  name: EditorBrowsableState
+  fullName: System.ComponentModel.EditorBrowsableState
+  type: Enum
 - uid: System.ComponentModel.DataErrorsChangedEventArgs
   isExternal: false
   href: System.ComponentModel.DataErrorsChangedEventArgs.yml
@@ -376,25 +333,6 @@ references:
   name: UInt64Converter
   fullName: System.ComponentModel.UInt64Converter
   type: Class
-- uid: System.ComponentModel.DefaultValueAttribute
-  isExternal: false
-  href: System.ComponentModel.DefaultValueAttribute.yml
-  name: DefaultValueAttribute
-  fullName: System.ComponentModel.DefaultValueAttribute
-  type: Class
-- uid: System.ComponentModel.EditorBrowsableAttribute
-  isExternal: false
-  href: System.ComponentModel.EditorBrowsableAttribute.yml
-  name: EditorBrowsableAttribute
-  fullName: System.ComponentModel.EditorBrowsableAttribute
-  type: Class
-- uid: System.ComponentModel.EditorBrowsableState
-  parent: System.ComponentModel
-  isExternal: false
-  href: System.ComponentModel.EditorBrowsableState.yml
-  name: EditorBrowsableState
-  fullName: System.ComponentModel.EditorBrowsableState
-  type: Enum
 - uid: System.ComponentModel.AsyncCompletedEventHandler
   isExternal: false
   href: System.ComponentModel.AsyncCompletedEventHandler.yml
@@ -466,6 +404,68 @@ references:
   href: System.ComponentModel.RunWorkerCompletedEventArgs.yml
   name: RunWorkerCompletedEventArgs
   fullName: System.ComponentModel.RunWorkerCompletedEventArgs
+  type: Class
+- uid: System.ComponentModel.ComponentCollection
+  isExternal: false
+  href: System.ComponentModel.ComponentCollection.yml
+  name: ComponentCollection
+  fullName: System.ComponentModel.ComponentCollection
+  type: Class
+- uid: System.ComponentModel.IComponent
+  isExternal: false
+  href: System.ComponentModel.IComponent.yml
+  name: IComponent
+  fullName: System.ComponentModel.IComponent
+  type: Interface
+- uid: System.ComponentModel.IContainer
+  isExternal: false
+  href: System.ComponentModel.IContainer.yml
+  name: IContainer
+  fullName: System.ComponentModel.IContainer
+  type: Interface
+- uid: System.ComponentModel.ISite
+  parent: System.ComponentModel
+  isExternal: false
+  href: System.ComponentModel.ISite.yml
+  name: ISite
+  fullName: System.ComponentModel.ISite
+  type: Interface
+- uid: System.ComponentModel.CancelEventArgs
+  isExternal: false
+  href: System.ComponentModel.CancelEventArgs.yml
+  name: CancelEventArgs
+  fullName: System.ComponentModel.CancelEventArgs
+  type: Class
+  summary: EventArgs used to describe a cancel event.
+- uid: System.ComponentModel.IChangeTracking
+  isExternal: false
+  href: System.ComponentModel.IChangeTracking.yml
+  name: IChangeTracking
+  fullName: System.ComponentModel.IChangeTracking
+  type: Interface
+  summary: >-
+    Defines the mechanism for querying the object for changes and resetting of
+
+    the changed status.
+- uid: System.ComponentModel.IEditableObject
+  isExternal: false
+  href: System.ComponentModel.IEditableObject.yml
+  name: IEditableObject
+  fullName: System.ComponentModel.IEditableObject
+  type: Interface
+  summary: Provides functionality to commit or rollback changes to an object that is used as a data source.
+- uid: System.ComponentModel.IRevertibleChangeTracking
+  isExternal: false
+  href: System.ComponentModel.IRevertibleChangeTracking.yml
+  name: IRevertibleChangeTracking
+  fullName: System.ComponentModel.IRevertibleChangeTracking
+  type: Interface
+  summary: Provides support for rolling back the changes
+- uid: System.ComponentModel.Win32Exception
+  isExternal: false
+  href: System.ComponentModel.Win32Exception.yml
+  name: Win32Exception
+  fullName: System.ComponentModel.Win32Exception
   type: Class
 - uid: System.ComponentModel
   isExternal: false

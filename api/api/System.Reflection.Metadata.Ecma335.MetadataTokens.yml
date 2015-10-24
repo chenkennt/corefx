@@ -3,45 +3,45 @@ items:
   id: MetadataTokens
   parent: System.Reflection.Metadata.Ecma335
   children:
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.TableCount
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.HeapCount
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetRowNumber(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.EntityHandle)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetHeapOffset(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetToken(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetRowNumber(System.Reflection.Metadata.EntityHandle)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetHeapOffset(System.Reflection.Metadata.Handle)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetToken(System.Reflection.Metadata.Handle)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.TryGetTableIndex(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.TableIndex@)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.TryGetHeapIndex(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.HeapIndex@)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.Handle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyFileHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyReferenceHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.BlobHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.ConstantHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.CustomAttributeHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.DeclarativeSecurityAttributeHandle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.EntityHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.EventDefinitionHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.ExportedTypeHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.FieldDefinitionHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterConstraintHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetHeapOffset(System.Reflection.Metadata.Handle)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetHeapOffset(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetRowNumber(System.Reflection.Metadata.EntityHandle)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetRowNumber(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.EntityHandle)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetToken(System.Reflection.Metadata.Handle)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GetToken(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.GuidHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.Handle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.Handle(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.HeapCount
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.ManifestResourceHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.MemberReferenceHandle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.MethodDefinitionHandle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.MethodImplementationHandle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.MethodSpecificationHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.TypeDefinitionHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.ExportedTypeHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.TypeReferenceHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.TypeSpecificationHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.MemberReferenceHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.FieldDefinitionHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.EventDefinitionHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.ModuleReferenceHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.ParameterHandle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.PropertyDefinitionHandle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.StandaloneSignatureHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.ParameterHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterConstraintHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.ModuleReferenceHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyReferenceHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.CustomAttributeHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.DeclarativeSecurityAttributeHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.ConstantHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.ManifestResourceHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyFileHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.UserStringHandle(System.Int32)
   - System.Reflection.Metadata.Ecma335.MetadataTokens.StringHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.BlobHandle(System.Int32)
-  - System.Reflection.Metadata.Ecma335.MetadataTokens.GuidHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.TableCount
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.TryGetHeapIndex(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.HeapIndex@)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.TryGetTableIndex(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.TableIndex@)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.TypeDefinitionHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.TypeReferenceHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.TypeSpecificationHandle(System.Int32)
+  - System.Reflection.Metadata.Ecma335.MetadataTokens.UserStringHandle(System.Int32)
   href: System.Reflection.Metadata.Ecma335.MetadataTokens.yml
   name: MetadataTokens
   fullName: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -464,7 +464,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MethodDefinitionHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.MethodImplementationHandle(System.Int32)
   id: MethodImplementationHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -487,7 +486,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MethodImplementationHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.MethodSpecificationHandle(System.Int32)
   id: MethodSpecificationHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -510,7 +508,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MethodSpecificationHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.TypeDefinitionHandle(System.Int32)
   id: TypeDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -533,7 +530,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.TypeDefinitionHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ExportedTypeHandle(System.Int32)
   id: ExportedTypeHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -556,7 +552,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ExportedTypeHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.TypeReferenceHandle(System.Int32)
   id: TypeReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -579,7 +574,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.TypeReferenceHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.TypeSpecificationHandle(System.Int32)
   id: TypeSpecificationHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -602,7 +596,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.TypeSpecificationHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.MemberReferenceHandle(System.Int32)
   id: MemberReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -625,7 +618,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MemberReferenceHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.FieldDefinitionHandle(System.Int32)
   id: FieldDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -648,7 +640,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.FieldDefinitionHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.EventDefinitionHandle(System.Int32)
   id: EventDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -671,7 +662,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.EventDefinitionHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.PropertyDefinitionHandle(System.Int32)
   id: PropertyDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -694,7 +684,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.PropertyDefinitionHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.StandaloneSignatureHandle(System.Int32)
   id: StandaloneSignatureHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -717,7 +706,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.StandaloneSignatureHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ParameterHandle(System.Int32)
   id: ParameterHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -740,7 +728,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ParameterHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterHandle(System.Int32)
   id: GenericParameterHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -763,7 +750,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.GenericParameterHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterConstraintHandle(System.Int32)
   id: GenericParameterConstraintHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -786,7 +772,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.GenericParameterConstraintHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ModuleReferenceHandle(System.Int32)
   id: ModuleReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -809,7 +794,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ModuleReferenceHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyReferenceHandle(System.Int32)
   id: AssemblyReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -832,7 +816,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.CustomAttributeHandle(System.Int32)
   id: CustomAttributeHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -855,7 +838,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.CustomAttributeHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.DeclarativeSecurityAttributeHandle(System.Int32)
   id: DeclarativeSecurityAttributeHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -878,7 +860,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.DeclarativeSecurityAttributeHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ConstantHandle(System.Int32)
   id: ConstantHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -901,7 +882,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ConstantHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ManifestResourceHandle(System.Int32)
   id: ManifestResourceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -924,7 +904,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ManifestResourceHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyFileHandle(System.Int32)
   id: AssemblyFileHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -947,7 +926,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.AssemblyFileHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.UserStringHandle(System.Int32)
   id: UserStringHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -970,7 +948,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.UserStringHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.StringHandle(System.Int32)
   id: StringHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -993,7 +970,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.StringHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.BlobHandle(System.Int32)
   id: BlobHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -1016,7 +992,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.BlobHandle
-      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.GuidHandle(System.Int32)
   id: GuidHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -1039,7 +1014,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.GuidHandle
-      description: 
 references:
 - uid: System.Reflection.Metadata.Ecma335
   isExternal: false
@@ -1049,11 +1023,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1061,6 +1037,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1070,6 +1047,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1077,6 +1055,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1084,12 +1063,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1097,17 +1078,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1115,18 +1099,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1134,23 +1121,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1158,18 +1149,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1177,23 +1171,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1201,6 +1199,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1210,6 +1209,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1217,6 +1217,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1224,6 +1225,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1233,6 +1235,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1240,6 +1243,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1247,6 +1251,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1256,6 +1261,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1283,6 +1289,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Reflection.Metadata
@@ -1319,6 +1326,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Reflection.Metadata.Ecma335.HeapIndex

@@ -44,7 +44,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.CspKeyContainerInfo
-      description: 
 - uid: System.Security.Cryptography.ICspAsymmetricAlgorithm.ExportCspBlob(System.Boolean)
   id: ExportCspBlob(System.Boolean)
   parent: System.Security.Cryptography.ICspAsymmetricAlgorithm
@@ -67,7 +66,6 @@ items:
       type: System.Boolean
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.ICspAsymmetricAlgorithm.ImportCspBlob(System.Byte[])
   id: ImportCspBlob(System.Byte[])
   parent: System.Security.Cryptography.ICspAsymmetricAlgorithm
@@ -106,10 +104,12 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -119,6 +119,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -126,6 +127,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System

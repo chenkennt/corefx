@@ -3,44 +3,44 @@ items:
   id: Vector`1
   parent: System.Numerics
   children:
-  - System.Numerics.Vector`1.Count
-  - System.Numerics.Vector`1.Zero
-  - System.Numerics.Vector`1.One
   - System.Numerics.Vector`1.#ctor(`0)
   - System.Numerics.Vector`1.#ctor(`0[])
   - System.Numerics.Vector`1.#ctor(`0[],System.Int32)
   - System.Numerics.Vector`1.CopyTo(`0[])
   - System.Numerics.Vector`1.CopyTo(`0[],System.Int32)
-  - System.Numerics.Vector`1.Item(System.Int32)
-  - System.Numerics.Vector`1.Equals(System.Object)
+  - System.Numerics.Vector`1.Count
   - System.Numerics.Vector`1.Equals(System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.Equals(System.Object)
   - System.Numerics.Vector`1.GetHashCode
+  - System.Numerics.Vector`1.Item(System.Int32)
+  - System.Numerics.Vector`1.One
+  - System.Numerics.Vector`1.op_Addition(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_BitwiseAnd(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_BitwiseOr(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_Division(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_Equality(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_ExclusiveOr(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Byte}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Double}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Int16}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Int32}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Int64}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.SByte}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Single}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.UInt16}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.UInt32}
+  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.UInt64}
+  - System.Numerics.Vector`1.op_Inequality(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_Multiply(`0,System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_Multiply(System.Numerics.Vector{`0},`0)
+  - System.Numerics.Vector`1.op_Multiply(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_OnesComplement(System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_Subtraction(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
+  - System.Numerics.Vector`1.op_UnaryNegation(System.Numerics.Vector{`0})
   - System.Numerics.Vector`1.ToString
   - System.Numerics.Vector`1.ToString(System.String)
   - System.Numerics.Vector`1.ToString(System.String,System.IFormatProvider)
-  - System.Numerics.Vector`1.op_Addition(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_Subtraction(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_Multiply(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_Multiply(System.Numerics.Vector{`0},`0)
-  - System.Numerics.Vector`1.op_Multiply(`0,System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_Division(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_UnaryNegation(System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_BitwiseAnd(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_BitwiseOr(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_ExclusiveOr(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_OnesComplement(System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_Equality(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_Inequality(System.Numerics.Vector{`0},System.Numerics.Vector{`0})
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Byte}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.SByte}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.UInt16}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Int16}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.UInt32}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Int32}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.UInt64}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Int64}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Single}
-  - System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.Double}
+  - System.Numerics.Vector`1.Zero
   href: System.Numerics.Vector`1.yml
   name: Vector<T>
   name.vb: Vector(Of T)
@@ -1124,6 +1124,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1131,18 +1132,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1150,23 +1154,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1174,18 +1182,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1193,23 +1204,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1217,6 +1232,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1226,6 +1242,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1233,6 +1250,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -1242,6 +1260,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Numerics.Vector`1
@@ -1307,6 +1326,7 @@ references:
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -1314,12 +1334,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1327,27 +1349,32 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -1355,6 +1382,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1364,6 +1392,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1371,6 +1400,7 @@ references:
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -1378,6 +1408,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1387,6 +1418,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1394,11 +1426,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IFormatProvider
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IFormatProvider.yml
   name: IFormatProvider
   fullName: System.IFormatProvider
 - uid: System.Numerics.Vector{System.Byte}
@@ -1420,6 +1454,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1433,6 +1468,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.SByte}
@@ -1454,6 +1490,7 @@ references:
     name: SByte
     fullName: System.SByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1467,6 +1504,7 @@ references:
     name: SByte
     fullName: System.SByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.UInt16}
@@ -1488,6 +1526,7 @@ references:
     name: UInt16
     fullName: System.UInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1501,6 +1540,7 @@ references:
     name: UInt16
     fullName: System.UInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.Int16}
@@ -1522,6 +1562,7 @@ references:
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1535,6 +1576,7 @@ references:
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.UInt32}
@@ -1556,6 +1598,7 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1569,6 +1612,7 @@ references:
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.Int32}
@@ -1590,6 +1634,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1603,6 +1648,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.UInt64}
@@ -1624,6 +1670,7 @@ references:
     name: UInt64
     fullName: System.UInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1637,6 +1684,7 @@ references:
     name: UInt64
     fullName: System.UInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.Int64}
@@ -1658,6 +1706,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1671,6 +1720,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.Single}
@@ -1692,6 +1742,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1705,6 +1756,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Numerics.Vector{System.Double}
@@ -1726,6 +1778,7 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1739,5 +1792,6 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )

@@ -3,11 +3,11 @@ items:
   id: ReadState
   parent: System.Xml
   children:
+  - System.Xml.ReadState.Closed
+  - System.Xml.ReadState.EndOfFile
+  - System.Xml.ReadState.Error
   - System.Xml.ReadState.Initial
   - System.Xml.ReadState.Interactive
-  - System.Xml.ReadState.Error
-  - System.Xml.ReadState.EndOfFile
-  - System.Xml.ReadState.Closed
   href: System.Xml.ReadState.yml
   name: ReadState
   fullName: System.Xml.ReadState

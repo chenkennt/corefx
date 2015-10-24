@@ -3,11 +3,11 @@ items:
   id: TokenImpersonationLevel
   parent: System.Security.Principal
   children:
-  - System.Security.Principal.TokenImpersonationLevel.None
   - System.Security.Principal.TokenImpersonationLevel.Anonymous
+  - System.Security.Principal.TokenImpersonationLevel.Delegation
   - System.Security.Principal.TokenImpersonationLevel.Identification
   - System.Security.Principal.TokenImpersonationLevel.Impersonation
-  - System.Security.Principal.TokenImpersonationLevel.Delegation
+  - System.Security.Principal.TokenImpersonationLevel.None
   href: System.Security.Principal.TokenImpersonationLevel.yml
   name: TokenImpersonationLevel
   fullName: System.Security.Principal.TokenImpersonationLevel
@@ -111,4 +111,3 @@ references:
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace

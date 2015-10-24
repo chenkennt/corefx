@@ -2,14 +2,13 @@ items:
 - uid: System.Net.Http
   id: System.Net.Http
   children:
-  - System.Net.Http.WindowsProxyUsePolicy
-  - System.Net.Http.CookieUsePolicy
-  - System.Net.Http.WinHttpHandler
   - System.Net.Http.ByteArrayContent
   - System.Net.Http.ClientCertificateOption
+  - System.Net.Http.CookieUsePolicy
   - System.Net.Http.DelegatingHandler
   - System.Net.Http.FormUrlEncodedContent
   - System.Net.Http.HttpClient
+  - System.Net.Http.HttpClientHandler
   - System.Net.Http.HttpCompletionOption
   - System.Net.Http.HttpContent
   - System.Net.Http.HttpMessageHandler
@@ -23,7 +22,8 @@ items:
   - System.Net.Http.MultipartFormDataContent
   - System.Net.Http.StreamContent
   - System.Net.Http.StringContent
-  - System.Net.Http.HttpClientHandler
+  - System.Net.Http.WindowsProxyUsePolicy
+  - System.Net.Http.WinHttpHandler
   href: System.Net.Http.yml
   name: System.Net.Http
   fullName: System.Net.Http
@@ -37,28 +37,8 @@ items:
     path: src/System.Net.Http.WinHttpHandler/src/System/Net/Http/WinInetProxyHelper.cs
     startLine: 8
   assemblies:
-  - System.Net.Http.WinHttpHandler
+  - System.Net.Http
 references:
-- uid: System.Net.Http.WindowsProxyUsePolicy
-  parent: System.Net.Http
-  isExternal: false
-  href: System.Net.Http.WindowsProxyUsePolicy.yml
-  name: WindowsProxyUsePolicy
-  fullName: System.Net.Http.WindowsProxyUsePolicy
-  type: Enum
-- uid: System.Net.Http.CookieUsePolicy
-  parent: System.Net.Http
-  isExternal: false
-  href: System.Net.Http.CookieUsePolicy.yml
-  name: CookieUsePolicy
-  fullName: System.Net.Http.CookieUsePolicy
-  type: Enum
-- uid: System.Net.Http.WinHttpHandler
-  isExternal: false
-  href: System.Net.Http.WinHttpHandler.yml
-  name: WinHttpHandler
-  fullName: System.Net.Http.WinHttpHandler
-  type: Class
 - uid: System.Net.Http.ByteArrayContent
   isExternal: false
   href: System.Net.Http.ByteArrayContent.yml
@@ -180,6 +160,26 @@ references:
   href: System.Net.Http.HttpClientHandler.yml
   name: HttpClientHandler
   fullName: System.Net.Http.HttpClientHandler
+  type: Class
+- uid: System.Net.Http.WindowsProxyUsePolicy
+  parent: System.Net.Http
+  isExternal: false
+  href: System.Net.Http.WindowsProxyUsePolicy.yml
+  name: WindowsProxyUsePolicy
+  fullName: System.Net.Http.WindowsProxyUsePolicy
+  type: Enum
+- uid: System.Net.Http.CookieUsePolicy
+  parent: System.Net.Http
+  isExternal: false
+  href: System.Net.Http.CookieUsePolicy.yml
+  name: CookieUsePolicy
+  fullName: System.Net.Http.CookieUsePolicy
+  type: Enum
+- uid: System.Net.Http.WinHttpHandler
+  isExternal: false
+  href: System.Net.Http.WinHttpHandler.yml
+  name: WinHttpHandler
+  fullName: System.Net.Http.WinHttpHandler
   type: Class
 - uid: System.Net.Http
   isExternal: false

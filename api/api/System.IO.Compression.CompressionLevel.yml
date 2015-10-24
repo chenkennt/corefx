@@ -3,9 +3,9 @@ items:
   id: CompressionLevel
   parent: System.IO.Compression
   children:
-  - System.IO.Compression.CompressionLevel.Optimal
   - System.IO.Compression.CompressionLevel.Fastest
   - System.IO.Compression.CompressionLevel.NoCompression
+  - System.IO.Compression.CompressionLevel.Optimal
   href: System.IO.Compression.CompressionLevel.yml
   name: CompressionLevel
   fullName: System.IO.Compression.CompressionLevel

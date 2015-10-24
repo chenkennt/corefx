@@ -3,8 +3,8 @@ items:
   id: IChangeTracking
   parent: System.ComponentModel
   children:
-  - System.ComponentModel.IChangeTracking.IsChanged
   - System.ComponentModel.IChangeTracking.AcceptChanges
+  - System.ComponentModel.IChangeTracking.IsChanged
   href: System.ComponentModel.IChangeTracking.yml
   name: IChangeTracking
   fullName: System.ComponentModel.IChangeTracking
@@ -78,6 +78,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System

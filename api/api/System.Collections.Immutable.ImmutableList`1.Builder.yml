@@ -3,56 +3,57 @@ items:
   id: ImmutableList`1.Builder
   parent: System.Collections.Immutable
   children:
-  - System.Collections.Immutable.ImmutableList`1.Builder.Count
-  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#Generic#ICollection{T}#IsReadOnly
-  - System.Collections.Immutable.ImmutableList`1.Builder.Item(System.Int32)
-  - System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0)
-  - System.Collections.Immutable.ImmutableList`1.Builder.Insert(System.Int32,`0)
-  - System.Collections.Immutable.ImmutableList`1.Builder.RemoveAt(System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.Add(`0)
+  - System.Collections.Immutable.ImmutableList`1.Builder.AddRange(System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.BinarySearch(`0)
+  - System.Collections.Immutable.ImmutableList`1.Builder.BinarySearch(`0,System.Collections.Generic.IComparer{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.Clear
   - System.Collections.Immutable.ImmutableList`1.Builder.Contains(`0)
-  - System.Collections.Immutable.ImmutableList`1.Builder.Remove(`0)
-  - System.Collections.Immutable.ImmutableList`1.Builder.GetEnumerator
-  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#Generic#IEnumerable{T}#GetEnumerator
-  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IEnumerable#GetEnumerator
-  - System.Collections.Immutable.ImmutableList`1.Builder.ForEach(System.Action{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.ConvertAll``1(System.Func{`0,``0})
   - System.Collections.Immutable.ImmutableList`1.Builder.CopyTo(`0[])
   - System.Collections.Immutable.ImmutableList`1.Builder.CopyTo(`0[],System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.CopyTo(System.Int32,`0[],System.Int32,System.Int32)
-  - System.Collections.Immutable.ImmutableList`1.Builder.GetRange(System.Int32,System.Int32)
-  - System.Collections.Immutable.ImmutableList`1.Builder.ConvertAll``1(System.Func{`0,``0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.Count
   - System.Collections.Immutable.ImmutableList`1.Builder.Exists(System.Predicate{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.Find(System.Predicate{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.FindAll(System.Predicate{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Predicate{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Int32,System.Predicate{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Int32,System.Int32,System.Predicate{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Int32,System.Predicate{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Predicate{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.FindLast(System.Predicate{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Predicate{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Int32,System.Predicate{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Int32,System.Predicate{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Predicate{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.ForEach(System.Action{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.GetEnumerator
+  - System.Collections.Immutable.ImmutableList`1.Builder.GetRange(System.Int32,System.Int32)
+  - System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0)
   - System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0,System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0,System.Int32,System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.Insert(System.Int32,`0)
+  - System.Collections.Immutable.ImmutableList`1.Builder.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.Item(System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0)
   - System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0,System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0,System.Int32,System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.TrueForAll(System.Predicate{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.AddRange(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.Remove(`0)
   - System.Collections.Immutable.ImmutableList`1.Builder.RemoveAll(System.Predicate{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.RemoveAt(System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.Reverse
   - System.Collections.Immutable.ImmutableList`1.Builder.Reverse(System.Int32,System.Int32)
   - System.Collections.Immutable.ImmutableList`1.Builder.Sort
-  - System.Collections.Immutable.ImmutableList`1.Builder.Sort(System.Comparison{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.Sort(System.Collections.Generic.IComparer{`0})
+  - System.Collections.Immutable.ImmutableList`1.Builder.Sort(System.Comparison{`0})
   - System.Collections.Immutable.ImmutableList`1.Builder.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.BinarySearch(`0)
-  - System.Collections.Immutable.ImmutableList`1.Builder.BinarySearch(`0,System.Collections.Generic.IComparer{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})
-  - System.Collections.Immutable.ImmutableList`1.Builder.ToImmutable
+  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#Generic#ICollection{T}#IsReadOnly
+  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#ICollection#IsSynchronized
+  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#ICollection#SyncRoot
+  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IEnumerable#GetEnumerator
   - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#Add(System.Object)
   - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#Clear
   - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#Contains(System.Object)
@@ -60,11 +61,10 @@ items:
   - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#Insert(System.Int32,System.Object)
   - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#IsFixedSize
   - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#IsReadOnly
-  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#Remove(System.Object)
   - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#Item(System.Int32)
-  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
-  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#ICollection#IsSynchronized
-  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#ICollection#SyncRoot
+  - System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#IList#Remove(System.Object)
+  - System.Collections.Immutable.ImmutableList`1.Builder.ToImmutable
+  - System.Collections.Immutable.ImmutableList`1.Builder.TrueForAll(System.Predicate{`0})
   href: System.Collections.Immutable.ImmutableList`1.Builder.yml
   name: ImmutableList<T>.Builder
   name.vb: ImmutableList(Of T).Builder
@@ -2076,7 +2076,6 @@ items:
       description: The index.
     return:
       type: System.Object
-      description: 
   exceptions:
   - type: System.NotImplementedException
 - uid: System.Collections.Immutable.ImmutableList`1.Builder.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
@@ -2169,11 +2168,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -2181,6 +2182,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2190,6 +2192,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2197,6 +2200,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -2204,12 +2208,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2217,17 +2223,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -2235,18 +2244,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2254,23 +2266,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -2278,18 +2294,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2297,23 +2316,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -2321,6 +2344,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2330,6 +2354,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2337,6 +2362,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -2344,6 +2370,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2353,6 +2380,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2360,6 +2388,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -2367,6 +2396,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2376,6 +2406,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2387,11 +2418,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: '{T}'
@@ -2401,6 +2434,7 @@ references:
 - uid: System.Collections.Generic.IList`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   name: IList<T>
   name.vb: IList(Of T)
   fullName: System.Collections.Generic.IList<T>
@@ -2410,6 +2444,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2421,6 +2456,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2434,6 +2470,7 @@ references:
 - uid: System.Collections.Generic.IEnumerator`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   name: IEnumerator<T>
   name.vb: IEnumerator(Of T)
   fullName: System.Collections.Generic.IEnumerator<T>
@@ -2443,6 +2480,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2454,6 +2492,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2491,6 +2530,7 @@ references:
 - uid: System.Collections.Generic.IEnumerator{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerator`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   name: IEnumerator<T>
   name.vb: IEnumerator(Of T)
   fullName: System.Collections.Generic.IEnumerator<T>
@@ -2500,6 +2540,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2511,6 +2552,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2520,6 +2562,7 @@ references:
 - uid: System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerator.yml
   name: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections
@@ -2529,6 +2572,7 @@ references:
 - uid: System.Action{{T}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T>
   name.vb: Action(Of T)
   fullName: System.Action<T>
@@ -2538,6 +2582,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2549,6 +2594,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2558,6 +2604,7 @@ references:
 - uid: System.Action`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T>
   name.vb: Action(Of T)
   fullName: System.Action<T>
@@ -2567,6 +2614,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2578,6 +2626,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2635,6 +2684,7 @@ references:
 - uid: System.Func{{T},{TOutput}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<T, TOutput>
   name.vb: Func(Of T, TOutput)
   fullName: System.Func<T, TOutput>
@@ -2644,6 +2694,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: T
@@ -2659,6 +2710,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2702,6 +2754,7 @@ references:
 - uid: System.Func`2
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<T, TResult>
   name.vb: Func(Of T, TResult)
   fullName: System.Func<T, TResult>
@@ -2711,6 +2764,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: T
@@ -2726,6 +2780,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2739,6 +2794,7 @@ references:
 - uid: System.Predicate{{T}}
   parent: System
   definition: System.Predicate`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: Predicate<T>
   name.vb: Predicate(Of T)
   fullName: System.Predicate<T>
@@ -2748,6 +2804,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2759,6 +2816,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2768,6 +2826,7 @@ references:
 - uid: System.Predicate`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: Predicate<T>
   name.vb: Predicate(Of T)
   fullName: System.Predicate<T>
@@ -2777,6 +2836,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2788,6 +2848,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2797,6 +2858,7 @@ references:
 - uid: System.Collections.Generic.IEqualityComparer{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEqualityComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<T>
   name.vb: IEqualityComparer(Of T)
   fullName: System.Collections.Generic.IEqualityComparer<T>
@@ -2806,6 +2868,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2817,6 +2880,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2826,6 +2890,7 @@ references:
 - uid: System.Collections.Generic.IEqualityComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<T>
   name.vb: IEqualityComparer(Of T)
   fullName: System.Collections.Generic.IEqualityComparer<T>
@@ -2835,6 +2900,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2846,6 +2912,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2855,6 +2922,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -2864,6 +2932,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2875,6 +2944,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2884,6 +2954,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -2893,6 +2964,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2904,6 +2976,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2913,6 +2986,7 @@ references:
 - uid: System.Comparison{{T}}
   parent: System
   definition: System.Comparison`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Comparison`1.yml
   name: Comparison<T>
   name.vb: Comparison(Of T)
   fullName: System.Comparison<T>
@@ -2922,6 +2996,7 @@ references:
     name: Comparison
     fullName: System.Comparison
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Comparison`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2933,6 +3008,7 @@ references:
     name: Comparison
     fullName: System.Comparison
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Comparison`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2942,6 +3018,7 @@ references:
 - uid: System.Comparison`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Comparison`1.yml
   name: Comparison<T>
   name.vb: Comparison(Of T)
   fullName: System.Comparison<T>
@@ -2951,6 +3028,7 @@ references:
     name: Comparison
     fullName: System.Comparison
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Comparison`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2962,6 +3040,7 @@ references:
     name: Comparison
     fullName: System.Comparison
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Comparison`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2971,6 +3050,7 @@ references:
 - uid: System.Collections.Generic.IComparer{{T}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<T>
   name.vb: IComparer(Of T)
   fullName: System.Collections.Generic.IComparer<T>
@@ -2980,6 +3060,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2991,6 +3072,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -3000,6 +3082,7 @@ references:
 - uid: System.Collections.Generic.IComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<T>
   name.vb: IComparer(Of T)
   fullName: System.Collections.Generic.IComparer<T>
@@ -3009,6 +3092,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -3020,6 +3104,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -3030,14 +3115,11 @@ references:
 - uid: System.ArgumentOutOfRangeException
 - uid: System.ArgumentException
 - uid: System.Collections.IList
-  parent: System.Collections
-  isExternal: true
-  name: IList
-  fullName: System.Collections.IList
 - uid: System.NotImplementedException
 - uid: System.Collections.Generic.ICollection`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   name: ICollection<T>
   name.vb: ICollection(Of T)
   fullName: System.Collections.Generic.ICollection<T>
@@ -3047,6 +3129,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -3058,6 +3141,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -3067,10 +3151,7 @@ references:
 - uid: System.Collections.ICollection
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: ICollection
   fullName: System.Collections.ICollection
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array

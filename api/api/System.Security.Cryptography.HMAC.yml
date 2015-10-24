@@ -4,12 +4,12 @@ items:
   parent: System.Security.Cryptography
   children:
   - System.Security.Cryptography.HMAC.#ctor
-  - System.Security.Cryptography.HMAC.HashName
-  - System.Security.Cryptography.HMAC.Key
   - System.Security.Cryptography.HMAC.Dispose(System.Boolean)
   - System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)
   - System.Security.Cryptography.HMAC.HashFinal
+  - System.Security.Cryptography.HMAC.HashName
   - System.Security.Cryptography.HMAC.Initialize
+  - System.Security.Cryptography.HMAC.Key
   href: System.Security.Cryptography.HMAC.yml
   name: HMAC
   fullName: System.Security.Cryptography.HMAC
@@ -84,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.HMAC.Key
   id: Key
   parent: System.Security.Cryptography.HMAC
@@ -105,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.KeyedHashAlgorithm.Key
 - uid: System.Security.Cryptography.HMAC.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -174,7 +172,6 @@ items:
     content.vb: Protected Overrides Function HashFinal As Byte()
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.HashAlgorithm.HashFinal
 - uid: System.Security.Cryptography.HMAC.Initialize
   id: Initialize
@@ -203,26 +200,31 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Security.Cryptography.HashAlgorithm
   parent: System.Security.Cryptography
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: HashAlgorithm
   fullName: System.Security.Cryptography.HashAlgorithm
 - uid: System.Security.Cryptography.KeyedHashAlgorithm
   parent: System.Security.Cryptography
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.KeyedHashAlgorithm.yml
   name: KeyedHashAlgorithm
   fullName: System.Security.Cryptography.KeyedHashAlgorithm
 - uid: System.Security.Cryptography.HashAlgorithm.HashSize
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: HashSize
   fullName: System.Security.Cryptography.HashAlgorithm.HashSize
 - uid: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: ComputeHash(Byte[])
   name.vb: ComputeHash(Byte())
   fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])
@@ -232,12 +234,14 @@ references:
     name: ComputeHash
     fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -247,12 +251,14 @@ references:
     name: ComputeHash
     fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: )
@@ -260,6 +266,7 @@ references:
 - uid: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: ComputeHash(Byte[], Int32, Int32)
   name.vb: ComputeHash(Byte(), Int32, Int32)
   fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[], System.Int32, System.Int32)
@@ -269,12 +276,14 @@ references:
     name: ComputeHash
     fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -283,12 +292,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -296,12 +307,14 @@ references:
     name: ComputeHash
     fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -310,17 +323,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: ComputeHash(Stream)
   fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)
   spec.csharp:
@@ -328,12 +344,14 @@ references:
     name: ComputeHash
     fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
   spec.vb:
@@ -341,17 +359,20 @@ references:
     name: ComputeHash
     fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
 - uid: System.Security.Cryptography.HashAlgorithm.Dispose
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: Dispose()
   fullName: System.Security.Cryptography.HashAlgorithm.Dispose()
   spec.csharp:
@@ -359,6 +380,7 @@ references:
     name: Dispose
     fullName: System.Security.Cryptography.HashAlgorithm.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - name: )
@@ -368,6 +390,7 @@ references:
     name: Dispose
     fullName: System.Security.Cryptography.HashAlgorithm.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - name: )
@@ -375,6 +398,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -382,6 +406,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -391,6 +416,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -398,6 +424,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -405,12 +432,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -418,17 +447,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -436,18 +468,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -455,23 +490,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -479,18 +518,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -498,23 +540,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -522,6 +568,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -531,6 +578,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -538,6 +586,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -545,6 +594,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -554,6 +604,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -561,6 +612,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -568,6 +620,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -577,6 +630,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -588,6 +642,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Security.Cryptography.KeyedHashAlgorithm.Key
@@ -598,6 +653,7 @@ references:
   fullName: System.Security.Cryptography.KeyedHashAlgorithm.Key
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -607,6 +663,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -614,6 +671,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)
@@ -633,6 +691,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -646,16 +705,19 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: HashCore(Byte[], Int32, Int32)
   name.vb: HashCore(Byte(), Int32, Int32)
   fullName: System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[], System.Int32, System.Int32)
@@ -665,12 +727,14 @@ references:
     name: HashCore
     fullName: System.Security.Cryptography.HashAlgorithm.HashCore
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -679,12 +743,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -692,12 +758,14 @@ references:
     name: HashCore
     fullName: System.Security.Cryptography.HashAlgorithm.HashCore
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -706,22 +774,26 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.HashFinal
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: HashFinal()
   fullName: System.Security.Cryptography.HashAlgorithm.HashFinal()
   spec.csharp:
@@ -729,6 +801,7 @@ references:
     name: HashFinal
     fullName: System.Security.Cryptography.HashAlgorithm.HashFinal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - name: )
@@ -738,6 +811,7 @@ references:
     name: HashFinal
     fullName: System.Security.Cryptography.HashAlgorithm.HashFinal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - name: )
@@ -745,6 +819,7 @@ references:
 - uid: System.Security.Cryptography.HashAlgorithm.Initialize
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   name: Initialize()
   fullName: System.Security.Cryptography.HashAlgorithm.Initialize()
   spec.csharp:
@@ -752,6 +827,7 @@ references:
     name: Initialize
     fullName: System.Security.Cryptography.HashAlgorithm.Initialize
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - name: )
@@ -761,6 +837,7 @@ references:
     name: Initialize
     fullName: System.Security.Cryptography.HashAlgorithm.Initialize
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
   - name: (
     fullName: (
   - name: )

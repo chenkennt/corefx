@@ -3,9 +3,9 @@ items:
   id: WebSocketMessageType
   parent: System.Net.WebSockets
   children:
-  - System.Net.WebSockets.WebSocketMessageType.Text
   - System.Net.WebSockets.WebSocketMessageType.Binary
   - System.Net.WebSockets.WebSocketMessageType.Close
+  - System.Net.WebSockets.WebSocketMessageType.Text
   href: System.Net.WebSockets.WebSocketMessageType.yml
   name: WebSocketMessageType
   fullName: System.Net.WebSockets.WebSocketMessageType

@@ -3,13 +3,13 @@ items:
   id: TYMED
   parent: System.Runtime.InteropServices.ComTypes
   children:
-  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_HGLOBAL
-  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_FILE
-  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_ISTREAM
-  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_ISTORAGE
-  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_GDI
-  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_MFPICT
   - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_ENHMF
+  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_FILE
+  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_GDI
+  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_HGLOBAL
+  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_ISTORAGE
+  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_ISTREAM
+  - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_MFPICT
   - System.Runtime.InteropServices.ComTypes.TYMED.TYMED_NULL
   href: System.Runtime.InteropServices.ComTypes.TYMED.yml
   name: TYMED

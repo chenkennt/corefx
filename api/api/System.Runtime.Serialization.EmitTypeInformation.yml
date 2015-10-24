@@ -3,8 +3,8 @@ items:
   id: EmitTypeInformation
   parent: System.Runtime.Serialization
   children:
-  - System.Runtime.Serialization.EmitTypeInformation.AsNeeded
   - System.Runtime.Serialization.EmitTypeInformation.Always
+  - System.Runtime.Serialization.EmitTypeInformation.AsNeeded
   - System.Runtime.Serialization.EmitTypeInformation.Never
   href: System.Runtime.Serialization.EmitTypeInformation.yml
   name: EmitTypeInformation

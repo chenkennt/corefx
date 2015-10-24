@@ -3,31 +3,31 @@ items:
   id: DataflowBlock
   parent: System.Threading.Tasks.Dataflow
   children:
-  - System.Threading.Tasks.Dataflow.DataflowBlock.LinkTo``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.Tasks.Dataflow.ITargetBlock{``0})
-  - System.Threading.Tasks.Dataflow.DataflowBlock.LinkTo``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.Tasks.Dataflow.ITargetBlock{``0},System.Predicate{``0})
-  - System.Threading.Tasks.Dataflow.DataflowBlock.LinkTo``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.Tasks.Dataflow.ITargetBlock{``0},System.Threading.Tasks.Dataflow.DataflowLinkOptions,System.Predicate{``0})
-  - System.Threading.Tasks.Dataflow.DataflowBlock.Post``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0},``0)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.SendAsync``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0},``0)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.SendAsync``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0},``0,System.Threading.CancellationToken)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.TryReceive``1(System.Threading.Tasks.Dataflow.IReceivableSourceBlock{``0},``0@)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
-  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.CancellationToken)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan,System.Threading.CancellationToken)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
-  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.CancellationToken)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan,System.Threading.CancellationToken)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.OutputAvailableAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
-  - System.Threading.Tasks.Dataflow.DataflowBlock.OutputAvailableAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.CancellationToken)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.Encapsulate``2(System.Threading.Tasks.Dataflow.ITargetBlock{``0},System.Threading.Tasks.Dataflow.ISourceBlock{``1})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.AsObservable``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.AsObserver``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0})
   - System.Threading.Tasks.Dataflow.DataflowBlock.Choose``2(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Action{``0},System.Threading.Tasks.Dataflow.ISourceBlock{``1},System.Action{``1})
   - System.Threading.Tasks.Dataflow.DataflowBlock.Choose``2(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Action{``0},System.Threading.Tasks.Dataflow.ISourceBlock{``1},System.Action{``1},System.Threading.Tasks.Dataflow.DataflowBlockOptions)
   - System.Threading.Tasks.Dataflow.DataflowBlock.Choose``3(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Action{``0},System.Threading.Tasks.Dataflow.ISourceBlock{``1},System.Action{``1},System.Threading.Tasks.Dataflow.ISourceBlock{``2},System.Action{``2})
   - System.Threading.Tasks.Dataflow.DataflowBlock.Choose``3(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Action{``0},System.Threading.Tasks.Dataflow.ISourceBlock{``1},System.Action{``1},System.Threading.Tasks.Dataflow.ISourceBlock{``2},System.Action{``2},System.Threading.Tasks.Dataflow.DataflowBlockOptions)
-  - System.Threading.Tasks.Dataflow.DataflowBlock.AsObservable``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
-  - System.Threading.Tasks.Dataflow.DataflowBlock.AsObserver``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.Encapsulate``2(System.Threading.Tasks.Dataflow.ITargetBlock{``0},System.Threading.Tasks.Dataflow.ISourceBlock{``1})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.LinkTo``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.Tasks.Dataflow.ITargetBlock{``0})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.LinkTo``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.Tasks.Dataflow.ITargetBlock{``0},System.Predicate{``0})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.LinkTo``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.Tasks.Dataflow.ITargetBlock{``0},System.Threading.Tasks.Dataflow.DataflowLinkOptions,System.Predicate{``0})
   - System.Threading.Tasks.Dataflow.DataflowBlock.NullTarget``1
+  - System.Threading.Tasks.Dataflow.DataflowBlock.OutputAvailableAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.OutputAvailableAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.CancellationToken)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.Post``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0},``0)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.CancellationToken)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.Receive``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan,System.Threading.CancellationToken)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0})
+  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.Threading.CancellationToken)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.ReceiveAsync``1(System.Threading.Tasks.Dataflow.ISourceBlock{``0},System.TimeSpan,System.Threading.CancellationToken)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.SendAsync``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0},``0)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.SendAsync``1(System.Threading.Tasks.Dataflow.ITargetBlock{``0},``0,System.Threading.CancellationToken)
+  - System.Threading.Tasks.Dataflow.DataflowBlock.TryReceive``1(System.Threading.Tasks.Dataflow.IReceivableSourceBlock{``0},``0@)
   href: System.Threading.Tasks.Dataflow.DataflowBlock.yml
   name: DataflowBlock
   fullName: System.Threading.Tasks.Dataflow.DataflowBlock
@@ -1286,11 +1286,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1298,6 +1300,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1307,6 +1310,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1314,6 +1318,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1321,12 +1326,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1334,17 +1341,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1352,18 +1362,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1371,23 +1384,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1395,18 +1412,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1414,23 +1434,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1438,6 +1462,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1447,6 +1472,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1454,6 +1480,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1461,6 +1488,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1470,6 +1498,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1477,6 +1506,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1484,6 +1514,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1493,6 +1524,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1629,11 +1661,13 @@ references:
 - uid: System.IDisposable
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IDisposable.yml
   name: IDisposable
   fullName: System.IDisposable
 - uid: System.Predicate{{TOutput}}
   parent: System
   definition: System.Predicate`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: Predicate<TOutput>
   name.vb: Predicate(Of TOutput)
   fullName: System.Predicate<TOutput>
@@ -1643,6 +1677,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - name: TOutput
@@ -1654,6 +1689,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOutput
@@ -1663,6 +1699,7 @@ references:
 - uid: System.Predicate`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: Predicate<T>
   name.vb: Predicate(Of T)
   fullName: System.Predicate<T>
@@ -1672,6 +1709,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1683,6 +1721,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1766,11 +1805,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Threading.Tasks.Task`1
   parent: System.Threading.Tasks
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<TResult>
   name.vb: Task(Of TResult)
   fullName: System.Threading.Tasks.Task<TResult>
@@ -1780,6 +1821,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -1791,6 +1833,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -1800,6 +1843,7 @@ references:
 - uid: System.Threading.Tasks.Task{System.Boolean}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<Boolean>
   name.vb: Task(Of Boolean)
   fullName: System.Threading.Tasks.Task<System.Boolean>
@@ -1809,12 +1853,14 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1822,12 +1868,14 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks
@@ -1838,6 +1886,7 @@ references:
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   name: CancellationToken
   fullName: System.Threading.CancellationToken
 - uid: System.Threading
@@ -1914,6 +1963,7 @@ references:
 - uid: System.Threading.Tasks.Task{{TOutput}}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<TOutput>
   name.vb: Task(Of TOutput)
   fullName: System.Threading.Tasks.Task<TOutput>
@@ -1923,6 +1973,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - name: TOutput
@@ -1934,6 +1985,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOutput
@@ -1943,6 +1995,7 @@ references:
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.ArgumentOutOfRangeException
@@ -2067,6 +2120,7 @@ references:
 - uid: System.Action{{T1}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T1>
   name.vb: Action(Of T1)
   fullName: System.Action<T1>
@@ -2076,6 +2130,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T1
@@ -2087,6 +2142,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T1
@@ -2126,6 +2182,7 @@ references:
 - uid: System.Action{{T2}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T2>
   name.vb: Action(Of T2)
   fullName: System.Action<T2>
@@ -2135,6 +2192,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T2
@@ -2146,6 +2204,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T2
@@ -2155,6 +2214,7 @@ references:
 - uid: System.Threading.Tasks.Task{System.Int32}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<Int32>
   name.vb: Task(Of Int32)
   fullName: System.Threading.Tasks.Task<System.Int32>
@@ -2164,12 +2224,14 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -2177,17 +2239,20 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Action`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T>
   name.vb: Action(Of T)
   fullName: System.Action<T>
@@ -2197,6 +2262,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2208,6 +2274,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2255,6 +2322,7 @@ references:
 - uid: System.Action{{T3}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T3>
   name.vb: Action(Of T3)
   fullName: System.Action<T3>
@@ -2264,6 +2332,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T3
@@ -2275,6 +2344,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T3
@@ -2284,6 +2354,7 @@ references:
 - uid: System.IObservable`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IObservable`1.yml
   name: IObservable<T>
   name.vb: IObservable(Of T)
   fullName: System.IObservable<T>
@@ -2293,6 +2364,7 @@ references:
     name: IObservable
     fullName: System.IObservable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObservable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2304,6 +2376,7 @@ references:
     name: IObservable
     fullName: System.IObservable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObservable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2313,6 +2386,7 @@ references:
 - uid: System.IObservable{{TOutput}}
   parent: System
   definition: System.IObservable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.IObservable`1.yml
   name: IObservable<TOutput>
   name.vb: IObservable(Of TOutput)
   fullName: System.IObservable<TOutput>
@@ -2322,6 +2396,7 @@ references:
     name: IObservable
     fullName: System.IObservable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObservable`1.yml
   - name: <
     fullName: <
   - name: TOutput
@@ -2333,6 +2408,7 @@ references:
     name: IObservable
     fullName: System.IObservable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObservable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOutput
@@ -2342,6 +2418,7 @@ references:
 - uid: System.IObserver`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IObserver`1.yml
   name: IObserver<T>
   name.vb: IObserver(Of T)
   fullName: System.IObserver<T>
@@ -2351,6 +2428,7 @@ references:
     name: IObserver
     fullName: System.IObserver
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObserver`1.yml
   - name: <
     fullName: <
   - name: T
@@ -2362,6 +2440,7 @@ references:
     name: IObserver
     fullName: System.IObserver
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObserver`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -2371,6 +2450,7 @@ references:
 - uid: System.IObserver{{TInput}}
   parent: System
   definition: System.IObserver`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.IObserver`1.yml
   name: IObserver<TInput>
   name.vb: IObserver(Of TInput)
   fullName: System.IObserver<TInput>
@@ -2380,6 +2460,7 @@ references:
     name: IObserver
     fullName: System.IObserver
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObserver`1.yml
   - name: <
     fullName: <
   - name: TInput
@@ -2391,6 +2472,7 @@ references:
     name: IObserver
     fullName: System.IObserver
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IObserver`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInput

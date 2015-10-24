@@ -3,12 +3,12 @@ items:
   id: MemoryMappedFileAccess
   parent: System.IO.MemoryMappedFiles
   children:
-  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.ReadWrite
-  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.Read
-  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.Write
   - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.CopyOnWrite
+  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.Read
   - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.ReadExecute
+  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.ReadWrite
   - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.ReadWriteExecute
+  - System.IO.MemoryMappedFiles.MemoryMappedFileAccess.Write
   href: System.IO.MemoryMappedFiles.MemoryMappedFileAccess.yml
   name: MemoryMappedFileAccess
   fullName: System.IO.MemoryMappedFiles.MemoryMappedFileAccess

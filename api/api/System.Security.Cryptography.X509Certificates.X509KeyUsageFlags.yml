@@ -3,16 +3,16 @@ items:
   id: X509KeyUsageFlags
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.None
-  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.EncipherOnly
   - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.CrlSign
-  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.KeyCertSign
-  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.KeyAgreement
   - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.DataEncipherment
-  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.KeyEncipherment
-  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.NonRepudiation
-  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.DigitalSignature
   - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.DecipherOnly
+  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.DigitalSignature
+  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.EncipherOnly
+  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.KeyAgreement
+  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.KeyCertSign
+  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.KeyEncipherment
+  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.None
+  - System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.NonRepudiation
   href: System.Security.Cryptography.X509Certificates.X509KeyUsageFlags.yml
   name: X509KeyUsageFlags
   fullName: System.Security.Cryptography.X509Certificates.X509KeyUsageFlags

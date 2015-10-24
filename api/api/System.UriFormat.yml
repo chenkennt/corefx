@@ -3,9 +3,9 @@ items:
   id: UriFormat
   parent: System
   children:
-  - System.UriFormat.UriEscaped
-  - System.UriFormat.Unescaped
   - System.UriFormat.SafeUnescaped
+  - System.UriFormat.Unescaped
+  - System.UriFormat.UriEscaped
   href: System.UriFormat.yml
   name: UriFormat
   fullName: System.UriFormat

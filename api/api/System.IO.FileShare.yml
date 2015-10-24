@@ -3,12 +3,12 @@ items:
   id: FileShare
   parent: System.IO
   children:
-  - System.IO.FileShare.None
-  - System.IO.FileShare.Read
-  - System.IO.FileShare.Write
-  - System.IO.FileShare.ReadWrite
   - System.IO.FileShare.Delete
   - System.IO.FileShare.Inheritable
+  - System.IO.FileShare.None
+  - System.IO.FileShare.Read
+  - System.IO.FileShare.ReadWrite
+  - System.IO.FileShare.Write
   href: System.IO.FileShare.yml
   name: FileShare
   fullName: System.IO.FileShare

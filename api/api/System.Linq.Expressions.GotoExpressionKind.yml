@@ -3,10 +3,10 @@ items:
   id: GotoExpressionKind
   parent: System.Linq.Expressions
   children:
-  - System.Linq.Expressions.GotoExpressionKind.Goto
-  - System.Linq.Expressions.GotoExpressionKind.Return
   - System.Linq.Expressions.GotoExpressionKind.Break
   - System.Linq.Expressions.GotoExpressionKind.Continue
+  - System.Linq.Expressions.GotoExpressionKind.Goto
+  - System.Linq.Expressions.GotoExpressionKind.Return
   href: System.Linq.Expressions.GotoExpressionKind.yml
   name: GotoExpressionKind
   fullName: System.Linq.Expressions.GotoExpressionKind

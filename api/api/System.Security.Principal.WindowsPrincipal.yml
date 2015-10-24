@@ -4,13 +4,13 @@ items:
   parent: System.Security.Principal
   children:
   - System.Security.Principal.WindowsPrincipal.#ctor(System.Security.Principal.WindowsIdentity)
-  - System.Security.Principal.WindowsPrincipal.Identity
-  - System.Security.Principal.WindowsPrincipal.IsInRole(System.String)
-  - System.Security.Principal.WindowsPrincipal.UserClaims
   - System.Security.Principal.WindowsPrincipal.DeviceClaims
-  - System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.WindowsBuiltInRole)
+  - System.Security.Principal.WindowsPrincipal.Identity
   - System.Security.Principal.WindowsPrincipal.IsInRole(System.Int32)
   - System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.SecurityIdentifier)
+  - System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.WindowsBuiltInRole)
+  - System.Security.Principal.WindowsPrincipal.IsInRole(System.String)
+  - System.Security.Principal.WindowsPrincipal.UserClaims
   href: System.Security.Principal.WindowsPrincipal.yml
   name: WindowsPrincipal
   fullName: System.Security.Principal.WindowsPrincipal
@@ -101,7 +101,6 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.IIdentity
-      description: 
   overridden: System.Security.Claims.ClaimsPrincipal.Identity
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.String)
   id: IsInRole(System.String)
@@ -125,7 +124,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.Claims.ClaimsPrincipal.IsInRole(System.String)
 - uid: System.Security.Principal.WindowsPrincipal.UserClaims
   id: UserClaims
@@ -147,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
-      description: 
 - uid: System.Security.Principal.WindowsPrincipal.DeviceClaims
   id: DeviceClaims
   parent: System.Security.Principal.WindowsPrincipal
@@ -168,7 +165,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
-      description: 
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.WindowsBuiltInRole)
   id: IsInRole(System.Security.Principal.WindowsBuiltInRole)
   parent: System.Security.Principal.WindowsPrincipal
@@ -191,7 +187,6 @@ items:
       type: System.Security.Principal.WindowsBuiltInRole
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.Int32)
   id: IsInRole(System.Int32)
   parent: System.Security.Principal.WindowsPrincipal
@@ -214,7 +209,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.SecurityIdentifier)
   id: IsInRole(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.WindowsPrincipal
@@ -237,16 +231,15 @@ items:
       type: System.Security.Principal.SecurityIdentifier
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Security.Claims.ClaimsPrincipal
@@ -280,6 +273,7 @@ references:
 - uid: System.Security.Claims.ClaimsPrincipal.CreateClaimsIdentity(System.IO.BinaryReader)
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryReader.yml
   name: CreateClaimsIdentity(BinaryReader)
   fullName: System.Security.Claims.ClaimsPrincipal.CreateClaimsIdentity(System.IO.BinaryReader)
   spec.csharp:
@@ -293,6 +287,7 @@ references:
     name: BinaryReader
     fullName: System.IO.BinaryReader
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryReader.yml
   - name: )
     fullName: )
   spec.vb:
@@ -306,11 +301,13 @@ references:
     name: BinaryReader
     fullName: System.IO.BinaryReader
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryReader.yml
   - name: )
     fullName: )
 - uid: System.Security.Claims.ClaimsPrincipal.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.SerializationInfo.yml
   name: GetObjectData(SerializationInfo, StreamingContext)
   fullName: System.Security.Claims.ClaimsPrincipal.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   spec.csharp:
@@ -324,12 +321,14 @@ references:
     name: SerializationInfo
     fullName: System.Runtime.Serialization.SerializationInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.SerializationInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Runtime.Serialization.StreamingContext
     name: StreamingContext
     fullName: System.Runtime.Serialization.StreamingContext
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.StreamingContext.yml
   - name: )
     fullName: )
   spec.vb:
@@ -343,12 +342,14 @@ references:
     name: SerializationInfo
     fullName: System.Runtime.Serialization.SerializationInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.SerializationInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Runtime.Serialization.StreamingContext
     name: StreamingContext
     fullName: System.Runtime.Serialization.StreamingContext
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.StreamingContext.yml
   - name: )
     fullName: )
 - uid: System.Security.Claims.ClaimsPrincipal.AddIdentity(System.Security.Claims.ClaimsIdentity)
@@ -385,6 +386,7 @@ references:
 - uid: System.Security.Claims.ClaimsPrincipal.AddIdentities(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: AddIdentities(IEnumerable<ClaimsIdentity>)
   name.vb: AddIdentities(IEnumerable(Of ClaimsIdentity))
   fullName: System.Security.Claims.ClaimsPrincipal.AddIdentities(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
@@ -400,6 +402,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Security.Claims.ClaimsIdentity
@@ -421,6 +424,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Security.Claims.ClaimsIdentity
@@ -434,6 +438,7 @@ references:
 - uid: System.Security.Claims.ClaimsPrincipal.FindAll(System.Predicate{System.Security.Claims.Claim})
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: FindAll(Predicate<Claim>)
   name.vb: FindAll(Predicate(Of Claim))
   fullName: System.Security.Claims.ClaimsPrincipal.FindAll(System.Predicate<System.Security.Claims.Claim>)
@@ -449,6 +454,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - uid: System.Security.Claims.Claim
@@ -470,6 +476,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Security.Claims.Claim
@@ -483,6 +490,7 @@ references:
 - uid: System.Security.Claims.ClaimsPrincipal.FindAll(System.String)
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: FindAll(String)
   fullName: System.Security.Claims.ClaimsPrincipal.FindAll(System.String)
   spec.csharp:
@@ -496,6 +504,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -509,11 +518,13 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Security.Claims.ClaimsPrincipal.FindFirst(System.Predicate{System.Security.Claims.Claim})
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: FindFirst(Predicate<Claim>)
   name.vb: FindFirst(Predicate(Of Claim))
   fullName: System.Security.Claims.ClaimsPrincipal.FindFirst(System.Predicate<System.Security.Claims.Claim>)
@@ -529,6 +540,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - uid: System.Security.Claims.Claim
@@ -550,6 +562,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Security.Claims.Claim
@@ -563,6 +576,7 @@ references:
 - uid: System.Security.Claims.ClaimsPrincipal.FindFirst(System.String)
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: FindFirst(String)
   fullName: System.Security.Claims.ClaimsPrincipal.FindFirst(System.String)
   spec.csharp:
@@ -576,6 +590,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -589,11 +604,13 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Security.Claims.ClaimsPrincipal.HasClaim(System.Predicate{System.Security.Claims.Claim})
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   name: HasClaim(Predicate<Claim>)
   name.vb: HasClaim(Predicate(Of Claim))
   fullName: System.Security.Claims.ClaimsPrincipal.HasClaim(System.Predicate<System.Security.Claims.Claim>)
@@ -609,6 +626,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: <
     fullName: <
   - uid: System.Security.Claims.Claim
@@ -630,6 +648,7 @@ references:
     name: Predicate
     fullName: System.Predicate
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Predicate`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Security.Claims.Claim
@@ -643,6 +662,7 @@ references:
 - uid: System.Security.Claims.ClaimsPrincipal.HasClaim(System.String,System.String)
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: HasClaim(String, String)
   fullName: System.Security.Claims.ClaimsPrincipal.HasClaim(System.String, System.String)
   spec.csharp:
@@ -656,12 +676,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -675,17 +697,20 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Security.Claims.ClaimsPrincipal.WriteTo(System.IO.BinaryWriter)
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryWriter.yml
   name: WriteTo(BinaryWriter)
   fullName: System.Security.Claims.ClaimsPrincipal.WriteTo(System.IO.BinaryWriter)
   spec.csharp:
@@ -699,6 +724,7 @@ references:
     name: BinaryWriter
     fullName: System.IO.BinaryWriter
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryWriter.yml
   - name: )
     fullName: )
   spec.vb:
@@ -712,11 +738,13 @@ references:
     name: BinaryWriter
     fullName: System.IO.BinaryWriter
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryWriter.yml
   - name: )
     fullName: )
 - uid: System.Security.Claims.ClaimsPrincipal.WriteTo(System.IO.BinaryWriter,System.Byte[])
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryWriter.yml
   name: WriteTo(BinaryWriter, Byte[])
   name.vb: WriteTo(BinaryWriter, Byte())
   fullName: System.Security.Claims.ClaimsPrincipal.WriteTo(System.IO.BinaryWriter, System.Byte[])
@@ -732,12 +760,14 @@ references:
     name: BinaryWriter
     fullName: System.IO.BinaryWriter
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryWriter.yml
   - name: ', '
     fullName: ', '
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -753,12 +783,14 @@ references:
     name: BinaryWriter
     fullName: System.IO.BinaryWriter
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.BinaryWriter.yml
   - name: ', '
     fullName: ', '
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: )
@@ -796,6 +828,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -803,6 +836,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -812,6 +846,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -819,6 +854,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -826,12 +862,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -839,17 +877,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -857,18 +898,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -876,23 +920,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -900,18 +948,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -919,23 +970,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -943,6 +998,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -952,6 +1008,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -959,6 +1016,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -966,6 +1024,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -975,6 +1034,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -982,6 +1042,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -989,6 +1050,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -998,6 +1060,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1023,13 +1086,15 @@ references:
   name: Identity
   fullName: System.Security.Claims.ClaimsPrincipal.Identity
 - uid: System.Security.Principal.IIdentity
-  parent: System.Security.Principal
-  isExternal: true
+  isExternal: false
+  href: System.Security.Principal.IIdentity.yml
   name: IIdentity
   fullName: System.Security.Principal.IIdentity
+  type: Interface
 - uid: System.Security.Claims.ClaimsPrincipal.IsInRole(System.String)
   parent: System.Security.Claims.ClaimsPrincipal
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: IsInRole(String)
   fullName: System.Security.Claims.ClaimsPrincipal.IsInRole(System.String)
   spec.csharp:
@@ -1043,6 +1108,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1056,21 +1122,25 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<Claim>
   name.vb: IEnumerable(Of Claim)
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
@@ -1080,6 +1150,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Security.Claims.Claim
@@ -1093,6 +1164,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Security.Claims.Claim
@@ -1104,6 +1176,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1113,6 +1186,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1124,6 +1198,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1144,6 +1219,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Security.Principal.SecurityIdentifier

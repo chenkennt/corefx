@@ -3,52 +3,52 @@ items:
   id: SectionCharacteristics
   parent: System.Reflection.PortableExecutable
   children:
-  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeReg
-  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeDSect
-  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeNoLoad
-  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeGroup
-  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeNoPad
-  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeCopy
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align1024Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align128Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align16Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align1Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align2048Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align256Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align2Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align32Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align4096Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align4Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align512Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align64Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align8192Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Align8Bytes
+  - System.Reflection.PortableExecutable.SectionCharacteristics.AlignMask
   - System.Reflection.PortableExecutable.SectionCharacteristics.ContainsCode
   - System.Reflection.PortableExecutable.SectionCharacteristics.ContainsInitializedData
   - System.Reflection.PortableExecutable.SectionCharacteristics.ContainsUninitializedData
-  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerOther
-  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerInfo
-  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeOver
-  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerRemove
-  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerComdat
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemProtected
-  - System.Reflection.PortableExecutable.SectionCharacteristics.NoDeferSpecExc
   - System.Reflection.PortableExecutable.SectionCharacteristics.GPRel
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemFardata
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemSysheap
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemPurgeable
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Mem16Bit
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemLocked
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemPreload
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align1Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align2Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align4Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align8Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align16Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align32Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align64Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align128Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align256Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align512Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align1024Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align2048Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align4096Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.Align8192Bytes
-  - System.Reflection.PortableExecutable.SectionCharacteristics.AlignMask
+  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerComdat
+  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerInfo
   - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerNRelocOvfl
+  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerOther
+  - System.Reflection.PortableExecutable.SectionCharacteristics.LinkerRemove
+  - System.Reflection.PortableExecutable.SectionCharacteristics.Mem16Bit
   - System.Reflection.PortableExecutable.SectionCharacteristics.MemDiscardable
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemExecute
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemFardata
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemLocked
   - System.Reflection.PortableExecutable.SectionCharacteristics.MemNotCached
   - System.Reflection.PortableExecutable.SectionCharacteristics.MemNotPaged
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemShared
-  - System.Reflection.PortableExecutable.SectionCharacteristics.MemExecute
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemPreload
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemProtected
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemPurgeable
   - System.Reflection.PortableExecutable.SectionCharacteristics.MemRead
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemShared
+  - System.Reflection.PortableExecutable.SectionCharacteristics.MemSysheap
   - System.Reflection.PortableExecutable.SectionCharacteristics.MemWrite
+  - System.Reflection.PortableExecutable.SectionCharacteristics.NoDeferSpecExc
+  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeCopy
+  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeDSect
+  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeGroup
+  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeNoLoad
+  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeNoPad
+  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeOver
+  - System.Reflection.PortableExecutable.SectionCharacteristics.TypeReg
   href: System.Reflection.PortableExecutable.SectionCharacteristics.yml
   name: SectionCharacteristics
   fullName: System.Reflection.PortableExecutable.SectionCharacteristics

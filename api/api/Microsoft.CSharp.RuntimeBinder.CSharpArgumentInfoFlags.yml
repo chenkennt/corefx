@@ -3,13 +3,13 @@ items:
   id: CSharpArgumentInfoFlags
   parent: Microsoft.CSharp.RuntimeBinder
   children:
+  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.Constant
+  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsOut
+  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsRef
+  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsStaticType
+  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.NamedArgument
   - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.None
   - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.UseCompileTimeType
-  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.Constant
-  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.NamedArgument
-  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsRef
-  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsOut
-  - Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsStaticType
   href: Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.yml
   name: CSharpArgumentInfoFlags
   fullName: Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags
@@ -160,6 +160,7 @@ references:
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: System

@@ -5,30 +5,96 @@ items:
   - System.Runtime.CompilerServices.CallSite
   - System.Runtime.CompilerServices.CallSite`1
   - System.Runtime.CompilerServices.CallSiteBinder
-  - System.Runtime.CompilerServices.CallSiteOps
   - System.Runtime.CompilerServices.CallSiteHelpers
+  - System.Runtime.CompilerServices.CallSiteOps
+  - System.Runtime.CompilerServices.Closure
   - System.Runtime.CompilerServices.DynamicAttribute
+  - System.Runtime.CompilerServices.IRuntimeVariables
+  - System.Runtime.CompilerServices.IStrongBox
   - System.Runtime.CompilerServices.RuleCache`1
   - System.Runtime.CompilerServices.RuntimeOps
   - System.Runtime.CompilerServices.StrongBox`1
-  - System.Runtime.CompilerServices.IStrongBox
-  - System.Runtime.CompilerServices.IRuntimeVariables
-  - System.Runtime.CompilerServices.Closure
   href: System.Runtime.CompilerServices.yml
   name: System.Runtime.CompilerServices
   fullName: System.Runtime.CompilerServices
   type: Namespace
   source:
     remote:
-      path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
+      path: src/System.Runtime/src/System/Runtime/CompilerServices/StrongBox.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
-    startLine: 10
+    path: src/System.Runtime/src/System/Runtime/CompilerServices/StrongBox.cs
+    startLine: 3
   assemblies:
-  - System.Dynamic.Runtime
+  - System.Runtime
 references:
+- uid: System.Runtime.CompilerServices.StrongBox`1
+  isExternal: false
+  href: System.Runtime.CompilerServices.StrongBox`1.yml
+  name: StrongBox<T>
+  name.vb: StrongBox(Of T)
+  fullName: System.Runtime.CompilerServices.StrongBox<T>
+  fullName.vb: System.Runtime.CompilerServices.StrongBox(Of T)
+  type: Class
+  summary: Holds a reference to a value.
+  spec.csharp:
+  - uid: System.Runtime.CompilerServices.StrongBox`1
+    name: StrongBox
+    fullName: System.Runtime.CompilerServices.StrongBox
+    href: System.Runtime.CompilerServices.StrongBox`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Runtime.CompilerServices.StrongBox`1
+    name: StrongBox
+    fullName: System.Runtime.CompilerServices.StrongBox
+    href: System.Runtime.CompilerServices.StrongBox`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Runtime.CompilerServices.IStrongBox
+  parent: System.Runtime.CompilerServices
+  isExternal: false
+  href: System.Runtime.CompilerServices.IStrongBox.yml
+  name: IStrongBox
+  fullName: System.Runtime.CompilerServices.IStrongBox
+  type: Interface
+  summary: Defines a property for accessing the value that an object references.
+- uid: System.Runtime.CompilerServices.IRuntimeVariables
+  isExternal: false
+  href: System.Runtime.CompilerServices.IRuntimeVariables.yml
+  name: IRuntimeVariables
+  fullName: System.Runtime.CompilerServices.IRuntimeVariables
+  type: Interface
+  summary: An interface to represent values of runtime variables.
+- uid: System.Runtime.CompilerServices.Closure
+  isExternal: false
+  href: System.Runtime.CompilerServices.Closure.yml
+  name: Closure
+  fullName: System.Runtime.CompilerServices.Closure
+  type: Class
+  summary: >-
+    This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.
+
+    Represents the runtime state of a dynamically generated method.
+- uid: System.Runtime.CompilerServices.RuntimeOps
+  isExternal: false
+  href: System.Runtime.CompilerServices.RuntimeOps.yml
+  name: RuntimeOps
+  fullName: System.Runtime.CompilerServices.RuntimeOps
+  type: Class
+  summary: >-
+    This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.
+
+    Contains helper methods called from dynamically generated methods.
 - uid: System.Runtime.CompilerServices.CallSite
   parent: System.Runtime.CompilerServices
   isExternal: false
@@ -138,68 +204,6 @@ references:
     fullName: T
   - name: )
     fullName: )
-- uid: System.Runtime.CompilerServices.RuntimeOps
-  isExternal: false
-  href: System.Runtime.CompilerServices.RuntimeOps.yml
-  name: RuntimeOps
-  fullName: System.Runtime.CompilerServices.RuntimeOps
-  type: Class
-- uid: System.Runtime.CompilerServices.StrongBox`1
-  isExternal: false
-  href: System.Runtime.CompilerServices.StrongBox`1.yml
-  name: StrongBox<T>
-  name.vb: StrongBox(Of T)
-  fullName: System.Runtime.CompilerServices.StrongBox<T>
-  fullName.vb: System.Runtime.CompilerServices.StrongBox(Of T)
-  type: Class
-  summary: Holds a reference to a value.
-  spec.csharp:
-  - uid: System.Runtime.CompilerServices.StrongBox`1
-    name: StrongBox
-    fullName: System.Runtime.CompilerServices.StrongBox
-    href: System.Runtime.CompilerServices.StrongBox`1.yml
-  - name: <
-    fullName: <
-  - name: T
-    fullName: T
-  - name: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Runtime.CompilerServices.StrongBox`1
-    name: StrongBox
-    fullName: System.Runtime.CompilerServices.StrongBox
-    href: System.Runtime.CompilerServices.StrongBox`1.yml
-  - name: '(Of '
-    fullName: '(Of '
-  - name: T
-    fullName: T
-  - name: )
-    fullName: )
-- uid: System.Runtime.CompilerServices.IStrongBox
-  parent: System.Runtime.CompilerServices
-  isExternal: false
-  href: System.Runtime.CompilerServices.IStrongBox.yml
-  name: IStrongBox
-  fullName: System.Runtime.CompilerServices.IStrongBox
-  type: Interface
-  summary: Defines a property for accessing the value that an object references.
-- uid: System.Runtime.CompilerServices.IRuntimeVariables
-  isExternal: false
-  href: System.Runtime.CompilerServices.IRuntimeVariables.yml
-  name: IRuntimeVariables
-  fullName: System.Runtime.CompilerServices.IRuntimeVariables
-  type: Interface
-  summary: An interface to represent values of runtime variables.
-- uid: System.Runtime.CompilerServices.Closure
-  isExternal: false
-  href: System.Runtime.CompilerServices.Closure.yml
-  name: Closure
-  fullName: System.Runtime.CompilerServices.Closure
-  type: Class
-  summary: >-
-    This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.
-
-    Represents the runtime state of a dynamically generated method.
 - uid: System.Runtime.CompilerServices
   isExternal: false
   name: System.Runtime.CompilerServices

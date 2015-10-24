@@ -3,8 +3,8 @@ items:
   id: MemberReferenceKind
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.MemberReferenceKind.Method
   - System.Reflection.Metadata.MemberReferenceKind.Field
+  - System.Reflection.Metadata.MemberReferenceKind.Method
   href: System.Reflection.Metadata.MemberReferenceKind.yml
   name: MemberReferenceKind
   fullName: System.Reflection.Metadata.MemberReferenceKind

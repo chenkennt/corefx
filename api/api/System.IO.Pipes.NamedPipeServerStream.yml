@@ -3,19 +3,19 @@ items:
   id: NamedPipeServerStream
   parent: System.IO.Pipes
   children:
+  - System.IO.Pipes.NamedPipeServerStream.#ctor(System.IO.Pipes.PipeDirection,System.Boolean,System.Boolean,Microsoft.Win32.SafeHandles.SafePipeHandle)
   - System.IO.Pipes.NamedPipeServerStream.#ctor(System.String)
   - System.IO.Pipes.NamedPipeServerStream.#ctor(System.String,System.IO.Pipes.PipeDirection)
   - System.IO.Pipes.NamedPipeServerStream.#ctor(System.String,System.IO.Pipes.PipeDirection,System.Int32)
   - System.IO.Pipes.NamedPipeServerStream.#ctor(System.String,System.IO.Pipes.PipeDirection,System.Int32,System.IO.Pipes.PipeTransmissionMode)
   - System.IO.Pipes.NamedPipeServerStream.#ctor(System.String,System.IO.Pipes.PipeDirection,System.Int32,System.IO.Pipes.PipeTransmissionMode,System.IO.Pipes.PipeOptions)
   - System.IO.Pipes.NamedPipeServerStream.#ctor(System.String,System.IO.Pipes.PipeDirection,System.Int32,System.IO.Pipes.PipeTransmissionMode,System.IO.Pipes.PipeOptions,System.Int32,System.Int32)
-  - System.IO.Pipes.NamedPipeServerStream.#ctor(System.IO.Pipes.PipeDirection,System.Boolean,System.Boolean,Microsoft.Win32.SafeHandles.SafePipeHandle)
-  - System.IO.Pipes.NamedPipeServerStream.Finalize
-  - System.IO.Pipes.NamedPipeServerStream.WaitForConnectionAsync
-  - System.IO.Pipes.NamedPipeServerStream.WaitForConnection
-  - System.IO.Pipes.NamedPipeServerStream.WaitForConnectionAsync(System.Threading.CancellationToken)
   - System.IO.Pipes.NamedPipeServerStream.Disconnect
+  - System.IO.Pipes.NamedPipeServerStream.Finalize
   - System.IO.Pipes.NamedPipeServerStream.GetImpersonationUserName
+  - System.IO.Pipes.NamedPipeServerStream.WaitForConnection
+  - System.IO.Pipes.NamedPipeServerStream.WaitForConnectionAsync
+  - System.IO.Pipes.NamedPipeServerStream.WaitForConnectionAsync(System.Threading.CancellationToken)
   href: System.IO.Pipes.NamedPipeServerStream.yml
   name: NamedPipeServerStream
   fullName: System.IO.Pipes.NamedPipeServerStream
@@ -318,7 +318,6 @@ items:
     content.vb: Public Function WaitForConnectionAsync As Task
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.Pipes.NamedPipeServerStream.WaitForConnection
   id: WaitForConnection
   parent: System.IO.Pipes.NamedPipeServerStream
@@ -358,7 +357,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.Pipes.NamedPipeServerStream.Disconnect
   id: Disconnect
   parent: System.IO.Pipes.NamedPipeServerStream
@@ -395,7 +393,6 @@ items:
     content.vb: Public Function GetImpersonationUserName As String
     return:
       type: System.String
-      description: 
 references:
 - uid: System.IO.Pipes
   isExternal: false
@@ -405,16 +402,19 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.MarshalByRefObject
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.MarshalByRefObject.yml
   name: MarshalByRefObject
   fullName: System.MarshalByRefObject
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.IO.Pipes.PipeStream
@@ -443,6 +443,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -451,12 +452,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -470,6 +473,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -478,12 +482,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -505,6 +511,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -513,18 +520,21 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
   spec.vb:
@@ -538,6 +548,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -546,18 +557,21 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.Write(System.Byte[],System.Int32,System.Int32)
@@ -579,6 +593,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -587,12 +602,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -606,6 +623,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -614,12 +632,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -641,6 +661,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -649,18 +670,21 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
   spec.vb:
@@ -674,6 +698,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -682,18 +707,21 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.ReadByte
@@ -737,6 +765,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: )
     fullName: )
   spec.vb:
@@ -750,6 +779,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.Flush
@@ -793,6 +823,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -806,6 +837,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.IsConnected
@@ -879,6 +911,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -892,6 +925,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.Seek(System.Int64,System.IO.SeekOrigin)
@@ -911,12 +945,14 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.IO.SeekOrigin
     name: SeekOrigin
     fullName: System.IO.SeekOrigin
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.SeekOrigin.yml
   - name: )
     fullName: )
   spec.vb:
@@ -930,12 +966,14 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.IO.SeekOrigin
     name: SeekOrigin
     fullName: System.IO.SeekOrigin
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.SeekOrigin.yml
   - name: )
     fullName: )
 - uid: System.IO.Pipes.PipeStream.WaitForPipeDrain
@@ -989,11 +1027,12 @@ references:
 - uid: System.IO.Stream.Null
   parent: System.IO.Stream
   isExternal: true
-  name: Null
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: CopyToAsync(Stream)
   fullName: System.IO.Stream.CopyToAsync(System.IO.Stream)
   spec.csharp:
@@ -1001,12 +1040,14 @@ references:
     name: CopyToAsync
     fullName: System.IO.Stream.CopyToAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1014,17 +1055,20 @@ references:
     name: CopyToAsync
     fullName: System.IO.Stream.CopyToAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: CopyToAsync(Stream, Int32)
   fullName: System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32)
   spec.csharp:
@@ -1032,18 +1076,21 @@ references:
     name: CopyToAsync
     fullName: System.IO.Stream.CopyToAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1051,23 +1098,27 @@ references:
     name: CopyToAsync
     fullName: System.IO.Stream.CopyToAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: CopyToAsync(Stream, Int32, CancellationToken)
   fullName: System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32, System.Threading.CancellationToken)
   spec.csharp:
@@ -1075,24 +1126,28 @@ references:
     name: CopyToAsync
     fullName: System.IO.Stream.CopyToAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1100,29 +1155,34 @@ references:
     name: CopyToAsync
     fullName: System.IO.Stream.CopyToAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.CopyTo(System.IO.Stream)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: CopyTo(Stream)
   fullName: System.IO.Stream.CopyTo(System.IO.Stream)
   spec.csharp:
@@ -1130,12 +1190,14 @@ references:
     name: CopyTo
     fullName: System.IO.Stream.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1143,17 +1205,20 @@ references:
     name: CopyTo
     fullName: System.IO.Stream.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: CopyTo(Stream, Int32)
   fullName: System.IO.Stream.CopyTo(System.IO.Stream, System.Int32)
   spec.csharp:
@@ -1161,18 +1226,21 @@ references:
     name: CopyTo
     fullName: System.IO.Stream.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1180,23 +1248,27 @@ references:
     name: CopyTo
     fullName: System.IO.Stream.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.Close
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Close()
   fullName: System.IO.Stream.Close()
   spec.csharp:
@@ -1204,6 +1276,7 @@ references:
     name: Close
     fullName: System.IO.Stream.Close
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1213,6 +1286,7 @@ references:
     name: Close
     fullName: System.IO.Stream.Close
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1220,6 +1294,7 @@ references:
 - uid: System.IO.Stream.Dispose
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Dispose()
   fullName: System.IO.Stream.Dispose()
   spec.csharp:
@@ -1227,6 +1302,7 @@ references:
     name: Dispose
     fullName: System.IO.Stream.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1236,6 +1312,7 @@ references:
     name: Dispose
     fullName: System.IO.Stream.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1243,6 +1320,7 @@ references:
 - uid: System.IO.Stream.FlushAsync
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: FlushAsync()
   fullName: System.IO.Stream.FlushAsync()
   spec.csharp:
@@ -1250,6 +1328,7 @@ references:
     name: FlushAsync
     fullName: System.IO.Stream.FlushAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1259,6 +1338,7 @@ references:
     name: FlushAsync
     fullName: System.IO.Stream.FlushAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1266,6 +1346,7 @@ references:
 - uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: FlushAsync(CancellationToken)
   fullName: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
   spec.csharp:
@@ -1273,12 +1354,14 @@ references:
     name: FlushAsync
     fullName: System.IO.Stream.FlushAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1286,17 +1369,20 @@ references:
     name: FlushAsync
     fullName: System.IO.Stream.FlushAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.CreateWaitHandle
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: CreateWaitHandle()
   fullName: System.IO.Stream.CreateWaitHandle()
   spec.csharp:
@@ -1304,6 +1390,7 @@ references:
     name: CreateWaitHandle
     fullName: System.IO.Stream.CreateWaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1313,6 +1400,7 @@ references:
     name: CreateWaitHandle
     fullName: System.IO.Stream.CreateWaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1320,6 +1408,7 @@ references:
 - uid: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)
   name.vb: BeginRead(Byte(), Int32, Int32, AsyncCallback, Object)
   fullName: System.IO.Stream.BeginRead(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)
@@ -1329,12 +1418,14 @@ references:
     name: BeginRead
     fullName: System.IO.Stream.BeginRead
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -1343,24 +1434,28 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.AsyncCallback
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1368,12 +1463,14 @@ references:
     name: BeginRead
     fullName: System.IO.Stream.BeginRead
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -1382,29 +1479,34 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.AsyncCallback
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.EndRead(System.IAsyncResult)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: EndRead(IAsyncResult)
   fullName: System.IO.Stream.EndRead(System.IAsyncResult)
   spec.csharp:
@@ -1412,12 +1514,14 @@ references:
     name: EndRead
     fullName: System.IO.Stream.EndRead
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IAsyncResult
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1425,17 +1529,20 @@ references:
     name: EndRead
     fullName: System.IO.Stream.EndRead
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IAsyncResult
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: ReadAsync(Byte[], Int32, Int32)
   name.vb: ReadAsync(Byte(), Int32, Int32)
   fullName: System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32)
@@ -1445,12 +1552,14 @@ references:
     name: ReadAsync
     fullName: System.IO.Stream.ReadAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -1459,12 +1568,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1472,12 +1583,14 @@ references:
     name: ReadAsync
     fullName: System.IO.Stream.ReadAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -1486,17 +1599,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)
   name.vb: BeginWrite(Byte(), Int32, Int32, AsyncCallback, Object)
   fullName: System.IO.Stream.BeginWrite(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)
@@ -1506,12 +1622,14 @@ references:
     name: BeginWrite
     fullName: System.IO.Stream.BeginWrite
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -1520,24 +1638,28 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.AsyncCallback
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1545,12 +1667,14 @@ references:
     name: BeginWrite
     fullName: System.IO.Stream.BeginWrite
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -1559,29 +1683,34 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.AsyncCallback
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.EndWrite(System.IAsyncResult)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: EndWrite(IAsyncResult)
   fullName: System.IO.Stream.EndWrite(System.IAsyncResult)
   spec.csharp:
@@ -1589,12 +1718,14 @@ references:
     name: EndWrite
     fullName: System.IO.Stream.EndWrite
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IAsyncResult
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1602,17 +1733,20 @@ references:
     name: EndWrite
     fullName: System.IO.Stream.EndWrite
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IAsyncResult
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: WriteAsync(Byte[], Int32, Int32)
   name.vb: WriteAsync(Byte(), Int32, Int32)
   fullName: System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32)
@@ -1622,12 +1756,14 @@ references:
     name: WriteAsync
     fullName: System.IO.Stream.WriteAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -1636,12 +1772,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1649,12 +1787,14 @@ references:
     name: WriteAsync
     fullName: System.IO.Stream.WriteAsync
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -1663,17 +1803,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.Synchronized(System.IO.Stream)
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Synchronized(Stream)
   fullName: System.IO.Stream.Synchronized(System.IO.Stream)
   spec.csharp:
@@ -1681,12 +1824,14 @@ references:
     name: Synchronized
     fullName: System.IO.Stream.Synchronized
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1694,17 +1839,20 @@ references:
     name: Synchronized
     fullName: System.IO.Stream.Synchronized
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - uid: System.IO.Stream
     name: Stream
     fullName: System.IO.Stream
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream.ObjectInvariant
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: ObjectInvariant()
   fullName: System.IO.Stream.ObjectInvariant()
   spec.csharp:
@@ -1712,6 +1860,7 @@ references:
     name: ObjectInvariant
     fullName: System.IO.Stream.ObjectInvariant
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1721,6 +1870,7 @@ references:
     name: ObjectInvariant
     fullName: System.IO.Stream.ObjectInvariant
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   - name: (
     fullName: (
   - name: )
@@ -1728,21 +1878,25 @@ references:
 - uid: System.IO.Stream.CanTimeout
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: CanTimeout
   fullName: System.IO.Stream.CanTimeout
 - uid: System.IO.Stream.ReadTimeout
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: ReadTimeout
   fullName: System.IO.Stream.ReadTimeout
 - uid: System.IO.Stream.WriteTimeout
   parent: System.IO.Stream
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: WriteTimeout
   fullName: System.IO.Stream.WriteTimeout
 - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
   parent: System.MarshalByRefObject
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: MemberwiseClone(Boolean)
   fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
   spec.csharp:
@@ -1756,6 +1910,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1769,6 +1924,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.MarshalByRefObject.GetLifetimeService
@@ -1820,6 +1976,7 @@ references:
 - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
   parent: System.MarshalByRefObject
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: CreateObjRef(Type)
   fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
   spec.csharp:
@@ -1833,6 +1990,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1846,11 +2004,13 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1858,6 +2018,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1867,6 +2028,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1874,6 +2036,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1881,12 +2044,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1894,17 +2059,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1912,18 +2080,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1931,23 +2102,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1955,18 +2130,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1974,23 +2152,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1998,6 +2180,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2007,6 +2190,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2014,6 +2198,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -2021,6 +2206,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2030,6 +2216,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2037,6 +2224,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -2044,6 +2232,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2053,6 +2242,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2068,6 +2258,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IO.Pipes.PipeDirection
@@ -2080,6 +2271,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.IO.Pipes.PipeTransmissionMode
@@ -2099,6 +2291,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: Microsoft.Win32.SafeHandles.SafePipeHandle
@@ -2116,6 +2309,7 @@ references:
 - uid: System.Threading.Tasks.Task
   parent: System.Threading.Tasks
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task.yml
   name: Task
   fullName: System.Threading.Tasks.Task
 - uid: System.Threading.Tasks
@@ -2126,6 +2320,7 @@ references:
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   name: CancellationToken
   fullName: System.Threading.CancellationToken
 - uid: System.Threading

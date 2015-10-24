@@ -125,6 +125,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -160,6 +161,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Dataflow.ISourceBlock{{TOutput}}.LinkTo(System.Threading.Tasks.Dataflow.ITargetBlock{{TOutput}},System.Threading.Tasks.Dataflow.DataflowLinkOptions)
@@ -257,6 +259,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -288,6 +291,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Dataflow.ISourceBlock{{TOutput}}.ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,System.Threading.Tasks.Dataflow.ITargetBlock{{TOutput}})
@@ -453,6 +457,7 @@ references:
     name: Exception
     fullName: System.Exception
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: )
     fullName: )
   spec.vb:
@@ -466,6 +471,7 @@ references:
     name: Exception
     fullName: System.Exception
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Dataflow.ITargetBlock`1.OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,{TInput},System.Threading.Tasks.Dataflow.ISourceBlock{{TInput}},System.Boolean)
@@ -509,6 +515,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -544,6 +551,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Dataflow.ITargetBlock{{TInput}}
@@ -701,6 +709,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -732,6 +741,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Dataflow.ISourceBlock`1.ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,System.Threading.Tasks.Dataflow.ITargetBlock{{TOutput}})

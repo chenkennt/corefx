@@ -6,10 +6,10 @@ items:
   - System.Net.WebException.#ctor
   - System.Net.WebException.#ctor(System.String)
   - System.Net.WebException.#ctor(System.String,System.Exception)
-  - System.Net.WebException.#ctor(System.String,System.Net.WebExceptionStatus)
   - System.Net.WebException.#ctor(System.String,System.Exception,System.Net.WebExceptionStatus,System.Net.WebResponse)
-  - System.Net.WebException.Status
+  - System.Net.WebException.#ctor(System.String,System.Net.WebExceptionStatus)
   - System.Net.WebException.Response
+  - System.Net.WebException.Status
   href: System.Net.WebException.yml
   name: WebException
   fullName: System.Net.WebException
@@ -182,7 +182,6 @@ items:
     parameters: []
     return:
       type: System.Net.WebExceptionStatus
-      description: 
 - uid: System.Net.WebException.Response
   id: Response
   parent: System.Net.WebException
@@ -203,7 +202,6 @@ items:
     parameters: []
     return:
       type: System.Net.WebResponse
-      description: 
 references:
 - uid: System.Net
   isExternal: false
@@ -213,22 +211,26 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Exception
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Exception
   fullName: System.Exception
 - uid: System.SystemException
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.SystemException.yml
   name: SystemException
   fullName: System.SystemException
 - uid: System.InvalidOperationException
 - uid: System.Exception.GetBaseException
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: GetBaseException()
   fullName: System.Exception.GetBaseException()
   spec.csharp:
@@ -236,6 +238,7 @@ references:
     name: GetBaseException
     fullName: System.Exception.GetBaseException
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: (
     fullName: (
   - name: )
@@ -245,6 +248,7 @@ references:
     name: GetBaseException
     fullName: System.Exception.GetBaseException
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: (
     fullName: (
   - name: )
@@ -252,6 +256,7 @@ references:
 - uid: System.Exception.ToString
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: ToString()
   fullName: System.Exception.ToString()
   spec.csharp:
@@ -259,6 +264,7 @@ references:
     name: ToString
     fullName: System.Exception.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: (
     fullName: (
   - name: )
@@ -268,6 +274,7 @@ references:
     name: ToString
     fullName: System.Exception.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: (
     fullName: (
   - name: )
@@ -275,6 +282,7 @@ references:
 - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: GetObjectData(SerializationInfo, StreamingContext)
   fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   spec.csharp:
@@ -282,18 +290,21 @@ references:
     name: GetObjectData
     fullName: System.Exception.GetObjectData
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: (
     fullName: (
   - uid: System.Runtime.Serialization.SerializationInfo
     name: SerializationInfo
     fullName: System.Runtime.Serialization.SerializationInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.SerializationInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Runtime.Serialization.StreamingContext
     name: StreamingContext
     fullName: System.Runtime.Serialization.StreamingContext
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.StreamingContext.yml
   - name: )
     fullName: )
   spec.vb:
@@ -301,18 +312,21 @@ references:
     name: GetObjectData
     fullName: System.Exception.GetObjectData
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: (
     fullName: (
   - uid: System.Runtime.Serialization.SerializationInfo
     name: SerializationInfo
     fullName: System.Runtime.Serialization.SerializationInfo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.SerializationInfo.yml
   - name: ', '
     fullName: ', '
   - uid: System.Runtime.Serialization.StreamingContext
     name: StreamingContext
     fullName: System.Runtime.Serialization.StreamingContext
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.Serialization.StreamingContext.yml
   - name: )
     fullName: )
 - uid: System.Exception.GetType
@@ -341,41 +355,49 @@ references:
 - uid: System.Exception.Message
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Message
   fullName: System.Exception.Message
 - uid: System.Exception.Data
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Data
   fullName: System.Exception.Data
 - uid: System.Exception.InnerException
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: InnerException
   fullName: System.Exception.InnerException
 - uid: System.Exception.TargetSite
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: TargetSite
   fullName: System.Exception.TargetSite
 - uid: System.Exception.StackTrace
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: StackTrace
   fullName: System.Exception.StackTrace
 - uid: System.Exception.HelpLink
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: HelpLink
   fullName: System.Exception.HelpLink
 - uid: System.Exception.Source
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Source
   fullName: System.Exception.Source
 - uid: System.Exception.HResult
   parent: System.Exception
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: HResult
   fullName: System.Exception.HResult
 - uid: System.Exception.SerializeObjectState
@@ -386,6 +408,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -393,12 +416,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -406,17 +431,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -424,18 +452,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -443,23 +474,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -467,18 +502,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -486,23 +524,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -510,6 +552,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -519,6 +562,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -526,6 +570,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -533,6 +578,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -542,6 +588,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -553,6 +600,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Net.WebExceptionStatus

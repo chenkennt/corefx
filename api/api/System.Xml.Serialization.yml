@@ -2,13 +2,14 @@ items:
 - uid: System.Xml.Serialization
   id: System.Xml.Serialization
   children:
+  - System.Xml.Serialization.IXmlSerializable
   - System.Xml.Serialization.XmlAnyAttributeAttribute
-  - System.Xml.Serialization.XmlAttributeAttribute
   - System.Xml.Serialization.XmlAnyElementAttribute
   - System.Xml.Serialization.XmlAnyElementAttributes
   - System.Xml.Serialization.XmlArrayAttribute
   - System.Xml.Serialization.XmlArrayItemAttribute
   - System.Xml.Serialization.XmlArrayItemAttributes
+  - System.Xml.Serialization.XmlAttributeAttribute
   - System.Xml.Serialization.XmlAttributeOverrides
   - System.Xml.Serialization.XmlAttributes
   - System.Xml.Serialization.XmlChoiceIdentifierAttribute
@@ -17,41 +18,52 @@ items:
   - System.Xml.Serialization.XmlEnumAttribute
   - System.Xml.Serialization.XmlIgnoreAttribute
   - System.Xml.Serialization.XmlIncludeAttribute
-  - System.Xml.Serialization.XmlMappingAccess
   - System.Xml.Serialization.XmlMapping
+  - System.Xml.Serialization.XmlMappingAccess
   - System.Xml.Serialization.XmlMemberMapping
   - System.Xml.Serialization.XmlMembersMapping
   - System.Xml.Serialization.XmlNamespaceDeclarationsAttribute
   - System.Xml.Serialization.XmlReflectionImporter
   - System.Xml.Serialization.XmlReflectionMember
   - System.Xml.Serialization.XmlRootAttribute
+  - System.Xml.Serialization.XmlSchemaProviderAttribute
   - System.Xml.Serialization.XmlSerializationGeneratedCode
   - System.Xml.Serialization.XmlSerializationReader
-  - System.Xml.Serialization.XmlSerializationWriter
   - System.Xml.Serialization.XmlSerializationWriteCallback
-  - System.Xml.Serialization.XmlSerializerImplementation
+  - System.Xml.Serialization.XmlSerializationWriter
   - System.Xml.Serialization.XmlSerializer
+  - System.Xml.Serialization.XmlSerializerImplementation
   - System.Xml.Serialization.XmlSerializerNamespaces
   - System.Xml.Serialization.XmlTextAttribute
   - System.Xml.Serialization.XmlTypeAttribute
   - System.Xml.Serialization.XmlTypeMapping
-  - System.Xml.Serialization.IXmlSerializable
-  - System.Xml.Serialization.XmlSchemaProviderAttribute
   href: System.Xml.Serialization.yml
   name: System.Xml.Serialization
   fullName: System.Xml.Serialization
   type: Namespace
   source:
     remote:
-      path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/SourceInfo.cs
+      path: src/System.Xml.ReaderWriter/src/System/Xml/Serialization/XmlSchemaProviderAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/SourceInfo.cs
-    startLine: 15
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Serialization/XmlSchemaProviderAttribute.cs
+    startLine: 6
   assemblies:
-  - System.Xml.XmlSerializer
+  - System.Xml.ReaderWriter
 references:
+- uid: System.Xml.Serialization.IXmlSerializable
+  isExternal: false
+  href: System.Xml.Serialization.IXmlSerializable.yml
+  name: IXmlSerializable
+  fullName: System.Xml.Serialization.IXmlSerializable
+  type: Interface
+- uid: System.Xml.Serialization.XmlSchemaProviderAttribute
+  isExternal: false
+  href: System.Xml.Serialization.XmlSchemaProviderAttribute.yml
+  name: XmlSchemaProviderAttribute
+  fullName: System.Xml.Serialization.XmlSchemaProviderAttribute
+  type: Class
 - uid: System.Xml.Serialization.XmlAnyAttributeAttribute
   isExternal: false
   href: System.Xml.Serialization.XmlAnyAttributeAttribute.yml
@@ -260,18 +272,6 @@ references:
   href: System.Xml.Serialization.XmlTypeMapping.yml
   name: XmlTypeMapping
   fullName: System.Xml.Serialization.XmlTypeMapping
-  type: Class
-- uid: System.Xml.Serialization.IXmlSerializable
-  isExternal: false
-  href: System.Xml.Serialization.IXmlSerializable.yml
-  name: IXmlSerializable
-  fullName: System.Xml.Serialization.IXmlSerializable
-  type: Interface
-- uid: System.Xml.Serialization.XmlSchemaProviderAttribute
-  isExternal: false
-  href: System.Xml.Serialization.XmlSchemaProviderAttribute.yml
-  name: XmlSchemaProviderAttribute
-  fullName: System.Xml.Serialization.XmlSchemaProviderAttribute
   type: Class
 - uid: System.Xml.Serialization
   isExternal: false

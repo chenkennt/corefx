@@ -3,12 +3,12 @@ items:
   id: AssemblyFlags
   parent: System.Reflection
   children:
-  - System.Reflection.AssemblyFlags.PublicKey
-  - System.Reflection.AssemblyFlags.Retargetable
-  - System.Reflection.AssemblyFlags.WindowsRuntime
   - System.Reflection.AssemblyFlags.ContentTypeMask
   - System.Reflection.AssemblyFlags.DisableJitCompileOptimizer
   - System.Reflection.AssemblyFlags.EnableJitCompileTracking
+  - System.Reflection.AssemblyFlags.PublicKey
+  - System.Reflection.AssemblyFlags.Retargetable
+  - System.Reflection.AssemblyFlags.WindowsRuntime
   href: System.Reflection.AssemblyFlags.yml
   name: AssemblyFlags
   fullName: System.Reflection.AssemblyFlags

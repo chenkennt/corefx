@@ -8,11 +8,11 @@ items:
   - System.Threading.Tasks.Dataflow.ActionBlock`1.#ctor(System.Func{`0,System.Threading.Tasks.Task})
   - System.Threading.Tasks.Dataflow.ActionBlock`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions)
   - System.Threading.Tasks.Dataflow.ActionBlock`1.Complete
-  - System.Threading.Tasks.Dataflow.ActionBlock`1.System#Threading#Tasks#Dataflow#IDataflowBlock#Fault(System.Exception)
   - System.Threading.Tasks.Dataflow.ActionBlock`1.Completion
-  - System.Threading.Tasks.Dataflow.ActionBlock`1.Post(`0)
-  - System.Threading.Tasks.Dataflow.ActionBlock`1.System#Threading#Tasks#Dataflow#ITargetBlock{TInput}#OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,`0,System.Threading.Tasks.Dataflow.ISourceBlock{`0},System.Boolean)
   - System.Threading.Tasks.Dataflow.ActionBlock`1.InputCount
+  - System.Threading.Tasks.Dataflow.ActionBlock`1.Post(`0)
+  - System.Threading.Tasks.Dataflow.ActionBlock`1.System#Threading#Tasks#Dataflow#IDataflowBlock#Fault(System.Exception)
+  - System.Threading.Tasks.Dataflow.ActionBlock`1.System#Threading#Tasks#Dataflow#ITargetBlock{TInput}#OfferMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,`0,System.Threading.Tasks.Dataflow.ISourceBlock{`0},System.Boolean)
   - System.Threading.Tasks.Dataflow.ActionBlock`1.ToString
   href: System.Threading.Tasks.Dataflow.ActionBlock`1.yml
   name: ActionBlock<TInput>
@@ -349,6 +349,7 @@ references:
 - uid: System.Action`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T>
   name.vb: Action(Of T)
   fullName: System.Action<T>
@@ -358,6 +359,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T
@@ -369,6 +371,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -414,11 +417,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -426,12 +431,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -439,17 +446,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -457,18 +467,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -476,23 +489,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -500,18 +517,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -519,23 +539,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -543,6 +567,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -552,6 +577,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -559,6 +585,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -566,6 +593,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -575,6 +603,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -582,6 +611,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -589,6 +619,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -598,6 +629,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -610,6 +642,7 @@ references:
 - uid: System.Action{{TInput}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<TInput>
   name.vb: Action(Of TInput)
   fullName: System.Action<TInput>
@@ -619,6 +652,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: TInput
@@ -630,6 +664,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInput
@@ -651,6 +686,7 @@ references:
 - uid: System.Func`2
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<T, TResult>
   name.vb: Func(Of T, TResult)
   fullName: System.Func<T, TResult>
@@ -660,6 +696,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: T
@@ -675,6 +712,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -688,6 +726,7 @@ references:
 - uid: System.Func{{TInput},System.Threading.Tasks.Task}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TInput, Task>
   name.vb: Func(Of TInput, Task)
   fullName: System.Func<TInput, System.Threading.Tasks.Task>
@@ -697,6 +736,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TInput
@@ -707,6 +747,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -714,6 +755,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInput
@@ -724,16 +766,19 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task.yml
   - name: )
     fullName: )
 - uid: System.Exception
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Exception
   fullName: System.Exception
 - uid: System.Threading.Tasks.Task
   parent: System.Threading.Tasks
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task.yml
   name: Task
   fullName: System.Threading.Tasks.Task
 - uid: System.Threading.Tasks
@@ -781,6 +826,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Threading.Tasks.Dataflow.DataflowMessageHeader
@@ -864,11 +910,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -876,6 +924,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -885,6 +934,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -892,5 +942,6 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String

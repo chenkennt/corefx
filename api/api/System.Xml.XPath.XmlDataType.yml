@@ -3,8 +3,8 @@ items:
   id: XmlDataType
   parent: System.Xml.XPath
   children:
-  - System.Xml.XPath.XmlDataType.Text
   - System.Xml.XPath.XmlDataType.Number
+  - System.Xml.XPath.XmlDataType.Text
   href: System.Xml.XPath.XmlDataType.yml
   name: XmlDataType
   fullName: System.Xml.XPath.XmlDataType

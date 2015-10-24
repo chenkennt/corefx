@@ -2,8 +2,8 @@ items:
 - uid: System.Globalization
   id: System.Globalization
   children:
-  - System.Globalization.IdnMapping
   - System.Globalization.GlobalizationExtensions
+  - System.Globalization.IdnMapping
   href: System.Globalization.yml
   name: System.Globalization
   fullName: System.Globalization

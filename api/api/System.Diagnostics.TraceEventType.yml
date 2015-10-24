@@ -5,9 +5,9 @@ items:
   children:
   - System.Diagnostics.TraceEventType.Critical
   - System.Diagnostics.TraceEventType.Error
-  - System.Diagnostics.TraceEventType.Warning
   - System.Diagnostics.TraceEventType.Information
   - System.Diagnostics.TraceEventType.Verbose
+  - System.Diagnostics.TraceEventType.Warning
   href: System.Diagnostics.TraceEventType.yml
   name: TraceEventType
   fullName: System.Diagnostics.TraceEventType

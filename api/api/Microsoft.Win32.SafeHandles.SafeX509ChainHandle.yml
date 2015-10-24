@@ -3,10 +3,10 @@ items:
   id: SafeX509ChainHandle
   parent: Microsoft.Win32.SafeHandles
   children:
-  - Microsoft.Win32.SafeHandles.SafeX509ChainHandle.IsInvalid
-  - Microsoft.Win32.SafeHandles.SafeX509ChainHandle.InvalidHandle
-  - Microsoft.Win32.SafeHandles.SafeX509ChainHandle.ReleaseHandle
   - Microsoft.Win32.SafeHandles.SafeX509ChainHandle.Dispose(System.Boolean)
+  - Microsoft.Win32.SafeHandles.SafeX509ChainHandle.InvalidHandle
+  - Microsoft.Win32.SafeHandles.SafeX509ChainHandle.IsInvalid
+  - Microsoft.Win32.SafeHandles.SafeX509ChainHandle.ReleaseHandle
   href: Microsoft.Win32.SafeHandles.SafeX509ChainHandle.yml
   name: SafeX509ChainHandle
   fullName: Microsoft.Win32.SafeHandles.SafeX509ChainHandle
@@ -68,7 +68,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.IsInvalid
 - uid: Microsoft.Win32.SafeHandles.SafeX509ChainHandle.InvalidHandle
   id: InvalidHandle
@@ -90,7 +89,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeX509ChainHandle
-      description: 
 - uid: Microsoft.Win32.SafeHandles.SafeX509ChainHandle.ReleaseHandle
   id: ReleaseHandle
   parent: Microsoft.Win32.SafeHandles.SafeX509ChainHandle
@@ -110,7 +108,6 @@ items:
     content.vb: Protected Overrides Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
 - uid: Microsoft.Win32.SafeHandles.SafeX509ChainHandle.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -142,26 +139,31 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
   parent: System.Runtime.ConstrainedExecution
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.ConstrainedExecution.CriticalFinalizerObject.yml
   name: CriticalFinalizerObject
   fullName: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 - uid: System.Runtime.InteropServices.SafeHandle
   parent: System.Runtime.InteropServices
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: SafeHandle
   fullName: System.Runtime.InteropServices.SafeHandle
 - uid: System.Runtime.InteropServices.SafeHandle.handle
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: handle
   fullName: System.Runtime.InteropServices.SafeHandle.handle
 - uid: System.Runtime.InteropServices.SafeHandle.SetHandle(System.IntPtr)
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: SetHandle(IntPtr)
   fullName: System.Runtime.InteropServices.SafeHandle.SetHandle(System.IntPtr)
   spec.csharp:
@@ -169,12 +171,14 @@ references:
     name: SetHandle
     fullName: System.Runtime.InteropServices.SafeHandle.SetHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
   spec.vb:
@@ -182,17 +186,20 @@ references:
     name: SetHandle
     fullName: System.Runtime.InteropServices.SafeHandle.SetHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - uid: System.IntPtr
     name: IntPtr
     fullName: System.IntPtr
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   - name: )
     fullName: )
 - uid: System.Runtime.InteropServices.SafeHandle.DangerousGetHandle
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: DangerousGetHandle()
   fullName: System.Runtime.InteropServices.SafeHandle.DangerousGetHandle()
   spec.csharp:
@@ -200,6 +207,7 @@ references:
     name: DangerousGetHandle
     fullName: System.Runtime.InteropServices.SafeHandle.DangerousGetHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -209,6 +217,7 @@ references:
     name: DangerousGetHandle
     fullName: System.Runtime.InteropServices.SafeHandle.DangerousGetHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -216,6 +225,7 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.Close
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: Close()
   fullName: System.Runtime.InteropServices.SafeHandle.Close()
   spec.csharp:
@@ -223,6 +233,7 @@ references:
     name: Close
     fullName: System.Runtime.InteropServices.SafeHandle.Close
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -232,6 +243,7 @@ references:
     name: Close
     fullName: System.Runtime.InteropServices.SafeHandle.Close
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -239,6 +251,7 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.Dispose
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: Dispose()
   fullName: System.Runtime.InteropServices.SafeHandle.Dispose()
   spec.csharp:
@@ -246,6 +259,7 @@ references:
     name: Dispose
     fullName: System.Runtime.InteropServices.SafeHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -255,6 +269,7 @@ references:
     name: Dispose
     fullName: System.Runtime.InteropServices.SafeHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -262,6 +277,7 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: SetHandleAsInvalid()
   fullName: System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid()
   spec.csharp:
@@ -269,6 +285,7 @@ references:
     name: SetHandleAsInvalid
     fullName: System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -278,6 +295,7 @@ references:
     name: SetHandleAsInvalid
     fullName: System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -285,6 +303,7 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.DangerousAddRef(System.Boolean@)
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: DangerousAddRef(Boolean)
   fullName: System.Runtime.InteropServices.SafeHandle.DangerousAddRef(System.Boolean)
   spec.csharp:
@@ -292,12 +311,14 @@ references:
     name: DangerousAddRef
     fullName: System.Runtime.InteropServices.SafeHandle.DangerousAddRef
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -305,17 +326,20 @@ references:
     name: DangerousAddRef
     fullName: System.Runtime.InteropServices.SafeHandle.DangerousAddRef
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Runtime.InteropServices.SafeHandle.DangerousRelease
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: DangerousRelease()
   fullName: System.Runtime.InteropServices.SafeHandle.DangerousRelease()
   spec.csharp:
@@ -323,6 +347,7 @@ references:
     name: DangerousRelease
     fullName: System.Runtime.InteropServices.SafeHandle.DangerousRelease
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -332,6 +357,7 @@ references:
     name: DangerousRelease
     fullName: System.Runtime.InteropServices.SafeHandle.DangerousRelease
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -339,11 +365,13 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.IsClosed
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: IsClosed
   fullName: System.Runtime.InteropServices.SafeHandle.IsClosed
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -351,6 +379,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -360,6 +389,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -367,6 +397,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -374,12 +405,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -387,17 +420,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -405,18 +441,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -424,23 +463,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -448,18 +491,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -467,23 +513,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -491,6 +541,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -500,6 +551,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -507,6 +559,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -514,6 +567,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -523,6 +577,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -530,6 +585,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -537,6 +593,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -546,6 +603,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -565,11 +623,13 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.IsInvalid
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: IsInvalid
   fullName: System.Runtime.InteropServices.SafeHandle.IsInvalid
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: Microsoft.Win32.SafeHandles.SafeX509ChainHandle
@@ -582,6 +642,7 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: ReleaseHandle()
   fullName: System.Runtime.InteropServices.SafeHandle.ReleaseHandle()
   spec.csharp:
@@ -589,6 +650,7 @@ references:
     name: ReleaseHandle
     fullName: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -598,6 +660,7 @@ references:
     name: ReleaseHandle
     fullName: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -605,6 +668,7 @@ references:
 - uid: System.Runtime.InteropServices.SafeHandle.Dispose(System.Boolean)
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   name: Dispose(Boolean)
   fullName: System.Runtime.InteropServices.SafeHandle.Dispose(System.Boolean)
   spec.csharp:
@@ -612,12 +676,14 @@ references:
     name: Dispose
     fullName: System.Runtime.InteropServices.SafeHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -625,11 +691,13 @@ references:
     name: Dispose
     fullName: System.Runtime.InteropServices.SafeHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeHandle.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )

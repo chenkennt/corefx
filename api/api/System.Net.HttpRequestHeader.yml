@@ -3,33 +3,25 @@ items:
   id: HttpRequestHeader
   parent: System.Net
   children:
-  - System.Net.HttpRequestHeader.CacheControl
-  - System.Net.HttpRequestHeader.Connection
-  - System.Net.HttpRequestHeader.Date
-  - System.Net.HttpRequestHeader.KeepAlive
-  - System.Net.HttpRequestHeader.Pragma
-  - System.Net.HttpRequestHeader.Trailer
-  - System.Net.HttpRequestHeader.TransferEncoding
-  - System.Net.HttpRequestHeader.Upgrade
-  - System.Net.HttpRequestHeader.Via
-  - System.Net.HttpRequestHeader.Warning
-  - System.Net.HttpRequestHeader.Allow
-  - System.Net.HttpRequestHeader.ContentLength
-  - System.Net.HttpRequestHeader.ContentType
-  - System.Net.HttpRequestHeader.ContentEncoding
-  - System.Net.HttpRequestHeader.ContentLanguage
-  - System.Net.HttpRequestHeader.ContentLocation
-  - System.Net.HttpRequestHeader.ContentMd5
-  - System.Net.HttpRequestHeader.ContentRange
-  - System.Net.HttpRequestHeader.Expires
-  - System.Net.HttpRequestHeader.LastModified
   - System.Net.HttpRequestHeader.Accept
   - System.Net.HttpRequestHeader.AcceptCharset
   - System.Net.HttpRequestHeader.AcceptEncoding
   - System.Net.HttpRequestHeader.AcceptLanguage
+  - System.Net.HttpRequestHeader.Allow
   - System.Net.HttpRequestHeader.Authorization
+  - System.Net.HttpRequestHeader.CacheControl
+  - System.Net.HttpRequestHeader.Connection
+  - System.Net.HttpRequestHeader.ContentEncoding
+  - System.Net.HttpRequestHeader.ContentLanguage
+  - System.Net.HttpRequestHeader.ContentLength
+  - System.Net.HttpRequestHeader.ContentLocation
+  - System.Net.HttpRequestHeader.ContentMd5
+  - System.Net.HttpRequestHeader.ContentRange
+  - System.Net.HttpRequestHeader.ContentType
   - System.Net.HttpRequestHeader.Cookie
+  - System.Net.HttpRequestHeader.Date
   - System.Net.HttpRequestHeader.Expect
+  - System.Net.HttpRequestHeader.Expires
   - System.Net.HttpRequestHeader.From
   - System.Net.HttpRequestHeader.Host
   - System.Net.HttpRequestHeader.IfMatch
@@ -37,13 +29,21 @@ items:
   - System.Net.HttpRequestHeader.IfNoneMatch
   - System.Net.HttpRequestHeader.IfRange
   - System.Net.HttpRequestHeader.IfUnmodifiedSince
+  - System.Net.HttpRequestHeader.KeepAlive
+  - System.Net.HttpRequestHeader.LastModified
   - System.Net.HttpRequestHeader.MaxForwards
+  - System.Net.HttpRequestHeader.Pragma
   - System.Net.HttpRequestHeader.ProxyAuthorization
-  - System.Net.HttpRequestHeader.Referer
   - System.Net.HttpRequestHeader.Range
+  - System.Net.HttpRequestHeader.Referer
   - System.Net.HttpRequestHeader.Te
+  - System.Net.HttpRequestHeader.Trailer
+  - System.Net.HttpRequestHeader.TransferEncoding
   - System.Net.HttpRequestHeader.Translate
+  - System.Net.HttpRequestHeader.Upgrade
   - System.Net.HttpRequestHeader.UserAgent
+  - System.Net.HttpRequestHeader.Via
+  - System.Net.HttpRequestHeader.Warning
   href: System.Net.HttpRequestHeader.yml
   name: HttpRequestHeader
   fullName: System.Net.HttpRequestHeader

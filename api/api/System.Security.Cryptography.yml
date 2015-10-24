@@ -2,43 +2,43 @@ items:
 - uid: System.Security.Cryptography
   id: System.Security.Cryptography
   children:
-  - System.Security.Cryptography.MD5
-  - System.Security.Cryptography.SHA1
-  - System.Security.Cryptography.SHA256
-  - System.Security.Cryptography.SHA384
-  - System.Security.Cryptography.SHA512
-  - System.Security.Cryptography.HMACSHA1
-  - System.Security.Cryptography.HMACSHA256
-  - System.Security.Cryptography.HMACSHA384
-  - System.Security.Cryptography.HMACSHA512
-  - System.Security.Cryptography.RandomNumberGenerator
   - System.Security.Cryptography.Aes
-  - System.Security.Cryptography.DeriveBytes
-  - System.Security.Cryptography.Rfc2898DeriveBytes
   - System.Security.Cryptography.AsnEncodedData
-  - System.Security.Cryptography.Oid
-  - System.Security.Cryptography.OidCollection
-  - System.Security.Cryptography.OidEnumerator
-  - System.Security.Cryptography.OidGroup
-  - System.Security.Cryptography.CspProviderFlags
-  - System.Security.Cryptography.ICspAsymmetricAlgorithm
-  - System.Security.Cryptography.KeyNumber
-  - System.Security.Cryptography.RSA
-  - System.Security.Cryptography.RSAParameters
-  - System.Security.Cryptography.CspKeyContainerInfo
-  - System.Security.Cryptography.CspParameters
-  - System.Security.Cryptography.RSACryptoServiceProvider
-  - System.Security.Cryptography.HashAlgorithm
-  - System.Security.Cryptography.HMAC
-  - System.Security.Cryptography.KeyedHashAlgorithm
   - System.Security.Cryptography.AsymmetricAlgorithm
   - System.Security.Cryptography.CipherMode
   - System.Security.Cryptography.CryptographicException
   - System.Security.Cryptography.CryptoStream
   - System.Security.Cryptography.CryptoStreamMode
+  - System.Security.Cryptography.CspKeyContainerInfo
+  - System.Security.Cryptography.CspParameters
+  - System.Security.Cryptography.CspProviderFlags
+  - System.Security.Cryptography.DeriveBytes
+  - System.Security.Cryptography.HashAlgorithm
+  - System.Security.Cryptography.HMAC
+  - System.Security.Cryptography.HMACSHA1
+  - System.Security.Cryptography.HMACSHA256
+  - System.Security.Cryptography.HMACSHA384
+  - System.Security.Cryptography.HMACSHA512
   - System.Security.Cryptography.ICryptoTransform
+  - System.Security.Cryptography.ICspAsymmetricAlgorithm
+  - System.Security.Cryptography.KeyedHashAlgorithm
+  - System.Security.Cryptography.KeyNumber
   - System.Security.Cryptography.KeySizes
+  - System.Security.Cryptography.MD5
+  - System.Security.Cryptography.Oid
+  - System.Security.Cryptography.OidCollection
+  - System.Security.Cryptography.OidEnumerator
+  - System.Security.Cryptography.OidGroup
   - System.Security.Cryptography.PaddingMode
+  - System.Security.Cryptography.RandomNumberGenerator
+  - System.Security.Cryptography.Rfc2898DeriveBytes
+  - System.Security.Cryptography.RSA
+  - System.Security.Cryptography.RSACryptoServiceProvider
+  - System.Security.Cryptography.RSAParameters
+  - System.Security.Cryptography.SHA1
+  - System.Security.Cryptography.SHA256
+  - System.Security.Cryptography.SHA384
+  - System.Security.Cryptography.SHA512
   - System.Security.Cryptography.SymmetricAlgorithm
   href: System.Security.Cryptography.yml
   name: System.Security.Cryptography
@@ -46,15 +46,109 @@ items:
   type: Namespace
   source:
     remote:
-      path: src/System.Security.Cryptography.Hashing.Algorithms/src/System/Security/Cryptography/HMACSHA512.cs
+      path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Utils.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Security.Cryptography.Hashing.Algorithms/src/System/Security/Cryptography/HMACSHA512.cs
-    startLine: 9
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Utils.cs
+    startLine: 3
   assemblies:
-  - System.Security.Cryptography.Hashing.Algorithms
+  - System.Security.Cryptography.RSA
 references:
+- uid: System.Security.Cryptography.CspProviderFlags
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.CspProviderFlags.yml
+  name: CspProviderFlags
+  fullName: System.Security.Cryptography.CspProviderFlags
+  type: Enum
+- uid: System.Security.Cryptography.ICspAsymmetricAlgorithm
+  isExternal: false
+  href: System.Security.Cryptography.ICspAsymmetricAlgorithm.yml
+  name: ICspAsymmetricAlgorithm
+  fullName: System.Security.Cryptography.ICspAsymmetricAlgorithm
+  type: Interface
+- uid: System.Security.Cryptography.KeyNumber
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.KeyNumber.yml
+  name: KeyNumber
+  fullName: System.Security.Cryptography.KeyNumber
+  type: Enum
+- uid: System.Security.Cryptography.RSA
+  isExternal: false
+  href: System.Security.Cryptography.RSA.yml
+  name: RSA
+  fullName: System.Security.Cryptography.RSA
+  type: Class
+- uid: System.Security.Cryptography.RSAParameters
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: RSAParameters
+  fullName: System.Security.Cryptography.RSAParameters
+  type: Struct
+- uid: System.Security.Cryptography.CspKeyContainerInfo
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.CspKeyContainerInfo.yml
+  name: CspKeyContainerInfo
+  fullName: System.Security.Cryptography.CspKeyContainerInfo
+  type: Class
+- uid: System.Security.Cryptography.CspParameters
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.CspParameters.yml
+  name: CspParameters
+  fullName: System.Security.Cryptography.CspParameters
+  type: Class
+- uid: System.Security.Cryptography.RSACryptoServiceProvider
+  isExternal: false
+  href: System.Security.Cryptography.RSACryptoServiceProvider.yml
+  name: RSACryptoServiceProvider
+  fullName: System.Security.Cryptography.RSACryptoServiceProvider
+  type: Class
+- uid: System.Security.Cryptography.Aes
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.Aes.yml
+  name: Aes
+  fullName: System.Security.Cryptography.Aes
+  type: Class
+- uid: System.Security.Cryptography.AsnEncodedData
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.AsnEncodedData.yml
+  name: AsnEncodedData
+  fullName: System.Security.Cryptography.AsnEncodedData
+  type: Class
+- uid: System.Security.Cryptography.Oid
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.Oid.yml
+  name: Oid
+  fullName: System.Security.Cryptography.Oid
+  type: Class
+- uid: System.Security.Cryptography.OidCollection
+  isExternal: false
+  href: System.Security.Cryptography.OidCollection.yml
+  name: OidCollection
+  fullName: System.Security.Cryptography.OidCollection
+  type: Class
+- uid: System.Security.Cryptography.OidEnumerator
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.OidEnumerator.yml
+  name: OidEnumerator
+  fullName: System.Security.Cryptography.OidEnumerator
+  type: Class
+- uid: System.Security.Cryptography.OidGroup
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.OidGroup.yml
+  name: OidGroup
+  fullName: System.Security.Cryptography.OidGroup
+  type: Enum
 - uid: System.Security.Cryptography.MD5
   parent: System.Security.Cryptography
   isExternal: false
@@ -114,6 +208,24 @@ references:
   name: HMACSHA512
   fullName: System.Security.Cryptography.HMACSHA512
   type: Class
+- uid: System.Security.Cryptography.HashAlgorithm
+  parent: System.Security.Cryptography
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HashAlgorithm.yml
+  name: HashAlgorithm
+  fullName: System.Security.Cryptography.HashAlgorithm
+- uid: System.Security.Cryptography.HMAC
+  parent: System.Security.Cryptography
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.HMAC.yml
+  name: HMAC
+  fullName: System.Security.Cryptography.HMAC
+- uid: System.Security.Cryptography.KeyedHashAlgorithm
+  parent: System.Security.Cryptography
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.KeyedHashAlgorithm.yml
+  name: KeyedHashAlgorithm
+  fullName: System.Security.Cryptography.KeyedHashAlgorithm
 - uid: System.Security.Cryptography.RandomNumberGenerator
   parent: System.Security.Cryptography
   isExternal: false
@@ -121,130 +233,10 @@ references:
   name: RandomNumberGenerator
   fullName: System.Security.Cryptography.RandomNumberGenerator
   type: Class
-- uid: System.Security.Cryptography.Aes
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.Aes.yml
-  name: Aes
-  fullName: System.Security.Cryptography.Aes
-  type: Class
-- uid: System.Security.Cryptography.DeriveBytes
-  isExternal: false
-  href: System.Security.Cryptography.DeriveBytes.yml
-  name: DeriveBytes
-  fullName: System.Security.Cryptography.DeriveBytes
-  type: Class
-- uid: System.Security.Cryptography.Rfc2898DeriveBytes
-  isExternal: false
-  href: System.Security.Cryptography.Rfc2898DeriveBytes.yml
-  name: Rfc2898DeriveBytes
-  fullName: System.Security.Cryptography.Rfc2898DeriveBytes
-  type: Class
-- uid: System.Security.Cryptography.AsnEncodedData
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.AsnEncodedData.yml
-  name: AsnEncodedData
-  fullName: System.Security.Cryptography.AsnEncodedData
-  type: Class
-- uid: System.Security.Cryptography.Oid
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.Oid.yml
-  name: Oid
-  fullName: System.Security.Cryptography.Oid
-  type: Class
-- uid: System.Security.Cryptography.OidCollection
-  isExternal: false
-  href: System.Security.Cryptography.OidCollection.yml
-  name: OidCollection
-  fullName: System.Security.Cryptography.OidCollection
-  type: Class
-- uid: System.Security.Cryptography.OidEnumerator
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.OidEnumerator.yml
-  name: OidEnumerator
-  fullName: System.Security.Cryptography.OidEnumerator
-  type: Class
-- uid: System.Security.Cryptography.OidGroup
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.OidGroup.yml
-  name: OidGroup
-  fullName: System.Security.Cryptography.OidGroup
-  type: Enum
-- uid: System.Security.Cryptography.CspProviderFlags
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.CspProviderFlags.yml
-  name: CspProviderFlags
-  fullName: System.Security.Cryptography.CspProviderFlags
-  type: Enum
-- uid: System.Security.Cryptography.ICspAsymmetricAlgorithm
-  isExternal: false
-  href: System.Security.Cryptography.ICspAsymmetricAlgorithm.yml
-  name: ICspAsymmetricAlgorithm
-  fullName: System.Security.Cryptography.ICspAsymmetricAlgorithm
-  type: Interface
-- uid: System.Security.Cryptography.KeyNumber
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.KeyNumber.yml
-  name: KeyNumber
-  fullName: System.Security.Cryptography.KeyNumber
-  type: Enum
-- uid: System.Security.Cryptography.RSA
-  isExternal: false
-  href: System.Security.Cryptography.RSA.yml
-  name: RSA
-  fullName: System.Security.Cryptography.RSA
-  type: Class
-- uid: System.Security.Cryptography.RSAParameters
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.RSAParameters.yml
-  name: RSAParameters
-  fullName: System.Security.Cryptography.RSAParameters
-  type: Struct
-- uid: System.Security.Cryptography.CspKeyContainerInfo
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.CspKeyContainerInfo.yml
-  name: CspKeyContainerInfo
-  fullName: System.Security.Cryptography.CspKeyContainerInfo
-  type: Class
-- uid: System.Security.Cryptography.CspParameters
-  parent: System.Security.Cryptography
-  isExternal: false
-  href: System.Security.Cryptography.CspParameters.yml
-  name: CspParameters
-  fullName: System.Security.Cryptography.CspParameters
-  type: Class
-- uid: System.Security.Cryptography.RSACryptoServiceProvider
-  isExternal: false
-  href: System.Security.Cryptography.RSACryptoServiceProvider.yml
-  name: RSACryptoServiceProvider
-  fullName: System.Security.Cryptography.RSACryptoServiceProvider
-  type: Class
-- uid: System.Security.Cryptography.HashAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: true
-  name: HashAlgorithm
-  fullName: System.Security.Cryptography.HashAlgorithm
-- uid: System.Security.Cryptography.HMAC
-  parent: System.Security.Cryptography
-  isExternal: true
-  name: HMAC
-  fullName: System.Security.Cryptography.HMAC
-- uid: System.Security.Cryptography.KeyedHashAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: true
-  name: KeyedHashAlgorithm
-  fullName: System.Security.Cryptography.KeyedHashAlgorithm
 - uid: System.Security.Cryptography.AsymmetricAlgorithm
   parent: System.Security.Cryptography
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.AsymmetricAlgorithm.yml
   name: AsymmetricAlgorithm
   fullName: System.Security.Cryptography.AsymmetricAlgorithm
 - uid: System.Security.Cryptography.CipherMode
@@ -276,6 +268,7 @@ references:
 - uid: System.Security.Cryptography.ICryptoTransform
   parent: System.Security.Cryptography
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.ICryptoTransform.yml
   name: ICryptoTransform
   fullName: System.Security.Cryptography.ICryptoTransform
 - uid: System.Security.Cryptography.KeySizes
@@ -294,8 +287,21 @@ references:
 - uid: System.Security.Cryptography.SymmetricAlgorithm
   parent: System.Security.Cryptography
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Cryptography.SymmetricAlgorithm.yml
   name: SymmetricAlgorithm
   fullName: System.Security.Cryptography.SymmetricAlgorithm
+- uid: System.Security.Cryptography.DeriveBytes
+  isExternal: false
+  href: System.Security.Cryptography.DeriveBytes.yml
+  name: DeriveBytes
+  fullName: System.Security.Cryptography.DeriveBytes
+  type: Class
+- uid: System.Security.Cryptography.Rfc2898DeriveBytes
+  isExternal: false
+  href: System.Security.Cryptography.Rfc2898DeriveBytes.yml
+  name: Rfc2898DeriveBytes
+  fullName: System.Security.Cryptography.Rfc2898DeriveBytes
+  type: Class
 - uid: System.Security.Cryptography
   isExternal: false
   name: System.Security.Cryptography

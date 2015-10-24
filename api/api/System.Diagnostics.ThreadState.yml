@@ -8,9 +8,9 @@ items:
   - System.Diagnostics.ThreadState.Running
   - System.Diagnostics.ThreadState.Standby
   - System.Diagnostics.ThreadState.Terminated
-  - System.Diagnostics.ThreadState.Wait
   - System.Diagnostics.ThreadState.Transition
   - System.Diagnostics.ThreadState.Unknown
+  - System.Diagnostics.ThreadState.Wait
   href: System.Diagnostics.ThreadState.yml
   name: ThreadState
   fullName: System.Diagnostics.ThreadState

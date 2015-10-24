@@ -3,16 +3,16 @@ items:
   id: WebSocketCloseStatus
   parent: System.Net.WebSockets
   children:
-  - System.Net.WebSockets.WebSocketCloseStatus.NormalClosure
-  - System.Net.WebSockets.WebSocketCloseStatus.EndpointUnavailable
-  - System.Net.WebSockets.WebSocketCloseStatus.ProtocolError
-  - System.Net.WebSockets.WebSocketCloseStatus.InvalidMessageType
   - System.Net.WebSockets.WebSocketCloseStatus.Empty
-  - System.Net.WebSockets.WebSocketCloseStatus.InvalidPayloadData
-  - System.Net.WebSockets.WebSocketCloseStatus.PolicyViolation
-  - System.Net.WebSockets.WebSocketCloseStatus.MessageTooBig
-  - System.Net.WebSockets.WebSocketCloseStatus.MandatoryExtension
+  - System.Net.WebSockets.WebSocketCloseStatus.EndpointUnavailable
   - System.Net.WebSockets.WebSocketCloseStatus.InternalServerError
+  - System.Net.WebSockets.WebSocketCloseStatus.InvalidMessageType
+  - System.Net.WebSockets.WebSocketCloseStatus.InvalidPayloadData
+  - System.Net.WebSockets.WebSocketCloseStatus.MandatoryExtension
+  - System.Net.WebSockets.WebSocketCloseStatus.MessageTooBig
+  - System.Net.WebSockets.WebSocketCloseStatus.NormalClosure
+  - System.Net.WebSockets.WebSocketCloseStatus.PolicyViolation
+  - System.Net.WebSockets.WebSocketCloseStatus.ProtocolError
   href: System.Net.WebSockets.WebSocketCloseStatus.yml
   name: WebSocketCloseStatus
   fullName: System.Net.WebSockets.WebSocketCloseStatus

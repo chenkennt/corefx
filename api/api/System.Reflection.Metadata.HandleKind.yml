@@ -3,36 +3,36 @@ items:
   id: HandleKind
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.HandleKind.ModuleDefinition
-  - System.Reflection.Metadata.HandleKind.TypeReference
-  - System.Reflection.Metadata.HandleKind.TypeDefinition
-  - System.Reflection.Metadata.HandleKind.FieldDefinition
-  - System.Reflection.Metadata.HandleKind.MethodDefinition
-  - System.Reflection.Metadata.HandleKind.Parameter
-  - System.Reflection.Metadata.HandleKind.InterfaceImplementation
-  - System.Reflection.Metadata.HandleKind.MemberReference
-  - System.Reflection.Metadata.HandleKind.Constant
-  - System.Reflection.Metadata.HandleKind.CustomAttribute
-  - System.Reflection.Metadata.HandleKind.DeclarativeSecurityAttribute
-  - System.Reflection.Metadata.HandleKind.StandaloneSignature
-  - System.Reflection.Metadata.HandleKind.EventDefinition
-  - System.Reflection.Metadata.HandleKind.PropertyDefinition
-  - System.Reflection.Metadata.HandleKind.MethodImplementation
-  - System.Reflection.Metadata.HandleKind.ModuleReference
-  - System.Reflection.Metadata.HandleKind.TypeSpecification
   - System.Reflection.Metadata.HandleKind.AssemblyDefinition
   - System.Reflection.Metadata.HandleKind.AssemblyFile
   - System.Reflection.Metadata.HandleKind.AssemblyReference
-  - System.Reflection.Metadata.HandleKind.ExportedType
-  - System.Reflection.Metadata.HandleKind.GenericParameter
-  - System.Reflection.Metadata.HandleKind.MethodSpecification
-  - System.Reflection.Metadata.HandleKind.GenericParameterConstraint
-  - System.Reflection.Metadata.HandleKind.ManifestResource
-  - System.Reflection.Metadata.HandleKind.NamespaceDefinition
-  - System.Reflection.Metadata.HandleKind.UserString
-  - System.Reflection.Metadata.HandleKind.String
   - System.Reflection.Metadata.HandleKind.Blob
+  - System.Reflection.Metadata.HandleKind.Constant
+  - System.Reflection.Metadata.HandleKind.CustomAttribute
+  - System.Reflection.Metadata.HandleKind.DeclarativeSecurityAttribute
+  - System.Reflection.Metadata.HandleKind.EventDefinition
+  - System.Reflection.Metadata.HandleKind.ExportedType
+  - System.Reflection.Metadata.HandleKind.FieldDefinition
+  - System.Reflection.Metadata.HandleKind.GenericParameter
+  - System.Reflection.Metadata.HandleKind.GenericParameterConstraint
   - System.Reflection.Metadata.HandleKind.Guid
+  - System.Reflection.Metadata.HandleKind.InterfaceImplementation
+  - System.Reflection.Metadata.HandleKind.ManifestResource
+  - System.Reflection.Metadata.HandleKind.MemberReference
+  - System.Reflection.Metadata.HandleKind.MethodDefinition
+  - System.Reflection.Metadata.HandleKind.MethodImplementation
+  - System.Reflection.Metadata.HandleKind.MethodSpecification
+  - System.Reflection.Metadata.HandleKind.ModuleDefinition
+  - System.Reflection.Metadata.HandleKind.ModuleReference
+  - System.Reflection.Metadata.HandleKind.NamespaceDefinition
+  - System.Reflection.Metadata.HandleKind.Parameter
+  - System.Reflection.Metadata.HandleKind.PropertyDefinition
+  - System.Reflection.Metadata.HandleKind.StandaloneSignature
+  - System.Reflection.Metadata.HandleKind.String
+  - System.Reflection.Metadata.HandleKind.TypeDefinition
+  - System.Reflection.Metadata.HandleKind.TypeReference
+  - System.Reflection.Metadata.HandleKind.TypeSpecification
+  - System.Reflection.Metadata.HandleKind.UserString
   href: System.Reflection.Metadata.HandleKind.yml
   name: HandleKind
   fullName: System.Reflection.Metadata.HandleKind

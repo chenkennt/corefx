@@ -3,20 +3,20 @@ items:
   id: ThreadWaitReason
   parent: System.Diagnostics
   children:
-  - System.Diagnostics.ThreadWaitReason.Executive
-  - System.Diagnostics.ThreadWaitReason.FreePage
-  - System.Diagnostics.ThreadWaitReason.PageIn
-  - System.Diagnostics.ThreadWaitReason.SystemAllocation
-  - System.Diagnostics.ThreadWaitReason.ExecutionDelay
-  - System.Diagnostics.ThreadWaitReason.Suspended
-  - System.Diagnostics.ThreadWaitReason.UserRequest
   - System.Diagnostics.ThreadWaitReason.EventPairHigh
   - System.Diagnostics.ThreadWaitReason.EventPairLow
+  - System.Diagnostics.ThreadWaitReason.ExecutionDelay
+  - System.Diagnostics.ThreadWaitReason.Executive
+  - System.Diagnostics.ThreadWaitReason.FreePage
   - System.Diagnostics.ThreadWaitReason.LpcReceive
   - System.Diagnostics.ThreadWaitReason.LpcReply
-  - System.Diagnostics.ThreadWaitReason.VirtualMemory
+  - System.Diagnostics.ThreadWaitReason.PageIn
   - System.Diagnostics.ThreadWaitReason.PageOut
+  - System.Diagnostics.ThreadWaitReason.Suspended
+  - System.Diagnostics.ThreadWaitReason.SystemAllocation
   - System.Diagnostics.ThreadWaitReason.Unknown
+  - System.Diagnostics.ThreadWaitReason.UserRequest
+  - System.Diagnostics.ThreadWaitReason.VirtualMemory
   href: System.Diagnostics.ThreadWaitReason.yml
   name: ThreadWaitReason
   fullName: System.Diagnostics.ThreadWaitReason

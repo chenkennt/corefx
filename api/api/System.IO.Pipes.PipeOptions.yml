@@ -3,9 +3,9 @@ items:
   id: PipeOptions
   parent: System.IO.Pipes
   children:
+  - System.IO.Pipes.PipeOptions.Asynchronous
   - System.IO.Pipes.PipeOptions.None
   - System.IO.Pipes.PipeOptions.WriteThrough
-  - System.IO.Pipes.PipeOptions.Asynchronous
   href: System.IO.Pipes.PipeOptions.yml
   name: PipeOptions
   fullName: System.IO.Pipes.PipeOptions

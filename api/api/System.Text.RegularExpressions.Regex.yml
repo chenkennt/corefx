@@ -3,56 +3,56 @@ items:
   id: Regex
   parent: System.Text.RegularExpressions
   children:
-  - System.Text.RegularExpressions.Regex.InfiniteMatchTimeout
   - System.Text.RegularExpressions.Regex.#ctor
   - System.Text.RegularExpressions.Regex.#ctor(System.String)
   - System.Text.RegularExpressions.Regex.#ctor(System.String,System.Text.RegularExpressions.RegexOptions)
   - System.Text.RegularExpressions.Regex.#ctor(System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
-  - System.Text.RegularExpressions.Regex.Escape(System.String)
-  - System.Text.RegularExpressions.Regex.Unescape(System.String)
   - System.Text.RegularExpressions.Regex.CacheSize
-  - System.Text.RegularExpressions.Regex.Options
-  - System.Text.RegularExpressions.Regex.MatchTimeout
-  - System.Text.RegularExpressions.Regex.RightToLeft
-  - System.Text.RegularExpressions.Regex.ToString
+  - System.Text.RegularExpressions.Regex.Escape(System.String)
   - System.Text.RegularExpressions.Regex.GetGroupNames
   - System.Text.RegularExpressions.Regex.GetGroupNumbers
   - System.Text.RegularExpressions.Regex.GroupNameFromNumber(System.Int32)
   - System.Text.RegularExpressions.Regex.GroupNumberFromName(System.String)
+  - System.Text.RegularExpressions.Regex.InfiniteMatchTimeout
+  - System.Text.RegularExpressions.Regex.IsMatch(System.String)
+  - System.Text.RegularExpressions.Regex.IsMatch(System.String,System.Int32)
   - System.Text.RegularExpressions.Regex.IsMatch(System.String,System.String)
   - System.Text.RegularExpressions.Regex.IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
   - System.Text.RegularExpressions.Regex.IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
-  - System.Text.RegularExpressions.Regex.IsMatch(System.String)
-  - System.Text.RegularExpressions.Regex.IsMatch(System.String,System.Int32)
-  - System.Text.RegularExpressions.Regex.Match(System.String,System.String)
-  - System.Text.RegularExpressions.Regex.Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
-  - System.Text.RegularExpressions.Regex.Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
   - System.Text.RegularExpressions.Regex.Match(System.String)
   - System.Text.RegularExpressions.Regex.Match(System.String,System.Int32)
   - System.Text.RegularExpressions.Regex.Match(System.String,System.Int32,System.Int32)
+  - System.Text.RegularExpressions.Regex.Match(System.String,System.String)
+  - System.Text.RegularExpressions.Regex.Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
+  - System.Text.RegularExpressions.Regex.Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+  - System.Text.RegularExpressions.Regex.Matches(System.String)
+  - System.Text.RegularExpressions.Regex.Matches(System.String,System.Int32)
   - System.Text.RegularExpressions.Regex.Matches(System.String,System.String)
   - System.Text.RegularExpressions.Regex.Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
   - System.Text.RegularExpressions.Regex.Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
-  - System.Text.RegularExpressions.Regex.Matches(System.String)
-  - System.Text.RegularExpressions.Regex.Matches(System.String,System.Int32)
-  - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String)
-  - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions)
-  - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+  - System.Text.RegularExpressions.Regex.MatchTimeout
+  - System.Text.RegularExpressions.Regex.Options
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.String)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Int32)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Int32,System.Int32)
+  - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String)
+  - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions)
+  - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.Text.RegularExpressions.MatchEvaluator)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32)
   - System.Text.RegularExpressions.Regex.Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32)
-  - System.Text.RegularExpressions.Regex.Split(System.String,System.String)
-  - System.Text.RegularExpressions.Regex.Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
-  - System.Text.RegularExpressions.Regex.Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+  - System.Text.RegularExpressions.Regex.RightToLeft
   - System.Text.RegularExpressions.Regex.Split(System.String)
   - System.Text.RegularExpressions.Regex.Split(System.String,System.Int32)
   - System.Text.RegularExpressions.Regex.Split(System.String,System.Int32,System.Int32)
+  - System.Text.RegularExpressions.Regex.Split(System.String,System.String)
+  - System.Text.RegularExpressions.Regex.Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
+  - System.Text.RegularExpressions.Regex.Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+  - System.Text.RegularExpressions.Regex.ToString
+  - System.Text.RegularExpressions.Regex.Unescape(System.String)
   href: System.Text.RegularExpressions.Regex.yml
   name: Regex
   fullName: System.Text.RegularExpressions.Regex
@@ -273,7 +273,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.RegularExpressions.Regex.Options
   id: Options
   parent: System.Text.RegularExpressions.Regex
@@ -532,7 +531,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Text.RegularExpressions.Regex.IsMatch(System.String)
   id: IsMatch(System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -675,7 +673,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Text.RegularExpressions.Match
-      description: 
 - uid: System.Text.RegularExpressions.Regex.Match(System.String)
   id: Match(System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -840,7 +837,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Text.RegularExpressions.MatchCollection
-      description: 
 - uid: System.Text.RegularExpressions.Regex.Matches(System.String)
   id: Matches(System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -983,7 +979,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.String
-      description: 
 - uid: System.Text.RegularExpressions.Regex.Replace(System.String,System.String)
   id: Replace(System.String,System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -1172,7 +1167,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.String
-      description: 
 - uid: System.Text.RegularExpressions.Regex.Replace(System.String,System.Text.RegularExpressions.MatchEvaluator)
   id: Replace(System.String,System.Text.RegularExpressions.MatchEvaluator)
   parent: System.Text.RegularExpressions.Regex
@@ -1348,7 +1342,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.String[]
-      description: 
 - uid: System.Text.RegularExpressions.Regex.Split(System.String)
   id: Split(System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -1442,11 +1435,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1454,12 +1449,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1467,17 +1464,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1485,18 +1485,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1504,23 +1507,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1528,18 +1535,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1547,23 +1557,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1571,6 +1585,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1580,6 +1595,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1587,6 +1603,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1594,6 +1611,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1603,6 +1621,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1610,6 +1629,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1617,6 +1637,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1626,6 +1647,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1637,6 +1659,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Text.RegularExpressions.RegexOptions
@@ -1649,21 +1672,25 @@ references:
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1671,6 +1698,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1680,12 +1708,14 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
     fullName: )
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -1695,6 +1725,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1702,10 +1733,12 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()
 - uid: System.Int32[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32[]
   name.vb: Int32()
   fullName: System.Int32[]
@@ -1715,6 +1748,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1722,6 +1756,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ()
     fullName: ()
 - uid: System.Text.RegularExpressions.Match

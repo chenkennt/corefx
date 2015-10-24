@@ -46,7 +46,6 @@ items:
       type: System.Xml.XmlNamespaceScope
     return:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
-      description: 
 - uid: System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String)
   id: LookupNamespace(System.String)
   parent: System.Xml.IXmlNamespaceResolver
@@ -69,7 +68,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String)
   id: LookupPrefix(System.String)
   parent: System.Xml.IXmlNamespaceResolver
@@ -92,7 +90,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Xml
   isExternal: false
@@ -109,6 +106,7 @@ references:
 - uid: System.Collections.Generic.IDictionary{System.String,System.String}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IDictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   name: IDictionary<String, String>
   name.vb: IDictionary(Of String, String)
   fullName: System.Collections.Generic.IDictionary<System.String, System.String>
@@ -118,18 +116,21 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -137,23 +138,27 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IDictionary`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   name: IDictionary<TKey, TValue>
   name.vb: IDictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.IDictionary<TKey, TValue>
@@ -163,6 +168,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -178,6 +184,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -195,6 +202,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System

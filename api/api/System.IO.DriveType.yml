@@ -3,13 +3,13 @@ items:
   id: DriveType
   parent: System.IO
   children:
-  - System.IO.DriveType.Unknown
-  - System.IO.DriveType.NoRootDirectory
-  - System.IO.DriveType.Removable
+  - System.IO.DriveType.CDRom
   - System.IO.DriveType.Fixed
   - System.IO.DriveType.Network
-  - System.IO.DriveType.CDRom
+  - System.IO.DriveType.NoRootDirectory
   - System.IO.DriveType.Ram
+  - System.IO.DriveType.Removable
+  - System.IO.DriveType.Unknown
   href: System.IO.DriveType.yml
   name: DriveType
   fullName: System.IO.DriveType

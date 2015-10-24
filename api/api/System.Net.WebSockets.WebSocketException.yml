@@ -3,17 +3,17 @@ items:
   id: WebSocketException
   parent: System.Net.WebSockets
   children:
-  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError)
-  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.String)
-  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.Exception)
-  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.String,System.Exception)
   - System.Net.WebSockets.WebSocketException.#ctor(System.Int32)
-  - System.Net.WebSockets.WebSocketException.#ctor(System.Int32,System.String)
   - System.Net.WebSockets.WebSocketException.#ctor(System.Int32,System.Exception)
+  - System.Net.WebSockets.WebSocketException.#ctor(System.Int32,System.String)
+  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError)
+  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.Exception)
   - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.Int32)
-  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.Int32,System.String)
   - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.Int32,System.Exception)
+  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.Int32,System.String)
   - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.Int32,System.String,System.Exception)
+  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.String)
+  - System.Net.WebSockets.WebSocketException.#ctor(System.Net.WebSockets.WebSocketError,System.String,System.Exception)
   - System.Net.WebSockets.WebSocketException.#ctor(System.String)
   - System.Net.WebSockets.WebSocketException.#ctor(System.String,System.Exception)
   - System.Net.WebSockets.WebSocketException.ErrorCode
@@ -348,7 +348,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Net.WebSockets.WebSocketException.WebSocketErrorCode
   id: WebSocketErrorCode
   parent: System.Net.WebSockets.WebSocketException
@@ -369,7 +368,6 @@ items:
     parameters: []
     return:
       type: System.Net.WebSockets.WebSocketError
-      description: 
 references:
 - uid: System.Net.WebSockets
   isExternal: false
@@ -379,6 +377,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -395,15 +394,18 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Exception
   fullName: System.Exception
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

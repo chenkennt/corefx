@@ -3,23 +3,23 @@ items:
   id: UriComponents
   parent: System
   children:
-  - System.UriComponents.Scheme
-  - System.UriComponents.UserInfo
-  - System.UriComponents.Host
-  - System.UriComponents.Port
-  - System.UriComponents.Path
-  - System.UriComponents.Query
-  - System.UriComponents.Fragment
-  - System.UriComponents.StrongPort
-  - System.UriComponents.NormalizedHost
-  - System.UriComponents.KeepDelimiter
-  - System.UriComponents.SerializationInfoString
   - System.UriComponents.AbsoluteUri
+  - System.UriComponents.Fragment
+  - System.UriComponents.Host
   - System.UriComponents.HostAndPort
-  - System.UriComponents.StrongAuthority
-  - System.UriComponents.SchemeAndServer
   - System.UriComponents.HttpRequestUrl
+  - System.UriComponents.KeepDelimiter
+  - System.UriComponents.NormalizedHost
+  - System.UriComponents.Path
   - System.UriComponents.PathAndQuery
+  - System.UriComponents.Port
+  - System.UriComponents.Query
+  - System.UriComponents.Scheme
+  - System.UriComponents.SchemeAndServer
+  - System.UriComponents.SerializationInfoString
+  - System.UriComponents.StrongAuthority
+  - System.UriComponents.StrongPort
+  - System.UriComponents.UserInfo
   href: System.UriComponents.yml
   name: UriComponents
   fullName: System.UriComponents

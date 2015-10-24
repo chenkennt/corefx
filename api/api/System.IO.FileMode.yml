@@ -3,12 +3,12 @@ items:
   id: FileMode
   parent: System.IO
   children:
-  - System.IO.FileMode.CreateNew
+  - System.IO.FileMode.Append
   - System.IO.FileMode.Create
+  - System.IO.FileMode.CreateNew
   - System.IO.FileMode.Open
   - System.IO.FileMode.OpenOrCreate
   - System.IO.FileMode.Truncate
-  - System.IO.FileMode.Append
   href: System.IO.FileMode.yml
   name: FileMode
   fullName: System.IO.FileMode

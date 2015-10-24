@@ -58,7 +58,6 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
-      description: 
 references:
 - uid: System
   isExternal: false

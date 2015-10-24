@@ -3,6 +3,46 @@ items:
   id: Matrix4x4
   parent: System.Numerics
   children:
+  - System.Numerics.Matrix4x4.#ctor(System.Numerics.Matrix3x2)
+  - System.Numerics.Matrix4x4.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.Add(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
+  - System.Numerics.Matrix4x4.CreateBillboard(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateConstrainedBillboard(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateFromAxisAngle(System.Numerics.Vector3,System.Single)
+  - System.Numerics.Matrix4x4.CreateFromQuaternion(System.Numerics.Quaternion)
+  - System.Numerics.Matrix4x4.CreateFromYawPitchRoll(System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreateLookAt(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateOrthographic(System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreateOrthographicOffCenter(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreatePerspective(System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreatePerspectiveFieldOfView(System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreatePerspectiveOffCenter(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreateReflection(System.Numerics.Plane)
+  - System.Numerics.Matrix4x4.CreateRotationX(System.Single)
+  - System.Numerics.Matrix4x4.CreateRotationX(System.Single,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateRotationY(System.Single)
+  - System.Numerics.Matrix4x4.CreateRotationY(System.Single,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateRotationZ(System.Single)
+  - System.Numerics.Matrix4x4.CreateRotationZ(System.Single,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateScale(System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateScale(System.Numerics.Vector3,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateScale(System.Single)
+  - System.Numerics.Matrix4x4.CreateScale(System.Single,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateScale(System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreateScale(System.Single,System.Single,System.Single,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateShadow(System.Numerics.Vector3,System.Numerics.Plane)
+  - System.Numerics.Matrix4x4.CreateTranslation(System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.CreateTranslation(System.Single,System.Single,System.Single)
+  - System.Numerics.Matrix4x4.CreateWorld(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
+  - System.Numerics.Matrix4x4.Decompose(System.Numerics.Matrix4x4,System.Numerics.Vector3@,System.Numerics.Quaternion@,System.Numerics.Vector3@)
+  - System.Numerics.Matrix4x4.Equals(System.Numerics.Matrix4x4)
+  - System.Numerics.Matrix4x4.Equals(System.Object)
+  - System.Numerics.Matrix4x4.GetDeterminant
+  - System.Numerics.Matrix4x4.GetHashCode
+  - System.Numerics.Matrix4x4.Identity
+  - System.Numerics.Matrix4x4.Invert(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4@)
+  - System.Numerics.Matrix4x4.IsIdentity
+  - System.Numerics.Matrix4x4.Lerp(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4,System.Single)
   - System.Numerics.Matrix4x4.M11
   - System.Numerics.Matrix4x4.M12
   - System.Numerics.Matrix4x4.M13
@@ -19,61 +59,21 @@ items:
   - System.Numerics.Matrix4x4.M42
   - System.Numerics.Matrix4x4.M43
   - System.Numerics.Matrix4x4.M44
-  - System.Numerics.Matrix4x4.Identity
-  - System.Numerics.Matrix4x4.IsIdentity
-  - System.Numerics.Matrix4x4.Translation
-  - System.Numerics.Matrix4x4.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.#ctor(System.Numerics.Matrix3x2)
-  - System.Numerics.Matrix4x4.CreateBillboard(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateConstrainedBillboard(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateTranslation(System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateTranslation(System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreateScale(System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreateScale(System.Single,System.Single,System.Single,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateScale(System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateScale(System.Numerics.Vector3,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateScale(System.Single)
-  - System.Numerics.Matrix4x4.CreateScale(System.Single,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateRotationX(System.Single)
-  - System.Numerics.Matrix4x4.CreateRotationX(System.Single,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateRotationY(System.Single)
-  - System.Numerics.Matrix4x4.CreateRotationY(System.Single,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateRotationZ(System.Single)
-  - System.Numerics.Matrix4x4.CreateRotationZ(System.Single,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateFromAxisAngle(System.Numerics.Vector3,System.Single)
-  - System.Numerics.Matrix4x4.CreatePerspectiveFieldOfView(System.Single,System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreatePerspective(System.Single,System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreatePerspectiveOffCenter(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreateOrthographic(System.Single,System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreateOrthographicOffCenter(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreateLookAt(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateWorld(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3)
-  - System.Numerics.Matrix4x4.CreateFromQuaternion(System.Numerics.Quaternion)
-  - System.Numerics.Matrix4x4.CreateFromYawPitchRoll(System.Single,System.Single,System.Single)
-  - System.Numerics.Matrix4x4.CreateShadow(System.Numerics.Vector3,System.Numerics.Plane)
-  - System.Numerics.Matrix4x4.CreateReflection(System.Numerics.Plane)
-  - System.Numerics.Matrix4x4.GetDeterminant
-  - System.Numerics.Matrix4x4.Invert(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4@)
-  - System.Numerics.Matrix4x4.Decompose(System.Numerics.Matrix4x4,System.Numerics.Vector3@,System.Numerics.Quaternion@,System.Numerics.Vector3@)
-  - System.Numerics.Matrix4x4.Transform(System.Numerics.Matrix4x4,System.Numerics.Quaternion)
-  - System.Numerics.Matrix4x4.Transpose(System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.Lerp(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4,System.Single)
-  - System.Numerics.Matrix4x4.Negate(System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.Add(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.Subtract(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
   - System.Numerics.Matrix4x4.Multiply(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
   - System.Numerics.Matrix4x4.Multiply(System.Numerics.Matrix4x4,System.Single)
-  - System.Numerics.Matrix4x4.op_UnaryNegation(System.Numerics.Matrix4x4)
+  - System.Numerics.Matrix4x4.Negate(System.Numerics.Matrix4x4)
   - System.Numerics.Matrix4x4.op_Addition(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.op_Subtraction(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.op_Multiply(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.op_Multiply(System.Numerics.Matrix4x4,System.Single)
   - System.Numerics.Matrix4x4.op_Equality(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
   - System.Numerics.Matrix4x4.op_Inequality(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.Equals(System.Numerics.Matrix4x4)
-  - System.Numerics.Matrix4x4.Equals(System.Object)
+  - System.Numerics.Matrix4x4.op_Multiply(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
+  - System.Numerics.Matrix4x4.op_Multiply(System.Numerics.Matrix4x4,System.Single)
+  - System.Numerics.Matrix4x4.op_Subtraction(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
+  - System.Numerics.Matrix4x4.op_UnaryNegation(System.Numerics.Matrix4x4)
+  - System.Numerics.Matrix4x4.Subtract(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)
   - System.Numerics.Matrix4x4.ToString
-  - System.Numerics.Matrix4x4.GetHashCode
+  - System.Numerics.Matrix4x4.Transform(System.Numerics.Matrix4x4,System.Numerics.Quaternion)
+  - System.Numerics.Matrix4x4.Translation
+  - System.Numerics.Matrix4x4.Transpose(System.Numerics.Matrix4x4)
   href: System.Numerics.Matrix4x4.yml
   name: Matrix4x4
   fullName: System.Numerics.Matrix4x4
@@ -1969,6 +1969,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1976,18 +1977,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1995,23 +1999,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -2019,18 +2027,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2038,23 +2049,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -2062,6 +2077,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2071,6 +2087,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -2078,6 +2095,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -2095,6 +2113,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Numerics.Vector3
@@ -2108,6 +2127,7 @@ references:
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Numerics.Matrix3x2
@@ -2140,6 +2160,7 @@ references:
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -2147,12 +2168,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -2160,22 +2183,26 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -2183,6 +2210,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -2192,6 +2220,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -2199,11 +2228,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -2211,6 +2242,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -2220,6 +2252,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -2227,5 +2260,6 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

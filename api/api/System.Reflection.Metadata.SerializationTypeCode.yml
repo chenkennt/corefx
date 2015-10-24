@@ -3,24 +3,24 @@ items:
   id: SerializationTypeCode
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.SerializationTypeCode.Invalid
   - System.Reflection.Metadata.SerializationTypeCode.Boolean
-  - System.Reflection.Metadata.SerializationTypeCode.Char
-  - System.Reflection.Metadata.SerializationTypeCode.SByte
   - System.Reflection.Metadata.SerializationTypeCode.Byte
-  - System.Reflection.Metadata.SerializationTypeCode.Int16
-  - System.Reflection.Metadata.SerializationTypeCode.UInt16
-  - System.Reflection.Metadata.SerializationTypeCode.Int32
-  - System.Reflection.Metadata.SerializationTypeCode.UInt32
-  - System.Reflection.Metadata.SerializationTypeCode.Int64
-  - System.Reflection.Metadata.SerializationTypeCode.UInt64
-  - System.Reflection.Metadata.SerializationTypeCode.Single
+  - System.Reflection.Metadata.SerializationTypeCode.Char
   - System.Reflection.Metadata.SerializationTypeCode.Double
+  - System.Reflection.Metadata.SerializationTypeCode.Enum
+  - System.Reflection.Metadata.SerializationTypeCode.Int16
+  - System.Reflection.Metadata.SerializationTypeCode.Int32
+  - System.Reflection.Metadata.SerializationTypeCode.Int64
+  - System.Reflection.Metadata.SerializationTypeCode.Invalid
+  - System.Reflection.Metadata.SerializationTypeCode.SByte
+  - System.Reflection.Metadata.SerializationTypeCode.Single
   - System.Reflection.Metadata.SerializationTypeCode.String
   - System.Reflection.Metadata.SerializationTypeCode.SZArray
-  - System.Reflection.Metadata.SerializationTypeCode.Type
   - System.Reflection.Metadata.SerializationTypeCode.TaggedObject
-  - System.Reflection.Metadata.SerializationTypeCode.Enum
+  - System.Reflection.Metadata.SerializationTypeCode.Type
+  - System.Reflection.Metadata.SerializationTypeCode.UInt16
+  - System.Reflection.Metadata.SerializationTypeCode.UInt32
+  - System.Reflection.Metadata.SerializationTypeCode.UInt64
   href: System.Reflection.Metadata.SerializationTypeCode.yml
   name: SerializationTypeCode
   fullName: System.Reflection.Metadata.SerializationTypeCode

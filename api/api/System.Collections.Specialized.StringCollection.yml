@@ -3,31 +3,31 @@ items:
   id: StringCollection
   parent: System.Collections.Specialized
   children:
-  - System.Collections.Specialized.StringCollection.Item(System.Int32)
-  - System.Collections.Specialized.StringCollection.Count
-  - System.Collections.Specialized.StringCollection.System#Collections#IList#IsReadOnly
-  - System.Collections.Specialized.StringCollection.System#Collections#IList#IsFixedSize
   - System.Collections.Specialized.StringCollection.Add(System.String)
   - System.Collections.Specialized.StringCollection.AddRange(System.String[])
   - System.Collections.Specialized.StringCollection.Clear
   - System.Collections.Specialized.StringCollection.Contains(System.String)
   - System.Collections.Specialized.StringCollection.CopyTo(System.String[],System.Int32)
+  - System.Collections.Specialized.StringCollection.Count
   - System.Collections.Specialized.StringCollection.GetEnumerator
   - System.Collections.Specialized.StringCollection.IndexOf(System.String)
   - System.Collections.Specialized.StringCollection.Insert(System.Int32,System.String)
   - System.Collections.Specialized.StringCollection.IsReadOnly
   - System.Collections.Specialized.StringCollection.IsSynchronized
+  - System.Collections.Specialized.StringCollection.Item(System.Int32)
   - System.Collections.Specialized.StringCollection.Remove(System.String)
   - System.Collections.Specialized.StringCollection.RemoveAt(System.Int32)
   - System.Collections.Specialized.StringCollection.SyncRoot
-  - System.Collections.Specialized.StringCollection.System#Collections#IList#Item(System.Int32)
+  - System.Collections.Specialized.StringCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.Specialized.StringCollection.System#Collections#IEnumerable#GetEnumerator
   - System.Collections.Specialized.StringCollection.System#Collections#IList#Add(System.Object)
   - System.Collections.Specialized.StringCollection.System#Collections#IList#Contains(System.Object)
   - System.Collections.Specialized.StringCollection.System#Collections#IList#IndexOf(System.Object)
   - System.Collections.Specialized.StringCollection.System#Collections#IList#Insert(System.Int32,System.Object)
+  - System.Collections.Specialized.StringCollection.System#Collections#IList#IsFixedSize
+  - System.Collections.Specialized.StringCollection.System#Collections#IList#IsReadOnly
+  - System.Collections.Specialized.StringCollection.System#Collections#IList#Item(System.Int32)
   - System.Collections.Specialized.StringCollection.System#Collections#IList#Remove(System.Object)
-  - System.Collections.Specialized.StringCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
-  - System.Collections.Specialized.StringCollection.System#Collections#IEnumerable#GetEnumerator
   href: System.Collections.Specialized.StringCollection.yml
   name: StringCollection
   fullName: System.Collections.Specialized.StringCollection
@@ -125,7 +125,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#IsFixedSize
   id: System#Collections#IList#IsFixedSize
   parent: System.Collections.Specialized.StringCollection
@@ -147,7 +146,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Specialized.StringCollection.Add(System.String)
   id: Add(System.String)
   parent: System.Collections.Specialized.StringCollection
@@ -442,7 +440,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#Add(System.Object)
   id: System#Collections#IList#Add(System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -466,7 +463,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#Contains(System.Object)
   id: System#Collections#IList#Contains(System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -490,7 +486,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#IndexOf(System.Object)
   id: System#Collections#IList#IndexOf(System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -514,7 +509,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#Insert(System.Int32,System.Object)
   id: System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -602,7 +596,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 references:
 - uid: System.Collections.Specialized
   isExternal: false
@@ -612,11 +605,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -624,6 +619,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -633,6 +629,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -640,6 +637,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -647,12 +645,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -660,17 +660,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -678,18 +681,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -697,23 +703,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -721,18 +731,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -740,23 +753,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -764,6 +781,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -773,6 +791,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -780,6 +799,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -787,6 +807,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -796,6 +817,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -803,6 +825,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -810,6 +833,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -819,6 +843,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -830,20 +855,24 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -853,6 +882,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -860,6 +890,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()
 - uid: System.Collections.Specialized.StringEnumerator
@@ -870,13 +901,10 @@ references:
   fullName: System.Collections.Specialized.StringEnumerator
   type: Class
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array
 - uid: System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerator.yml
   name: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections

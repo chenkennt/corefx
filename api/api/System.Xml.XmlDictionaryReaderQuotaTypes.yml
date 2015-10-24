@@ -3,11 +3,11 @@ items:
   id: XmlDictionaryReaderQuotaTypes
   parent: System.Xml
   children:
-  - System.Xml.XmlDictionaryReaderQuotaTypes.MaxDepth
-  - System.Xml.XmlDictionaryReaderQuotaTypes.MaxStringContentLength
   - System.Xml.XmlDictionaryReaderQuotaTypes.MaxArrayLength
   - System.Xml.XmlDictionaryReaderQuotaTypes.MaxBytesPerRead
+  - System.Xml.XmlDictionaryReaderQuotaTypes.MaxDepth
   - System.Xml.XmlDictionaryReaderQuotaTypes.MaxNameTableCharCount
+  - System.Xml.XmlDictionaryReaderQuotaTypes.MaxStringContentLength
   href: System.Xml.XmlDictionaryReaderQuotaTypes.yml
   name: XmlDictionaryReaderQuotaTypes
   fullName: System.Xml.XmlDictionaryReaderQuotaTypes

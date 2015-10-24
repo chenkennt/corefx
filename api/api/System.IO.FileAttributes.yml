@@ -3,22 +3,22 @@ items:
   id: FileAttributes
   parent: System.IO
   children:
-  - System.IO.FileAttributes.ReadOnly
-  - System.IO.FileAttributes.Hidden
-  - System.IO.FileAttributes.System
-  - System.IO.FileAttributes.Directory
   - System.IO.FileAttributes.Archive
-  - System.IO.FileAttributes.Device
-  - System.IO.FileAttributes.Normal
-  - System.IO.FileAttributes.Temporary
-  - System.IO.FileAttributes.SparseFile
-  - System.IO.FileAttributes.ReparsePoint
   - System.IO.FileAttributes.Compressed
-  - System.IO.FileAttributes.Offline
-  - System.IO.FileAttributes.NotContentIndexed
+  - System.IO.FileAttributes.Device
+  - System.IO.FileAttributes.Directory
   - System.IO.FileAttributes.Encrypted
+  - System.IO.FileAttributes.Hidden
   - System.IO.FileAttributes.IntegrityStream
+  - System.IO.FileAttributes.Normal
   - System.IO.FileAttributes.NoScrubData
+  - System.IO.FileAttributes.NotContentIndexed
+  - System.IO.FileAttributes.Offline
+  - System.IO.FileAttributes.ReadOnly
+  - System.IO.FileAttributes.ReparsePoint
+  - System.IO.FileAttributes.SparseFile
+  - System.IO.FileAttributes.System
+  - System.IO.FileAttributes.Temporary
   href: System.IO.FileAttributes.yml
   name: FileAttributes
   fullName: System.IO.FileAttributes

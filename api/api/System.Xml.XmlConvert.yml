@@ -3,53 +3,53 @@ items:
   id: XmlConvert
   parent: System.Xml
   children:
+  - System.Xml.XmlConvert.DecodeName(System.String)
+  - System.Xml.XmlConvert.EncodeLocalName(System.String)
   - System.Xml.XmlConvert.EncodeName(System.String)
   - System.Xml.XmlConvert.EncodeNmToken(System.String)
-  - System.Xml.XmlConvert.EncodeLocalName(System.String)
-  - System.Xml.XmlConvert.DecodeName(System.String)
-  - System.Xml.XmlConvert.VerifyName(System.String)
-  - System.Xml.XmlConvert.VerifyNCName(System.String)
-  - System.Xml.XmlConvert.VerifyNMTOKEN(System.String)
-  - System.Xml.XmlConvert.VerifyXmlChars(System.String)
-  - System.Xml.XmlConvert.VerifyPublicId(System.String)
-  - System.Xml.XmlConvert.VerifyWhitespace(System.String)
-  - System.Xml.XmlConvert.ToString(System.Boolean)
-  - System.Xml.XmlConvert.ToString(System.Char)
-  - System.Xml.XmlConvert.ToString(System.Decimal)
-  - System.Xml.XmlConvert.ToString(System.SByte)
-  - System.Xml.XmlConvert.ToString(System.Int16)
-  - System.Xml.XmlConvert.ToString(System.Int32)
-  - System.Xml.XmlConvert.ToString(System.Int64)
-  - System.Xml.XmlConvert.ToString(System.Byte)
-  - System.Xml.XmlConvert.ToString(System.UInt16)
-  - System.Xml.XmlConvert.ToString(System.UInt32)
-  - System.Xml.XmlConvert.ToString(System.UInt64)
-  - System.Xml.XmlConvert.ToString(System.Single)
-  - System.Xml.XmlConvert.ToString(System.Double)
-  - System.Xml.XmlConvert.ToString(System.TimeSpan)
-  - System.Xml.XmlConvert.ToString(System.DateTime,System.Xml.XmlDateTimeSerializationMode)
-  - System.Xml.XmlConvert.ToString(System.DateTimeOffset)
-  - System.Xml.XmlConvert.ToString(System.DateTimeOffset,System.String)
-  - System.Xml.XmlConvert.ToString(System.Guid)
   - System.Xml.XmlConvert.ToBoolean(System.String)
-  - System.Xml.XmlConvert.ToChar(System.String)
-  - System.Xml.XmlConvert.ToDecimal(System.String)
-  - System.Xml.XmlConvert.ToSByte(System.String)
-  - System.Xml.XmlConvert.ToInt16(System.String)
-  - System.Xml.XmlConvert.ToInt32(System.String)
-  - System.Xml.XmlConvert.ToInt64(System.String)
   - System.Xml.XmlConvert.ToByte(System.String)
-  - System.Xml.XmlConvert.ToUInt16(System.String)
-  - System.Xml.XmlConvert.ToUInt32(System.String)
-  - System.Xml.XmlConvert.ToUInt64(System.String)
-  - System.Xml.XmlConvert.ToSingle(System.String)
-  - System.Xml.XmlConvert.ToDouble(System.String)
-  - System.Xml.XmlConvert.ToTimeSpan(System.String)
+  - System.Xml.XmlConvert.ToChar(System.String)
   - System.Xml.XmlConvert.ToDateTime(System.String,System.Xml.XmlDateTimeSerializationMode)
   - System.Xml.XmlConvert.ToDateTimeOffset(System.String)
   - System.Xml.XmlConvert.ToDateTimeOffset(System.String,System.String)
   - System.Xml.XmlConvert.ToDateTimeOffset(System.String,System.String[])
+  - System.Xml.XmlConvert.ToDecimal(System.String)
+  - System.Xml.XmlConvert.ToDouble(System.String)
   - System.Xml.XmlConvert.ToGuid(System.String)
+  - System.Xml.XmlConvert.ToInt16(System.String)
+  - System.Xml.XmlConvert.ToInt32(System.String)
+  - System.Xml.XmlConvert.ToInt64(System.String)
+  - System.Xml.XmlConvert.ToSByte(System.String)
+  - System.Xml.XmlConvert.ToSingle(System.String)
+  - System.Xml.XmlConvert.ToString(System.Boolean)
+  - System.Xml.XmlConvert.ToString(System.Byte)
+  - System.Xml.XmlConvert.ToString(System.Char)
+  - System.Xml.XmlConvert.ToString(System.DateTime,System.Xml.XmlDateTimeSerializationMode)
+  - System.Xml.XmlConvert.ToString(System.DateTimeOffset)
+  - System.Xml.XmlConvert.ToString(System.DateTimeOffset,System.String)
+  - System.Xml.XmlConvert.ToString(System.Decimal)
+  - System.Xml.XmlConvert.ToString(System.Double)
+  - System.Xml.XmlConvert.ToString(System.Guid)
+  - System.Xml.XmlConvert.ToString(System.Int16)
+  - System.Xml.XmlConvert.ToString(System.Int32)
+  - System.Xml.XmlConvert.ToString(System.Int64)
+  - System.Xml.XmlConvert.ToString(System.SByte)
+  - System.Xml.XmlConvert.ToString(System.Single)
+  - System.Xml.XmlConvert.ToString(System.TimeSpan)
+  - System.Xml.XmlConvert.ToString(System.UInt16)
+  - System.Xml.XmlConvert.ToString(System.UInt32)
+  - System.Xml.XmlConvert.ToString(System.UInt64)
+  - System.Xml.XmlConvert.ToTimeSpan(System.String)
+  - System.Xml.XmlConvert.ToUInt16(System.String)
+  - System.Xml.XmlConvert.ToUInt32(System.String)
+  - System.Xml.XmlConvert.ToUInt64(System.String)
+  - System.Xml.XmlConvert.VerifyName(System.String)
+  - System.Xml.XmlConvert.VerifyNCName(System.String)
+  - System.Xml.XmlConvert.VerifyNMTOKEN(System.String)
+  - System.Xml.XmlConvert.VerifyPublicId(System.String)
+  - System.Xml.XmlConvert.VerifyWhitespace(System.String)
+  - System.Xml.XmlConvert.VerifyXmlChars(System.String)
   href: System.Xml.XmlConvert.yml
   name: XmlConvert
   fullName: System.Xml.XmlConvert
@@ -254,7 +254,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlConvert.VerifyPublicId(System.String)
   id: VerifyPublicId(System.String)
   parent: System.Xml.XmlConvert
@@ -277,7 +276,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlConvert.VerifyWhitespace(System.String)
   id: VerifyWhitespace(System.String)
   parent: System.Xml.XmlConvert
@@ -300,7 +298,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlConvert.ToString(System.Boolean)
   id: ToString(System.Boolean)
   parent: System.Xml.XmlConvert
@@ -655,7 +652,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlConvert.ToString(System.DateTimeOffset,System.String)
   id: ToString(System.DateTimeOffset,System.String)
   parent: System.Xml.XmlConvert
@@ -680,7 +676,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Xml.XmlConvert.ToString(System.Guid)
   id: ToString(System.Guid)
   parent: System.Xml.XmlConvert
@@ -1057,7 +1052,6 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.Xml.XmlConvert.ToDateTimeOffset(System.String,System.String)
   id: ToDateTimeOffset(System.String,System.String)
   parent: System.Xml.XmlConvert
@@ -1082,7 +1076,6 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.Xml.XmlConvert.ToDateTimeOffset(System.String,System.String[])
   id: ToDateTimeOffset(System.String,System.String[])
   parent: System.Xml.XmlConvert
@@ -1109,7 +1102,6 @@ items:
       type: System.String[]
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.Xml.XmlConvert.ToGuid(System.String)
   id: ToGuid(System.String)
   parent: System.Xml.XmlConvert
@@ -1141,11 +1133,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1153,6 +1147,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1162,6 +1157,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1169,6 +1165,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1176,12 +1173,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1189,17 +1188,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1207,18 +1209,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1226,23 +1231,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1250,18 +1259,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1269,23 +1281,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1293,6 +1309,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1302,6 +1319,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1309,6 +1327,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1316,6 +1335,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1325,6 +1345,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1332,6 +1353,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1339,6 +1361,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1348,6 +1371,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1359,81 +1383,97 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Char
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char
   fullName: System.Char
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.SByte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   name: SByte
   fullName: System.SByte
 - uid: System.Int16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   name: Int16
   fullName: System.Int16
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Byte
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte
   fullName: System.Byte
 - uid: System.UInt16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   name: UInt16
   fullName: System.UInt16
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.Xml.XmlDateTimeSerializationMode
@@ -1446,15 +1486,18 @@ references:
 - uid: System.DateTimeOffset
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTimeOffset.yml
   name: DateTimeOffset
   fullName: System.DateTimeOffset
 - uid: System.Guid
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Guid.yml
   name: Guid
   fullName: System.Guid
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -1464,6 +1507,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1471,5 +1515,6 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()

@@ -3,8 +3,8 @@ items:
   id: MemoryMappedFileOptions
   parent: System.IO.MemoryMappedFiles
   children:
-  - System.IO.MemoryMappedFiles.MemoryMappedFileOptions.None
   - System.IO.MemoryMappedFiles.MemoryMappedFileOptions.DelayAllocatePages
+  - System.IO.MemoryMappedFiles.MemoryMappedFileOptions.None
   href: System.IO.MemoryMappedFiles.MemoryMappedFileOptions.yml
   name: MemoryMappedFileOptions
   fullName: System.IO.MemoryMappedFiles.MemoryMappedFileOptions

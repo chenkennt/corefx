@@ -3,22 +3,22 @@ items:
   id: FileSystemInfo
   parent: System.IO
   children:
-  - System.IO.FileSystemInfo.FullPath
-  - System.IO.FileSystemInfo.OriginalPath
   - System.IO.FileSystemInfo.#ctor
-  - System.IO.FileSystemInfo.FullName
-  - System.IO.FileSystemInfo.Extension
-  - System.IO.FileSystemInfo.Name
-  - System.IO.FileSystemInfo.Exists
-  - System.IO.FileSystemInfo.Delete
+  - System.IO.FileSystemInfo.Attributes
   - System.IO.FileSystemInfo.CreationTime
   - System.IO.FileSystemInfo.CreationTimeUtc
+  - System.IO.FileSystemInfo.Delete
+  - System.IO.FileSystemInfo.Exists
+  - System.IO.FileSystemInfo.Extension
+  - System.IO.FileSystemInfo.FullName
+  - System.IO.FileSystemInfo.FullPath
   - System.IO.FileSystemInfo.LastAccessTime
   - System.IO.FileSystemInfo.LastAccessTimeUtc
   - System.IO.FileSystemInfo.LastWriteTime
   - System.IO.FileSystemInfo.LastWriteTimeUtc
+  - System.IO.FileSystemInfo.Name
+  - System.IO.FileSystemInfo.OriginalPath
   - System.IO.FileSystemInfo.Refresh
-  - System.IO.FileSystemInfo.Attributes
   href: System.IO.FileSystemInfo.yml
   name: FileSystemInfo
   fullName: System.IO.FileSystemInfo
@@ -118,7 +118,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.FileSystemInfo.Extension
   id: Extension
   parent: System.IO.FileSystemInfo
@@ -139,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.FileSystemInfo.Name
   id: Name
   parent: System.IO.FileSystemInfo
@@ -160,7 +158,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.FileSystemInfo.Exists
   id: Exists
   parent: System.IO.FileSystemInfo
@@ -181,7 +178,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.FileSystemInfo.Delete
   id: Delete
   parent: System.IO.FileSystemInfo
@@ -219,7 +215,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.FileSystemInfo.CreationTimeUtc
   id: CreationTimeUtc
   parent: System.IO.FileSystemInfo
@@ -240,7 +235,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.FileSystemInfo.LastAccessTime
   id: LastAccessTime
   parent: System.IO.FileSystemInfo
@@ -261,7 +255,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.FileSystemInfo.LastAccessTimeUtc
   id: LastAccessTimeUtc
   parent: System.IO.FileSystemInfo
@@ -282,7 +275,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.FileSystemInfo.LastWriteTime
   id: LastWriteTime
   parent: System.IO.FileSystemInfo
@@ -303,7 +295,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.FileSystemInfo.LastWriteTimeUtc
   id: LastWriteTimeUtc
   parent: System.IO.FileSystemInfo
@@ -324,7 +315,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.FileSystemInfo.Refresh
   id: Refresh
   parent: System.IO.FileSystemInfo
@@ -362,7 +352,6 @@ items:
     parameters: []
     return:
       type: System.IO.FileAttributes
-      description: 
 references:
 - uid: System.IO
   isExternal: false
@@ -371,11 +360,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -383,6 +374,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -392,6 +384,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -399,6 +392,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -406,12 +400,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -419,17 +415,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -437,18 +436,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -456,23 +458,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -480,18 +486,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -499,23 +508,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -523,6 +536,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -532,6 +546,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -539,6 +554,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -546,6 +562,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -555,6 +572,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -562,6 +580,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -569,6 +588,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -578,6 +598,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -589,16 +610,19 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.IO.FileAttributes

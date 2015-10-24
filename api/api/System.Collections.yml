@@ -19,15 +19,21 @@ items:
   type: Namespace
   source:
     remote:
-      path: src/System.Collections.NonGeneric/src/System/Collections/Specialized/CollectionsUtil.cs
+      path: src/Common/src/System/Collections/Generic/EnumerableHelpers.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Collections.NonGeneric/src/System/Collections/Specialized/CollectionsUtil.cs
-    startLine: 13
+    path: src/Common/src/System/Collections/Generic/EnumerableHelpers.cs
+    startLine: 3
   assemblies:
-  - System.Collections.NonGeneric
+  - System.Collections
 references:
+- uid: System.Collections.StructuralComparisons
+  isExternal: false
+  href: System.Collections.StructuralComparisons.yml
+  name: StructuralComparisons
+  fullName: System.Collections.StructuralComparisons
+  type: Class
 - uid: System.Collections.ArrayList
   parent: System.Collections
   isExternal: false
@@ -94,12 +100,6 @@ references:
   href: System.Collections.Stack.yml
   name: Stack
   fullName: System.Collections.Stack
-  type: Class
-- uid: System.Collections.StructuralComparisons
-  isExternal: false
-  href: System.Collections.StructuralComparisons.yml
-  name: StructuralComparisons
-  fullName: System.Collections.StructuralComparisons
   type: Class
 - uid: System.Collections
   isExternal: false

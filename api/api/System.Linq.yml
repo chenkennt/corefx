@@ -2,122 +2,44 @@ items:
 - uid: System.Linq
   id: System.Linq
   children:
+  - System.Linq.Enumerable
   - System.Linq.EnumerableExecutor
   - System.Linq.EnumerableExecutor`1
   - System.Linq.EnumerableQuery
   - System.Linq.EnumerableQuery`1
-  - System.Linq.Queryable
-  - System.Linq.OrderedParallelQuery`1
-  - System.Linq.ParallelQuery
-  - System.Linq.ParallelQuery`1
-  - System.Linq.ParallelEnumerable
-  - System.Linq.ParallelExecutionMode
-  - System.Linq.ParallelMergeOptions
-  - System.Linq.ImmutableArrayExtensions
-  - System.Linq.Enumerable
-  - System.Linq.IOrderedEnumerable`1
+  - System.Linq.Grouping`2
   - System.Linq.IGrouping`2
   - System.Linq.ILookup`2
-  - System.Linq.Lookup`2
-  - System.Linq.Grouping`2
+  - System.Linq.ImmutableArrayExtensions
+  - System.Linq.IOrderedEnumerable`1
+  - System.Linq.IOrderedQueryable
+  - System.Linq.IOrderedQueryable`1
   - System.Linq.IQueryable
   - System.Linq.IQueryable`1
   - System.Linq.IQueryProvider
-  - System.Linq.IOrderedQueryable
-  - System.Linq.IOrderedQueryable`1
+  - System.Linq.Lookup`2
+  - System.Linq.OrderedParallelQuery`1
+  - System.Linq.ParallelEnumerable
+  - System.Linq.ParallelExecutionMode
+  - System.Linq.ParallelMergeOptions
+  - System.Linq.ParallelQuery
+  - System.Linq.ParallelQuery`1
+  - System.Linq.Queryable
   href: System.Linq.yml
   name: System.Linq
   fullName: System.Linq
   type: Namespace
   source:
     remote:
-      path: src/System.Linq.Queryable/src/System/Linq/TypeHelper.cs
+      path: src/System.Linq.Parallel/src/System/Linq/Parallel/Utils/WrapperEqualityComparer.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Linq.Queryable/src/System/Linq/TypeHelper.cs
-    startLine: 9
+    path: src/System.Linq.Parallel/src/System/Linq/Parallel/Utils/WrapperEqualityComparer.cs
+    startLine: 12
   assemblies:
-  - System.Linq.Queryable
+  - System.Linq.Parallel
 references:
-- uid: System.Linq.EnumerableExecutor
-  isExternal: false
-  href: System.Linq.EnumerableExecutor.yml
-  name: EnumerableExecutor
-  fullName: System.Linq.EnumerableExecutor
-  type: Class
-- uid: System.Linq.EnumerableExecutor`1
-  isExternal: false
-  href: System.Linq.EnumerableExecutor`1.yml
-  name: EnumerableExecutor<T>
-  name.vb: EnumerableExecutor(Of T)
-  fullName: System.Linq.EnumerableExecutor<T>
-  fullName.vb: System.Linq.EnumerableExecutor(Of T)
-  type: Class
-  spec.csharp:
-  - uid: System.Linq.EnumerableExecutor`1
-    name: EnumerableExecutor
-    fullName: System.Linq.EnumerableExecutor
-    href: System.Linq.EnumerableExecutor`1.yml
-  - name: <
-    fullName: <
-  - name: T
-    fullName: T
-  - name: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Linq.EnumerableExecutor`1
-    name: EnumerableExecutor
-    fullName: System.Linq.EnumerableExecutor
-    href: System.Linq.EnumerableExecutor`1.yml
-  - name: '(Of '
-    fullName: '(Of '
-  - name: T
-    fullName: T
-  - name: )
-    fullName: )
-- uid: System.Linq.EnumerableQuery
-  isExternal: false
-  href: System.Linq.EnumerableQuery.yml
-  name: EnumerableQuery
-  fullName: System.Linq.EnumerableQuery
-  type: Class
-- uid: System.Linq.EnumerableQuery`1
-  isExternal: false
-  href: System.Linq.EnumerableQuery`1.yml
-  name: EnumerableQuery<T>
-  name.vb: EnumerableQuery(Of T)
-  fullName: System.Linq.EnumerableQuery<T>
-  fullName.vb: System.Linq.EnumerableQuery(Of T)
-  type: Class
-  spec.csharp:
-  - uid: System.Linq.EnumerableQuery`1
-    name: EnumerableQuery
-    fullName: System.Linq.EnumerableQuery
-    href: System.Linq.EnumerableQuery`1.yml
-  - name: <
-    fullName: <
-  - name: T
-    fullName: T
-  - name: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Linq.EnumerableQuery`1
-    name: EnumerableQuery
-    fullName: System.Linq.EnumerableQuery
-    href: System.Linq.EnumerableQuery`1.yml
-  - name: '(Of '
-    fullName: '(Of '
-  - name: T
-    fullName: T
-  - name: )
-    fullName: )
-- uid: System.Linq.Queryable
-  isExternal: false
-  href: System.Linq.Queryable.yml
-  name: Queryable
-  fullName: System.Linq.Queryable
-  type: Class
 - uid: System.Linq.OrderedParallelQuery`1
   isExternal: false
   href: System.Linq.OrderedParallelQuery`1.yml
@@ -223,13 +145,163 @@ references:
     Specifies the preferred type of output merge to use in a query. This is a hint only, and may not be
 
     respected by the system when parallelizing all queries.
-- uid: System.Linq.ImmutableArrayExtensions
+- uid: System.Linq.IQueryable
   isExternal: false
-  href: System.Linq.ImmutableArrayExtensions.yml
-  name: ImmutableArrayExtensions
-  fullName: System.Linq.ImmutableArrayExtensions
+  href: System.Linq.IQueryable.yml
+  name: IQueryable
+  fullName: System.Linq.IQueryable
+  type: Interface
+- uid: System.Linq.IQueryable`1
+  isExternal: false
+  href: System.Linq.IQueryable`1.yml
+  name: IQueryable<T>
+  name.vb: IQueryable(Of T)
+  fullName: System.Linq.IQueryable<T>
+  fullName.vb: System.Linq.IQueryable(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    fullName: System.Linq.IQueryable
+    href: System.Linq.IQueryable`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    fullName: System.Linq.IQueryable
+    href: System.Linq.IQueryable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Linq.IQueryProvider
+  parent: System.Linq
+  isExternal: false
+  href: System.Linq.IQueryProvider.yml
+  name: IQueryProvider
+  fullName: System.Linq.IQueryProvider
+  type: Interface
+- uid: System.Linq.IOrderedQueryable
+  isExternal: false
+  href: System.Linq.IOrderedQueryable.yml
+  name: IOrderedQueryable
+  fullName: System.Linq.IOrderedQueryable
+  type: Interface
+- uid: System.Linq.IOrderedQueryable`1
+  isExternal: false
+  href: System.Linq.IOrderedQueryable`1.yml
+  name: IOrderedQueryable<T>
+  name.vb: IOrderedQueryable(Of T)
+  fullName: System.Linq.IOrderedQueryable<T>
+  fullName.vb: System.Linq.IOrderedQueryable(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Linq.IOrderedQueryable`1
+    name: IOrderedQueryable
+    fullName: System.Linq.IOrderedQueryable
+    href: System.Linq.IOrderedQueryable`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IOrderedQueryable`1
+    name: IOrderedQueryable
+    fullName: System.Linq.IOrderedQueryable
+    href: System.Linq.IOrderedQueryable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Linq.EnumerableExecutor
+  isExternal: false
+  href: System.Linq.EnumerableExecutor.yml
+  name: EnumerableExecutor
+  fullName: System.Linq.EnumerableExecutor
   type: Class
-  summary: LINQ extension method overrides that offer greater efficiency for @'System.Collections.Immutable.ImmutableArray`1' than the standard LINQ methods
+- uid: System.Linq.EnumerableExecutor`1
+  isExternal: false
+  href: System.Linq.EnumerableExecutor`1.yml
+  name: EnumerableExecutor<T>
+  name.vb: EnumerableExecutor(Of T)
+  fullName: System.Linq.EnumerableExecutor<T>
+  fullName.vb: System.Linq.EnumerableExecutor(Of T)
+  type: Class
+  spec.csharp:
+  - uid: System.Linq.EnumerableExecutor`1
+    name: EnumerableExecutor
+    fullName: System.Linq.EnumerableExecutor
+    href: System.Linq.EnumerableExecutor`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.EnumerableExecutor`1
+    name: EnumerableExecutor
+    fullName: System.Linq.EnumerableExecutor
+    href: System.Linq.EnumerableExecutor`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Linq.EnumerableQuery
+  isExternal: false
+  href: System.Linq.EnumerableQuery.yml
+  name: EnumerableQuery
+  fullName: System.Linq.EnumerableQuery
+  type: Class
+- uid: System.Linq.EnumerableQuery`1
+  isExternal: false
+  href: System.Linq.EnumerableQuery`1.yml
+  name: EnumerableQuery<T>
+  name.vb: EnumerableQuery(Of T)
+  fullName: System.Linq.EnumerableQuery<T>
+  fullName.vb: System.Linq.EnumerableQuery(Of T)
+  type: Class
+  spec.csharp:
+  - uid: System.Linq.EnumerableQuery`1
+    name: EnumerableQuery
+    fullName: System.Linq.EnumerableQuery
+    href: System.Linq.EnumerableQuery`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.EnumerableQuery`1
+    name: EnumerableQuery
+    fullName: System.Linq.EnumerableQuery
+    href: System.Linq.EnumerableQuery`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Linq.Queryable
+  isExternal: false
+  href: System.Linq.Queryable.yml
+  name: Queryable
+  fullName: System.Linq.Queryable
+  type: Class
 - uid: System.Linq.Enumerable
   isExternal: false
   href: System.Linq.Enumerable.yml
@@ -420,85 +492,13 @@ references:
     fullName: TElement
   - name: )
     fullName: )
-- uid: System.Linq.IQueryable
+- uid: System.Linq.ImmutableArrayExtensions
   isExternal: false
-  href: System.Linq.IQueryable.yml
-  name: IQueryable
-  fullName: System.Linq.IQueryable
-  type: Interface
-- uid: System.Linq.IQueryable`1
-  isExternal: false
-  href: System.Linq.IQueryable`1.yml
-  name: IQueryable<T>
-  name.vb: IQueryable(Of T)
-  fullName: System.Linq.IQueryable<T>
-  fullName.vb: System.Linq.IQueryable(Of T)
-  type: Interface
-  spec.csharp:
-  - uid: System.Linq.IQueryable`1
-    name: IQueryable
-    fullName: System.Linq.IQueryable
-    href: System.Linq.IQueryable`1.yml
-  - name: <
-    fullName: <
-  - name: T
-    fullName: T
-  - name: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Linq.IQueryable`1
-    name: IQueryable
-    fullName: System.Linq.IQueryable
-    href: System.Linq.IQueryable`1.yml
-  - name: '(Of '
-    fullName: '(Of '
-  - name: T
-    fullName: T
-  - name: )
-    fullName: )
-- uid: System.Linq.IQueryProvider
-  parent: System.Linq
-  isExternal: false
-  href: System.Linq.IQueryProvider.yml
-  name: IQueryProvider
-  fullName: System.Linq.IQueryProvider
-  type: Interface
-- uid: System.Linq.IOrderedQueryable
-  isExternal: false
-  href: System.Linq.IOrderedQueryable.yml
-  name: IOrderedQueryable
-  fullName: System.Linq.IOrderedQueryable
-  type: Interface
-- uid: System.Linq.IOrderedQueryable`1
-  isExternal: false
-  href: System.Linq.IOrderedQueryable`1.yml
-  name: IOrderedQueryable<T>
-  name.vb: IOrderedQueryable(Of T)
-  fullName: System.Linq.IOrderedQueryable<T>
-  fullName.vb: System.Linq.IOrderedQueryable(Of T)
-  type: Interface
-  spec.csharp:
-  - uid: System.Linq.IOrderedQueryable`1
-    name: IOrderedQueryable
-    fullName: System.Linq.IOrderedQueryable
-    href: System.Linq.IOrderedQueryable`1.yml
-  - name: <
-    fullName: <
-  - name: T
-    fullName: T
-  - name: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Linq.IOrderedQueryable`1
-    name: IOrderedQueryable
-    fullName: System.Linq.IOrderedQueryable
-    href: System.Linq.IOrderedQueryable`1.yml
-  - name: '(Of '
-    fullName: '(Of '
-  - name: T
-    fullName: T
-  - name: )
-    fullName: )
+  href: System.Linq.ImmutableArrayExtensions.yml
+  name: ImmutableArrayExtensions
+  fullName: System.Linq.ImmutableArrayExtensions
+  type: Class
+  summary: LINQ extension method overrides that offer greater efficiency for @'System.Collections.Immutable.ImmutableArray`1' than the standard LINQ methods
 - uid: System.Linq
   isExternal: false
   name: System.Linq

@@ -3,13 +3,13 @@ items:
   id: FileOptions
   parent: System.IO
   children:
-  - System.IO.FileOptions.None
-  - System.IO.FileOptions.WriteThrough
   - System.IO.FileOptions.Asynchronous
-  - System.IO.FileOptions.RandomAccess
   - System.IO.FileOptions.DeleteOnClose
-  - System.IO.FileOptions.SequentialScan
   - System.IO.FileOptions.Encrypted
+  - System.IO.FileOptions.None
+  - System.IO.FileOptions.RandomAccess
+  - System.IO.FileOptions.SequentialScan
+  - System.IO.FileOptions.WriteThrough
   href: System.IO.FileOptions.yml
   name: FileOptions
   fullName: System.IO.FileOptions

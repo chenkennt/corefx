@@ -3,9 +3,9 @@ items:
   id: IOrderedDictionary
   parent: System.Collections.Specialized
   children:
-  - System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
   - System.Collections.Specialized.IOrderedDictionary.GetEnumerator
   - System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)
+  - System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
   - System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
   href: System.Collections.Specialized.IOrderedDictionary.yml
   name: IOrderedDictionary
@@ -82,7 +82,6 @@ items:
     content.vb: Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)
   id: Insert(System.Int32,System.Object,System.Object)
   parent: System.Collections.Specialized.IOrderedDictionary
@@ -136,6 +135,7 @@ references:
 - uid: System.Collections.IDictionary.Contains(System.Object)
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: Contains(Object)
   fullName: System.Collections.IDictionary.Contains(System.Object)
   spec.csharp:
@@ -143,12 +143,14 @@ references:
     name: Contains
     fullName: System.Collections.IDictionary.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -156,17 +158,20 @@ references:
     name: Contains
     fullName: System.Collections.IDictionary.Contains
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.IDictionary.Add(System.Object,System.Object)
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: Add(Object, Object)
   fullName: System.Collections.IDictionary.Add(System.Object, System.Object)
   spec.csharp:
@@ -174,18 +179,21 @@ references:
     name: Add
     fullName: System.Collections.IDictionary.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -193,23 +201,27 @@ references:
     name: Add
     fullName: System.Collections.IDictionary.Add
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.IDictionary.Clear
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: Clear()
   fullName: System.Collections.IDictionary.Clear()
   spec.csharp:
@@ -217,6 +229,7 @@ references:
     name: Clear
     fullName: System.Collections.IDictionary.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - name: )
@@ -226,6 +239,7 @@ references:
     name: Clear
     fullName: System.Collections.IDictionary.Clear
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - name: )
@@ -233,6 +247,7 @@ references:
 - uid: System.Collections.IDictionary.Remove(System.Object)
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: Remove(Object)
   fullName: System.Collections.IDictionary.Remove(System.Object)
   spec.csharp:
@@ -240,12 +255,14 @@ references:
     name: Remove
     fullName: System.Collections.IDictionary.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -253,17 +270,20 @@ references:
     name: Remove
     fullName: System.Collections.IDictionary.Remove
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.IDictionary.Item(System.Object)
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: Item[Object]
   name.vb: Item(Object)
   fullName: System.Collections.IDictionary.Item[System.Object]
@@ -273,12 +293,14 @@ references:
     name: Item
     fullName: System.Collections.IDictionary.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: '['
     fullName: '['
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ']'
     fullName: ']'
   spec.vb:
@@ -286,37 +308,44 @@ references:
     name: Item
     fullName: System.Collections.IDictionary.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Collections.IDictionary.Keys
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: Keys
   fullName: System.Collections.IDictionary.Keys
 - uid: System.Collections.IDictionary.Values
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: Values
   fullName: System.Collections.IDictionary.Values
 - uid: System.Collections.IDictionary.IsReadOnly
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: IsReadOnly
   fullName: System.Collections.IDictionary.IsReadOnly
 - uid: System.Collections.IDictionary.IsFixedSize
   parent: System.Collections.IDictionary
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: IsFixedSize
   fullName: System.Collections.IDictionary.IsFixedSize
 - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: CopyTo(Array, Int32)
   fullName: System.Collections.ICollection.CopyTo(System.Array, System.Int32)
   spec.csharp:
@@ -324,18 +353,21 @@ references:
     name: CopyTo
     fullName: System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -343,43 +375,51 @@ references:
     name: CopyTo
     fullName: System.Collections.ICollection.CopyTo
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   - name: (
     fullName: (
   - uid: System.Array
     name: Array
     fullName: System.Array
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Array.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Collections.ICollection.Count
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: Count
   fullName: System.Collections.ICollection.Count
 - uid: System.Collections.ICollection.SyncRoot
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: SyncRoot
   fullName: System.Collections.ICollection.SyncRoot
 - uid: System.Collections.ICollection.IsSynchronized
   parent: System.Collections.ICollection
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: IsSynchronized
   fullName: System.Collections.ICollection.IsSynchronized
 - uid: System.Collections.IDictionary
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: IDictionary
   fullName: System.Collections.IDictionary
 - uid: System.Collections.ICollection
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: ICollection
   fullName: System.Collections.ICollection
 - uid: System.Collections
@@ -389,11 +429,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -403,5 +445,6 @@ references:
 - uid: System.Collections.IDictionaryEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionaryEnumerator.yml
   name: IDictionaryEnumerator
   fullName: System.Collections.IDictionaryEnumerator

@@ -4,8 +4,8 @@ items:
   parent: System.Xml.Linq
   children:
   - System.Xml.Linq.XObjectChange.Add
-  - System.Xml.Linq.XObjectChange.Remove
   - System.Xml.Linq.XObjectChange.Name
+  - System.Xml.Linq.XObjectChange.Remove
   - System.Xml.Linq.XObjectChange.Value
   href: System.Xml.Linq.XObjectChange.yml
   name: XObjectChange

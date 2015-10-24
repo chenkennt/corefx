@@ -8,10 +8,10 @@ items:
   - System.Diagnostics.DelimitedListTraceListener.#ctor(System.IO.TextWriter)
   - System.Diagnostics.DelimitedListTraceListener.#ctor(System.IO.TextWriter,System.String)
   - System.Diagnostics.DelimitedListTraceListener.Delimiter
-  - System.Diagnostics.DelimitedListTraceListener.TraceEvent(TraceEventCache,System.String,TraceEventType,System.Int32,System.String,System.Object[])
-  - System.Diagnostics.DelimitedListTraceListener.TraceEvent(TraceEventCache,System.String,TraceEventType,System.Int32,System.String)
   - System.Diagnostics.DelimitedListTraceListener.TraceData(TraceEventCache,System.String,TraceEventType,System.Int32,System.Object)
   - System.Diagnostics.DelimitedListTraceListener.TraceData(TraceEventCache,System.String,TraceEventType,System.Int32,System.Object[])
+  - System.Diagnostics.DelimitedListTraceListener.TraceEvent(TraceEventCache,System.String,TraceEventType,System.Int32,System.String)
+  - System.Diagnostics.DelimitedListTraceListener.TraceEvent(TraceEventCache,System.String,TraceEventType,System.Int32,System.String,System.Object[])
   href: System.Diagnostics.DelimitedListTraceListener.yml
   name: DelimitedListTraceListener
   fullName: System.Diagnostics.DelimitedListTraceListener
@@ -143,7 +143,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DelimitedListTraceListener.TraceEvent(TraceEventCache,System.String,TraceEventType,System.Int32,System.String,System.Object[])
   id: TraceEvent(TraceEventCache,System.String,TraceEventType,System.Int32,System.String,System.Object[])
   parent: System.Diagnostics.DelimitedListTraceListener
@@ -271,6 +270,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Diagnostics.TextWriterTraceListener
@@ -303,6 +303,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -316,6 +317,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Diagnostics.TextWriterTraceListener.Flush
@@ -359,6 +361,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -372,6 +375,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Diagnostics.TextWriterTraceListener.WriteLine(System.String)
@@ -391,6 +395,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -404,6 +409,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System
@@ -413,6 +419,7 @@ references:
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.IO
@@ -422,11 +429,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IO.TextWriter
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.TextWriter.yml
   name: TextWriter
   fullName: System.IO.TextWriter
 - uid: TraceEventCache
@@ -440,10 +449,12 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Object[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object[]
   name.vb: Object()
   fullName: System.Object[]
@@ -453,6 +464,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -460,5 +472,6 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ()
     fullName: ()

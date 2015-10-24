@@ -4,51 +4,51 @@ items:
   parent: System.Collections.Generic
   children:
   - System.Collections.Generic.SortedList`2.#ctor
-  - System.Collections.Generic.SortedList`2.#ctor(System.Int32)
   - System.Collections.Generic.SortedList`2.#ctor(System.Collections.Generic.IComparer{`0})
-  - System.Collections.Generic.SortedList`2.#ctor(System.Int32,System.Collections.Generic.IComparer{`0})
   - System.Collections.Generic.SortedList`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
   - System.Collections.Generic.SortedList`2.#ctor(System.Collections.Generic.IDictionary{`0,`1},System.Collections.Generic.IComparer{`0})
+  - System.Collections.Generic.SortedList`2.#ctor(System.Int32)
+  - System.Collections.Generic.SortedList`2.#ctor(System.Int32,System.Collections.Generic.IComparer{`0})
   - System.Collections.Generic.SortedList`2.Add(`0,`1)
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Add(System.Collections.Generic.KeyValuePair{`0,`1})
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Contains(System.Collections.Generic.KeyValuePair{`0,`1})
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})
   - System.Collections.Generic.SortedList`2.Capacity
-  - System.Collections.Generic.SortedList`2.Comparer
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Add(System.Object,System.Object)
-  - System.Collections.Generic.SortedList`2.Count
-  - System.Collections.Generic.SortedList`2.Keys
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IDictionary{TKey,TValue}#Keys
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Keys
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys
-  - System.Collections.Generic.SortedList`2.Values
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IDictionary{TKey,TValue}#Values
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Values
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#IsReadOnly
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#IsFixedSize
-  - System.Collections.Generic.SortedList`2.System#Collections#ICollection#IsSynchronized
-  - System.Collections.Generic.SortedList`2.System#Collections#ICollection#SyncRoot
   - System.Collections.Generic.SortedList`2.Clear
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Contains(System.Object)
+  - System.Collections.Generic.SortedList`2.Comparer
   - System.Collections.Generic.SortedList`2.ContainsKey(`0)
   - System.Collections.Generic.SortedList`2.ContainsValue(`1)
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
-  - System.Collections.Generic.SortedList`2.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.Generic.SortedList`2.Count
   - System.Collections.Generic.SortedList`2.GetEnumerator
-  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#GetEnumerator
-  - System.Collections.Generic.SortedList`2.System#Collections#IEnumerable#GetEnumerator
-  - System.Collections.Generic.SortedList`2.Item(`0)
-  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Item(System.Object)
   - System.Collections.Generic.SortedList`2.IndexOfKey(`0)
   - System.Collections.Generic.SortedList`2.IndexOfValue(`1)
-  - System.Collections.Generic.SortedList`2.TryGetValue(`0,`1@)
-  - System.Collections.Generic.SortedList`2.RemoveAt(System.Int32)
+  - System.Collections.Generic.SortedList`2.Item(`0)
+  - System.Collections.Generic.SortedList`2.Keys
   - System.Collections.Generic.SortedList`2.Remove(`0)
+  - System.Collections.Generic.SortedList`2.RemoveAt(System.Int32)
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IDictionary{TKey,TValue}#Keys
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IDictionary{TKey,TValue}#Values
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys
+  - System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values
+  - System.Collections.Generic.SortedList`2.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.Generic.SortedList`2.System#Collections#ICollection#IsSynchronized
+  - System.Collections.Generic.SortedList`2.System#Collections#ICollection#SyncRoot
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Add(System.Object,System.Object)
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Contains(System.Object)
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#GetEnumerator
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#IsFixedSize
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#IsReadOnly
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Item(System.Object)
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Keys
   - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Remove(System.Object)
+  - System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Values
+  - System.Collections.Generic.SortedList`2.System#Collections#IEnumerable#GetEnumerator
   - System.Collections.Generic.SortedList`2.TrimExcess
+  - System.Collections.Generic.SortedList`2.TryGetValue(`0,`1@)
+  - System.Collections.Generic.SortedList`2.Values
   href: System.Collections.Generic.SortedList`2.yml
   name: SortedList<TKey, TValue>
   name.vb: SortedList(Of TKey, TValue)
@@ -291,7 +291,6 @@ items:
       type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})
   id: System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})
   parent: System.Collections.Generic.SortedList`2
@@ -316,7 +315,6 @@ items:
       type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.Capacity
   id: Capacity
   parent: System.Collections.Generic.SortedList`2
@@ -338,7 +336,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.SortedList`2.Comparer
   id: Comparer
   parent: System.Collections.Generic.SortedList`2
@@ -360,7 +357,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IComparer{{TKey}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Add(System.Object,System.Object)
   id: System#Collections#IDictionary#Add(System.Object,System.Object)
   parent: System.Collections.Generic.SortedList`2
@@ -406,7 +402,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.SortedList`2.Keys
   id: Keys
   parent: System.Collections.Generic.SortedList`2
@@ -428,7 +423,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{{TKey}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#IDictionary{TKey,TValue}#Keys
   id: System#Collections#Generic#IDictionary{TKey,TValue}#Keys
   parent: System.Collections.Generic.SortedList`2
@@ -451,7 +445,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{{TKey}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Keys
   id: System#Collections#IDictionary#Keys
   parent: System.Collections.Generic.SortedList`2
@@ -474,7 +467,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys
   id: System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys
   parent: System.Collections.Generic.SortedList`2
@@ -497,7 +489,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{{TKey}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.Values
   id: Values
   parent: System.Collections.Generic.SortedList`2
@@ -519,7 +510,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{{TValue}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#IDictionary{TKey,TValue}#Values
   id: System#Collections#Generic#IDictionary{TKey,TValue}#Values
   parent: System.Collections.Generic.SortedList`2
@@ -542,7 +532,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{{TValue}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Values
   id: System#Collections#IDictionary#Values
   parent: System.Collections.Generic.SortedList`2
@@ -565,7 +554,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values
   id: System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values
   parent: System.Collections.Generic.SortedList`2
@@ -588,7 +576,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{{TValue}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly
   id: System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly
   parent: System.Collections.Generic.SortedList`2
@@ -611,7 +598,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#IsReadOnly
   id: System#Collections#IDictionary#IsReadOnly
   parent: System.Collections.Generic.SortedList`2
@@ -634,7 +620,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#IsFixedSize
   id: System#Collections#IDictionary#IsFixedSize
   parent: System.Collections.Generic.SortedList`2
@@ -657,7 +642,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.Generic.SortedList`2
@@ -680,7 +664,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.Generic.SortedList`2
@@ -703,7 +686,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Generic.SortedList`2.Clear
   id: Clear
   parent: System.Collections.Generic.SortedList`2
@@ -746,7 +728,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.ContainsKey(`0)
   id: ContainsKey(`0)
   parent: System.Collections.Generic.SortedList`2
@@ -770,7 +751,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.ContainsValue(`1)
   id: ContainsValue(`1)
   parent: System.Collections.Generic.SortedList`2
@@ -794,7 +774,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   id: System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   parent: System.Collections.Generic.SortedList`2
@@ -863,7 +842,6 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of KeyValuePair(Of TKey, TValue))
     return:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator
   parent: System.Collections.Generic.SortedList`2
@@ -885,7 +863,6 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator As IEnumerator(Of KeyValuePair(Of TKey, TValue)) Implements IEnumerable(Of KeyValuePair(Of TKey, TValue)).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#GetEnumerator
   id: System#Collections#IDictionary#GetEnumerator
   parent: System.Collections.Generic.SortedList`2
@@ -907,7 +884,6 @@ items:
     content.vb: Function System.Collections.IDictionary.GetEnumerator As IDictionaryEnumerator Implements IDictionary.GetEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Generic.SortedList`2
@@ -929,7 +905,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Collections.Generic.SortedList`2.Item(`0)
   id: Item(`0)
   parent: System.Collections.Generic.SortedList`2
@@ -954,7 +929,6 @@ items:
       type: '{TKey}'
     return:
       type: '{TValue}'
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Item(System.Object)
   id: System#Collections#IDictionary#Item(System.Object)
   parent: System.Collections.Generic.SortedList`2
@@ -979,7 +953,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Generic.SortedList`2.IndexOfKey(`0)
   id: IndexOfKey(`0)
   parent: System.Collections.Generic.SortedList`2
@@ -1003,7 +976,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.SortedList`2.IndexOfValue(`1)
   id: IndexOfValue(`1)
   parent: System.Collections.Generic.SortedList`2
@@ -1027,7 +999,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.SortedList`2.TryGetValue(`0,`1@)
   id: TryGetValue(`0,`1@)
   parent: System.Collections.Generic.SortedList`2
@@ -1054,7 +1025,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.RemoveAt(System.Int32)
   id: RemoveAt(System.Int32)
   parent: System.Collections.Generic.SortedList`2
@@ -1099,7 +1069,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.SortedList`2.System#Collections#IDictionary#Remove(System.Object)
   id: System#Collections#IDictionary#Remove(System.Object)
   parent: System.Collections.Generic.SortedList`2
@@ -1148,11 +1117,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1160,6 +1131,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1169,6 +1141,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1176,6 +1149,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1183,12 +1157,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1196,17 +1172,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1214,18 +1193,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1233,23 +1215,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1257,18 +1243,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1276,23 +1265,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1300,6 +1293,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1309,6 +1303,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1316,6 +1311,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1323,6 +1319,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1332,6 +1329,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1339,6 +1337,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1346,6 +1345,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1355,6 +1355,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1366,11 +1367,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Collections.Generic.IComparer{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<TKey>
   name.vb: IComparer(Of TKey)
   fullName: System.Collections.Generic.IComparer<TKey>
@@ -1380,6 +1383,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1391,6 +1395,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1400,6 +1405,7 @@ references:
 - uid: System.Collections.Generic.IComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<T>
   name.vb: IComparer(Of T)
   fullName: System.Collections.Generic.IComparer<T>
@@ -1409,6 +1415,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1420,6 +1427,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1429,6 +1437,7 @@ references:
 - uid: System.Collections.Generic.IDictionary{{TKey},{TValue}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IDictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   name: IDictionary<TKey, TValue>
   name.vb: IDictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.IDictionary<TKey, TValue>
@@ -1438,6 +1447,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1453,6 +1463,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1466,6 +1477,7 @@ references:
 - uid: System.Collections.Generic.IDictionary`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   name: IDictionary<TKey, TValue>
   name.vb: IDictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.IDictionary<TKey, TValue>
@@ -1475,6 +1487,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1490,6 +1503,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1511,6 +1525,7 @@ references:
 - uid: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.KeyValuePair`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   name: KeyValuePair<TKey, TValue>
   name.vb: KeyValuePair(Of TKey, TValue)
   fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
@@ -1520,6 +1535,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1535,6 +1551,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1548,6 +1565,7 @@ references:
 - uid: System.Collections.Generic.KeyValuePair`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   name: KeyValuePair<TKey, TValue>
   name.vb: KeyValuePair(Of TKey, TValue)
   fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
@@ -1557,6 +1575,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1572,6 +1591,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1585,11 +1605,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.IList{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IList`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   name: IList<TKey>
   name.vb: IList(Of TKey)
   fullName: System.Collections.Generic.IList<TKey>
@@ -1599,6 +1621,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1610,6 +1633,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1619,6 +1643,7 @@ references:
 - uid: System.Collections.Generic.IList`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   name: IList<T>
   name.vb: IList(Of T)
   fullName: System.Collections.Generic.IList<T>
@@ -1628,6 +1653,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1639,6 +1665,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1648,6 +1675,7 @@ references:
 - uid: System.Collections.Generic.ICollection{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.ICollection`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   name: ICollection<TKey>
   name.vb: ICollection(Of TKey)
   fullName: System.Collections.Generic.ICollection<TKey>
@@ -1657,6 +1685,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1668,6 +1697,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1677,6 +1707,7 @@ references:
 - uid: System.Collections.Generic.ICollection`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   name: ICollection<T>
   name.vb: ICollection(Of T)
   fullName: System.Collections.Generic.ICollection<T>
@@ -1686,6 +1717,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1697,6 +1729,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1706,6 +1739,7 @@ references:
 - uid: System.Collections.ICollection
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: ICollection
   fullName: System.Collections.ICollection
 - uid: System.Collections
@@ -1715,6 +1749,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TKey>
   name.vb: IEnumerable(Of TKey)
   fullName: System.Collections.Generic.IEnumerable<TKey>
@@ -1724,6 +1759,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1735,6 +1771,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1744,6 +1781,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1753,6 +1791,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1764,6 +1803,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1773,6 +1813,7 @@ references:
 - uid: System.Collections.Generic.IList{{TValue}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IList`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   name: IList<TValue>
   name.vb: IList(Of TValue)
   fullName: System.Collections.Generic.IList<TValue>
@@ -1782,6 +1823,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: <
     fullName: <
   - name: TValue
@@ -1793,6 +1835,7 @@ references:
     name: IList
     fullName: System.Collections.Generic.IList
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IList`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TValue
@@ -1802,6 +1845,7 @@ references:
 - uid: System.Collections.Generic.ICollection{{TValue}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.ICollection`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   name: ICollection<TValue>
   name.vb: ICollection(Of TValue)
   fullName: System.Collections.Generic.ICollection<TValue>
@@ -1811,6 +1855,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: <
     fullName: <
   - name: TValue
@@ -1822,6 +1867,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TValue
@@ -1831,6 +1877,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TValue}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TValue>
   name.vb: IEnumerable(Of TValue)
   fullName: System.Collections.Generic.IEnumerable<TValue>
@@ -1840,6 +1887,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TValue
@@ -1851,6 +1899,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TValue
@@ -1859,6 +1908,7 @@ references:
     fullName: )
 - uid: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   name: KeyValuePair<TKey, TValue>[]
   name.vb: KeyValuePair(Of TKey, TValue)()
   fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>[]
@@ -1868,6 +1918,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1885,6 +1936,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1898,13 +1950,10 @@ references:
   - name: ()
     fullName: ()
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array
 - uid: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerator`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   name: IEnumerator<KeyValuePair<TKey, TValue>>
   name.vb: IEnumerator(Of KeyValuePair(Of TKey, TValue))
   fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>
@@ -1914,12 +1963,14 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: <
     fullName: <
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1937,12 +1988,14 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -1958,6 +2011,7 @@ references:
 - uid: System.Collections.Generic.IEnumerator`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   name: IEnumerator<T>
   name.vb: IEnumerator(Of T)
   fullName: System.Collections.Generic.IEnumerator<T>
@@ -1967,6 +2021,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1978,6 +2033,7 @@ references:
     name: IEnumerator
     fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerator`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1987,10 +2043,12 @@ references:
 - uid: System.Collections.IDictionaryEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionaryEnumerator.yml
   name: IDictionaryEnumerator
   fullName: System.Collections.IDictionaryEnumerator
 - uid: System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerator.yml
   name: IEnumerator
   fullName: System.Collections.IEnumerator

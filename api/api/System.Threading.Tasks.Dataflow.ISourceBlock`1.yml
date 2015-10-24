@@ -3,10 +3,10 @@ items:
   id: ISourceBlock`1
   parent: System.Threading.Tasks.Dataflow
   children:
-  - System.Threading.Tasks.Dataflow.ISourceBlock`1.LinkTo(System.Threading.Tasks.Dataflow.ITargetBlock{`0},System.Threading.Tasks.Dataflow.DataflowLinkOptions)
   - System.Threading.Tasks.Dataflow.ISourceBlock`1.ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,System.Threading.Tasks.Dataflow.ITargetBlock{`0},System.Boolean@)
-  - System.Threading.Tasks.Dataflow.ISourceBlock`1.ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,System.Threading.Tasks.Dataflow.ITargetBlock{`0})
+  - System.Threading.Tasks.Dataflow.ISourceBlock`1.LinkTo(System.Threading.Tasks.Dataflow.ITargetBlock{`0},System.Threading.Tasks.Dataflow.DataflowLinkOptions)
   - System.Threading.Tasks.Dataflow.ISourceBlock`1.ReleaseReservation(System.Threading.Tasks.Dataflow.DataflowMessageHeader,System.Threading.Tasks.Dataflow.ITargetBlock{`0})
+  - System.Threading.Tasks.Dataflow.ISourceBlock`1.ReserveMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,System.Threading.Tasks.Dataflow.ITargetBlock{`0})
   href: System.Threading.Tasks.Dataflow.ISourceBlock`1.yml
   name: ISourceBlock<TOutput>
   name.vb: ISourceBlock(Of TOutput)
@@ -224,6 +224,7 @@ references:
     name: Exception
     fullName: System.Exception
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: )
     fullName: )
   spec.vb:
@@ -237,6 +238,7 @@ references:
     name: Exception
     fullName: System.Exception
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   - name: )
     fullName: )
 - uid: System.Threading.Tasks.Dataflow.IDataflowBlock
@@ -287,6 +289,7 @@ references:
 - uid: System.IDisposable
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IDisposable.yml
   name: IDisposable
   fullName: System.IDisposable
 - uid: System.Threading.Tasks.Dataflow.ITargetBlock`1
@@ -336,6 +339,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: '{TOutput}'

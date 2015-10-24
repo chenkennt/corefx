@@ -2,21 +2,21 @@ items:
 - uid: System.Xml.XPath
   id: System.Xml.XPath
   children:
-  - System.Xml.XPath.XDocumentExtensions
   - System.Xml.XPath.Extensions
   - System.Xml.XPath.IXPathNavigable
-  - System.Xml.XPath.XPathDocument
-  - System.Xml.XPath.XPathException
-  - System.Xml.XPath.XmlSortOrder
+  - System.Xml.XPath.XDocumentExtensions
   - System.Xml.XPath.XmlCaseOrder
   - System.Xml.XPath.XmlDataType
-  - System.Xml.XPath.XPathResultType
+  - System.Xml.XPath.XmlSortOrder
+  - System.Xml.XPath.XPathDocument
+  - System.Xml.XPath.XPathException
   - System.Xml.XPath.XPathExpression
   - System.Xml.XPath.XPathItem
   - System.Xml.XPath.XPathNamespaceScope
   - System.Xml.XPath.XPathNavigator
   - System.Xml.XPath.XPathNodeIterator
   - System.Xml.XPath.XPathNodeType
+  - System.Xml.XPath.XPathResultType
   href: System.Xml.XPath.yml
   name: System.Xml.XPath
   fullName: System.Xml.XPath
@@ -46,11 +46,11 @@ references:
   type: Class
   summary: Extension methods
 - uid: System.Xml.XPath.IXPathNavigable
+  parent: System.Xml.XPath
   isExternal: false
   href: System.Xml.XPath.IXPathNavigable.yml
   name: IXPathNavigable
   fullName: System.Xml.XPath.IXPathNavigable
-  type: Interface
 - uid: System.Xml.XPath.XPathDocument
   isExternal: false
   href: System.Xml.XPath.XPathDocument.yml
@@ -124,7 +124,6 @@ references:
   href: System.Xml.XPath.XPathNavigator.yml
   name: XPathNavigator
   fullName: System.Xml.XPath.XPathNavigator
-  type: Class
 - uid: System.Xml.XPath.XPathNodeIterator
   parent: System.Xml.XPath
   isExternal: false

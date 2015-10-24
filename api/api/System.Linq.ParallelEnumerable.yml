@@ -3,47 +3,65 @@ items:
   id: ParallelEnumerable
   parent: System.Linq
   children:
-  - System.Linq.ParallelEnumerable.AsParallel``1(System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.ParallelEnumerable.AsParallel``1(System.Collections.Concurrent.Partitioner{``0})
-  - System.Linq.ParallelEnumerable.AsOrdered``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Aggregate``1(System.Linq.ParallelQuery{``0},System.Func{``0,``0,``0})
+  - System.Linq.ParallelEnumerable.Aggregate``2(System.Linq.ParallelQuery{``0},``1,System.Func{``1,``0,``1})
+  - System.Linq.ParallelEnumerable.Aggregate``3(System.Linq.ParallelQuery{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``1,``1},System.Func{``1,``2})
+  - System.Linq.ParallelEnumerable.Aggregate``3(System.Linq.ParallelQuery{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``2})
+  - System.Linq.ParallelEnumerable.Aggregate``3(System.Linq.ParallelQuery{``0},System.Func{``1},System.Func{``1,``0,``1},System.Func{``1,``1,``1},System.Func{``1,``2})
+  - System.Linq.ParallelEnumerable.All``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.Any``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Any``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.AsEnumerable``1(System.Linq.ParallelQuery{``0})
   - System.Linq.ParallelEnumerable.AsOrdered(System.Linq.ParallelQuery)
-  - System.Linq.ParallelEnumerable.AsUnordered``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.AsOrdered``1(System.Linq.ParallelQuery{``0})
   - System.Linq.ParallelEnumerable.AsParallel(System.Collections.IEnumerable)
+  - System.Linq.ParallelEnumerable.AsParallel``1(System.Collections.Concurrent.Partitioner{``0})
+  - System.Linq.ParallelEnumerable.AsParallel``1(System.Collections.Generic.IEnumerable{``0})
   - System.Linq.ParallelEnumerable.AsSequential``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.WithDegreeOfParallelism``1(System.Linq.ParallelQuery{``0},System.Int32)
-  - System.Linq.ParallelEnumerable.WithCancellation``1(System.Linq.ParallelQuery{``0},System.Threading.CancellationToken)
-  - System.Linq.ParallelEnumerable.WithExecutionMode``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelExecutionMode)
-  - System.Linq.ParallelEnumerable.WithMergeOptions``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelMergeOptions)
-  - System.Linq.ParallelEnumerable.Range(System.Int32,System.Int32)
-  - System.Linq.ParallelEnumerable.Repeat``1(``0,System.Int32)
+  - System.Linq.ParallelEnumerable.AsUnordered``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Decimal})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Double})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Int32})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Int64})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Single})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
+  - System.Linq.ParallelEnumerable.Cast``1(System.Linq.ParallelQuery)
+  - System.Linq.ParallelEnumerable.Concat``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.ParallelEnumerable.Concat``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Contains``1(System.Linq.ParallelQuery{``0},``0)
+  - System.Linq.ParallelEnumerable.Contains``1(System.Linq.ParallelQuery{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.Count``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Count``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.DefaultIfEmpty``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.DefaultIfEmpty``1(System.Linq.ParallelQuery{``0},``0)
+  - System.Linq.ParallelEnumerable.Distinct``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Distinct``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.ElementAt``1(System.Linq.ParallelQuery{``0},System.Int32)
+  - System.Linq.ParallelEnumerable.ElementAtOrDefault``1(System.Linq.ParallelQuery{``0},System.Int32)
   - System.Linq.ParallelEnumerable.Empty``1
+  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.First``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.First``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.FirstOrDefault``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.FirstOrDefault``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
   - System.Linq.ParallelEnumerable.ForAll``1(System.Linq.ParallelQuery{``0},System.Action{``0})
-  - System.Linq.ParallelEnumerable.Where``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.Where``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Boolean})
-  - System.Linq.ParallelEnumerable.Select``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.Select``2(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,``1})
-  - System.Linq.ParallelEnumerable.Zip``3(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``1,``2})
-  - System.Linq.ParallelEnumerable.Zip``3(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,``2})
-  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
-  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
-  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
-  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
-  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
-  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
-  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
-  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
-  - System.Linq.ParallelEnumerable.SelectMany``2(System.Linq.ParallelQuery{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
-  - System.Linq.ParallelEnumerable.SelectMany``2(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}})
-  - System.Linq.ParallelEnumerable.SelectMany``3(System.Linq.ParallelQuery{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
-  - System.Linq.ParallelEnumerable.SelectMany``3(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
-  - System.Linq.ParallelEnumerable.OrderBy``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.OrderBy``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
-  - System.Linq.ParallelEnumerable.OrderByDescending``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.OrderByDescending``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
-  - System.Linq.ParallelEnumerable.ThenBy``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.ThenBy``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
-  - System.Linq.ParallelEnumerable.ThenByDescending``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.ThenByDescending``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
   - System.Linq.ParallelEnumerable.GroupBy``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
   - System.Linq.ParallelEnumerable.GroupBy``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
   - System.Linq.ParallelEnumerable.GroupBy``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2})
@@ -52,160 +70,142 @@ items:
   - System.Linq.ParallelEnumerable.GroupBy``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2},System.Collections.Generic.IEqualityComparer{``1})
   - System.Linq.ParallelEnumerable.GroupBy``4(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3})
   - System.Linq.ParallelEnumerable.GroupBy``4(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.ParallelEnumerable.Aggregate``1(System.Linq.ParallelQuery{``0},System.Func{``0,``0,``0})
-  - System.Linq.ParallelEnumerable.Aggregate``2(System.Linq.ParallelQuery{``0},``1,System.Func{``1,``0,``1})
-  - System.Linq.ParallelEnumerable.Aggregate``3(System.Linq.ParallelQuery{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``2})
-  - System.Linq.ParallelEnumerable.Aggregate``3(System.Linq.ParallelQuery{``0},``1,System.Func{``1,``0,``1},System.Func{``1,``1,``1},System.Func{``1,``2})
-  - System.Linq.ParallelEnumerable.Aggregate``3(System.Linq.ParallelQuery{``0},System.Func{``1},System.Func{``1,``0,``1},System.Func{``1,``1,``1},System.Func{``1,``2})
-  - System.Linq.ParallelEnumerable.Count``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.Count``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.LongCount``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.LongCount``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Int32})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Int64})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Single})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Double})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Decimal})
-  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
-  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Int32})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Int64})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Single})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Double})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Decimal})
-  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
-  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Min``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Int32})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Int64})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Single})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Double})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Decimal})
-  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
-  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Max``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Int32})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Int64})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Single})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Double})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Decimal})
-  - System.Linq.ParallelEnumerable.Average(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
-  - System.Linq.ParallelEnumerable.Average``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
-  - System.Linq.ParallelEnumerable.Any``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.Any``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.All``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.Contains``1(System.Linq.ParallelQuery{``0},``0)
-  - System.Linq.ParallelEnumerable.Contains``1(System.Linq.ParallelQuery{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.Take``1(System.Linq.ParallelQuery{``0},System.Int32)
-  - System.Linq.ParallelEnumerable.TakeWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.TakeWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Boolean})
-  - System.Linq.ParallelEnumerable.Skip``1(System.Linq.ParallelQuery{``0},System.Int32)
-  - System.Linq.ParallelEnumerable.SkipWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.SkipWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Boolean})
-  - System.Linq.ParallelEnumerable.Concat``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.Concat``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.Distinct``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.Distinct``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.Intersect``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
+  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
+  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3})
+  - System.Linq.ParallelEnumerable.GroupJoin``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
   - System.Linq.ParallelEnumerable.Intersect``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.ParallelEnumerable.Intersect``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
   - System.Linq.ParallelEnumerable.Intersect``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
-  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.Except``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  - System.Linq.ParallelEnumerable.AsEnumerable``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.ToArray``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.ToList``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.ToDictionary``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.ToDictionary``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.ParallelEnumerable.ToDictionary``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2})
-  - System.Linq.ParallelEnumerable.ToDictionary``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.ParallelEnumerable.ToLookup``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
-  - System.Linq.ParallelEnumerable.ToLookup``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.ParallelEnumerable.ToLookup``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2})
-  - System.Linq.ParallelEnumerable.ToLookup``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  - System.Linq.ParallelEnumerable.Reverse``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.OfType``1(System.Linq.ParallelQuery)
-  - System.Linq.ParallelEnumerable.Cast``1(System.Linq.ParallelQuery)
-  - System.Linq.ParallelEnumerable.First``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.First``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.FirstOrDefault``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.FirstOrDefault``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.Intersect``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Intersect``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
+  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
+  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3})
+  - System.Linq.ParallelEnumerable.Join``4(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``1,``3},System.Collections.Generic.IEqualityComparer{``2})
   - System.Linq.ParallelEnumerable.Last``1(System.Linq.ParallelQuery{``0})
   - System.Linq.ParallelEnumerable.Last``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
   - System.Linq.ParallelEnumerable.LastOrDefault``1(System.Linq.ParallelQuery{``0})
   - System.Linq.ParallelEnumerable.LastOrDefault``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.LongCount``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.LongCount``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Decimal})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Double})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Int32})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Int64})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Max(System.Linq.ParallelQuery{System.Single})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Max``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
+  - System.Linq.ParallelEnumerable.Max``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Decimal})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Double})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Int32})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Int64})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Min(System.Linq.ParallelQuery{System.Single})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Min``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
+  - System.Linq.ParallelEnumerable.Min``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.OfType``1(System.Linq.ParallelQuery)
+  - System.Linq.ParallelEnumerable.OrderBy``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.OrderBy``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.ParallelEnumerable.OrderByDescending``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.OrderByDescending``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.ParallelEnumerable.Range(System.Int32,System.Int32)
+  - System.Linq.ParallelEnumerable.Repeat``1(``0,System.Int32)
+  - System.Linq.ParallelEnumerable.Reverse``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Select``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.Select``2(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,``1})
+  - System.Linq.ParallelEnumerable.SelectMany``2(System.Linq.ParallelQuery{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
+  - System.Linq.ParallelEnumerable.SelectMany``2(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}})
+  - System.Linq.ParallelEnumerable.SelectMany``3(System.Linq.ParallelQuery{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
+  - System.Linq.ParallelEnumerable.SelectMany``3(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}},System.Func{``0,``1,``2})
+  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.SequenceEqual``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
   - System.Linq.ParallelEnumerable.Single``1(System.Linq.ParallelQuery{``0})
   - System.Linq.ParallelEnumerable.Single``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
   - System.Linq.ParallelEnumerable.SingleOrDefault``1(System.Linq.ParallelQuery{``0})
   - System.Linq.ParallelEnumerable.SingleOrDefault``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
-  - System.Linq.ParallelEnumerable.DefaultIfEmpty``1(System.Linq.ParallelQuery{``0})
-  - System.Linq.ParallelEnumerable.DefaultIfEmpty``1(System.Linq.ParallelQuery{``0},``0)
-  - System.Linq.ParallelEnumerable.ElementAt``1(System.Linq.ParallelQuery{``0},System.Int32)
-  - System.Linq.ParallelEnumerable.ElementAtOrDefault``1(System.Linq.ParallelQuery{``0},System.Int32)
+  - System.Linq.ParallelEnumerable.Skip``1(System.Linq.ParallelQuery{``0},System.Int32)
+  - System.Linq.ParallelEnumerable.SkipWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.SkipWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Boolean})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Decimal})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Double})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Int32})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Int64})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Sum(System.Linq.ParallelQuery{System.Single})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Decimal})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Double})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int64})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Double}})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int32}})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Int64}})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Nullable{System.Single}})
+  - System.Linq.ParallelEnumerable.Sum``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Single})
+  - System.Linq.ParallelEnumerable.Take``1(System.Linq.ParallelQuery{``0},System.Int32)
+  - System.Linq.ParallelEnumerable.TakeWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.TakeWhile``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Boolean})
+  - System.Linq.ParallelEnumerable.ThenBy``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.ThenBy``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.ParallelEnumerable.ThenByDescending``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.ThenByDescending``2(System.Linq.OrderedParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  - System.Linq.ParallelEnumerable.ToArray``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.ToDictionary``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.ToDictionary``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.ParallelEnumerable.ToDictionary``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2})
+  - System.Linq.ParallelEnumerable.ToDictionary``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.ParallelEnumerable.ToList``1(System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.ToLookup``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1})
+  - System.Linq.ParallelEnumerable.ToLookup``2(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.ParallelEnumerable.ToLookup``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2})
+  - System.Linq.ParallelEnumerable.ToLookup``3(System.Linq.ParallelQuery{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0})
+  - System.Linq.ParallelEnumerable.Union``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``0},System.Collections.Generic.IEqualityComparer{``0})
+  - System.Linq.ParallelEnumerable.Where``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Boolean})
+  - System.Linq.ParallelEnumerable.Where``1(System.Linq.ParallelQuery{``0},System.Func{``0,System.Int32,System.Boolean})
+  - System.Linq.ParallelEnumerable.WithCancellation``1(System.Linq.ParallelQuery{``0},System.Threading.CancellationToken)
+  - System.Linq.ParallelEnumerable.WithDegreeOfParallelism``1(System.Linq.ParallelQuery{``0},System.Int32)
+  - System.Linq.ParallelEnumerable.WithExecutionMode``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelExecutionMode)
+  - System.Linq.ParallelEnumerable.WithMergeOptions``1(System.Linq.ParallelQuery{``0},System.Linq.ParallelMergeOptions)
+  - System.Linq.ParallelEnumerable.Zip``3(System.Linq.ParallelQuery{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,``2})
+  - System.Linq.ParallelEnumerable.Zip``3(System.Linq.ParallelQuery{``0},System.Linq.ParallelQuery{``1},System.Func{``0,``1,``2})
   href: System.Linq.ParallelEnumerable.yml
   name: ParallelEnumerable
   fullName: System.Linq.ParallelEnumerable
@@ -1762,7 +1762,6 @@ items:
     - id: TCollection
       description: The type of the intermediate elements collected by <paramref name="collectionSelector" />.
     - id: TResult
-      description: 
     return:
       type: System.Linq.ParallelQuery{{TResult}}
       description: >-
@@ -9278,11 +9277,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -9290,6 +9291,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9299,6 +9301,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9306,6 +9309,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -9313,12 +9317,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -9326,17 +9332,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -9344,18 +9353,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -9363,23 +9375,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -9387,18 +9403,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -9406,23 +9425,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -9430,6 +9453,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9439,6 +9463,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9446,6 +9471,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -9453,6 +9479,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9462,6 +9489,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9469,6 +9497,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -9476,6 +9505,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9485,6 +9515,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -9528,6 +9559,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -9537,6 +9569,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -9548,6 +9581,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -9558,6 +9592,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TSource>
   name.vb: IEnumerable(Of TSource)
   fullName: System.Collections.Generic.IEnumerable<TSource>
@@ -9567,6 +9602,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -9578,6 +9614,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -9621,6 +9658,7 @@ references:
 - uid: System.Collections.Concurrent.Partitioner{{TSource}}
   parent: System.Collections.Concurrent
   definition: System.Collections.Concurrent.Partitioner`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   name: Partitioner<TSource>
   name.vb: Partitioner(Of TSource)
   fullName: System.Collections.Concurrent.Partitioner<TSource>
@@ -9630,6 +9668,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -9641,6 +9680,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -9650,6 +9690,7 @@ references:
 - uid: System.Collections.Concurrent.Partitioner`1
   parent: System.Collections.Concurrent
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   name: Partitioner<TSource>
   name.vb: Partitioner(Of TSource)
   fullName: System.Collections.Concurrent.Partitioner<TSource>
@@ -9659,6 +9700,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -9670,6 +9712,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -9692,6 +9735,7 @@ references:
 - uid: System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.Collections
@@ -9702,11 +9746,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   name: CancellationToken
   fullName: System.Threading.CancellationToken
 - uid: System.ObjectDisposedException
@@ -9756,6 +9802,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -9769,6 +9816,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: '{TResult}'
@@ -9810,6 +9858,7 @@ references:
 - uid: System.Action{{TSource}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<TSource>
   name.vb: Action(Of TSource)
   fullName: System.Action<TSource>
@@ -9819,6 +9868,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -9830,6 +9880,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -9839,6 +9890,7 @@ references:
 - uid: System.Action`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T>
   name.vb: Action(Of T)
   fullName: System.Action<T>
@@ -9848,6 +9900,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T
@@ -9859,6 +9912,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -9868,6 +9922,7 @@ references:
 - uid: System.Func{{TSource},System.Boolean}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Boolean>
   name.vb: Func(Of TSource, Boolean)
   fullName: System.Func<TSource, System.Boolean>
@@ -9877,6 +9932,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -9887,6 +9943,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -9894,6 +9951,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -9904,11 +9962,13 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Func`2
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<T, TResult>
   name.vb: Func(Of T, TResult)
   fullName: System.Func<T, TResult>
@@ -9918,6 +9978,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: T
@@ -9933,6 +9994,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -9946,6 +10008,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,System.Boolean}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, Boolean>
   name.vb: Func(Of TSource, Int32, Boolean)
   fullName: System.Func<TSource, System.Int32, System.Boolean>
@@ -9955,6 +10018,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -9965,12 +10029,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -9978,6 +10044,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -9988,17 +10055,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Func`3
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<T1, T2, TResult>
   name.vb: Func(Of T1, T2, TResult)
   fullName: System.Func<T1, T2, TResult>
@@ -10008,6 +10078,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: T1
@@ -10027,6 +10098,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T1
@@ -10044,6 +10116,7 @@ references:
 - uid: System.Func{{TSource},{TResult}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, TResult>
   name.vb: Func(Of TSource, TResult)
   fullName: System.Func<TSource, TResult>
@@ -10053,6 +10126,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10068,6 +10142,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10081,6 +10156,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, TResult>
   name.vb: Func(Of TSource, Int32, TResult)
   fullName: System.Func<TSource, System.Int32, TResult>
@@ -10090,6 +10166,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10100,6 +10177,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: TResult
@@ -10111,6 +10189,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10121,6 +10200,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - name: TResult
@@ -10190,6 +10270,7 @@ references:
 - uid: System.Func{{TFirst},{TSecond},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TFirst, TSecond, TResult>
   name.vb: Func(Of TFirst, TSecond, TResult)
   fullName: System.Func<TFirst, TSecond, TResult>
@@ -10199,6 +10280,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TFirst
@@ -10218,6 +10300,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TFirst
@@ -10236,6 +10319,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TSecond}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TSecond>
   name.vb: IEnumerable(Of TSecond)
   fullName: System.Collections.Generic.IEnumerable<TSecond>
@@ -10245,6 +10329,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSecond
@@ -10256,6 +10341,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSecond
@@ -10325,6 +10411,7 @@ references:
 - uid: System.Func{{TOuter},{TKey}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TOuter, TKey>
   name.vb: Func(Of TOuter, TKey)
   fullName: System.Func<TOuter, TKey>
@@ -10334,6 +10421,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TOuter
@@ -10349,6 +10437,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOuter
@@ -10362,6 +10451,7 @@ references:
 - uid: System.Func{{TInner},{TKey}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TInner, TKey>
   name.vb: Func(Of TInner, TKey)
   fullName: System.Func<TInner, TKey>
@@ -10371,6 +10461,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TInner
@@ -10386,6 +10477,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInner
@@ -10399,6 +10491,7 @@ references:
 - uid: System.Func{{TOuter},{TInner},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TOuter, TInner, TResult>
   name.vb: Func(Of TOuter, TInner, TResult)
   fullName: System.Func<TOuter, TInner, TResult>
@@ -10408,6 +10501,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TOuter
@@ -10427,6 +10521,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOuter
@@ -10444,6 +10539,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TInner}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TInner>
   name.vb: IEnumerable(Of TInner)
   fullName: System.Collections.Generic.IEnumerable<TInner>
@@ -10453,6 +10549,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TInner
@@ -10464,6 +10561,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInner
@@ -10473,6 +10571,7 @@ references:
 - uid: System.Collections.Generic.IEqualityComparer{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEqualityComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<TKey>
   name.vb: IEqualityComparer(Of TKey)
   fullName: System.Collections.Generic.IEqualityComparer<TKey>
@@ -10482,6 +10581,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -10493,6 +10593,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -10502,6 +10603,7 @@ references:
 - uid: System.Collections.Generic.IEqualityComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<T>
   name.vb: IEqualityComparer(Of T)
   fullName: System.Collections.Generic.IEqualityComparer<T>
@@ -10511,6 +10613,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -10522,6 +10625,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -10531,6 +10635,7 @@ references:
 - uid: System.Func{{TOuter},System.Collections.Generic.IEnumerable{{TInner}},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TOuter, IEnumerable<TInner>, TResult>
   name.vb: Func(Of TOuter, IEnumerable(Of TInner), TResult)
   fullName: System.Func<TOuter, System.Collections.Generic.IEnumerable<TInner>, TResult>
@@ -10540,6 +10645,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TOuter
@@ -10550,6 +10656,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TInner
@@ -10567,6 +10674,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TOuter
@@ -10577,6 +10685,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TInner
@@ -10592,6 +10701,7 @@ references:
 - uid: System.Func{{TSource},System.Collections.Generic.IEnumerable{{TResult}}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, IEnumerable<TResult>>
   name.vb: Func(Of TSource, IEnumerable(Of TResult))
   fullName: System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>
@@ -10601,6 +10711,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10611,6 +10722,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -10624,6 +10736,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10634,6 +10747,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -10645,6 +10759,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,System.Collections.Generic.IEnumerable{{TResult}}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, IEnumerable<TResult>>
   name.vb: Func(Of TSource, Int32, IEnumerable(Of TResult))
   fullName: System.Func<TSource, System.Int32, System.Collections.Generic.IEnumerable<TResult>>
@@ -10654,6 +10769,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10664,12 +10780,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -10683,6 +10801,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10693,12 +10812,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -10710,6 +10831,7 @@ references:
 - uid: System.Func{{TSource},System.Collections.Generic.IEnumerable{{TCollection}}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, IEnumerable<TCollection>>
   name.vb: Func(Of TSource, IEnumerable(Of TCollection))
   fullName: System.Func<TSource, System.Collections.Generic.IEnumerable<TCollection>>
@@ -10719,6 +10841,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10729,6 +10852,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TCollection
@@ -10742,6 +10866,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10752,6 +10877,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TCollection
@@ -10763,6 +10889,7 @@ references:
 - uid: System.Func{{TSource},{TCollection},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, TCollection, TResult>
   name.vb: Func(Of TSource, TCollection, TResult)
   fullName: System.Func<TSource, TCollection, TResult>
@@ -10772,6 +10899,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10791,6 +10919,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10808,6 +10937,7 @@ references:
 - uid: System.Func{{TSource},System.Int32,System.Collections.Generic.IEnumerable{{TCollection}}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, Int32, IEnumerable<TCollection>>
   name.vb: Func(Of TSource, Int32, IEnumerable(Of TCollection))
   fullName: System.Func<TSource, System.Int32, System.Collections.Generic.IEnumerable<TCollection>>
@@ -10817,6 +10947,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10827,12 +10958,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TCollection
@@ -10846,6 +10979,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10856,12 +10990,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TCollection
@@ -10873,6 +11009,7 @@ references:
 - uid: System.Func{{TSource},{TKey}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, TKey>
   name.vb: Func(Of TSource, TKey)
   fullName: System.Func<TSource, TKey>
@@ -10882,6 +11019,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -10897,6 +11035,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -10971,6 +11110,7 @@ references:
 - uid: System.Collections.Generic.IComparer{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<TKey>
   name.vb: IComparer(Of TKey)
   fullName: System.Collections.Generic.IComparer<TKey>
@@ -10980,6 +11120,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -10991,6 +11132,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -11000,6 +11142,7 @@ references:
 - uid: System.Collections.Generic.IComparer`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   name: IComparer<T>
   name.vb: IComparer(Of T)
   fullName: System.Collections.Generic.IComparer<T>
@@ -11009,6 +11152,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: <
     fullName: <
   - name: T
@@ -11020,6 +11164,7 @@ references:
     name: IComparer
     fullName: System.Collections.Generic.IComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -11083,6 +11228,7 @@ references:
 - uid: System.Func{{TSource},{TElement}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, TElement>
   name.vb: Func(Of TSource, TElement)
   fullName: System.Func<TSource, TElement>
@@ -11092,6 +11238,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -11107,6 +11254,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -11174,6 +11322,7 @@ references:
 - uid: System.Func{{TKey},System.Collections.Generic.IEnumerable{{TSource}},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TKey, IEnumerable<TSource>, TResult>
   name.vb: Func(Of TKey, IEnumerable(Of TSource), TResult)
   fullName: System.Func<TKey, System.Collections.Generic.IEnumerable<TSource>, TResult>
@@ -11183,6 +11332,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TKey
@@ -11193,6 +11343,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -11210,6 +11361,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -11220,6 +11372,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -11235,6 +11388,7 @@ references:
 - uid: System.Func{{TKey},System.Collections.Generic.IEnumerable{{TElement}},{TResult}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TKey, IEnumerable<TElement>, TResult>
   name.vb: Func(Of TKey, IEnumerable(Of TElement), TResult)
   fullName: System.Func<TKey, System.Collections.Generic.IEnumerable<TElement>, TResult>
@@ -11244,6 +11398,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TKey
@@ -11254,6 +11409,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TElement
@@ -11271,6 +11427,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -11281,6 +11438,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TElement
@@ -11296,6 +11454,7 @@ references:
 - uid: System.Func{{TSource},{TSource},{TSource}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TSource, TSource, TSource>
   name.vb: Func(Of TSource, TSource, TSource)
   fullName: System.Func<TSource, TSource, TSource>
@@ -11305,6 +11464,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -11324,6 +11484,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -11349,6 +11510,7 @@ references:
 - uid: System.Func{{TAccumulate},{TSource},{TAccumulate}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TAccumulate, TSource, TAccumulate>
   name.vb: Func(Of TAccumulate, TSource, TAccumulate)
   fullName: System.Func<TAccumulate, TSource, TAccumulate>
@@ -11358,6 +11520,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TAccumulate
@@ -11377,6 +11540,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TAccumulate
@@ -11394,6 +11558,7 @@ references:
 - uid: System.Func{{TAccumulate},{TResult}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TAccumulate, TResult>
   name.vb: Func(Of TAccumulate, TResult)
   fullName: System.Func<TAccumulate, TResult>
@@ -11403,6 +11568,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TAccumulate
@@ -11418,6 +11584,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TAccumulate
@@ -11431,6 +11598,7 @@ references:
 - uid: System.Func{{TAccumulate},{TAccumulate},{TAccumulate}}
   parent: System
   definition: System.Func`3
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   name: Func<TAccumulate, TAccumulate, TAccumulate>
   name.vb: Func(Of TAccumulate, TAccumulate, TAccumulate)
   fullName: System.Func<TAccumulate, TAccumulate, TAccumulate>
@@ -11440,6 +11608,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: <
     fullName: <
   - name: TAccumulate
@@ -11459,6 +11628,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TAccumulate
@@ -11476,6 +11646,7 @@ references:
 - uid: System.Func{{TAccumulate}}
   parent: System
   definition: System.Func`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   name: Func<TAccumulate>
   name.vb: Func(Of TAccumulate)
   fullName: System.Func<TAccumulate>
@@ -11485,6 +11656,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: <
     fullName: <
   - name: TAccumulate
@@ -11496,6 +11668,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TAccumulate
@@ -11505,6 +11678,7 @@ references:
 - uid: System.Func`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   name: Func<TResult>
   name.vb: Func(Of TResult)
   fullName: System.Func<TResult>
@@ -11514,6 +11688,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -11525,6 +11700,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -11534,6 +11710,7 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Linq.ParallelQuery{System.Nullable{System.Int32}}
@@ -11555,12 +11732,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -11576,12 +11755,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   - name: )
@@ -11589,6 +11770,7 @@ references:
 - uid: System.Nullable{System.Int32}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int32>
   name.vb: Nullable(Of Int32)
   fullName: System.Nullable<System.Int32>
@@ -11598,12 +11780,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -11611,17 +11795,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Nullable`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<T>
   name.vb: Nullable(Of T)
   fullName: System.Nullable<T>
@@ -11631,6 +11818,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -11642,6 +11830,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -11667,6 +11856,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -11680,6 +11870,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Linq.ParallelQuery{System.Nullable{System.Int64}}
@@ -11701,12 +11892,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -11722,12 +11915,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   - name: )
@@ -11735,6 +11930,7 @@ references:
 - uid: System.Nullable{System.Int64}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int64>
   name.vb: Nullable(Of Int64)
   fullName: System.Nullable<System.Int64>
@@ -11744,12 +11940,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -11757,12 +11955,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Linq.ParallelQuery{System.Single}
@@ -11784,6 +11984,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -11797,11 +11998,13 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Linq.ParallelQuery{System.Nullable{System.Single}}
@@ -11823,12 +12026,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -11844,12 +12049,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
   - name: )
@@ -11857,6 +12064,7 @@ references:
 - uid: System.Nullable{System.Single}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Single>
   name.vb: Nullable(Of Single)
   fullName: System.Nullable<System.Single>
@@ -11866,12 +12074,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -11879,12 +12089,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Linq.ParallelQuery{System.Double}
@@ -11906,6 +12118,7 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -11919,11 +12132,13 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.Linq.ParallelQuery{System.Nullable{System.Double}}
@@ -11945,12 +12160,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -11966,12 +12183,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
   - name: )
@@ -11979,6 +12198,7 @@ references:
 - uid: System.Nullable{System.Double}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Double>
   name.vb: Nullable(Of Double)
   fullName: System.Nullable<System.Double>
@@ -11988,12 +12208,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12001,12 +12223,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Linq.ParallelQuery{System.Decimal}
@@ -12028,6 +12252,7 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12041,11 +12266,13 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.Linq.ParallelQuery{System.Nullable{System.Decimal}}
@@ -12067,12 +12294,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -12088,12 +12317,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
   - name: )
@@ -12101,6 +12332,7 @@ references:
 - uid: System.Nullable{System.Decimal}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Decimal>
   name.vb: Nullable(Of Decimal)
   fullName: System.Nullable<System.Decimal>
@@ -12110,12 +12342,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12123,17 +12357,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Int32}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Int32>
   name.vb: Func(Of TSource, Int32)
   fullName: System.Func<TSource, System.Int32>
@@ -12143,6 +12380,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12153,6 +12391,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12160,6 +12399,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12170,11 +12410,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Int32}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Int32>>
   name.vb: Func(Of TSource, Nullable(Of Int32))
   fullName: System.Func<TSource, System.Nullable<System.Int32>>
@@ -12184,6 +12426,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12194,12 +12437,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -12209,6 +12454,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12219,12 +12465,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   - name: )
@@ -12232,6 +12480,7 @@ references:
 - uid: System.Func{{TSource},System.Int64}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Int64>
   name.vb: Func(Of TSource, Int64)
   fullName: System.Func<TSource, System.Int64>
@@ -12241,6 +12490,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12251,6 +12501,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12258,6 +12509,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12268,11 +12520,13 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Int64}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Int64>>
   name.vb: Func(Of TSource, Nullable(Of Int64))
   fullName: System.Func<TSource, System.Nullable<System.Int64>>
@@ -12282,6 +12536,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12292,12 +12547,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -12307,6 +12564,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12317,12 +12575,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   - name: )
@@ -12330,6 +12590,7 @@ references:
 - uid: System.Func{{TSource},System.Single}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Single>
   name.vb: Func(Of TSource, Single)
   fullName: System.Func<TSource, System.Single>
@@ -12339,6 +12600,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12349,6 +12611,7 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12356,6 +12619,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12366,11 +12630,13 @@ references:
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Single}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Single>>
   name.vb: Func(Of TSource, Nullable(Of Single))
   fullName: System.Func<TSource, System.Nullable<System.Single>>
@@ -12380,6 +12646,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12390,12 +12657,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -12405,6 +12674,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12415,12 +12685,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
   - name: )
@@ -12428,6 +12700,7 @@ references:
 - uid: System.Func{{TSource},System.Double}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Double>
   name.vb: Func(Of TSource, Double)
   fullName: System.Func<TSource, System.Double>
@@ -12437,6 +12710,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12447,6 +12721,7 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12454,6 +12729,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12464,11 +12740,13 @@ references:
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Double}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Double>>
   name.vb: Func(Of TSource, Nullable(Of Double))
   fullName: System.Func<TSource, System.Nullable<System.Double>>
@@ -12478,6 +12756,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12488,12 +12767,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -12503,6 +12784,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12513,12 +12795,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
   - name: )
@@ -12526,6 +12810,7 @@ references:
 - uid: System.Func{{TSource},System.Decimal}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Decimal>
   name.vb: Func(Of TSource, Decimal)
   fullName: System.Func<TSource, System.Decimal>
@@ -12535,6 +12820,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12545,6 +12831,7 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12552,6 +12839,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12562,11 +12850,13 @@ references:
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.Func{{TSource},System.Nullable{System.Decimal}}
   parent: System
   definition: System.Func`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   name: Func<TSource, Nullable<Decimal>>
   name.vb: Func(Of TSource, Nullable(Of Decimal))
   fullName: System.Func<TSource, System.Nullable<System.Decimal>>
@@ -12576,6 +12866,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12586,12 +12877,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: '>'
     fullName: '>'
   - name: '>'
@@ -12601,6 +12894,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12611,12 +12905,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
   - name: )
@@ -12624,11 +12920,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.IEqualityComparer{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEqualityComparer`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   name: IEqualityComparer<TSource>
   name.vb: IEqualityComparer(Of TSource)
   fullName: System.Collections.Generic.IEqualityComparer<TSource>
@@ -12638,6 +12936,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12649,6 +12948,7 @@ references:
     name: IEqualityComparer
     fullName: System.Collections.Generic.IEqualityComparer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEqualityComparer`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12674,6 +12974,7 @@ references:
 - uid: System.Collections.Generic.List{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   name: List<TSource>
   name.vb: List(Of TSource)
   fullName: System.Collections.Generic.List<TSource>
@@ -12683,6 +12984,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -12694,6 +12996,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -12703,6 +13006,7 @@ references:
 - uid: System.Collections.Generic.List`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   name: List<T>
   name.vb: List(Of T)
   fullName: System.Collections.Generic.List<T>
@@ -12712,6 +13016,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: <
     fullName: <
   - name: T
@@ -12723,6 +13028,7 @@ references:
     name: List
     fullName: System.Collections.Generic.List
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.List`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -12732,6 +13038,7 @@ references:
 - uid: System.Collections.Generic.Dictionary{{TKey},{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   name: Dictionary<TKey, TSource>
   name.vb: Dictionary(Of TKey, TSource)
   fullName: System.Collections.Generic.Dictionary<TKey, TSource>
@@ -12741,6 +13048,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -12756,6 +13064,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -12769,6 +13078,7 @@ references:
 - uid: System.Collections.Generic.Dictionary`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   name: Dictionary<TKey, TValue>
   name.vb: Dictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.Dictionary<TKey, TValue>
@@ -12778,6 +13088,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -12793,6 +13104,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -12806,6 +13118,7 @@ references:
 - uid: System.Collections.Generic.Dictionary{{TKey},{TElement}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   name: Dictionary<TKey, TElement>
   name.vb: Dictionary(Of TKey, TElement)
   fullName: System.Collections.Generic.Dictionary<TKey, TElement>
@@ -12815,6 +13128,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -12830,6 +13144,7 @@ references:
     name: Dictionary
     fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.Dictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -12889,12 +13204,10 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - name: 
-    fullName: 
+  - {}
   - name: ', '
     fullName: ', '
-  - name: 
-    fullName: 
+  - {}
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -12904,12 +13217,10 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - name: 
-    fullName: 
+  - {}
   - name: ', '
     fullName: ', '
-  - name: 
-    fullName: 
+  - {}
   - name: )
     fullName: )
 - uid: ILookup{{TKey},{TElement}}

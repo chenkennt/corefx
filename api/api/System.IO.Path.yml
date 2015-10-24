@@ -5,25 +5,25 @@ items:
   children:
   - System.IO.Path.AltDirectorySeparatorChar
   - System.IO.Path.ChangeExtension(System.String,System.String)
-  - System.IO.Path.GetDirectoryName(System.String)
-  - System.IO.Path.GetInvalidPathChars
-  - System.IO.Path.GetInvalidFileNameChars
-  - System.IO.Path.GetExtension(System.String)
-  - System.IO.Path.GetFileName(System.String)
-  - System.IO.Path.GetFileNameWithoutExtension(System.String)
-  - System.IO.Path.GetPathRoot(System.String)
-  - System.IO.Path.GetRandomFileName
-  - System.IO.Path.GetTempFileName
-  - System.IO.Path.HasExtension(System.String)
   - System.IO.Path.Combine(System.String,System.String)
   - System.IO.Path.Combine(System.String,System.String,System.String)
   - System.IO.Path.Combine(System.String[])
   - System.IO.Path.DirectorySeparatorChar
-  - System.IO.Path.VolumeSeparatorChar
-  - System.IO.Path.PathSeparator
+  - System.IO.Path.GetDirectoryName(System.String)
+  - System.IO.Path.GetExtension(System.String)
+  - System.IO.Path.GetFileName(System.String)
+  - System.IO.Path.GetFileNameWithoutExtension(System.String)
   - System.IO.Path.GetFullPath(System.String)
+  - System.IO.Path.GetInvalidFileNameChars
+  - System.IO.Path.GetInvalidPathChars
+  - System.IO.Path.GetPathRoot(System.String)
+  - System.IO.Path.GetRandomFileName
+  - System.IO.Path.GetTempFileName
   - System.IO.Path.GetTempPath
+  - System.IO.Path.HasExtension(System.String)
   - System.IO.Path.IsPathRooted(System.String)
+  - System.IO.Path.PathSeparator
+  - System.IO.Path.VolumeSeparatorChar
   href: System.IO.Path.yml
   name: Path
   fullName: System.IO.Path
@@ -97,7 +97,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetDirectoryName(System.String)
   id: GetDirectoryName(System.String)
   parent: System.IO.Path
@@ -120,7 +119,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetInvalidPathChars
   id: GetInvalidPathChars
   parent: System.IO.Path
@@ -140,7 +138,6 @@ items:
     content.vb: Public Shared Function GetInvalidPathChars As Char()
     return:
       type: System.Char[]
-      description: 
 - uid: System.IO.Path.GetInvalidFileNameChars
   id: GetInvalidFileNameChars
   parent: System.IO.Path
@@ -160,7 +157,6 @@ items:
     content.vb: Public Shared Function GetInvalidFileNameChars As Char()
     return:
       type: System.Char[]
-      description: 
 - uid: System.IO.Path.GetExtension(System.String)
   id: GetExtension(System.String)
   parent: System.IO.Path
@@ -183,7 +179,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetFileName(System.String)
   id: GetFileName(System.String)
   parent: System.IO.Path
@@ -206,7 +201,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetFileNameWithoutExtension(System.String)
   id: GetFileNameWithoutExtension(System.String)
   parent: System.IO.Path
@@ -229,7 +223,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetPathRoot(System.String)
   id: GetPathRoot(System.String)
   parent: System.IO.Path
@@ -252,7 +245,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetRandomFileName
   id: GetRandomFileName
   parent: System.IO.Path
@@ -272,7 +264,6 @@ items:
     content.vb: Public Shared Function GetRandomFileName As String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetTempFileName
   id: GetTempFileName
   parent: System.IO.Path
@@ -292,7 +283,6 @@ items:
     content.vb: Public Shared Function GetTempFileName As String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.HasExtension(System.String)
   id: HasExtension(System.String)
   parent: System.IO.Path
@@ -315,7 +305,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.Path.Combine(System.String,System.String)
   id: Combine(System.String,System.String)
   parent: System.IO.Path
@@ -340,7 +329,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.Combine(System.String,System.String,System.String)
   id: Combine(System.String,System.String,System.String)
   parent: System.IO.Path
@@ -367,7 +355,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.Combine(System.String[])
   id: Combine(System.String[])
   parent: System.IO.Path
@@ -392,7 +379,6 @@ items:
       type: System.String[]
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.DirectorySeparatorChar
   id: DirectorySeparatorChar
   parent: System.IO.Path
@@ -470,7 +456,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetTempPath
   id: GetTempPath
   parent: System.IO.Path
@@ -490,7 +475,6 @@ items:
     content.vb: Public Shared Function GetTempPath As String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.IsPathRooted(System.String)
   id: IsPathRooted(System.String)
   parent: System.IO.Path
@@ -513,7 +497,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.IO
   isExternal: false
@@ -522,11 +505,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -534,6 +519,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -543,6 +529,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -550,6 +537,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -557,12 +545,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -570,17 +560,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -588,18 +581,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -607,23 +603,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -631,18 +631,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -650,23 +653,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -674,6 +681,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -683,6 +691,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -690,6 +699,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -697,6 +707,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -706,6 +717,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -713,6 +725,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -720,6 +733,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -729,6 +743,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -740,10 +755,12 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Char[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char[]
   name.vb: Char()
   fullName: System.Char[]
@@ -753,6 +770,7 @@ references:
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -760,15 +778,18 @@ references:
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: ()
     fullName: ()
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -778,6 +799,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -785,5 +807,6 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()

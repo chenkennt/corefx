@@ -3,26 +3,29 @@ items:
   id: RuntimeOps
   parent: System.Runtime.CompilerServices
   children:
-  - System.Runtime.CompilerServices.RuntimeOps.ExpandoTryGetValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean,System.Object@)
-  - System.Runtime.CompilerServices.RuntimeOps.ExpandoTrySetValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.Object,System.String,System.Boolean)
-  - System.Runtime.CompilerServices.RuntimeOps.ExpandoTryDeleteValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean)
-  - System.Runtime.CompilerServices.RuntimeOps.ExpandoCheckVersion(System.Dynamic.ExpandoObject,System.Object)
-  - System.Runtime.CompilerServices.RuntimeOps.ExpandoPromoteClass(System.Dynamic.ExpandoObject,System.Object,System.Object)
+  - System.Runtime.CompilerServices.RuntimeOps.CreateRuntimeVariables
+  - System.Runtime.CompilerServices.RuntimeOps.CreateRuntimeVariables(System.Object[],System.Int64[])
+  - System.Runtime.CompilerServices.RuntimeOps.MergeRuntimeVariables(System.Runtime.CompilerServices.IRuntimeVariables,System.Runtime.CompilerServices.IRuntimeVariables,System.Int32[])
+  - System.Runtime.CompilerServices.RuntimeOps.Quote(System.Linq.Expressions.Expression,System.Object,System.Object[])
   href: System.Runtime.CompilerServices.RuntimeOps.yml
   name: RuntimeOps
   fullName: System.Runtime.CompilerServices.RuntimeOps
   type: Class
   source:
-    remote: &o0
-      path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
+    remote: &o1
+      path: src/System.Linq.Expressions/src/System/Runtime/CompilerServices/RuntimeOps.RuntimeVariableList.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
-    startLine: 16
+    path: src/System.Linq.Expressions/src/System/Runtime/CompilerServices/RuntimeOps.RuntimeVariableList.cs
+    startLine: 13
   assemblies:
-  - System.Dynamic.Runtime
+  - System.Linq.Expressions
   namespace: System.Runtime.CompilerServices
+  summary: >-
+    This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.
+
+    Contains helper methods called from dynamically generated methods.
   syntax:
     content: public class RuntimeOps
     content.vb: Public Class RuntimeOps
@@ -36,181 +39,127 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: System.Runtime.CompilerServices.RuntimeOps.ExpandoTryGetValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean,System.Object@)
-  id: ExpandoTryGetValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean,System.Object@)
+- uid: System.Runtime.CompilerServices.RuntimeOps.Quote(System.Linq.Expressions.Expression,System.Object,System.Object[])
+  id: Quote(System.Linq.Expressions.Expression,System.Object,System.Object[])
   parent: System.Runtime.CompilerServices.RuntimeOps
   href: System.Runtime.CompilerServices.RuntimeOps.yml
-  name: ExpandoTryGetValue(ExpandoObject, Object, Int32, String, Boolean, out Object)
-  name.vb: ExpandoTryGetValue(ExpandoObject, Object, Int32, String, Boolean, ByRef Object)
-  fullName: System.Runtime.CompilerServices.RuntimeOps.ExpandoTryGetValue(System.Dynamic.ExpandoObject, System.Object, System.Int32, System.String, System.Boolean, out System.Object)
-  fullName.vb: System.Runtime.CompilerServices.RuntimeOps.ExpandoTryGetValue(System.Dynamic.ExpandoObject, System.Object, System.Int32, System.String, System.Boolean, ByRef System.Object)
+  name: Quote(Expression, Object, Object[])
+  name.vb: Quote(Expression, Object, Object())
+  fullName: System.Runtime.CompilerServices.RuntimeOps.Quote(System.Linq.Expressions.Expression, System.Object, System.Object[])
+  fullName.vb: System.Runtime.CompilerServices.RuntimeOps.Quote(System.Linq.Expressions.Expression, System.Object, System.Object())
   type: Method
   source:
-    remote: *o0
-    path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
-    startLine: 28
+    remote: &o0
+      path: src/System.Linq.Expressions/src/System/Runtime/CompilerServices/RuntimeOps.ExpressionQuoter.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: f36ebcfc
+    path: src/System.Linq.Expressions/src/System/Runtime/CompilerServices/RuntimeOps.ExpressionQuoter.cs
+    startLine: 22
   assemblies:
-  - System.Dynamic.Runtime
+  - System.Linq.Expressions
   namespace: System.Runtime.CompilerServices
-  summary: Gets the value of an item in an expando object.
+  summary: Quotes the provided expression tree.
   syntax:
-    content: public static bool ExpandoTryGetValue(ExpandoObject expando, object indexClass, int index, string name, bool ignoreCase, out object value)
-    content.vb: Public Shared Function ExpandoTryGetValue(expando As ExpandoObject, indexClass As Object, index As Integer, name As String, ignoreCase As Boolean, ByRef value As Object) As Boolean
+    content: public static Expression Quote(Expression expression, object hoistedLocals, object[] locals)
+    content.vb: Public Shared Function Quote(expression As Expression, hoistedLocals As Object, locals As Object()) As Expression
     parameters:
-    - id: expando
-      type: System.Dynamic.ExpandoObject
-      description: The expando object.
-    - id: indexClass
+    - id: expression
+      type: System.Linq.Expressions.Expression
+      description: The expression to quote.
+    - id: hoistedLocals
       type: System.Object
-      description: The class of the expando object.
-    - id: index
-      type: System.Int32
-      description: The index of the member.
-    - id: name
-      type: System.String
-      description: The name of the member.
-    - id: ignoreCase
-      type: System.Boolean
-      description: true if the name should be matched ignoring case; false otherwise.
-    - id: value
-      type: System.Object
-      description: The out parameter containing the value of the member.
+      description: The hoisted local state provided by the compiler.
+    - id: locals
+      type: System.Object[]
+      description: The actual hoisted local values.
     return:
-      type: System.Boolean
-      description: True if the member exists in the expando object, otherwise false.
-- uid: System.Runtime.CompilerServices.RuntimeOps.ExpandoTrySetValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.Object,System.String,System.Boolean)
-  id: ExpandoTrySetValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.Object,System.String,System.Boolean)
+      type: System.Linq.Expressions.Expression
+      description: The quoted expression.
+- uid: System.Runtime.CompilerServices.RuntimeOps.MergeRuntimeVariables(System.Runtime.CompilerServices.IRuntimeVariables,System.Runtime.CompilerServices.IRuntimeVariables,System.Int32[])
+  id: MergeRuntimeVariables(System.Runtime.CompilerServices.IRuntimeVariables,System.Runtime.CompilerServices.IRuntimeVariables,System.Int32[])
   parent: System.Runtime.CompilerServices.RuntimeOps
   href: System.Runtime.CompilerServices.RuntimeOps.yml
-  name: ExpandoTrySetValue(ExpandoObject, Object, Int32, Object, String, Boolean)
-  fullName: System.Runtime.CompilerServices.RuntimeOps.ExpandoTrySetValue(System.Dynamic.ExpandoObject, System.Object, System.Int32, System.Object, System.String, System.Boolean)
+  name: MergeRuntimeVariables(IRuntimeVariables, IRuntimeVariables, Int32[])
+  name.vb: MergeRuntimeVariables(IRuntimeVariables, IRuntimeVariables, Int32())
+  fullName: System.Runtime.CompilerServices.RuntimeOps.MergeRuntimeVariables(System.Runtime.CompilerServices.IRuntimeVariables, System.Runtime.CompilerServices.IRuntimeVariables, System.Int32[])
+  fullName.vb: System.Runtime.CompilerServices.RuntimeOps.MergeRuntimeVariables(System.Runtime.CompilerServices.IRuntimeVariables, System.Runtime.CompilerServices.IRuntimeVariables, System.Int32())
   type: Method
   source:
     remote: *o0
-    path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
-    startLine: 46
+    path: src/System.Linq.Expressions/src/System/Runtime/CompilerServices/RuntimeOps.ExpressionQuoter.cs
+    startLine: 37
   assemblies:
-  - System.Dynamic.Runtime
+  - System.Linq.Expressions
   namespace: System.Runtime.CompilerServices
-  summary: Sets the value of an item in an expando object.
+  summary: Combines two runtime variable lists and returns a new list.
   syntax:
-    content: public static object ExpandoTrySetValue(ExpandoObject expando, object indexClass, int index, object value, string name, bool ignoreCase)
-    content.vb: Public Shared Function ExpandoTrySetValue(expando As ExpandoObject, indexClass As Object, index As Integer, value As Object, name As String, ignoreCase As Boolean) As Object
+    content: public static IRuntimeVariables MergeRuntimeVariables(IRuntimeVariables first, IRuntimeVariables second, int[] indexes)
+    content.vb: Public Shared Function MergeRuntimeVariables(first As IRuntimeVariables, second As IRuntimeVariables, indexes As Integer()) As IRuntimeVariables
     parameters:
-    - id: expando
-      type: System.Dynamic.ExpandoObject
-      description: The expando object.
-    - id: indexClass
-      type: System.Object
-      description: The class of the expando object.
-    - id: index
-      type: System.Int32
-      description: The index of the member.
-    - id: value
-      type: System.Object
-      description: The value of the member.
-    - id: name
-      type: System.String
-      description: The name of the member.
-    - id: ignoreCase
-      type: System.Boolean
-      description: true if the name should be matched ignoring case; false otherwise.
+    - id: first
+      type: System.Runtime.CompilerServices.IRuntimeVariables
+      description: The first list.
+    - id: second
+      type: System.Runtime.CompilerServices.IRuntimeVariables
+      description: The second list.
+    - id: indexes
+      type: System.Int32[]
+      description: The index array indicating which list to get variables from.
     return:
-      type: System.Object
-      description: Returns the index for the set member.
-- uid: System.Runtime.CompilerServices.RuntimeOps.ExpandoTryDeleteValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean)
-  id: ExpandoTryDeleteValue(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean)
+      type: System.Runtime.CompilerServices.IRuntimeVariables
+      description: The merged runtime variables.
+- uid: System.Runtime.CompilerServices.RuntimeOps.CreateRuntimeVariables(System.Object[],System.Int64[])
+  id: CreateRuntimeVariables(System.Object[],System.Int64[])
   parent: System.Runtime.CompilerServices.RuntimeOps
   href: System.Runtime.CompilerServices.RuntimeOps.yml
-  name: ExpandoTryDeleteValue(ExpandoObject, Object, Int32, String, Boolean)
-  fullName: System.Runtime.CompilerServices.RuntimeOps.ExpandoTryDeleteValue(System.Dynamic.ExpandoObject, System.Object, System.Int32, System.String, System.Boolean)
+  name: CreateRuntimeVariables(Object[], Int64[])
+  name.vb: CreateRuntimeVariables(Object(), Int64())
+  fullName: System.Runtime.CompilerServices.RuntimeOps.CreateRuntimeVariables(System.Object[], System.Int64[])
+  fullName.vb: System.Runtime.CompilerServices.RuntimeOps.CreateRuntimeVariables(System.Object(), System.Int64())
   type: Method
   source:
-    remote: *o0
-    path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
-    startLine: 62
+    remote: *o1
+    path: src/System.Linq.Expressions/src/System/Runtime/CompilerServices/RuntimeOps.RuntimeVariableList.cs
+    startLine: 22
   assemblies:
-  - System.Dynamic.Runtime
+  - System.Linq.Expressions
   namespace: System.Runtime.CompilerServices
-  summary: Deletes the value of an item in an expando object.
+  summary: Creates an interface that can be used to modify closed over variables at runtime.
   syntax:
-    content: public static bool ExpandoTryDeleteValue(ExpandoObject expando, object indexClass, int index, string name, bool ignoreCase)
-    content.vb: Public Shared Function ExpandoTryDeleteValue(expando As ExpandoObject, indexClass As Object, index As Integer, name As String, ignoreCase As Boolean) As Boolean
+    content: public static IRuntimeVariables CreateRuntimeVariables(object[] data, long[] indexes)
+    content.vb: Public Shared Function CreateRuntimeVariables(data As Object(), indexes As Long()) As IRuntimeVariables
     parameters:
-    - id: expando
-      type: System.Dynamic.ExpandoObject
-      description: The expando object.
-    - id: indexClass
-      type: System.Object
-      description: The class of the expando object.
-    - id: index
-      type: System.Int32
-      description: The index of the member.
-    - id: name
-      type: System.String
-      description: The name of the member.
-    - id: ignoreCase
-      type: System.Boolean
-      description: true if the name should be matched ignoring case; false otherwise.
+    - id: data
+      type: System.Object[]
+      description: The closure array.
+    - id: indexes
+      type: System.Int64[]
+      description: An array of indexes into the closure array where variables are found.
     return:
-      type: System.Boolean
-      description: true if the item was successfully removed; otherwise, false.
-- uid: System.Runtime.CompilerServices.RuntimeOps.ExpandoCheckVersion(System.Dynamic.ExpandoObject,System.Object)
-  id: ExpandoCheckVersion(System.Dynamic.ExpandoObject,System.Object)
+      type: System.Runtime.CompilerServices.IRuntimeVariables
+      description: An interface to access variables.
+- uid: System.Runtime.CompilerServices.RuntimeOps.CreateRuntimeVariables
+  id: CreateRuntimeVariables
   parent: System.Runtime.CompilerServices.RuntimeOps
   href: System.Runtime.CompilerServices.RuntimeOps.yml
-  name: ExpandoCheckVersion(ExpandoObject, Object)
-  fullName: System.Runtime.CompilerServices.RuntimeOps.ExpandoCheckVersion(System.Dynamic.ExpandoObject, System.Object)
+  name: CreateRuntimeVariables()
+  fullName: System.Runtime.CompilerServices.RuntimeOps.CreateRuntimeVariables()
   type: Method
   source:
-    remote: *o0
-    path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
-    startLine: 74
+    remote: *o1
+    path: src/System.Linq.Expressions/src/System/Runtime/CompilerServices/RuntimeOps.RuntimeVariableList.cs
+    startLine: 32
   assemblies:
-  - System.Dynamic.Runtime
+  - System.Linq.Expressions
   namespace: System.Runtime.CompilerServices
-  summary: Checks the version of the expando object.
+  summary: Creates an interface that can be used to modify closed over variables at runtime.
   syntax:
-    content: public static bool ExpandoCheckVersion(ExpandoObject expando, object version)
-    content.vb: Public Shared Function ExpandoCheckVersion(expando As ExpandoObject, version As Object) As Boolean
-    parameters:
-    - id: expando
-      type: System.Dynamic.ExpandoObject
-      description: The expando object.
-    - id: version
-      type: System.Object
-      description: The version to check.
+    content: public static IRuntimeVariables CreateRuntimeVariables()
+    content.vb: Public Shared Function CreateRuntimeVariables As IRuntimeVariables
     return:
-      type: System.Boolean
-      description: true if the version is equal; otherwise, false.
-- uid: System.Runtime.CompilerServices.RuntimeOps.ExpandoPromoteClass(System.Dynamic.ExpandoObject,System.Object,System.Object)
-  id: ExpandoPromoteClass(System.Dynamic.ExpandoObject,System.Object,System.Object)
-  parent: System.Runtime.CompilerServices.RuntimeOps
-  href: System.Runtime.CompilerServices.RuntimeOps.yml
-  name: ExpandoPromoteClass(ExpandoObject, Object, Object)
-  fullName: System.Runtime.CompilerServices.RuntimeOps.ExpandoPromoteClass(System.Dynamic.ExpandoObject, System.Object, System.Object)
-  type: Method
-  source:
-    remote: *o0
-    path: src/System.Dynamic.Runtime/src/System/Runtime/CompilerServices/RuntimeOps.cs
-    startLine: 86
-  assemblies:
-  - System.Dynamic.Runtime
-  namespace: System.Runtime.CompilerServices
-  summary: Promotes an expando object from one class to a new class.
-  syntax:
-    content: public static void ExpandoPromoteClass(ExpandoObject expando, object oldClass, object newClass)
-    content.vb: Public Shared Sub ExpandoPromoteClass(expando As ExpandoObject, oldClass As Object, newClass As Object)
-    parameters:
-    - id: expando
-      type: System.Dynamic.ExpandoObject
-      description: The expando object.
-    - id: oldClass
-      type: System.Object
-      description: The old class of the expando object.
-    - id: newClass
-      type: System.Object
-      description: The new class of the expando object.
+      type: System.Runtime.CompilerServices.IRuntimeVariables
+      description: An interface to access variables.
 references:
 - uid: System.Runtime.CompilerServices
   isExternal: false
@@ -220,11 +169,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -232,6 +183,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -241,6 +193,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -248,6 +201,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -255,12 +209,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -268,17 +224,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -286,18 +245,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -305,23 +267,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -329,18 +295,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -348,23 +317,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -372,6 +345,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -381,6 +355,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -388,6 +363,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -395,6 +371,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -404,6 +381,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -411,6 +389,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -418,6 +397,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -427,6 +407,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -435,25 +416,92 @@ references:
   isExternal: false
   name: System
   fullName: System
-- uid: System.Dynamic.ExpandoObject
+- uid: System.Linq.Expressions.Expression
+  parent: System.Linq.Expressions
   isExternal: false
-  href: System.Dynamic.ExpandoObject.yml
-  name: ExpandoObject
-  fullName: System.Dynamic.ExpandoObject
+  href: System.Linq.Expressions.Expression.yml
+  name: Expression
+  fullName: System.Linq.Expressions.Expression
   type: Class
-  summary: Represents an object with members that can be dynamically added and removed at runtime.
-- uid: System.Int32
-  parent: System
+  summary: The base type for all nodes in Expression Trees.
+- uid: System.Object[]
   isExternal: true
-  name: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
+  - name: ()
+    fullName: ()
+- uid: System.Linq.Expressions
+  isExternal: false
+  name: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  type: Namespace
+- uid: System.Runtime.CompilerServices.IRuntimeVariables
+  isExternal: false
+  href: System.Runtime.CompilerServices.IRuntimeVariables.yml
+  name: IRuntimeVariables
+  fullName: System.Runtime.CompilerServices.IRuntimeVariables
+  type: Interface
+  summary: An interface to represent values of runtime variables.
+- uid: System.Int32[]
   isExternal: true
-  name: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
+  name: Int32[]
+  name.vb: Int32()
+  fullName: System.Int32[]
+  fullName.vb: System.Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int64[]
   isExternal: true
-  name: Boolean
-  fullName: System.Boolean
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
+  name: Int64[]
+  name.vb: Int64()
+  fullName: System.Int64[]
+  fullName.vb: System.Int64()
+  spec.csharp:
+  - uid: System.Int64
+    name: Int64
+    fullName: System.Int64
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int64
+    name: Int64
+    fullName: System.Int64
+    isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
+  - name: ()
+    fullName: ()

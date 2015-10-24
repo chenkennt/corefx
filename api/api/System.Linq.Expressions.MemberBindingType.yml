@@ -4,8 +4,8 @@ items:
   parent: System.Linq.Expressions
   children:
   - System.Linq.Expressions.MemberBindingType.Assignment
-  - System.Linq.Expressions.MemberBindingType.MemberBinding
   - System.Linq.Expressions.MemberBindingType.ListBinding
+  - System.Linq.Expressions.MemberBindingType.MemberBinding
   href: System.Linq.Expressions.MemberBindingType.yml
   name: MemberBindingType
   fullName: System.Linq.Expressions.MemberBindingType
@@ -83,13 +83,10 @@ references:
   fullName: System.Linq.Expressions
   type: Namespace
 - uid: System.Collections.IList
-  parent: System.Collections
-  isExternal: true
-  name: IList
-  fullName: System.Collections.IList
 - uid: System.Collections.Generic.ICollection`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   name: ICollection<T>
   name.vb: ICollection(Of T)
   fullName: System.Collections.Generic.ICollection<T>
@@ -99,6 +96,7 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -110,16 +108,13 @@ references:
     name: ICollection
     fullName: System.Collections.Generic.ICollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.ICollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
     fullName: T
   - name: )
     fullName: )
-- uid: System.Collections
-  isExternal: false
-  name: System.Collections
-  fullName: System.Collections
 - uid: System.Collections.Generic
   isExternal: false
   name: System.Collections.Generic

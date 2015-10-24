@@ -3,8 +3,8 @@ items:
   id: CompressionMode
   parent: System.IO.Compression
   children:
-  - System.IO.Compression.CompressionMode.Decompress
   - System.IO.Compression.CompressionMode.Compress
+  - System.IO.Compression.CompressionMode.Decompress
   href: System.IO.Compression.CompressionMode.yml
   name: CompressionMode
   fullName: System.IO.Compression.CompressionMode

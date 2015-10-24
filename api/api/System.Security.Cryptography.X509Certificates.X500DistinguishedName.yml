@@ -3,14 +3,14 @@ items:
   id: X500DistinguishedName
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.X500DistinguishedName.#ctor(System.Byte[])
   - System.Security.Cryptography.X509Certificates.X500DistinguishedName.#ctor(AsnEncodedData)
+  - System.Security.Cryptography.X509Certificates.X500DistinguishedName.#ctor(System.Byte[])
   - System.Security.Cryptography.X509Certificates.X500DistinguishedName.#ctor(System.Security.Cryptography.X509Certificates.X500DistinguishedName)
   - System.Security.Cryptography.X509Certificates.X500DistinguishedName.#ctor(System.String)
   - System.Security.Cryptography.X509Certificates.X500DistinguishedName.#ctor(System.String,System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags)
-  - System.Security.Cryptography.X509Certificates.X500DistinguishedName.Name
   - System.Security.Cryptography.X509Certificates.X500DistinguishedName.Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags)
   - System.Security.Cryptography.X509Certificates.X500DistinguishedName.Format(System.Boolean)
+  - System.Security.Cryptography.X509Certificates.X500DistinguishedName.Name
   href: System.Security.Cryptography.X509Certificates.X500DistinguishedName.yml
   name: X500DistinguishedName
   fullName: System.Security.Cryptography.X509Certificates.X500DistinguishedName
@@ -155,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X500DistinguishedName.Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags)
   id: Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags)
   parent: System.Security.Cryptography.X509Certificates.X500DistinguishedName
@@ -178,7 +177,6 @@ items:
       type: System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X500DistinguishedName.Format(System.Boolean)
   id: Format(System.Boolean)
   parent: System.Security.Cryptography.X509Certificates.X500DistinguishedName
@@ -201,7 +199,6 @@ items:
       type: System.Boolean
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Security.Cryptography.X509Certificates
   isExternal: false
@@ -211,6 +208,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -219,6 +217,7 @@ references:
   fullName: System
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -228,6 +227,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -235,6 +235,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: AsnEncodedData
@@ -251,6 +252,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
@@ -263,5 +265,6 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

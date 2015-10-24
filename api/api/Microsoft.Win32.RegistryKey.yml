@@ -3,8 +3,6 @@ items:
   id: RegistryKey
   parent: Microsoft.Win32
   children:
-  - Microsoft.Win32.RegistryKey.Flush
-  - Microsoft.Win32.RegistryKey.Dispose
   - Microsoft.Win32.RegistryKey.CreateSubKey(System.String)
   - Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean)
   - Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
@@ -14,28 +12,30 @@ items:
   - Microsoft.Win32.RegistryKey.DeleteSubKeyTree(System.String,System.Boolean)
   - Microsoft.Win32.RegistryKey.DeleteValue(System.String)
   - Microsoft.Win32.RegistryKey.DeleteValue(System.String,System.Boolean)
-  - Microsoft.Win32.RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive,Microsoft.Win32.RegistryView)
-  - Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
-  - Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView)
-  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Boolean)
-  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Security.AccessControl.RegistryRights)
-  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String)
-  - Microsoft.Win32.RegistryKey.SubKeyCount
-  - Microsoft.Win32.RegistryKey.View
-  - Microsoft.Win32.RegistryKey.Handle
+  - Microsoft.Win32.RegistryKey.Dispose
+  - Microsoft.Win32.RegistryKey.Flush
   - Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
   - Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
   - Microsoft.Win32.RegistryKey.GetSubKeyNames
-  - Microsoft.Win32.RegistryKey.ValueCount
-  - Microsoft.Win32.RegistryKey.GetValueNames
   - Microsoft.Win32.RegistryKey.GetValue(System.String)
   - Microsoft.Win32.RegistryKey.GetValue(System.String,System.Object)
   - Microsoft.Win32.RegistryKey.GetValue(System.String,System.Object,Microsoft.Win32.RegistryValueOptions)
   - Microsoft.Win32.RegistryKey.GetValueKind(System.String)
+  - Microsoft.Win32.RegistryKey.GetValueNames
+  - Microsoft.Win32.RegistryKey.Handle
   - Microsoft.Win32.RegistryKey.Name
+  - Microsoft.Win32.RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive,Microsoft.Win32.RegistryView)
+  - Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
+  - Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView)
+  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String)
+  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Boolean)
+  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Security.AccessControl.RegistryRights)
   - Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object)
   - Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object,Microsoft.Win32.RegistryValueKind)
+  - Microsoft.Win32.RegistryKey.SubKeyCount
   - Microsoft.Win32.RegistryKey.ToString
+  - Microsoft.Win32.RegistryKey.ValueCount
+  - Microsoft.Win32.RegistryKey.View
   href: Microsoft.Win32.RegistryKey.yml
   name: RegistryKey
   fullName: Microsoft.Win32.RegistryKey
@@ -145,7 +145,6 @@ items:
       type: System.Boolean
     return:
       type: Microsoft.Win32.RegistryKey
-      description: 
 - uid: Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
   id: CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
   parent: Microsoft.Win32.RegistryKey
@@ -172,7 +171,6 @@ items:
       type: Microsoft.Win32.RegistryOptions
     return:
       type: Microsoft.Win32.RegistryKey
-      description: 
 - uid: Microsoft.Win32.RegistryKey.DeleteSubKey(System.String)
   id: DeleteSubKey(System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -323,7 +321,6 @@ items:
       type: Microsoft.Win32.RegistryView
     return:
       type: Microsoft.Win32.RegistryKey
-      description: 
 - uid: Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
   id: OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -374,7 +371,6 @@ items:
       type: Microsoft.Win32.RegistryView
     return:
       type: Microsoft.Win32.RegistryKey
-      description: 
 - uid: Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Boolean)
   id: OpenSubKey(System.String,System.Boolean)
   parent: Microsoft.Win32.RegistryKey
@@ -423,7 +419,6 @@ items:
       type: System.Security.AccessControl.RegistryRights
     return:
       type: Microsoft.Win32.RegistryKey
-      description: 
 - uid: Microsoft.Win32.RegistryKey.OpenSubKey(System.String)
   id: OpenSubKey(System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -486,7 +481,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.RegistryView
-      description: 
 - uid: Microsoft.Win32.RegistryKey.Handle
   id: Handle
   parent: Microsoft.Win32.RegistryKey
@@ -507,7 +501,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeRegistryHandle
-      description: 
 - uid: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
   id: FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
   parent: Microsoft.Win32.RegistryKey
@@ -530,7 +523,6 @@ items:
       type: Microsoft.Win32.SafeHandles.SafeRegistryHandle
     return:
       type: Microsoft.Win32.RegistryKey
-      description: 
 - uid: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
   id: FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
   parent: Microsoft.Win32.RegistryKey
@@ -555,7 +547,6 @@ items:
       type: Microsoft.Win32.RegistryView
     return:
       type: Microsoft.Win32.RegistryKey
-      description: 
 - uid: Microsoft.Win32.RegistryKey.GetSubKeyNames
   id: GetSubKeyNames
   parent: Microsoft.Win32.RegistryKey
@@ -686,7 +677,6 @@ items:
       type: Microsoft.Win32.RegistryValueOptions
     return:
       type: System.Object
-      description: 
 - uid: Microsoft.Win32.RegistryKey.GetValueKind(System.String)
   id: GetValueKind(System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -709,7 +699,6 @@ items:
       type: System.String
     return:
       type: Microsoft.Win32.RegistryValueKind
-      description: 
 - uid: Microsoft.Win32.RegistryKey.Name
   id: Name
   parent: Microsoft.Win32.RegistryKey
@@ -730,7 +719,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object)
   id: SetValue(System.String,System.Object)
   parent: Microsoft.Win32.RegistryKey
@@ -806,11 +794,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -818,12 +808,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -831,17 +823,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -849,18 +844,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -868,23 +866,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -892,18 +894,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -911,23 +916,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -935,6 +944,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -944,6 +954,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -951,6 +962,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -958,6 +970,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -967,6 +980,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -974,6 +988,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -981,6 +996,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -990,6 +1006,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1001,6 +1018,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: Microsoft.Win32.RegistryKey
@@ -1013,6 +1031,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: Microsoft.Win32.RegistryOptions
@@ -1051,6 +1070,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: Microsoft.Win32.SafeHandles.SafeRegistryHandle
@@ -1067,6 +1087,7 @@ references:
   type: Namespace
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -1076,6 +1097,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1083,6 +1105,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()
 - uid: Microsoft.Win32.RegistryValueOptions
@@ -1102,6 +1125,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1109,6 +1133,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1118,6 +1143,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )

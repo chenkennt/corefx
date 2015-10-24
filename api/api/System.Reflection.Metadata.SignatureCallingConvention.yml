@@ -3,11 +3,11 @@ items:
   id: SignatureCallingConvention
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.SignatureCallingConvention.Default
   - System.Reflection.Metadata.SignatureCallingConvention.CDecl
+  - System.Reflection.Metadata.SignatureCallingConvention.Default
+  - System.Reflection.Metadata.SignatureCallingConvention.FastCall
   - System.Reflection.Metadata.SignatureCallingConvention.StdCall
   - System.Reflection.Metadata.SignatureCallingConvention.ThisCall
-  - System.Reflection.Metadata.SignatureCallingConvention.FastCall
   - System.Reflection.Metadata.SignatureCallingConvention.VarArgs
   href: System.Reflection.Metadata.SignatureCallingConvention.yml
   name: SignatureCallingConvention

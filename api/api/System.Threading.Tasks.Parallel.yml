@@ -3,40 +3,40 @@ items:
   id: Parallel
   parent: System.Threading.Tasks
   children:
+  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Action{System.Int32,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Action{System.Int32})
+  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action{System.Int32,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action{System.Int32})
+  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Action{System.Int64,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Action{System.Int64})
+  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action{System.Int64,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action{System.Int64})
+  - System.Threading.Tasks.Parallel.For``1(System.Int32,System.Int32,System.Func{``0},System.Func{System.Int32,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
+  - System.Threading.Tasks.Parallel.For``1(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Func{``0},System.Func{System.Int32,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
+  - System.Threading.Tasks.Parallel.For``1(System.Int64,System.Int64,System.Func{``0},System.Func{System.Int64,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
+  - System.Threading.Tasks.Parallel.For``1(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Func{``0},System.Func{System.Int64,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.OrderablePartitioner{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.OrderablePartitioner{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Action{``0})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState})
+  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.OrderablePartitioner{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.OrderablePartitioner{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.Partitioner{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.Partitioner{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
+  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
   - System.Threading.Tasks.Parallel.Invoke(System.Action[])
   - System.Threading.Tasks.Parallel.Invoke(System.Threading.Tasks.ParallelOptions,System.Action[])
-  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Action{System.Int32})
-  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Action{System.Int64})
-  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action{System.Int32})
-  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action{System.Int64})
-  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Action{System.Int32,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Action{System.Int64,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action{System.Int32,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action{System.Int64,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.For``1(System.Int32,System.Int32,System.Func{``0},System.Func{System.Int32,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
-  - System.Threading.Tasks.Parallel.For``1(System.Int64,System.Int64,System.Func{``0},System.Func{System.Int64,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
-  - System.Threading.Tasks.Parallel.For``1(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Func{``0},System.Func{System.Int32,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
-  - System.Threading.Tasks.Parallel.For``1(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Func{``0},System.Func{System.Int64,System.Threading.Tasks.ParallelLoopState,``0,``0},System.Action{``0})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Generic.IEnumerable{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Action{``0})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.OrderablePartitioner{``0},System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.Partitioner{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.OrderablePartitioner{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.Partitioner{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState})
-  - System.Threading.Tasks.Parallel.ForEach``1(System.Collections.Concurrent.OrderablePartitioner{``0},System.Threading.Tasks.ParallelOptions,System.Action{``0,System.Threading.Tasks.ParallelLoopState,System.Int64})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.Partitioner{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,``1,``1},System.Action{``1})
-  - System.Threading.Tasks.Parallel.ForEach``2(System.Collections.Concurrent.OrderablePartitioner{``0},System.Threading.Tasks.ParallelOptions,System.Func{``1},System.Func{``0,System.Threading.Tasks.ParallelLoopState,System.Int64,``1,``1},System.Action{``1})
   href: System.Threading.Tasks.Parallel.yml
   name: Parallel
   fullName: System.Threading.Tasks.Parallel
@@ -3605,11 +3605,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -3617,6 +3619,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3626,6 +3629,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3633,6 +3637,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -3640,12 +3645,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3653,17 +3660,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -3671,18 +3681,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3690,23 +3703,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -3714,18 +3731,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -3733,23 +3753,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -3757,6 +3781,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3766,6 +3791,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3773,6 +3799,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -3780,6 +3807,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3789,6 +3817,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3796,6 +3825,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -3803,6 +3833,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3812,6 +3843,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -3826,6 +3858,7 @@ references:
 - uid: System.AggregateException
 - uid: System.Action[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action.yml
   name: Action[]
   name.vb: Action()
   fullName: System.Action[]
@@ -3835,6 +3868,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -3842,6 +3876,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action.yml
   - name: ()
     fullName: ()
 - uid: System.Threading.Tasks.ParallelOptions
@@ -3867,11 +3902,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Action{System.Int32}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<Int32>
   name.vb: Action(Of Int32)
   fullName: System.Action<System.Int32>
@@ -3881,12 +3918,14 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -3894,17 +3933,20 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Action`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<T>
   name.vb: Action(Of T)
   fullName: System.Action<T>
@@ -3914,6 +3956,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: T
@@ -3925,6 +3968,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -3934,11 +3978,13 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Action{System.Int64}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<Int64>
   name.vb: Action(Of Int64)
   fullName: System.Action<System.Int64>
@@ -3948,12 +3994,14 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -3961,18 +4009,20 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Action{System.Int32,System.Threading.Tasks.ParallelLoopState}
   parent: System
   definition: System.Action`2
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   name: Action<Int32, ParallelLoopState>
   name.vb: Action(Of Int32, ParallelLoopState)
   fullName: System.Action<System.Int32, System.Threading.Tasks.ParallelLoopState>
@@ -3982,12 +4032,14 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4001,12 +4053,14 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4018,6 +4072,7 @@ references:
 - uid: System.Action`2
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   name: Action<T1, T2>
   name.vb: Action(Of T1, T2)
   fullName: System.Action<T1, T2>
@@ -4027,6 +4082,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: <
     fullName: <
   - name: T1
@@ -4042,6 +4098,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T1
@@ -4065,7 +4122,7 @@ references:
 - uid: System.Action{System.Int64,System.Threading.Tasks.ParallelLoopState}
   parent: System
   definition: System.Action`2
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   name: Action<Int64, ParallelLoopState>
   name.vb: Action(Of Int64, ParallelLoopState)
   fullName: System.Action<System.Int64, System.Threading.Tasks.ParallelLoopState>
@@ -4075,12 +4132,14 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4094,12 +4153,14 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4111,6 +4172,7 @@ references:
 - uid: System.Func{{TLocal}}
   parent: System
   definition: System.Func`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   name: Func<TLocal>
   name.vb: Func(Of TLocal)
   fullName: System.Func<TLocal>
@@ -4120,6 +4182,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: <
     fullName: <
   - name: TLocal
@@ -4131,6 +4194,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TLocal
@@ -4140,7 +4204,7 @@ references:
 - uid: System.Func{System.Int32,System.Threading.Tasks.ParallelLoopState,{TLocal},{TLocal}}
   parent: System
   definition: System.Func`4
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   name: Func<Int32, ParallelLoopState, TLocal, TLocal>
   name.vb: Func(Of Int32, ParallelLoopState, TLocal, TLocal)
   fullName: System.Func<System.Int32, System.Threading.Tasks.ParallelLoopState, TLocal, TLocal>
@@ -4150,12 +4214,14 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4177,12 +4243,14 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4202,6 +4270,7 @@ references:
 - uid: System.Action{{TLocal}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<TLocal>
   name.vb: Action(Of TLocal)
   fullName: System.Action<TLocal>
@@ -4211,6 +4280,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: TLocal
@@ -4222,6 +4292,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TLocal
@@ -4231,6 +4302,7 @@ references:
 - uid: System.Func`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   name: Func<TResult>
   name.vb: Func(Of TResult)
   fullName: System.Func<TResult>
@@ -4240,6 +4312,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -4251,6 +4324,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult
@@ -4260,6 +4334,7 @@ references:
 - uid: System.Func`4
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   name: Func<T1, T2, T3, TResult>
   name.vb: Func(Of T1, T2, T3, TResult)
   fullName: System.Func<T1, T2, T3, TResult>
@@ -4269,6 +4344,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: <
     fullName: <
   - name: T1
@@ -4292,6 +4368,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T1
@@ -4313,7 +4390,7 @@ references:
 - uid: System.Func{System.Int64,System.Threading.Tasks.ParallelLoopState,{TLocal},{TLocal}}
   parent: System
   definition: System.Func`4
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   name: Func<Int64, ParallelLoopState, TLocal, TLocal>
   name.vb: Func(Of Int64, ParallelLoopState, TLocal, TLocal)
   fullName: System.Func<System.Int64, System.Threading.Tasks.ParallelLoopState, TLocal, TLocal>
@@ -4323,12 +4400,14 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: <
     fullName: <
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4350,12 +4429,14 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.Tasks.ParallelLoopState
@@ -4376,6 +4457,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TSource}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TSource>
   name.vb: IEnumerable(Of TSource)
   fullName: System.Collections.Generic.IEnumerable<TSource>
@@ -4385,6 +4467,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4396,6 +4479,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4405,6 +4489,7 @@ references:
 - uid: System.Action{{TSource}}
   parent: System
   definition: System.Action`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   name: Action<TSource>
   name.vb: Action(Of TSource)
   fullName: System.Action<TSource>
@@ -4414,6 +4499,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4425,6 +4511,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4434,6 +4521,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -4443,6 +4531,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -4454,6 +4543,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -4467,7 +4557,7 @@ references:
 - uid: System.Action{{TSource},System.Threading.Tasks.ParallelLoopState}
   parent: System
   definition: System.Action`2
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   name: Action<TSource, ParallelLoopState>
   name.vb: Action(Of TSource, ParallelLoopState)
   fullName: System.Action<TSource, System.Threading.Tasks.ParallelLoopState>
@@ -4477,6 +4567,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4494,6 +4585,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4509,7 +4601,7 @@ references:
 - uid: System.Action{{TSource},System.Threading.Tasks.ParallelLoopState,System.Int64}
   parent: System
   definition: System.Action`3
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`3.yml
   name: Action<TSource, ParallelLoopState, Int64>
   name.vb: Action(Of TSource, ParallelLoopState, Int64)
   fullName: System.Action<TSource, System.Threading.Tasks.ParallelLoopState, System.Int64>
@@ -4519,6 +4611,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`3.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4535,6 +4628,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -4542,6 +4636,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4558,11 +4653,13 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.Action`3
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Action`3.yml
   name: Action<T1, T2, T3>
   name.vb: Action(Of T1, T2, T3)
   fullName: System.Action<T1, T2, T3>
@@ -4572,6 +4669,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`3.yml
   - name: <
     fullName: <
   - name: T1
@@ -4591,6 +4689,7 @@ references:
     name: Action
     fullName: System.Action
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Action`3.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T1
@@ -4608,7 +4707,7 @@ references:
 - uid: System.Func{{TSource},System.Threading.Tasks.ParallelLoopState,{TLocal},{TLocal}}
   parent: System
   definition: System.Func`4
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   name: Func<TSource, ParallelLoopState, TLocal, TLocal>
   name.vb: Func(Of TSource, ParallelLoopState, TLocal, TLocal)
   fullName: System.Func<TSource, System.Threading.Tasks.ParallelLoopState, TLocal, TLocal>
@@ -4618,6 +4717,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4643,6 +4743,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`4.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4666,7 +4767,7 @@ references:
 - uid: System.Func{{TSource},System.Threading.Tasks.ParallelLoopState,System.Int64,{TLocal},{TLocal}}
   parent: System
   definition: System.Func`5
-  href: System.Threading.Tasks.ParallelLoopState.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`5.yml
   name: Func<TSource, ParallelLoopState, Int64, TLocal, TLocal>
   name.vb: Func(Of TSource, ParallelLoopState, Int64, TLocal, TLocal)
   fullName: System.Func<TSource, System.Threading.Tasks.ParallelLoopState, System.Int64, TLocal, TLocal>
@@ -4676,6 +4777,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`5.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4692,6 +4794,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: TLocal
@@ -4707,6 +4810,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`5.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4723,6 +4827,7 @@ references:
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: TLocal
@@ -4736,6 +4841,7 @@ references:
 - uid: System.Func`5
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Func`5.yml
   name: Func<T1, T2, T3, T4, TResult>
   name.vb: Func(Of T1, T2, T3, T4, TResult)
   fullName: System.Func<T1, T2, T3, T4, TResult>
@@ -4745,6 +4851,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`5.yml
   - name: <
     fullName: <
   - name: T1
@@ -4772,6 +4879,7 @@ references:
     name: Func
     fullName: System.Func
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Func`5.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T1
@@ -4799,6 +4907,7 @@ references:
 - uid: System.Collections.Concurrent.Partitioner{{TSource}}
   parent: System.Collections.Concurrent
   definition: System.Collections.Concurrent.Partitioner`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   name: Partitioner<TSource>
   name.vb: Partitioner(Of TSource)
   fullName: System.Collections.Concurrent.Partitioner<TSource>
@@ -4808,6 +4917,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4819,6 +4929,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4828,6 +4939,7 @@ references:
 - uid: System.Collections.Concurrent.Partitioner`1
   parent: System.Collections.Concurrent
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   name: Partitioner<TSource>
   name.vb: Partitioner(Of TSource)
   fullName: System.Collections.Concurrent.Partitioner<TSource>
@@ -4837,6 +4949,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4848,6 +4961,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4862,6 +4976,7 @@ references:
 - uid: System.Collections.Concurrent.OrderablePartitioner{{TSource}}
   parent: System.Collections.Concurrent
   definition: System.Collections.Concurrent.OrderablePartitioner`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   name: OrderablePartitioner<TSource>
   name.vb: OrderablePartitioner(Of TSource)
   fullName: System.Collections.Concurrent.OrderablePartitioner<TSource>
@@ -4871,6 +4986,7 @@ references:
     name: OrderablePartitioner
     fullName: System.Collections.Concurrent.OrderablePartitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4882,6 +4998,7 @@ references:
     name: OrderablePartitioner
     fullName: System.Collections.Concurrent.OrderablePartitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -4891,6 +5008,7 @@ references:
 - uid: System.Collections.Concurrent.OrderablePartitioner`1
   parent: System.Collections.Concurrent
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   name: OrderablePartitioner<TSource>
   name.vb: OrderablePartitioner(Of TSource)
   fullName: System.Collections.Concurrent.OrderablePartitioner<TSource>
@@ -4900,6 +5018,7 @@ references:
     name: OrderablePartitioner
     fullName: System.Collections.Concurrent.OrderablePartitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -4911,6 +5030,7 @@ references:
     name: OrderablePartitioner
     fullName: System.Collections.Concurrent.OrderablePartitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource

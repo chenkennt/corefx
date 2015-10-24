@@ -3,52 +3,52 @@ items:
   id: File
   parent: System.IO
   children:
-  - System.IO.File.OpenText(System.String)
-  - System.IO.File.CreateText(System.String)
+  - System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
+  - System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  - System.IO.File.AppendAllText(System.String,System.String)
+  - System.IO.File.AppendAllText(System.String,System.String,System.Text.Encoding)
   - System.IO.File.AppendText(System.String)
   - System.IO.File.Copy(System.String,System.String)
   - System.IO.File.Copy(System.String,System.String,System.Boolean)
   - System.IO.File.Create(System.String)
   - System.IO.File.Create(System.String,System.Int32)
   - System.IO.File.Create(System.String,System.Int32,System.IO.FileOptions)
+  - System.IO.File.CreateText(System.String)
   - System.IO.File.Delete(System.String)
   - System.IO.File.Exists(System.String)
+  - System.IO.File.GetAttributes(System.String)
+  - System.IO.File.GetCreationTime(System.String)
+  - System.IO.File.GetCreationTimeUtc(System.String)
+  - System.IO.File.GetLastAccessTime(System.String)
+  - System.IO.File.GetLastAccessTimeUtc(System.String)
+  - System.IO.File.GetLastWriteTime(System.String)
+  - System.IO.File.GetLastWriteTimeUtc(System.String)
+  - System.IO.File.Move(System.String,System.String)
   - System.IO.File.Open(System.String,System.IO.FileMode)
   - System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess)
   - System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  - System.IO.File.SetCreationTime(System.String,System.DateTime)
-  - System.IO.File.SetCreationTimeUtc(System.String,System.DateTime)
-  - System.IO.File.GetCreationTime(System.String)
-  - System.IO.File.GetCreationTimeUtc(System.String)
-  - System.IO.File.SetLastAccessTime(System.String,System.DateTime)
-  - System.IO.File.SetLastAccessTimeUtc(System.String,System.DateTime)
-  - System.IO.File.GetLastAccessTime(System.String)
-  - System.IO.File.GetLastAccessTimeUtc(System.String)
-  - System.IO.File.SetLastWriteTime(System.String,System.DateTime)
-  - System.IO.File.SetLastWriteTimeUtc(System.String,System.DateTime)
-  - System.IO.File.GetLastWriteTime(System.String)
-  - System.IO.File.GetLastWriteTimeUtc(System.String)
-  - System.IO.File.GetAttributes(System.String)
-  - System.IO.File.SetAttributes(System.String,System.IO.FileAttributes)
   - System.IO.File.OpenRead(System.String)
+  - System.IO.File.OpenText(System.String)
   - System.IO.File.OpenWrite(System.String)
-  - System.IO.File.ReadAllText(System.String)
-  - System.IO.File.ReadAllText(System.String,System.Text.Encoding)
-  - System.IO.File.WriteAllText(System.String,System.String)
-  - System.IO.File.WriteAllText(System.String,System.String,System.Text.Encoding)
   - System.IO.File.ReadAllBytes(System.String)
-  - System.IO.File.WriteAllBytes(System.String,System.Byte[])
   - System.IO.File.ReadAllLines(System.String)
   - System.IO.File.ReadAllLines(System.String,System.Text.Encoding)
+  - System.IO.File.ReadAllText(System.String)
+  - System.IO.File.ReadAllText(System.String,System.Text.Encoding)
   - System.IO.File.ReadLines(System.String)
   - System.IO.File.ReadLines(System.String,System.Text.Encoding)
+  - System.IO.File.SetAttributes(System.String,System.IO.FileAttributes)
+  - System.IO.File.SetCreationTime(System.String,System.DateTime)
+  - System.IO.File.SetCreationTimeUtc(System.String,System.DateTime)
+  - System.IO.File.SetLastAccessTime(System.String,System.DateTime)
+  - System.IO.File.SetLastAccessTimeUtc(System.String,System.DateTime)
+  - System.IO.File.SetLastWriteTime(System.String,System.DateTime)
+  - System.IO.File.SetLastWriteTimeUtc(System.String,System.DateTime)
+  - System.IO.File.WriteAllBytes(System.String,System.Byte[])
   - System.IO.File.WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
   - System.IO.File.WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
-  - System.IO.File.AppendAllText(System.String,System.String)
-  - System.IO.File.AppendAllText(System.String,System.String,System.Text.Encoding)
-  - System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
-  - System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
-  - System.IO.File.Move(System.String,System.String)
+  - System.IO.File.WriteAllText(System.String,System.String)
+  - System.IO.File.WriteAllText(System.String,System.String,System.Text.Encoding)
   href: System.IO.File.yml
   name: File
   fullName: System.IO.File
@@ -99,7 +99,6 @@ items:
       type: System.String
     return:
       type: System.IO.StreamReader
-      description: 
 - uid: System.IO.File.CreateText(System.String)
   id: CreateText(System.String)
   parent: System.IO.File
@@ -122,7 +121,6 @@ items:
       type: System.String
     return:
       type: System.IO.StreamWriter
-      description: 
 - uid: System.IO.File.AppendText(System.String)
   id: AppendText(System.String)
   parent: System.IO.File
@@ -145,7 +143,6 @@ items:
       type: System.String
     return:
       type: System.IO.StreamWriter
-      description: 
 - uid: System.IO.File.Copy(System.String,System.String)
   id: Copy(System.String,System.String)
   parent: System.IO.File
@@ -214,7 +211,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Create(System.String,System.Int32)
   id: Create(System.String,System.Int32)
   parent: System.IO.File
@@ -239,7 +235,6 @@ items:
       type: System.Int32
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Create(System.String,System.Int32,System.IO.FileOptions)
   id: Create(System.String,System.Int32,System.IO.FileOptions)
   parent: System.IO.File
@@ -266,7 +261,6 @@ items:
       type: System.IO.FileOptions
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Delete(System.String)
   id: Delete(System.String)
   parent: System.IO.File
@@ -309,7 +303,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.File.Open(System.String,System.IO.FileMode)
   id: Open(System.String,System.IO.FileMode)
   parent: System.IO.File
@@ -334,7 +327,6 @@ items:
       type: System.IO.FileMode
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess)
   id: Open(System.String,System.IO.FileMode,System.IO.FileAccess)
   parent: System.IO.File
@@ -361,7 +353,6 @@ items:
       type: System.IO.FileAccess
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   id: Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   parent: System.IO.File
@@ -390,7 +381,6 @@ items:
       type: System.IO.FileShare
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.SetCreationTime(System.String,System.DateTime)
   id: SetCreationTime(System.String,System.DateTime)
   parent: System.IO.File
@@ -457,7 +447,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetCreationTimeUtc(System.String)
   id: GetCreationTimeUtc(System.String)
   parent: System.IO.File
@@ -480,7 +469,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.SetLastAccessTime(System.String,System.DateTime)
   id: SetLastAccessTime(System.String,System.DateTime)
   parent: System.IO.File
@@ -547,7 +535,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetLastAccessTimeUtc(System.String)
   id: GetLastAccessTimeUtc(System.String)
   parent: System.IO.File
@@ -570,7 +557,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.SetLastWriteTime(System.String,System.DateTime)
   id: SetLastWriteTime(System.String,System.DateTime)
   parent: System.IO.File
@@ -637,7 +623,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetLastWriteTimeUtc(System.String)
   id: GetLastWriteTimeUtc(System.String)
   parent: System.IO.File
@@ -660,7 +645,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetAttributes(System.String)
   id: GetAttributes(System.String)
   parent: System.IO.File
@@ -683,7 +667,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileAttributes
-      description: 
 - uid: System.IO.File.SetAttributes(System.String,System.IO.FileAttributes)
   id: SetAttributes(System.String,System.IO.FileAttributes)
   parent: System.IO.File
@@ -728,7 +711,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.OpenWrite(System.String)
   id: OpenWrite(System.String)
   parent: System.IO.File
@@ -751,7 +733,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.ReadAllText(System.String)
   id: ReadAllText(System.String)
   parent: System.IO.File
@@ -774,7 +755,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.File.ReadAllText(System.String,System.Text.Encoding)
   id: ReadAllText(System.String,System.Text.Encoding)
   parent: System.IO.File
@@ -799,7 +779,6 @@ items:
       type: System.Text.Encoding
     return:
       type: System.String
-      description: 
 - uid: System.IO.File.WriteAllText(System.String,System.String)
   id: WriteAllText(System.String,System.String)
   parent: System.IO.File
@@ -868,7 +847,6 @@ items:
       type: System.String
     return:
       type: System.Byte[]
-      description: 
 - uid: System.IO.File.WriteAllBytes(System.String,System.Byte[])
   id: WriteAllBytes(System.String,System.Byte[])
   parent: System.IO.File
@@ -915,7 +893,6 @@ items:
       type: System.String
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.File.ReadAllLines(System.String,System.Text.Encoding)
   id: ReadAllLines(System.String,System.Text.Encoding)
   parent: System.IO.File
@@ -940,7 +917,6 @@ items:
       type: System.Text.Encoding
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.File.ReadLines(System.String)
   id: ReadLines(System.String)
   parent: System.IO.File
@@ -963,7 +939,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: 
 - uid: System.IO.File.ReadLines(System.String,System.Text.Encoding)
   id: ReadLines(System.String,System.Text.Encoding)
   parent: System.IO.File
@@ -988,7 +963,6 @@ items:
       type: System.Text.Encoding
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: 
 - uid: System.IO.File.WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
   id: WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
   parent: System.IO.File
@@ -1165,11 +1139,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1177,6 +1153,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1186,6 +1163,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1193,6 +1171,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1200,12 +1179,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1213,17 +1194,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1231,18 +1215,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1250,23 +1237,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1274,18 +1265,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1293,23 +1287,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1317,6 +1315,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1326,6 +1325,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1333,6 +1333,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1340,6 +1341,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1349,6 +1351,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1356,6 +1359,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1363,6 +1367,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1372,6 +1377,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1383,33 +1389,37 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IO.StreamReader
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.StreamReader.yml
   name: StreamReader
   fullName: System.IO.StreamReader
 - uid: System.IO.StreamWriter
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.StreamWriter.yml
   name: StreamWriter
   fullName: System.IO.StreamWriter
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.IO.FileStream
   parent: System.IO
-  isExternal: false
-  href: System.IO.FileStream.yml
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.FileStream.yml
   name: FileStream
   fullName: System.IO.FileStream
-  type: Class
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.IO.FileOptions
@@ -1443,6 +1453,7 @@ references:
 - uid: System.DateTime
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.DateTime.yml
   name: DateTime
   fullName: System.DateTime
 - uid: System.IO.FileAttributes
@@ -1455,6 +1466,7 @@ references:
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.Encoding.yml
   name: Encoding
   fullName: System.Text.Encoding
 - uid: System.Text
@@ -1463,6 +1475,7 @@ references:
   fullName: System.Text
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -1472,6 +1485,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1479,10 +1493,12 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.String[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String[]
   name.vb: String()
   fullName: System.String[]
@@ -1492,6 +1508,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1499,11 +1516,13 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ()
     fullName: ()
 - uid: System.Collections.Generic.IEnumerable{System.String}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<String>
   name.vb: IEnumerable(Of String)
   fullName: System.Collections.Generic.IEnumerable<System.String>
@@ -1513,12 +1532,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1526,17 +1547,20 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1546,6 +1570,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1557,6 +1582,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T

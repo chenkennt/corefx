@@ -3,8 +3,8 @@ items:
   id: XmlNodeOrder
   parent: System.Xml
   children:
-  - System.Xml.XmlNodeOrder.Before
   - System.Xml.XmlNodeOrder.After
+  - System.Xml.XmlNodeOrder.Before
   - System.Xml.XmlNodeOrder.Same
   - System.Xml.XmlNodeOrder.Unknown
   href: System.Xml.XmlNodeOrder.yml

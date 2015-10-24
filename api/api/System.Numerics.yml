@@ -4,16 +4,16 @@ items:
   children:
   - System.Numerics.BigInteger
   - System.Numerics.Complex
-  - System.Numerics.VectorExtensions
   - System.Numerics.Matrix3x2
   - System.Numerics.Matrix4x4
   - System.Numerics.Plane
   - System.Numerics.Quaternion
+  - System.Numerics.Vector
   - System.Numerics.Vector`1
   - System.Numerics.Vector2
   - System.Numerics.Vector3
   - System.Numerics.Vector4
-  - System.Numerics.Vector
+  - System.Numerics.VectorExtensions
   href: System.Numerics.yml
   name: System.Numerics
   fullName: System.Numerics
@@ -43,13 +43,6 @@ references:
   name: Complex
   fullName: System.Numerics.Complex
   type: Struct
-- uid: System.Numerics.VectorExtensions
-  isExternal: false
-  href: System.Numerics.VectorExtensions.yml
-  name: VectorExtensions
-  fullName: System.Numerics.VectorExtensions
-  type: Class
-  summary: Contains conversions from Vector2 to Windows.Foundation.Point and Size, which are all structurally identical.
 - uid: System.Numerics.Matrix3x2
   parent: System.Numerics
   isExternal: false
@@ -153,6 +146,13 @@ references:
   fullName: System.Numerics.Vector
   type: Class
   summary: Contains various methods useful for creating, manipulating, combining, and converting generic vectors with one another.
+- uid: System.Numerics.VectorExtensions
+  isExternal: false
+  href: System.Numerics.VectorExtensions.yml
+  name: VectorExtensions
+  fullName: System.Numerics.VectorExtensions
+  type: Class
+  summary: Contains conversions from Vector2 to Windows.Foundation.Point and Size, which are all structurally identical.
 - uid: System.Numerics
   isExternal: false
   name: System.Numerics

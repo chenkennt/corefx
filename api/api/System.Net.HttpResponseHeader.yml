@@ -3,35 +3,35 @@ items:
   id: HttpResponseHeader
   parent: System.Net
   children:
+  - System.Net.HttpResponseHeader.AcceptRanges
+  - System.Net.HttpResponseHeader.Age
+  - System.Net.HttpResponseHeader.Allow
   - System.Net.HttpResponseHeader.CacheControl
   - System.Net.HttpResponseHeader.Connection
-  - System.Net.HttpResponseHeader.Date
-  - System.Net.HttpResponseHeader.KeepAlive
-  - System.Net.HttpResponseHeader.Pragma
-  - System.Net.HttpResponseHeader.Trailer
-  - System.Net.HttpResponseHeader.TransferEncoding
-  - System.Net.HttpResponseHeader.Upgrade
-  - System.Net.HttpResponseHeader.Via
-  - System.Net.HttpResponseHeader.Warning
-  - System.Net.HttpResponseHeader.Allow
-  - System.Net.HttpResponseHeader.ContentLength
-  - System.Net.HttpResponseHeader.ContentType
   - System.Net.HttpResponseHeader.ContentEncoding
   - System.Net.HttpResponseHeader.ContentLanguage
+  - System.Net.HttpResponseHeader.ContentLength
   - System.Net.HttpResponseHeader.ContentLocation
   - System.Net.HttpResponseHeader.ContentMd5
   - System.Net.HttpResponseHeader.ContentRange
-  - System.Net.HttpResponseHeader.Expires
-  - System.Net.HttpResponseHeader.LastModified
-  - System.Net.HttpResponseHeader.AcceptRanges
-  - System.Net.HttpResponseHeader.Age
+  - System.Net.HttpResponseHeader.ContentType
+  - System.Net.HttpResponseHeader.Date
   - System.Net.HttpResponseHeader.ETag
+  - System.Net.HttpResponseHeader.Expires
+  - System.Net.HttpResponseHeader.KeepAlive
+  - System.Net.HttpResponseHeader.LastModified
   - System.Net.HttpResponseHeader.Location
+  - System.Net.HttpResponseHeader.Pragma
   - System.Net.HttpResponseHeader.ProxyAuthenticate
   - System.Net.HttpResponseHeader.RetryAfter
   - System.Net.HttpResponseHeader.Server
   - System.Net.HttpResponseHeader.SetCookie
+  - System.Net.HttpResponseHeader.Trailer
+  - System.Net.HttpResponseHeader.TransferEncoding
+  - System.Net.HttpResponseHeader.Upgrade
   - System.Net.HttpResponseHeader.Vary
+  - System.Net.HttpResponseHeader.Via
+  - System.Net.HttpResponseHeader.Warning
   - System.Net.HttpResponseHeader.WwwAuthenticate
   href: System.Net.HttpResponseHeader.yml
   name: HttpResponseHeader

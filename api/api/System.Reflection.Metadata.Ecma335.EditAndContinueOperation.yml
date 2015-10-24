@@ -3,12 +3,12 @@ items:
   id: EditAndContinueOperation
   parent: System.Reflection.Metadata.Ecma335
   children:
-  - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.Default
-  - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.AddMethod
+  - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.AddEvent
   - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.AddField
+  - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.AddMethod
   - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.AddParameter
   - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.AddProperty
-  - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.AddEvent
+  - System.Reflection.Metadata.Ecma335.EditAndContinueOperation.Default
   href: System.Reflection.Metadata.Ecma335.EditAndContinueOperation.yml
   name: EditAndContinueOperation
   fullName: System.Reflection.Metadata.Ecma335.EditAndContinueOperation

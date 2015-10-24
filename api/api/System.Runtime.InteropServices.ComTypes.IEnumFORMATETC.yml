@@ -3,10 +3,10 @@ items:
   id: IEnumFORMATETC
   parent: System.Runtime.InteropServices.ComTypes
   children:
-  - System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.Next(System.Int32,System.Runtime.InteropServices.ComTypes.FORMATETC[],System.Int32[])
-  - System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.Skip(System.Int32)
-  - System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.Reset
   - System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.Clone(System.Runtime.InteropServices.ComTypes.IEnumFORMATETC@)
+  - System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.Next(System.Int32,System.Runtime.InteropServices.ComTypes.FORMATETC[],System.Int32[])
+  - System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.Reset
+  - System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.Skip(System.Int32)
   href: System.Runtime.InteropServices.ComTypes.IEnumFORMATETC.yml
   name: IEnumFORMATETC
   fullName: System.Runtime.InteropServices.ComTypes.IEnumFORMATETC
@@ -125,6 +125,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.FORMATETC[]
@@ -150,6 +151,7 @@ references:
     fullName: ()
 - uid: System.Int32[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32[]
   name.vb: Int32()
   fullName: System.Int32[]
@@ -159,6 +161,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -166,6 +169,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ()
     fullName: ()
 - uid: System

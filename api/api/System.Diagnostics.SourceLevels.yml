@@ -3,13 +3,13 @@ items:
   id: SourceLevels
   parent: System.Diagnostics
   children:
-  - System.Diagnostics.SourceLevels.Off
+  - System.Diagnostics.SourceLevels.All
   - System.Diagnostics.SourceLevels.Critical
   - System.Diagnostics.SourceLevels.Error
-  - System.Diagnostics.SourceLevels.Warning
   - System.Diagnostics.SourceLevels.Information
+  - System.Diagnostics.SourceLevels.Off
   - System.Diagnostics.SourceLevels.Verbose
-  - System.Diagnostics.SourceLevels.All
+  - System.Diagnostics.SourceLevels.Warning
   href: System.Diagnostics.SourceLevels.yml
   name: SourceLevels
   fullName: System.Diagnostics.SourceLevels

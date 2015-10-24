@@ -26,7 +26,6 @@ items:
       type: System.Text.RegularExpressions.Match
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Text.RegularExpressions
   isExternal: false
@@ -44,6 +43,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System

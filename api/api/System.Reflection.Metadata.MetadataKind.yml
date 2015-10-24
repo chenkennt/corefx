@@ -4,8 +4,8 @@ items:
   parent: System.Reflection.Metadata
   children:
   - System.Reflection.Metadata.MetadataKind.Ecma335
-  - System.Reflection.Metadata.MetadataKind.WindowsMetadata
   - System.Reflection.Metadata.MetadataKind.ManagedWindowsMetadata
+  - System.Reflection.Metadata.MetadataKind.WindowsMetadata
   href: System.Reflection.Metadata.MetadataKind.yml
   name: MetadataKind
   fullName: System.Reflection.Metadata.MetadataKind

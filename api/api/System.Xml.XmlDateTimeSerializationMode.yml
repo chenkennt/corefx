@@ -4,9 +4,9 @@ items:
   parent: System.Xml
   children:
   - System.Xml.XmlDateTimeSerializationMode.Local
-  - System.Xml.XmlDateTimeSerializationMode.Utc
-  - System.Xml.XmlDateTimeSerializationMode.Unspecified
   - System.Xml.XmlDateTimeSerializationMode.RoundtripKind
+  - System.Xml.XmlDateTimeSerializationMode.Unspecified
+  - System.Xml.XmlDateTimeSerializationMode.Utc
   href: System.Xml.XmlDateTimeSerializationMode.yml
   name: XmlDateTimeSerializationMode
   fullName: System.Xml.XmlDateTimeSerializationMode

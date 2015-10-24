@@ -3,22 +3,22 @@ items:
   id: XmlAttributeCollection
   parent: System.Xml
   children:
+  - System.Xml.XmlAttributeCollection.Append(System.Xml.XmlAttribute)
+  - System.Xml.XmlAttributeCollection.CopyTo(System.Xml.XmlAttribute[],System.Int32)
+  - System.Xml.XmlAttributeCollection.InsertAfter(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
+  - System.Xml.XmlAttributeCollection.InsertBefore(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   - System.Xml.XmlAttributeCollection.ItemOf(System.Int32)
   - System.Xml.XmlAttributeCollection.ItemOf(System.String)
   - System.Xml.XmlAttributeCollection.ItemOf(System.String,System.String)
-  - System.Xml.XmlAttributeCollection.SetNamedItem(System.Xml.XmlNode)
   - System.Xml.XmlAttributeCollection.Prepend(System.Xml.XmlAttribute)
-  - System.Xml.XmlAttributeCollection.Append(System.Xml.XmlAttribute)
-  - System.Xml.XmlAttributeCollection.InsertBefore(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
-  - System.Xml.XmlAttributeCollection.InsertAfter(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   - System.Xml.XmlAttributeCollection.Remove(System.Xml.XmlAttribute)
-  - System.Xml.XmlAttributeCollection.RemoveAt(System.Int32)
   - System.Xml.XmlAttributeCollection.RemoveAll
+  - System.Xml.XmlAttributeCollection.RemoveAt(System.Int32)
+  - System.Xml.XmlAttributeCollection.SetNamedItem(System.Xml.XmlNode)
   - System.Xml.XmlAttributeCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Xml.XmlAttributeCollection.System#Collections#ICollection#Count
   - System.Xml.XmlAttributeCollection.System#Collections#ICollection#IsSynchronized
   - System.Xml.XmlAttributeCollection.System#Collections#ICollection#SyncRoot
-  - System.Xml.XmlAttributeCollection.System#Collections#ICollection#Count
-  - System.Xml.XmlAttributeCollection.CopyTo(System.Xml.XmlAttribute[],System.Int32)
   href: System.Xml.XmlAttributeCollection.yml
   name: XmlAttributeCollection
   fullName: System.Xml.XmlAttributeCollection
@@ -82,7 +82,6 @@ items:
       type: System.Int32
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.ItemOf(System.String)
   id: ItemOf(System.String)
   parent: System.Xml.XmlAttributeCollection
@@ -107,7 +106,6 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.ItemOf(System.String,System.String)
   id: ItemOf(System.String,System.String)
   parent: System.Xml.XmlAttributeCollection
@@ -134,7 +132,6 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.SetNamedItem(System.Xml.XmlNode)
   id: SetNamedItem(System.Xml.XmlNode)
   parent: System.Xml.XmlAttributeCollection
@@ -157,7 +154,6 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
-      description: 
   overridden: System.Xml.XmlNamedNodeMap.SetNamedItem(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttributeCollection.Prepend(System.Xml.XmlAttribute)
   id: Prepend(System.Xml.XmlAttribute)
@@ -181,7 +177,6 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.Append(System.Xml.XmlAttribute)
   id: Append(System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -204,7 +199,6 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.InsertBefore(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   id: InsertBefore(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -229,7 +223,6 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.InsertAfter(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   id: InsertAfter(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -254,7 +247,6 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.Remove(System.Xml.XmlAttribute)
   id: Remove(System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -277,7 +269,6 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.RemoveAt(System.Int32)
   id: RemoveAt(System.Int32)
   parent: System.Xml.XmlAttributeCollection
@@ -300,7 +291,6 @@ items:
       type: System.Int32
     return:
       type: System.Xml.XmlAttribute
-      description: 
 - uid: System.Xml.XmlAttributeCollection.RemoveAll
   id: RemoveAll
   parent: System.Xml.XmlAttributeCollection
@@ -362,7 +352,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Xml.XmlAttributeCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Xml.XmlAttributeCollection
@@ -384,7 +373,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Xml.XmlAttributeCollection.System#Collections#ICollection#Count
   id: System#Collections#ICollection#Count
   parent: System.Xml.XmlAttributeCollection
@@ -406,7 +394,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Xml.XmlAttributeCollection.CopyTo(System.Xml.XmlAttribute[],System.Int32)
   id: CopyTo(System.Xml.XmlAttribute[],System.Int32)
   parent: System.Xml.XmlAttributeCollection
@@ -440,6 +427,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Xml.XmlNamedNodeMap
@@ -466,6 +454,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -479,6 +468,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNamedNodeMap.RemoveNamedItem(System.String)
@@ -498,6 +488,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -511,6 +502,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNamedNodeMap.Count
@@ -536,6 +528,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -549,6 +542,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNamedNodeMap.GetNamedItem(System.String,System.String)
@@ -568,12 +562,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -587,12 +583,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNamedNodeMap.RemoveNamedItem(System.String,System.String)
@@ -612,12 +610,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -631,12 +631,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Xml.XmlNamedNodeMap.GetEnumerator
@@ -666,6 +668,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -673,6 +676,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -682,6 +686,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -689,6 +694,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -696,12 +702,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -709,17 +717,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -727,18 +738,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -746,23 +760,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -770,18 +788,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -789,23 +810,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -813,6 +838,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -822,6 +848,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -829,6 +856,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -836,6 +864,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -845,6 +874,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -852,6 +882,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -859,6 +890,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -868,6 +900,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -879,6 +912,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Xml.XmlAttribute
@@ -890,6 +924,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Xml.XmlNamedNodeMap.SetNamedItem(System.Xml.XmlNode)
@@ -932,13 +967,10 @@ references:
   fullName: System.Xml.XmlNode
   type: Class
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Xml.XmlAttribute[]

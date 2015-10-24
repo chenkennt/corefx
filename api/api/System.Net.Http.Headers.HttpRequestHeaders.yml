@@ -8,6 +8,10 @@ items:
   - System.Net.Http.Headers.HttpRequestHeaders.AcceptEncoding
   - System.Net.Http.Headers.HttpRequestHeaders.AcceptLanguage
   - System.Net.Http.Headers.HttpRequestHeaders.Authorization
+  - System.Net.Http.Headers.HttpRequestHeaders.CacheControl
+  - System.Net.Http.Headers.HttpRequestHeaders.Connection
+  - System.Net.Http.Headers.HttpRequestHeaders.ConnectionClose
+  - System.Net.Http.Headers.HttpRequestHeaders.Date
   - System.Net.Http.Headers.HttpRequestHeaders.Expect
   - System.Net.Http.Headers.HttpRequestHeaders.ExpectContinue
   - System.Net.Http.Headers.HttpRequestHeaders.From
@@ -18,20 +22,16 @@ items:
   - System.Net.Http.Headers.HttpRequestHeaders.IfRange
   - System.Net.Http.Headers.HttpRequestHeaders.IfUnmodifiedSince
   - System.Net.Http.Headers.HttpRequestHeaders.MaxForwards
+  - System.Net.Http.Headers.HttpRequestHeaders.Pragma
   - System.Net.Http.Headers.HttpRequestHeaders.ProxyAuthorization
   - System.Net.Http.Headers.HttpRequestHeaders.Range
   - System.Net.Http.Headers.HttpRequestHeaders.Referrer
   - System.Net.Http.Headers.HttpRequestHeaders.TE
-  - System.Net.Http.Headers.HttpRequestHeaders.UserAgent
-  - System.Net.Http.Headers.HttpRequestHeaders.CacheControl
-  - System.Net.Http.Headers.HttpRequestHeaders.Connection
-  - System.Net.Http.Headers.HttpRequestHeaders.ConnectionClose
-  - System.Net.Http.Headers.HttpRequestHeaders.Date
-  - System.Net.Http.Headers.HttpRequestHeaders.Pragma
   - System.Net.Http.Headers.HttpRequestHeaders.Trailer
   - System.Net.Http.Headers.HttpRequestHeaders.TransferEncoding
   - System.Net.Http.Headers.HttpRequestHeaders.TransferEncodingChunked
   - System.Net.Http.Headers.HttpRequestHeaders.Upgrade
+  - System.Net.Http.Headers.HttpRequestHeaders.UserAgent
   - System.Net.Http.Headers.HttpRequestHeaders.Via
   - System.Net.Http.Headers.HttpRequestHeaders.Warning
   href: System.Net.Http.Headers.HttpRequestHeaders.yml
@@ -97,7 +97,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.MediaTypeWithQualityHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.AcceptCharset
   id: AcceptCharset
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -118,7 +117,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.StringWithQualityHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.AcceptEncoding
   id: AcceptEncoding
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -139,7 +137,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.StringWithQualityHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.AcceptLanguage
   id: AcceptLanguage
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -160,7 +157,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.StringWithQualityHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Authorization
   id: Authorization
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -181,7 +177,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.AuthenticationHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Expect
   id: Expect
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -202,7 +197,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.NameValueWithParametersHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.ExpectContinue
   id: ExpectContinue
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -223,7 +217,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.From
   id: From
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -244,7 +237,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Host
   id: Host
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -265,7 +257,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfMatch
   id: IfMatch
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -286,7 +277,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.EntityTagHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfModifiedSince
   id: IfModifiedSince
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -307,7 +297,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfNoneMatch
   id: IfNoneMatch
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -328,7 +317,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.EntityTagHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfRange
   id: IfRange
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -349,7 +337,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.RangeConditionHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfUnmodifiedSince
   id: IfUnmodifiedSince
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -370,7 +357,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.MaxForwards
   id: MaxForwards
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -391,7 +377,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Int32}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.ProxyAuthorization
   id: ProxyAuthorization
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -412,7 +397,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.AuthenticationHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Range
   id: Range
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -433,7 +417,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.RangeHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Referrer
   id: Referrer
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -454,7 +437,6 @@ items:
     parameters: []
     return:
       type: Uri
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.TE
   id: TE
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -475,7 +457,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.TransferCodingWithQualityHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.UserAgent
   id: UserAgent
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -496,7 +477,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ProductInfoHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.CacheControl
   id: CacheControl
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -517,7 +497,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.CacheControlHeaderValue
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Connection
   id: Connection
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -538,7 +517,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.ConnectionClose
   id: ConnectionClose
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -559,7 +537,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Date
   id: Date
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -580,7 +557,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Pragma
   id: Pragma
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -601,7 +577,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.NameValueHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Trailer
   id: Trailer
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -622,7 +597,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.TransferEncoding
   id: TransferEncoding
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -643,7 +617,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.TransferCodingHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.TransferEncodingChunked
   id: TransferEncodingChunked
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -664,7 +637,6 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Upgrade
   id: Upgrade
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -685,7 +657,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ProductHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Via
   id: Via
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -706,7 +677,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ViaHeaderValue}
-      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Warning
   id: Warning
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -727,7 +697,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.WarningHeaderValue}
-      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false
@@ -737,6 +706,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Net.Http.Headers.HttpHeaders
@@ -763,12 +733,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -782,12 +754,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.HttpHeaders.Add(System.String,System.Collections.Generic.IEnumerable{System.String})
@@ -809,18 +783,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   - name: )
@@ -836,18 +813,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   - name: )
@@ -869,12 +849,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -888,12 +870,14 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.HttpHeaders.TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable{System.String})
@@ -915,18 +899,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   - name: )
@@ -942,18 +929,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   - name: )
@@ -999,6 +989,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1012,6 +1003,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.HttpHeaders.GetValues(System.String)
@@ -1031,6 +1023,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1044,6 +1037,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.HttpHeaders.TryGetValues(System.String,System.Collections.Generic.IEnumerable{System.String}@)
@@ -1065,18 +1059,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   - name: )
@@ -1092,18 +1089,21 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   - name: )
@@ -1125,6 +1125,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1138,6 +1139,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.HttpHeaders.ToString
@@ -1216,6 +1218,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1223,12 +1226,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1236,17 +1241,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1254,18 +1262,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1273,23 +1284,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1297,18 +1312,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1316,23 +1334,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1340,6 +1362,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1349,6 +1372,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1356,6 +1380,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1363,6 +1388,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1372,6 +1398,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1379,6 +1406,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1386,6 +1414,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1395,6 +1424,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1545,6 +1575,7 @@ references:
 - uid: System.Nullable{System.Boolean}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Boolean>
   name.vb: Nullable(Of Boolean)
   fullName: System.Nullable<System.Boolean>
@@ -1554,12 +1585,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1567,17 +1600,20 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Nullable`1
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<T>
   name.vb: Nullable(Of T)
   fullName: System.Nullable<T>
@@ -1587,6 +1623,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -1598,6 +1635,7 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -1607,6 +1645,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.EntityTagHeaderValue}
@@ -1646,6 +1685,7 @@ references:
 - uid: System.Nullable{System.DateTimeOffset}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<DateTimeOffset>
   name.vb: Nullable(Of DateTimeOffset)
   fullName: System.Nullable<System.DateTimeOffset>
@@ -1655,12 +1695,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.DateTimeOffset
     name: DateTimeOffset
     fullName: System.DateTimeOffset
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTimeOffset.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1668,12 +1710,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.DateTimeOffset
     name: DateTimeOffset
     fullName: System.DateTimeOffset
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.DateTimeOffset.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.RangeConditionHeaderValue
@@ -1686,6 +1730,7 @@ references:
 - uid: System.Nullable{System.Int32}
   parent: System
   definition: System.Nullable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   name: Nullable<Int32>
   name.vb: Nullable(Of Int32)
   fullName: System.Nullable<System.Int32>
@@ -1695,12 +1740,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: <
     fullName: <
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1708,12 +1755,14 @@ references:
     name: Nullable
     fullName: System.Nullable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Nullable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.RangeHeaderValue
@@ -1821,6 +1870,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -1834,6 +1884,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.NameValueHeaderValue}

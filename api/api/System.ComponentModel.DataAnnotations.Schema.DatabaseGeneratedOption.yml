@@ -3,9 +3,9 @@ items:
   id: DatabaseGeneratedOption
   parent: System.ComponentModel.DataAnnotations.Schema
   children:
-  - System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.None
-  - System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity
   - System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Computed
+  - System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity
+  - System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.None
   href: System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.yml
   name: DatabaseGeneratedOption
   fullName: System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption

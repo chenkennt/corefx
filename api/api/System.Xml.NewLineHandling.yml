@@ -3,9 +3,9 @@ items:
   id: NewLineHandling
   parent: System.Xml
   children:
-  - System.Xml.NewLineHandling.Replace
   - System.Xml.NewLineHandling.Entitize
   - System.Xml.NewLineHandling.None
+  - System.Xml.NewLineHandling.Replace
   href: System.Xml.NewLineHandling.yml
   name: NewLineHandling
   fullName: System.Xml.NewLineHandling

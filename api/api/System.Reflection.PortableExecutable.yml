@@ -2,22 +2,22 @@ items:
 - uid: System.Reflection.PortableExecutable
   id: System.Reflection.PortableExecutable
   children:
+  - System.Reflection.PortableExecutable.Characteristics
   - System.Reflection.PortableExecutable.CoffHeader
   - System.Reflection.PortableExecutable.CorFlags
   - System.Reflection.PortableExecutable.CorHeader
   - System.Reflection.PortableExecutable.DirectoryEntry
-  - System.Reflection.PortableExecutable.Machine
-  - System.Reflection.PortableExecutable.Characteristics
-  - System.Reflection.PortableExecutable.PEMagic
-  - System.Reflection.PortableExecutable.Subsystem
   - System.Reflection.PortableExecutable.DllCharacteristics
-  - System.Reflection.PortableExecutable.SectionCharacteristics
+  - System.Reflection.PortableExecutable.Machine
   - System.Reflection.PortableExecutable.PEHeader
   - System.Reflection.PortableExecutable.PEHeaders
+  - System.Reflection.PortableExecutable.PEMagic
   - System.Reflection.PortableExecutable.PEMemoryBlock
   - System.Reflection.PortableExecutable.PEReader
   - System.Reflection.PortableExecutable.PEStreamOptions
+  - System.Reflection.PortableExecutable.SectionCharacteristics
   - System.Reflection.PortableExecutable.SectionHeader
+  - System.Reflection.PortableExecutable.Subsystem
   href: System.Reflection.PortableExecutable.yml
   name: System.Reflection.PortableExecutable
   fullName: System.Reflection.PortableExecutable

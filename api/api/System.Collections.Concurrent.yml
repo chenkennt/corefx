@@ -7,11 +7,11 @@ items:
   - System.Collections.Concurrent.ConcurrentDictionary`2
   - System.Collections.Concurrent.ConcurrentQueue`1
   - System.Collections.Concurrent.ConcurrentStack`1
+  - System.Collections.Concurrent.EnumerablePartitionerOptions
   - System.Collections.Concurrent.IProducerConsumerCollection`1
   - System.Collections.Concurrent.OrderablePartitioner`1
-  - System.Collections.Concurrent.Partitioner`1
-  - System.Collections.Concurrent.EnumerablePartitionerOptions
   - System.Collections.Concurrent.Partitioner
+  - System.Collections.Concurrent.Partitioner`1
   href: System.Collections.Concurrent.yml
   name: System.Collections.Concurrent
   fullName: System.Collections.Concurrent
@@ -228,6 +228,7 @@ references:
 - uid: System.Collections.Concurrent.OrderablePartitioner`1
   parent: System.Collections.Concurrent
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   name: OrderablePartitioner<TSource>
   name.vb: OrderablePartitioner(Of TSource)
   fullName: System.Collections.Concurrent.OrderablePartitioner<TSource>
@@ -237,6 +238,7 @@ references:
     name: OrderablePartitioner
     fullName: System.Collections.Concurrent.OrderablePartitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -248,6 +250,7 @@ references:
     name: OrderablePartitioner
     fullName: System.Collections.Concurrent.OrderablePartitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.OrderablePartitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource
@@ -257,6 +260,7 @@ references:
 - uid: System.Collections.Concurrent.Partitioner`1
   parent: System.Collections.Concurrent
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   name: Partitioner<TSource>
   name.vb: Partitioner(Of TSource)
   fullName: System.Collections.Concurrent.Partitioner<TSource>
@@ -266,6 +270,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: <
     fullName: <
   - name: TSource
@@ -277,6 +282,7 @@ references:
     name: Partitioner
     fullName: System.Collections.Concurrent.Partitioner
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Concurrent.Partitioner`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TSource

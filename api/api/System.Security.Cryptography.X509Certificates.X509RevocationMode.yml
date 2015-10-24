@@ -4,8 +4,8 @@ items:
   parent: System.Security.Cryptography.X509Certificates
   children:
   - System.Security.Cryptography.X509Certificates.X509RevocationMode.NoCheck
-  - System.Security.Cryptography.X509Certificates.X509RevocationMode.Online
   - System.Security.Cryptography.X509Certificates.X509RevocationMode.Offline
+  - System.Security.Cryptography.X509Certificates.X509RevocationMode.Online
   href: System.Security.Cryptography.X509Certificates.X509RevocationMode.yml
   name: X509RevocationMode
   fullName: System.Security.Cryptography.X509Certificates.X509RevocationMode

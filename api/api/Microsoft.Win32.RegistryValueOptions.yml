@@ -3,8 +3,8 @@ items:
   id: RegistryValueOptions
   parent: Microsoft.Win32
   children:
-  - Microsoft.Win32.RegistryValueOptions.None
   - Microsoft.Win32.RegistryValueOptions.DoNotExpandEnvironmentNames
+  - Microsoft.Win32.RegistryValueOptions.None
   href: Microsoft.Win32.RegistryValueOptions.yml
   name: RegistryValueOptions
   fullName: Microsoft.Win32.RegistryValueOptions

@@ -2,24 +2,24 @@ items:
 - uid: System.Threading.Tasks.Dataflow
   id: System.Threading.Tasks.Dataflow
   children:
-  - System.Threading.Tasks.Dataflow.DataflowBlock
-  - System.Threading.Tasks.Dataflow.DataflowBlockOptions
-  - System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions
-  - System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions
-  - System.Threading.Tasks.Dataflow.DataflowLinkOptions
-  - System.Threading.Tasks.Dataflow.DataflowMessageHeader
-  - System.Threading.Tasks.Dataflow.DataflowMessageStatus
-  - System.Threading.Tasks.Dataflow.IDataflowBlock
-  - System.Threading.Tasks.Dataflow.IPropagatorBlock`2
-  - System.Threading.Tasks.Dataflow.IReceivableSourceBlock`1
-  - System.Threading.Tasks.Dataflow.ISourceBlock`1
-  - System.Threading.Tasks.Dataflow.ITargetBlock`1
   - System.Threading.Tasks.Dataflow.ActionBlock`1
   - System.Threading.Tasks.Dataflow.BatchBlock`1
   - System.Threading.Tasks.Dataflow.BatchedJoinBlock`2
   - System.Threading.Tasks.Dataflow.BatchedJoinBlock`3
   - System.Threading.Tasks.Dataflow.BroadcastBlock`1
   - System.Threading.Tasks.Dataflow.BufferBlock`1
+  - System.Threading.Tasks.Dataflow.DataflowBlock
+  - System.Threading.Tasks.Dataflow.DataflowBlockOptions
+  - System.Threading.Tasks.Dataflow.DataflowLinkOptions
+  - System.Threading.Tasks.Dataflow.DataflowMessageHeader
+  - System.Threading.Tasks.Dataflow.DataflowMessageStatus
+  - System.Threading.Tasks.Dataflow.ExecutionDataflowBlockOptions
+  - System.Threading.Tasks.Dataflow.GroupingDataflowBlockOptions
+  - System.Threading.Tasks.Dataflow.IDataflowBlock
+  - System.Threading.Tasks.Dataflow.IPropagatorBlock`2
+  - System.Threading.Tasks.Dataflow.IReceivableSourceBlock`1
+  - System.Threading.Tasks.Dataflow.ISourceBlock`1
+  - System.Threading.Tasks.Dataflow.ITargetBlock`1
   - System.Threading.Tasks.Dataflow.JoinBlock`2
   - System.Threading.Tasks.Dataflow.JoinBlock`3
   - System.Threading.Tasks.Dataflow.TransformBlock`2

@@ -3,21 +3,21 @@ items:
   id: ConstantTypeCode
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.ConstantTypeCode.Invalid
   - System.Reflection.Metadata.ConstantTypeCode.Boolean
-  - System.Reflection.Metadata.ConstantTypeCode.Char
-  - System.Reflection.Metadata.ConstantTypeCode.SByte
   - System.Reflection.Metadata.ConstantTypeCode.Byte
-  - System.Reflection.Metadata.ConstantTypeCode.Int16
-  - System.Reflection.Metadata.ConstantTypeCode.UInt16
-  - System.Reflection.Metadata.ConstantTypeCode.Int32
-  - System.Reflection.Metadata.ConstantTypeCode.UInt32
-  - System.Reflection.Metadata.ConstantTypeCode.Int64
-  - System.Reflection.Metadata.ConstantTypeCode.UInt64
-  - System.Reflection.Metadata.ConstantTypeCode.Single
+  - System.Reflection.Metadata.ConstantTypeCode.Char
   - System.Reflection.Metadata.ConstantTypeCode.Double
-  - System.Reflection.Metadata.ConstantTypeCode.String
+  - System.Reflection.Metadata.ConstantTypeCode.Int16
+  - System.Reflection.Metadata.ConstantTypeCode.Int32
+  - System.Reflection.Metadata.ConstantTypeCode.Int64
+  - System.Reflection.Metadata.ConstantTypeCode.Invalid
   - System.Reflection.Metadata.ConstantTypeCode.NullReference
+  - System.Reflection.Metadata.ConstantTypeCode.SByte
+  - System.Reflection.Metadata.ConstantTypeCode.Single
+  - System.Reflection.Metadata.ConstantTypeCode.String
+  - System.Reflection.Metadata.ConstantTypeCode.UInt16
+  - System.Reflection.Metadata.ConstantTypeCode.UInt32
+  - System.Reflection.Metadata.ConstantTypeCode.UInt64
   href: System.Reflection.Metadata.ConstantTypeCode.yml
   name: ConstantTypeCode
   fullName: System.Reflection.Metadata.ConstantTypeCode

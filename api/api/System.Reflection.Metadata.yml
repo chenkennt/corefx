@@ -3,96 +3,69 @@ items:
   id: System.Reflection.Metadata
   children:
   - System.Reflection.Metadata.AssemblyDefinition
+  - System.Reflection.Metadata.AssemblyDefinitionHandle
   - System.Reflection.Metadata.AssemblyFile
+  - System.Reflection.Metadata.AssemblyFileHandle
+  - System.Reflection.Metadata.AssemblyFileHandleCollection
+  - System.Reflection.Metadata.AssemblyFileHandleCollection.Enumerator
   - System.Reflection.Metadata.AssemblyReference
+  - System.Reflection.Metadata.AssemblyReferenceHandle
+  - System.Reflection.Metadata.AssemblyReferenceHandleCollection
+  - System.Reflection.Metadata.AssemblyReferenceHandleCollection.Enumerator
+  - System.Reflection.Metadata.BlobHandle
   - System.Reflection.Metadata.BlobReader
   - System.Reflection.Metadata.Constant
+  - System.Reflection.Metadata.ConstantHandle
   - System.Reflection.Metadata.ConstantTypeCode
   - System.Reflection.Metadata.CustomAttribute
+  - System.Reflection.Metadata.CustomAttributeHandle
+  - System.Reflection.Metadata.CustomAttributeHandleCollection
+  - System.Reflection.Metadata.CustomAttributeHandleCollection.Enumerator
   - System.Reflection.Metadata.CustomAttributeNamedArgumentKind
   - System.Reflection.Metadata.DeclarativeSecurityAttribute
+  - System.Reflection.Metadata.DeclarativeSecurityAttributeHandle
+  - System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
+  - System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection.Enumerator
+  - System.Reflection.Metadata.EntityHandle
+  - System.Reflection.Metadata.EventAccessors
   - System.Reflection.Metadata.EventDefinition
+  - System.Reflection.Metadata.EventDefinitionHandle
+  - System.Reflection.Metadata.EventDefinitionHandleCollection
+  - System.Reflection.Metadata.EventDefinitionHandleCollection.Enumerator
   - System.Reflection.Metadata.ExceptionRegion
   - System.Reflection.Metadata.ExceptionRegionKind
   - System.Reflection.Metadata.ExportedType
-  - System.Reflection.Metadata.FieldDefinition
-  - System.Reflection.Metadata.GenericParameter
-  - System.Reflection.Metadata.GenericParameterConstraint
-  - System.Reflection.Metadata.GenericParameterHandleCollection
-  - System.Reflection.Metadata.GenericParameterHandleCollection.Enumerator
-  - System.Reflection.Metadata.GenericParameterConstraintHandleCollection
-  - System.Reflection.Metadata.GenericParameterConstraintHandleCollection.Enumerator
-  - System.Reflection.Metadata.CustomAttributeHandleCollection
-  - System.Reflection.Metadata.CustomAttributeHandleCollection.Enumerator
-  - System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
-  - System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection.Enumerator
-  - System.Reflection.Metadata.MethodDefinitionHandleCollection
-  - System.Reflection.Metadata.MethodDefinitionHandleCollection.Enumerator
-  - System.Reflection.Metadata.FieldDefinitionHandleCollection
-  - System.Reflection.Metadata.FieldDefinitionHandleCollection.Enumerator
-  - System.Reflection.Metadata.PropertyDefinitionHandleCollection
-  - System.Reflection.Metadata.PropertyDefinitionHandleCollection.Enumerator
-  - System.Reflection.Metadata.EventDefinitionHandleCollection
-  - System.Reflection.Metadata.EventDefinitionHandleCollection.Enumerator
-  - System.Reflection.Metadata.MethodImplementationHandleCollection
-  - System.Reflection.Metadata.MethodImplementationHandleCollection.Enumerator
-  - System.Reflection.Metadata.ParameterHandleCollection
-  - System.Reflection.Metadata.ParameterHandleCollection.Enumerator
-  - System.Reflection.Metadata.InterfaceImplementationHandleCollection
-  - System.Reflection.Metadata.InterfaceImplementationHandleCollection.Enumerator
-  - System.Reflection.Metadata.TypeDefinitionHandleCollection
-  - System.Reflection.Metadata.TypeDefinitionHandleCollection.Enumerator
-  - System.Reflection.Metadata.TypeReferenceHandleCollection
-  - System.Reflection.Metadata.TypeReferenceHandleCollection.Enumerator
+  - System.Reflection.Metadata.ExportedTypeHandle
   - System.Reflection.Metadata.ExportedTypeHandleCollection
   - System.Reflection.Metadata.ExportedTypeHandleCollection.Enumerator
-  - System.Reflection.Metadata.MemberReferenceHandleCollection
-  - System.Reflection.Metadata.MemberReferenceHandleCollection.Enumerator
-  - System.Reflection.Metadata.PropertyAccessors
-  - System.Reflection.Metadata.EventAccessors
-  - System.Reflection.Metadata.AssemblyReferenceHandleCollection
-  - System.Reflection.Metadata.AssemblyReferenceHandleCollection.Enumerator
-  - System.Reflection.Metadata.ManifestResourceHandleCollection
-  - System.Reflection.Metadata.ManifestResourceHandleCollection.Enumerator
-  - System.Reflection.Metadata.AssemblyFileHandleCollection
-  - System.Reflection.Metadata.AssemblyFileHandleCollection.Enumerator
+  - System.Reflection.Metadata.FieldDefinition
+  - System.Reflection.Metadata.FieldDefinitionHandle
+  - System.Reflection.Metadata.FieldDefinitionHandleCollection
+  - System.Reflection.Metadata.FieldDefinitionHandleCollection.Enumerator
+  - System.Reflection.Metadata.GenericParameter
+  - System.Reflection.Metadata.GenericParameterConstraint
+  - System.Reflection.Metadata.GenericParameterConstraintHandle
+  - System.Reflection.Metadata.GenericParameterConstraintHandleCollection
+  - System.Reflection.Metadata.GenericParameterConstraintHandleCollection.Enumerator
+  - System.Reflection.Metadata.GenericParameterHandle
+  - System.Reflection.Metadata.GenericParameterHandleCollection
+  - System.Reflection.Metadata.GenericParameterHandleCollection.Enumerator
+  - System.Reflection.Metadata.GuidHandle
+  - System.Reflection.Metadata.Handle
   - System.Reflection.Metadata.HandleComparer
   - System.Reflection.Metadata.HandleKind
-  - System.Reflection.Metadata.Handle
-  - System.Reflection.Metadata.EntityHandle
-  - System.Reflection.Metadata.ModuleDefinitionHandle
-  - System.Reflection.Metadata.AssemblyDefinitionHandle
-  - System.Reflection.Metadata.InterfaceImplementationHandle
-  - System.Reflection.Metadata.MethodDefinitionHandle
-  - System.Reflection.Metadata.MethodImplementationHandle
-  - System.Reflection.Metadata.MethodSpecificationHandle
-  - System.Reflection.Metadata.TypeDefinitionHandle
-  - System.Reflection.Metadata.ExportedTypeHandle
-  - System.Reflection.Metadata.TypeReferenceHandle
-  - System.Reflection.Metadata.TypeSpecificationHandle
-  - System.Reflection.Metadata.MemberReferenceHandle
-  - System.Reflection.Metadata.FieldDefinitionHandle
-  - System.Reflection.Metadata.EventDefinitionHandle
-  - System.Reflection.Metadata.PropertyDefinitionHandle
-  - System.Reflection.Metadata.StandaloneSignatureHandle
-  - System.Reflection.Metadata.ParameterHandle
-  - System.Reflection.Metadata.GenericParameterHandle
-  - System.Reflection.Metadata.GenericParameterConstraintHandle
-  - System.Reflection.Metadata.ModuleReferenceHandle
-  - System.Reflection.Metadata.AssemblyReferenceHandle
-  - System.Reflection.Metadata.CustomAttributeHandle
-  - System.Reflection.Metadata.DeclarativeSecurityAttributeHandle
-  - System.Reflection.Metadata.ConstantHandle
-  - System.Reflection.Metadata.ManifestResourceHandle
-  - System.Reflection.Metadata.AssemblyFileHandle
-  - System.Reflection.Metadata.UserStringHandle
-  - System.Reflection.Metadata.StringHandle
-  - System.Reflection.Metadata.NamespaceDefinitionHandle
-  - System.Reflection.Metadata.BlobHandle
-  - System.Reflection.Metadata.GuidHandle
   - System.Reflection.Metadata.InterfaceImplementation
+  - System.Reflection.Metadata.InterfaceImplementationHandle
+  - System.Reflection.Metadata.InterfaceImplementationHandleCollection
+  - System.Reflection.Metadata.InterfaceImplementationHandleCollection.Enumerator
   - System.Reflection.Metadata.ManifestResource
+  - System.Reflection.Metadata.ManifestResourceHandle
+  - System.Reflection.Metadata.ManifestResourceHandleCollection
+  - System.Reflection.Metadata.ManifestResourceHandleCollection.Enumerator
   - System.Reflection.Metadata.MemberReference
+  - System.Reflection.Metadata.MemberReferenceHandle
+  - System.Reflection.Metadata.MemberReferenceHandleCollection
+  - System.Reflection.Metadata.MemberReferenceHandleCollection.Enumerator
   - System.Reflection.Metadata.MemberReferenceKind
   - System.Reflection.Metadata.MetadataKind
   - System.Reflection.Metadata.MetadataReader
@@ -101,15 +74,32 @@ items:
   - System.Reflection.Metadata.MetadataStringDecoder
   - System.Reflection.Metadata.MethodBodyBlock
   - System.Reflection.Metadata.MethodDefinition
+  - System.Reflection.Metadata.MethodDefinitionHandle
+  - System.Reflection.Metadata.MethodDefinitionHandleCollection
+  - System.Reflection.Metadata.MethodDefinitionHandleCollection.Enumerator
   - System.Reflection.Metadata.MethodImplementation
+  - System.Reflection.Metadata.MethodImplementationHandle
+  - System.Reflection.Metadata.MethodImplementationHandleCollection
+  - System.Reflection.Metadata.MethodImplementationHandleCollection.Enumerator
   - System.Reflection.Metadata.MethodImport
   - System.Reflection.Metadata.MethodSpecification
+  - System.Reflection.Metadata.MethodSpecificationHandle
   - System.Reflection.Metadata.ModuleDefinition
+  - System.Reflection.Metadata.ModuleDefinitionHandle
   - System.Reflection.Metadata.ModuleReference
+  - System.Reflection.Metadata.ModuleReferenceHandle
   - System.Reflection.Metadata.NamespaceDefinition
+  - System.Reflection.Metadata.NamespaceDefinitionHandle
   - System.Reflection.Metadata.Parameter
+  - System.Reflection.Metadata.ParameterHandle
+  - System.Reflection.Metadata.ParameterHandleCollection
+  - System.Reflection.Metadata.ParameterHandleCollection.Enumerator
   - System.Reflection.Metadata.PEReaderExtensions
+  - System.Reflection.Metadata.PropertyAccessors
   - System.Reflection.Metadata.PropertyDefinition
+  - System.Reflection.Metadata.PropertyDefinitionHandle
+  - System.Reflection.Metadata.PropertyDefinitionHandleCollection
+  - System.Reflection.Metadata.PropertyDefinitionHandleCollection.Enumerator
   - System.Reflection.Metadata.SerializationTypeCode
   - System.Reflection.Metadata.SignatureAttributes
   - System.Reflection.Metadata.SignatureCallingConvention
@@ -117,10 +107,20 @@ items:
   - System.Reflection.Metadata.SignatureKind
   - System.Reflection.Metadata.SignatureTypeCode
   - System.Reflection.Metadata.StandaloneSignature
+  - System.Reflection.Metadata.StandaloneSignatureHandle
+  - System.Reflection.Metadata.StringHandle
   - System.Reflection.Metadata.TypeDefinition
+  - System.Reflection.Metadata.TypeDefinitionHandle
+  - System.Reflection.Metadata.TypeDefinitionHandleCollection
+  - System.Reflection.Metadata.TypeDefinitionHandleCollection.Enumerator
   - System.Reflection.Metadata.TypeLayout
   - System.Reflection.Metadata.TypeReference
+  - System.Reflection.Metadata.TypeReferenceHandle
+  - System.Reflection.Metadata.TypeReferenceHandleCollection
+  - System.Reflection.Metadata.TypeReferenceHandleCollection.Enumerator
   - System.Reflection.Metadata.TypeSpecification
+  - System.Reflection.Metadata.TypeSpecificationHandle
+  - System.Reflection.Metadata.UserStringHandle
   href: System.Reflection.Metadata.yml
   name: System.Reflection.Metadata
   fullName: System.Reflection.Metadata

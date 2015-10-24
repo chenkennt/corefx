@@ -3,10 +3,10 @@ items:
   id: SignatureAttributes
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.SignatureAttributes.None
+  - System.Reflection.Metadata.SignatureAttributes.ExplicitThis
   - System.Reflection.Metadata.SignatureAttributes.Generic
   - System.Reflection.Metadata.SignatureAttributes.Instance
-  - System.Reflection.Metadata.SignatureAttributes.ExplicitThis
+  - System.Reflection.Metadata.SignatureAttributes.None
   href: System.Reflection.Metadata.SignatureAttributes.yml
   name: SignatureAttributes
   fullName: System.Reflection.Metadata.SignatureAttributes

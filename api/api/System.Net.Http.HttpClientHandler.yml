@@ -3,24 +3,24 @@ items:
   id: HttpClientHandler
   parent: System.Net.Http
   children:
+  - System.Net.Http.HttpClientHandler.#ctor
+  - System.Net.Http.HttpClientHandler.AllowAutoRedirect
+  - System.Net.Http.HttpClientHandler.AutomaticDecompression
+  - System.Net.Http.HttpClientHandler.ClientCertificateOptions
+  - System.Net.Http.HttpClientHandler.CookieContainer
+  - System.Net.Http.HttpClientHandler.Credentials
+  - System.Net.Http.HttpClientHandler.Dispose(System.Boolean)
+  - System.Net.Http.HttpClientHandler.MaxAutomaticRedirections
+  - System.Net.Http.HttpClientHandler.MaxRequestContentBufferSize
+  - System.Net.Http.HttpClientHandler.PreAuthenticate
+  - System.Net.Http.HttpClientHandler.Proxy
+  - System.Net.Http.HttpClientHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   - System.Net.Http.HttpClientHandler.SupportsAutomaticDecompression
   - System.Net.Http.HttpClientHandler.SupportsProxy
   - System.Net.Http.HttpClientHandler.SupportsRedirectConfiguration
   - System.Net.Http.HttpClientHandler.UseCookies
-  - System.Net.Http.HttpClientHandler.CookieContainer
-  - System.Net.Http.HttpClientHandler.ClientCertificateOptions
-  - System.Net.Http.HttpClientHandler.AutomaticDecompression
-  - System.Net.Http.HttpClientHandler.UseProxy
-  - System.Net.Http.HttpClientHandler.Proxy
-  - System.Net.Http.HttpClientHandler.PreAuthenticate
   - System.Net.Http.HttpClientHandler.UseDefaultCredentials
-  - System.Net.Http.HttpClientHandler.Credentials
-  - System.Net.Http.HttpClientHandler.AllowAutoRedirect
-  - System.Net.Http.HttpClientHandler.MaxAutomaticRedirections
-  - System.Net.Http.HttpClientHandler.MaxRequestContentBufferSize
-  - System.Net.Http.HttpClientHandler.#ctor
-  - System.Net.Http.HttpClientHandler.Dispose(System.Boolean)
-  - System.Net.Http.HttpClientHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  - System.Net.Http.HttpClientHandler.UseProxy
   href: System.Net.Http.HttpClientHandler.yml
   name: HttpClientHandler
   fullName: System.Net.Http.HttpClientHandler
@@ -73,7 +73,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.SupportsProxy
   id: SupportsProxy
   parent: System.Net.Http.HttpClientHandler
@@ -94,7 +93,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.SupportsRedirectConfiguration
   id: SupportsRedirectConfiguration
   parent: System.Net.Http.HttpClientHandler
@@ -115,7 +113,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.UseCookies
   id: UseCookies
   parent: System.Net.Http.HttpClientHandler
@@ -136,7 +133,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.CookieContainer
   id: CookieContainer
   parent: System.Net.Http.HttpClientHandler
@@ -157,7 +153,6 @@ items:
     parameters: []
     return:
       type: CookieContainer
-      description: 
 - uid: System.Net.Http.HttpClientHandler.ClientCertificateOptions
   id: ClientCertificateOptions
   parent: System.Net.Http.HttpClientHandler
@@ -178,7 +173,6 @@ items:
     parameters: []
     return:
       type: System.Net.Http.ClientCertificateOption
-      description: 
 - uid: System.Net.Http.HttpClientHandler.AutomaticDecompression
   id: AutomaticDecompression
   parent: System.Net.Http.HttpClientHandler
@@ -199,7 +193,6 @@ items:
     parameters: []
     return:
       type: DecompressionMethods
-      description: 
 - uid: System.Net.Http.HttpClientHandler.UseProxy
   id: UseProxy
   parent: System.Net.Http.HttpClientHandler
@@ -220,7 +213,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.Proxy
   id: Proxy
   parent: System.Net.Http.HttpClientHandler
@@ -241,7 +233,6 @@ items:
     parameters: []
     return:
       type: IWebProxy
-      description: 
 - uid: System.Net.Http.HttpClientHandler.PreAuthenticate
   id: PreAuthenticate
   parent: System.Net.Http.HttpClientHandler
@@ -262,7 +253,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.UseDefaultCredentials
   id: UseDefaultCredentials
   parent: System.Net.Http.HttpClientHandler
@@ -283,7 +273,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.Credentials
   id: Credentials
   parent: System.Net.Http.HttpClientHandler
@@ -304,7 +293,6 @@ items:
     parameters: []
     return:
       type: ICredentials
-      description: 
 - uid: System.Net.Http.HttpClientHandler.AllowAutoRedirect
   id: AllowAutoRedirect
   parent: System.Net.Http.HttpClientHandler
@@ -325,7 +313,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.Http.HttpClientHandler.MaxAutomaticRedirections
   id: MaxAutomaticRedirections
   parent: System.Net.Http.HttpClientHandler
@@ -346,7 +333,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Net.Http.HttpClientHandler.MaxRequestContentBufferSize
   id: MaxRequestContentBufferSize
   parent: System.Net.Http.HttpClientHandler
@@ -367,7 +353,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Net.Http.HttpClientHandler.#ctor
   id: '#ctor'
   parent: System.Net.Http.HttpClientHandler
@@ -430,7 +415,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
-      description: 
   overridden: System.Net.Http.HttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
 references:
 - uid: System.Net.Http
@@ -441,6 +425,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Net.Http.HttpMessageHandler
@@ -477,6 +462,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -484,6 +470,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -493,6 +480,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -500,6 +488,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -507,12 +496,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -520,17 +511,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -538,18 +532,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -557,23 +554,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -581,18 +582,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -600,23 +604,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -624,6 +632,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -633,6 +642,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -640,6 +650,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -647,6 +658,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -656,6 +668,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -663,6 +676,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -670,6 +684,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -679,6 +694,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -690,6 +706,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: CookieContainer
@@ -718,11 +735,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.Net.Http.HttpMessageHandler.Dispose(System.Boolean)
@@ -742,6 +761,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -755,6 +775,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.HttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
@@ -780,6 +801,7 @@ references:
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
   spec.vb:
@@ -799,6 +821,7 @@ references:
     name: CancellationToken
     fullName: System.Threading.CancellationToken
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   - name: )
     fullName: )
 - uid: System.Net.Http.HttpRequestMessage
@@ -811,12 +834,13 @@ references:
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.CancellationToken.yml
   name: CancellationToken
   fullName: System.Threading.CancellationToken
 - uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  href: System.Net.Http.HttpResponseMessage.yml
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<HttpResponseMessage>
   name.vb: Task(Of HttpResponseMessage)
   fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
@@ -826,6 +850,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - uid: System.Net.Http.HttpResponseMessage
@@ -839,6 +864,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Net.Http.HttpResponseMessage
@@ -854,6 +880,7 @@ references:
 - uid: System.Threading.Tasks.Task`1
   parent: System.Threading.Tasks
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   name: Task<TResult>
   name.vb: Task(Of TResult)
   fullName: System.Threading.Tasks.Task<TResult>
@@ -863,6 +890,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: <
     fullName: <
   - name: TResult
@@ -874,6 +902,7 @@ references:
     name: Task
     fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TResult

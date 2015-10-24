@@ -11,9 +11,6 @@ items:
   - System.Security.Cryptography.X509Certificates.X509Certificate.#ctor(System.String)
   - System.Security.Cryptography.X509Certificates.X509Certificate.#ctor(System.String,System.String)
   - System.Security.Cryptography.X509Certificates.X509Certificate.#ctor(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)
-  - System.Security.Cryptography.X509Certificates.X509Certificate.Handle
-  - System.Security.Cryptography.X509Certificates.X509Certificate.Issuer
-  - System.Security.Cryptography.X509Certificates.X509Certificate.Subject
   - System.Security.Cryptography.X509Certificates.X509Certificate.Dispose
   - System.Security.Cryptography.X509Certificates.X509Certificate.Dispose(System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509Certificate.Equals(System.Object)
@@ -28,6 +25,9 @@ items:
   - System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithmParametersString
   - System.Security.Cryptography.X509Certificates.X509Certificate.GetPublicKey
   - System.Security.Cryptography.X509Certificates.X509Certificate.GetSerialNumber
+  - System.Security.Cryptography.X509Certificates.X509Certificate.Handle
+  - System.Security.Cryptography.X509Certificates.X509Certificate.Issuer
+  - System.Security.Cryptography.X509Certificates.X509Certificate.Subject
   - System.Security.Cryptography.X509Certificates.X509Certificate.ToString
   - System.Security.Cryptography.X509Certificates.X509Certificate.ToString(System.Boolean)
   href: System.Security.Cryptography.X509Certificates.X509Certificate.yml
@@ -252,7 +252,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Issuer
   id: Issuer
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -273,7 +272,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Subject
   id: Subject
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -294,7 +292,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Dispose
   id: Dispose
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -354,7 +351,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Equals(System.Security.Cryptography.X509Certificates.X509Certificate)
   id: Equals(System.Security.Cryptography.X509Certificates.X509Certificate)
@@ -378,7 +374,6 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Export(System.Security.Cryptography.X509Certificates.X509ContentType)
   id: Export(System.Security.Cryptography.X509Certificates.X509ContentType)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -401,7 +396,6 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509ContentType
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String)
   id: Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -426,7 +420,6 @@ items:
       type: System.String
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetCertHash
   id: GetCertHash
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -446,7 +439,6 @@ items:
     content.vb: Public Overridable Function GetCertHash As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetFormat
   id: GetFormat
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -466,7 +458,6 @@ items:
     content.vb: Public Overridable Function GetFormat As String
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetHashCode
   id: GetHashCode
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -486,7 +477,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithm
   id: GetKeyAlgorithm
@@ -507,7 +497,6 @@ items:
     content.vb: Public Overridable Function GetKeyAlgorithm As String
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithmParameters
   id: GetKeyAlgorithmParameters
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -527,7 +516,6 @@ items:
     content.vb: Public Overridable Function GetKeyAlgorithmParameters As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithmParametersString
   id: GetKeyAlgorithmParametersString
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -547,7 +535,6 @@ items:
     content.vb: Public Overridable Function GetKeyAlgorithmParametersString As String
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetPublicKey
   id: GetPublicKey
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -567,7 +554,6 @@ items:
     content.vb: Public Overridable Function GetPublicKey As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetSerialNumber
   id: GetSerialNumber
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -587,7 +573,6 @@ items:
     content.vb: Public Overridable Function GetSerialNumber As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.ToString
   id: ToString
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -607,7 +592,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.ToString(System.Boolean)
   id: ToString(System.Boolean)
@@ -631,7 +615,6 @@ items:
       type: System.Boolean
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Security.Cryptography.X509Certificates
   isExternal: false
@@ -641,11 +624,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -653,18 +638,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -672,23 +660,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -696,18 +688,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -715,23 +710,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -739,6 +738,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -748,6 +748,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -755,6 +756,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -762,6 +764,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -771,6 +774,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -781,6 +785,7 @@ references:
   fullName: System
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -790,6 +795,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -797,11 +803,13 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
@@ -814,16 +822,19 @@ references:
 - uid: System.IntPtr
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IntPtr.yml
   name: IntPtr
   fullName: System.IntPtr
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -831,12 +842,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -844,12 +857,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -869,6 +884,7 @@ references:
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -876,6 +892,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -885,6 +902,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -892,11 +910,13 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -904,6 +924,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -913,6 +934,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )

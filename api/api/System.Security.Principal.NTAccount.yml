@@ -3,16 +3,16 @@ items:
   id: NTAccount
   parent: System.Security.Principal
   children:
-  - System.Security.Principal.NTAccount.#ctor(System.String,System.String)
   - System.Security.Principal.NTAccount.#ctor(System.String)
-  - System.Security.Principal.NTAccount.Value
-  - System.Security.Principal.NTAccount.IsValidTargetType(System.Type)
-  - System.Security.Principal.NTAccount.Translate(System.Type)
+  - System.Security.Principal.NTAccount.#ctor(System.String,System.String)
   - System.Security.Principal.NTAccount.Equals(System.Object)
   - System.Security.Principal.NTAccount.GetHashCode
-  - System.Security.Principal.NTAccount.ToString
+  - System.Security.Principal.NTAccount.IsValidTargetType(System.Type)
   - System.Security.Principal.NTAccount.op_Equality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
   - System.Security.Principal.NTAccount.op_Inequality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
+  - System.Security.Principal.NTAccount.ToString
+  - System.Security.Principal.NTAccount.Translate(System.Type)
+  - System.Security.Principal.NTAccount.Value
   href: System.Security.Principal.NTAccount.yml
   name: NTAccount
   fullName: System.Security.Principal.NTAccount
@@ -101,7 +101,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Security.Principal.IdentityReference.Value
 - uid: System.Security.Principal.NTAccount.IsValidTargetType(System.Type)
   id: IsValidTargetType(System.Type)
@@ -125,7 +124,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.Principal.IdentityReference.IsValidTargetType(System.Type)
 - uid: System.Security.Principal.NTAccount.Translate(System.Type)
   id: Translate(System.Type)
@@ -149,7 +147,6 @@ items:
       type: System.Type
     return:
       type: System.Security.Principal.IdentityReference
-      description: 
   overridden: System.Security.Principal.IdentityReference.Translate(System.Type)
 - uid: System.Security.Principal.NTAccount.Equals(System.Object)
   id: Equals(System.Object)
@@ -173,7 +170,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.Principal.IdentityReference.Equals(System.Object)
 - uid: System.Security.Principal.NTAccount.GetHashCode
   id: GetHashCode
@@ -194,7 +190,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Security.Principal.IdentityReference.GetHashCode
 - uid: System.Security.Principal.NTAccount.ToString
   id: ToString
@@ -215,7 +210,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Security.Principal.IdentityReference.ToString
 - uid: System.Security.Principal.NTAccount.op_Equality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
   id: op_Equality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
@@ -241,7 +235,6 @@ items:
       type: System.Security.Principal.NTAccount
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Principal.NTAccount.op_Inequality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
   id: op_Inequality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
   parent: System.Security.Principal.NTAccount
@@ -266,16 +259,15 @@ items:
       type: System.Security.Principal.NTAccount
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Security.Principal.IdentityReference
@@ -288,6 +280,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -295,18 +288,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -314,23 +310,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -338,18 +338,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -357,23 +360,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -381,6 +388,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -390,6 +398,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -397,6 +406,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -404,6 +414,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -413,6 +424,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -424,6 +436,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Security.Principal.IdentityReference.Value
@@ -449,6 +462,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -462,16 +476,19 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Type
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: Type
   fullName: System.Type
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Security.Principal.IdentityReference.Translate(System.Type)
@@ -491,6 +508,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -504,6 +522,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Security.Principal.IdentityReference.Equals(System.Object)
@@ -523,6 +542,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -536,6 +556,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Security.Principal.IdentityReference.GetHashCode
@@ -565,6 +586,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Security.Principal.IdentityReference.ToString

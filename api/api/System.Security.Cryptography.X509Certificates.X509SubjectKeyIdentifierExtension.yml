@@ -9,8 +9,8 @@ items:
   - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.#ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.#ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm,System.Boolean)
   - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.#ctor(System.String,System.Boolean)
-  - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.SubjectKeyIdentifier
   - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.CopyFrom(AsnEncodedData)
+  - System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.SubjectKeyIdentifier
   href: System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.yml
   name: X509SubjectKeyIdentifierExtension
   fullName: System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
@@ -185,7 +185,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.CopyFrom(AsnEncodedData)
   id: CopyFrom(AsnEncodedData)
   parent: System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
@@ -216,6 +215,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Security.Cryptography.X509Certificates.X509Extension
@@ -242,10 +242,12 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -255,6 +257,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -262,6 +265,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.Security.Cryptography.X509Certificates.PublicKey
@@ -280,6 +284,7 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Security.Cryptography.X509Certificates.X509Extension.CopyFrom(AsnEncodedData)

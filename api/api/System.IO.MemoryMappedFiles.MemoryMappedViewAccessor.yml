@@ -3,10 +3,10 @@ items:
   id: MemoryMappedViewAccessor
   parent: System.IO.MemoryMappedFiles
   children:
-  - System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.SafeMemoryMappedViewHandle
-  - System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.PointerOffset
   - System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.Dispose(System.Boolean)
   - System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.Flush
+  - System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.PointerOffset
+  - System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.SafeMemoryMappedViewHandle
   href: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.yml
   name: MemoryMappedViewAccessor
   fullName: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
@@ -94,7 +94,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.PointerOffset
   id: PointerOffset
   parent: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
@@ -115,7 +114,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
@@ -163,6 +161,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.IO.UnmanagedMemoryAccessor
@@ -174,6 +173,7 @@ references:
 - uid: System.IO.UnmanagedMemoryAccessor.Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Initialize(SafeBuffer, Int64, Int64, FileAccess)
   fullName: System.IO.UnmanagedMemoryAccessor.Initialize(System.Runtime.InteropServices.SafeBuffer, System.Int64, System.Int64, System.IO.FileAccess)
   spec.csharp:
@@ -181,30 +181,35 @@ references:
     name: Initialize
     fullName: System.IO.UnmanagedMemoryAccessor.Initialize
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Runtime.InteropServices.SafeBuffer
     name: SafeBuffer
     fullName: System.Runtime.InteropServices.SafeBuffer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeBuffer.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.IO.FileAccess
     name: FileAccess
     fullName: System.IO.FileAccess
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.FileAccess.yml
   - name: )
     fullName: )
   spec.vb:
@@ -212,35 +217,41 @@ references:
     name: Initialize
     fullName: System.IO.UnmanagedMemoryAccessor.Initialize
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Runtime.InteropServices.SafeBuffer
     name: SafeBuffer
     fullName: System.Runtime.InteropServices.SafeBuffer
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Runtime.InteropServices.SafeBuffer.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.IO.FileAccess
     name: FileAccess
     fullName: System.IO.FileAccess
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.FileAccess.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Dispose
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Dispose()
   fullName: System.IO.UnmanagedMemoryAccessor.Dispose()
   spec.csharp:
@@ -248,6 +259,7 @@ references:
     name: Dispose
     fullName: System.IO.UnmanagedMemoryAccessor.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - name: )
@@ -257,6 +269,7 @@ references:
     name: Dispose
     fullName: System.IO.UnmanagedMemoryAccessor.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - name: )
@@ -264,6 +277,7 @@ references:
 - uid: System.IO.UnmanagedMemoryAccessor.ReadBoolean(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadBoolean(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadBoolean(System.Int64)
   spec.csharp:
@@ -271,12 +285,14 @@ references:
     name: ReadBoolean
     fullName: System.IO.UnmanagedMemoryAccessor.ReadBoolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -284,17 +300,20 @@ references:
     name: ReadBoolean
     fullName: System.IO.UnmanagedMemoryAccessor.ReadBoolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadByte(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadByte(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadByte(System.Int64)
   spec.csharp:
@@ -302,12 +321,14 @@ references:
     name: ReadByte
     fullName: System.IO.UnmanagedMemoryAccessor.ReadByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -315,17 +336,20 @@ references:
     name: ReadByte
     fullName: System.IO.UnmanagedMemoryAccessor.ReadByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadChar(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadChar(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadChar(System.Int64)
   spec.csharp:
@@ -333,12 +357,14 @@ references:
     name: ReadChar
     fullName: System.IO.UnmanagedMemoryAccessor.ReadChar
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -346,17 +372,20 @@ references:
     name: ReadChar
     fullName: System.IO.UnmanagedMemoryAccessor.ReadChar
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadInt16(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadInt16(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadInt16(System.Int64)
   spec.csharp:
@@ -364,12 +393,14 @@ references:
     name: ReadInt16
     fullName: System.IO.UnmanagedMemoryAccessor.ReadInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -377,17 +408,20 @@ references:
     name: ReadInt16
     fullName: System.IO.UnmanagedMemoryAccessor.ReadInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadInt32(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadInt32(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadInt32(System.Int64)
   spec.csharp:
@@ -395,12 +429,14 @@ references:
     name: ReadInt32
     fullName: System.IO.UnmanagedMemoryAccessor.ReadInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -408,17 +444,20 @@ references:
     name: ReadInt32
     fullName: System.IO.UnmanagedMemoryAccessor.ReadInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadInt64(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadInt64(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadInt64(System.Int64)
   spec.csharp:
@@ -426,12 +465,14 @@ references:
     name: ReadInt64
     fullName: System.IO.UnmanagedMemoryAccessor.ReadInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -439,17 +480,20 @@ references:
     name: ReadInt64
     fullName: System.IO.UnmanagedMemoryAccessor.ReadInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadDecimal(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
   spec.csharp:
@@ -457,12 +501,14 @@ references:
     name: ReadDecimal
     fullName: System.IO.UnmanagedMemoryAccessor.ReadDecimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -470,17 +516,20 @@ references:
     name: ReadDecimal
     fullName: System.IO.UnmanagedMemoryAccessor.ReadDecimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadSingle(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
   spec.csharp:
@@ -488,12 +537,14 @@ references:
     name: ReadSingle
     fullName: System.IO.UnmanagedMemoryAccessor.ReadSingle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -501,17 +552,20 @@ references:
     name: ReadSingle
     fullName: System.IO.UnmanagedMemoryAccessor.ReadSingle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadDouble(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
   spec.csharp:
@@ -519,12 +573,14 @@ references:
     name: ReadDouble
     fullName: System.IO.UnmanagedMemoryAccessor.ReadDouble
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -532,17 +588,20 @@ references:
     name: ReadDouble
     fullName: System.IO.UnmanagedMemoryAccessor.ReadDouble
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadSByte(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadSByte(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadSByte(System.Int64)
   spec.csharp:
@@ -550,12 +609,14 @@ references:
     name: ReadSByte
     fullName: System.IO.UnmanagedMemoryAccessor.ReadSByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -563,17 +624,20 @@ references:
     name: ReadSByte
     fullName: System.IO.UnmanagedMemoryAccessor.ReadSByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadUInt16(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
   spec.csharp:
@@ -581,12 +645,14 @@ references:
     name: ReadUInt16
     fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -594,17 +660,20 @@ references:
     name: ReadUInt16
     fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt32(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadUInt32(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt32(System.Int64)
   spec.csharp:
@@ -612,12 +681,14 @@ references:
     name: ReadUInt32
     fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -625,17 +696,20 @@ references:
     name: ReadUInt32
     fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadUInt64(Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
   spec.csharp:
@@ -643,12 +717,14 @@ references:
     name: ReadUInt64
     fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -656,17 +732,20 @@ references:
     name: ReadUInt64
     fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Read``1(System.Int64,{T}@)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Read<T>(Int64, T)
   name.vb: Read(Of T)(Int64, T)
   fullName: System.IO.UnmanagedMemoryAccessor.Read<T>(System.Int64, T)
@@ -676,12 +755,14 @@ references:
     name: Read<T>
     fullName: System.IO.UnmanagedMemoryAccessor.Read<T>
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -693,12 +774,14 @@ references:
     name: Read(Of T)
     fullName: System.IO.UnmanagedMemoryAccessor.Read(Of T)
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -708,6 +791,7 @@ references:
 - uid: System.IO.UnmanagedMemoryAccessor.ReadArray``1(System.Int64,{T}[],System.Int32,System.Int32)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: ReadArray<T>(Int64, T[], Int32, Int32)
   name.vb: ReadArray(Of T)(Int64, T(), Int32, Int32)
   fullName: System.IO.UnmanagedMemoryAccessor.ReadArray<T>(System.Int64, T[], System.Int32, System.Int32)
@@ -717,12 +801,14 @@ references:
     name: ReadArray<T>
     fullName: System.IO.UnmanagedMemoryAccessor.ReadArray<T>
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -735,12 +821,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -748,12 +836,14 @@ references:
     name: ReadArray(Of T)
     fullName: System.IO.UnmanagedMemoryAccessor.ReadArray(Of T)
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -766,17 +856,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Boolean)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Boolean)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Boolean)
   spec.csharp:
@@ -784,18 +877,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -803,23 +899,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Byte)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Byte)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Byte)
   spec.csharp:
@@ -827,18 +927,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: )
     fullName: )
   spec.vb:
@@ -846,23 +949,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Byte
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Char)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Char)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Char)
   spec.csharp:
@@ -870,18 +977,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Char
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: )
     fullName: )
   spec.vb:
@@ -889,23 +999,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Char
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int16)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Int16)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Int16)
   spec.csharp:
@@ -913,18 +1027,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int16
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: )
     fullName: )
   spec.vb:
@@ -932,23 +1049,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int16
     name: Int16
     fullName: System.Int16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int32)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Int32)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Int32)
   spec.csharp:
@@ -956,18 +1077,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -975,23 +1099,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Int64)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Int64)
   spec.csharp:
@@ -999,18 +1127,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1018,23 +1149,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Decimal)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Decimal)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Decimal)
   spec.csharp:
@@ -1042,18 +1177,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1061,23 +1199,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Decimal
     name: Decimal
     fullName: System.Decimal
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Single)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Single)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Single)
   spec.csharp:
@@ -1085,18 +1227,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1104,23 +1249,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Single
     name: Single
     fullName: System.Single
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Double)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, Double)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Double)
   spec.csharp:
@@ -1128,18 +1277,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1147,23 +1299,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.Double
     name: Double
     fullName: System.Double
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.SByte)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, SByte)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.SByte)
   spec.csharp:
@@ -1171,18 +1327,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.SByte
     name: SByte
     fullName: System.SByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1190,23 +1349,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.SByte
     name: SByte
     fullName: System.SByte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.SByte.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt16)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, UInt16)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.UInt16)
   spec.csharp:
@@ -1214,18 +1377,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt16
     name: UInt16
     fullName: System.UInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1233,23 +1399,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt16
     name: UInt16
     fullName: System.UInt16
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt32)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, UInt32)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.UInt32)
   spec.csharp:
@@ -1257,18 +1427,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1276,23 +1449,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt32
     name: UInt32
     fullName: System.UInt32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt64)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write(Int64, UInt64)
   fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.UInt64)
   spec.csharp:
@@ -1300,18 +1477,21 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt64
     name: UInt64
     fullName: System.UInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1319,23 +1499,27 @@ references:
     name: Write
     fullName: System.IO.UnmanagedMemoryAccessor.Write
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - uid: System.UInt64
     name: UInt64
     fullName: System.UInt64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Write``1(System.Int64,{T}@)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Write<T>(Int64, T)
   name.vb: Write(Of T)(Int64, T)
   fullName: System.IO.UnmanagedMemoryAccessor.Write<T>(System.Int64, T)
@@ -1345,12 +1529,14 @@ references:
     name: Write<T>
     fullName: System.IO.UnmanagedMemoryAccessor.Write<T>
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1362,12 +1548,14 @@ references:
     name: Write(Of T)
     fullName: System.IO.UnmanagedMemoryAccessor.Write(Of T)
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1377,6 +1565,7 @@ references:
 - uid: System.IO.UnmanagedMemoryAccessor.WriteArray``1(System.Int64,{T}[],System.Int32,System.Int32)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: WriteArray<T>(Int64, T[], Int32, Int32)
   name.vb: WriteArray(Of T)(Int64, T(), Int32, Int32)
   fullName: System.IO.UnmanagedMemoryAccessor.WriteArray<T>(System.Int64, T[], System.Int32, System.Int32)
@@ -1386,12 +1575,14 @@ references:
     name: WriteArray<T>
     fullName: System.IO.UnmanagedMemoryAccessor.WriteArray<T>
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1404,12 +1595,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1417,12 +1610,14 @@ references:
     name: WriteArray(Of T)
     fullName: System.IO.UnmanagedMemoryAccessor.WriteArray(Of T)
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Int64
     name: Int64
     fullName: System.Int64
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   - name: ', '
     fullName: ', '
   - name: T
@@ -1435,37 +1630,44 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.IO.UnmanagedMemoryAccessor.Capacity
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Capacity
   fullName: System.IO.UnmanagedMemoryAccessor.Capacity
 - uid: System.IO.UnmanagedMemoryAccessor.CanRead
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: CanRead
   fullName: System.IO.UnmanagedMemoryAccessor.CanRead
 - uid: System.IO.UnmanagedMemoryAccessor.CanWrite
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: CanWrite
   fullName: System.IO.UnmanagedMemoryAccessor.CanWrite
 - uid: System.IO.UnmanagedMemoryAccessor.IsOpen
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: IsOpen
   fullName: System.IO.UnmanagedMemoryAccessor.IsOpen
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1473,6 +1675,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1482,6 +1685,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1489,6 +1693,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1496,12 +1701,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1509,17 +1716,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1527,18 +1737,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1546,23 +1759,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1570,18 +1787,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1589,23 +1809,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1613,6 +1837,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1622,6 +1847,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1629,6 +1855,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1636,6 +1863,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1645,6 +1873,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1652,6 +1881,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1659,6 +1889,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1668,6 +1899,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1691,11 +1923,13 @@ references:
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
   parent: System.IO.UnmanagedMemoryAccessor
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   name: Dispose(Boolean)
   fullName: System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
   spec.csharp:
@@ -1703,12 +1937,14 @@ references:
     name: Dispose
     fullName: System.IO.UnmanagedMemoryAccessor.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1716,16 +1952,19 @@ references:
     name: Dispose
     fullName: System.IO.UnmanagedMemoryAccessor.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IO.UnmanagedMemoryAccessor.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

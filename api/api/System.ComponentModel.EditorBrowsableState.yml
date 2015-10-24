@@ -3,9 +3,9 @@ items:
   id: EditorBrowsableState
   parent: System.ComponentModel
   children:
+  - System.ComponentModel.EditorBrowsableState.Advanced
   - System.ComponentModel.EditorBrowsableState.Always
   - System.ComponentModel.EditorBrowsableState.Never
-  - System.ComponentModel.EditorBrowsableState.Advanced
   href: System.ComponentModel.EditorBrowsableState.yml
   name: EditorBrowsableState
   fullName: System.ComponentModel.EditorBrowsableState

@@ -3,44 +3,44 @@ items:
   id: Quaternion
   parent: System.Numerics
   children:
-  - System.Numerics.Quaternion.X
-  - System.Numerics.Quaternion.Y
-  - System.Numerics.Quaternion.Z
-  - System.Numerics.Quaternion.W
-  - System.Numerics.Quaternion.Identity
-  - System.Numerics.Quaternion.IsIdentity
-  - System.Numerics.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
   - System.Numerics.Quaternion.#ctor(System.Numerics.Vector3,System.Single)
+  - System.Numerics.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
+  - System.Numerics.Quaternion.Add(System.Numerics.Quaternion,System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Concatenate(System.Numerics.Quaternion,System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Conjugate(System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.CreateFromAxisAngle(System.Numerics.Vector3,System.Single)
+  - System.Numerics.Quaternion.CreateFromRotationMatrix(System.Numerics.Matrix4x4)
+  - System.Numerics.Quaternion.CreateFromYawPitchRoll(System.Single,System.Single,System.Single)
+  - System.Numerics.Quaternion.Divide(System.Numerics.Quaternion,System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Dot(System.Numerics.Quaternion,System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Equals(System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Equals(System.Object)
+  - System.Numerics.Quaternion.GetHashCode
+  - System.Numerics.Quaternion.Identity
+  - System.Numerics.Quaternion.Inverse(System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.IsIdentity
   - System.Numerics.Quaternion.Length
   - System.Numerics.Quaternion.LengthSquared
-  - System.Numerics.Quaternion.Normalize(System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Conjugate(System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Inverse(System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.CreateFromAxisAngle(System.Numerics.Vector3,System.Single)
-  - System.Numerics.Quaternion.CreateFromYawPitchRoll(System.Single,System.Single,System.Single)
-  - System.Numerics.Quaternion.CreateFromRotationMatrix(System.Numerics.Matrix4x4)
-  - System.Numerics.Quaternion.Dot(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Slerp(System.Numerics.Quaternion,System.Numerics.Quaternion,System.Single)
   - System.Numerics.Quaternion.Lerp(System.Numerics.Quaternion,System.Numerics.Quaternion,System.Single)
-  - System.Numerics.Quaternion.Concatenate(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Negate(System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Add(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Subtract(System.Numerics.Quaternion,System.Numerics.Quaternion)
   - System.Numerics.Quaternion.Multiply(System.Numerics.Quaternion,System.Numerics.Quaternion)
   - System.Numerics.Quaternion.Multiply(System.Numerics.Quaternion,System.Single)
-  - System.Numerics.Quaternion.Divide(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.op_UnaryNegation(System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Negate(System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Normalize(System.Numerics.Quaternion)
   - System.Numerics.Quaternion.op_Addition(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.op_Subtraction(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.op_Multiply(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.op_Multiply(System.Numerics.Quaternion,System.Single)
   - System.Numerics.Quaternion.op_Division(System.Numerics.Quaternion,System.Numerics.Quaternion)
   - System.Numerics.Quaternion.op_Equality(System.Numerics.Quaternion,System.Numerics.Quaternion)
   - System.Numerics.Quaternion.op_Inequality(System.Numerics.Quaternion,System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Equals(System.Numerics.Quaternion)
-  - System.Numerics.Quaternion.Equals(System.Object)
+  - System.Numerics.Quaternion.op_Multiply(System.Numerics.Quaternion,System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.op_Multiply(System.Numerics.Quaternion,System.Single)
+  - System.Numerics.Quaternion.op_Subtraction(System.Numerics.Quaternion,System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.op_UnaryNegation(System.Numerics.Quaternion)
+  - System.Numerics.Quaternion.Slerp(System.Numerics.Quaternion,System.Numerics.Quaternion,System.Single)
+  - System.Numerics.Quaternion.Subtract(System.Numerics.Quaternion,System.Numerics.Quaternion)
   - System.Numerics.Quaternion.ToString
-  - System.Numerics.Quaternion.GetHashCode
+  - System.Numerics.Quaternion.W
+  - System.Numerics.Quaternion.X
+  - System.Numerics.Quaternion.Y
+  - System.Numerics.Quaternion.Z
   href: System.Numerics.Quaternion.yml
   name: Quaternion
   fullName: System.Numerics.Quaternion
@@ -414,7 +414,6 @@ items:
       description: The roll angle, in radians, around the Z-axis.
     return:
       type: System.Numerics.Quaternion
-      description: 
 - uid: System.Numerics.Quaternion.CreateFromRotationMatrix(System.Numerics.Matrix4x4)
   id: CreateFromRotationMatrix(System.Numerics.Matrix4x4)
   parent: System.Numerics.Quaternion
@@ -1048,6 +1047,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1055,18 +1055,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1074,23 +1077,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1098,18 +1105,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1117,23 +1127,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1141,6 +1155,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1150,6 +1165,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1157,6 +1173,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -1177,11 +1194,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Numerics.Vector3
@@ -1203,6 +1222,7 @@ references:
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -1210,12 +1230,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1223,22 +1245,26 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -1246,6 +1272,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1255,6 +1282,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1262,11 +1290,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -1274,6 +1304,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1283,6 +1314,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -1290,5 +1322,6 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

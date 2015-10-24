@@ -3,21 +3,38 @@ items:
   id: Console
   parent: System
   children:
-  - System.Console.In
-  - System.Console.Out
-  - System.Console.Error
   - System.Console.BackgroundColor
-  - System.Console.ForegroundColor
-  - System.Console.ResetColor
   - System.Console.CancelKeyPress
+  - System.Console.Error
+  - System.Console.ForegroundColor
+  - System.Console.In
+  - System.Console.OpenStandardError
   - System.Console.OpenStandardInput
   - System.Console.OpenStandardOutput
-  - System.Console.OpenStandardError
-  - System.Console.SetIn(System.IO.TextReader)
-  - System.Console.SetOut(System.IO.TextWriter)
-  - System.Console.SetError(System.IO.TextWriter)
+  - System.Console.Out
   - System.Console.Read
   - System.Console.ReadLine
+  - System.Console.ResetColor
+  - System.Console.SetError(System.IO.TextWriter)
+  - System.Console.SetIn(System.IO.TextReader)
+  - System.Console.SetOut(System.IO.TextWriter)
+  - System.Console.Write(System.Boolean)
+  - System.Console.Write(System.Char)
+  - System.Console.Write(System.Char[])
+  - System.Console.Write(System.Char[],System.Int32,System.Int32)
+  - System.Console.Write(System.Decimal)
+  - System.Console.Write(System.Double)
+  - System.Console.Write(System.Int32)
+  - System.Console.Write(System.Int64)
+  - System.Console.Write(System.Object)
+  - System.Console.Write(System.Single)
+  - System.Console.Write(System.String)
+  - System.Console.Write(System.String,System.Object)
+  - System.Console.Write(System.String,System.Object,System.Object)
+  - System.Console.Write(System.String,System.Object,System.Object,System.Object)
+  - System.Console.Write(System.String,System.Object[])
+  - System.Console.Write(System.UInt32)
+  - System.Console.Write(System.UInt64)
   - System.Console.WriteLine
   - System.Console.WriteLine(System.Boolean)
   - System.Console.WriteLine(System.Char)
@@ -25,34 +42,17 @@ items:
   - System.Console.WriteLine(System.Char[],System.Int32,System.Int32)
   - System.Console.WriteLine(System.Decimal)
   - System.Console.WriteLine(System.Double)
-  - System.Console.WriteLine(System.Single)
   - System.Console.WriteLine(System.Int32)
-  - System.Console.WriteLine(System.UInt32)
   - System.Console.WriteLine(System.Int64)
-  - System.Console.WriteLine(System.UInt64)
   - System.Console.WriteLine(System.Object)
+  - System.Console.WriteLine(System.Single)
   - System.Console.WriteLine(System.String)
   - System.Console.WriteLine(System.String,System.Object)
   - System.Console.WriteLine(System.String,System.Object,System.Object)
   - System.Console.WriteLine(System.String,System.Object,System.Object,System.Object)
   - System.Console.WriteLine(System.String,System.Object[])
-  - System.Console.Write(System.String,System.Object)
-  - System.Console.Write(System.String,System.Object,System.Object)
-  - System.Console.Write(System.String,System.Object,System.Object,System.Object)
-  - System.Console.Write(System.String,System.Object[])
-  - System.Console.Write(System.Boolean)
-  - System.Console.Write(System.Char)
-  - System.Console.Write(System.Char[])
-  - System.Console.Write(System.Char[],System.Int32,System.Int32)
-  - System.Console.Write(System.Double)
-  - System.Console.Write(System.Decimal)
-  - System.Console.Write(System.Single)
-  - System.Console.Write(System.Int32)
-  - System.Console.Write(System.UInt32)
-  - System.Console.Write(System.Int64)
-  - System.Console.Write(System.UInt64)
-  - System.Console.Write(System.Object)
-  - System.Console.Write(System.String)
+  - System.Console.WriteLine(System.UInt32)
+  - System.Console.WriteLine(System.UInt64)
   href: System.Console.yml
   name: Console
   fullName: System.Console
@@ -101,7 +101,6 @@ items:
     parameters: []
     return:
       type: System.IO.TextReader
-      description: 
 - uid: System.Console.Out
   id: Out
   parent: System.Console
@@ -122,7 +121,6 @@ items:
     parameters: []
     return:
       type: System.IO.TextWriter
-      description: 
 - uid: System.Console.Error
   id: Error
   parent: System.Console
@@ -143,7 +141,6 @@ items:
     parameters: []
     return:
       type: System.IO.TextWriter
-      description: 
 - uid: System.Console.BackgroundColor
   id: BackgroundColor
   parent: System.Console
@@ -164,7 +161,6 @@ items:
     parameters: []
     return:
       type: System.ConsoleColor
-      description: 
 - uid: System.Console.ForegroundColor
   id: ForegroundColor
   parent: System.Console
@@ -185,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.ConsoleColor
-      description: 
 - uid: System.Console.ResetColor
   id: ResetColor
   parent: System.Console
@@ -239,7 +234,6 @@ items:
     content.vb: Public Shared Function OpenStandardInput As Stream
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.OpenStandardOutput
   id: OpenStandardOutput
   parent: System.Console
@@ -259,7 +253,6 @@ items:
     content.vb: Public Shared Function OpenStandardOutput As Stream
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.OpenStandardError
   id: OpenStandardError
   parent: System.Console
@@ -279,7 +272,6 @@ items:
     content.vb: Public Shared Function OpenStandardError As Stream
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.SetIn(System.IO.TextReader)
   id: SetIn(System.IO.TextReader)
   parent: System.Console
@@ -359,7 +351,6 @@ items:
     content.vb: Public Shared Function Read As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.ReadLine
   id: ReadLine
   parent: System.Console
@@ -379,7 +370,6 @@ items:
     content.vb: Public Shared Function ReadLine As String
     return:
       type: System.String
-      description: 
 - uid: System.Console.WriteLine
   id: WriteLine
   parent: System.Console
@@ -1133,11 +1123,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1145,6 +1137,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1154,6 +1147,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1161,6 +1155,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1168,12 +1163,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1181,17 +1178,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1199,18 +1199,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1218,23 +1221,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1242,18 +1249,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1261,23 +1271,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1285,6 +1299,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1294,6 +1309,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1301,6 +1317,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1308,6 +1325,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1317,6 +1335,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1324,6 +1343,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1331,6 +1351,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1340,6 +1361,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1347,6 +1369,7 @@ references:
 - uid: System.IO.TextReader
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.TextReader.yml
   name: TextReader
   fullName: System.IO.TextReader
 - uid: System.IO
@@ -1356,6 +1379,7 @@ references:
 - uid: System.IO.TextWriter
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.TextWriter.yml
   name: TextWriter
   fullName: System.IO.TextWriter
 - uid: System.ConsoleColor
@@ -1368,30 +1392,36 @@ references:
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Char
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char
   fullName: System.Char
 - uid: System.Char[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char[]
   name.vb: Char()
   fullName: System.Char[]
@@ -1401,6 +1431,7 @@ references:
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1408,40 +1439,48 @@ references:
     name: Char
     fullName: System.Char
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   - name: ()
     fullName: ()
 - uid: System.Decimal
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Decimal.yml
   name: Decimal
   fullName: System.Decimal
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64
 - uid: System.Object[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object[]
   name.vb: Object()
   fullName: System.Object[]
@@ -1451,6 +1490,7 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -1458,5 +1498,6 @@ references:
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ()
     fullName: ()

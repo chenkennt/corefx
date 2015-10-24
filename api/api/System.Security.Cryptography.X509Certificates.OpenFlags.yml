@@ -3,11 +3,11 @@ items:
   id: OpenFlags
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.OpenFlags.ReadOnly
-  - System.Security.Cryptography.X509Certificates.OpenFlags.ReadWrite
+  - System.Security.Cryptography.X509Certificates.OpenFlags.IncludeArchived
   - System.Security.Cryptography.X509Certificates.OpenFlags.MaxAllowed
   - System.Security.Cryptography.X509Certificates.OpenFlags.OpenExistingOnly
-  - System.Security.Cryptography.X509Certificates.OpenFlags.IncludeArchived
+  - System.Security.Cryptography.X509Certificates.OpenFlags.ReadOnly
+  - System.Security.Cryptography.X509Certificates.OpenFlags.ReadWrite
   href: System.Security.Cryptography.X509Certificates.OpenFlags.yml
   name: OpenFlags
   fullName: System.Security.Cryptography.X509Certificates.OpenFlags

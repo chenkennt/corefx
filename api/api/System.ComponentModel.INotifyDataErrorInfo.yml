@@ -3,9 +3,9 @@ items:
   id: INotifyDataErrorInfo
   parent: System.ComponentModel
   children:
-  - System.ComponentModel.INotifyDataErrorInfo.HasErrors
-  - System.ComponentModel.INotifyDataErrorInfo.GetErrors(System.String)
   - System.ComponentModel.INotifyDataErrorInfo.ErrorsChanged
+  - System.ComponentModel.INotifyDataErrorInfo.GetErrors(System.String)
+  - System.ComponentModel.INotifyDataErrorInfo.HasErrors
   href: System.ComponentModel.INotifyDataErrorInfo.yml
   name: INotifyDataErrorInfo
   fullName: System.ComponentModel.INotifyDataErrorInfo
@@ -44,7 +44,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.ComponentModel.INotifyDataErrorInfo.GetErrors(System.String)
   id: GetErrors(System.String)
   parent: System.ComponentModel.INotifyDataErrorInfo
@@ -67,7 +66,6 @@ items:
       type: System.String
     return:
       type: System.Collections.IEnumerable
-      description: 
 - uid: System.ComponentModel.INotifyDataErrorInfo.ErrorsChanged
   id: ErrorsChanged
   parent: System.ComponentModel.INotifyDataErrorInfo
@@ -94,6 +92,7 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System
@@ -103,11 +102,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.Collections

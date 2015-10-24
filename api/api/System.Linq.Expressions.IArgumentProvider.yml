@@ -3,8 +3,8 @@ items:
   id: IArgumentProvider
   parent: System.Linq.Expressions
   children:
-  - System.Linq.Expressions.IArgumentProvider.GetArgument(System.Int32)
   - System.Linq.Expressions.IArgumentProvider.ArgumentCount
+  - System.Linq.Expressions.IArgumentProvider.GetArgument(System.Int32)
   href: System.Linq.Expressions.IArgumentProvider.yml
   name: IArgumentProvider
   fullName: System.Linq.Expressions.IArgumentProvider
@@ -105,7 +105,6 @@ items:
       type: System.Int32
     return:
       type: System.Linq.Expressions.Expression
-      description: 
 - uid: System.Linq.Expressions.IArgumentProvider.ArgumentCount
   id: ArgumentCount
   parent: System.Linq.Expressions.IArgumentProvider
@@ -126,7 +125,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Linq.Expressions
   isExternal: false
@@ -136,6 +134,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Linq.Expressions.Expression

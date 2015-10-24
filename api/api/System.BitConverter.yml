@@ -3,32 +3,32 @@ items:
   id: BitConverter
   parent: System
   children:
-  - System.BitConverter.IsLittleEndian
+  - System.BitConverter.DoubleToInt64Bits(System.Double)
   - System.BitConverter.GetBytes(System.Boolean)
   - System.BitConverter.GetBytes(System.Char)
+  - System.BitConverter.GetBytes(System.Double)
   - System.BitConverter.GetBytes(System.Int16)
   - System.BitConverter.GetBytes(System.Int32)
   - System.BitConverter.GetBytes(System.Int64)
+  - System.BitConverter.GetBytes(System.Single)
   - System.BitConverter.GetBytes(System.UInt16)
   - System.BitConverter.GetBytes(System.UInt32)
   - System.BitConverter.GetBytes(System.UInt64)
-  - System.BitConverter.GetBytes(System.Single)
-  - System.BitConverter.GetBytes(System.Double)
+  - System.BitConverter.Int64BitsToDouble(System.Int64)
+  - System.BitConverter.IsLittleEndian
+  - System.BitConverter.ToBoolean(System.Byte[],System.Int32)
   - System.BitConverter.ToChar(System.Byte[],System.Int32)
+  - System.BitConverter.ToDouble(System.Byte[],System.Int32)
   - System.BitConverter.ToInt16(System.Byte[],System.Int32)
   - System.BitConverter.ToInt32(System.Byte[],System.Int32)
   - System.BitConverter.ToInt64(System.Byte[],System.Int32)
+  - System.BitConverter.ToSingle(System.Byte[],System.Int32)
+  - System.BitConverter.ToString(System.Byte[])
+  - System.BitConverter.ToString(System.Byte[],System.Int32)
+  - System.BitConverter.ToString(System.Byte[],System.Int32,System.Int32)
   - System.BitConverter.ToUInt16(System.Byte[],System.Int32)
   - System.BitConverter.ToUInt32(System.Byte[],System.Int32)
   - System.BitConverter.ToUInt64(System.Byte[],System.Int32)
-  - System.BitConverter.ToSingle(System.Byte[],System.Int32)
-  - System.BitConverter.ToDouble(System.Byte[],System.Int32)
-  - System.BitConverter.ToString(System.Byte[],System.Int32,System.Int32)
-  - System.BitConverter.ToString(System.Byte[])
-  - System.BitConverter.ToString(System.Byte[],System.Int32)
-  - System.BitConverter.ToBoolean(System.Byte[],System.Int32)
-  - System.BitConverter.DoubleToInt64Bits(System.Double)
-  - System.BitConverter.Int64BitsToDouble(System.Int64)
   href: System.BitConverter.yml
   name: BitConverter
   fullName: System.BitConverter
@@ -96,7 +96,6 @@ items:
       type: System.Boolean
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Char)
   id: GetBytes(System.Char)
   parent: System.BitConverter
@@ -119,7 +118,6 @@ items:
       type: System.Char
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Int16)
   id: GetBytes(System.Int16)
   parent: System.BitConverter
@@ -142,7 +140,6 @@ items:
       type: System.Int16
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Int32)
   id: GetBytes(System.Int32)
   parent: System.BitConverter
@@ -165,7 +162,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Int64)
   id: GetBytes(System.Int64)
   parent: System.BitConverter
@@ -188,7 +184,6 @@ items:
       type: System.Int64
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.UInt16)
   id: GetBytes(System.UInt16)
   parent: System.BitConverter
@@ -211,7 +206,6 @@ items:
       type: System.UInt16
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.UInt32)
   id: GetBytes(System.UInt32)
   parent: System.BitConverter
@@ -234,7 +228,6 @@ items:
       type: System.UInt32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.UInt64)
   id: GetBytes(System.UInt64)
   parent: System.BitConverter
@@ -257,7 +250,6 @@ items:
       type: System.UInt64
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Single)
   id: GetBytes(System.Single)
   parent: System.BitConverter
@@ -280,7 +272,6 @@ items:
       type: System.Single
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Double)
   id: GetBytes(System.Double)
   parent: System.BitConverter
@@ -303,7 +294,6 @@ items:
       type: System.Double
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.ToChar(System.Byte[],System.Int32)
   id: ToChar(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -330,7 +320,6 @@ items:
       type: System.Int32
     return:
       type: System.Char
-      description: 
 - uid: System.BitConverter.ToInt16(System.Byte[],System.Int32)
   id: ToInt16(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -357,7 +346,6 @@ items:
       type: System.Int32
     return:
       type: System.Int16
-      description: 
 - uid: System.BitConverter.ToInt32(System.Byte[],System.Int32)
   id: ToInt32(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -384,7 +372,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.BitConverter.ToInt64(System.Byte[],System.Int32)
   id: ToInt64(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -411,7 +398,6 @@ items:
       type: System.Int32
     return:
       type: System.Int64
-      description: 
 - uid: System.BitConverter.ToUInt16(System.Byte[],System.Int32)
   id: ToUInt16(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -438,7 +424,6 @@ items:
       type: System.Int32
     return:
       type: System.UInt16
-      description: 
 - uid: System.BitConverter.ToUInt32(System.Byte[],System.Int32)
   id: ToUInt32(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -465,7 +450,6 @@ items:
       type: System.Int32
     return:
       type: System.UInt32
-      description: 
 - uid: System.BitConverter.ToUInt64(System.Byte[],System.Int32)
   id: ToUInt64(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -492,7 +476,6 @@ items:
       type: System.Int32
     return:
       type: System.UInt64
-      description: 
 - uid: System.BitConverter.ToSingle(System.Byte[],System.Int32)
   id: ToSingle(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -519,7 +502,6 @@ items:
       type: System.Int32
     return:
       type: System.Single
-      description: 
 - uid: System.BitConverter.ToDouble(System.Byte[],System.Int32)
   id: ToDouble(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -546,7 +528,6 @@ items:
       type: System.Int32
     return:
       type: System.Double
-      description: 
 - uid: System.BitConverter.ToString(System.Byte[],System.Int32,System.Int32)
   id: ToString(System.Byte[],System.Int32,System.Int32)
   parent: System.BitConverter
@@ -575,7 +556,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.BitConverter.ToString(System.Byte[])
   id: ToString(System.Byte[])
   parent: System.BitConverter
@@ -600,7 +580,6 @@ items:
       type: System.Byte[]
     return:
       type: System.String
-      description: 
 - uid: System.BitConverter.ToString(System.Byte[],System.Int32)
   id: ToString(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -627,7 +606,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.BitConverter.ToBoolean(System.Byte[],System.Int32)
   id: ToBoolean(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -654,7 +632,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.BitConverter.DoubleToInt64Bits(System.Double)
   id: DoubleToInt64Bits(System.Double)
   parent: System.BitConverter
@@ -677,7 +654,6 @@ items:
       type: System.Double
     return:
       type: System.Int64
-      description: 
 - uid: System.BitConverter.Int64BitsToDouble(System.Int64)
   id: Int64BitsToDouble(System.Int64)
   parent: System.BitConverter
@@ -700,7 +676,6 @@ items:
       type: System.Int64
     return:
       type: System.Double
-      description: 
 references:
 - uid: System
   isExternal: false
@@ -709,11 +684,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -721,6 +698,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -730,6 +708,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -737,6 +716,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -744,12 +724,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -757,17 +739,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -775,18 +760,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -794,23 +782,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -818,18 +810,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -837,23 +832,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -861,6 +860,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -870,6 +870,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -877,6 +878,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -884,6 +886,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -893,6 +896,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -900,6 +904,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -907,6 +912,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -916,6 +922,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -923,10 +930,12 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Byte[]
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   name: Byte[]
   name.vb: Byte()
   fullName: System.Byte[]
@@ -936,6 +945,7 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: '[]'
     fullName: '[]'
   spec.vb:
@@ -943,55 +953,66 @@ references:
     name: Byte
     fullName: System.Byte
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Byte.yml
   - name: ()
     fullName: ()
 - uid: System.Char
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Char.yml
   name: Char
   fullName: System.Char
 - uid: System.Int16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int16.yml
   name: Int16
   fullName: System.Int16
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Int64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int64.yml
   name: Int64
   fullName: System.Int64
 - uid: System.UInt16
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt16.yml
   name: UInt16
   fullName: System.UInt16
 - uid: System.UInt32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt32.yml
   name: UInt32
   fullName: System.UInt32
 - uid: System.UInt64
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.UInt64.yml
   name: UInt64
   fullName: System.UInt64
 - uid: System.Single
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Single.yml
   name: Single
   fullName: System.Single
 - uid: System.Double
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Double.yml
   name: Double
   fullName: System.Double
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String

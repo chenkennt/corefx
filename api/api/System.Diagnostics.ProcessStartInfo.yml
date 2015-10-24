@@ -8,19 +8,19 @@ items:
   - System.Diagnostics.ProcessStartInfo.#ctor(System.String,System.String)
   - System.Diagnostics.ProcessStartInfo.Arguments
   - System.Diagnostics.ProcessStartInfo.CreateNoWindow
+  - System.Diagnostics.ProcessStartInfo.Domain
   - System.Diagnostics.ProcessStartInfo.Environment
+  - System.Diagnostics.ProcessStartInfo.FileName
+  - System.Diagnostics.ProcessStartInfo.LoadUserProfile
+  - System.Diagnostics.ProcessStartInfo.Password
+  - System.Diagnostics.ProcessStartInfo.RedirectStandardError
   - System.Diagnostics.ProcessStartInfo.RedirectStandardInput
   - System.Diagnostics.ProcessStartInfo.RedirectStandardOutput
-  - System.Diagnostics.ProcessStartInfo.RedirectStandardError
   - System.Diagnostics.ProcessStartInfo.StandardErrorEncoding
   - System.Diagnostics.ProcessStartInfo.StandardOutputEncoding
-  - System.Diagnostics.ProcessStartInfo.UseShellExecute
-  - System.Diagnostics.ProcessStartInfo.FileName
-  - System.Diagnostics.ProcessStartInfo.WorkingDirectory
   - System.Diagnostics.ProcessStartInfo.UserName
-  - System.Diagnostics.ProcessStartInfo.Password
-  - System.Diagnostics.ProcessStartInfo.Domain
-  - System.Diagnostics.ProcessStartInfo.LoadUserProfile
+  - System.Diagnostics.ProcessStartInfo.UseShellExecute
+  - System.Diagnostics.ProcessStartInfo.WorkingDirectory
   href: System.Diagnostics.ProcessStartInfo.yml
   name: ProcessStartInfo
   fullName: System.Diagnostics.ProcessStartInfo
@@ -172,7 +172,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
-      description: 
 - uid: System.Diagnostics.ProcessStartInfo.RedirectStandardInput
   id: RedirectStandardInput
   parent: System.Diagnostics.ProcessStartInfo
@@ -253,7 +252,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Diagnostics.ProcessStartInfo.StandardOutputEncoding
   id: StandardOutputEncoding
   parent: System.Diagnostics.ProcessStartInfo
@@ -274,7 +272,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Diagnostics.ProcessStartInfo.UseShellExecute
   id: UseShellExecute
   parent: System.Diagnostics.ProcessStartInfo
@@ -295,7 +292,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.ProcessStartInfo.FileName
   id: FileName
   parent: System.Diagnostics.ProcessStartInfo
@@ -356,7 +352,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.ProcessStartInfo.Password
   id: Password
   parent: System.Diagnostics.ProcessStartInfo
@@ -377,7 +372,6 @@ items:
     parameters: []
     return:
       type: System.Security.SecureString
-      description: 
 - uid: System.Diagnostics.ProcessStartInfo.Domain
   id: Domain
   parent: System.Diagnostics.ProcessStartInfo
@@ -398,7 +392,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.ProcessStartInfo.LoadUserProfile
   id: LoadUserProfile
   parent: System.Diagnostics.ProcessStartInfo
@@ -419,7 +412,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false
@@ -429,11 +421,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -441,6 +435,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -450,6 +445,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -457,6 +453,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -464,12 +461,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -477,17 +476,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -495,18 +497,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -514,23 +519,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -538,18 +547,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -557,23 +569,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -581,6 +597,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -590,6 +607,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -597,6 +615,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -604,6 +623,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -613,6 +633,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -620,6 +641,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -627,6 +649,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -636,6 +659,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -647,16 +671,19 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.IDictionary{System.String,System.String}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IDictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   name: IDictionary<String, String>
   name.vb: IDictionary(Of String, String)
   fullName: System.Collections.Generic.IDictionary<System.String, System.String>
@@ -666,18 +693,21 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: <
     fullName: <
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -685,23 +715,27 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.String
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IDictionary`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   name: IDictionary<TKey, TValue>
   name.vb: IDictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.IDictionary<TKey, TValue>
@@ -711,6 +745,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -726,6 +761,7 @@ references:
     name: IDictionary
     fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -743,6 +779,7 @@ references:
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Text.Encoding.yml
   name: Encoding
   fullName: System.Text.Encoding
 - uid: System.Text
@@ -751,10 +788,13 @@ references:
   fullName: System.Text
 - uid: System.Security.SecureString
   parent: System.Security
-  isExternal: true
+  isExternal: false
+  href: System.Security.SecureString.yml
   name: SecureString
   fullName: System.Security.SecureString
+  type: Class
 - uid: System.Security
   isExternal: false
   name: System.Security
   fullName: System.Security
+  type: Namespace

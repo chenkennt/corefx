@@ -4,9 +4,9 @@ items:
   parent: System.Reflection.Metadata
   children:
   - System.Reflection.Metadata.ExceptionRegionKind.Catch
+  - System.Reflection.Metadata.ExceptionRegionKind.Fault
   - System.Reflection.Metadata.ExceptionRegionKind.Filter
   - System.Reflection.Metadata.ExceptionRegionKind.Finally
-  - System.Reflection.Metadata.ExceptionRegionKind.Fault
   href: System.Reflection.Metadata.ExceptionRegionKind.yml
   name: ExceptionRegionKind
   fullName: System.Reflection.Metadata.ExceptionRegionKind

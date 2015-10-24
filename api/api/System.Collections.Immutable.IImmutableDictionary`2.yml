@@ -3,14 +3,14 @@ items:
   id: IImmutableDictionary`2
   parent: System.Collections.Immutable
   children:
-  - System.Collections.Immutable.IImmutableDictionary`2.Clear
   - System.Collections.Immutable.IImmutableDictionary`2.Add(`0,`1)
   - System.Collections.Immutable.IImmutableDictionary`2.AddRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})
+  - System.Collections.Immutable.IImmutableDictionary`2.Clear
+  - System.Collections.Immutable.IImmutableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - System.Collections.Immutable.IImmutableDictionary`2.Remove(`0)
+  - System.Collections.Immutable.IImmutableDictionary`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})
   - System.Collections.Immutable.IImmutableDictionary`2.SetItem(`0,`1)
   - System.Collections.Immutable.IImmutableDictionary`2.SetItems(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})
-  - System.Collections.Immutable.IImmutableDictionary`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})
-  - System.Collections.Immutable.IImmutableDictionary`2.Remove(`0)
-  - System.Collections.Immutable.IImmutableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
   - System.Collections.Immutable.IImmutableDictionary`2.TryGetKey(`0,`0@)
   href: System.Collections.Immutable.IImmutableDictionary`2.yml
   name: IImmutableDictionary<TKey, TValue>
@@ -318,6 +318,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}.ContainsKey({TKey})
   parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}
   definition: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey({TKey})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: ContainsKey(TKey)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.ContainsKey(TKey)
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).ContainsKey(TKey)
@@ -326,6 +327,7 @@ references:
     name: ContainsKey
     fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.ContainsKey
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -337,6 +339,7 @@ references:
     name: ContainsKey
     fullName: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).ContainsKey
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -346,6 +349,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}.TryGetValue({TKey},{TValue}@)
   parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}
   definition: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue({TKey},{TValue}@)
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: TryGetValue(TKey, TValue)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.TryGetValue(TKey, TValue)
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
@@ -354,6 +358,7 @@ references:
     name: TryGetValue
     fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.TryGetValue
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -369,6 +374,7 @@ references:
     name: TryGetValue
     fullName: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).TryGetValue
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -382,6 +388,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}.Item({TKey})
   parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}
   definition: System.Collections.Generic.IReadOnlyDictionary`2.Item({TKey})
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: Item[TKey]
   name.vb: Item(TKey)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Item[TKey]
@@ -391,6 +398,7 @@ references:
     name: Item
     fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: '['
     fullName: '['
   - name: TKey
@@ -402,6 +410,7 @@ references:
     name: Item
     fullName: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -411,24 +420,28 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}.Keys
   parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}
   definition: System.Collections.Generic.IReadOnlyDictionary`2.Keys
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: Keys
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Keys
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Keys
 - uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}.Values
   parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}
   definition: System.Collections.Generic.IReadOnlyDictionary`2.Values
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: Values
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Values
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Values
 - uid: System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}.Count
   parent: System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
   definition: System.Collections.Generic.IReadOnlyCollection`1.Count
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   name: Count
   fullName: System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey, TValue>>.Count
   fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)).Count
 - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}.GetEnumerator
   parent: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
   definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)).GetEnumerator()
@@ -437,6 +450,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -446,6 +460,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -453,6 +468,7 @@ references:
 - uid: System.Collections.IEnumerable.GetEnumerator
   parent: System.Collections.IEnumerable
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: GetEnumerator()
   fullName: System.Collections.IEnumerable.GetEnumerator()
   spec.csharp:
@@ -460,6 +476,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   - name: (
     fullName: (
   - name: )
@@ -469,6 +486,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   - name: (
     fullName: (
   - name: )
@@ -476,6 +494,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey({TKey})
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: ContainsKey(TKey)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.ContainsKey(TKey)
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).ContainsKey(TKey)
@@ -484,6 +503,7 @@ references:
     name: ContainsKey
     fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.ContainsKey
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -495,6 +515,7 @@ references:
     name: ContainsKey
     fullName: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).ContainsKey
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -504,6 +525,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IReadOnlyDictionary`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: IReadOnlyDictionary<TKey, TValue>
   name.vb: IReadOnlyDictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
@@ -513,6 +535,7 @@ references:
     name: IReadOnlyDictionary
     fullName: System.Collections.Generic.IReadOnlyDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -528,6 +551,7 @@ references:
     name: IReadOnlyDictionary
     fullName: System.Collections.Generic.IReadOnlyDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -541,6 +565,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue({TKey},{TValue}@)
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: TryGetValue(TKey, TValue)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.TryGetValue(TKey, TValue)
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
@@ -549,6 +574,7 @@ references:
     name: TryGetValue
     fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.TryGetValue
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -564,6 +590,7 @@ references:
     name: TryGetValue
     fullName: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).TryGetValue
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -577,6 +604,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Item({TKey})
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: Item[TKey]
   name.vb: Item(TKey)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Item[TKey]
@@ -586,6 +614,7 @@ references:
     name: Item
     fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: '['
     fullName: '['
   - name: TKey
@@ -597,6 +626,7 @@ references:
     name: Item
     fullName: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Item
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: (
     fullName: (
   - name: TKey
@@ -606,24 +636,28 @@ references:
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Keys
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: Keys
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Keys
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Keys
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Values
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: Values
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Values
   fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Values
 - uid: System.Collections.Generic.IReadOnlyCollection`1.Count
   parent: System.Collections.Generic.IReadOnlyCollection`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   name: Count
   fullName: System.Collections.Generic.IReadOnlyCollection<T>.Count
   fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T).Count
 - uid: System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IReadOnlyCollection`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   name: IReadOnlyCollection<KeyValuePair<TKey, TValue>>
   name.vb: IReadOnlyCollection(Of KeyValuePair(Of TKey, TValue))
   fullName: System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey, TValue>>
@@ -633,12 +667,14 @@ references:
     name: IReadOnlyCollection
     fullName: System.Collections.Generic.IReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -656,12 +692,14 @@ references:
     name: IReadOnlyCollection
     fullName: System.Collections.Generic.IReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -677,6 +715,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
   parent: System.Collections.Generic.IEnumerable`1
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
@@ -685,6 +724,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -694,6 +734,7 @@ references:
     name: GetEnumerator
     fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: (
     fullName: (
   - name: )
@@ -701,6 +742,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<KeyValuePair<TKey, TValue>>
   name.vb: IEnumerable(Of KeyValuePair(Of TKey, TValue))
   fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>
@@ -710,12 +752,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -733,12 +777,14 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -754,11 +800,13 @@ references:
 - uid: System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerable.yml
   name: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.Collections.Generic.IReadOnlyDictionary`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   name: IReadOnlyDictionary<TKey, TValue>
   name.vb: IReadOnlyDictionary(Of TKey, TValue)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
@@ -768,6 +816,7 @@ references:
     name: IReadOnlyDictionary
     fullName: System.Collections.Generic.IReadOnlyDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -783,6 +832,7 @@ references:
     name: IReadOnlyDictionary
     fullName: System.Collections.Generic.IReadOnlyDictionary
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyDictionary`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -800,6 +850,7 @@ references:
 - uid: System.Collections.Generic.IReadOnlyCollection`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   name: IReadOnlyCollection<T>
   name.vb: IReadOnlyCollection(Of T)
   fullName: System.Collections.Generic.IReadOnlyCollection<T>
@@ -809,6 +860,7 @@ references:
     name: IReadOnlyCollection
     fullName: System.Collections.Generic.IReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   - name: <
     fullName: <
   - name: T
@@ -820,6 +872,7 @@ references:
     name: IReadOnlyCollection
     fullName: System.Collections.Generic.IReadOnlyCollection
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IReadOnlyCollection`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -829,6 +882,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable`1
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<T>
   name.vb: IEnumerable(Of T)
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -838,6 +892,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: T
@@ -849,6 +904,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: T
@@ -911,6 +967,7 @@ references:
 - uid: System.Collections.Generic.IEnumerable{{TKey}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   name: IEnumerable<TKey>
   name.vb: IEnumerable(Of TKey)
   fullName: System.Collections.Generic.IEnumerable<TKey>
@@ -920,6 +977,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: <
     fullName: <
   - name: TKey
@@ -931,6 +989,7 @@ references:
     name: IEnumerable
     fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.IEnumerable`1.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -940,6 +999,7 @@ references:
 - uid: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.KeyValuePair`2
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   name: KeyValuePair<TKey, TValue>
   name.vb: KeyValuePair(Of TKey, TValue)
   fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
@@ -949,6 +1009,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -964,6 +1025,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey
@@ -977,11 +1039,13 @@ references:
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.KeyValuePair`2
   parent: System.Collections.Generic
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   name: KeyValuePair<TKey, TValue>
   name.vb: KeyValuePair(Of TKey, TValue)
   fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
@@ -991,6 +1055,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: <
     fullName: <
   - name: TKey
@@ -1006,6 +1071,7 @@ references:
     name: KeyValuePair
     fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Collections.Generic.KeyValuePair`2.yml
   - name: '(Of '
     fullName: '(Of '
   - name: TKey

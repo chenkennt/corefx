@@ -3,19 +3,19 @@ items:
   id: TokenAccessLevels
   parent: System.Security.Principal
   children:
+  - System.Security.Principal.TokenAccessLevels.AdjustDefault
+  - System.Security.Principal.TokenAccessLevels.AdjustGroups
+  - System.Security.Principal.TokenAccessLevels.AdjustPrivileges
+  - System.Security.Principal.TokenAccessLevels.AdjustSessionId
+  - System.Security.Principal.TokenAccessLevels.AllAccess
   - System.Security.Principal.TokenAccessLevels.AssignPrimary
   - System.Security.Principal.TokenAccessLevels.Duplicate
   - System.Security.Principal.TokenAccessLevels.Impersonate
+  - System.Security.Principal.TokenAccessLevels.MaximumAllowed
   - System.Security.Principal.TokenAccessLevels.Query
   - System.Security.Principal.TokenAccessLevels.QuerySource
-  - System.Security.Principal.TokenAccessLevels.AdjustPrivileges
-  - System.Security.Principal.TokenAccessLevels.AdjustGroups
-  - System.Security.Principal.TokenAccessLevels.AdjustDefault
-  - System.Security.Principal.TokenAccessLevels.AdjustSessionId
   - System.Security.Principal.TokenAccessLevels.Read
   - System.Security.Principal.TokenAccessLevels.Write
-  - System.Security.Principal.TokenAccessLevels.AllAccess
-  - System.Security.Principal.TokenAccessLevels.MaximumAllowed
   href: System.Security.Principal.TokenAccessLevels.yml
   name: TokenAccessLevels
   fullName: System.Security.Principal.TokenAccessLevels
@@ -247,4 +247,3 @@ references:
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace

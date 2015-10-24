@@ -3,16 +3,16 @@ items:
   id: WebSocketError
   parent: System.Net.WebSockets
   children:
-  - System.Net.WebSockets.WebSocketError.Success
-  - System.Net.WebSockets.WebSocketError.InvalidMessageType
+  - System.Net.WebSockets.WebSocketError.ConnectionClosedPrematurely
   - System.Net.WebSockets.WebSocketError.Faulted
+  - System.Net.WebSockets.WebSocketError.HeaderError
+  - System.Net.WebSockets.WebSocketError.InvalidMessageType
+  - System.Net.WebSockets.WebSocketError.InvalidState
   - System.Net.WebSockets.WebSocketError.NativeError
   - System.Net.WebSockets.WebSocketError.NotAWebSocket
-  - System.Net.WebSockets.WebSocketError.UnsupportedVersion
+  - System.Net.WebSockets.WebSocketError.Success
   - System.Net.WebSockets.WebSocketError.UnsupportedProtocol
-  - System.Net.WebSockets.WebSocketError.HeaderError
-  - System.Net.WebSockets.WebSocketError.ConnectionClosedPrematurely
-  - System.Net.WebSockets.WebSocketError.InvalidState
+  - System.Net.WebSockets.WebSocketError.UnsupportedVersion
   href: System.Net.WebSockets.WebSocketError.yml
   name: WebSocketError
   fullName: System.Net.WebSockets.WebSocketError

@@ -3,8 +3,8 @@ items:
   id: XmlSpace
   parent: System.Xml
   children:
-  - System.Xml.XmlSpace.None
   - System.Xml.XmlSpace.Default
+  - System.Xml.XmlSpace.None
   - System.Xml.XmlSpace.Preserve
   href: System.Xml.XmlSpace.yml
   name: XmlSpace

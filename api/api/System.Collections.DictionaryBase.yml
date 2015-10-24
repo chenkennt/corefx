@@ -3,33 +3,33 @@ items:
   id: DictionaryBase
   parent: System.Collections
   children:
-  - System.Collections.DictionaryBase.InnerHashtable
-  - System.Collections.DictionaryBase.Dictionary
-  - System.Collections.DictionaryBase.Count
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#IsReadOnly
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#IsFixedSize
-  - System.Collections.DictionaryBase.System#Collections#ICollection#IsSynchronized
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#Keys
-  - System.Collections.DictionaryBase.System#Collections#ICollection#SyncRoot
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#Values
-  - System.Collections.DictionaryBase.CopyTo(System.Array,System.Int32)
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#Item(System.Object)
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#Contains(System.Object)
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#Add(System.Object,System.Object)
   - System.Collections.DictionaryBase.Clear
-  - System.Collections.DictionaryBase.System#Collections#IDictionary#Remove(System.Object)
+  - System.Collections.DictionaryBase.CopyTo(System.Array,System.Int32)
+  - System.Collections.DictionaryBase.Count
+  - System.Collections.DictionaryBase.Dictionary
   - System.Collections.DictionaryBase.GetEnumerator
-  - System.Collections.DictionaryBase.System#Collections#IEnumerable#GetEnumerator
-  - System.Collections.DictionaryBase.OnGet(System.Object,System.Object)
-  - System.Collections.DictionaryBase.OnSet(System.Object,System.Object,System.Object)
-  - System.Collections.DictionaryBase.OnInsert(System.Object,System.Object)
+  - System.Collections.DictionaryBase.InnerHashtable
   - System.Collections.DictionaryBase.OnClear
-  - System.Collections.DictionaryBase.OnRemove(System.Object,System.Object)
-  - System.Collections.DictionaryBase.OnValidate(System.Object,System.Object)
-  - System.Collections.DictionaryBase.OnSetComplete(System.Object,System.Object,System.Object)
-  - System.Collections.DictionaryBase.OnInsertComplete(System.Object,System.Object)
   - System.Collections.DictionaryBase.OnClearComplete
+  - System.Collections.DictionaryBase.OnGet(System.Object,System.Object)
+  - System.Collections.DictionaryBase.OnInsert(System.Object,System.Object)
+  - System.Collections.DictionaryBase.OnInsertComplete(System.Object,System.Object)
+  - System.Collections.DictionaryBase.OnRemove(System.Object,System.Object)
   - System.Collections.DictionaryBase.OnRemoveComplete(System.Object,System.Object)
+  - System.Collections.DictionaryBase.OnSet(System.Object,System.Object,System.Object)
+  - System.Collections.DictionaryBase.OnSetComplete(System.Object,System.Object,System.Object)
+  - System.Collections.DictionaryBase.OnValidate(System.Object,System.Object)
+  - System.Collections.DictionaryBase.System#Collections#ICollection#IsSynchronized
+  - System.Collections.DictionaryBase.System#Collections#ICollection#SyncRoot
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#Add(System.Object,System.Object)
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#Contains(System.Object)
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#IsFixedSize
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#IsReadOnly
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#Item(System.Object)
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#Keys
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#Remove(System.Object)
+  - System.Collections.DictionaryBase.System#Collections#IDictionary#Values
+  - System.Collections.DictionaryBase.System#Collections#IEnumerable#GetEnumerator
   href: System.Collections.DictionaryBase.yml
   name: DictionaryBase
   fullName: System.Collections.DictionaryBase
@@ -82,7 +82,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Hashtable
-      description: 
 - uid: System.Collections.DictionaryBase.Dictionary
   id: Dictionary
   parent: System.Collections.DictionaryBase
@@ -103,7 +102,6 @@ items:
     parameters: []
     return:
       type: System.Collections.IDictionary
-      description: 
 - uid: System.Collections.DictionaryBase.Count
   id: Count
   parent: System.Collections.DictionaryBase
@@ -124,7 +122,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#IsReadOnly
   id: System#Collections#IDictionary#IsReadOnly
   parent: System.Collections.DictionaryBase
@@ -146,7 +143,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#IsFixedSize
   id: System#Collections#IDictionary#IsFixedSize
   parent: System.Collections.DictionaryBase
@@ -168,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.DictionaryBase
@@ -190,7 +185,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Keys
   id: System#Collections#IDictionary#Keys
   parent: System.Collections.DictionaryBase
@@ -212,7 +206,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.DictionaryBase
@@ -234,7 +227,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Values
   id: System#Collections#IDictionary#Values
   parent: System.Collections.DictionaryBase
@@ -256,7 +248,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.DictionaryBase.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.DictionaryBase
@@ -303,7 +294,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Contains(System.Object)
   id: System#Collections#IDictionary#Contains(System.Object)
   parent: System.Collections.DictionaryBase
@@ -327,7 +317,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Add(System.Object,System.Object)
   id: System#Collections#IDictionary#Add(System.Object,System.Object)
   parent: System.Collections.DictionaryBase
@@ -408,7 +397,6 @@ items:
     content.vb: Public Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.DictionaryBase
@@ -429,7 +417,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Collections.DictionaryBase.OnGet(System.Object,System.Object)
   id: OnGet(System.Object,System.Object)
   parent: System.Collections.DictionaryBase
@@ -454,7 +441,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.DictionaryBase.OnSet(System.Object,System.Object,System.Object)
   id: OnSet(System.Object,System.Object,System.Object)
   parent: System.Collections.DictionaryBase
@@ -655,11 +641,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -667,6 +655,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -676,6 +665,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -683,6 +673,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -690,12 +681,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -703,17 +696,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -721,18 +717,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -740,23 +739,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -764,18 +767,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -783,23 +789,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -807,6 +817,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -816,6 +827,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -823,6 +835,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -830,6 +843,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -839,6 +853,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -846,6 +861,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -853,6 +869,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -862,6 +879,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -880,35 +898,37 @@ references:
 - uid: System.Collections.IDictionary
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionary.yml
   name: IDictionary
   fullName: System.Collections.IDictionary
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Collections.ICollection
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.ICollection.yml
   name: ICollection
   fullName: System.Collections.ICollection
 - uid: System.Array
-  parent: System
-  isExternal: true
-  name: Array
-  fullName: System.Array
 - uid: System.Collections.IDictionaryEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IDictionaryEnumerator.yml
   name: IDictionaryEnumerator
   fullName: System.Collections.IDictionaryEnumerator
 - uid: System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Collections.IEnumerator.yml
   name: IEnumerator
   fullName: System.Collections.IEnumerator

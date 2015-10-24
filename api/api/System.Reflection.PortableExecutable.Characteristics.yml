@@ -3,21 +3,21 @@ items:
   id: Characteristics
   parent: System.Reflection.PortableExecutable
   children:
-  - System.Reflection.PortableExecutable.Characteristics.RelocsStripped
+  - System.Reflection.PortableExecutable.Characteristics.AggressiveWSTrim
+  - System.Reflection.PortableExecutable.Characteristics.Bit32Machine
+  - System.Reflection.PortableExecutable.Characteristics.BytesReversedHi
+  - System.Reflection.PortableExecutable.Characteristics.BytesReversedLo
+  - System.Reflection.PortableExecutable.Characteristics.DebugStripped
+  - System.Reflection.PortableExecutable.Characteristics.Dll
   - System.Reflection.PortableExecutable.Characteristics.ExecutableImage
+  - System.Reflection.PortableExecutable.Characteristics.LargeAddressAware
   - System.Reflection.PortableExecutable.Characteristics.LineNumsStripped
   - System.Reflection.PortableExecutable.Characteristics.LocalSymsStripped
-  - System.Reflection.PortableExecutable.Characteristics.AggressiveWSTrim
-  - System.Reflection.PortableExecutable.Characteristics.LargeAddressAware
-  - System.Reflection.PortableExecutable.Characteristics.BytesReversedLo
-  - System.Reflection.PortableExecutable.Characteristics.Bit32Machine
-  - System.Reflection.PortableExecutable.Characteristics.DebugStripped
-  - System.Reflection.PortableExecutable.Characteristics.RemovableRunFromSwap
   - System.Reflection.PortableExecutable.Characteristics.NetRunFromSwap
+  - System.Reflection.PortableExecutable.Characteristics.RelocsStripped
+  - System.Reflection.PortableExecutable.Characteristics.RemovableRunFromSwap
   - System.Reflection.PortableExecutable.Characteristics.System
-  - System.Reflection.PortableExecutable.Characteristics.Dll
   - System.Reflection.PortableExecutable.Characteristics.UpSystemOnly
-  - System.Reflection.PortableExecutable.Characteristics.BytesReversedHi
   href: System.Reflection.PortableExecutable.Characteristics.yml
   name: Characteristics
   fullName: System.Reflection.PortableExecutable.Characteristics

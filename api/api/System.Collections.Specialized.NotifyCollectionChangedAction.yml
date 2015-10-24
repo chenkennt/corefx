@@ -4,9 +4,9 @@ items:
   parent: System.Collections.Specialized
   children:
   - System.Collections.Specialized.NotifyCollectionChangedAction.Add
+  - System.Collections.Specialized.NotifyCollectionChangedAction.Move
   - System.Collections.Specialized.NotifyCollectionChangedAction.Remove
   - System.Collections.Specialized.NotifyCollectionChangedAction.Replace
-  - System.Collections.Specialized.NotifyCollectionChangedAction.Move
   - System.Collections.Specialized.NotifyCollectionChangedAction.Reset
   href: System.Collections.Specialized.NotifyCollectionChangedAction.yml
   name: NotifyCollectionChangedAction

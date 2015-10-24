@@ -4,21 +4,21 @@ items:
   children:
   - System.Collections.Specialized.BitVector32
   - System.Collections.Specialized.BitVector32.Section
+  - System.Collections.Specialized.CollectionsUtil
   - System.Collections.Specialized.HybridDictionary
+  - System.Collections.Specialized.INotifyCollectionChanged
   - System.Collections.Specialized.IOrderedDictionary
   - System.Collections.Specialized.ListDictionary
   - System.Collections.Specialized.NameObjectCollectionBase
   - System.Collections.Specialized.NameObjectCollectionBase.KeysCollection
   - System.Collections.Specialized.NameValueCollection
-  - System.Collections.Specialized.OrderedDictionary
-  - System.Collections.Specialized.StringCollection
-  - System.Collections.Specialized.StringEnumerator
-  - System.Collections.Specialized.StringDictionary
-  - System.Collections.Specialized.CollectionsUtil
-  - System.Collections.Specialized.INotifyCollectionChanged
   - System.Collections.Specialized.NotifyCollectionChangedAction
   - System.Collections.Specialized.NotifyCollectionChangedEventArgs
   - System.Collections.Specialized.NotifyCollectionChangedEventHandler
+  - System.Collections.Specialized.OrderedDictionary
+  - System.Collections.Specialized.StringCollection
+  - System.Collections.Specialized.StringDictionary
+  - System.Collections.Specialized.StringEnumerator
   href: System.Collections.Specialized.yml
   name: System.Collections.Specialized
   fullName: System.Collections.Specialized
@@ -112,12 +112,6 @@ references:
   name: StringDictionary
   fullName: System.Collections.Specialized.StringDictionary
   type: Class
-- uid: System.Collections.Specialized.CollectionsUtil
-  isExternal: false
-  href: System.Collections.Specialized.CollectionsUtil.yml
-  name: CollectionsUtil
-  fullName: System.Collections.Specialized.CollectionsUtil
-  type: Class
 - uid: System.Collections.Specialized.INotifyCollectionChanged
   isExternal: false
   href: System.Collections.Specialized.INotifyCollectionChanged.yml
@@ -158,6 +152,12 @@ references:
   fullName: System.Collections.Specialized.NotifyCollectionChangedEventHandler
   type: Delegate
   summary: The delegate to use for handlers that receive the CollectionChanged event.
+- uid: System.Collections.Specialized.CollectionsUtil
+  isExternal: false
+  href: System.Collections.Specialized.CollectionsUtil.yml
+  name: CollectionsUtil
+  fullName: System.Collections.Specialized.CollectionsUtil
+  type: Class
 - uid: System.Collections.Specialized
   isExternal: false
   name: System.Collections.Specialized

@@ -3,10 +3,10 @@ items:
   id: HeapIndex
   parent: System.Reflection.Metadata.Ecma335
   children:
-  - System.Reflection.Metadata.Ecma335.HeapIndex.UserString
-  - System.Reflection.Metadata.Ecma335.HeapIndex.String
   - System.Reflection.Metadata.Ecma335.HeapIndex.Blob
   - System.Reflection.Metadata.Ecma335.HeapIndex.Guid
+  - System.Reflection.Metadata.Ecma335.HeapIndex.String
+  - System.Reflection.Metadata.Ecma335.HeapIndex.UserString
   href: System.Reflection.Metadata.Ecma335.HeapIndex.yml
   name: HeapIndex
   fullName: System.Reflection.Metadata.Ecma335.HeapIndex

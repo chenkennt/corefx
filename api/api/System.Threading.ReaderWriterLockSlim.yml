@@ -5,27 +5,27 @@ items:
   children:
   - System.Threading.ReaderWriterLockSlim.#ctor
   - System.Threading.ReaderWriterLockSlim.#ctor(System.Threading.LockRecursionPolicy)
-  - System.Threading.ReaderWriterLockSlim.EnterReadLock
-  - System.Threading.ReaderWriterLockSlim.TryEnterReadLock(System.TimeSpan)
-  - System.Threading.ReaderWriterLockSlim.TryEnterReadLock(System.Int32)
-  - System.Threading.ReaderWriterLockSlim.EnterWriteLock
-  - System.Threading.ReaderWriterLockSlim.TryEnterWriteLock(System.TimeSpan)
-  - System.Threading.ReaderWriterLockSlim.TryEnterWriteLock(System.Int32)
-  - System.Threading.ReaderWriterLockSlim.EnterUpgradeableReadLock
-  - System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLock(System.TimeSpan)
-  - System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLock(System.Int32)
-  - System.Threading.ReaderWriterLockSlim.ExitReadLock
-  - System.Threading.ReaderWriterLockSlim.ExitWriteLock
-  - System.Threading.ReaderWriterLockSlim.ExitUpgradeableReadLock
+  - System.Threading.ReaderWriterLockSlim.CurrentReadCount
   - System.Threading.ReaderWriterLockSlim.Dispose
+  - System.Threading.ReaderWriterLockSlim.EnterReadLock
+  - System.Threading.ReaderWriterLockSlim.EnterUpgradeableReadLock
+  - System.Threading.ReaderWriterLockSlim.EnterWriteLock
+  - System.Threading.ReaderWriterLockSlim.ExitReadLock
+  - System.Threading.ReaderWriterLockSlim.ExitUpgradeableReadLock
+  - System.Threading.ReaderWriterLockSlim.ExitWriteLock
   - System.Threading.ReaderWriterLockSlim.IsReadLockHeld
   - System.Threading.ReaderWriterLockSlim.IsUpgradeableReadLockHeld
   - System.Threading.ReaderWriterLockSlim.IsWriteLockHeld
   - System.Threading.ReaderWriterLockSlim.RecursionPolicy
-  - System.Threading.ReaderWriterLockSlim.CurrentReadCount
   - System.Threading.ReaderWriterLockSlim.RecursiveReadCount
   - System.Threading.ReaderWriterLockSlim.RecursiveUpgradeCount
   - System.Threading.ReaderWriterLockSlim.RecursiveWriteCount
+  - System.Threading.ReaderWriterLockSlim.TryEnterReadLock(System.Int32)
+  - System.Threading.ReaderWriterLockSlim.TryEnterReadLock(System.TimeSpan)
+  - System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLock(System.Int32)
+  - System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLock(System.TimeSpan)
+  - System.Threading.ReaderWriterLockSlim.TryEnterWriteLock(System.Int32)
+  - System.Threading.ReaderWriterLockSlim.TryEnterWriteLock(System.TimeSpan)
   - System.Threading.ReaderWriterLockSlim.WaitingReadCount
   - System.Threading.ReaderWriterLockSlim.WaitingUpgradeCount
   - System.Threading.ReaderWriterLockSlim.WaitingWriteCount
@@ -145,7 +145,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.TryEnterReadLock(System.Int32)
   id: TryEnterReadLock(System.Int32)
   parent: System.Threading.ReaderWriterLockSlim
@@ -168,7 +167,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.EnterWriteLock
   id: EnterWriteLock
   parent: System.Threading.ReaderWriterLockSlim
@@ -208,7 +206,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.TryEnterWriteLock(System.Int32)
   id: TryEnterWriteLock(System.Int32)
   parent: System.Threading.ReaderWriterLockSlim
@@ -231,7 +228,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.EnterUpgradeableReadLock
   id: EnterUpgradeableReadLock
   parent: System.Threading.ReaderWriterLockSlim
@@ -271,7 +267,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLock(System.Int32)
   id: TryEnterUpgradeableReadLock(System.Int32)
   parent: System.Threading.ReaderWriterLockSlim
@@ -294,7 +289,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.ExitReadLock
   id: ExitReadLock
   parent: System.Threading.ReaderWriterLockSlim
@@ -383,7 +377,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.IsUpgradeableReadLockHeld
   id: IsUpgradeableReadLockHeld
   parent: System.Threading.ReaderWriterLockSlim
@@ -404,7 +397,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.IsWriteLockHeld
   id: IsWriteLockHeld
   parent: System.Threading.ReaderWriterLockSlim
@@ -425,7 +417,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursionPolicy
   id: RecursionPolicy
   parent: System.Threading.ReaderWriterLockSlim
@@ -446,7 +437,6 @@ items:
     parameters: []
     return:
       type: System.Threading.LockRecursionPolicy
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.CurrentReadCount
   id: CurrentReadCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -467,7 +457,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursiveReadCount
   id: RecursiveReadCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -488,7 +477,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursiveUpgradeCount
   id: RecursiveUpgradeCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -509,7 +497,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursiveWriteCount
   id: RecursiveWriteCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -530,7 +517,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.WaitingReadCount
   id: WaitingReadCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -551,7 +537,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.WaitingUpgradeCount
   id: WaitingUpgradeCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -572,7 +557,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.ReaderWriterLockSlim.WaitingWriteCount
   id: WaitingWriteCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -593,7 +577,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Threading
   isExternal: false
@@ -602,11 +585,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -614,6 +599,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -623,6 +609,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -630,6 +617,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -637,12 +625,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -650,17 +640,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -668,18 +661,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -687,23 +683,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -711,18 +711,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -730,23 +733,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -754,6 +761,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -763,6 +771,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -770,6 +779,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -777,6 +787,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -786,6 +797,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -793,6 +805,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -800,6 +813,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -809,6 +823,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -827,15 +842,18 @@ references:
 - uid: System.TimeSpan
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   name: TimeSpan
   fullName: System.TimeSpan
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32

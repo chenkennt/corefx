@@ -3,11 +3,11 @@ items:
   id: WatcherChangeTypes
   parent: System.IO
   children:
+  - System.IO.WatcherChangeTypes.All
+  - System.IO.WatcherChangeTypes.Changed
   - System.IO.WatcherChangeTypes.Created
   - System.IO.WatcherChangeTypes.Deleted
-  - System.IO.WatcherChangeTypes.Changed
   - System.IO.WatcherChangeTypes.Renamed
-  - System.IO.WatcherChangeTypes.All
   href: System.IO.WatcherChangeTypes.yml
   name: WatcherChangeTypes
   fullName: System.IO.WatcherChangeTypes

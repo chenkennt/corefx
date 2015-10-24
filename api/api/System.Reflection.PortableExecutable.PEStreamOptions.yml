@@ -5,8 +5,8 @@ items:
   children:
   - System.Reflection.PortableExecutable.PEStreamOptions.Default
   - System.Reflection.PortableExecutable.PEStreamOptions.LeaveOpen
-  - System.Reflection.PortableExecutable.PEStreamOptions.PrefetchMetadata
   - System.Reflection.PortableExecutable.PEStreamOptions.PrefetchEntireImage
+  - System.Reflection.PortableExecutable.PEStreamOptions.PrefetchMetadata
   href: System.Reflection.PortableExecutable.PEStreamOptions.yml
   name: PEStreamOptions
   fullName: System.Reflection.PortableExecutable.PEStreamOptions

@@ -5,31 +5,49 @@ items:
   - System.Security.Principal.IdentityNotMappedException
   - System.Security.Principal.IdentityReference
   - System.Security.Principal.IdentityReferenceCollection
-  - System.Security.Principal.NTAccount
-  - System.Security.Principal.WellKnownSidType
-  - System.Security.Principal.SecurityIdentifier
-  - System.Security.Principal.TokenAccessLevels
-  - System.Security.Principal.WindowsIdentity
-  - System.Security.Principal.WindowsBuiltInRole
-  - System.Security.Principal.WindowsPrincipal
   - System.Security.Principal.IIdentity
   - System.Security.Principal.IPrincipal
+  - System.Security.Principal.NTAccount
+  - System.Security.Principal.SecurityIdentifier
+  - System.Security.Principal.TokenAccessLevels
   - System.Security.Principal.TokenImpersonationLevel
+  - System.Security.Principal.WellKnownSidType
+  - System.Security.Principal.WindowsBuiltInRole
+  - System.Security.Principal.WindowsIdentity
+  - System.Security.Principal.WindowsPrincipal
   href: System.Security.Principal.yml
   name: System.Security.Principal
   fullName: System.Security.Principal
   type: Namespace
   source:
     remote:
-      path: src/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs
+      path: src/System.Security.Principal/src/System/Security/Principal/TokenImpersonationLevel.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs
-    startLine: 9
+    path: src/System.Security.Principal/src/System/Security/Principal/TokenImpersonationLevel.cs
+    startLine: 5
   assemblies:
-  - System.Security.Principal.Windows
+  - System.Security.Principal
 references:
+- uid: System.Security.Principal.IIdentity
+  isExternal: false
+  href: System.Security.Principal.IIdentity.yml
+  name: IIdentity
+  fullName: System.Security.Principal.IIdentity
+  type: Interface
+- uid: System.Security.Principal.IPrincipal
+  isExternal: false
+  href: System.Security.Principal.IPrincipal.yml
+  name: IPrincipal
+  fullName: System.Security.Principal.IPrincipal
+  type: Interface
+- uid: System.Security.Principal.TokenImpersonationLevel
+  parent: System.Security.Principal
+  isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Security.Principal.TokenImpersonationLevel.yml
+  name: TokenImpersonationLevel
+  fullName: System.Security.Principal.TokenImpersonationLevel
 - uid: System.Security.Principal.IdentityNotMappedException
   isExternal: false
   href: System.Security.Principal.IdentityNotMappedException.yml
@@ -98,23 +116,7 @@ references:
   name: WindowsPrincipal
   fullName: System.Security.Principal.WindowsPrincipal
   type: Class
-- uid: System.Security.Principal.IIdentity
-  parent: System.Security.Principal
-  isExternal: true
-  name: IIdentity
-  fullName: System.Security.Principal.IIdentity
-- uid: System.Security.Principal.IPrincipal
-  parent: System.Security.Principal
-  isExternal: true
-  name: IPrincipal
-  fullName: System.Security.Principal.IPrincipal
-- uid: System.Security.Principal.TokenImpersonationLevel
-  parent: System.Security.Principal
-  isExternal: true
-  name: TokenImpersonationLevel
-  fullName: System.Security.Principal.TokenImpersonationLevel
 - uid: System.Security.Principal
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace

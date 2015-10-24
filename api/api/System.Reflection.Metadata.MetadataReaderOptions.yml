@@ -3,9 +3,9 @@ items:
   id: MetadataReaderOptions
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.MetadataReaderOptions.None
-  - System.Reflection.Metadata.MetadataReaderOptions.Default
   - System.Reflection.Metadata.MetadataReaderOptions.ApplyWindowsRuntimeProjections
+  - System.Reflection.Metadata.MetadataReaderOptions.Default
+  - System.Reflection.Metadata.MetadataReaderOptions.None
   href: System.Reflection.Metadata.MetadataReaderOptions.yml
   name: MetadataReaderOptions
   fullName: System.Reflection.Metadata.MetadataReaderOptions

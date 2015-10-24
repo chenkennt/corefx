@@ -3,9 +3,9 @@ items:
   id: XmlCaseOrder
   parent: System.Xml.XPath
   children:
+  - System.Xml.XPath.XmlCaseOrder.LowerFirst
   - System.Xml.XPath.XmlCaseOrder.None
   - System.Xml.XPath.XmlCaseOrder.UpperFirst
-  - System.Xml.XPath.XmlCaseOrder.LowerFirst
   href: System.Xml.XPath.XmlCaseOrder.yml
   name: XmlCaseOrder
   fullName: System.Xml.XPath.XmlCaseOrder

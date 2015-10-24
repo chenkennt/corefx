@@ -3,24 +3,24 @@ items:
   id: HttpWebRequest
   parent: System.Net
   children:
+  - System.Net.HttpWebRequest.Abort
   - System.Net.HttpWebRequest.Accept
   - System.Net.HttpWebRequest.AllowReadStreamBuffering
+  - System.Net.HttpWebRequest.BeginGetRequestStream(System.AsyncCallback,System.Object)
+  - System.Net.HttpWebRequest.BeginGetResponse(System.AsyncCallback,System.Object)
   - System.Net.HttpWebRequest.ContentType
   - System.Net.HttpWebRequest.ContinueTimeout
   - System.Net.HttpWebRequest.CookieContainer
   - System.Net.HttpWebRequest.Credentials
+  - System.Net.HttpWebRequest.EndGetRequestStream(System.IAsyncResult)
+  - System.Net.HttpWebRequest.EndGetResponse(System.IAsyncResult)
   - System.Net.HttpWebRequest.HaveResponse
   - System.Net.HttpWebRequest.Headers
   - System.Net.HttpWebRequest.Method
+  - System.Net.HttpWebRequest.Proxy
   - System.Net.HttpWebRequest.RequestUri
   - System.Net.HttpWebRequest.SupportsCookieContainer
   - System.Net.HttpWebRequest.UseDefaultCredentials
-  - System.Net.HttpWebRequest.Proxy
-  - System.Net.HttpWebRequest.Abort
-  - System.Net.HttpWebRequest.BeginGetRequestStream(System.AsyncCallback,System.Object)
-  - System.Net.HttpWebRequest.EndGetRequestStream(System.IAsyncResult)
-  - System.Net.HttpWebRequest.BeginGetResponse(System.AsyncCallback,System.Object)
-  - System.Net.HttpWebRequest.EndGetResponse(System.IAsyncResult)
   href: System.Net.HttpWebRequest.yml
   name: HttpWebRequest
   fullName: System.Net.HttpWebRequest
@@ -78,7 +78,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Net.HttpWebRequest.AllowReadStreamBuffering
   id: AllowReadStreamBuffering
   parent: System.Net.HttpWebRequest
@@ -99,7 +98,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.HttpWebRequest.ContentType
   id: ContentType
   parent: System.Net.HttpWebRequest
@@ -120,7 +118,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Net.WebRequest.ContentType
 - uid: System.Net.HttpWebRequest.ContinueTimeout
   id: ContinueTimeout
@@ -142,7 +139,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Net.HttpWebRequest.CookieContainer
   id: CookieContainer
   parent: System.Net.HttpWebRequest
@@ -163,7 +159,6 @@ items:
     parameters: []
     return:
       type: CookieContainer
-      description: 
 - uid: System.Net.HttpWebRequest.Credentials
   id: Credentials
   parent: System.Net.HttpWebRequest
@@ -184,7 +179,6 @@ items:
     parameters: []
     return:
       type: ICredentials
-      description: 
   overridden: System.Net.WebRequest.Credentials
 - uid: System.Net.HttpWebRequest.HaveResponse
   id: HaveResponse
@@ -206,7 +200,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.HttpWebRequest.Headers
   id: Headers
   parent: System.Net.HttpWebRequest
@@ -227,7 +220,6 @@ items:
     parameters: []
     return:
       type: WebHeaderCollection
-      description: 
   overridden: System.Net.WebRequest.Headers
 - uid: System.Net.HttpWebRequest.Method
   id: Method
@@ -249,7 +241,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Net.WebRequest.Method
 - uid: System.Net.HttpWebRequest.RequestUri
   id: RequestUri
@@ -271,7 +262,6 @@ items:
     parameters: []
     return:
       type: Uri
-      description: 
   overridden: System.Net.WebRequest.RequestUri
 - uid: System.Net.HttpWebRequest.SupportsCookieContainer
   id: SupportsCookieContainer
@@ -293,7 +283,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Net.HttpWebRequest.UseDefaultCredentials
   id: UseDefaultCredentials
   parent: System.Net.HttpWebRequest
@@ -314,7 +303,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Net.WebRequest.UseDefaultCredentials
 - uid: System.Net.HttpWebRequest.Proxy
   id: Proxy
@@ -336,7 +324,6 @@ items:
     parameters: []
     return:
       type: IWebProxy
-      description: 
   overridden: System.Net.WebRequest.Proxy
 - uid: System.Net.HttpWebRequest.Abort
   id: Abort
@@ -380,7 +367,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.Net.WebRequest.BeginGetRequestStream(System.AsyncCallback,System.Object)
 - uid: System.Net.HttpWebRequest.EndGetRequestStream(System.IAsyncResult)
   id: EndGetRequestStream(System.IAsyncResult)
@@ -404,7 +390,6 @@ items:
       type: System.IAsyncResult
     return:
       type: System.IO.Stream
-      description: 
   overridden: System.Net.WebRequest.EndGetRequestStream(System.IAsyncResult)
 - uid: System.Net.HttpWebRequest.BeginGetResponse(System.AsyncCallback,System.Object)
   id: BeginGetResponse(System.AsyncCallback,System.Object)
@@ -430,7 +415,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.Net.WebRequest.BeginGetResponse(System.AsyncCallback,System.Object)
 - uid: System.Net.HttpWebRequest.EndGetResponse(System.IAsyncResult)
   id: EndGetResponse(System.IAsyncResult)
@@ -454,7 +438,6 @@ items:
       type: System.IAsyncResult
     return:
       type: System.Net.WebResponse
-      description: 
   overridden: System.Net.WebRequest.EndGetResponse(System.IAsyncResult)
 references:
 - uid: System.Net
@@ -465,6 +448,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Net.WebRequest
@@ -491,6 +475,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -504,6 +489,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.WebRequest.Create(Uri)
@@ -555,6 +541,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
   spec.vb:
@@ -568,6 +555,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: )
     fullName: )
 - uid: System.Net.WebRequest.CreateHttp(Uri)
@@ -619,6 +607,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Net.IWebRequestCreate
@@ -638,6 +627,7 @@ references:
     name: String
     fullName: System.String
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   - name: ', '
     fullName: ', '
   - uid: System.Net.IWebRequestCreate
@@ -703,6 +693,7 @@ references:
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -710,6 +701,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -719,6 +711,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -726,6 +719,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -733,12 +727,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -746,17 +742,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -764,18 +763,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -783,23 +785,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -807,18 +813,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -826,23 +835,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -850,6 +863,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -859,6 +873,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -866,6 +881,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -873,6 +889,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -882,6 +899,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -889,6 +907,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -896,6 +915,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -905,6 +925,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -916,11 +937,13 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Net.WebRequest.ContentType
@@ -932,6 +955,7 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: CookieContainer
@@ -1031,12 +1055,14 @@ references:
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1050,22 +1076,26 @@ references:
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.AsyncCallback
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   name: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   name: IAsyncResult
   fullName: System.IAsyncResult
 - uid: System.Net.WebRequest.EndGetRequestStream(System.IAsyncResult)
@@ -1085,6 +1115,7 @@ references:
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1098,11 +1129,13 @@ references:
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.IO
@@ -1126,12 +1159,14 @@ references:
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1145,12 +1180,14 @@ references:
     name: AsyncCallback
     fullName: System.AsyncCallback
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.AsyncCallback.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Net.WebRequest.EndGetResponse(System.IAsyncResult)
@@ -1170,6 +1207,7 @@ references:
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1183,6 +1221,7 @@ references:
     name: IAsyncResult
     fullName: System.IAsyncResult
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.IAsyncResult.yml
   - name: )
     fullName: )
 - uid: System.Net.WebResponse

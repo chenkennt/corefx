@@ -8,11 +8,11 @@ items:
   - System.Diagnostics.TextWriterTraceListener.#ctor(System.IO.Stream,System.String)
   - System.Diagnostics.TextWriterTraceListener.#ctor(System.IO.TextWriter)
   - System.Diagnostics.TextWriterTraceListener.#ctor(System.IO.TextWriter,System.String)
-  - System.Diagnostics.TextWriterTraceListener.Writer
   - System.Diagnostics.TextWriterTraceListener.Dispose(System.Boolean)
   - System.Diagnostics.TextWriterTraceListener.Flush
   - System.Diagnostics.TextWriterTraceListener.Write(System.String)
   - System.Diagnostics.TextWriterTraceListener.WriteLine(System.String)
+  - System.Diagnostics.TextWriterTraceListener.Writer
   href: System.Diagnostics.TextWriterTraceListener.yml
   name: TextWriterTraceListener
   fullName: System.Diagnostics.TextWriterTraceListener
@@ -240,6 +240,7 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -249,6 +250,7 @@ references:
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
   name: Stream
   fullName: System.IO.Stream
 - uid: System.IO
@@ -258,15 +260,18 @@ references:
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.IO.TextWriter
   parent: System.IO
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.IO.TextWriter.yml
   name: TextWriter
   fullName: System.IO.TextWriter
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean

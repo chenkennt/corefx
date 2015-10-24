@@ -3,8 +3,8 @@ items:
   id: IDataflowBlock
   parent: System.Threading.Tasks.Dataflow
   children:
-  - System.Threading.Tasks.Dataflow.IDataflowBlock.Completion
   - System.Threading.Tasks.Dataflow.IDataflowBlock.Complete
+  - System.Threading.Tasks.Dataflow.IDataflowBlock.Completion
   - System.Threading.Tasks.Dataflow.IDataflowBlock.Fault(System.Exception)
   href: System.Threading.Tasks.Dataflow.IDataflowBlock.yml
   name: IDataflowBlock
@@ -91,6 +91,7 @@ references:
 - uid: System.Threading.Tasks.Task
   parent: System.Threading.Tasks
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.Tasks.Task.yml
   name: Task
   fullName: System.Threading.Tasks.Task
 - uid: System.Threading.Tasks
@@ -101,6 +102,7 @@ references:
 - uid: System.Exception
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Exception.yml
   name: Exception
   fullName: System.Exception
 - uid: System

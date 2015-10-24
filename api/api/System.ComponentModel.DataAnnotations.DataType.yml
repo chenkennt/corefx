@@ -3,23 +3,23 @@ items:
   id: DataType
   parent: System.ComponentModel.DataAnnotations
   children:
-  - System.ComponentModel.DataAnnotations.DataType.Custom
-  - System.ComponentModel.DataAnnotations.DataType.DateTime
-  - System.ComponentModel.DataAnnotations.DataType.Date
-  - System.ComponentModel.DataAnnotations.DataType.Time
-  - System.ComponentModel.DataAnnotations.DataType.Duration
-  - System.ComponentModel.DataAnnotations.DataType.PhoneNumber
-  - System.ComponentModel.DataAnnotations.DataType.Currency
-  - System.ComponentModel.DataAnnotations.DataType.Text
-  - System.ComponentModel.DataAnnotations.DataType.Html
-  - System.ComponentModel.DataAnnotations.DataType.MultilineText
-  - System.ComponentModel.DataAnnotations.DataType.EmailAddress
-  - System.ComponentModel.DataAnnotations.DataType.Password
-  - System.ComponentModel.DataAnnotations.DataType.Url
-  - System.ComponentModel.DataAnnotations.DataType.ImageUrl
   - System.ComponentModel.DataAnnotations.DataType.CreditCard
+  - System.ComponentModel.DataAnnotations.DataType.Currency
+  - System.ComponentModel.DataAnnotations.DataType.Custom
+  - System.ComponentModel.DataAnnotations.DataType.Date
+  - System.ComponentModel.DataAnnotations.DataType.DateTime
+  - System.ComponentModel.DataAnnotations.DataType.Duration
+  - System.ComponentModel.DataAnnotations.DataType.EmailAddress
+  - System.ComponentModel.DataAnnotations.DataType.Html
+  - System.ComponentModel.DataAnnotations.DataType.ImageUrl
+  - System.ComponentModel.DataAnnotations.DataType.MultilineText
+  - System.ComponentModel.DataAnnotations.DataType.Password
+  - System.ComponentModel.DataAnnotations.DataType.PhoneNumber
   - System.ComponentModel.DataAnnotations.DataType.PostalCode
+  - System.ComponentModel.DataAnnotations.DataType.Text
+  - System.ComponentModel.DataAnnotations.DataType.Time
   - System.ComponentModel.DataAnnotations.DataType.Upload
+  - System.ComponentModel.DataAnnotations.DataType.Url
   href: System.ComponentModel.DataAnnotations.DataType.yml
   name: DataType
   fullName: System.ComponentModel.DataAnnotations.DataType

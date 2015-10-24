@@ -3,25 +3,25 @@ items:
   id: MethodImportAttributes
   parent: System.Reflection
   children:
-  - System.Reflection.MethodImportAttributes.None
-  - System.Reflection.MethodImportAttributes.ExactSpelling
   - System.Reflection.MethodImportAttributes.BestFitMappingDisable
   - System.Reflection.MethodImportAttributes.BestFitMappingEnable
   - System.Reflection.MethodImportAttributes.BestFitMappingMask
-  - System.Reflection.MethodImportAttributes.CharSetAnsi
-  - System.Reflection.MethodImportAttributes.CharSetUnicode
-  - System.Reflection.MethodImportAttributes.CharSetAuto
-  - System.Reflection.MethodImportAttributes.CharSetMask
-  - System.Reflection.MethodImportAttributes.ThrowOnUnmappableCharEnable
-  - System.Reflection.MethodImportAttributes.ThrowOnUnmappableCharDisable
-  - System.Reflection.MethodImportAttributes.ThrowOnUnmappableCharMask
-  - System.Reflection.MethodImportAttributes.SetLastError
-  - System.Reflection.MethodImportAttributes.CallingConventionWinApi
   - System.Reflection.MethodImportAttributes.CallingConventionCDecl
-  - System.Reflection.MethodImportAttributes.CallingConventionStdCall
-  - System.Reflection.MethodImportAttributes.CallingConventionThisCall
   - System.Reflection.MethodImportAttributes.CallingConventionFastCall
   - System.Reflection.MethodImportAttributes.CallingConventionMask
+  - System.Reflection.MethodImportAttributes.CallingConventionStdCall
+  - System.Reflection.MethodImportAttributes.CallingConventionThisCall
+  - System.Reflection.MethodImportAttributes.CallingConventionWinApi
+  - System.Reflection.MethodImportAttributes.CharSetAnsi
+  - System.Reflection.MethodImportAttributes.CharSetAuto
+  - System.Reflection.MethodImportAttributes.CharSetMask
+  - System.Reflection.MethodImportAttributes.CharSetUnicode
+  - System.Reflection.MethodImportAttributes.ExactSpelling
+  - System.Reflection.MethodImportAttributes.None
+  - System.Reflection.MethodImportAttributes.SetLastError
+  - System.Reflection.MethodImportAttributes.ThrowOnUnmappableCharDisable
+  - System.Reflection.MethodImportAttributes.ThrowOnUnmappableCharEnable
+  - System.Reflection.MethodImportAttributes.ThrowOnUnmappableCharMask
   href: System.Reflection.MethodImportAttributes.yml
   name: MethodImportAttributes
   fullName: System.Reflection.MethodImportAttributes

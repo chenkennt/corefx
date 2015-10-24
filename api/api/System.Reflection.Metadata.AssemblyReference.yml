@@ -3,13 +3,13 @@ items:
   id: AssemblyReference
   parent: System.Reflection.Metadata
   children:
-  - System.Reflection.Metadata.AssemblyReference.Version
-  - System.Reflection.Metadata.AssemblyReference.Flags
-  - System.Reflection.Metadata.AssemblyReference.Name
   - System.Reflection.Metadata.AssemblyReference.Culture
-  - System.Reflection.Metadata.AssemblyReference.PublicKeyOrToken
-  - System.Reflection.Metadata.AssemblyReference.HashValue
+  - System.Reflection.Metadata.AssemblyReference.Flags
   - System.Reflection.Metadata.AssemblyReference.GetCustomAttributes
+  - System.Reflection.Metadata.AssemblyReference.HashValue
+  - System.Reflection.Metadata.AssemblyReference.Name
+  - System.Reflection.Metadata.AssemblyReference.PublicKeyOrToken
+  - System.Reflection.Metadata.AssemblyReference.Version
   href: System.Reflection.Metadata.AssemblyReference.yml
   name: AssemblyReference
   fullName: System.Reflection.Metadata.AssemblyReference
@@ -55,7 +55,6 @@ items:
     parameters: []
     return:
       type: System.Version
-      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.Flags
   id: Flags
   parent: System.Reflection.Metadata.AssemblyReference
@@ -76,7 +75,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.AssemblyFlags
-      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.Name
   id: Name
   parent: System.Reflection.Metadata.AssemblyReference
@@ -97,7 +95,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
-      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.Culture
   id: Culture
   parent: System.Reflection.Metadata.AssemblyReference
@@ -118,7 +115,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
-      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.PublicKeyOrToken
   id: PublicKeyOrToken
   parent: System.Reflection.Metadata.AssemblyReference
@@ -139,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.BlobHandle
-      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.HashValue
   id: HashValue
   parent: System.Reflection.Metadata.AssemblyReference
@@ -160,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.BlobHandle
-      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.AssemblyReference
@@ -180,7 +174,6 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
-      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false
@@ -190,6 +183,7 @@ references:
 - uid: System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: Equals(Object)
   fullName: System.ValueType.Equals(System.Object)
   spec.csharp:
@@ -197,12 +191,14 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -210,17 +206,20 @@ references:
     name: Equals
     fullName: System.ValueType.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: GetHashCode()
   fullName: System.ValueType.GetHashCode()
   spec.csharp:
@@ -228,6 +227,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -237,6 +237,7 @@ references:
     name: GetHashCode
     fullName: System.ValueType.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -244,6 +245,7 @@ references:
 - uid: System.ValueType.ToString
   parent: System.ValueType
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ToString()
   fullName: System.ValueType.ToString()
   spec.csharp:
@@ -251,6 +253,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -260,6 +263,7 @@ references:
     name: ToString
     fullName: System.ValueType.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   - name: (
     fullName: (
   - name: )
@@ -267,6 +271,7 @@ references:
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -274,18 +279,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -293,23 +301,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -317,18 +329,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -336,23 +351,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -360,6 +379,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -369,6 +389,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -376,11 +397,13 @@ references:
 - uid: System.ValueType
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.ValueType.yml
   name: ValueType
   fullName: System.ValueType
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System
@@ -390,6 +413,7 @@ references:
 - uid: System.Version
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Version.yml
   name: Version
   fullName: System.Version
 - uid: System.Reflection.AssemblyFlags

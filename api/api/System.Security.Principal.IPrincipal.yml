@@ -43,7 +43,6 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.IIdentity
-      description: 
 - uid: System.Security.Principal.IPrincipal.IsInRole(System.String)
   id: IsInRole(System.String)
   parent: System.Security.Principal.IPrincipal
@@ -66,26 +65,27 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false
   name: System.Security.Principal
   fullName: System.Security.Principal
-  type: Namespace
 - uid: System.Security.Principal.IIdentity
-  parent: System.Security.Principal
-  isExternal: true
+  isExternal: false
+  href: System.Security.Principal.IIdentity.yml
   name: IIdentity
   fullName: System.Security.Principal.IIdentity
+  type: Interface
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System

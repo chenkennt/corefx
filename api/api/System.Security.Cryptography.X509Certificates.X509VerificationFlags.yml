@@ -3,20 +3,20 @@ items:
   id: X509VerificationFlags
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.NoFlag
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreNotTimeValid
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreCtlNotTimeValid
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreNotTimeNested
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreInvalidBasicConstraints
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.AllFlags
   - System.Security.Cryptography.X509Certificates.X509VerificationFlags.AllowUnknownCertificateAuthority
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreWrongUsage
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreCertificateAuthorityRevocationUnknown
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreCtlNotTimeValid
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreCtlSignerRevocationUnknown
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreEndRevocationUnknown
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreInvalidBasicConstraints
   - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreInvalidName
   - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreInvalidPolicy
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreEndRevocationUnknown
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreCtlSignerRevocationUnknown
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreCertificateAuthorityRevocationUnknown
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreNotTimeNested
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreNotTimeValid
   - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreRootRevocationUnknown
-  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.AllFlags
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.IgnoreWrongUsage
+  - System.Security.Cryptography.X509Certificates.X509VerificationFlags.NoFlag
   href: System.Security.Cryptography.X509Certificates.X509VerificationFlags.yml
   name: X509VerificationFlags
   fullName: System.Security.Cryptography.X509Certificates.X509VerificationFlags

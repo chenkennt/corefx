@@ -3,8 +3,8 @@ items:
   id: ICommand
   parent: System.Windows.Input
   children:
-  - System.Windows.Input.ICommand.CanExecuteChanged
   - System.Windows.Input.ICommand.CanExecute(System.Object)
+  - System.Windows.Input.ICommand.CanExecuteChanged
   - System.Windows.Input.ICommand.Execute(System.Object)
   href: System.Windows.Input.ICommand.yml
   name: ICommand
@@ -99,11 +99,13 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System

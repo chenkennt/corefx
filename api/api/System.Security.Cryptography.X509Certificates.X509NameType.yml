@@ -3,11 +3,11 @@ items:
   id: X509NameType
   parent: System.Security.Cryptography.X509Certificates
   children:
-  - System.Security.Cryptography.X509Certificates.X509NameType.SimpleName
-  - System.Security.Cryptography.X509Certificates.X509NameType.EmailName
-  - System.Security.Cryptography.X509Certificates.X509NameType.UpnName
-  - System.Security.Cryptography.X509Certificates.X509NameType.DnsName
   - System.Security.Cryptography.X509Certificates.X509NameType.DnsFromAlternativeName
+  - System.Security.Cryptography.X509Certificates.X509NameType.DnsName
+  - System.Security.Cryptography.X509Certificates.X509NameType.EmailName
+  - System.Security.Cryptography.X509Certificates.X509NameType.SimpleName
+  - System.Security.Cryptography.X509Certificates.X509NameType.UpnName
   - System.Security.Cryptography.X509Certificates.X509NameType.UrlName
   href: System.Security.Cryptography.X509Certificates.X509NameType.yml
   name: X509NameType

@@ -3,19 +3,19 @@ items:
   id: MemoryMappedFileRights
   parent: System.IO.MemoryMappedFiles
   children:
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.CopyOnWrite
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Write
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Read
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Execute
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Delete
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadPermissions
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ChangePermissions
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.TakeOwnership
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadWrite
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadExecute
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadWriteExecute
-  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.FullControl
   - System.IO.MemoryMappedFiles.MemoryMappedFileRights.AccessSystemSecurity
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ChangePermissions
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.CopyOnWrite
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Delete
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Execute
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.FullControl
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Read
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadExecute
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadPermissions
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadWrite
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.ReadWriteExecute
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.TakeOwnership
+  - System.IO.MemoryMappedFiles.MemoryMappedFileRights.Write
   href: System.IO.MemoryMappedFiles.MemoryMappedFileRights.yml
   name: MemoryMappedFileRights
   fullName: System.IO.MemoryMappedFiles.MemoryMappedFileRights

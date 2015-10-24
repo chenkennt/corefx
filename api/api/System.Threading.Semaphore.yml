@@ -7,9 +7,9 @@ items:
   - System.Threading.Semaphore.#ctor(System.Int32,System.Int32,System.String)
   - System.Threading.Semaphore.#ctor(System.Int32,System.Int32,System.String,System.Boolean@)
   - System.Threading.Semaphore.OpenExisting(System.String)
-  - System.Threading.Semaphore.TryOpenExisting(System.String,System.Threading.Semaphore@)
   - System.Threading.Semaphore.Release
   - System.Threading.Semaphore.Release(System.Int32)
+  - System.Threading.Semaphore.TryOpenExisting(System.String,System.Threading.Semaphore@)
   href: System.Threading.Semaphore.yml
   name: Semaphore
   fullName: System.Threading.Semaphore
@@ -171,7 +171,6 @@ items:
       type: System.String
     return:
       type: System.Threading.Semaphore
-      description: 
 - uid: System.Threading.Semaphore.TryOpenExisting(System.String,System.Threading.Semaphore@)
   id: TryOpenExisting(System.String,System.Threading.Semaphore@)
   parent: System.Threading.Semaphore
@@ -198,7 +197,6 @@ items:
       type: System.Threading.Semaphore
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Semaphore.Release
   id: Release
   parent: System.Threading.Semaphore
@@ -218,7 +216,6 @@ items:
     content.vb: Public Function Release As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Semaphore.Release(System.Int32)
   id: Release(System.Int32)
   parent: System.Threading.Semaphore
@@ -241,7 +238,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Threading
   isExternal: false
@@ -250,31 +246,37 @@ references:
 - uid: System.Object
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Object
   fullName: System.Object
 - uid: System.MarshalByRefObject
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.MarshalByRefObject.yml
   name: MarshalByRefObject
   fullName: System.MarshalByRefObject
 - uid: System.Threading.WaitHandle
   parent: System.Threading
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitHandle
   fullName: System.Threading.WaitHandle
 - uid: System.Threading.WaitHandle.WaitTimeout
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitTimeout
   fullName: System.Threading.WaitHandle.WaitTimeout
 - uid: System.Threading.WaitHandle.InvalidHandle
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: InvalidHandle
   fullName: System.Threading.WaitHandle.InvalidHandle
 - uid: System.Threading.WaitHandle.WaitOne(System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitOne(Int32, Boolean)
   fullName: System.Threading.WaitHandle.WaitOne(System.Int32, System.Boolean)
   spec.csharp:
@@ -282,18 +284,21 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -301,23 +306,27 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitOne(System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitOne(TimeSpan, Boolean)
   fullName: System.Threading.WaitHandle.WaitOne(System.TimeSpan, System.Boolean)
   spec.csharp:
@@ -325,18 +334,21 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -344,23 +356,27 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitOne
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitOne()
   fullName: System.Threading.WaitHandle.WaitOne()
   spec.csharp:
@@ -368,6 +384,7 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -377,6 +394,7 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -384,6 +402,7 @@ references:
 - uid: System.Threading.WaitHandle.WaitOne(System.Int32)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitOne(Int32)
   fullName: System.Threading.WaitHandle.WaitOne(System.Int32)
   spec.csharp:
@@ -391,12 +410,14 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -404,17 +425,20 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitOne(System.TimeSpan)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitOne(TimeSpan)
   fullName: System.Threading.WaitHandle.WaitOne(System.TimeSpan)
   spec.csharp:
@@ -422,12 +446,14 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: )
     fullName: )
   spec.vb:
@@ -435,17 +461,20 @@ references:
     name: WaitOne
     fullName: System.Threading.WaitHandle.WaitOne
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAll(WaitHandle[], Int32, Boolean)
   name.vb: WaitAll(WaitHandle(), Int32, Boolean)
   fullName: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[], System.Int32, System.Boolean)
@@ -455,12 +484,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -469,12 +500,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -482,12 +515,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -496,17 +531,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAll(WaitHandle[], TimeSpan, Boolean)
   name.vb: WaitAll(WaitHandle(), TimeSpan, Boolean)
   fullName: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[], System.TimeSpan, System.Boolean)
@@ -516,12 +554,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -530,12 +570,14 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -543,12 +585,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -557,17 +601,20 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[])
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAll(WaitHandle[])
   name.vb: WaitAll(WaitHandle())
   fullName: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[])
@@ -577,12 +624,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -592,12 +641,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: )
@@ -605,6 +656,7 @@ references:
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.Int32)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAll(WaitHandle[], Int32)
   name.vb: WaitAll(WaitHandle(), Int32)
   fullName: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[], System.Int32)
@@ -614,12 +666,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -628,6 +682,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -635,12 +690,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -649,11 +706,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.TimeSpan)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAll(WaitHandle[], TimeSpan)
   name.vb: WaitAll(WaitHandle(), TimeSpan)
   fullName: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[], System.TimeSpan)
@@ -663,12 +722,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -677,6 +738,7 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: )
     fullName: )
   spec.vb:
@@ -684,12 +746,14 @@ references:
     name: WaitAll
     fullName: System.Threading.WaitHandle.WaitAll
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -698,11 +762,13 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAny(WaitHandle[], Int32, Boolean)
   name.vb: WaitAny(WaitHandle(), Int32, Boolean)
   fullName: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[], System.Int32, System.Boolean)
@@ -712,12 +778,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -726,12 +794,14 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -739,12 +809,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -753,17 +825,20 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAny(WaitHandle[], TimeSpan, Boolean)
   name.vb: WaitAny(WaitHandle(), TimeSpan, Boolean)
   fullName: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[], System.TimeSpan, System.Boolean)
@@ -773,12 +848,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -787,12 +864,14 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -800,12 +879,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -814,17 +895,20 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.TimeSpan)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAny(WaitHandle[], TimeSpan)
   name.vb: WaitAny(WaitHandle(), TimeSpan)
   fullName: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[], System.TimeSpan)
@@ -834,12 +918,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -848,6 +934,7 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: )
     fullName: )
   spec.vb:
@@ -855,12 +942,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -869,11 +958,13 @@ references:
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[])
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAny(WaitHandle[])
   name.vb: WaitAny(WaitHandle())
   fullName: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[])
@@ -883,12 +974,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: )
@@ -898,12 +991,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: )
@@ -911,6 +1006,7 @@ references:
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: WaitAny(WaitHandle[], Int32)
   name.vb: WaitAny(WaitHandle(), Int32)
   fullName: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[], System.Int32)
@@ -920,12 +1016,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: '[]'
     fullName: '[]'
   - name: ', '
@@ -934,6 +1032,7 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
   spec.vb:
@@ -941,12 +1040,14 @@ references:
     name: WaitAny
     fullName: System.Threading.WaitHandle.WaitAny
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ()
     fullName: ()
   - name: ', '
@@ -955,11 +1056,13 @@ references:
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: SignalAndWait(WaitHandle, WaitHandle)
   fullName: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle, System.Threading.WaitHandle)
   spec.csharp:
@@ -967,18 +1070,21 @@ references:
     name: SignalAndWait
     fullName: System.Threading.WaitHandle.SignalAndWait
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: )
     fullName: )
   spec.vb:
@@ -986,23 +1092,27 @@ references:
     name: SignalAndWait
     fullName: System.Threading.WaitHandle.SignalAndWait
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle,System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: SignalAndWait(WaitHandle, WaitHandle, TimeSpan, Boolean)
   fullName: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle, System.Threading.WaitHandle, System.TimeSpan, System.Boolean)
   spec.csharp:
@@ -1010,30 +1120,35 @@ references:
     name: SignalAndWait
     fullName: System.Threading.WaitHandle.SignalAndWait
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1041,35 +1156,41 @@ references:
     name: SignalAndWait
     fullName: System.Threading.WaitHandle.SignalAndWait
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.TimeSpan
     name: TimeSpan
     fullName: System.TimeSpan
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.TimeSpan.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle,System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: SignalAndWait(WaitHandle, WaitHandle, Int32, Boolean)
   fullName: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle, System.Threading.WaitHandle, System.Int32, System.Boolean)
   spec.csharp:
@@ -1077,30 +1198,35 @@ references:
     name: SignalAndWait
     fullName: System.Threading.WaitHandle.SignalAndWait
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1108,35 +1234,41 @@ references:
     name: SignalAndWait
     fullName: System.Threading.WaitHandle.SignalAndWait
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Threading.WaitHandle
     name: WaitHandle
     fullName: System.Threading.WaitHandle
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: ', '
     fullName: ', '
   - uid: System.Int32
     name: Int32
     fullName: System.Int32
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   - name: ', '
     fullName: ', '
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.Close
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: Close()
   fullName: System.Threading.WaitHandle.Close()
   spec.csharp:
@@ -1144,6 +1276,7 @@ references:
     name: Close
     fullName: System.Threading.WaitHandle.Close
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -1153,6 +1286,7 @@ references:
     name: Close
     fullName: System.Threading.WaitHandle.Close
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -1160,6 +1294,7 @@ references:
 - uid: System.Threading.WaitHandle.Dispose(System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: Dispose(Boolean)
   fullName: System.Threading.WaitHandle.Dispose(System.Boolean)
   spec.csharp:
@@ -1167,12 +1302,14 @@ references:
     name: Dispose
     fullName: System.Threading.WaitHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1180,17 +1317,20 @@ references:
     name: Dispose
     fullName: System.Threading.WaitHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - uid: System.Boolean
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.Threading.WaitHandle.Dispose
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: Dispose()
   fullName: System.Threading.WaitHandle.Dispose()
   spec.csharp:
@@ -1198,6 +1338,7 @@ references:
     name: Dispose
     fullName: System.Threading.WaitHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -1207,6 +1348,7 @@ references:
     name: Dispose
     fullName: System.Threading.WaitHandle.Dispose
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   - name: (
     fullName: (
   - name: )
@@ -1214,16 +1356,19 @@ references:
 - uid: System.Threading.WaitHandle.Handle
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: Handle
   fullName: System.Threading.WaitHandle.Handle
 - uid: System.Threading.WaitHandle.SafeWaitHandle
   parent: System.Threading.WaitHandle
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Threading.WaitHandle.yml
   name: SafeWaitHandle
   fullName: System.Threading.WaitHandle.SafeWaitHandle
 - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
   parent: System.MarshalByRefObject
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: MemberwiseClone(Boolean)
   fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
   spec.csharp:
@@ -1237,6 +1382,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1250,6 +1396,7 @@ references:
     name: Boolean
     fullName: System.Boolean
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   - name: )
     fullName: )
 - uid: System.MarshalByRefObject.GetLifetimeService
@@ -1301,6 +1448,7 @@ references:
 - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
   parent: System.MarshalByRefObject
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   name: CreateObjRef(Type)
   fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
   spec.csharp:
@@ -1314,6 +1462,7 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1327,11 +1476,13 @@ references:
     name: Type
     fullName: System.Type
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Type.yml
   - name: )
     fullName: )
 - uid: System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ToString()
   fullName: System.Object.ToString()
   spec.csharp:
@@ -1339,6 +1490,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1348,6 +1500,7 @@ references:
     name: ToString
     fullName: System.Object.ToString
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1355,6 +1508,7 @@ references:
 - uid: System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object)
   fullName: System.Object.Equals(System.Object)
   spec.csharp:
@@ -1362,12 +1516,14 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1375,17 +1531,20 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: Equals(Object, Object)
   fullName: System.Object.Equals(System.Object, System.Object)
   spec.csharp:
@@ -1393,18 +1552,21 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1412,23 +1574,27 @@ references:
     name: Equals
     fullName: System.Object.Equals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: ReferenceEquals(Object, Object)
   fullName: System.Object.ReferenceEquals(System.Object, System.Object)
   spec.csharp:
@@ -1436,18 +1602,21 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
   spec.vb:
@@ -1455,23 +1624,27 @@ references:
     name: ReferenceEquals
     fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: ', '
     fullName: ', '
   - uid: System.Object
     name: Object
     fullName: System.Object
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: )
     fullName: )
 - uid: System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetHashCode()
   fullName: System.Object.GetHashCode()
   spec.csharp:
@@ -1479,6 +1652,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1488,6 +1662,7 @@ references:
     name: GetHashCode
     fullName: System.Object.GetHashCode
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1495,6 +1670,7 @@ references:
 - uid: System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: GetType()
   fullName: System.Object.GetType()
   spec.csharp:
@@ -1502,6 +1678,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1511,6 +1688,7 @@ references:
     name: GetType
     fullName: System.Object.GetType
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1518,6 +1696,7 @@ references:
 - uid: System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   name: MemberwiseClone()
   fullName: System.Object.MemberwiseClone()
   spec.csharp:
@@ -1525,6 +1704,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1534,6 +1714,7 @@ references:
     name: MemberwiseClone
     fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: http://chenkennt.github.io/coreclr#api!api/System.Object.yml
   - name: (
     fullName: (
   - name: )
@@ -1545,16 +1726,19 @@ references:
 - uid: System.Int32
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Int32.yml
   name: Int32
   fullName: System.Int32
 - uid: System.String
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.String.yml
   name: String
   fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: true
+  href: http://chenkennt.github.io/coreclr#api!api/System.Boolean.yml
   name: Boolean
   fullName: System.Boolean
 - uid: System.Threading.Semaphore

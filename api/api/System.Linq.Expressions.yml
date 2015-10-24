@@ -2,21 +2,22 @@ items:
 - uid: System.Linq.Expressions
   id: System.Linq.Expressions
   children:
-  - System.Linq.Expressions.DynamicExpression
-  - System.Linq.Expressions.DynamicExpressionVisitor
   - System.Linq.Expressions.BinaryExpression
-  - System.Linq.Expressions.Expression
   - System.Linq.Expressions.BlockExpression
   - System.Linq.Expressions.CatchBlock
   - System.Linq.Expressions.ConditionalExpression
   - System.Linq.Expressions.ConstantExpression
   - System.Linq.Expressions.DebugInfoExpression
   - System.Linq.Expressions.DefaultExpression
+  - System.Linq.Expressions.DynamicExpression
+  - System.Linq.Expressions.DynamicExpressionVisitor
   - System.Linq.Expressions.ElementInit
+  - System.Linq.Expressions.Expression
+  - System.Linq.Expressions.Expression`1
   - System.Linq.Expressions.ExpressionType
   - System.Linq.Expressions.ExpressionVisitor
-  - System.Linq.Expressions.GotoExpressionKind
   - System.Linq.Expressions.GotoExpression
+  - System.Linq.Expressions.GotoExpressionKind
   - System.Linq.Expressions.IArgumentProvider
   - System.Linq.Expressions.IDynamicExpression
   - System.Linq.Expressions.IndexExpression
@@ -24,12 +25,11 @@ items:
   - System.Linq.Expressions.LabelExpression
   - System.Linq.Expressions.LabelTarget
   - System.Linq.Expressions.LambdaExpression
-  - System.Linq.Expressions.Expression`1
   - System.Linq.Expressions.ListInitExpression
   - System.Linq.Expressions.LoopExpression
   - System.Linq.Expressions.MemberAssignment
-  - System.Linq.Expressions.MemberBindingType
   - System.Linq.Expressions.MemberBinding
+  - System.Linq.Expressions.MemberBindingType
   - System.Linq.Expressions.MemberExpression
   - System.Linq.Expressions.MemberInitExpression
   - System.Linq.Expressions.MemberListBinding
@@ -51,29 +51,15 @@ items:
   type: Namespace
   source:
     remote:
-      path: src/Common/src/System/Linq/Expressions/Compiler/AssemblyGen.cs
+      path: src/System.Linq.Expressions/src/System/Linq/Expressions/Compiler/VariableBinder.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
       key: f36ebcfc
-    path: src/Common/src/System/Linq/Expressions/Compiler/AssemblyGen.cs
-    startLine: 9
+    path: src/System.Linq.Expressions/src/System/Linq/Expressions/Compiler/VariableBinder.cs
+    startLine: 8
   assemblies:
-  - System.Dynamic.Runtime
+  - System.Linq.Expressions
 references:
-- uid: System.Linq.Expressions.DynamicExpression
-  parent: System.Linq.Expressions
-  isExternal: false
-  href: System.Linq.Expressions.DynamicExpression.yml
-  name: DynamicExpression
-  fullName: System.Linq.Expressions.DynamicExpression
-  type: Class
-  summary: Represents a dynamic operation.
-- uid: System.Linq.Expressions.DynamicExpressionVisitor
-  isExternal: false
-  href: System.Linq.Expressions.DynamicExpressionVisitor.yml
-  name: DynamicExpressionVisitor
-  fullName: System.Linq.Expressions.DynamicExpressionVisitor
-  type: Class
 - uid: System.Linq.Expressions.BinaryExpression
   parent: System.Linq.Expressions
   isExternal: false
@@ -529,6 +515,20 @@ references:
   fullName: System.Linq.Expressions.UnaryExpression
   type: Class
   summary: Represents an expression that has a unary operator.
+- uid: System.Linq.Expressions.DynamicExpression
+  parent: System.Linq.Expressions
+  isExternal: false
+  href: System.Linq.Expressions.DynamicExpression.yml
+  name: DynamicExpression
+  fullName: System.Linq.Expressions.DynamicExpression
+  type: Class
+  summary: Represents a dynamic operation.
+- uid: System.Linq.Expressions.DynamicExpressionVisitor
+  isExternal: false
+  href: System.Linq.Expressions.DynamicExpressionVisitor.yml
+  name: DynamicExpressionVisitor
+  fullName: System.Linq.Expressions.DynamicExpressionVisitor
+  type: Class
 - uid: System.Linq.Expressions
   isExternal: false
   name: System.Linq.Expressions
