@@ -1,0 +1,27 @@
+﻿{
+  "projects": [
+    {
+      "name": "api",
+      "files": [
+        "../../src/**/src/**/*.csproj"
+      ],
+      "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
+    }
+  ],
+  "conceptuals": [
+    {
+      "files": [
+        "**/*.md",
+        "**/toc.yml",
+        "**/*.png"
+      ],
+      "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
+    }
+  ],
+  "externalReferences": [
+    "externalreferences/*.rpk"
+  ],
+  "title": ".NET Core Documentation",
+  "theme": "default",
+  "output": "_site"
+}
