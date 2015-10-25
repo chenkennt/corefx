@@ -24,7 +24,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/XmlNamespaceManager.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/XmlNamespaceManager.cs
     startLine: 10
   assemblies:
@@ -86,6 +86,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNameTable
+      description: 
 - uid: System.Xml.XmlNamespaceManager.DefaultNamespace
   id: DefaultNamespace
   parent: System.Xml.XmlNamespaceManager
@@ -106,6 +107,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNamespaceManager.PushScope
   id: PushScope
   parent: System.Xml.XmlNamespaceManager
@@ -142,6 +144,7 @@ items:
     content.vb: Public Overridable Function PopScope As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlNamespaceManager.AddNamespace(System.String,System.String)
   id: AddNamespace(System.String,System.String)
   parent: System.Xml.XmlNamespaceManager
@@ -205,6 +208,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Xml.XmlNamespaceManager.GetNamespacesInScope(System.Xml.XmlNamespaceScope)
   id: GetNamespacesInScope(System.Xml.XmlNamespaceScope)
   parent: System.Xml.XmlNamespaceManager
@@ -227,6 +231,7 @@ items:
       type: System.Xml.XmlNamespaceScope
     return:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
+      description: 
 - uid: System.Xml.XmlNamespaceManager.LookupNamespace(System.String)
   id: LookupNamespace(System.String)
   parent: System.Xml.XmlNamespaceManager
@@ -249,6 +254,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNamespaceManager.LookupPrefix(System.String)
   id: LookupPrefix(System.String)
   parent: System.Xml.XmlNamespaceManager
@@ -271,6 +277,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNamespaceManager.HasNamespace(System.String)
   id: HasNamespace(System.String)
   parent: System.Xml.XmlNamespaceManager
@@ -293,6 +300,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

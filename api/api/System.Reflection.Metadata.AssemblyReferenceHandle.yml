@@ -22,7 +22,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
     startLine: 1885
   assemblies:
@@ -62,6 +62,7 @@ items:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
     return:
       type: System.Reflection.Metadata.Handle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.op_Implicit(System.Reflection.Metadata.AssemblyReferenceHandle)~System.Reflection.Metadata.EntityHandle
   id: op_Implicit(System.Reflection.Metadata.AssemblyReferenceHandle)~System.Reflection.Metadata.EntityHandle
   parent: System.Reflection.Metadata.AssemblyReferenceHandle
@@ -86,6 +87,7 @@ items:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
     return:
       type: System.Reflection.Metadata.EntityHandle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.AssemblyReferenceHandle
   id: op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.AssemblyReferenceHandle
   parent: System.Reflection.Metadata.AssemblyReferenceHandle
@@ -110,6 +112,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.op_Explicit(System.Reflection.Metadata.EntityHandle)~System.Reflection.Metadata.AssemblyReferenceHandle
   id: op_Explicit(System.Reflection.Metadata.EntityHandle)~System.Reflection.Metadata.AssemblyReferenceHandle
   parent: System.Reflection.Metadata.AssemblyReferenceHandle
@@ -134,6 +137,7 @@ items:
       type: System.Reflection.Metadata.EntityHandle
     return:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.AssemblyReferenceHandle
@@ -154,6 +158,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.op_Equality(System.Reflection.Metadata.AssemblyReferenceHandle,System.Reflection.Metadata.AssemblyReferenceHandle)
   id: op_Equality(System.Reflection.Metadata.AssemblyReferenceHandle,System.Reflection.Metadata.AssemblyReferenceHandle)
   parent: System.Reflection.Metadata.AssemblyReferenceHandle
@@ -178,6 +183,7 @@ items:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.AssemblyReferenceHandle
@@ -200,6 +206,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.Equals(System.Reflection.Metadata.AssemblyReferenceHandle)
   id: Equals(System.Reflection.Metadata.AssemblyReferenceHandle)
@@ -223,6 +230,7 @@ items:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.AssemblyReferenceHandle
@@ -242,6 +250,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.AssemblyReferenceHandle.op_Inequality(System.Reflection.Metadata.AssemblyReferenceHandle,System.Reflection.Metadata.AssemblyReferenceHandle)
   id: op_Inequality(System.Reflection.Metadata.AssemblyReferenceHandle,System.Reflection.Metadata.AssemblyReferenceHandle)
@@ -267,6 +276,7 @@ items:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

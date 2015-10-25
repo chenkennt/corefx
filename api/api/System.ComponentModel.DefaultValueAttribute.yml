@@ -26,7 +26,7 @@ items:
       path: src/System.Runtime/src/System/ComponentModel/DefaultValueAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime/src/System/ComponentModel/DefaultValueAttribute.cs
     startLine: 14
   assemblies:
@@ -349,6 +349,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Attribute.Equals(System.Object)
 - uid: System.ComponentModel.DefaultValueAttribute.GetHashCode
   id: GetHashCode
@@ -369,6 +370,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Attribute.GetHashCode
 references:
 - uid: System.ComponentModel

@@ -51,7 +51,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Ecma335/MetadataTokens.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Ecma335/MetadataTokens.cs
     startLine: 7
   assemblies:
@@ -464,6 +464,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MethodDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.MethodImplementationHandle(System.Int32)
   id: MethodImplementationHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -486,6 +487,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MethodImplementationHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.MethodSpecificationHandle(System.Int32)
   id: MethodSpecificationHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -508,6 +510,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MethodSpecificationHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.TypeDefinitionHandle(System.Int32)
   id: TypeDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -530,6 +533,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.TypeDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ExportedTypeHandle(System.Int32)
   id: ExportedTypeHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -552,6 +556,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ExportedTypeHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.TypeReferenceHandle(System.Int32)
   id: TypeReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -574,6 +579,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.TypeReferenceHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.TypeSpecificationHandle(System.Int32)
   id: TypeSpecificationHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -596,6 +602,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.TypeSpecificationHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.MemberReferenceHandle(System.Int32)
   id: MemberReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -618,6 +625,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.MemberReferenceHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.FieldDefinitionHandle(System.Int32)
   id: FieldDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -640,6 +648,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.FieldDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.EventDefinitionHandle(System.Int32)
   id: EventDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -662,6 +671,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.EventDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.PropertyDefinitionHandle(System.Int32)
   id: PropertyDefinitionHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -684,6 +694,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.PropertyDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.StandaloneSignatureHandle(System.Int32)
   id: StandaloneSignatureHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -706,6 +717,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.StandaloneSignatureHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ParameterHandle(System.Int32)
   id: ParameterHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -728,6 +740,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ParameterHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterHandle(System.Int32)
   id: GenericParameterHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -750,6 +763,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.GenericParameterHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.GenericParameterConstraintHandle(System.Int32)
   id: GenericParameterConstraintHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -772,6 +786,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.GenericParameterConstraintHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ModuleReferenceHandle(System.Int32)
   id: ModuleReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -794,6 +809,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ModuleReferenceHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyReferenceHandle(System.Int32)
   id: AssemblyReferenceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -816,6 +832,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.AssemblyReferenceHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.CustomAttributeHandle(System.Int32)
   id: CustomAttributeHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -838,6 +855,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.CustomAttributeHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.DeclarativeSecurityAttributeHandle(System.Int32)
   id: DeclarativeSecurityAttributeHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -860,6 +878,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.DeclarativeSecurityAttributeHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ConstantHandle(System.Int32)
   id: ConstantHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -882,6 +901,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ConstantHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.ManifestResourceHandle(System.Int32)
   id: ManifestResourceHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -904,6 +924,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.ManifestResourceHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.AssemblyFileHandle(System.Int32)
   id: AssemblyFileHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -926,6 +947,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.AssemblyFileHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.UserStringHandle(System.Int32)
   id: UserStringHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -948,6 +970,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.UserStringHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.StringHandle(System.Int32)
   id: StringHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -970,6 +993,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.BlobHandle(System.Int32)
   id: BlobHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -992,6 +1016,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.BlobHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.MetadataTokens.GuidHandle(System.Int32)
   id: GuidHandle(System.Int32)
   parent: System.Reflection.Metadata.Ecma335.MetadataTokens
@@ -1014,6 +1039,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.GuidHandle
+      description: 
 references:
 - uid: System.Reflection.Metadata.Ecma335
   isExternal: false

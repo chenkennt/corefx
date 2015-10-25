@@ -48,7 +48,7 @@ items:
       path: src/System.Collections.Immutable/src/System/Linq/ImmutableArrayExtensions.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Immutable/src/System/Linq/ImmutableArrayExtensions.cs
     startLine: 17
   assemblies:
@@ -207,6 +207,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.
@@ -238,6 +239,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     - id: predicate
       type: System.Func{{T},System.Boolean}
       description: The predicate.
@@ -272,6 +274,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     - id: predicate
       type: System.Func{{T},System.Boolean}
       description: The predicate.
@@ -598,6 +601,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.
@@ -626,6 +630,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.
@@ -684,6 +689,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.
@@ -742,6 +748,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.
@@ -800,6 +807,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.
@@ -858,6 +866,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.
@@ -916,6 +925,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     - id: keySelector
       type: System.Func{{T},{TKey}}
       description: The key selector.
@@ -950,6 +960,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     - id: keySelector
       type: System.Func{{T},{TKey}}
       description: The key selector.
@@ -989,6 +1000,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     - id: keySelector
       type: System.Func{{T},{TKey}}
       description: The key selector.
@@ -1026,6 +1038,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     - id: keySelector
       type: System.Func{{T},{TKey}}
       description: The key selector.
@@ -1068,6 +1081,7 @@ items:
     parameters:
     - id: immutableArray
       type: System.Collections.Immutable.ImmutableArray{{T}}
+      description: 
     typeParameters:
     - id: T
       description: The type of element contained by the collection.

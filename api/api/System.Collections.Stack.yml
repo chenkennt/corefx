@@ -28,7 +28,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/Stack.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/Stack.cs
     startLine: 22
   assemblies:
@@ -127,6 +127,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Stack.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.Stack
@@ -147,6 +148,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Stack.SyncRoot
   id: SyncRoot
   parent: System.Collections.Stack
@@ -167,6 +169,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Stack.Clear
   id: Clear
   parent: System.Collections.Stack
@@ -203,6 +206,7 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Stack.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.Stack
@@ -225,6 +229,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Stack.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.Stack
@@ -266,6 +271,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.Stack.Peek
   id: Peek
   parent: System.Collections.Stack
@@ -285,6 +291,7 @@ items:
     content.vb: Public Overridable Function Peek As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Stack.Pop
   id: Pop
   parent: System.Collections.Stack
@@ -304,6 +311,7 @@ items:
     content.vb: Public Overridable Function Pop As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Stack.Push(System.Object)
   id: Push(System.Object)
   parent: System.Collections.Stack
@@ -346,6 +354,7 @@ items:
       type: System.Collections.Stack
     return:
       type: System.Collections.Stack
+      description: 
 - uid: System.Collections.Stack.ToArray
   id: ToArray
   parent: System.Collections.Stack
@@ -365,6 +374,7 @@ items:
     content.vb: Public Overridable Function ToArray As Object()
     return:
       type: System.Object[]
+      description: 
 references:
 - uid: System.Collections
   isExternal: false

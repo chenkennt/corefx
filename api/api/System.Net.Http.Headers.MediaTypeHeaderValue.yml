@@ -22,7 +22,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/MediaTypeHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/MediaTypeHeaderValue.cs
     startLine: 8
   assemblies:
@@ -58,6 +58,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.MediaTypeHeaderValue.Parameters
   id: Parameters
   parent: System.Net.Http.Headers.MediaTypeHeaderValue
@@ -78,6 +79,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{System.Net.Http.Headers.NameValueHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.MediaTypeHeaderValue.MediaType
   id: MediaType
   parent: System.Net.Http.Headers.MediaTypeHeaderValue
@@ -98,6 +100,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.MediaTypeHeaderValue.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue)
   id: '#ctor(System.Net.Http.Headers.MediaTypeHeaderValue)'
   parent: System.Net.Http.Headers.MediaTypeHeaderValue
@@ -157,6 +160,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.MediaTypeHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -180,6 +184,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.MediaTypeHeaderValue.GetHashCode
   id: GetHashCode
@@ -200,6 +205,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.MediaTypeHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -223,6 +229,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.MediaTypeHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.MediaTypeHeaderValue.TryParse(System.String,System.Net.Http.Headers.MediaTypeHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.MediaTypeHeaderValue@)
   parent: System.Net.Http.Headers.MediaTypeHeaderValue
@@ -249,6 +256,7 @@ items:
       type: System.Net.Http.Headers.MediaTypeHeaderValue
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

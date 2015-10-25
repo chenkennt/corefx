@@ -24,7 +24,7 @@ items:
       path: src/System.Security.SecureString/src/System/Security/SecureString.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.SecureString/src/System/Security/SecureString.Windows.cs
     startLine: 9
   assemblies:
@@ -57,7 +57,7 @@ items:
       path: src/System.Security.SecureString/src/System/Security/SecureString.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.SecureString/src/System/Security/SecureString.cs
     startLine: 14
   assemblies:
@@ -108,6 +108,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.SecureString.AppendChar(System.Char)
   id: AppendChar(System.Char)
   parent: System.Security.SecureString
@@ -164,6 +165,7 @@ items:
     content.vb: Public Function Copy As SecureString
     return:
       type: System.Security.SecureString
+      description: 
 - uid: System.Security.SecureString.Dispose
   id: Dispose
   parent: System.Security.SecureString
@@ -222,6 +224,7 @@ items:
     content.vb: Public Function IsReadOnly As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.SecureString.MakeReadOnly
   id: MakeReadOnly
   parent: System.Security.SecureString

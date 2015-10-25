@@ -55,7 +55,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/PortableExecutable/PEHeader.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/PortableExecutable/PEHeader.cs
     startLine: 8
   assemblies:
@@ -577,6 +577,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DllCharacteristics
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.SizeOfStackReserve
   id: SizeOfStackReserve
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -708,6 +709,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ImportTableDirectory
   id: ImportTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -728,6 +730,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ResourceTableDirectory
   id: ResourceTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -748,6 +751,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ExceptionTableDirectory
   id: ExceptionTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -768,6 +772,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.CertificateTableDirectory
   id: CertificateTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -814,6 +819,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.DebugTableDirectory
   id: DebugTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -834,6 +840,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.CopyrightTableDirectory
   id: CopyrightTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -854,6 +861,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.GlobalPointerTableDirectory
   id: GlobalPointerTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -874,6 +882,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ThreadLocalStorageTableDirectory
   id: ThreadLocalStorageTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -894,6 +903,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.LoadConfigTableDirectory
   id: LoadConfigTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -914,6 +924,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.BoundImportTableDirectory
   id: BoundImportTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -934,6 +945,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.ImportAddressTableDirectory
   id: ImportAddressTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -954,6 +966,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.DelayImportTableDirectory
   id: DelayImportTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -974,6 +987,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.PEHeader.CorHeaderTableDirectory
   id: CorHeaderTableDirectory
   parent: System.Reflection.PortableExecutable.PEHeader
@@ -994,6 +1008,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 references:
 - uid: System.Reflection.PortableExecutable
   isExternal: false

@@ -30,7 +30,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/HttpClientHandler.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/HttpClientHandler.Windows.cs
     startLine: 13
   assemblies:
@@ -73,6 +73,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.SupportsProxy
   id: SupportsProxy
   parent: System.Net.Http.HttpClientHandler
@@ -93,6 +94,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.SupportsRedirectConfiguration
   id: SupportsRedirectConfiguration
   parent: System.Net.Http.HttpClientHandler
@@ -113,6 +115,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.UseCookies
   id: UseCookies
   parent: System.Net.Http.HttpClientHandler
@@ -133,6 +136,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.CookieContainer
   id: CookieContainer
   parent: System.Net.Http.HttpClientHandler
@@ -153,6 +157,7 @@ items:
     parameters: []
     return:
       type: CookieContainer
+      description: 
 - uid: System.Net.Http.HttpClientHandler.ClientCertificateOptions
   id: ClientCertificateOptions
   parent: System.Net.Http.HttpClientHandler
@@ -173,6 +178,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.ClientCertificateOption
+      description: 
 - uid: System.Net.Http.HttpClientHandler.AutomaticDecompression
   id: AutomaticDecompression
   parent: System.Net.Http.HttpClientHandler
@@ -193,6 +199,7 @@ items:
     parameters: []
     return:
       type: DecompressionMethods
+      description: 
 - uid: System.Net.Http.HttpClientHandler.UseProxy
   id: UseProxy
   parent: System.Net.Http.HttpClientHandler
@@ -213,6 +220,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.Proxy
   id: Proxy
   parent: System.Net.Http.HttpClientHandler
@@ -233,6 +241,7 @@ items:
     parameters: []
     return:
       type: IWebProxy
+      description: 
 - uid: System.Net.Http.HttpClientHandler.PreAuthenticate
   id: PreAuthenticate
   parent: System.Net.Http.HttpClientHandler
@@ -253,6 +262,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.UseDefaultCredentials
   id: UseDefaultCredentials
   parent: System.Net.Http.HttpClientHandler
@@ -273,6 +283,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.Credentials
   id: Credentials
   parent: System.Net.Http.HttpClientHandler
@@ -293,6 +304,7 @@ items:
     parameters: []
     return:
       type: ICredentials
+      description: 
 - uid: System.Net.Http.HttpClientHandler.AllowAutoRedirect
   id: AllowAutoRedirect
   parent: System.Net.Http.HttpClientHandler
@@ -313,6 +325,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpClientHandler.MaxAutomaticRedirections
   id: MaxAutomaticRedirections
   parent: System.Net.Http.HttpClientHandler
@@ -333,6 +346,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.Http.HttpClientHandler.MaxRequestContentBufferSize
   id: MaxRequestContentBufferSize
   parent: System.Net.Http.HttpClientHandler
@@ -353,6 +367,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Net.Http.HttpClientHandler.#ctor
   id: '#ctor'
   parent: System.Net.Http.HttpClientHandler
@@ -415,6 +430,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
   overridden: System.Net.Http.HttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
 references:
 - uid: System.Net.Http

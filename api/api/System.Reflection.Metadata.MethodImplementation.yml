@@ -16,7 +16,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MethodImplementation.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MethodImplementation.cs
     startLine: 7
   assemblies:
@@ -52,6 +52,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.TypeDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.MethodImplementation.MethodBody
   id: MethodBody
   parent: System.Reflection.Metadata.MethodImplementation
@@ -72,6 +73,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.EntityHandle
+      description: 
 - uid: System.Reflection.Metadata.MethodImplementation.MethodDeclaration
   id: MethodDeclaration
   parent: System.Reflection.Metadata.MethodImplementation
@@ -92,6 +94,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.EntityHandle
+      description: 
 - uid: System.Reflection.Metadata.MethodImplementation.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.MethodImplementation
@@ -111,6 +114,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

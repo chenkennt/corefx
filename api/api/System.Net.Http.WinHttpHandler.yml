@@ -37,7 +37,7 @@ items:
       path: src/System.Net.Http.WinHttpHandler/src/System/Net/Http/WinHttpHandler.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http.WinHttpHandler/src/System/Net/Http/WinHttpHandler.cs
     startLine: 50
   assemblies:
@@ -85,6 +85,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.WinHttpHandler.MaxAutomaticRedirections
   id: MaxAutomaticRedirections
   parent: System.Net.Http.WinHttpHandler
@@ -105,6 +106,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.Http.WinHttpHandler.AutomaticDecompression
   id: AutomaticDecompression
   parent: System.Net.Http.WinHttpHandler
@@ -125,6 +127,7 @@ items:
     parameters: []
     return:
       type: DecompressionMethods
+      description: 
 - uid: System.Net.Http.WinHttpHandler.CookieUsePolicy
   id: CookieUsePolicy
   parent: System.Net.Http.WinHttpHandler
@@ -145,6 +148,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.CookieUsePolicy
+      description: 
 - uid: System.Net.Http.WinHttpHandler.CookieContainer
   id: CookieContainer
   parent: System.Net.Http.WinHttpHandler
@@ -165,6 +169,7 @@ items:
     parameters: []
     return:
       type: CookieContainer
+      description: 
 - uid: System.Net.Http.WinHttpHandler.SslProtocols
   id: SslProtocols
   parent: System.Net.Http.WinHttpHandler
@@ -185,6 +190,7 @@ items:
     parameters: []
     return:
       type: SslProtocols
+      description: 
 - uid: System.Net.Http.WinHttpHandler.ServerCertificateValidationCallback
   id: ServerCertificateValidationCallback
   parent: System.Net.Http.WinHttpHandler
@@ -205,6 +211,7 @@ items:
     parameters: []
     return:
       type: System.Func{HttpRequestMessage,X509Certificate2,X509Chain,SslPolicyErrors,System.Boolean}
+      description: 
 - uid: System.Net.Http.WinHttpHandler.CheckCertificateRevocationList
   id: CheckCertificateRevocationList
   parent: System.Net.Http.WinHttpHandler
@@ -225,6 +232,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.WinHttpHandler.ClientCertificateOption
   id: ClientCertificateOption
   parent: System.Net.Http.WinHttpHandler
@@ -245,6 +253,7 @@ items:
     parameters: []
     return:
       type: ClientCertificateOption
+      description: 
 - uid: System.Net.Http.WinHttpHandler.ClientCertificates
   id: ClientCertificates
   parent: System.Net.Http.WinHttpHandler
@@ -265,6 +274,7 @@ items:
     parameters: []
     return:
       type: X509Certificate2Collection
+      description: 
 - uid: System.Net.Http.WinHttpHandler.PreAuthenticate
   id: PreAuthenticate
   parent: System.Net.Http.WinHttpHandler
@@ -285,6 +295,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.WinHttpHandler.ServerCredentials
   id: ServerCredentials
   parent: System.Net.Http.WinHttpHandler
@@ -305,6 +316,7 @@ items:
     parameters: []
     return:
       type: ICredentials
+      description: 
 - uid: System.Net.Http.WinHttpHandler.WindowsProxyUsePolicy
   id: WindowsProxyUsePolicy
   parent: System.Net.Http.WinHttpHandler
@@ -325,6 +337,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.WindowsProxyUsePolicy
+      description: 
 - uid: System.Net.Http.WinHttpHandler.DefaultProxyCredentials
   id: DefaultProxyCredentials
   parent: System.Net.Http.WinHttpHandler
@@ -345,6 +358,7 @@ items:
     parameters: []
     return:
       type: ICredentials
+      description: 
 - uid: System.Net.Http.WinHttpHandler.Proxy
   id: Proxy
   parent: System.Net.Http.WinHttpHandler
@@ -365,6 +379,7 @@ items:
     parameters: []
     return:
       type: IWebProxy
+      description: 
 - uid: System.Net.Http.WinHttpHandler.MaxConnectionsPerServer
   id: MaxConnectionsPerServer
   parent: System.Net.Http.WinHttpHandler
@@ -385,6 +400,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.Http.WinHttpHandler.ConnectTimeout
   id: ConnectTimeout
   parent: System.Net.Http.WinHttpHandler
@@ -405,6 +421,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 - uid: System.Net.Http.WinHttpHandler.SendTimeout
   id: SendTimeout
   parent: System.Net.Http.WinHttpHandler
@@ -425,6 +442,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 - uid: System.Net.Http.WinHttpHandler.ReceiveHeadersTimeout
   id: ReceiveHeadersTimeout
   parent: System.Net.Http.WinHttpHandler
@@ -445,6 +463,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 - uid: System.Net.Http.WinHttpHandler.ReceiveDataTimeout
   id: ReceiveDataTimeout
   parent: System.Net.Http.WinHttpHandler
@@ -465,6 +484,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 - uid: System.Net.Http.WinHttpHandler.MaxResponseHeadersLength
   id: MaxResponseHeadersLength
   parent: System.Net.Http.WinHttpHandler
@@ -485,6 +505,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.Http.WinHttpHandler.MaxResponseDrainSize
   id: MaxResponseDrainSize
   parent: System.Net.Http.WinHttpHandler
@@ -505,6 +526,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.Http.WinHttpHandler.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.Net.Http.WinHttpHandler
@@ -549,6 +571,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{HttpResponseMessage}
+      description: 
 references:
 - uid: System.Net.Http
   isExternal: false

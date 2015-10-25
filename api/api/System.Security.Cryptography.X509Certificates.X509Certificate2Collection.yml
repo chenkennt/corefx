@@ -33,7 +33,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Certificate2Collection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Certificate2Collection.cs
     startLine: 15
   assemblies:
@@ -183,6 +183,7 @@ items:
       type: System.Int32
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Add(System.Security.Cryptography.X509Certificates.X509Certificate2)
   id: Add(System.Security.Cryptography.X509Certificates.X509Certificate2)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
@@ -205,6 +206,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection.AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2[])
   id: AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2[])
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
@@ -269,6 +271,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Export(System.Security.Cryptography.X509Certificates.X509ContentType)
   id: Export(System.Security.Cryptography.X509Certificates.X509ContentType)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
@@ -291,6 +294,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509ContentType
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String)
   id: Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
@@ -315,6 +319,7 @@ items:
       type: System.String
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Find(System.Security.Cryptography.X509Certificates.X509FindType,System.Object,System.Boolean)
   id: Find(System.Security.Cryptography.X509Certificates.X509FindType,System.Object,System.Boolean)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
@@ -341,6 +346,7 @@ items:
       type: System.Boolean
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection.GetEnumerator
   id: GetEnumerator
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
@@ -360,6 +366,7 @@ items:
     content.vb: Public Function GetEnumerator As X509Certificate2Enumerator
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Import(System.Byte[])
   id: Import(System.Byte[])
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2Collection

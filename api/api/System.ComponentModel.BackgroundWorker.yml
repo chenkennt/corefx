@@ -30,7 +30,7 @@ items:
       path: src/System.ComponentModel.EventBasedAsync/src/System/ComponentModel/BackgroundWorker.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ComponentModel.EventBasedAsync/src/System/ComponentModel/BackgroundWorker.cs
     startLine: 9
   assemblies:
@@ -88,6 +88,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.ComponentModel.BackgroundWorker.CancelAsync
   id: CancelAsync
   parent: System.ComponentModel.BackgroundWorker
@@ -142,6 +143,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.ComponentModel.BackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
   id: OnDoWork(System.ComponentModel.DoWorkEventArgs)
   parent: System.ComponentModel.BackgroundWorker
@@ -335,6 +337,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.ComponentModel.BackgroundWorker.WorkerSupportsCancellation
   id: WorkerSupportsCancellation
   parent: System.ComponentModel.BackgroundWorker
@@ -355,6 +358,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.ComponentModel.BackgroundWorker.Dispose
   id: Dispose
   parent: System.ComponentModel.BackgroundWorker

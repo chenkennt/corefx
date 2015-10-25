@@ -20,7 +20,7 @@ items:
       path: src/System.Xml.XPath.XDocument/src/System/Xml/XPath/XNodeNavigator.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XPath.XDocument/src/System/Xml/XPath/XNodeNavigator.cs
     startLine: 893
   assemblies:
@@ -54,7 +54,7 @@ items:
   assemblies:
   - System.Xml.XPath.XDocument
   namespace: System.Xml.XPath
-  summary: Creates an [System.Xml.XPath.XPathNavigator](System.Xml.XPath.XPathNavigator.yml) for a given <see cref="!:XNode" />
+  summary: Creates an <see cref="!:XPathNavigator" /> for a given <see cref="!:XNode" />
   syntax:
     content: public static XPathNavigator CreateNavigator(XNode node)
     content.vb: Public Shared Function CreateNavigator(node As XNode) As XPathNavigator
@@ -63,8 +63,8 @@ items:
       type: XNode
       description: Extension point <see cref="!:XNode" />
     return:
-      type: System.Xml.XPath.XPathNavigator
-      description: An <see cref="T:System.Xml.XPath.XPathNavigator" />
+      type: XPathNavigator
+      description: An <see cref="!:XPathNavigator" />
 - uid: System.Xml.XPath.Extensions.CreateNavigator(XNode,XmlNameTable)
   id: CreateNavigator(XNode,XmlNameTable)
   parent: System.Xml.XPath.Extensions
@@ -79,7 +79,7 @@ items:
   assemblies:
   - System.Xml.XPath.XDocument
   namespace: System.Xml.XPath
-  summary: Creates an [System.Xml.XPath.XPathNavigator](System.Xml.XPath.XPathNavigator.yml) for a given <see cref="!:XNode" />
+  summary: Creates an <see cref="!:XPathNavigator" /> for a given <see cref="!:XNode" />
   syntax:
     content: public static XPathNavigator CreateNavigator(XNode node, XmlNameTable nameTable)
     content.vb: Public Shared Function CreateNavigator(node As XNode, nameTable As XmlNameTable) As XPathNavigator
@@ -92,10 +92,10 @@ items:
       description: >-
         The <see cref="!:XmlNameTable" /> to be used by
 
-        the <see cref="T:System.Xml.XPath.XPathNavigator" />
+        the <see cref="!:XPathNavigator" />
     return:
-      type: System.Xml.XPath.XPathNavigator
-      description: An <see cref="T:System.Xml.XPath.XPathNavigator" />
+      type: XPathNavigator
+      description: An <see cref="!:XPathNavigator" />
 - uid: System.Xml.XPath.Extensions.XPathEvaluate(XNode,System.String)
   id: XPathEvaluate(XNode,System.String)
   parent: System.Xml.XPath.Extensions
@@ -544,16 +544,14 @@ references:
   isExternal: false
   name: System
   fullName: System
-- uid: System.Xml.XPath.XPathNavigator
-  parent: System.Xml.XPath
-  isExternal: false
-  href: System.Xml.XPath.XPathNavigator.yml
-  name: XPathNavigator
-  fullName: System.Xml.XPath.XPathNavigator
 - uid: XNode
   isExternal: true
   name: XNode
   fullName: XNode
+- uid: XPathNavigator
+  isExternal: true
+  name: XPathNavigator
+  fullName: XPathNavigator
 - uid: XmlNameTable
   isExternal: true
   name: XmlNameTable

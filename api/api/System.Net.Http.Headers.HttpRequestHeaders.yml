@@ -43,7 +43,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/HttpRequestHeaders.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/HttpRequestHeaders.cs
     startLine: 10
   assemblies:
@@ -97,6 +97,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.MediaTypeWithQualityHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.AcceptCharset
   id: AcceptCharset
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -117,6 +118,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.StringWithQualityHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.AcceptEncoding
   id: AcceptEncoding
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -137,6 +139,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.StringWithQualityHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.AcceptLanguage
   id: AcceptLanguage
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -157,6 +160,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.StringWithQualityHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Authorization
   id: Authorization
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -177,6 +181,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.AuthenticationHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Expect
   id: Expect
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -197,6 +202,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.NameValueWithParametersHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.ExpectContinue
   id: ExpectContinue
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -217,6 +223,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.From
   id: From
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -237,6 +244,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Host
   id: Host
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -257,6 +265,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfMatch
   id: IfMatch
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -277,6 +286,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.EntityTagHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfModifiedSince
   id: IfModifiedSince
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -297,6 +307,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfNoneMatch
   id: IfNoneMatch
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -317,6 +328,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.EntityTagHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfRange
   id: IfRange
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -337,6 +349,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.RangeConditionHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.IfUnmodifiedSince
   id: IfUnmodifiedSince
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -357,6 +370,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.MaxForwards
   id: MaxForwards
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -377,6 +391,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Int32}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.ProxyAuthorization
   id: ProxyAuthorization
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -397,6 +412,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.AuthenticationHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Range
   id: Range
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -417,6 +433,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.RangeHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Referrer
   id: Referrer
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -437,6 +454,7 @@ items:
     parameters: []
     return:
       type: Uri
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.TE
   id: TE
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -457,6 +475,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.TransferCodingWithQualityHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.UserAgent
   id: UserAgent
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -477,6 +496,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ProductInfoHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.CacheControl
   id: CacheControl
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -497,6 +517,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.CacheControlHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Connection
   id: Connection
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -517,6 +538,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.ConnectionClose
   id: ConnectionClose
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -537,6 +559,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Date
   id: Date
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -557,6 +580,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Pragma
   id: Pragma
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -577,6 +601,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.NameValueHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Trailer
   id: Trailer
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -597,6 +622,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.TransferEncoding
   id: TransferEncoding
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -617,6 +643,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.TransferCodingHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.TransferEncodingChunked
   id: TransferEncodingChunked
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -637,6 +664,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Upgrade
   id: Upgrade
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -657,6 +685,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ProductHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Via
   id: Via
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -677,6 +706,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ViaHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpRequestHeaders.Warning
   id: Warning
   parent: System.Net.Http.Headers.HttpRequestHeaders
@@ -697,6 +727,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.WarningHeaderValue}
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

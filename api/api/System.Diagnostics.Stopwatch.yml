@@ -25,7 +25,7 @@ items:
       path: src/System.Runtime.Extensions/src/System/Diagnostics/Stopwatch.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Extensions/src/System/Diagnostics/Stopwatch.Windows.cs
     startLine: 5
   assemblies:
@@ -56,7 +56,7 @@ items:
       path: src/System.Runtime.Extensions/src/System/Diagnostics/Stopwatch.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Extensions/src/System/Diagnostics/Stopwatch.cs
     startLine: 22
   assemblies:
@@ -135,6 +135,7 @@ items:
     content.vb: Public Shared Function StartNew As Stopwatch
     return:
       type: System.Diagnostics.Stopwatch
+      description: 
 - uid: System.Diagnostics.Stopwatch.Stop
   id: Stop
   parent: System.Diagnostics.Stopwatch
@@ -206,6 +207,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Diagnostics.Stopwatch.Elapsed
   id: Elapsed
   parent: System.Diagnostics.Stopwatch
@@ -226,6 +228,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 - uid: System.Diagnostics.Stopwatch.ElapsedMilliseconds
   id: ElapsedMilliseconds
   parent: System.Diagnostics.Stopwatch
@@ -246,6 +249,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Stopwatch.ElapsedTicks
   id: ElapsedTicks
   parent: System.Diagnostics.Stopwatch
@@ -266,6 +270,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Stopwatch.GetTimestamp
   id: GetTimestamp
   parent: System.Diagnostics.Stopwatch
@@ -285,6 +290,7 @@ items:
     content.vb: Public Shared Function GetTimestamp As Long
     return:
       type: System.Int64
+      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

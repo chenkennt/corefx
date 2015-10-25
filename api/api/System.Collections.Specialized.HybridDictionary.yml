@@ -31,7 +31,7 @@ items:
       path: src/System.Collections.Specialized/src/System/Collections/Specialized/HybridDictionary.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Specialized/src/System/Collections/Specialized/HybridDictionary.cs
     startLine: 18
   assemblies:
@@ -157,6 +157,7 @@ items:
       type: System.Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.Count
   id: Count
   parent: System.Collections.Specialized.HybridDictionary
@@ -177,6 +178,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.Keys
   id: Keys
   parent: System.Collections.Specialized.HybridDictionary
@@ -197,6 +199,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.IsReadOnly
   id: IsReadOnly
   parent: System.Collections.Specialized.HybridDictionary
@@ -217,6 +220,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.Specialized.HybridDictionary
@@ -237,6 +241,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.Specialized.HybridDictionary
@@ -257,6 +262,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.SyncRoot
   id: SyncRoot
   parent: System.Collections.Specialized.HybridDictionary
@@ -277,6 +283,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.Values
   id: Values
   parent: System.Collections.Specialized.HybridDictionary
@@ -297,6 +304,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.Add(System.Object,System.Object)
   id: Add(System.Object,System.Object)
   parent: System.Collections.Specialized.HybridDictionary
@@ -358,6 +366,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.Specialized.HybridDictionary
@@ -399,6 +408,7 @@ items:
     content.vb: Public Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Specialized.HybridDictionary
@@ -419,6 +429,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.Specialized.HybridDictionary.Remove(System.Object)
   id: Remove(System.Object)
   parent: System.Collections.Specialized.HybridDictionary

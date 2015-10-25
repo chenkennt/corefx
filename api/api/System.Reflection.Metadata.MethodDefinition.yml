@@ -23,7 +23,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MethodDefinition.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MethodDefinition.cs
     startLine: 8
   assemblies:
@@ -59,6 +59,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.Signature
   id: Signature
   parent: System.Reflection.Metadata.MethodDefinition
@@ -79,6 +80,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.BlobHandle
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.RelativeVirtualAddress
   id: RelativeVirtualAddress
   parent: System.Reflection.Metadata.MethodDefinition
@@ -99,6 +101,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.Attributes
   id: Attributes
   parent: System.Reflection.Metadata.MethodDefinition
@@ -119,6 +122,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodAttributes
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.ImplAttributes
   id: ImplAttributes
   parent: System.Reflection.Metadata.MethodDefinition
@@ -139,6 +143,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodImplAttributes
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.GetDeclaringType
   id: GetDeclaringType
   parent: System.Reflection.Metadata.MethodDefinition
@@ -158,6 +163,7 @@ items:
     content.vb: Public Function GetDeclaringType As TypeDefinitionHandle
     return:
       type: System.Reflection.Metadata.TypeDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.GetParameters
   id: GetParameters
   parent: System.Reflection.Metadata.MethodDefinition
@@ -177,6 +183,7 @@ items:
     content.vb: Public Function GetParameters As ParameterHandleCollection
     return:
       type: System.Reflection.Metadata.ParameterHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.GetGenericParameters
   id: GetGenericParameters
   parent: System.Reflection.Metadata.MethodDefinition
@@ -196,6 +203,7 @@ items:
     content.vb: Public Function GetGenericParameters As GenericParameterHandleCollection
     return:
       type: System.Reflection.Metadata.GenericParameterHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.GetImport
   id: GetImport
   parent: System.Reflection.Metadata.MethodDefinition
@@ -215,6 +223,7 @@ items:
     content.vb: Public Function GetImport As MethodImport
     return:
       type: System.Reflection.Metadata.MethodImport
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.MethodDefinition
@@ -234,6 +243,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.MethodDefinition.GetDeclarativeSecurityAttributes
   id: GetDeclarativeSecurityAttributes
   parent: System.Reflection.Metadata.MethodDefinition
@@ -253,6 +263,7 @@ items:
     content.vb: Public Function GetDeclarativeSecurityAttributes As DeclarativeSecurityAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

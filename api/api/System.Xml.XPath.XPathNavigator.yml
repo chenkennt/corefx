@@ -123,7 +123,7 @@ items:
       path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNavigator.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNavigator.cs
     startLine: 15
   assemblies:
@@ -166,6 +166,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Xml.XPath.XPathNavigator.IsNode
   id: IsNode
@@ -187,6 +188,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Xml.XPath.XPathItem.IsNode
 - uid: System.Xml.XPath.XPathNavigator.SetValue(System.String)
   id: SetValue(System.String)
@@ -228,6 +230,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
   overridden: System.Xml.XPath.XPathItem.TypedValue
 - uid: System.Xml.XPath.XPathNavigator.SetTypedValue(System.Object)
   id: SetTypedValue(System.Object)
@@ -269,6 +272,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
   overridden: System.Xml.XPath.XPathItem.ValueType
 - uid: System.Xml.XPath.XPathNavigator.ValueAsBoolean
   id: ValueAsBoolean
@@ -290,6 +294,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Xml.XPath.XPathItem.ValueAsBoolean
 - uid: System.Xml.XPath.XPathNavigator.ValueAsDateTime
   id: ValueAsDateTime
@@ -311,6 +316,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
   overridden: System.Xml.XPath.XPathItem.ValueAsDateTime
 - uid: System.Xml.XPath.XPathNavigator.ValueAsDouble
   id: ValueAsDouble
@@ -332,6 +338,7 @@ items:
     parameters: []
     return:
       type: System.Double
+      description: 
   overridden: System.Xml.XPath.XPathItem.ValueAsDouble
 - uid: System.Xml.XPath.XPathNavigator.ValueAsInt
   id: ValueAsInt
@@ -353,6 +360,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
   overridden: System.Xml.XPath.XPathItem.ValueAsInt
 - uid: System.Xml.XPath.XPathNavigator.ValueAsLong
   id: ValueAsLong
@@ -374,6 +382,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.Xml.XPath.XPathItem.ValueAsLong
 - uid: System.Xml.XPath.XPathNavigator.ValueAs(System.Type,IXmlNamespaceResolver)
   id: ValueAs(System.Type,IXmlNamespaceResolver)
@@ -399,6 +408,7 @@ items:
       type: IXmlNamespaceResolver
     return:
       type: System.Object
+      description: 
   overridden: System.Xml.XPath.XPathItem.ValueAs(System.Type,IXmlNamespaceResolver)
 - uid: System.Xml.XPath.XPathNavigator.CreateNavigator
   id: CreateNavigator
@@ -419,6 +429,7 @@ items:
     content.vb: Public Overridable Function CreateNavigator As XPathNavigator
     return:
       type: System.Xml.XPath.XPathNavigator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.NameTable
   id: NameTable
   parent: System.Xml.XPath.XPathNavigator
@@ -439,6 +450,7 @@ items:
     parameters: []
     return:
       type: XmlNameTable
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.LookupNamespace(System.String)
   id: LookupNamespace(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -461,6 +473,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.LookupPrefix(System.String)
   id: LookupPrefix(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -483,6 +496,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.GetNamespacesInScope(XmlNamespaceScope)
   id: GetNamespacesInScope(XmlNamespaceScope)
   parent: System.Xml.XPath.XPathNavigator
@@ -505,6 +519,7 @@ items:
       type: XmlNamespaceScope
     return:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.NavigatorComparer
   id: NavigatorComparer
   parent: System.Xml.XPath.XPathNavigator
@@ -525,6 +540,7 @@ items:
     parameters: []
     return:
       type: System.Collections.IEqualityComparer
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Clone
   id: Clone
   parent: System.Xml.XPath.XPathNavigator
@@ -544,6 +560,7 @@ items:
     content.vb: Public MustOverride Function Clone As XPathNavigator
     return:
       type: System.Xml.XPath.XPathNavigator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.NodeType
   id: NodeType
   parent: System.Xml.XPath.XPathNavigator
@@ -564,6 +581,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XPath.XPathNodeType
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.LocalName
   id: LocalName
   parent: System.Xml.XPath.XPathNavigator
@@ -584,6 +602,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Name
   id: Name
   parent: System.Xml.XPath.XPathNavigator
@@ -604,6 +623,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.NamespaceURI
   id: NamespaceURI
   parent: System.Xml.XPath.XPathNavigator
@@ -624,6 +644,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Prefix
   id: Prefix
   parent: System.Xml.XPath.XPathNavigator
@@ -644,6 +665,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.BaseURI
   id: BaseURI
   parent: System.Xml.XPath.XPathNavigator
@@ -664,6 +686,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.IsEmptyElement
   id: IsEmptyElement
   parent: System.Xml.XPath.XPathNavigator
@@ -684,6 +707,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.XmlLang
   id: XmlLang
   parent: System.Xml.XPath.XPathNavigator
@@ -704,6 +728,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.ReadSubtree
   id: ReadSubtree
   parent: System.Xml.XPath.XPathNavigator
@@ -723,6 +748,7 @@ items:
     content.vb: Public Overridable Function ReadSubtree As XmlReader
     return:
       type: XmlReader
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.WriteSubtree(XmlWriter)
   id: WriteSubtree(XmlWriter)
   parent: System.Xml.XPath.XPathNavigator
@@ -763,6 +789,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.HasAttributes
   id: HasAttributes
   parent: System.Xml.XPath.XPathNavigator
@@ -783,6 +810,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.GetAttribute(System.String,System.String)
   id: GetAttribute(System.String,System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -807,6 +835,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToAttribute(System.String,System.String)
   id: MoveToAttribute(System.String,System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -831,6 +860,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFirstAttribute
   id: MoveToFirstAttribute
   parent: System.Xml.XPath.XPathNavigator
@@ -850,6 +880,7 @@ items:
     content.vb: Public MustOverride Function MoveToFirstAttribute As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToNextAttribute
   id: MoveToNextAttribute
   parent: System.Xml.XPath.XPathNavigator
@@ -869,6 +900,7 @@ items:
     content.vb: Public MustOverride Function MoveToNextAttribute As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.GetNamespace(System.String)
   id: GetNamespace(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -891,6 +923,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToNamespace(System.String)
   id: MoveToNamespace(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -913,6 +946,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope)
   id: MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope)
   parent: System.Xml.XPath.XPathNavigator
@@ -935,6 +969,7 @@ items:
       type: System.Xml.XPath.XPathNamespaceScope
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope)
   id: MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope)
   parent: System.Xml.XPath.XPathNavigator
@@ -957,6 +992,7 @@ items:
       type: System.Xml.XPath.XPathNamespaceScope
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFirstNamespace
   id: MoveToFirstNamespace
   parent: System.Xml.XPath.XPathNavigator
@@ -976,6 +1012,7 @@ items:
     content.vb: Public Function MoveToFirstNamespace As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToNextNamespace
   id: MoveToNextNamespace
   parent: System.Xml.XPath.XPathNavigator
@@ -995,6 +1032,7 @@ items:
     content.vb: Public Function MoveToNextNamespace As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToNext
   id: MoveToNext
   parent: System.Xml.XPath.XPathNavigator
@@ -1014,6 +1052,7 @@ items:
     content.vb: Public MustOverride Function MoveToNext As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToPrevious
   id: MoveToPrevious
   parent: System.Xml.XPath.XPathNavigator
@@ -1033,6 +1072,7 @@ items:
     content.vb: Public MustOverride Function MoveToPrevious As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFirst
   id: MoveToFirst
   parent: System.Xml.XPath.XPathNavigator
@@ -1052,6 +1092,7 @@ items:
     content.vb: Public Overridable Function MoveToFirst As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFirstChild
   id: MoveToFirstChild
   parent: System.Xml.XPath.XPathNavigator
@@ -1071,6 +1112,7 @@ items:
     content.vb: Public MustOverride Function MoveToFirstChild As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToParent
   id: MoveToParent
   parent: System.Xml.XPath.XPathNavigator
@@ -1090,6 +1132,7 @@ items:
     content.vb: Public MustOverride Function MoveToParent As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToRoot
   id: MoveToRoot
   parent: System.Xml.XPath.XPathNavigator
@@ -1129,6 +1172,7 @@ items:
       type: System.Xml.XPath.XPathNavigator
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToId(System.String)
   id: MoveToId(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1151,6 +1195,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToChild(System.String,System.String)
   id: MoveToChild(System.String,System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1175,6 +1220,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToChild(System.Xml.XPath.XPathNodeType)
   id: MoveToChild(System.Xml.XPath.XPathNodeType)
   parent: System.Xml.XPath.XPathNavigator
@@ -1197,6 +1243,7 @@ items:
       type: System.Xml.XPath.XPathNodeType
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFollowing(System.String,System.String)
   id: MoveToFollowing(System.String,System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1221,6 +1268,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFollowing(System.String,System.String,System.Xml.XPath.XPathNavigator)
   id: MoveToFollowing(System.String,System.String,System.Xml.XPath.XPathNavigator)
   parent: System.Xml.XPath.XPathNavigator
@@ -1247,6 +1295,7 @@ items:
       type: System.Xml.XPath.XPathNavigator
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFollowing(System.Xml.XPath.XPathNodeType)
   id: MoveToFollowing(System.Xml.XPath.XPathNodeType)
   parent: System.Xml.XPath.XPathNavigator
@@ -1269,6 +1318,7 @@ items:
       type: System.Xml.XPath.XPathNodeType
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToFollowing(System.Xml.XPath.XPathNodeType,System.Xml.XPath.XPathNavigator)
   id: MoveToFollowing(System.Xml.XPath.XPathNodeType,System.Xml.XPath.XPathNavigator)
   parent: System.Xml.XPath.XPathNavigator
@@ -1293,6 +1343,7 @@ items:
       type: System.Xml.XPath.XPathNavigator
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToNext(System.String,System.String)
   id: MoveToNext(System.String,System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1317,6 +1368,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.MoveToNext(System.Xml.XPath.XPathNodeType)
   id: MoveToNext(System.Xml.XPath.XPathNodeType)
   parent: System.Xml.XPath.XPathNavigator
@@ -1339,6 +1391,7 @@ items:
       type: System.Xml.XPath.XPathNodeType
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.HasChildren
   id: HasChildren
   parent: System.Xml.XPath.XPathNavigator
@@ -1359,6 +1412,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.IsSamePosition(System.Xml.XPath.XPathNavigator)
   id: IsSamePosition(System.Xml.XPath.XPathNavigator)
   parent: System.Xml.XPath.XPathNavigator
@@ -1381,6 +1435,7 @@ items:
       type: System.Xml.XPath.XPathNavigator
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.IsDescendant(System.Xml.XPath.XPathNavigator)
   id: IsDescendant(System.Xml.XPath.XPathNavigator)
   parent: System.Xml.XPath.XPathNavigator
@@ -1403,6 +1458,7 @@ items:
       type: System.Xml.XPath.XPathNavigator
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.ComparePosition(System.Xml.XPath.XPathNavigator)
   id: ComparePosition(System.Xml.XPath.XPathNavigator)
   parent: System.Xml.XPath.XPathNavigator
@@ -1425,6 +1481,7 @@ items:
       type: System.Xml.XPath.XPathNavigator
     return:
       type: System.Xml.XmlNodeOrder
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Compile(System.String)
   id: Compile(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1447,6 +1504,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XPath.XPathExpression
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectSingleNode(System.String)
   id: SelectSingleNode(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1469,6 +1527,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XPath.XPathNavigator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectSingleNode(System.String,IXmlNamespaceResolver)
   id: SelectSingleNode(System.String,IXmlNamespaceResolver)
   parent: System.Xml.XPath.XPathNavigator
@@ -1493,6 +1552,7 @@ items:
       type: IXmlNamespaceResolver
     return:
       type: System.Xml.XPath.XPathNavigator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectSingleNode(System.Xml.XPath.XPathExpression)
   id: SelectSingleNode(System.Xml.XPath.XPathExpression)
   parent: System.Xml.XPath.XPathNavigator
@@ -1515,6 +1575,7 @@ items:
       type: System.Xml.XPath.XPathExpression
     return:
       type: System.Xml.XPath.XPathNavigator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Select(System.String)
   id: Select(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1537,6 +1598,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Select(System.String,IXmlNamespaceResolver)
   id: Select(System.String,IXmlNamespaceResolver)
   parent: System.Xml.XPath.XPathNavigator
@@ -1561,6 +1623,7 @@ items:
       type: IXmlNamespaceResolver
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Select(System.Xml.XPath.XPathExpression)
   id: Select(System.Xml.XPath.XPathExpression)
   parent: System.Xml.XPath.XPathNavigator
@@ -1583,6 +1646,7 @@ items:
       type: System.Xml.XPath.XPathExpression
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Evaluate(System.String)
   id: Evaluate(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1605,6 +1669,7 @@ items:
       type: System.String
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Evaluate(System.String,IXmlNamespaceResolver)
   id: Evaluate(System.String,IXmlNamespaceResolver)
   parent: System.Xml.XPath.XPathNavigator
@@ -1629,6 +1694,7 @@ items:
       type: IXmlNamespaceResolver
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Evaluate(System.Xml.XPath.XPathExpression)
   id: Evaluate(System.Xml.XPath.XPathExpression)
   parent: System.Xml.XPath.XPathNavigator
@@ -1651,6 +1717,7 @@ items:
       type: System.Xml.XPath.XPathExpression
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Evaluate(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator)
   id: Evaluate(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator)
   parent: System.Xml.XPath.XPathNavigator
@@ -1675,6 +1742,7 @@ items:
       type: System.Xml.XPath.XPathNodeIterator
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Matches(System.Xml.XPath.XPathExpression)
   id: Matches(System.Xml.XPath.XPathExpression)
   parent: System.Xml.XPath.XPathNavigator
@@ -1697,6 +1765,7 @@ items:
       type: System.Xml.XPath.XPathExpression
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.Matches(System.String)
   id: Matches(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1719,6 +1788,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectChildren(System.Xml.XPath.XPathNodeType)
   id: SelectChildren(System.Xml.XPath.XPathNodeType)
   parent: System.Xml.XPath.XPathNavigator
@@ -1741,6 +1811,7 @@ items:
       type: System.Xml.XPath.XPathNodeType
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectChildren(System.String,System.String)
   id: SelectChildren(System.String,System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -1765,6 +1836,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectAncestors(System.Xml.XPath.XPathNodeType,System.Boolean)
   id: SelectAncestors(System.Xml.XPath.XPathNodeType,System.Boolean)
   parent: System.Xml.XPath.XPathNavigator
@@ -1789,6 +1861,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectAncestors(System.String,System.String,System.Boolean)
   id: SelectAncestors(System.String,System.String,System.Boolean)
   parent: System.Xml.XPath.XPathNavigator
@@ -1815,6 +1888,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectDescendants(System.Xml.XPath.XPathNodeType,System.Boolean)
   id: SelectDescendants(System.Xml.XPath.XPathNodeType,System.Boolean)
   parent: System.Xml.XPath.XPathNavigator
@@ -1839,6 +1913,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.SelectDescendants(System.String,System.String,System.Boolean)
   id: SelectDescendants(System.String,System.String,System.Boolean)
   parent: System.Xml.XPath.XPathNavigator
@@ -1865,6 +1940,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.CanEdit
   id: CanEdit
   parent: System.Xml.XPath.XPathNavigator
@@ -1885,6 +1961,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.PrependChild
   id: PrependChild
   parent: System.Xml.XPath.XPathNavigator
@@ -1904,6 +1981,7 @@ items:
     content.vb: Public Overridable Function PrependChild As XmlWriter
     return:
       type: XmlWriter
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.AppendChild
   id: AppendChild
   parent: System.Xml.XPath.XPathNavigator
@@ -1923,6 +2001,7 @@ items:
     content.vb: Public Overridable Function AppendChild As XmlWriter
     return:
       type: XmlWriter
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.InsertAfter
   id: InsertAfter
   parent: System.Xml.XPath.XPathNavigator
@@ -1942,6 +2021,7 @@ items:
     content.vb: Public Overridable Function InsertAfter As XmlWriter
     return:
       type: XmlWriter
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.InsertBefore
   id: InsertBefore
   parent: System.Xml.XPath.XPathNavigator
@@ -1961,6 +2041,7 @@ items:
     content.vb: Public Overridable Function InsertBefore As XmlWriter
     return:
       type: XmlWriter
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.CreateAttributes
   id: CreateAttributes
   parent: System.Xml.XPath.XPathNavigator
@@ -1980,6 +2061,7 @@ items:
     content.vb: Public Overridable Function CreateAttributes As XmlWriter
     return:
       type: XmlWriter
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.ReplaceRange(System.Xml.XPath.XPathNavigator)
   id: ReplaceRange(System.Xml.XPath.XPathNavigator)
   parent: System.Xml.XPath.XPathNavigator
@@ -2002,6 +2084,7 @@ items:
       type: System.Xml.XPath.XPathNavigator
     return:
       type: XmlWriter
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.ReplaceSelf(System.String)
   id: ReplaceSelf(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -2082,6 +2165,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.InnerXml
   id: InnerXml
   parent: System.Xml.XPath.XPathNavigator
@@ -2102,6 +2186,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathNavigator.AppendChild(System.String)
   id: AppendChild(System.String)
   parent: System.Xml.XPath.XPathNavigator
@@ -2958,6 +3043,7 @@ references:
   href: System.Xml.XPath.XPathNavigator.yml
   name: XPathNavigator
   fullName: System.Xml.XPath.XPathNavigator
+  type: Class
 - uid: XmlNameTable
   isExternal: true
   name: XmlNameTable

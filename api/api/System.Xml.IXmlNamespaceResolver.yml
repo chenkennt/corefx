@@ -15,7 +15,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/IXmlNamespaceResolver.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/IXmlNamespaceResolver.cs
     startLine: 11
   assemblies:
@@ -46,6 +46,7 @@ items:
       type: System.Xml.XmlNamespaceScope
     return:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
+      description: 
 - uid: System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String)
   id: LookupNamespace(System.String)
   parent: System.Xml.IXmlNamespaceResolver
@@ -68,6 +69,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String)
   id: LookupPrefix(System.String)
   parent: System.Xml.IXmlNamespaceResolver
@@ -90,6 +92,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

@@ -78,7 +78,7 @@ items:
       path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
     startLine: 15
   assemblies:
@@ -110,7 +110,7 @@ items:
       path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
     startLine: 70
   assemblies:
@@ -173,6 +173,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeProcessHandle
+      description: 
 - uid: System.Diagnostics.Process.BasePriority
   id: BasePriority
   parent: System.Diagnostics.Process
@@ -353,6 +354,7 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.ProcessModuleCollection
+      description: 
 - uid: System.Diagnostics.Process.NonpagedSystemMemorySize64
   id: NonpagedSystemMemorySize64
   parent: System.Diagnostics.Process
@@ -373,6 +375,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.PagedMemorySize64
   id: PagedMemorySize64
   parent: System.Diagnostics.Process
@@ -393,6 +396,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.PagedSystemMemorySize64
   id: PagedSystemMemorySize64
   parent: System.Diagnostics.Process
@@ -413,6 +417,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.PeakPagedMemorySize64
   id: PeakPagedMemorySize64
   parent: System.Diagnostics.Process
@@ -433,6 +438,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.PeakWorkingSet64
   id: PeakWorkingSet64
   parent: System.Diagnostics.Process
@@ -453,6 +459,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.PeakVirtualMemorySize64
   id: PeakVirtualMemorySize64
   parent: System.Diagnostics.Process
@@ -473,6 +480,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.PriorityBoostEnabled
   id: PriorityBoostEnabled
   parent: System.Diagnostics.Process
@@ -533,6 +541,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.ProcessName
   id: ProcessName
   parent: System.Diagnostics.Process
@@ -593,6 +602,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Diagnostics.Process.StartInfo
   id: StartInfo
   parent: System.Diagnostics.Process
@@ -653,6 +663,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.EnableRaisingEvents
   id: EnableRaisingEvents
   parent: System.Diagnostics.Process
@@ -753,6 +764,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Diagnostics.Process.Exited
   id: Exited
   parent: System.Diagnostics.Process
@@ -1023,6 +1035,7 @@ items:
       type: System.String
     return:
       type: System.Diagnostics.Process
+      description: 
 - uid: System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
   id: Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
   parent: System.Diagnostics.Process
@@ -1053,6 +1066,7 @@ items:
       type: System.String
     return:
       type: System.Diagnostics.Process
+      description: 
 - uid: System.Diagnostics.Process.Start(System.String)
   id: Start(System.String)
   parent: System.Diagnostics.Process
@@ -1140,6 +1154,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Diagnostics.Process.WaitForExit
   id: WaitForExit

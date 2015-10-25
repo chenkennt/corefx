@@ -28,7 +28,7 @@ items:
       path: src/System.Private.DataContractSerialization/src/System/Xml/UniqueId.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.DataContractSerialization/src/System/Xml/UniqueId.cs
     startLine: 14
   assemblies:
@@ -193,6 +193,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.UniqueId.IsGuid
   id: IsGuid
   parent: System.Xml.UniqueId
@@ -213,6 +214,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.UniqueId.ToCharArray(System.Char[],System.Int32)
   id: ToCharArray(System.Char[],System.Int32)
   parent: System.Xml.UniqueId
@@ -263,6 +265,7 @@ items:
       type: System.Guid
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.UniqueId.TryGetGuid(System.Byte[],System.Int32)
   id: TryGetGuid(System.Byte[],System.Int32)
   parent: System.Xml.UniqueId
@@ -333,6 +336,7 @@ items:
       type: System.Xml.UniqueId
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.UniqueId.op_Inequality(System.Xml.UniqueId,System.Xml.UniqueId)
   id: op_Inequality(System.Xml.UniqueId,System.Xml.UniqueId)
   parent: System.Xml.UniqueId
@@ -357,6 +361,7 @@ items:
       type: System.Xml.UniqueId
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.UniqueId.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Xml.UniqueId
@@ -379,6 +384,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Xml.UniqueId.GetHashCode
   id: GetHashCode
@@ -399,6 +405,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Xml

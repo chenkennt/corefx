@@ -19,7 +19,7 @@ items:
       path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HMAC.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HMAC.cs
     startLine: 9
   assemblies:
@@ -84,6 +84,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.HMAC.Key
   id: Key
   parent: System.Security.Cryptography.HMAC
@@ -104,6 +105,7 @@ items:
     parameters: []
     return:
       type: System.Byte[]
+      description: 
   overridden: System.Security.Cryptography.KeyedHashAlgorithm.Key
 - uid: System.Security.Cryptography.HMAC.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -172,6 +174,7 @@ items:
     content.vb: Protected Overrides Function HashFinal As Byte()
     return:
       type: System.Byte[]
+      description: 
   overridden: System.Security.Cryptography.HashAlgorithm.HashFinal
 - uid: System.Security.Cryptography.HMAC.Initialize
   id: Initialize

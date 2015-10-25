@@ -65,7 +65,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlDocument.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlDocument.cs
     startLine: 12
   assemblies:
@@ -193,6 +193,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlDocument.NodeType
   id: NodeType
@@ -214,6 +215,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlDocument.ParentNode
   id: ParentNode
@@ -235,6 +237,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.ParentNode
 - uid: System.Xml.XmlDocument.Implementation
   id: Implementation
@@ -256,6 +259,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlImplementation
+      description: 
 - uid: System.Xml.XmlDocument.Name
   id: Name
   parent: System.Xml.XmlDocument
@@ -276,6 +280,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlDocument.LocalName
   id: LocalName
@@ -297,6 +302,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlDocument.DocumentElement
   id: DocumentElement
@@ -318,6 +324,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlElement
+      description: 
 - uid: System.Xml.XmlDocument.OwnerDocument
   id: OwnerDocument
   parent: System.Xml.XmlDocument
@@ -338,6 +345,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlDocument
+      description: 
   overridden: System.Xml.XmlNode.OwnerDocument
 - uid: System.Xml.XmlDocument.CreateAttribute(System.String)
   id: CreateAttribute(System.String)
@@ -361,6 +369,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlDocument.CreateCDataSection(System.String)
   id: CreateCDataSection(System.String)
   parent: System.Xml.XmlDocument
@@ -383,6 +392,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlCDataSection
+      description: 
 - uid: System.Xml.XmlDocument.CreateComment(System.String)
   id: CreateComment(System.String)
   parent: System.Xml.XmlDocument
@@ -405,6 +415,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlComment
+      description: 
 - uid: System.Xml.XmlDocument.CreateDocumentFragment
   id: CreateDocumentFragment
   parent: System.Xml.XmlDocument
@@ -424,6 +435,7 @@ items:
     content.vb: Public Overridable Function CreateDocumentFragment As XmlDocumentFragment
     return:
       type: System.Xml.XmlDocumentFragment
+      description: 
 - uid: System.Xml.XmlDocument.CreateElement(System.String)
   id: CreateElement(System.String)
   parent: System.Xml.XmlDocument
@@ -446,6 +458,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlElement
+      description: 
 - uid: System.Xml.XmlDocument.CreateProcessingInstruction(System.String,System.String)
   id: CreateProcessingInstruction(System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -470,6 +483,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlProcessingInstruction
+      description: 
 - uid: System.Xml.XmlDocument.CreateXmlDeclaration(System.String,System.String,System.String)
   id: CreateXmlDeclaration(System.String,System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -496,6 +510,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlDeclaration
+      description: 
 - uid: System.Xml.XmlDocument.CreateTextNode(System.String)
   id: CreateTextNode(System.String)
   parent: System.Xml.XmlDocument
@@ -518,6 +533,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlText
+      description: 
 - uid: System.Xml.XmlDocument.CreateSignificantWhitespace(System.String)
   id: CreateSignificantWhitespace(System.String)
   parent: System.Xml.XmlDocument
@@ -540,6 +556,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlSignificantWhitespace
+      description: 
 - uid: System.Xml.XmlDocument.CreateWhitespace(System.String)
   id: CreateWhitespace(System.String)
   parent: System.Xml.XmlDocument
@@ -562,6 +579,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlWhitespace
+      description: 
 - uid: System.Xml.XmlDocument.GetElementsByTagName(System.String)
   id: GetElementsByTagName(System.String)
   parent: System.Xml.XmlDocument
@@ -584,6 +602,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNodeList
+      description: 
 - uid: System.Xml.XmlDocument.CreateAttribute(System.String,System.String)
   id: CreateAttribute(System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -608,6 +627,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlDocument.CreateElement(System.String,System.String)
   id: CreateElement(System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -632,6 +652,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlElement
+      description: 
 - uid: System.Xml.XmlDocument.GetElementsByTagName(System.String,System.String)
   id: GetElementsByTagName(System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -656,6 +677,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNodeList
+      description: 
 - uid: System.Xml.XmlDocument.ImportNode(System.Xml.XmlNode,System.Boolean)
   id: ImportNode(System.Xml.XmlNode,System.Boolean)
   parent: System.Xml.XmlDocument
@@ -680,6 +702,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlDocument.NameTable
   id: NameTable
   parent: System.Xml.XmlDocument
@@ -700,6 +723,7 @@ items:
     parameters: []
     return:
       type: XmlNameTable
+      description: 
 - uid: System.Xml.XmlDocument.CreateAttribute(System.String,System.String,System.String)
   id: CreateAttribute(System.String,System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -726,6 +750,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlDocument.CreateElement(System.String,System.String,System.String)
   id: CreateElement(System.String,System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -752,6 +777,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlElement
+      description: 
 - uid: System.Xml.XmlDocument.PreserveWhitespace
   id: PreserveWhitespace
   parent: System.Xml.XmlDocument
@@ -772,6 +798,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlDocument.IsReadOnly
   id: IsReadOnly
   parent: System.Xml.XmlDocument
@@ -792,6 +819,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Xml.XmlNode.IsReadOnly
 - uid: System.Xml.XmlDocument.CreateNode(XmlNodeType,System.String,System.String,System.String)
   id: CreateNode(XmlNodeType,System.String,System.String,System.String)
@@ -821,6 +849,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlDocument.CreateNode(System.String,System.String,System.String)
   id: CreateNode(System.String,System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -847,6 +876,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlDocument.CreateNode(XmlNodeType,System.String,System.String)
   id: CreateNode(XmlNodeType,System.String,System.String)
   parent: System.Xml.XmlDocument
@@ -873,6 +903,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlDocument.ReadNode(XmlReader)
   id: ReadNode(XmlReader)
   parent: System.Xml.XmlDocument
@@ -895,6 +926,7 @@ items:
       type: XmlReader
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlDocument.Load(System.IO.Stream)
   id: Load(System.IO.Stream)
   parent: System.Xml.XmlDocument
@@ -995,6 +1027,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerText
 - uid: System.Xml.XmlDocument.InnerXml
   id: InnerXml
@@ -1016,6 +1049,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerXml
 - uid: System.Xml.XmlDocument.Save(System.IO.Stream)
   id: Save(System.IO.Stream)
@@ -1241,6 +1275,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.BaseURI
 references:
 - uid: System.Xml

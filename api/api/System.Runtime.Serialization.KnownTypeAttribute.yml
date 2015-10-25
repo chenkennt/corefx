@@ -16,7 +16,7 @@ items:
       path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/KnownTypeAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/KnownTypeAttribute.cs
     startLine: 5
   assemblies:
@@ -137,6 +137,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.KnownTypeAttribute.Type
   id: Type
   parent: System.Runtime.Serialization.KnownTypeAttribute
@@ -157,6 +158,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

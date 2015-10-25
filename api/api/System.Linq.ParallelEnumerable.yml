@@ -215,7 +215,7 @@ items:
       path: src/System.Linq.Parallel/src/System/Linq/ParallelEnumerable.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Parallel/src/System/Linq/ParallelEnumerable.cs
     startLine: 54
   assemblies:
@@ -1762,6 +1762,7 @@ items:
     - id: TCollection
       description: The type of the intermediate elements collected by <paramref name="collectionSelector" />.
     - id: TResult
+      description: 
     return:
       type: System.Linq.ParallelQuery{{TResult}}
       description: >-
@@ -13204,10 +13205,12 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - {}
+  - name: 
+    fullName: 
   - name: ', '
     fullName: ', '
-  - {}
+  - name: 
+    fullName: 
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -13217,10 +13220,12 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - {}
+  - name: 
+    fullName: 
   - name: ', '
     fullName: ', '
-  - {}
+  - name: 
+    fullName: 
   - name: )
     fullName: )
 - uid: ILookup{{TKey},{TElement}}

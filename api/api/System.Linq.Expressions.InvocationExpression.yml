@@ -20,7 +20,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/InvocationExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/InvocationExpression.cs
     startLine: 15
   assemblies:
@@ -501,6 +501,7 @@ items:
       type: System.Int32
     return:
       type: System.Linq.Expressions.Expression
+      description: 
 - uid: System.Linq.Expressions.InvocationExpression.ArgumentCount
   id: ArgumentCount
   parent: System.Linq.Expressions.InvocationExpression
@@ -521,6 +522,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.Expressions.InvocationExpression.Accept(System.Linq.Expressions.ExpressionVisitor)
   id: Accept(System.Linq.Expressions.ExpressionVisitor)
   parent: System.Linq.Expressions.InvocationExpression

@@ -45,7 +45,7 @@ items:
       path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
     startLine: 83
   assemblies:
@@ -145,6 +145,7 @@ items:
       type: System.Boolean
     return:
       type: Microsoft.Win32.RegistryKey
+      description: 
 - uid: Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
   id: CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
   parent: Microsoft.Win32.RegistryKey
@@ -171,6 +172,7 @@ items:
       type: Microsoft.Win32.RegistryOptions
     return:
       type: Microsoft.Win32.RegistryKey
+      description: 
 - uid: Microsoft.Win32.RegistryKey.DeleteSubKey(System.String)
   id: DeleteSubKey(System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -321,6 +323,7 @@ items:
       type: Microsoft.Win32.RegistryView
     return:
       type: Microsoft.Win32.RegistryKey
+      description: 
 - uid: Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
   id: OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -371,6 +374,7 @@ items:
       type: Microsoft.Win32.RegistryView
     return:
       type: Microsoft.Win32.RegistryKey
+      description: 
 - uid: Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Boolean)
   id: OpenSubKey(System.String,System.Boolean)
   parent: Microsoft.Win32.RegistryKey
@@ -419,6 +423,7 @@ items:
       type: System.Security.AccessControl.RegistryRights
     return:
       type: Microsoft.Win32.RegistryKey
+      description: 
 - uid: Microsoft.Win32.RegistryKey.OpenSubKey(System.String)
   id: OpenSubKey(System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -481,6 +486,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.RegistryView
+      description: 
 - uid: Microsoft.Win32.RegistryKey.Handle
   id: Handle
   parent: Microsoft.Win32.RegistryKey
@@ -501,6 +507,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+      description: 
 - uid: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
   id: FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
   parent: Microsoft.Win32.RegistryKey
@@ -523,6 +530,7 @@ items:
       type: Microsoft.Win32.SafeHandles.SafeRegistryHandle
     return:
       type: Microsoft.Win32.RegistryKey
+      description: 
 - uid: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
   id: FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
   parent: Microsoft.Win32.RegistryKey
@@ -547,6 +555,7 @@ items:
       type: Microsoft.Win32.RegistryView
     return:
       type: Microsoft.Win32.RegistryKey
+      description: 
 - uid: Microsoft.Win32.RegistryKey.GetSubKeyNames
   id: GetSubKeyNames
   parent: Microsoft.Win32.RegistryKey
@@ -677,6 +686,7 @@ items:
       type: Microsoft.Win32.RegistryValueOptions
     return:
       type: System.Object
+      description: 
 - uid: Microsoft.Win32.RegistryKey.GetValueKind(System.String)
   id: GetValueKind(System.String)
   parent: Microsoft.Win32.RegistryKey
@@ -699,6 +709,7 @@ items:
       type: System.String
     return:
       type: Microsoft.Win32.RegistryValueKind
+      description: 
 - uid: Microsoft.Win32.RegistryKey.Name
   id: Name
   parent: Microsoft.Win32.RegistryKey
@@ -719,6 +730,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object)
   id: SetValue(System.String,System.Object)
   parent: Microsoft.Win32.RegistryKey

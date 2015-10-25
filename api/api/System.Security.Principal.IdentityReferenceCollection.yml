@@ -26,7 +26,7 @@ items:
       path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
     startLine: 12
   assemblies:
@@ -130,6 +130,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.System#Collections#Generic#ICollection{System#Security#Principal#IdentityReference}#IsReadOnly
   id: System#Collections#Generic#ICollection{System#Security#Principal#IdentityReference}#IsReadOnly
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -151,6 +152,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.Add(System.Security.Principal.IdentityReference)
   id: Add(System.Security.Principal.IdentityReference)
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -193,6 +195,7 @@ items:
       type: System.Security.Principal.IdentityReference
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.Clear
   id: Clear
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -232,6 +235,7 @@ items:
       type: System.Security.Principal.IdentityReference
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -252,6 +256,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -271,6 +276,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of IdentityReference)
     return:
       type: System.Collections.Generic.IEnumerator{System.Security.Principal.IdentityReference}
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -295,6 +301,7 @@ items:
       type: System.Int32
     return:
       type: System.Security.Principal.IdentityReference
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.Translate(System.Type)
   id: Translate(System.Type)
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -317,6 +324,7 @@ items:
       type: System.Type
     return:
       type: System.Security.Principal.IdentityReferenceCollection
+      description: 
 - uid: System.Security.Principal.IdentityReferenceCollection.Translate(System.Type,System.Boolean)
   id: Translate(System.Type,System.Boolean)
   parent: System.Security.Principal.IdentityReferenceCollection
@@ -341,6 +349,7 @@ items:
       type: System.Boolean
     return:
       type: System.Security.Principal.IdentityReferenceCollection
+      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false

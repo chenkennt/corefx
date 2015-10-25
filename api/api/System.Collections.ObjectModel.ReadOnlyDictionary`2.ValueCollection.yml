@@ -26,7 +26,7 @@ items:
       path: src/System.ObjectModel/src/System/Collections/ObjectModel/ReadOnlyDictionary.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ObjectModel/src/System/Collections/ObjectModel/ReadOnlyDictionary.cs
     startLine: 522
   assemblies:
@@ -116,6 +116,7 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.CopyTo(`1[],System.Int32)
   id: CopyTo(`1[],System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
@@ -161,6 +162,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#IsReadOnly
   id: System#Collections#Generic#ICollection{TValue}#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
@@ -183,6 +185,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#Remove(`1)
   id: System#Collections#Generic#ICollection{TValue}#Remove(`1)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
@@ -207,6 +210,7 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
@@ -227,6 +231,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of TValue)
     return:
       type: System.Collections.Generic.IEnumerator{{TValue}}
+      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
@@ -248,6 +253,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
@@ -294,6 +300,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
@@ -316,6 +323,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 references:
 - uid: System.Collections.ObjectModel
   isExternal: false

@@ -16,7 +16,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
     startLine: 1250
   assemblies:
@@ -57,6 +57,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinitionHandleCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Reflection.Metadata.TypeDefinitionHandleCollection
@@ -76,6 +77,7 @@ items:
     content.vb: Public Function GetEnumerator As TypeDefinitionHandleCollection.Enumerator
     return:
       type: System.Reflection.Metadata.TypeDefinitionHandleCollection.Enumerator
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinitionHandleCollection.System#Collections#Generic#IEnumerable{System#Reflection#Metadata#TypeDefinitionHandle}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{System#Reflection#Metadata#TypeDefinitionHandle}#GetEnumerator
   parent: System.Reflection.Metadata.TypeDefinitionHandleCollection
@@ -96,6 +98,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Reflection.Metadata.TypeDefinitionHandle>.GetEnumerator As IEnumerator(Of TypeDefinitionHandle) Implements IEnumerable(Of TypeDefinitionHandle).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Reflection.Metadata.TypeDefinitionHandle}
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinitionHandleCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Reflection.Metadata.TypeDefinitionHandleCollection
@@ -116,6 +119,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Reflection.Metadata.TypeDefinitionHandle
   parent: System.Reflection.Metadata

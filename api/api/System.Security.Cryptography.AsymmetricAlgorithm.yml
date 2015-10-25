@@ -17,7 +17,7 @@ items:
       path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/AsymmetricAlgorithm.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/AsymmetricAlgorithm.cs
     startLine: 8
   assemblies:
@@ -75,6 +75,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes
   id: LegalKeySizes
   parent: System.Security.Cryptography.AsymmetricAlgorithm
@@ -95,6 +96,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.KeySizes[]
+      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
   id: Dispose
   parent: System.Security.Cryptography.AsymmetricAlgorithm

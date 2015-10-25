@@ -15,7 +15,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
     startLine: 1624
   assemblies:
@@ -51,6 +51,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MethodDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.EventAccessors.Remover
   id: Remover
   parent: System.Reflection.Metadata.EventAccessors
@@ -71,6 +72,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MethodDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.EventAccessors.Raiser
   id: Raiser
   parent: System.Reflection.Metadata.EventAccessors
@@ -91,6 +93,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.MethodDefinitionHandle
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

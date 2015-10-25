@@ -37,7 +37,7 @@ items:
       path: src/System.Collections.Specialized/src/System/Collections/Specialized/StringCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Specialized/src/System/Collections/Specialized/StringCollection.cs
     startLine: 11
   assemblies:
@@ -125,6 +125,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#IsFixedSize
   id: System#Collections#IList#IsFixedSize
   parent: System.Collections.Specialized.StringCollection
@@ -146,6 +147,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.StringCollection.Add(System.String)
   id: Add(System.String)
   parent: System.Collections.Specialized.StringCollection
@@ -440,6 +442,7 @@ items:
       type: System.Int32
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#Add(System.Object)
   id: System#Collections#IList#Add(System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -463,6 +466,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#Contains(System.Object)
   id: System#Collections#IList#Contains(System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -486,6 +490,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#IndexOf(System.Object)
   id: System#Collections#IList#IndexOf(System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -509,6 +514,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Specialized.StringCollection.System#Collections#IList#Insert(System.Int32,System.Object)
   id: System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Collections.Specialized.StringCollection
@@ -596,6 +602,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Collections.Specialized
   isExternal: false

@@ -19,7 +19,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/AssemblyReference.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/AssemblyReference.cs
     startLine: 8
   assemblies:
@@ -55,6 +55,7 @@ items:
     parameters: []
     return:
       type: System.Version
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.Flags
   id: Flags
   parent: System.Reflection.Metadata.AssemblyReference
@@ -75,6 +76,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.AssemblyFlags
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.Name
   id: Name
   parent: System.Reflection.Metadata.AssemblyReference
@@ -95,6 +97,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.Culture
   id: Culture
   parent: System.Reflection.Metadata.AssemblyReference
@@ -115,6 +118,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.PublicKeyOrToken
   id: PublicKeyOrToken
   parent: System.Reflection.Metadata.AssemblyReference
@@ -135,6 +139,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.BlobHandle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.HashValue
   id: HashValue
   parent: System.Reflection.Metadata.AssemblyReference
@@ -155,6 +160,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.BlobHandle
+      description: 
 - uid: System.Reflection.Metadata.AssemblyReference.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.AssemblyReference
@@ -174,6 +180,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

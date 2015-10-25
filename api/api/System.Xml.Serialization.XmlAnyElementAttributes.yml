@@ -34,7 +34,7 @@ items:
       path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlAnyElementAttributes.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlAnyElementAttributes.cs
     startLine: 18
   assemblies:
@@ -233,6 +233,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.Clear
   id: Clear
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -291,6 +292,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#IList#IsFixedSize
   id: System#Collections#IList#IsFixedSize
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -312,6 +314,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -333,6 +336,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -354,6 +358,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -401,6 +406,7 @@ items:
       type: System.Int32
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#IList#Contains(System.Object)
   id: System#Collections#IList#Contains(System.Object)
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -424,6 +430,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#IList#Add(System.Object)
   id: System#Collections#IList#Add(System.Object)
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -447,6 +454,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#IList#Remove(System.Object)
   id: System#Collections#IList#Remove(System.Object)
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -491,6 +499,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.Serialization.XmlAnyElementAttributes.System#Collections#IList#Insert(System.Int32,System.Object)
   id: System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Xml.Serialization.XmlAnyElementAttributes
@@ -533,6 +542,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Xml.Serialization
   isExternal: false

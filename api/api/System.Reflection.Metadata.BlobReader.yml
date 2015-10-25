@@ -41,7 +41,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/BlobReader.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/BlobReader.cs
     startLine: 10
   assemblies:
@@ -99,6 +99,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.Offset
   id: Offset
   parent: System.Reflection.Metadata.BlobReader
@@ -119,6 +120,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.RemainingBytes
   id: RemainingBytes
   parent: System.Reflection.Metadata.BlobReader
@@ -139,6 +141,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.Reset
   id: Reset
   parent: System.Reflection.Metadata.BlobReader
@@ -175,6 +178,7 @@ items:
     content.vb: Public Function ReadBoolean As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadSByte
   id: ReadSByte
   parent: System.Reflection.Metadata.BlobReader
@@ -194,6 +198,7 @@ items:
     content.vb: Public Function ReadSByte As SByte
     return:
       type: System.SByte
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadByte
   id: ReadByte
   parent: System.Reflection.Metadata.BlobReader
@@ -213,6 +218,7 @@ items:
     content.vb: Public Function ReadByte As Byte
     return:
       type: System.Byte
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadChar
   id: ReadChar
   parent: System.Reflection.Metadata.BlobReader
@@ -232,6 +238,7 @@ items:
     content.vb: Public Function ReadChar As Char
     return:
       type: System.Char
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadInt16
   id: ReadInt16
   parent: System.Reflection.Metadata.BlobReader
@@ -251,6 +258,7 @@ items:
     content.vb: Public Function ReadInt16 As Short
     return:
       type: System.Int16
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUInt16
   id: ReadUInt16
   parent: System.Reflection.Metadata.BlobReader
@@ -270,6 +278,7 @@ items:
     content.vb: Public Function ReadUInt16 As UShort
     return:
       type: System.UInt16
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadInt32
   id: ReadInt32
   parent: System.Reflection.Metadata.BlobReader
@@ -289,6 +298,7 @@ items:
     content.vb: Public Function ReadInt32 As Integer
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUInt32
   id: ReadUInt32
   parent: System.Reflection.Metadata.BlobReader
@@ -308,6 +318,7 @@ items:
     content.vb: Public Function ReadUInt32 As UInteger
     return:
       type: System.UInt32
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadInt64
   id: ReadInt64
   parent: System.Reflection.Metadata.BlobReader
@@ -327,6 +338,7 @@ items:
     content.vb: Public Function ReadInt64 As Long
     return:
       type: System.Int64
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUInt64
   id: ReadUInt64
   parent: System.Reflection.Metadata.BlobReader
@@ -346,6 +358,7 @@ items:
     content.vb: Public Function ReadUInt64 As ULong
     return:
       type: System.UInt64
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadSingle
   id: ReadSingle
   parent: System.Reflection.Metadata.BlobReader
@@ -365,6 +378,7 @@ items:
     content.vb: Public Function ReadSingle As Single
     return:
       type: System.Single
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadDouble
   id: ReadDouble
   parent: System.Reflection.Metadata.BlobReader
@@ -384,6 +398,7 @@ items:
     content.vb: Public Function ReadDouble As Double
     return:
       type: System.Double
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadSignatureHeader
   id: ReadSignatureHeader
   parent: System.Reflection.Metadata.BlobReader
@@ -403,6 +418,7 @@ items:
     content.vb: Public Function ReadSignatureHeader As SignatureHeader
     return:
       type: System.Reflection.Metadata.SignatureHeader
+      description: 
 - uid: System.Reflection.Metadata.BlobReader.ReadUTF8(System.Int32)
   id: ReadUTF8(System.Int32)
   parent: System.Reflection.Metadata.BlobReader

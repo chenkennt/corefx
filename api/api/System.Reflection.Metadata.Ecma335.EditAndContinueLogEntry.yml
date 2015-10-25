@@ -18,7 +18,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Ecma335/EditAndContinueLogEntry.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Ecma335/EditAndContinueLogEntry.cs
     startLine: 5
   assemblies:
@@ -76,6 +76,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.EntityHandle
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry.Operation
   id: Operation
   parent: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry
@@ -96,6 +97,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.Ecma335.EditAndContinueOperation
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry
@@ -118,6 +120,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry.Equals(System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry)
   id: Equals(System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry)
@@ -141,6 +144,7 @@ items:
       type: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry
@@ -160,6 +164,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 references:
 - uid: System.Reflection.Metadata.Ecma335

@@ -23,7 +23,7 @@ items:
       path: src/System.Net.Requests/src/System/Net/HttpWebResponse.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Requests/src/System/Net/HttpWebResponse.cs
     startLine: 18
   assemblies:
@@ -66,6 +66,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.Net.WebResponse.ContentLength
 - uid: System.Net.HttpWebResponse.ContentType
   id: ContentType
@@ -87,6 +88,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Net.WebResponse.ContentType
 - uid: System.Net.HttpWebResponse.Cookies
   id: Cookies
@@ -108,6 +110,7 @@ items:
     parameters: []
     return:
       type: CookieCollection
+      description: 
 - uid: System.Net.HttpWebResponse.Headers
   id: Headers
   parent: System.Net.HttpWebResponse
@@ -128,6 +131,7 @@ items:
     parameters: []
     return:
       type: WebHeaderCollection
+      description: 
   overridden: System.Net.WebResponse.Headers
 - uid: System.Net.HttpWebResponse.Method
   id: Method
@@ -149,6 +153,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.HttpWebResponse.ResponseUri
   id: ResponseUri
   parent: System.Net.HttpWebResponse
@@ -169,6 +174,7 @@ items:
     parameters: []
     return:
       type: Uri
+      description: 
   overridden: System.Net.WebResponse.ResponseUri
 - uid: System.Net.HttpWebResponse.StatusCode
   id: StatusCode
@@ -190,6 +196,7 @@ items:
     parameters: []
     return:
       type: HttpStatusCode
+      description: 
 - uid: System.Net.HttpWebResponse.StatusDescription
   id: StatusDescription
   parent: System.Net.HttpWebResponse
@@ -210,6 +217,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.HttpWebResponse.SupportsHeaders
   id: SupportsHeaders
   parent: System.Net.HttpWebResponse
@@ -230,6 +238,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Net.WebResponse.SupportsHeaders
 - uid: System.Net.HttpWebResponse.GetResponseStream
   id: GetResponseStream
@@ -250,6 +259,7 @@ items:
     content.vb: Public Overrides Function GetResponseStream As Stream
     return:
       type: System.IO.Stream
+      description: 
   overridden: System.Net.WebResponse.GetResponseStream
 - uid: System.Net.HttpWebResponse.Dispose(System.Boolean)
   id: Dispose(System.Boolean)

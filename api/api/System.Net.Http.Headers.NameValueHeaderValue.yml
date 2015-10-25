@@ -22,7 +22,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/NameValueHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/NameValueHeaderValue.cs
     startLine: 13
   assemblies:
@@ -58,6 +58,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.NameValueHeaderValue.Value
   id: Value
   parent: System.Net.Http.Headers.NameValueHeaderValue
@@ -78,6 +79,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.NameValueHeaderValue.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.Net.Http.Headers.NameValueHeaderValue
@@ -159,6 +161,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.NameValueHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -182,6 +185,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.NameValueHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -205,6 +209,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.NameValueHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.NameValueHeaderValue.TryParse(System.String,System.Net.Http.Headers.NameValueHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.NameValueHeaderValue@)
   parent: System.Net.Http.Headers.NameValueHeaderValue
@@ -231,6 +236,7 @@ items:
       type: System.Net.Http.Headers.NameValueHeaderValue
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.NameValueHeaderValue.ToString
   id: ToString
   parent: System.Net.Http.Headers.NameValueHeaderValue
@@ -250,6 +256,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Net.Http.Headers

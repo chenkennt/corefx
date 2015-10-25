@@ -21,7 +21,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
     startLine: 15
   assemblies:
@@ -59,6 +59,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.HandleKind
+      description: 
 - uid: System.Reflection.Metadata.Handle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.Handle
@@ -79,6 +80,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.Handle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.Handle
@@ -101,6 +103,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.Handle.Equals(System.Reflection.Metadata.Handle)
   id: Equals(System.Reflection.Metadata.Handle)
@@ -124,6 +127,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.Handle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.Handle
@@ -143,6 +147,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.Handle.op_Equality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
   id: op_Equality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
@@ -168,6 +173,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.Handle.op_Inequality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
   id: op_Inequality(System.Reflection.Metadata.Handle,System.Reflection.Metadata.Handle)
   parent: System.Reflection.Metadata.Handle
@@ -192,6 +198,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.Handle.ModuleDefinition
   id: ModuleDefinition
   parent: System.Reflection.Metadata.Handle

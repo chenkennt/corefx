@@ -36,7 +36,7 @@ items:
       path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.Windows.cs
     startLine: 11
   assemblies:
@@ -69,7 +69,7 @@ items:
       path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
     startLine: 48
   assemblies:
@@ -83,6 +83,7 @@ items:
       type: System.String
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
   id: OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -107,6 +108,7 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileRights
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
   id: OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -133,6 +135,7 @@ items:
       type: HandleInheritability
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String)
   id: CreateFromFile(System.String)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -155,6 +158,7 @@ items:
       type: System.String
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode)
   id: CreateFromFile(System.String,System.IO.FileMode)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -179,6 +183,7 @@ items:
       type: System.IO.FileMode
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String)
   id: CreateFromFile(System.String,System.IO.FileMode,System.String)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -205,6 +210,7 @@ items:
       type: System.String
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
   id: CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -233,6 +239,7 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -263,6 +270,7 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
   id: CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -295,6 +303,7 @@ items:
       type: System.Boolean
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64)
   id: CreateNew(System.String,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -319,6 +328,7 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -345,6 +355,7 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   id: CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -375,6 +386,7 @@ items:
       type: HandleInheritability
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64)
   id: CreateOrOpen(System.String,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -399,6 +411,7 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -425,6 +438,7 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   id: CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -455,6 +469,7 @@ items:
       type: HandleInheritability
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedFile
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream
   id: CreateViewStream
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -474,6 +489,7 @@ items:
     content.vb: Public Function CreateViewStream As MemoryMappedViewStream
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64)
   id: CreateViewStream(System.Int64,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -498,6 +514,7 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -524,6 +541,7 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor
   id: CreateViewAccessor
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -543,6 +561,7 @@ items:
     content.vb: Public Function CreateViewAccessor As MemoryMappedViewAccessor
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64)
   id: CreateViewAccessor(System.Int64,System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -567,6 +586,7 @@ items:
       type: System.Int64
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   id: CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -593,6 +613,7 @@ items:
       type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
     return:
       type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose
   id: Dispose
   parent: System.IO.MemoryMappedFiles.MemoryMappedFile
@@ -650,6 +671,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle
+      description: 
 references:
 - uid: System.IO.MemoryMappedFiles
   isExternal: false

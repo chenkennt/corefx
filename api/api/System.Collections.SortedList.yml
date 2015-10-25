@@ -47,7 +47,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/SortedList.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/SortedList.cs
     startLine: 60
   assemblies:
@@ -233,6 +233,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.SortedList.Count
   id: Count
   parent: System.Collections.SortedList
@@ -253,6 +254,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.SortedList.Keys
   id: Keys
   parent: System.Collections.SortedList
@@ -273,6 +275,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.SortedList.Values
   id: Values
   parent: System.Collections.SortedList
@@ -293,6 +296,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.SortedList.IsReadOnly
   id: IsReadOnly
   parent: System.Collections.SortedList
@@ -313,6 +317,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.SortedList.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.SortedList
@@ -333,6 +338,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.SortedList.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.SortedList
@@ -353,6 +359,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.SortedList.SyncRoot
   id: SyncRoot
   parent: System.Collections.SortedList
@@ -373,6 +380,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.SortedList.Clear
   id: Clear
   parent: System.Collections.SortedList
@@ -409,6 +417,7 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.SortedList.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.SortedList
@@ -431,6 +440,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.SortedList.ContainsKey(System.Object)
   id: ContainsKey(System.Object)
   parent: System.Collections.SortedList
@@ -453,6 +463,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.SortedList.ContainsValue(System.Object)
   id: ContainsValue(System.Object)
   parent: System.Collections.SortedList
@@ -475,6 +486,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.SortedList.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.SortedList
@@ -519,6 +531,7 @@ items:
       type: System.Int32
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.SortedList.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.SortedList
@@ -539,6 +552,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.SortedList.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.SortedList
@@ -558,6 +572,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
+      description: 
 - uid: System.Collections.SortedList.GetKey(System.Int32)
   id: GetKey(System.Int32)
   parent: System.Collections.SortedList
@@ -580,6 +595,7 @@ items:
       type: System.Int32
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.SortedList.GetKeyList
   id: GetKeyList
   parent: System.Collections.SortedList
@@ -599,6 +615,7 @@ items:
     content.vb: Public Overridable Function GetKeyList As IList
     return:
       type: System.Collections.IList
+      description: 
 - uid: System.Collections.SortedList.GetValueList
   id: GetValueList
   parent: System.Collections.SortedList
@@ -618,6 +635,7 @@ items:
     content.vb: Public Overridable Function GetValueList As IList
     return:
       type: System.Collections.IList
+      description: 
 - uid: System.Collections.SortedList.Item(System.Object)
   id: Item(System.Object)
   parent: System.Collections.SortedList
@@ -642,6 +660,7 @@ items:
       type: System.Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.SortedList.IndexOfKey(System.Object)
   id: IndexOfKey(System.Object)
   parent: System.Collections.SortedList
@@ -664,6 +683,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.SortedList.IndexOfValue(System.Object)
   id: IndexOfValue(System.Object)
   parent: System.Collections.SortedList
@@ -686,6 +706,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.SortedList.RemoveAt(System.Int32)
   id: RemoveAt(System.Int32)
   parent: System.Collections.SortedList
@@ -770,6 +791,7 @@ items:
       type: System.Collections.SortedList
     return:
       type: System.Collections.SortedList
+      description: 
 - uid: System.Collections.SortedList.TrimToSize
   id: TrimToSize
   parent: System.Collections.SortedList

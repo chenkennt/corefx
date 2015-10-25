@@ -21,7 +21,7 @@ items:
       path: src/System.Collections.Specialized/src/System/Collections/Specialized/BitVector32.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Specialized/src/System/Collections/Specialized/BitVector32.cs
     startLine: 231
   assemblies:
@@ -54,6 +54,7 @@ items:
     parameters: []
     return:
       type: System.Int16
+      description: 
 - uid: System.Collections.Specialized.BitVector32.Section.Offset
   id: Offset
   parent: System.Collections.Specialized.BitVector32.Section
@@ -74,6 +75,7 @@ items:
     parameters: []
     return:
       type: System.Int16
+      description: 
 - uid: System.Collections.Specialized.BitVector32.Section.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Collections.Specialized.BitVector32.Section
@@ -96,6 +98,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Collections.Specialized.BitVector32.Section.Equals(System.Collections.Specialized.BitVector32.Section)
   id: Equals(System.Collections.Specialized.BitVector32.Section)
@@ -119,6 +122,7 @@ items:
       type: System.Collections.Specialized.BitVector32.Section
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.BitVector32.Section.op_Equality(System.Collections.Specialized.BitVector32.Section,System.Collections.Specialized.BitVector32.Section)
   id: op_Equality(System.Collections.Specialized.BitVector32.Section,System.Collections.Specialized.BitVector32.Section)
   parent: System.Collections.Specialized.BitVector32.Section
@@ -143,6 +147,7 @@ items:
       type: System.Collections.Specialized.BitVector32.Section
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.BitVector32.Section.op_Inequality(System.Collections.Specialized.BitVector32.Section,System.Collections.Specialized.BitVector32.Section)
   id: op_Inequality(System.Collections.Specialized.BitVector32.Section,System.Collections.Specialized.BitVector32.Section)
   parent: System.Collections.Specialized.BitVector32.Section
@@ -167,6 +172,7 @@ items:
       type: System.Collections.Specialized.BitVector32.Section
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.BitVector32.Section.GetHashCode
   id: GetHashCode
   parent: System.Collections.Specialized.BitVector32.Section
@@ -186,6 +192,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Collections.Specialized.BitVector32.Section.ToString(System.Collections.Specialized.BitVector32.Section)
   id: ToString(System.Collections.Specialized.BitVector32.Section)
@@ -209,6 +216,7 @@ items:
       type: System.Collections.Specialized.BitVector32.Section
     return:
       type: System.String
+      description: 
 - uid: System.Collections.Specialized.BitVector32.Section.ToString
   id: ToString
   parent: System.Collections.Specialized.BitVector32.Section
@@ -228,6 +236,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.ValueType.ToString
 references:
 - uid: System.Collections.Specialized

@@ -28,7 +28,7 @@ items:
       path: src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs
     startLine: 740
   assemblies:
@@ -95,6 +95,7 @@ items:
     content.vb: Public Function GetEnumerator As SortedDictionary(Of TKey, TValue).ValueCollection.Enumerator
     return:
       type: System.Collections.Generic.SortedDictionary`2.ValueCollection.Enumerator
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.System#Collections#Generic#IEnumerable{TValue}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{TValue}#GetEnumerator
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -116,6 +117,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<TValue>.GetEnumerator As IEnumerator(Of TValue) Implements IEnumerable(Of TValue).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{{TValue}}
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -137,6 +139,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.CopyTo(`1[],System.Int32)
   id: CopyTo(`1[],System.Int32)
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -206,6 +209,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#IsReadOnly
   id: System#Collections#Generic#ICollection{TValue}#IsReadOnly
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -228,6 +232,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#Add(`1)
   id: System#Collections#Generic#ICollection{TValue}#Add(`1)
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -293,6 +298,7 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#Remove(`1)
   id: System#Collections#Generic#ICollection{TValue}#Remove(`1)
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -317,6 +323,7 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -339,6 +346,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.SortedDictionary`2.ValueCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.Generic.SortedDictionary`2.ValueCollection
@@ -361,6 +369,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

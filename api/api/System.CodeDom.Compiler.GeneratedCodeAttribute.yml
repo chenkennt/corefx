@@ -15,7 +15,7 @@ items:
       path: src/System.Diagnostics.Tools/src/System/CodeDom/Compiler/GeneratedCodeAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Tools/src/System/CodeDom/Compiler/GeneratedCodeAttribute.cs
     startLine: 5
   assemblies:
@@ -118,6 +118,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.CodeDom.Compiler.GeneratedCodeAttribute.Version
   id: Version
   parent: System.CodeDom.Compiler.GeneratedCodeAttribute
@@ -138,6 +139,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 references:
 - uid: System.CodeDom.Compiler
   isExternal: false

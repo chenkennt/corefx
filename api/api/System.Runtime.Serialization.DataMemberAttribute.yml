@@ -18,7 +18,7 @@ items:
       path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/DataMemberAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/DataMemberAttribute.cs
     startLine: 5
   assemblies:
@@ -116,6 +116,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.DataMemberAttribute.IsNameSetExplicitly
   id: IsNameSetExplicitly
   parent: System.Runtime.Serialization.DataMemberAttribute
@@ -136,6 +137,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.DataMemberAttribute.Order
   id: Order
   parent: System.Runtime.Serialization.DataMemberAttribute
@@ -156,6 +158,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Runtime.Serialization.DataMemberAttribute.IsRequired
   id: IsRequired
   parent: System.Runtime.Serialization.DataMemberAttribute
@@ -176,6 +179,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.DataMemberAttribute.EmitDefaultValue
   id: EmitDefaultValue
   parent: System.Runtime.Serialization.DataMemberAttribute
@@ -196,6 +200,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

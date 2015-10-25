@@ -17,7 +17,7 @@ items:
       path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlReflectionMember.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlReflectionMember.cs
     startLine: 16
   assemblies:

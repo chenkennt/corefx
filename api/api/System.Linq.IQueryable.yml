@@ -15,7 +15,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/IQueryable.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/IQueryable.cs
     startLine: 9
   assemblies:
@@ -46,6 +46,7 @@ items:
     parameters: []
     return:
       type: System.Linq.Expressions.Expression
+      description: 
 - uid: System.Linq.IQueryable.ElementType
   id: ElementType
   parent: System.Linq.IQueryable
@@ -66,6 +67,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
 - uid: System.Linq.IQueryable.Provider
   id: Provider
   parent: System.Linq.IQueryable
@@ -86,6 +88,7 @@ items:
     parameters: []
     return:
       type: System.Linq.IQueryProvider
+      description: 
 references:
 - uid: System.Linq
   isExternal: false

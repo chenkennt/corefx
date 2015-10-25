@@ -24,7 +24,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/ViaHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/ViaHeaderValue.cs
     startLine: 9
   assemblies:
@@ -60,6 +60,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.ViaHeaderValue.ProtocolVersion
   id: ProtocolVersion
   parent: System.Net.Http.Headers.ViaHeaderValue
@@ -80,6 +81,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.ViaHeaderValue.ReceivedBy
   id: ReceivedBy
   parent: System.Net.Http.Headers.ViaHeaderValue
@@ -100,6 +102,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.ViaHeaderValue.Comment
   id: Comment
   parent: System.Net.Http.Headers.ViaHeaderValue
@@ -120,6 +123,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.ViaHeaderValue.#ctor(System.String,System.String)
   id: '#ctor(System.String,System.String)'
   parent: System.Net.Http.Headers.ViaHeaderValue
@@ -211,6 +215,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.ViaHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -234,6 +239,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.ViaHeaderValue.GetHashCode
   id: GetHashCode
@@ -254,6 +260,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.ViaHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -277,6 +284,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.ViaHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.ViaHeaderValue.TryParse(System.String,System.Net.Http.Headers.ViaHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.ViaHeaderValue@)
   parent: System.Net.Http.Headers.ViaHeaderValue
@@ -303,6 +311,7 @@ items:
       type: System.Net.Http.Headers.ViaHeaderValue
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

@@ -25,7 +25,7 @@ items:
       path: src/System.Runtime.Extensions/src/System/Runtime/Versioning/FrameworkName.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Extensions/src/System/Runtime/Versioning/FrameworkName.cs
     startLine: 11
   assemblies:
@@ -63,6 +63,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Versioning.FrameworkName.Version
   id: Version
   parent: System.Runtime.Versioning.FrameworkName
@@ -83,6 +84,7 @@ items:
     parameters: []
     return:
       type: System.Version
+      description: 
 - uid: System.Runtime.Versioning.FrameworkName.Profile
   id: Profile
   parent: System.Runtime.Versioning.FrameworkName
@@ -103,6 +105,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Versioning.FrameworkName.FullName
   id: FullName
   parent: System.Runtime.Versioning.FrameworkName
@@ -123,6 +126,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Versioning.FrameworkName.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Runtime.Versioning.FrameworkName
@@ -145,6 +149,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Runtime.Versioning.FrameworkName.Equals(System.Runtime.Versioning.FrameworkName)
   id: Equals(System.Runtime.Versioning.FrameworkName)
@@ -168,6 +173,7 @@ items:
       type: System.Runtime.Versioning.FrameworkName
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Versioning.FrameworkName.GetHashCode
   id: GetHashCode
   parent: System.Runtime.Versioning.FrameworkName
@@ -187,6 +193,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Runtime.Versioning.FrameworkName.ToString
   id: ToString
@@ -207,6 +214,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Runtime.Versioning.FrameworkName.#ctor(System.String,System.Version)
   id: '#ctor(System.String,System.Version)'
@@ -298,6 +306,7 @@ items:
       type: System.Runtime.Versioning.FrameworkName
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Versioning.FrameworkName.op_Inequality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)
   id: op_Inequality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)
   parent: System.Runtime.Versioning.FrameworkName
@@ -322,6 +331,7 @@ items:
       type: System.Runtime.Versioning.FrameworkName
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Runtime.Versioning
   isExternal: false

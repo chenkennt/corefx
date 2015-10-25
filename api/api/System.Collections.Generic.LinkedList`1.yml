@@ -44,7 +44,7 @@ items:
       path: src/System.Collections/src/System/Collections/Generic/LinkedList.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections/src/System/Collections/Generic/LinkedList.cs
     startLine: 9
   assemblies:
@@ -132,6 +132,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.First
   id: First
   parent: System.Collections.Generic.LinkedList`1
@@ -153,6 +154,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.Last
   id: Last
   parent: System.Collections.Generic.LinkedList`1
@@ -174,6 +176,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
   id: System#Collections#Generic#ICollection{T}#IsReadOnly
   parent: System.Collections.Generic.LinkedList`1
@@ -196,6 +199,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.System#Collections#Generic#ICollection{T}#Add(`0)
   id: System#Collections#Generic#ICollection{T}#Add(`0)
   parent: System.Collections.Generic.LinkedList`1
@@ -244,6 +248,7 @@ items:
       type: '{T}'
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.AddAfter(System.Collections.Generic.LinkedListNode{`0},System.Collections.Generic.LinkedListNode{`0})
   id: AddAfter(System.Collections.Generic.LinkedListNode{`0},System.Collections.Generic.LinkedListNode{`0})
   parent: System.Collections.Generic.LinkedList`1
@@ -294,6 +299,7 @@ items:
       type: '{T}'
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.AddBefore(System.Collections.Generic.LinkedListNode{`0},System.Collections.Generic.LinkedListNode{`0})
   id: AddBefore(System.Collections.Generic.LinkedListNode{`0},System.Collections.Generic.LinkedListNode{`0})
   parent: System.Collections.Generic.LinkedList`1
@@ -341,6 +347,7 @@ items:
       type: '{T}'
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.AddFirst(System.Collections.Generic.LinkedListNode{`0})
   id: AddFirst(System.Collections.Generic.LinkedListNode{`0})
   parent: System.Collections.Generic.LinkedList`1
@@ -386,6 +393,7 @@ items:
       type: '{T}'
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.AddLast(System.Collections.Generic.LinkedListNode{`0})
   id: AddLast(System.Collections.Generic.LinkedListNode{`0})
   parent: System.Collections.Generic.LinkedList`1
@@ -449,6 +457,7 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.CopyTo(`0[],System.Int32)
   id: CopyTo(`0[],System.Int32)
   parent: System.Collections.Generic.LinkedList`1
@@ -496,6 +505,7 @@ items:
       type: '{T}'
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.FindLast(`0)
   id: FindLast(`0)
   parent: System.Collections.Generic.LinkedList`1
@@ -519,6 +529,7 @@ items:
       type: '{T}'
     return:
       type: System.Collections.Generic.LinkedListNode{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.Generic.LinkedList`1
@@ -539,6 +550,7 @@ items:
     content.vb: Public Function GetEnumerator As LinkedList(Of T).Enumerator
     return:
       type: System.Collections.Generic.LinkedList`1.Enumerator
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{T}#GetEnumerator
   parent: System.Collections.Generic.LinkedList`1
@@ -560,6 +572,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<T>.GetEnumerator As IEnumerator(Of T) Implements IEnumerable(Of T).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{{T}}
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.Remove(`0)
   id: Remove(`0)
   parent: System.Collections.Generic.LinkedList`1
@@ -583,6 +596,7 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.Remove(System.Collections.Generic.LinkedListNode{`0})
   id: Remove(System.Collections.Generic.LinkedListNode{`0})
   parent: System.Collections.Generic.LinkedList`1
@@ -663,6 +677,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.Generic.LinkedList`1
@@ -685,6 +700,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.Generic.LinkedList`1
@@ -730,6 +746,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

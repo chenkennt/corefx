@@ -50,7 +50,7 @@ items:
       path: src/System.Numerics.Vectors/src/System/Numerics/Quaternion.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Numerics.Vectors/src/System/Numerics/Quaternion.cs
     startLine: 11
   assemblies:
@@ -414,6 +414,7 @@ items:
       description: The roll angle, in radians, around the Z-axis.
     return:
       type: System.Numerics.Quaternion
+      description: 
 - uid: System.Numerics.Quaternion.CreateFromRotationMatrix(System.Numerics.Matrix4x4)
   id: CreateFromRotationMatrix(System.Numerics.Matrix4x4)
   parent: System.Numerics.Quaternion

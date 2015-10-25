@@ -19,7 +19,7 @@ items:
       path: src/System.Net.WebSockets/src/System/Net/WebSockets/WebSocketReceiveResult.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.WebSockets/src/System/Net/WebSockets/WebSocketReceiveResult.cs
     startLine: 7
   assemblies:
@@ -112,6 +112,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.WebSockets.WebSocketReceiveResult.EndOfMessage
   id: EndOfMessage
   parent: System.Net.WebSockets.WebSocketReceiveResult
@@ -132,6 +133,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.WebSockets.WebSocketReceiveResult.MessageType
   id: MessageType
   parent: System.Net.WebSockets.WebSocketReceiveResult
@@ -152,6 +154,7 @@ items:
     parameters: []
     return:
       type: System.Net.WebSockets.WebSocketMessageType
+      description: 
 - uid: System.Net.WebSockets.WebSocketReceiveResult.CloseStatus
   id: CloseStatus
   parent: System.Net.WebSockets.WebSocketReceiveResult
@@ -172,6 +175,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Net.WebSockets.WebSocketCloseStatus}
+      description: 
 - uid: System.Net.WebSockets.WebSocketReceiveResult.CloseStatusDescription
   id: CloseStatusDescription
   parent: System.Net.WebSockets.WebSocketReceiveResult
@@ -192,6 +196,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 references:
 - uid: System.Net.WebSockets
   isExternal: false

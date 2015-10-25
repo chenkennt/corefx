@@ -16,7 +16,7 @@ items:
       path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
     startLine: 12
   assemblies:

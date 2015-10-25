@@ -20,7 +20,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNamedNodeMap.SmallXmlNodeList.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNamedNodeMap.SmallXmlNodeList.cs
     startLine: 8
   assemblies:
@@ -53,7 +53,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNamedNodeMap.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNamedNodeMap.cs
     startLine: 19
   assemblies:
@@ -67,6 +67,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNamedNodeMap.SetNamedItem(System.Xml.XmlNode)
   id: SetNamedItem(System.Xml.XmlNode)
   parent: System.Xml.XmlNamedNodeMap
@@ -89,6 +90,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNamedNodeMap.RemoveNamedItem(System.String)
   id: RemoveNamedItem(System.String)
   parent: System.Xml.XmlNamedNodeMap
@@ -111,6 +113,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNamedNodeMap.Count
   id: Count
   parent: System.Xml.XmlNamedNodeMap
@@ -131,6 +134,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlNamedNodeMap.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Xml.XmlNamedNodeMap
@@ -153,6 +157,7 @@ items:
       type: System.Int32
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNamedNodeMap.GetNamedItem(System.String,System.String)
   id: GetNamedItem(System.String,System.String)
   parent: System.Xml.XmlNamedNodeMap
@@ -177,6 +182,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNamedNodeMap.RemoveNamedItem(System.String,System.String)
   id: RemoveNamedItem(System.String,System.String)
   parent: System.Xml.XmlNamedNodeMap
@@ -201,6 +207,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNamedNodeMap.GetEnumerator
   id: GetEnumerator
   parent: System.Xml.XmlNamedNodeMap
@@ -220,6 +227,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

@@ -15,7 +15,7 @@ items:
       path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/SeverityFilter.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/SeverityFilter.cs
     startLine: 7
   assemblies:
@@ -93,6 +93,7 @@ items:
       type: System.Object[]
     return:
       type: System.Boolean
+      description: 
   overridden: System.Diagnostics.TraceFilter.ShouldTrace(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[],System.Object,System.Object[])
 - uid: System.Diagnostics.EventTypeFilter.EventType
   id: EventType
@@ -114,6 +115,7 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SourceLevels
+      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

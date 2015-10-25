@@ -15,7 +15,7 @@ items:
       path: src/System.ComponentModel.EventBasedAsync/src/System/ComponentModel/RunWorkerCompletedEvent.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ComponentModel.EventBasedAsync/src/System/ComponentModel/RunWorkerCompletedEvent.cs
     startLine: 7
   assemblies:
@@ -84,6 +84,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.ComponentModel.RunWorkerCompletedEventArgs.UserState
   id: UserState
   parent: System.ComponentModel.RunWorkerCompletedEventArgs
@@ -104,6 +105,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 references:
 - uid: System.ComponentModel
   isExternal: false

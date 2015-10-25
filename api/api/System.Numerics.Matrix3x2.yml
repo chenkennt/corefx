@@ -53,7 +53,7 @@ items:
       path: src/System.Numerics.Vectors/src/System/Numerics/Matrix3x2.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Numerics.Vectors/src/System/Numerics/Matrix3x2.cs
     startLine: 10
   assemblies:

@@ -21,7 +21,7 @@ items:
       path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexWriter.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexWriter.cs
     startLine: 16
   assemblies:

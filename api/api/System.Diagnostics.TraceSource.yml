@@ -26,7 +26,7 @@ items:
       path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/TraceSource.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/TraceSource.cs
     startLine: 10
   assemblies:
@@ -309,6 +309,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Diagnostics.TraceSource.Listeners
   id: Listeners
   parent: System.Diagnostics.TraceSource
@@ -329,6 +330,7 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.TraceListenerCollection
+      description: 
 - uid: System.Diagnostics.TraceSource.Switch
   id: Switch
   parent: System.Diagnostics.TraceSource
@@ -349,6 +351,7 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SourceSwitch
+      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

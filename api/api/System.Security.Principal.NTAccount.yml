@@ -22,7 +22,7 @@ items:
       path: src/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs
     startLine: 12
   assemblies:
@@ -101,6 +101,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Security.Principal.IdentityReference.Value
 - uid: System.Security.Principal.NTAccount.IsValidTargetType(System.Type)
   id: IsValidTargetType(System.Type)
@@ -124,6 +125,7 @@ items:
       type: System.Type
     return:
       type: System.Boolean
+      description: 
   overridden: System.Security.Principal.IdentityReference.IsValidTargetType(System.Type)
 - uid: System.Security.Principal.NTAccount.Translate(System.Type)
   id: Translate(System.Type)
@@ -147,6 +149,7 @@ items:
       type: System.Type
     return:
       type: System.Security.Principal.IdentityReference
+      description: 
   overridden: System.Security.Principal.IdentityReference.Translate(System.Type)
 - uid: System.Security.Principal.NTAccount.Equals(System.Object)
   id: Equals(System.Object)
@@ -170,6 +173,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Security.Principal.IdentityReference.Equals(System.Object)
 - uid: System.Security.Principal.NTAccount.GetHashCode
   id: GetHashCode
@@ -190,6 +194,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Security.Principal.IdentityReference.GetHashCode
 - uid: System.Security.Principal.NTAccount.ToString
   id: ToString
@@ -210,6 +215,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Security.Principal.IdentityReference.ToString
 - uid: System.Security.Principal.NTAccount.op_Equality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
   id: op_Equality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
@@ -235,6 +241,7 @@ items:
       type: System.Security.Principal.NTAccount
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.NTAccount.op_Inequality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
   id: op_Inequality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)
   parent: System.Security.Principal.NTAccount
@@ -259,6 +266,7 @@ items:
       type: System.Security.Principal.NTAccount
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false

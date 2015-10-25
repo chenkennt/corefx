@@ -39,7 +39,7 @@ items:
       path: src/System.ServiceProcess.ServiceController/src/System/ServiceProcess/ServiceController.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ServiceProcess.ServiceController/src/System/ServiceProcess/ServiceController.cs
     startLine: 18
   assemblies:
@@ -262,6 +262,7 @@ items:
     parameters: []
     return:
       type: System.ServiceProcess.ServiceController[]
+      description: 
 - uid: System.ServiceProcess.ServiceController.ServiceHandle
   id: ServiceHandle
   parent: System.ServiceProcess.ServiceController
@@ -282,6 +283,7 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.SafeHandle
+      description: 
 - uid: System.ServiceProcess.ServiceController.Status
   id: Status
   parent: System.ServiceProcess.ServiceController

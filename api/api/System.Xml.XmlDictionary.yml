@@ -19,7 +19,7 @@ items:
       path: src/System.Private.DataContractSerialization/src/System/Xml/XmlDictionary.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.DataContractSerialization/src/System/Xml/XmlDictionary.cs
     startLine: 17
   assemblies:
@@ -60,6 +60,7 @@ items:
     parameters: []
     return:
       type: System.Xml.IXmlDictionary
+      description: 
 - uid: System.Xml.XmlDictionary.#ctor
   id: '#ctor'
   parent: System.Xml.XmlDictionary
@@ -119,6 +120,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlDictionaryString
+      description: 
 - uid: System.Xml.XmlDictionary.TryLookup(System.String,System.Xml.XmlDictionaryString@)
   id: TryLookup(System.String,System.Xml.XmlDictionaryString@)
   parent: System.Xml.XmlDictionary
@@ -145,6 +147,7 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlDictionary.TryLookup(System.Int32,System.Xml.XmlDictionaryString@)
   id: TryLookup(System.Int32,System.Xml.XmlDictionaryString@)
   parent: System.Xml.XmlDictionary
@@ -171,6 +174,7 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlDictionary.TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)
   id: TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)
   parent: System.Xml.XmlDictionary
@@ -197,6 +201,7 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

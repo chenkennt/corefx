@@ -25,7 +25,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/HttpHeaders.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/HttpHeaders.cs
     startLine: 31
   assemblies:
@@ -133,6 +133,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaders.TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable{System.String})
   id: TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable{System.String})
   parent: System.Net.Http.Headers.HttpHeaders
@@ -159,6 +160,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaders.Clear
   id: Clear
   parent: System.Net.Http.Headers.HttpHeaders
@@ -198,6 +200,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaders.GetValues(System.String)
   id: GetValues(System.String)
   parent: System.Net.Http.Headers.HttpHeaders
@@ -220,6 +223,7 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaders.TryGetValues(System.String,System.Collections.Generic.IEnumerable{System.String}@)
   id: TryGetValues(System.String,System.Collections.Generic.IEnumerable{System.String}@)
   parent: System.Net.Http.Headers.HttpHeaders
@@ -246,6 +250,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaders.Contains(System.String)
   id: Contains(System.String)
   parent: System.Net.Http.Headers.HttpHeaders
@@ -268,6 +273,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaders.ToString
   id: ToString
   parent: System.Net.Http.Headers.HttpHeaders
@@ -287,6 +293,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.HttpHeaders.GetEnumerator
   id: GetEnumerator
@@ -307,6 +314,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of KeyValuePair(Of String, IEnumerable(Of String)))
     return:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.IEnumerable{System.String}}}
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaders.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Net.Http.Headers.HttpHeaders
@@ -327,6 +335,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

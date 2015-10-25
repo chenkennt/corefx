@@ -18,7 +18,7 @@ items:
       path: src/System.Runtime.Extensions/src/System/Net/WebUtility.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Extensions/src/System/Net/WebUtility.cs
     startLine: 17
   assemblies:
@@ -59,6 +59,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebUtility.HtmlDecode(System.String)
   id: HtmlDecode(System.String)
   parent: System.Net.WebUtility
@@ -81,6 +82,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebUtility.UrlEncode(System.String)
   id: UrlEncode(System.String)
   parent: System.Net.WebUtility
@@ -103,6 +105,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebUtility.UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32)
   id: UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32)
   parent: System.Net.WebUtility
@@ -131,6 +134,7 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Net.WebUtility.UrlDecode(System.String)
   id: UrlDecode(System.String)
   parent: System.Net.WebUtility
@@ -153,6 +157,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebUtility.UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32)
   id: UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32)
   parent: System.Net.WebUtility
@@ -181,6 +186,7 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
+      description: 
 references:
 - uid: System.Net
   isExternal: false

@@ -20,7 +20,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
     startLine: 2491
   assemblies:
@@ -60,6 +60,7 @@ items:
       type: System.Reflection.Metadata.StringHandle
     return:
       type: System.Reflection.Metadata.Handle
+      description: 
 - uid: System.Reflection.Metadata.StringHandle.op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.StringHandle
   id: op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.StringHandle
   parent: System.Reflection.Metadata.StringHandle
@@ -84,6 +85,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.StringHandle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.StringHandle
@@ -104,6 +106,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.StringHandle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.StringHandle
@@ -126,6 +129,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.StringHandle.Equals(System.Reflection.Metadata.StringHandle)
   id: Equals(System.Reflection.Metadata.StringHandle)
@@ -149,6 +153,7 @@ items:
       type: System.Reflection.Metadata.StringHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.StringHandle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.StringHandle
@@ -168,6 +173,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.StringHandle.op_Equality(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle)
   id: op_Equality(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle)
@@ -193,6 +199,7 @@ items:
       type: System.Reflection.Metadata.StringHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.StringHandle.op_Inequality(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle)
   id: op_Inequality(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle)
   parent: System.Reflection.Metadata.StringHandle
@@ -217,6 +224,7 @@ items:
       type: System.Reflection.Metadata.StringHandle
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

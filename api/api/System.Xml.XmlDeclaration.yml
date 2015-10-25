@@ -24,7 +24,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlDeclaration.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlDeclaration.cs
     startLine: 10
   assemblies:
@@ -124,6 +124,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlDeclaration.Encoding
   id: Encoding
   parent: System.Xml.XmlDeclaration
@@ -144,6 +145,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlDeclaration.Standalone
   id: Standalone
   parent: System.Xml.XmlDeclaration
@@ -164,6 +166,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlDeclaration.Value
   id: Value
   parent: System.Xml.XmlDeclaration
@@ -184,6 +187,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Value
 - uid: System.Xml.XmlDeclaration.InnerText
   id: InnerText
@@ -205,6 +209,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerText
 - uid: System.Xml.XmlDeclaration.Name
   id: Name
@@ -226,6 +231,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlDeclaration.LocalName
   id: LocalName
@@ -247,6 +253,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlDeclaration.NodeType
   id: NodeType
@@ -268,6 +275,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlDeclaration.CloneNode(System.Boolean)
   id: CloneNode(System.Boolean)
@@ -291,6 +299,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlDeclaration.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)

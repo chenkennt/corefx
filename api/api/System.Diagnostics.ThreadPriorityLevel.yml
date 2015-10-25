@@ -19,7 +19,7 @@ items:
       path: src/System.Diagnostics.Process/src/System/Diagnostics/ThreadPriorityLevel.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Process/src/System/Diagnostics/ThreadPriorityLevel.cs
     startLine: 10
   assemblies:

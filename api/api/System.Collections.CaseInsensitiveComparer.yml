@@ -17,7 +17,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/CaseInsensitiveComparer.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/CaseInsensitiveComparer.cs
     startLine: 19
   assemblies:
@@ -95,6 +95,7 @@ items:
     parameters: []
     return:
       type: System.Collections.CaseInsensitiveComparer
+      description: 
 - uid: System.Collections.CaseInsensitiveComparer.DefaultInvariant
   id: DefaultInvariant
   parent: System.Collections.CaseInsensitiveComparer
@@ -115,6 +116,7 @@ items:
     parameters: []
     return:
       type: System.Collections.CaseInsensitiveComparer
+      description: 
 - uid: System.Collections.CaseInsensitiveComparer.Compare(System.Object,System.Object)
   id: Compare(System.Object,System.Object)
   parent: System.Collections.CaseInsensitiveComparer
@@ -139,6 +141,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 references:
 - uid: System.Collections
   isExternal: false

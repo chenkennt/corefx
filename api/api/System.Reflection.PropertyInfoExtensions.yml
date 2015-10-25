@@ -18,7 +18,7 @@ items:
       path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
     startLine: 281
   assemblies:
@@ -59,6 +59,7 @@ items:
       type: System.Reflection.PropertyInfo
     return:
       type: System.Reflection.MethodInfo[]
+      description: 
 - uid: System.Reflection.PropertyInfoExtensions.GetAccessors(System.Reflection.PropertyInfo,System.Boolean)
   id: GetAccessors(System.Reflection.PropertyInfo,System.Boolean)
   parent: System.Reflection.PropertyInfoExtensions
@@ -83,6 +84,7 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo[]
+      description: 
 - uid: System.Reflection.PropertyInfoExtensions.GetGetMethod(System.Reflection.PropertyInfo)
   id: GetGetMethod(System.Reflection.PropertyInfo)
   parent: System.Reflection.PropertyInfoExtensions
@@ -105,6 +107,7 @@ items:
       type: System.Reflection.PropertyInfo
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Reflection.PropertyInfoExtensions.GetGetMethod(System.Reflection.PropertyInfo,System.Boolean)
   id: GetGetMethod(System.Reflection.PropertyInfo,System.Boolean)
   parent: System.Reflection.PropertyInfoExtensions
@@ -129,6 +132,7 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Reflection.PropertyInfoExtensions.GetSetMethod(System.Reflection.PropertyInfo)
   id: GetSetMethod(System.Reflection.PropertyInfo)
   parent: System.Reflection.PropertyInfoExtensions
@@ -151,6 +155,7 @@ items:
       type: System.Reflection.PropertyInfo
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Reflection.PropertyInfoExtensions.GetSetMethod(System.Reflection.PropertyInfo,System.Boolean)
   id: GetSetMethod(System.Reflection.PropertyInfo,System.Boolean)
   parent: System.Reflection.PropertyInfoExtensions
@@ -175,6 +180,7 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
+      description: 
 references:
 - uid: System.Reflection
   isExternal: false

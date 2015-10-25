@@ -41,7 +41,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509CertificateEnumerator.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509CertificateEnumerator.cs
     startLine: 15
   assemblies:
@@ -75,7 +75,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509CertificateCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509CertificateCollection.cs
     startLine: 21
   assemblies:
@@ -146,6 +146,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -167,6 +168,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -188,6 +190,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#IList#IsFixedSize
   id: System#Collections#IList#IsFixedSize
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -209,6 +212,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#IList#IsReadOnly
   id: System#Collections#IList#IsReadOnly
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -230,6 +234,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#IList#Item(System.Int32)
   id: System#Collections#IList#Item(System.Int32)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -254,6 +259,7 @@ items:
       type: System.Int32
     return:
       type: System.Object
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -278,6 +284,7 @@ items:
       type: System.Int32
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.Add(System.Security.Cryptography.X509Certificates.X509Certificate)
   id: Add(System.Security.Cryptography.X509Certificates.X509Certificate)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -300,6 +307,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.AddRange(System.Security.Cryptography.X509Certificates.X509Certificate[])
   id: AddRange(System.Security.Cryptography.X509Certificates.X509Certificate[])
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -381,6 +389,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.CopyTo(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32)
   id: CopyTo(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -424,6 +433,7 @@ items:
     content.vb: Public Function GetEnumerator As X509CertificateCollection.X509CertificateEnumerator
     return:
       type: System.Security.Cryptography.X509Certificates.X509CertificateCollection.X509CertificateEnumerator
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -444,6 +454,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.GetHashCode
   id: GetHashCode
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -463,6 +474,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.IndexOf(System.Security.Cryptography.X509Certificates.X509Certificate)
   id: IndexOf(System.Security.Cryptography.X509Certificates.X509Certificate)
@@ -486,6 +498,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.Insert(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate)
   id: Insert(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -594,6 +607,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#IList#Contains(System.Object)
   id: System#Collections#IList#Contains(System.Object)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -617,6 +631,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#IList#IndexOf(System.Object)
   id: System#Collections#IList#IndexOf(System.Object)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection
@@ -640,6 +655,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509CertificateCollection.System#Collections#IList#Insert(System.Int32,System.Object)
   id: System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Security.Cryptography.X509Certificates.X509CertificateCollection

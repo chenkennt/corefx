@@ -19,7 +19,7 @@ items:
       path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/advf.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/advf.cs
     startLine: 5
   assemblies:

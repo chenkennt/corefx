@@ -17,7 +17,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/MediaTypeWithQualityHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/MediaTypeWithQualityHeaderValue.cs
     startLine: 7
   assemblies:
@@ -61,6 +61,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
@@ -125,6 +126,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.TryParse(System.String,System.Net.Http.Headers.MediaTypeWithQualityHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.MediaTypeWithQualityHeaderValue@)
   parent: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
@@ -151,6 +153,7 @@ items:
       type: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

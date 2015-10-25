@@ -23,7 +23,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/PortableExecutable/CorHeader.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/PortableExecutable/CorHeader.cs
     startLine: 5
   assemblies:
@@ -62,6 +62,7 @@ items:
     parameters: []
     return:
       type: System.UInt16
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.MinorRuntimeVersion
   id: MinorRuntimeVersion
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -82,6 +83,7 @@ items:
     parameters: []
     return:
       type: System.UInt16
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.MetadataDirectory
   id: MetadataDirectory
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -102,6 +104,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.Flags
   id: Flags
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -122,6 +125,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.CorFlags
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.EntryPointTokenOrRelativeVirtualAddress
   id: EntryPointTokenOrRelativeVirtualAddress
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -142,6 +146,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.ResourcesDirectory
   id: ResourcesDirectory
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -162,6 +167,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.StrongNameSignatureDirectory
   id: StrongNameSignatureDirectory
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -182,6 +188,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.CodeManagerTableDirectory
   id: CodeManagerTableDirectory
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -202,6 +209,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.VtableFixupsDirectory
   id: VtableFixupsDirectory
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -222,6 +230,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.ExportAddressTableJumpsDirectory
   id: ExportAddressTableJumpsDirectory
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -242,6 +251,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 - uid: System.Reflection.PortableExecutable.CorHeader.ManagedNativeHeaderDirectory
   id: ManagedNativeHeaderDirectory
   parent: System.Reflection.PortableExecutable.CorHeader
@@ -262,6 +272,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PortableExecutable.DirectoryEntry
+      description: 
 references:
 - uid: System.Reflection.PortableExecutable
   isExternal: false

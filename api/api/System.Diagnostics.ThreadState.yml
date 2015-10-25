@@ -20,7 +20,7 @@ items:
       path: src/System.Diagnostics.Process/src/System/Diagnostics/ThreadState.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Process/src/System/Diagnostics/ThreadState.cs
     startLine: 8
   assemblies:

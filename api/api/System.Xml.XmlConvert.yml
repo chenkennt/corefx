@@ -59,7 +59,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/XmlConvert.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/XmlConvert.cs
     startLine: 33
   assemblies:
@@ -254,6 +254,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlConvert.VerifyPublicId(System.String)
   id: VerifyPublicId(System.String)
   parent: System.Xml.XmlConvert
@@ -276,6 +277,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlConvert.VerifyWhitespace(System.String)
   id: VerifyWhitespace(System.String)
   parent: System.Xml.XmlConvert
@@ -298,6 +300,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlConvert.ToString(System.Boolean)
   id: ToString(System.Boolean)
   parent: System.Xml.XmlConvert
@@ -652,6 +655,7 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlConvert.ToString(System.DateTimeOffset,System.String)
   id: ToString(System.DateTimeOffset,System.String)
   parent: System.Xml.XmlConvert
@@ -676,6 +680,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlConvert.ToString(System.Guid)
   id: ToString(System.Guid)
   parent: System.Xml.XmlConvert
@@ -1052,6 +1057,7 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
+      description: 
 - uid: System.Xml.XmlConvert.ToDateTimeOffset(System.String,System.String)
   id: ToDateTimeOffset(System.String,System.String)
   parent: System.Xml.XmlConvert
@@ -1076,6 +1082,7 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
+      description: 
 - uid: System.Xml.XmlConvert.ToDateTimeOffset(System.String,System.String[])
   id: ToDateTimeOffset(System.String,System.String[])
   parent: System.Xml.XmlConvert
@@ -1102,6 +1109,7 @@ items:
       type: System.String[]
     return:
       type: System.DateTimeOffset
+      description: 
 - uid: System.Xml.XmlConvert.ToGuid(System.String)
   id: ToGuid(System.String)
   parent: System.Xml.XmlConvert

@@ -19,7 +19,7 @@ items:
       path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/DataContractAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/DataContractAttribute.cs
     startLine: 5
   assemblies:
@@ -117,6 +117,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.DataContractAttribute.IsReferenceSetExplicitly
   id: IsReferenceSetExplicitly
   parent: System.Runtime.Serialization.DataContractAttribute
@@ -137,6 +138,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.DataContractAttribute.Namespace
   id: Namespace
   parent: System.Runtime.Serialization.DataContractAttribute
@@ -157,6 +159,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.DataContractAttribute.IsNamespaceSetExplicitly
   id: IsNamespaceSetExplicitly
   parent: System.Runtime.Serialization.DataContractAttribute
@@ -177,6 +180,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.DataContractAttribute.Name
   id: Name
   parent: System.Runtime.Serialization.DataContractAttribute
@@ -197,6 +201,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.DataContractAttribute.IsNameSetExplicitly
   id: IsNameSetExplicitly
   parent: System.Runtime.Serialization.DataContractAttribute
@@ -217,6 +222,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

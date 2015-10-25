@@ -30,7 +30,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/Queue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/Queue.cs
     startLine: 20
   assemblies:
@@ -151,6 +151,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Queue.Clone
   id: Clone
   parent: System.Collections.Queue
@@ -170,6 +171,7 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Queue.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.Queue
@@ -190,6 +192,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Queue.SyncRoot
   id: SyncRoot
   parent: System.Collections.Queue
@@ -210,6 +213,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Queue.Clear
   id: Clear
   parent: System.Collections.Queue
@@ -288,6 +292,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.Queue.Dequeue
   id: Dequeue
   parent: System.Collections.Queue
@@ -307,6 +312,7 @@ items:
     content.vb: Public Overridable Function Dequeue As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Queue.Peek
   id: Peek
   parent: System.Collections.Queue
@@ -326,6 +332,7 @@ items:
     content.vb: Public Overridable Function Peek As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Queue.Synchronized(System.Collections.Queue)
   id: Synchronized(System.Collections.Queue)
   parent: System.Collections.Queue
@@ -348,6 +355,7 @@ items:
       type: System.Collections.Queue
     return:
       type: System.Collections.Queue
+      description: 
 - uid: System.Collections.Queue.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.Queue
@@ -370,6 +378,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Queue.ToArray
   id: ToArray
   parent: System.Collections.Queue
@@ -389,6 +398,7 @@ items:
     content.vb: Public Overridable Function ToArray As Object()
     return:
       type: System.Object[]
+      description: 
 - uid: System.Collections.Queue.TrimToSize
   id: TrimToSize
   parent: System.Collections.Queue

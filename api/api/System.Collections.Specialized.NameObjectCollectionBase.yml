@@ -36,7 +36,7 @@ items:
       path: src/System.Collections.Specialized/src/System/Collections/Specialized/NameObjectCollectionBase.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Specialized/src/System/Collections/Specialized/NameObjectCollectionBase.cs
     startLine: 21
   assemblies:
@@ -448,6 +448,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Specialized.NameObjectCollectionBase.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.Specialized.NameObjectCollectionBase
@@ -469,6 +470,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.NameObjectCollectionBase.BaseGetAllKeys
   id: BaseGetAllKeys
   parent: System.Collections.Specialized.NameObjectCollectionBase

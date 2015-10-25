@@ -44,22 +44,22 @@ items:
       path: src/System.Collections/src/System/Collections/Generic/HashSet.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections/src/System/Collections/Generic/HashSet.cs
     startLine: 50
   assemblies:
   - System.Collections
   namespace: System.Collections.Generic
   syntax:
-    content: 'public class HashSet<T> : ISet<T>, ICollection<T>, IReadOnlyCollection<T>, IEnumerable<T>, IEnumerable'
-    content.vb: Public Class HashSet(Of T) Implements ISet(Of T), ICollection(Of T), IReadOnlyCollection(Of T), IEnumerable(Of T), IEnumerable
+    content: 'public class HashSet<T> : ICollection<T>, ISet<T>, IReadOnlyCollection<T>, IEnumerable<T>, IEnumerable'
+    content.vb: Public Class HashSet(Of T) Implements ICollection(Of T), ISet(Of T), IReadOnlyCollection(Of T), IEnumerable(Of T), IEnumerable
     typeParameters:
     - id: T
   inheritance:
   - System.Object
   implements:
-  - System.Collections.Generic.ISet{{T}}
   - System.Collections.Generic.ICollection{{T}}
+  - ISet{{T}}
   - System.Collections.Generic.IReadOnlyCollection{{T}}
   - System.Collections.Generic.IEnumerable{{T}}
   - System.Collections.IEnumerable
@@ -161,8 +161,10 @@ items:
     parameters:
     - id: collection
       type: System.Collections.Generic.IEnumerable{{T}}
+      description: 
     - id: comparer
       type: System.Collections.Generic.IEqualityComparer{{T}}
+      description: 
 - uid: System.Collections.Generic.HashSet`1.System#Collections#Generic#ICollection{T}#Add(`0)
   id: System#Collections#Generic#ICollection{T}#Add(`0)
   parent: System.Collections.Generic.HashSet`1
@@ -351,6 +353,7 @@ items:
     content.vb: Public Function GetEnumerator As HashSet(Of T).Enumerator
     return:
       type: System.Collections.Generic.HashSet`1.Enumerator
+      description: 
 - uid: System.Collections.Generic.HashSet`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{T}#GetEnumerator
   parent: System.Collections.Generic.HashSet`1
@@ -372,6 +375,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<T>.GetEnumerator As IEnumerator(Of T) Implements IEnumerable(Of T).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{{T}}
+      description: 
 - uid: System.Collections.Generic.HashSet`1.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Generic.HashSet`1
@@ -393,6 +397,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.Generic.HashSet`1.Add(`0)
   id: Add(`0)
   parent: System.Collections.Generic.HashSet`1
@@ -418,6 +423,7 @@ items:
     parameters:
     - id: item
       type: '{T}'
+      description: 
     return:
       type: System.Boolean
       description: true if added, false if already present
@@ -589,6 +595,7 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
+      description: 
     return:
       type: System.Boolean
       description: true if this is a subset of other; false if not
@@ -636,6 +643,7 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
+      description: 
     return:
       type: System.Boolean
       description: true if this is a proper subset of other; false if not
@@ -677,6 +685,7 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
+      description: 
     return:
       type: System.Boolean
       description: true if this is a superset of other; false if not
@@ -734,6 +743,7 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
+      description: 
     return:
       type: System.Boolean
       description: true if this is a proper superset of other; false if not
@@ -760,6 +770,7 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
+      description: 
     return:
       type: System.Boolean
       description: true if these have at least one common element; false if disjoint
@@ -789,8 +800,10 @@ items:
     parameters:
     - id: other
       type: System.Collections.Generic.IEnumerable{{T}}
+      description: 
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.HashSet`1.CopyTo(`0[])
   id: CopyTo(`0[])
   parent: System.Collections.Generic.HashSet`1
@@ -862,8 +875,10 @@ items:
     parameters:
     - id: match
       type: System.Predicate{{T}}
+      description: 
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Generic.HashSet`1.Comparer
   id: Comparer
   parent: System.Collections.Generic.HashSet`1

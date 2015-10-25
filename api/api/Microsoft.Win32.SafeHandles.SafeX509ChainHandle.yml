@@ -16,7 +16,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/Microsoft/Win32/SafeHandles/SafeX509ChainHandle.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/Microsoft/Win32/SafeHandles/SafeX509ChainHandle.cs
     startLine: 10
   assemblies:
@@ -68,6 +68,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.IsInvalid
 - uid: Microsoft.Win32.SafeHandles.SafeX509ChainHandle.InvalidHandle
   id: InvalidHandle
@@ -89,6 +90,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeX509ChainHandle
+      description: 
 - uid: Microsoft.Win32.SafeHandles.SafeX509ChainHandle.ReleaseHandle
   id: ReleaseHandle
   parent: Microsoft.Win32.SafeHandles.SafeX509ChainHandle
@@ -108,6 +110,7 @@ items:
     content.vb: Protected Overrides Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
+      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
 - uid: Microsoft.Win32.SafeHandles.SafeX509ChainHandle.Dispose(System.Boolean)
   id: Dispose(System.Boolean)

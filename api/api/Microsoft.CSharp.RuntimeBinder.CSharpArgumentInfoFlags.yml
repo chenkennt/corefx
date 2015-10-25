@@ -19,7 +19,7 @@ items:
       path: src/Microsoft.CSharp/src/Microsoft/CSharp/RuntimeBinder/CSharpArgumentInfoFlags.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Microsoft.CSharp/src/Microsoft/CSharp/RuntimeBinder/CSharpArgumentInfoFlags.cs
     startLine: 12
   assemblies:

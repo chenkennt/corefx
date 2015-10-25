@@ -17,7 +17,7 @@ items:
       path: src/System.Linq/src/System/Linq/Enumerable.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq/src/System/Linq/Enumerable.cs
     startLine: 2520
   assemblies:
@@ -53,6 +53,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.ILookup`2.Item(`0)
   id: Item(`0)
   parent: System.Linq.ILookup`2
@@ -77,6 +78,7 @@ items:
       type: '{TKey}'
     return:
       type: System.Collections.Generic.IEnumerable{{TElement}}
+      description: 
 - uid: System.Linq.ILookup`2.Contains(`0)
   id: Contains(`0)
   parent: System.Linq.ILookup`2
@@ -100,6 +102,7 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Linq
   isExternal: false

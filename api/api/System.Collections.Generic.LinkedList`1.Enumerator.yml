@@ -19,7 +19,7 @@ items:
       path: src/System.Collections/src/System/Collections/Generic/LinkedList.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections/src/System/Collections/Generic/LinkedList.cs
     startLine: 468
   assemblies:
@@ -60,6 +60,7 @@ items:
     parameters: []
     return:
       type: '{T}'
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.Enumerator.System#Collections#IEnumerator#Current
   id: System#Collections#IEnumerator#Current
   parent: System.Collections.Generic.LinkedList`1.Enumerator
@@ -82,6 +83,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.Enumerator.MoveNext
   id: MoveNext
   parent: System.Collections.Generic.LinkedList`1.Enumerator
@@ -102,6 +104,7 @@ items:
     content.vb: Public Function MoveNext As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.LinkedList`1.Enumerator.System#Collections#IEnumerator#Reset
   id: System#Collections#IEnumerator#Reset
   parent: System.Collections.Generic.LinkedList`1.Enumerator

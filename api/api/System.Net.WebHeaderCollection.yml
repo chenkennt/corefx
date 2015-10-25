@@ -29,7 +29,7 @@ items:
       path: src/System.Net.WebHeaderCollection/src/System/Net/WebHeaderCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.WebHeaderCollection/src/System/Net/WebHeaderCollection.cs
     startLine: 33
   assemblies:
@@ -66,6 +66,7 @@ items:
       type: System.Net.HttpRequestHeader
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebHeaderCollection.Item(System.Net.HttpResponseHeader)
   id: Item(System.Net.HttpResponseHeader)
   parent: System.Net.WebHeaderCollection
@@ -90,6 +91,7 @@ items:
       type: System.Net.HttpResponseHeader
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebHeaderCollection.Add(System.String,System.String)
   id: Add(System.String,System.String)
   parent: System.Net.WebHeaderCollection
@@ -234,6 +236,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebHeaderCollection.Count
   id: Count
   parent: System.Net.WebHeaderCollection
@@ -254,6 +257,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.WebHeaderCollection.Keys
   id: Keys
   parent: System.Net.WebHeaderCollection
@@ -274,6 +278,7 @@ items:
     parameters: []
     return:
       type: KeysCollection
+      description: 
 - uid: System.Net.WebHeaderCollection.Get(System.Int32)
   id: Get(System.Int32)
   parent: System.Net.WebHeaderCollection
@@ -296,6 +301,7 @@ items:
       type: System.Int32
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebHeaderCollection.GetValues(System.Int32)
   id: GetValues(System.Int32)
   parent: System.Net.WebHeaderCollection
@@ -318,6 +324,7 @@ items:
       type: System.Int32
     return:
       type: System.String[]
+      description: 
 - uid: System.Net.WebHeaderCollection.GetKey(System.Int32)
   id: GetKey(System.Int32)
   parent: System.Net.WebHeaderCollection
@@ -340,6 +347,7 @@ items:
       type: System.Int32
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebHeaderCollection.AllKeys
   id: AllKeys
   parent: System.Net.WebHeaderCollection
@@ -360,6 +368,7 @@ items:
     parameters: []
     return:
       type: System.String[]
+      description: 
 - uid: System.Net.WebHeaderCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Net.WebHeaderCollection
@@ -380,6 +389,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Net.WebHeaderCollection.Clear
   id: Clear
   parent: System.Net.WebHeaderCollection

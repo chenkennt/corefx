@@ -14,7 +14,7 @@ items:
       path: src/System.Private.DataContractSerialization/src/System/Runtime/Serialization/DataContractResolver.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.DataContractSerialization/src/System/Runtime/Serialization/DataContractResolver.cs
     startLine: 10
   assemblies:
@@ -65,6 +65,7 @@ items:
       type: System.Xml.XmlDictionaryString
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.DataContractResolver.ResolveName(System.String,System.String,System.Type,System.Runtime.Serialization.DataContractResolver)
   id: ResolveName(System.String,System.String,System.Type,System.Runtime.Serialization.DataContractResolver)
   parent: System.Runtime.Serialization.DataContractResolver
@@ -93,6 +94,7 @@ items:
       type: System.Runtime.Serialization.DataContractResolver
     return:
       type: System.Type
+      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

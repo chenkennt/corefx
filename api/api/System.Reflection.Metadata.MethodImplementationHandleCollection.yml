@@ -16,7 +16,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
     startLine: 934
   assemblies:
@@ -56,6 +56,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.MethodImplementationHandleCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Reflection.Metadata.MethodImplementationHandleCollection
@@ -75,6 +76,7 @@ items:
     content.vb: Public Function GetEnumerator As MethodImplementationHandleCollection.Enumerator
     return:
       type: System.Reflection.Metadata.MethodImplementationHandleCollection.Enumerator
+      description: 
 - uid: System.Reflection.Metadata.MethodImplementationHandleCollection.System#Collections#Generic#IEnumerable{System#Reflection#Metadata#MethodImplementationHandle}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{System#Reflection#Metadata#MethodImplementationHandle}#GetEnumerator
   parent: System.Reflection.Metadata.MethodImplementationHandleCollection
@@ -95,6 +97,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Reflection.Metadata.MethodImplementationHandle>.GetEnumerator As IEnumerator(Of MethodImplementationHandle) Implements IEnumerable(Of MethodImplementationHandle).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Reflection.Metadata.MethodImplementationHandle}
+      description: 
 - uid: System.Reflection.Metadata.MethodImplementationHandleCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Reflection.Metadata.MethodImplementationHandleCollection
@@ -115,6 +118,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

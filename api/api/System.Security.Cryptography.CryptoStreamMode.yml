@@ -14,7 +14,7 @@ items:
       path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStreamMode.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStreamMode.cs
     startLine: 8
   assemblies:

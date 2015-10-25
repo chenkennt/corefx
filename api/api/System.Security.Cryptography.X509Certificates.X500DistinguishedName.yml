@@ -20,7 +20,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X500DistinguishedName.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X500DistinguishedName.cs
     startLine: 15
   assemblies:
@@ -155,6 +155,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X500DistinguishedName.Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags)
   id: Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags)
   parent: System.Security.Cryptography.X509Certificates.X500DistinguishedName
@@ -177,6 +178,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X500DistinguishedName.Format(System.Boolean)
   id: Format(System.Boolean)
   parent: System.Security.Cryptography.X509Certificates.X500DistinguishedName
@@ -199,6 +201,7 @@ items:
       type: System.Boolean
     return:
       type: System.String
+      description: 
 references:
 - uid: System.Security.Cryptography.X509Certificates
   isExternal: false

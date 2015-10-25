@@ -17,7 +17,7 @@ items:
       path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedViewStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedViewStream.cs
     startLine: 9
   assemblies:
@@ -103,6 +103,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedViewStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
   parent: System.IO.MemoryMappedFiles.MemoryMappedViewStream
@@ -144,6 +145,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedViewStream.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.IO.MemoryMappedFiles.MemoryMappedViewStream
@@ -876,6 +878,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

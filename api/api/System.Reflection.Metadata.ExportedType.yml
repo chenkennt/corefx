@@ -19,7 +19,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/ExportedType.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/ExportedType.cs
     startLine: 7
   assemblies:
@@ -55,6 +55,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.TypeAttributes
+      description: 
 - uid: System.Reflection.Metadata.ExportedType.IsForwarder
   id: IsForwarder
   parent: System.Reflection.Metadata.ExportedType
@@ -75,6 +76,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.ExportedType.Name
   id: Name
   parent: System.Reflection.Metadata.ExportedType
@@ -206,6 +208,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

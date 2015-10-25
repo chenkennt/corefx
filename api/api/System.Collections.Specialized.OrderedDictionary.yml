@@ -35,7 +35,7 @@ items:
       path: src/System.Collections.Specialized/src/System/Collections/Specialized/OrderedDictionary.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Specialized/src/System/Collections/Specialized/OrderedDictionary.cs
     startLine: 19
   assemblies:
@@ -514,6 +514,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
+      description: 
 - uid: System.Collections.Specialized.OrderedDictionary.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Specialized.OrderedDictionary
@@ -534,6 +535,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Collections.Specialized
   isExternal: false

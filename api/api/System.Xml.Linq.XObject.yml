@@ -25,7 +25,7 @@ items:
       path: src/System.Xml.XDocument/src/System/Xml/Linq/XObject.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XDocument/src/System/Xml/Linq/XObject.cs
     startLine: 13
   assemblies:

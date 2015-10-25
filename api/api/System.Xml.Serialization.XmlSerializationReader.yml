@@ -68,7 +68,7 @@ items:
       path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlSerializationReader.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlSerializationReader.cs
     startLine: 32
   assemblies:
@@ -471,6 +471,7 @@ items:
       type: System.Boolean
     return:
       type: XmlNode
+      description: 
 - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.String)
   id: ToByteArrayBase64(System.String)
   parent: System.Xml.Serialization.XmlSerializationReader
@@ -1161,6 +1162,7 @@ items:
     content.vb: Protected Overridable Function ReadString As String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.Serialization.XmlSerializationReader.ReadString(System.String)
   id: ReadString(System.String)
   parent: System.Xml.Serialization.XmlSerializationReader

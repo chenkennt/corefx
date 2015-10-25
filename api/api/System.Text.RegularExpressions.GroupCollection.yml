@@ -19,7 +19,7 @@ items:
       path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexGroupCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexGroupCollection.cs
     startLine: 16
   assemblies:
@@ -90,6 +90,7 @@ items:
       type: System.Int32
     return:
       type: System.Text.RegularExpressions.Group
+      description: 
 - uid: System.Text.RegularExpressions.GroupCollection.Item(System.String)
   id: Item(System.String)
   parent: System.Text.RegularExpressions.GroupCollection
@@ -114,6 +115,7 @@ items:
       type: System.String
     return:
       type: System.Text.RegularExpressions.Group
+      description: 
 - uid: System.Text.RegularExpressions.GroupCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Text.RegularExpressions.GroupCollection
@@ -155,6 +157,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Text.RegularExpressions.GroupCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Text.RegularExpressions.GroupCollection
@@ -176,6 +179,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Text.RegularExpressions.GroupCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Text.RegularExpressions.GroupCollection

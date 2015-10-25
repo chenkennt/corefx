@@ -17,7 +17,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/ModuleDefinition.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/ModuleDefinition.cs
     startLine: 7
   assemblies:
@@ -53,6 +53,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.ModuleDefinition.Name
   id: Name
   parent: System.Reflection.Metadata.ModuleDefinition
@@ -73,6 +74,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.ModuleDefinition.Mvid
   id: Mvid
   parent: System.Reflection.Metadata.ModuleDefinition
@@ -93,6 +95,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.GuidHandle
+      description: 
 - uid: System.Reflection.Metadata.ModuleDefinition.GenerationId
   id: GenerationId
   parent: System.Reflection.Metadata.ModuleDefinition
@@ -113,6 +116,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.GuidHandle
+      description: 
 - uid: System.Reflection.Metadata.ModuleDefinition.BaseGenerationId
   id: BaseGenerationId
   parent: System.Reflection.Metadata.ModuleDefinition
@@ -133,6 +137,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.GuidHandle
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

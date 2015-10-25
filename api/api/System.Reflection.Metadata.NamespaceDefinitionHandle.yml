@@ -20,7 +20,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
     startLine: 2701
   assemblies:
@@ -61,6 +61,7 @@ items:
       type: System.Reflection.Metadata.NamespaceDefinitionHandle
     return:
       type: System.Reflection.Metadata.Handle
+      description: 
 - uid: System.Reflection.Metadata.NamespaceDefinitionHandle.op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.NamespaceDefinitionHandle
   id: op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.NamespaceDefinitionHandle
   parent: System.Reflection.Metadata.NamespaceDefinitionHandle
@@ -85,6 +86,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Reflection.Metadata.NamespaceDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.NamespaceDefinitionHandle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.NamespaceDefinitionHandle
@@ -105,6 +107,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.NamespaceDefinitionHandle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.NamespaceDefinitionHandle
@@ -127,6 +130,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.NamespaceDefinitionHandle.Equals(System.Reflection.Metadata.NamespaceDefinitionHandle)
   id: Equals(System.Reflection.Metadata.NamespaceDefinitionHandle)
@@ -150,6 +154,7 @@ items:
       type: System.Reflection.Metadata.NamespaceDefinitionHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.NamespaceDefinitionHandle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.NamespaceDefinitionHandle
@@ -169,6 +174,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.NamespaceDefinitionHandle.op_Equality(System.Reflection.Metadata.NamespaceDefinitionHandle,System.Reflection.Metadata.NamespaceDefinitionHandle)
   id: op_Equality(System.Reflection.Metadata.NamespaceDefinitionHandle,System.Reflection.Metadata.NamespaceDefinitionHandle)
@@ -194,6 +200,7 @@ items:
       type: System.Reflection.Metadata.NamespaceDefinitionHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.NamespaceDefinitionHandle.op_Inequality(System.Reflection.Metadata.NamespaceDefinitionHandle,System.Reflection.Metadata.NamespaceDefinitionHandle)
   id: op_Inequality(System.Reflection.Metadata.NamespaceDefinitionHandle,System.Reflection.Metadata.NamespaceDefinitionHandle)
   parent: System.Reflection.Metadata.NamespaceDefinitionHandle
@@ -218,6 +225,7 @@ items:
       type: System.Reflection.Metadata.NamespaceDefinitionHandle
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

@@ -20,7 +20,7 @@ items:
       path: src/System.Xml.XPath.XmlDocument/src/System/Xml/XmlDocumentXPathExtensions.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XPath.XmlDocument/src/System/Xml/XmlDocumentXPathExtensions.cs
     startLine: 8
   assemblies:
@@ -63,6 +63,7 @@ items:
       type: System.String
     return:
       type: XmlNodeList
+      description: 
 - uid: System.Xml.XmlDocumentXPathExtensions.SelectNodes(XmlNode,System.String,XmlNamespaceManager)
   id: SelectNodes(XmlNode,System.String,XmlNamespaceManager)
   parent: System.Xml.XmlDocumentXPathExtensions
@@ -89,6 +90,7 @@ items:
       type: XmlNamespaceManager
     return:
       type: XmlNodeList
+      description: 
 - uid: System.Xml.XmlDocumentXPathExtensions.SelectSingleNode(XmlNode,System.String)
   id: SelectSingleNode(XmlNode,System.String)
   parent: System.Xml.XmlDocumentXPathExtensions
@@ -113,6 +115,7 @@ items:
       type: System.String
     return:
       type: XmlNode
+      description: 
 - uid: System.Xml.XmlDocumentXPathExtensions.SelectSingleNode(XmlNode,System.String,XmlNamespaceManager)
   id: SelectSingleNode(XmlNode,System.String,XmlNamespaceManager)
   parent: System.Xml.XmlDocumentXPathExtensions
@@ -139,6 +142,7 @@ items:
       type: XmlNamespaceManager
     return:
       type: XmlNode
+      description: 
 - uid: System.Xml.XmlDocumentXPathExtensions.CreateNavigator(XmlNode)
   id: CreateNavigator(XmlNode)
   parent: System.Xml.XmlDocumentXPathExtensions
@@ -160,7 +164,8 @@ items:
     - id: node
       type: XmlNode
     return:
-      type: System.Xml.XPath.XPathNavigator
+      type: XPathNavigator
+      description: 
 - uid: System.Xml.XmlDocumentXPathExtensions.ToXPathNavigable(XmlNode)
   id: ToXPathNavigable(XmlNode)
   parent: System.Xml.XmlDocumentXPathExtensions
@@ -182,7 +187,8 @@ items:
     - id: node
       type: XmlNode
     return:
-      type: System.Xml.XPath.IXPathNavigable
+      type: IXPathNavigable
+      description: 
 - uid: System.Xml.XmlDocumentXPathExtensions.CreateNavigator(XmlDocument)
   id: CreateNavigator(XmlDocument)
   parent: System.Xml.XmlDocumentXPathExtensions
@@ -204,7 +210,8 @@ items:
     - id: document
       type: XmlDocument
     return:
-      type: System.Xml.XPath.XPathNavigator
+      type: XPathNavigator
+      description: 
 - uid: System.Xml.XmlDocumentXPathExtensions.CreateNavigator(XmlDocument,XmlNode)
   id: CreateNavigator(XmlDocument,XmlNode)
   parent: System.Xml.XmlDocumentXPathExtensions
@@ -228,7 +235,8 @@ items:
     - id: node
       type: XmlNode
     return:
-      type: System.Xml.XPath.XPathNavigator
+      type: XPathNavigator
+      description: 
 references:
 - uid: System.Xml
   isExternal: false
@@ -503,23 +511,14 @@ references:
   isExternal: true
   name: XmlNamespaceManager
   fullName: XmlNamespaceManager
-- uid: System.Xml.XPath.XPathNavigator
-  parent: System.Xml.XPath
-  isExternal: false
-  href: System.Xml.XPath.XPathNavigator.yml
+- uid: XPathNavigator
+  isExternal: true
   name: XPathNavigator
-  fullName: System.Xml.XPath.XPathNavigator
-- uid: System.Xml.XPath
-  isExternal: false
-  name: System.Xml.XPath
-  fullName: System.Xml.XPath
-  type: Namespace
-- uid: System.Xml.XPath.IXPathNavigable
-  parent: System.Xml.XPath
-  isExternal: false
-  href: System.Xml.XPath.IXPathNavigable.yml
+  fullName: XPathNavigator
+- uid: IXPathNavigable
+  isExternal: true
   name: IXPathNavigable
-  fullName: System.Xml.XPath.IXPathNavigable
+  fullName: IXPathNavigable
 - uid: XmlDocument
   isExternal: true
   name: XmlDocument

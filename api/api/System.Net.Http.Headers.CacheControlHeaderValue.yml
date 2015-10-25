@@ -34,7 +34,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/CacheControlHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/CacheControlHeaderValue.cs
     startLine: 10
   assemblies:
@@ -70,6 +70,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.NoCacheHeaders
   id: NoCacheHeaders
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -90,6 +91,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.NoStore
   id: NoStore
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -110,6 +112,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.MaxAge
   id: MaxAge
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -130,6 +133,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.TimeSpan}
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.SharedMaxAge
   id: SharedMaxAge
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -150,6 +154,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.TimeSpan}
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.MaxStale
   id: MaxStale
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -170,6 +175,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.MaxStaleLimit
   id: MaxStaleLimit
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -190,6 +196,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.TimeSpan}
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.MinFresh
   id: MinFresh
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -210,6 +217,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.TimeSpan}
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.NoTransform
   id: NoTransform
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -230,6 +238,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.OnlyIfCached
   id: OnlyIfCached
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -250,6 +259,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.Public
   id: Public
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -270,6 +280,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.Private
   id: Private
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -290,6 +301,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.PrivateHeaders
   id: PrivateHeaders
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -310,6 +322,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.MustRevalidate
   id: MustRevalidate
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -330,6 +343,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.ProxyRevalidate
   id: ProxyRevalidate
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -350,6 +364,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.Extensions
   id: Extensions
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -370,6 +385,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{System.Net.Http.Headers.NameValueHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.#ctor
   id: '#ctor'
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -406,6 +422,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -429,6 +446,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.GetHashCode
   id: GetHashCode
@@ -449,6 +467,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -472,6 +491,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.CacheControlHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.CacheControlHeaderValue.TryParse(System.String,System.Net.Http.Headers.CacheControlHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.CacheControlHeaderValue@)
   parent: System.Net.Http.Headers.CacheControlHeaderValue
@@ -498,6 +518,7 @@ items:
       type: System.Net.Http.Headers.CacheControlHeaderValue
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

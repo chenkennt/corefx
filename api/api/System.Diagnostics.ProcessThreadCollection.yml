@@ -27,7 +27,7 @@ items:
       path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessThreadCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessThreadCollection.cs
     startLine: 11
   assemblies:
@@ -108,6 +108,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.List{System.Diagnostics.ProcessThread}
+      description: 
 - uid: System.Diagnostics.ProcessThreadCollection.Count
   id: Count
   parent: System.Diagnostics.ProcessThreadCollection
@@ -128,6 +129,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Diagnostics.ProcessThreadCollection.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Diagnostics.ProcessThreadCollection
@@ -149,6 +151,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Diagnostics.ProcessThreadCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Diagnostics.ProcessThreadCollection
@@ -170,6 +173,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Diagnostics.ProcessThreadCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Diagnostics.ProcessThreadCollection
@@ -212,6 +216,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Diagnostics.ProcessThreadCollection.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Diagnostics.ProcessThreadCollection

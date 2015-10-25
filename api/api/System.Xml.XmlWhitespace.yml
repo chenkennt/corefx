@@ -22,7 +22,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlWhitespace.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlWhitespace.cs
     startLine: 8
   assemblies:
@@ -125,6 +125,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlWhitespace.LocalName
   id: LocalName
@@ -146,6 +147,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlWhitespace.NodeType
   id: NodeType
@@ -167,6 +169,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlWhitespace.ParentNode
   id: ParentNode
@@ -188,6 +191,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.ParentNode
 - uid: System.Xml.XmlWhitespace.Value
   id: Value
@@ -209,6 +213,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlCharacterData.Value
 - uid: System.Xml.XmlWhitespace.CloneNode(System.Boolean)
   id: CloneNode(System.Boolean)
@@ -232,6 +237,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlWhitespace.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)
@@ -295,6 +301,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.PreviousText
 references:
 - uid: System.Xml

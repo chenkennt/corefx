@@ -18,7 +18,7 @@ items:
       path: src/System.Dynamic.Runtime/src/System/Dynamic/SetIndexBinder.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Dynamic.Runtime/src/System/Dynamic/SetIndexBinder.cs
     startLine: 10
   assemblies:

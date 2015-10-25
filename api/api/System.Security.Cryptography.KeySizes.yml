@@ -16,7 +16,7 @@ items:
       path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/KeySizes.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/KeySizes.cs
     startLine: 10
   assemblies:
@@ -79,6 +79,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.KeySizes.MaxSize
   id: MaxSize
   parent: System.Security.Cryptography.KeySizes
@@ -99,6 +100,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.KeySizes.SkipSize
   id: SkipSize
   parent: System.Security.Cryptography.KeySizes
@@ -119,6 +121,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

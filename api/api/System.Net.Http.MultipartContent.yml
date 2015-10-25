@@ -21,7 +21,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/MultipartContent.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/MultipartContent.cs
     startLine: 14
   assemblies:
@@ -174,6 +174,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of HttpContent)
     return:
       type: System.Collections.Generic.IEnumerator{System.Net.Http.HttpContent}
+      description: 
 - uid: System.Net.Http.MultipartContent.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Net.Http.MultipartContent
@@ -194,6 +195,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Net.Http.MultipartContent.SerializeToStreamAsync(System.IO.Stream,TransportContext)
   id: SerializeToStreamAsync(System.IO.Stream,TransportContext)
   parent: System.Net.Http.MultipartContent
@@ -218,6 +220,7 @@ items:
       type: TransportContext
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.Net.Http.HttpContent.SerializeToStreamAsync(System.IO.Stream,TransportContext)
 - uid: System.Net.Http.MultipartContent.TryComputeLength(System.Int64@)
   id: TryComputeLength(System.Int64@)
@@ -243,6 +246,7 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
+      description: 
   overridden: System.Net.Http.HttpContent.TryComputeLength(System.Int64@)
 references:
 - uid: System.Net.Http

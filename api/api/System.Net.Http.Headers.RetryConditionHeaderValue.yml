@@ -21,7 +21,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/RetryConditionHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/RetryConditionHeaderValue.cs
     startLine: 8
   assemblies:
@@ -57,6 +57,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
+      description: 
 - uid: System.Net.Http.Headers.RetryConditionHeaderValue.Delta
   id: Delta
   parent: System.Net.Http.Headers.RetryConditionHeaderValue
@@ -77,6 +78,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.TimeSpan}
+      description: 
 - uid: System.Net.Http.Headers.RetryConditionHeaderValue.#ctor(System.DateTimeOffset)
   id: '#ctor(System.DateTimeOffset)'
   parent: System.Net.Http.Headers.RetryConditionHeaderValue
@@ -136,6 +138,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.RetryConditionHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -159,6 +162,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.RetryConditionHeaderValue.GetHashCode
   id: GetHashCode
@@ -179,6 +183,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.RetryConditionHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -202,6 +207,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.RetryConditionHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.RetryConditionHeaderValue.TryParse(System.String,System.Net.Http.Headers.RetryConditionHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.RetryConditionHeaderValue@)
   parent: System.Net.Http.Headers.RetryConditionHeaderValue
@@ -228,6 +234,7 @@ items:
       type: System.Net.Http.Headers.RetryConditionHeaderValue
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

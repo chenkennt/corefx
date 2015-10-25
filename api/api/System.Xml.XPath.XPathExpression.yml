@@ -21,7 +21,7 @@ items:
       path: src/System.Xml.XPath/src/System/Xml/XPath/XPathExpr.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XPath/src/System/Xml/XPath/XPathExpr.cs
     startLine: 38
   assemblies:
@@ -60,6 +60,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XPath.XPathExpression.AddSort(System.Object,System.Collections.IComparer)
   id: AddSort(System.Object,System.Collections.IComparer)
   parent: System.Xml.XPath.XPathExpression
@@ -129,6 +130,7 @@ items:
     content.vb: Public MustOverride Function Clone As XPathExpression
     return:
       type: System.Xml.XPath.XPathExpression
+      description: 
 - uid: System.Xml.XPath.XPathExpression.SetContext(XmlNamespaceManager)
   id: SetContext(XmlNamespaceManager)
   parent: System.Xml.XPath.XPathExpression
@@ -189,6 +191,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XPath.XPathResultType
+      description: 
 - uid: System.Xml.XPath.XPathExpression.Compile(System.String)
   id: Compile(System.String)
   parent: System.Xml.XPath.XPathExpression
@@ -211,6 +214,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XPath.XPathExpression
+      description: 
 - uid: System.Xml.XPath.XPathExpression.Compile(System.String,IXmlNamespaceResolver)
   id: Compile(System.String,IXmlNamespaceResolver)
   parent: System.Xml.XPath.XPathExpression
@@ -235,6 +239,7 @@ items:
       type: IXmlNamespaceResolver
     return:
       type: System.Xml.XPath.XPathExpression
+      description: 
 references:
 - uid: System.Xml.XPath
   isExternal: false

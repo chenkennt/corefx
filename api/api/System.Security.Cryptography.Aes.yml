@@ -16,7 +16,7 @@ items:
       path: src/System.Security.Cryptography.Encryption.Aes/src/System/Security/Cryptography/Aes.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encryption.Aes/src/System/Security/Cryptography/Aes.cs
     startLine: 9
   assemblies:
@@ -102,6 +102,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.KeySizes[]
+      description: 
   overridden: System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes
 - uid: System.Security.Cryptography.Aes.LegalKeySizes
   id: LegalKeySizes
@@ -123,6 +124,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.KeySizes[]
+      description: 
   overridden: System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes
 - uid: System.Security.Cryptography.Aes.Create
   id: Create
@@ -143,6 +145,7 @@ items:
     content.vb: Public Shared Function Create As Aes
     return:
       type: System.Security.Cryptography.Aes
+      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

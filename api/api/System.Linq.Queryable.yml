@@ -135,7 +135,7 @@ items:
       path: src/System.Linq.Queryable/src/System/Linq/Queryable.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Queryable/src/System/Linq/Queryable.cs
     startLine: 10
   assemblies:
@@ -180,6 +180,7 @@ items:
     - id: TElement
     return:
       type: IQueryable{{TElement}}
+      description: 
 - uid: System.Linq.Queryable.AsQueryable(System.Collections.IEnumerable)
   id: AsQueryable(System.Collections.IEnumerable)
   parent: System.Linq.Queryable
@@ -202,6 +203,7 @@ items:
       type: System.Collections.IEnumerable
     return:
       type: IQueryable
+      description: 
 - uid: System.Linq.Queryable.Where``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: Where``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -230,6 +232,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Where``1(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Boolean}})
   id: Where``1(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Boolean}})
   parent: System.Linq.Queryable
@@ -258,6 +261,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.OfType``1(IQueryable)
   id: OfType``1(IQueryable)
   parent: System.Linq.Queryable
@@ -284,6 +288,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.Cast``1(IQueryable)
   id: Cast``1(IQueryable)
   parent: System.Linq.Queryable
@@ -310,6 +315,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.Select``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   id: Select``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -339,6 +345,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.Select``2(IQueryable{``0},Expression{System.Func{``0,System.Int32,``1}})
   id: Select``2(IQueryable{``0},Expression{System.Func{``0,System.Int32,``1}})
   parent: System.Linq.Queryable
@@ -368,6 +375,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.SelectMany``2(IQueryable{``0},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1}}})
   id: SelectMany``2(IQueryable{``0},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1}}})
   parent: System.Linq.Queryable
@@ -397,6 +405,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.SelectMany``2(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}}})
   id: SelectMany``2(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}}})
   parent: System.Linq.Queryable
@@ -426,6 +435,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.SelectMany``3(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}}},Expression{System.Func{``0,``1,``2}})
   id: SelectMany``3(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Collections.Generic.IEnumerable{``1}}},Expression{System.Func{``0,``1,``2}})
   parent: System.Linq.Queryable
@@ -458,6 +468,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.SelectMany``3(IQueryable{``0},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1}}},Expression{System.Func{``0,``1,``2}})
   id: SelectMany``3(IQueryable{``0},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1}}},Expression{System.Func{``0,``1,``2}})
   parent: System.Linq.Queryable
@@ -490,6 +501,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.Join``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,``1,``3}})
   id: Join``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,``1,``3}})
   parent: System.Linq.Queryable
@@ -527,6 +539,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.Join``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,``1,``3}},System.Collections.Generic.IEqualityComparer{``2})
   id: Join``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,``1,``3}},System.Collections.Generic.IEqualityComparer{``2})
   parent: System.Linq.Queryable
@@ -566,6 +579,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.GroupJoin``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3}})
   id: GroupJoin``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3}})
   parent: System.Linq.Queryable
@@ -603,6 +617,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.GroupJoin``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3}},System.Collections.Generic.IEqualityComparer{``2})
   id: GroupJoin``4(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``2}},Expression{System.Func{``1,``2}},Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1},``3}},System.Collections.Generic.IEqualityComparer{``2})
   parent: System.Linq.Queryable
@@ -642,6 +657,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.OrderBy``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   id: OrderBy``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -671,6 +687,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.OrderBy``2(IQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   id: OrderBy``2(IQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Queryable
@@ -702,6 +719,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.OrderByDescending``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   id: OrderByDescending``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -731,6 +749,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.OrderByDescending``2(IQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   id: OrderByDescending``2(IQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Queryable
@@ -762,6 +781,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.ThenBy``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}})
   id: ThenBy``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -791,6 +811,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.ThenBy``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   id: ThenBy``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Queryable
@@ -822,6 +843,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.ThenByDescending``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}})
   id: ThenByDescending``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -851,6 +873,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.ThenByDescending``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   id: ThenByDescending``2(IOrderedQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IComparer{``1})
   parent: System.Linq.Queryable
@@ -882,6 +905,7 @@ items:
     - id: TKey
     return:
       type: IOrderedQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Take``1(IQueryable{``0},System.Int32)
   id: Take``1(IQueryable{``0},System.Int32)
   parent: System.Linq.Queryable
@@ -910,6 +934,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.TakeWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: TakeWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -938,6 +963,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.TakeWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Boolean}})
   id: TakeWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Boolean}})
   parent: System.Linq.Queryable
@@ -966,6 +992,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Skip``1(IQueryable{``0},System.Int32)
   id: Skip``1(IQueryable{``0},System.Int32)
   parent: System.Linq.Queryable
@@ -994,6 +1021,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.SkipWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: SkipWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1022,6 +1050,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.SkipWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Boolean}})
   id: SkipWhile``1(IQueryable{``0},Expression{System.Func{``0,System.Int32,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1050,6 +1079,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   id: GroupBy``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -1079,6 +1109,7 @@ items:
     - id: TKey
     return:
       type: IQueryable{IGrouping{{TKey},{TSource}}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}})
   id: GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}})
   parent: System.Linq.Queryable
@@ -1111,6 +1142,7 @@ items:
     - id: TElement
     return:
       type: IQueryable{IGrouping{{TKey},{TElement}}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``2(IQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``2(IQueryable{``0},Expression{System.Func{``0,``1}},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Queryable
@@ -1142,6 +1174,7 @@ items:
     - id: TKey
     return:
       type: IQueryable{IGrouping{{TKey},{TSource}}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Queryable
@@ -1176,6 +1209,7 @@ items:
     - id: TElement
     return:
       type: IQueryable{IGrouping{{TKey},{TElement}}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``4(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3}})
   id: GroupBy``4(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3}})
   parent: System.Linq.Queryable
@@ -1211,6 +1245,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2}})
   id: GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2}})
   parent: System.Linq.Queryable
@@ -1243,6 +1278,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2}},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``3(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2}},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Queryable
@@ -1277,6 +1313,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.GroupBy``4(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3}},System.Collections.Generic.IEqualityComparer{``1})
   id: GroupBy``4(IQueryable{``0},Expression{System.Func{``0,``1}},Expression{System.Func{``0,``2}},Expression{System.Func{``1,System.Collections.Generic.IEnumerable{``2},``3}},System.Collections.Generic.IEqualityComparer{``1})
   parent: System.Linq.Queryable
@@ -1314,6 +1351,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.Distinct``1(IQueryable{``0})
   id: Distinct``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -1340,6 +1378,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Distinct``1(IQueryable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Distinct``1(IQueryable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Queryable
@@ -1368,6 +1407,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Concat``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Concat``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Queryable
@@ -1396,6 +1436,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Zip``3(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``1,``2}})
   id: Zip``3(IQueryable{``0},System.Collections.Generic.IEnumerable{``1},Expression{System.Func{``0,``1,``2}})
   parent: System.Linq.Queryable
@@ -1428,6 +1469,7 @@ items:
     - id: TResult
     return:
       type: IQueryable{{TResult}}
+      description: 
 - uid: System.Linq.Queryable.Union``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Union``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Queryable
@@ -1456,6 +1498,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Union``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Union``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Queryable
@@ -1486,6 +1529,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Intersect``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Intersect``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Queryable
@@ -1514,6 +1558,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Intersect``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Intersect``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Queryable
@@ -1544,6 +1589,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Except``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   id: Except``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Queryable
@@ -1572,6 +1618,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Except``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: Except``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Queryable
@@ -1602,6 +1649,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.First``1(IQueryable{``0})
   id: First``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -1628,6 +1676,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.First``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: First``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1656,6 +1705,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.FirstOrDefault``1(IQueryable{``0})
   id: FirstOrDefault``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -1682,6 +1732,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.FirstOrDefault``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: FirstOrDefault``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1710,6 +1761,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.Last``1(IQueryable{``0})
   id: Last``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -1736,6 +1788,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.Last``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: Last``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1764,6 +1817,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.LastOrDefault``1(IQueryable{``0})
   id: LastOrDefault``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -1790,6 +1844,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.LastOrDefault``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: LastOrDefault``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1818,6 +1873,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.Single``1(IQueryable{``0})
   id: Single``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -1844,6 +1900,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.Single``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: Single``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1872,6 +1929,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.SingleOrDefault``1(IQueryable{``0})
   id: SingleOrDefault``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -1898,6 +1956,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.SingleOrDefault``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: SingleOrDefault``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -1926,6 +1985,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.ElementAt``1(IQueryable{``0},System.Int32)
   id: ElementAt``1(IQueryable{``0},System.Int32)
   parent: System.Linq.Queryable
@@ -1954,6 +2014,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.ElementAtOrDefault``1(IQueryable{``0},System.Int32)
   id: ElementAtOrDefault``1(IQueryable{``0},System.Int32)
   parent: System.Linq.Queryable
@@ -1982,6 +2043,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.DefaultIfEmpty``1(IQueryable{``0})
   id: DefaultIfEmpty``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -2008,6 +2070,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.DefaultIfEmpty``1(IQueryable{``0},``0)
   id: DefaultIfEmpty``1(IQueryable{``0},``0)
   parent: System.Linq.Queryable
@@ -2036,6 +2099,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.Contains``1(IQueryable{``0},``0)
   id: Contains``1(IQueryable{``0},``0)
   parent: System.Linq.Queryable
@@ -2064,6 +2128,7 @@ items:
     - id: TSource
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Queryable.Contains``1(IQueryable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
   id: Contains``1(IQueryable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Queryable
@@ -2094,6 +2159,7 @@ items:
     - id: TSource
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Queryable.Reverse``1(IQueryable{``0})
   id: Reverse``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -2120,6 +2186,7 @@ items:
     - id: TSource
     return:
       type: IQueryable{{TSource}}
+      description: 
 - uid: System.Linq.Queryable.SequenceEqual``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   id: SequenceEqual``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0})
   parent: System.Linq.Queryable
@@ -2148,6 +2215,7 @@ items:
     - id: TSource
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Queryable.SequenceEqual``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   id: SequenceEqual``1(IQueryable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   parent: System.Linq.Queryable
@@ -2178,6 +2246,7 @@ items:
     - id: TSource
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Queryable.Any``1(IQueryable{``0})
   id: Any``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -2204,6 +2273,7 @@ items:
     - id: TSource
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Queryable.Any``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: Any``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -2232,6 +2302,7 @@ items:
     - id: TSource
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Queryable.All``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: All``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -2260,6 +2331,7 @@ items:
     - id: TSource
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Queryable.Count``1(IQueryable{``0})
   id: Count``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -2286,6 +2358,7 @@ items:
     - id: TSource
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.Queryable.Count``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: Count``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -2314,6 +2387,7 @@ items:
     - id: TSource
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.Queryable.LongCount``1(IQueryable{``0})
   id: LongCount``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -2340,6 +2414,7 @@ items:
     - id: TSource
     return:
       type: System.Int64
+      description: 
 - uid: System.Linq.Queryable.LongCount``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   id: LongCount``1(IQueryable{``0},Expression{System.Func{``0,System.Boolean}})
   parent: System.Linq.Queryable
@@ -2368,6 +2443,7 @@ items:
     - id: TSource
     return:
       type: System.Int64
+      description: 
 - uid: System.Linq.Queryable.Min``1(IQueryable{``0})
   id: Min``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -2394,6 +2470,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.Min``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   id: Min``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -2423,6 +2500,7 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
+      description: 
 - uid: System.Linq.Queryable.Max``1(IQueryable{``0})
   id: Max``1(IQueryable{``0})
   parent: System.Linq.Queryable
@@ -2449,6 +2527,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.Max``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   id: Max``2(IQueryable{``0},Expression{System.Func{``0,``1}})
   parent: System.Linq.Queryable
@@ -2478,6 +2557,7 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Int32})
   id: Sum(IQueryable{System.Int32})
   parent: System.Linq.Queryable
@@ -2502,6 +2582,7 @@ items:
       type: IQueryable{System.Int32}
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Nullable{System.Int32}})
   id: Sum(IQueryable{System.Nullable{System.Int32}})
   parent: System.Linq.Queryable
@@ -2526,6 +2607,7 @@ items:
       type: IQueryable{System.Nullable{System.Int32}}
     return:
       type: System.Nullable{System.Int32}
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Int64})
   id: Sum(IQueryable{System.Int64})
   parent: System.Linq.Queryable
@@ -2550,6 +2632,7 @@ items:
       type: IQueryable{System.Int64}
     return:
       type: System.Int64
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Nullable{System.Int64}})
   id: Sum(IQueryable{System.Nullable{System.Int64}})
   parent: System.Linq.Queryable
@@ -2574,6 +2657,7 @@ items:
       type: IQueryable{System.Nullable{System.Int64}}
     return:
       type: System.Nullable{System.Int64}
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Single})
   id: Sum(IQueryable{System.Single})
   parent: System.Linq.Queryable
@@ -2598,6 +2682,7 @@ items:
       type: IQueryable{System.Single}
     return:
       type: System.Single
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Nullable{System.Single}})
   id: Sum(IQueryable{System.Nullable{System.Single}})
   parent: System.Linq.Queryable
@@ -2622,6 +2707,7 @@ items:
       type: IQueryable{System.Nullable{System.Single}}
     return:
       type: System.Nullable{System.Single}
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Double})
   id: Sum(IQueryable{System.Double})
   parent: System.Linq.Queryable
@@ -2646,6 +2732,7 @@ items:
       type: IQueryable{System.Double}
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Nullable{System.Double}})
   id: Sum(IQueryable{System.Nullable{System.Double}})
   parent: System.Linq.Queryable
@@ -2670,6 +2757,7 @@ items:
       type: IQueryable{System.Nullable{System.Double}}
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Decimal})
   id: Sum(IQueryable{System.Decimal})
   parent: System.Linq.Queryable
@@ -2694,6 +2782,7 @@ items:
       type: IQueryable{System.Decimal}
     return:
       type: System.Decimal
+      description: 
 - uid: System.Linq.Queryable.Sum(IQueryable{System.Nullable{System.Decimal}})
   id: Sum(IQueryable{System.Nullable{System.Decimal}})
   parent: System.Linq.Queryable
@@ -2718,6 +2807,7 @@ items:
       type: IQueryable{System.Nullable{System.Decimal}}
     return:
       type: System.Nullable{System.Decimal}
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Int32}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Int32}})
   parent: System.Linq.Queryable
@@ -2746,6 +2836,7 @@ items:
     - id: TSource
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int32}}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int32}}})
   parent: System.Linq.Queryable
@@ -2774,6 +2865,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int32}
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Int64}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Int64}})
   parent: System.Linq.Queryable
@@ -2802,6 +2894,7 @@ items:
     - id: TSource
     return:
       type: System.Int64
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int64}}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int64}}})
   parent: System.Linq.Queryable
@@ -2830,6 +2923,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Int64}
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Single}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Single}})
   parent: System.Linq.Queryable
@@ -2858,6 +2952,7 @@ items:
     - id: TSource
     return:
       type: System.Single
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Single}}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Single}}})
   parent: System.Linq.Queryable
@@ -2886,6 +2981,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Single}
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Double}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Double}})
   parent: System.Linq.Queryable
@@ -2914,6 +3010,7 @@ items:
     - id: TSource
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Double}}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Double}}})
   parent: System.Linq.Queryable
@@ -2942,6 +3039,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Decimal}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Decimal}})
   parent: System.Linq.Queryable
@@ -2970,6 +3068,7 @@ items:
     - id: TSource
     return:
       type: System.Decimal
+      description: 
 - uid: System.Linq.Queryable.Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Decimal}}})
   id: Sum``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Decimal}}})
   parent: System.Linq.Queryable
@@ -2998,6 +3097,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Decimal}
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Int32})
   id: Average(IQueryable{System.Int32})
   parent: System.Linq.Queryable
@@ -3022,6 +3122,7 @@ items:
       type: IQueryable{System.Int32}
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Nullable{System.Int32}})
   id: Average(IQueryable{System.Nullable{System.Int32}})
   parent: System.Linq.Queryable
@@ -3046,6 +3147,7 @@ items:
       type: IQueryable{System.Nullable{System.Int32}}
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Int64})
   id: Average(IQueryable{System.Int64})
   parent: System.Linq.Queryable
@@ -3070,6 +3172,7 @@ items:
       type: IQueryable{System.Int64}
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Nullable{System.Int64}})
   id: Average(IQueryable{System.Nullable{System.Int64}})
   parent: System.Linq.Queryable
@@ -3094,6 +3197,7 @@ items:
       type: IQueryable{System.Nullable{System.Int64}}
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Single})
   id: Average(IQueryable{System.Single})
   parent: System.Linq.Queryable
@@ -3118,6 +3222,7 @@ items:
       type: IQueryable{System.Single}
     return:
       type: System.Single
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Nullable{System.Single}})
   id: Average(IQueryable{System.Nullable{System.Single}})
   parent: System.Linq.Queryable
@@ -3142,6 +3247,7 @@ items:
       type: IQueryable{System.Nullable{System.Single}}
     return:
       type: System.Nullable{System.Single}
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Double})
   id: Average(IQueryable{System.Double})
   parent: System.Linq.Queryable
@@ -3166,6 +3272,7 @@ items:
       type: IQueryable{System.Double}
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Nullable{System.Double}})
   id: Average(IQueryable{System.Nullable{System.Double}})
   parent: System.Linq.Queryable
@@ -3190,6 +3297,7 @@ items:
       type: IQueryable{System.Nullable{System.Double}}
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Decimal})
   id: Average(IQueryable{System.Decimal})
   parent: System.Linq.Queryable
@@ -3214,6 +3322,7 @@ items:
       type: IQueryable{System.Decimal}
     return:
       type: System.Decimal
+      description: 
 - uid: System.Linq.Queryable.Average(IQueryable{System.Nullable{System.Decimal}})
   id: Average(IQueryable{System.Nullable{System.Decimal}})
   parent: System.Linq.Queryable
@@ -3238,6 +3347,7 @@ items:
       type: IQueryable{System.Nullable{System.Decimal}}
     return:
       type: System.Nullable{System.Decimal}
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Int32}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Int32}})
   parent: System.Linq.Queryable
@@ -3266,6 +3376,7 @@ items:
     - id: TSource
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int32}}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int32}}})
   parent: System.Linq.Queryable
@@ -3294,6 +3405,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Single}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Single}})
   parent: System.Linq.Queryable
@@ -3322,6 +3434,7 @@ items:
     - id: TSource
     return:
       type: System.Single
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Single}}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Single}}})
   parent: System.Linq.Queryable
@@ -3350,6 +3463,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Single}
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Int64}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Int64}})
   parent: System.Linq.Queryable
@@ -3378,6 +3492,7 @@ items:
     - id: TSource
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int64}}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Int64}}})
   parent: System.Linq.Queryable
@@ -3406,6 +3521,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Double}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Double}})
   parent: System.Linq.Queryable
@@ -3434,6 +3550,7 @@ items:
     - id: TSource
     return:
       type: System.Double
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Double}}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Double}}})
   parent: System.Linq.Queryable
@@ -3462,6 +3579,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Double}
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Decimal}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Decimal}})
   parent: System.Linq.Queryable
@@ -3490,6 +3608,7 @@ items:
     - id: TSource
     return:
       type: System.Decimal
+      description: 
 - uid: System.Linq.Queryable.Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Decimal}}})
   id: Average``1(IQueryable{``0},Expression{System.Func{``0,System.Nullable{System.Decimal}}})
   parent: System.Linq.Queryable
@@ -3518,6 +3637,7 @@ items:
     - id: TSource
     return:
       type: System.Nullable{System.Decimal}
+      description: 
 - uid: System.Linq.Queryable.Aggregate``1(IQueryable{``0},Expression{System.Func{``0,``0,``0}})
   id: Aggregate``1(IQueryable{``0},Expression{System.Func{``0,``0,``0}})
   parent: System.Linq.Queryable
@@ -3546,6 +3666,7 @@ items:
     - id: TSource
     return:
       type: '{TSource}'
+      description: 
 - uid: System.Linq.Queryable.Aggregate``2(IQueryable{``0},``1,Expression{System.Func{``1,``0,``1}})
   id: Aggregate``2(IQueryable{``0},``1,Expression{System.Func{``1,``0,``1}})
   parent: System.Linq.Queryable
@@ -3577,6 +3698,7 @@ items:
     - id: TAccumulate
     return:
       type: '{TAccumulate}'
+      description: 
 - uid: System.Linq.Queryable.Aggregate``3(IQueryable{``0},``1,Expression{System.Func{``1,``0,``1}},Expression{System.Func{``1,``2}})
   id: Aggregate``3(IQueryable{``0},``1,Expression{System.Func{``1,``0,``1}},Expression{System.Func{``1,``2}})
   parent: System.Linq.Queryable
@@ -3611,6 +3733,7 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
+      description: 
 references:
 - uid: System.Linq
   isExternal: false
@@ -3976,7 +4099,8 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - {}
+  - name: 
+    fullName: 
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -3986,7 +4110,8 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - {}
+  - name: 
+    fullName: 
   - name: )
     fullName: )
 - uid: System.Collections.IEnumerable
@@ -4105,7 +4230,8 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - {}
+  - name: 
+    fullName: 
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -4115,7 +4241,8 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - {}
+  - name: 
+    fullName: 
   - name: )
     fullName: )
 - uid: Expression{System.Func{{TSource},System.Int32,System.Boolean}}
@@ -5202,7 +5329,8 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - {}
+  - name: 
+    fullName: 
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -5212,7 +5340,8 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - {}
+  - name: 
+    fullName: 
   - name: )
     fullName: )
 - uid: System.Collections.Generic.IComparer{{TKey}}

@@ -23,7 +23,7 @@ items:
       path: src/System.Xml.XPath/src/System/Xml/XPath/XPathItem.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XPath/src/System/Xml/XPath/XPathItem.cs
     startLine: 8
   assemblies:
@@ -105,6 +105,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueType
   id: ValueType
   parent: System.Xml.XPath.XPathItem
@@ -125,6 +126,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueAsBoolean
   id: ValueAsBoolean
   parent: System.Xml.XPath.XPathItem
@@ -145,6 +147,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueAsDateTime
   id: ValueAsDateTime
   parent: System.Xml.XPath.XPathItem
@@ -165,6 +168,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueAsDouble
   id: ValueAsDouble
   parent: System.Xml.XPath.XPathItem
@@ -185,6 +189,7 @@ items:
     parameters: []
     return:
       type: System.Double
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueAsInt
   id: ValueAsInt
   parent: System.Xml.XPath.XPathItem
@@ -205,6 +210,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueAsLong
   id: ValueAsLong
   parent: System.Xml.XPath.XPathItem
@@ -225,6 +231,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueAs(System.Type)
   id: ValueAs(System.Type)
   parent: System.Xml.XPath.XPathItem
@@ -247,6 +254,7 @@ items:
       type: System.Type
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XPath.XPathItem.ValueAs(System.Type,IXmlNamespaceResolver)
   id: ValueAs(System.Type,IXmlNamespaceResolver)
   parent: System.Xml.XPath.XPathItem
@@ -271,6 +279,7 @@ items:
       type: IXmlNamespaceResolver
     return:
       type: System.Object
+      description: 
 references:
 - uid: System.Xml.XPath
   isExternal: false

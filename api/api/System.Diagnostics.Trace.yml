@@ -49,7 +49,7 @@ items:
       path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/Trace.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/Trace.cs
     startLine: 12
   assemblies:
@@ -128,6 +128,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Diagnostics.Trace.IndentLevel
   id: IndentLevel
   parent: System.Diagnostics.Trace

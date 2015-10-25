@@ -35,7 +35,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlAttribute.cs
     startLine: 9
   assemblies:
@@ -124,6 +124,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlAttribute.ParentNode
   id: ParentNode
@@ -145,6 +146,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.ParentNode
 - uid: System.Xml.XmlAttribute.Name
   id: Name
@@ -166,6 +168,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlAttribute.LocalName
   id: LocalName
@@ -187,6 +190,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlAttribute.NamespaceURI
   id: NamespaceURI
@@ -208,6 +212,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.NamespaceURI
 - uid: System.Xml.XmlAttribute.Prefix
   id: Prefix
@@ -229,6 +234,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Prefix
 - uid: System.Xml.XmlAttribute.NodeType
   id: NodeType
@@ -250,6 +256,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlAttribute.OwnerDocument
   id: OwnerDocument
@@ -271,6 +278,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlDocument
+      description: 
   overridden: System.Xml.XmlNode.OwnerDocument
 - uid: System.Xml.XmlAttribute.Value
   id: Value
@@ -292,6 +300,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Value
 - uid: System.Xml.XmlAttribute.InnerText
   id: InnerText
@@ -313,6 +322,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerText
 - uid: System.Xml.XmlAttribute.Specified
   id: Specified
@@ -334,6 +344,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlAttribute.InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
   id: InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
   parent: System.Xml.XmlAttribute
@@ -358,6 +369,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
   id: InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -383,6 +395,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
   id: ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
@@ -408,6 +421,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.RemoveChild(System.Xml.XmlNode)
   id: RemoveChild(System.Xml.XmlNode)
@@ -431,6 +445,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.RemoveChild(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.PrependChild(System.Xml.XmlNode)
   id: PrependChild(System.Xml.XmlNode)
@@ -454,6 +469,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.PrependChild(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.AppendChild(System.Xml.XmlNode)
   id: AppendChild(System.Xml.XmlNode)
@@ -477,6 +493,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.AppendChild(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttribute.OwnerElement
   id: OwnerElement
@@ -498,6 +515,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlElement
+      description: 
 - uid: System.Xml.XmlAttribute.InnerXml
   id: InnerXml
   parent: System.Xml.XmlAttribute
@@ -518,6 +536,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerXml
 - uid: System.Xml.XmlAttribute.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)
@@ -581,6 +600,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.BaseURI
 references:
 - uid: System.Xml

@@ -51,7 +51,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNode.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNode.cs
     startLine: 12
   assemblies:
@@ -92,6 +92,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.Value
   id: Value
   parent: System.Xml.XmlNode
@@ -112,6 +113,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.NodeType
   id: NodeType
   parent: System.Xml.XmlNode
@@ -132,6 +134,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
 - uid: System.Xml.XmlNode.ParentNode
   id: ParentNode
   parent: System.Xml.XmlNode
@@ -152,6 +155,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.ChildNodes
   id: ChildNodes
   parent: System.Xml.XmlNode
@@ -172,6 +176,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNodeList
+      description: 
 - uid: System.Xml.XmlNode.PreviousSibling
   id: PreviousSibling
   parent: System.Xml.XmlNode
@@ -192,6 +197,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.NextSibling
   id: NextSibling
   parent: System.Xml.XmlNode
@@ -212,6 +218,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.Attributes
   id: Attributes
   parent: System.Xml.XmlNode
@@ -232,6 +239,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlAttributeCollection
+      description: 
 - uid: System.Xml.XmlNode.OwnerDocument
   id: OwnerDocument
   parent: System.Xml.XmlNode
@@ -252,6 +260,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlDocument
+      description: 
 - uid: System.Xml.XmlNode.FirstChild
   id: FirstChild
   parent: System.Xml.XmlNode
@@ -272,6 +281,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.LastChild
   id: LastChild
   parent: System.Xml.XmlNode
@@ -292,6 +302,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
   id: InsertBefore(System.Xml.XmlNode,System.Xml.XmlNode)
   parent: System.Xml.XmlNode
@@ -316,6 +327,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
   id: InsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
   parent: System.Xml.XmlNode
@@ -340,6 +352,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
   id: ReplaceChild(System.Xml.XmlNode,System.Xml.XmlNode)
   parent: System.Xml.XmlNode
@@ -364,6 +377,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.RemoveChild(System.Xml.XmlNode)
   id: RemoveChild(System.Xml.XmlNode)
   parent: System.Xml.XmlNode
@@ -386,6 +400,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.PrependChild(System.Xml.XmlNode)
   id: PrependChild(System.Xml.XmlNode)
   parent: System.Xml.XmlNode
@@ -408,6 +423,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.AppendChild(System.Xml.XmlNode)
   id: AppendChild(System.Xml.XmlNode)
   parent: System.Xml.XmlNode
@@ -430,6 +446,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.HasChildNodes
   id: HasChildNodes
   parent: System.Xml.XmlNode
@@ -450,6 +467,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlNode.CloneNode(System.Boolean)
   id: CloneNode(System.Boolean)
   parent: System.Xml.XmlNode
@@ -472,6 +490,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlNode.Normalize
   id: Normalize
   parent: System.Xml.XmlNode
@@ -513,6 +532,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlNode.NamespaceURI
   id: NamespaceURI
   parent: System.Xml.XmlNode
@@ -533,6 +553,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.Prefix
   id: Prefix
   parent: System.Xml.XmlNode
@@ -553,6 +574,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.LocalName
   id: LocalName
   parent: System.Xml.XmlNode
@@ -573,6 +595,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.IsReadOnly
   id: IsReadOnly
   parent: System.Xml.XmlNode
@@ -593,6 +616,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlNode.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Xml.XmlNode
@@ -613,6 +637,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Xml.XmlNode.GetEnumerator
   id: GetEnumerator
   parent: System.Xml.XmlNode
@@ -632,6 +657,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Xml.XmlNode.InnerText
   id: InnerText
   parent: System.Xml.XmlNode
@@ -652,6 +678,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.OuterXml
   id: OuterXml
   parent: System.Xml.XmlNode
@@ -672,6 +699,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.InnerXml
   id: InnerXml
   parent: System.Xml.XmlNode
@@ -692,6 +720,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.BaseURI
   id: BaseURI
   parent: System.Xml.XmlNode
@@ -712,6 +741,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)
   parent: System.Xml.XmlNode
@@ -791,6 +821,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.GetPrefixOfNamespace(System.String)
   id: GetPrefixOfNamespace(System.String)
   parent: System.Xml.XmlNode
@@ -813,6 +844,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlNode.Item(System.String)
   id: Item(System.String)
   parent: System.Xml.XmlNode
@@ -837,6 +869,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlElement
+      description: 
 - uid: System.Xml.XmlNode.Item(System.String,System.String)
   id: Item(System.String,System.String)
   parent: System.Xml.XmlNode
@@ -863,6 +896,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlElement
+      description: 
 - uid: System.Xml.XmlNode.PreviousText
   id: PreviousText
   parent: System.Xml.XmlNode
@@ -883,6 +917,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

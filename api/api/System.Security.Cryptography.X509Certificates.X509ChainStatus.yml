@@ -14,7 +14,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509ChainStatus.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509ChainStatus.cs
     startLine: 8
   assemblies:
@@ -50,6 +50,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainStatus.StatusInformation
   id: StatusInformation
   parent: System.Security.Cryptography.X509Certificates.X509ChainStatus
@@ -70,6 +71,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 references:
 - uid: System.Security.Cryptography.X509Certificates
   isExternal: false

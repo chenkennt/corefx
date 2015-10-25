@@ -19,7 +19,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/ExceptionRegion.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/ExceptionRegion.cs
     startLine: 5
   assemblies:
@@ -55,6 +55,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.ExceptionRegionKind
+      description: 
 - uid: System.Reflection.Metadata.ExceptionRegion.TryOffset
   id: TryOffset
   parent: System.Reflection.Metadata.ExceptionRegion

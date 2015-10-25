@@ -23,7 +23,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlText.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlText.cs
     startLine: 8
   assemblies:
@@ -126,6 +126,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlText.LocalName
   id: LocalName
@@ -147,6 +148,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlText.NodeType
   id: NodeType
@@ -168,6 +170,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlText.ParentNode
   id: ParentNode
@@ -189,6 +192,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.ParentNode
 - uid: System.Xml.XmlText.CloneNode(System.Boolean)
   id: CloneNode(System.Boolean)
@@ -212,6 +216,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlText.Value
   id: Value
@@ -233,6 +238,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlCharacterData.Value
 - uid: System.Xml.XmlText.SplitText(System.Int32)
   id: SplitText(System.Int32)
@@ -256,6 +262,7 @@ items:
       type: System.Int32
     return:
       type: System.Xml.XmlText
+      description: 
 - uid: System.Xml.XmlText.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)
   parent: System.Xml.XmlText
@@ -318,6 +325,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.PreviousText
 references:
 - uid: System.Xml

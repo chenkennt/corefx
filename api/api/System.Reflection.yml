@@ -22,7 +22,7 @@ items:
       path: src/System.Reflection.DispatchProxy/src/System/Reflection/DispatchProxyGenerator.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.DispatchProxy/src/System/Reflection/DispatchProxyGenerator.cs
     startLine: 11
   assemblies:

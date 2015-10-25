@@ -14,7 +14,7 @@ items:
       path: src/System.Private.DataContractSerialization/src/System/Xml/IStreamProvider.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.DataContractSerialization/src/System/Xml/IStreamProvider.cs
     startLine: 7
   assemblies:
@@ -42,6 +42,7 @@ items:
     content.vb: Function GetStream As Stream
     return:
       type: System.IO.Stream
+      description: 
 - uid: System.Xml.IStreamProvider.ReleaseStream(System.IO.Stream)
   id: ReleaseStream(System.IO.Stream)
   parent: System.Xml.IStreamProvider

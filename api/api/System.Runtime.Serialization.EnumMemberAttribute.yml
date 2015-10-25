@@ -15,7 +15,7 @@ items:
       path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/EnumMemberAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/EnumMemberAttribute.cs
     startLine: 5
   assemblies:
@@ -113,6 +113,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.EnumMemberAttribute.IsValueSetExplicitly
   id: IsValueSetExplicitly
   parent: System.Runtime.Serialization.EnumMemberAttribute
@@ -133,6 +134,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

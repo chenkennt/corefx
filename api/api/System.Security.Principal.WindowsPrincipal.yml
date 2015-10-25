@@ -20,7 +20,7 @@ items:
       path: src/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs
     startLine: 24
   assemblies:
@@ -101,6 +101,7 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.IIdentity
+      description: 
   overridden: System.Security.Claims.ClaimsPrincipal.Identity
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.String)
   id: IsInRole(System.String)
@@ -124,6 +125,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
   overridden: System.Security.Claims.ClaimsPrincipal.IsInRole(System.String)
 - uid: System.Security.Principal.WindowsPrincipal.UserClaims
   id: UserClaims
@@ -145,6 +147,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+      description: 
 - uid: System.Security.Principal.WindowsPrincipal.DeviceClaims
   id: DeviceClaims
   parent: System.Security.Principal.WindowsPrincipal
@@ -165,6 +168,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+      description: 
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.WindowsBuiltInRole)
   id: IsInRole(System.Security.Principal.WindowsBuiltInRole)
   parent: System.Security.Principal.WindowsPrincipal
@@ -187,6 +191,7 @@ items:
       type: System.Security.Principal.WindowsBuiltInRole
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.Int32)
   id: IsInRole(System.Int32)
   parent: System.Security.Principal.WindowsPrincipal
@@ -209,6 +214,7 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.SecurityIdentifier)
   id: IsInRole(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.WindowsPrincipal
@@ -231,6 +237,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false

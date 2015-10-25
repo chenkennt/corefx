@@ -18,7 +18,7 @@ items:
       path: src/System.Runtime/src/System/Runtime/CompilerServices/StrongBox.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime/src/System/Runtime/CompilerServices/StrongBox.cs
     startLine: 9
   assemblies:
@@ -126,6 +126,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 references:
 - uid: System.Runtime.CompilerServices.StrongBox`1
   isExternal: false

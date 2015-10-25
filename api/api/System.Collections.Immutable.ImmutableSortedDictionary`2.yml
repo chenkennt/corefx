@@ -70,7 +70,7 @@ items:
       path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableSortedDictionary`2.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableSortedDictionary`2.cs
     startLine: 19
   assemblies:
@@ -345,6 +345,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Immutable.ImmutableSortedDictionary`2.KeyComparer
   id: KeyComparer
   parent: System.Collections.Immutable.ImmutableSortedDictionary`2
@@ -1077,6 +1078,7 @@ items:
       type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Immutable.ImmutableSortedDictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   id: System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   parent: System.Collections.Immutable.ImmutableSortedDictionary`2
@@ -1326,6 +1328,7 @@ items:
       description: The key.
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Immutable.ImmutableSortedDictionary`2.System#Collections#IDictionary#Clear
   id: System#Collections#IDictionary#Clear
   parent: System.Collections.Immutable.ImmutableSortedDictionary`2

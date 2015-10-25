@@ -20,7 +20,7 @@ items:
       path: src/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs
     startLine: 5
   assemblies:
@@ -56,6 +56,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Principal.IdentityReference.IsValidTargetType(System.Type)
   id: IsValidTargetType(System.Type)
   parent: System.Security.Principal.IdentityReference
@@ -78,6 +79,7 @@ items:
       type: System.Type
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.IdentityReference.Translate(System.Type)
   id: Translate(System.Type)
   parent: System.Security.Principal.IdentityReference
@@ -100,6 +102,7 @@ items:
       type: System.Type
     return:
       type: System.Security.Principal.IdentityReference
+      description: 
 - uid: System.Security.Principal.IdentityReference.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Security.Principal.IdentityReference
@@ -122,6 +125,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.Principal.IdentityReference.GetHashCode
   id: GetHashCode
@@ -142,6 +146,7 @@ items:
     content.vb: Public MustOverride Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Security.Principal.IdentityReference.ToString
   id: ToString
@@ -162,6 +167,7 @@ items:
     content.vb: Public MustOverride Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Security.Principal.IdentityReference.op_Equality(System.Security.Principal.IdentityReference,System.Security.Principal.IdentityReference)
   id: op_Equality(System.Security.Principal.IdentityReference,System.Security.Principal.IdentityReference)
@@ -187,6 +193,7 @@ items:
       type: System.Security.Principal.IdentityReference
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.IdentityReference.op_Inequality(System.Security.Principal.IdentityReference,System.Security.Principal.IdentityReference)
   id: op_Inequality(System.Security.Principal.IdentityReference,System.Security.Principal.IdentityReference)
   parent: System.Security.Principal.IdentityReference
@@ -211,6 +218,7 @@ items:
       type: System.Security.Principal.IdentityReference
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false

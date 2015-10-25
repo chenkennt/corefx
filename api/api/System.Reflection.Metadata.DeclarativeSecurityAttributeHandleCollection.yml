@@ -16,7 +16,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
     startLine: 347
   assemblies:
@@ -56,6 +56,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
@@ -75,6 +76,7 @@ items:
     content.vb: Public Function GetEnumerator As DeclarativeSecurityAttributeHandleCollection.Enumerator
     return:
       type: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection.Enumerator
+      description: 
 - uid: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection.System#Collections#Generic#IEnumerable{System#Reflection#Metadata#DeclarativeSecurityAttributeHandle}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{System#Reflection#Metadata#DeclarativeSecurityAttributeHandle}#GetEnumerator
   parent: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
@@ -95,6 +97,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Reflection.Metadata.DeclarativeSecurityAttributeHandle>.GetEnumerator As IEnumerator(Of DeclarativeSecurityAttributeHandle) Implements IEnumerable(Of DeclarativeSecurityAttributeHandle).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Reflection.Metadata.DeclarativeSecurityAttributeHandle}
+      description: 
 - uid: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
@@ -115,6 +118,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

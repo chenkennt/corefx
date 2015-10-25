@@ -71,7 +71,7 @@ items:
       path: src/System.Runtime.Numerics/src/System/Numerics/Complex.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Numerics/src/System/Numerics/Complex.cs
     startLine: 18
   assemblies:
@@ -107,6 +107,7 @@ items:
     parameters: []
     return:
       type: System.Double
+      description: 
 - uid: System.Numerics.Complex.Imaginary
   id: Imaginary
   parent: System.Numerics.Complex
@@ -127,6 +128,7 @@ items:
     parameters: []
     return:
       type: System.Double
+      description: 
 - uid: System.Numerics.Complex.Magnitude
   id: Magnitude
   parent: System.Numerics.Complex
@@ -147,6 +149,7 @@ items:
     parameters: []
     return:
       type: System.Double
+      description: 
 - uid: System.Numerics.Complex.Phase
   id: Phase
   parent: System.Numerics.Complex
@@ -167,6 +170,7 @@ items:
     parameters: []
     return:
       type: System.Double
+      description: 
 - uid: System.Numerics.Complex.Zero
   id: Zero
   parent: System.Numerics.Complex
@@ -264,6 +268,7 @@ items:
       type: System.Double
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Negate(System.Numerics.Complex)
   id: Negate(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -286,6 +291,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Add(System.Numerics.Complex,System.Numerics.Complex)
   id: Add(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -310,6 +316,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Subtract(System.Numerics.Complex,System.Numerics.Complex)
   id: Subtract(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -334,6 +341,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Multiply(System.Numerics.Complex,System.Numerics.Complex)
   id: Multiply(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -358,6 +366,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Divide(System.Numerics.Complex,System.Numerics.Complex)
   id: Divide(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -382,6 +391,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_UnaryNegation(System.Numerics.Complex)
   id: op_UnaryNegation(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -404,6 +414,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Addition(System.Numerics.Complex,System.Numerics.Complex)
   id: op_Addition(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -428,6 +439,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Subtraction(System.Numerics.Complex,System.Numerics.Complex)
   id: op_Subtraction(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -452,6 +464,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Multiply(System.Numerics.Complex,System.Numerics.Complex)
   id: op_Multiply(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -476,6 +489,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Division(System.Numerics.Complex,System.Numerics.Complex)
   id: op_Division(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -500,6 +514,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Abs(System.Numerics.Complex)
   id: Abs(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -522,6 +537,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Double
+      description: 
 - uid: System.Numerics.Complex.Conjugate(System.Numerics.Complex)
   id: Conjugate(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -544,6 +560,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Reciprocal(System.Numerics.Complex)
   id: Reciprocal(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -566,6 +583,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Equality(System.Numerics.Complex,System.Numerics.Complex)
   id: op_Equality(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -590,6 +608,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Boolean
+      description: 
 - uid: System.Numerics.Complex.op_Inequality(System.Numerics.Complex,System.Numerics.Complex)
   id: op_Inequality(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -614,6 +633,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Boolean
+      description: 
 - uid: System.Numerics.Complex.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Numerics.Complex
@@ -636,6 +656,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Numerics.Complex.Equals(System.Numerics.Complex)
   id: Equals(System.Numerics.Complex)
@@ -659,6 +680,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Boolean
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.Int16)~System.Numerics.Complex
   id: op_Implicit(System.Int16)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -683,6 +705,7 @@ items:
       type: System.Int16
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.Int32)~System.Numerics.Complex
   id: op_Implicit(System.Int32)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -707,6 +730,7 @@ items:
       type: System.Int32
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.Int64)~System.Numerics.Complex
   id: op_Implicit(System.Int64)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -731,6 +755,7 @@ items:
       type: System.Int64
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.UInt16)~System.Numerics.Complex
   id: op_Implicit(System.UInt16)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -755,6 +780,7 @@ items:
       type: System.UInt16
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.UInt32)~System.Numerics.Complex
   id: op_Implicit(System.UInt32)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -779,6 +805,7 @@ items:
       type: System.UInt32
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.UInt64)~System.Numerics.Complex
   id: op_Implicit(System.UInt64)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -803,6 +830,7 @@ items:
       type: System.UInt64
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.SByte)~System.Numerics.Complex
   id: op_Implicit(System.SByte)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -827,6 +855,7 @@ items:
       type: System.SByte
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.Byte)~System.Numerics.Complex
   id: op_Implicit(System.Byte)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -851,6 +880,7 @@ items:
       type: System.Byte
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.Single)~System.Numerics.Complex
   id: op_Implicit(System.Single)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -875,6 +905,7 @@ items:
       type: System.Single
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Implicit(System.Double)~System.Numerics.Complex
   id: op_Implicit(System.Double)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -899,6 +930,7 @@ items:
       type: System.Double
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Explicit(System.Numerics.BigInteger)~System.Numerics.Complex
   id: op_Explicit(System.Numerics.BigInteger)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -923,6 +955,7 @@ items:
       type: System.Numerics.BigInteger
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.op_Explicit(System.Decimal)~System.Numerics.Complex
   id: op_Explicit(System.Decimal)~System.Numerics.Complex
   parent: System.Numerics.Complex
@@ -947,6 +980,7 @@ items:
       type: System.Decimal
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.ToString
   id: ToString
   parent: System.Numerics.Complex
@@ -966,6 +1000,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.ValueType.ToString
 - uid: System.Numerics.Complex.ToString(System.String)
   id: ToString(System.String)
@@ -989,6 +1024,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Numerics.Complex.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
   parent: System.Numerics.Complex
@@ -1011,6 +1047,7 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
+      description: 
 - uid: System.Numerics.Complex.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.Numerics.Complex
@@ -1035,6 +1072,7 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
+      description: 
 - uid: System.Numerics.Complex.GetHashCode
   id: GetHashCode
   parent: System.Numerics.Complex
@@ -1054,6 +1092,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Numerics.Complex.Sin(System.Numerics.Complex)
   id: Sin(System.Numerics.Complex)
@@ -1077,6 +1116,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Sinh(System.Numerics.Complex)
   id: Sinh(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1099,6 +1139,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Asin(System.Numerics.Complex)
   id: Asin(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1121,6 +1162,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Cos(System.Numerics.Complex)
   id: Cos(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1143,6 +1185,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Cosh(System.Numerics.Complex)
   id: Cosh(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1165,6 +1208,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Acos(System.Numerics.Complex)
   id: Acos(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1187,6 +1231,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Tan(System.Numerics.Complex)
   id: Tan(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1209,6 +1254,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Tanh(System.Numerics.Complex)
   id: Tanh(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1231,6 +1277,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Atan(System.Numerics.Complex)
   id: Atan(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1253,6 +1300,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Log(System.Numerics.Complex)
   id: Log(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1275,6 +1323,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Log(System.Numerics.Complex,System.Double)
   id: Log(System.Numerics.Complex,System.Double)
   parent: System.Numerics.Complex
@@ -1299,6 +1348,7 @@ items:
       type: System.Double
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Log10(System.Numerics.Complex)
   id: Log10(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1321,6 +1371,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Exp(System.Numerics.Complex)
   id: Exp(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1343,6 +1394,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Sqrt(System.Numerics.Complex)
   id: Sqrt(System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1365,6 +1417,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Pow(System.Numerics.Complex,System.Numerics.Complex)
   id: Pow(System.Numerics.Complex,System.Numerics.Complex)
   parent: System.Numerics.Complex
@@ -1389,6 +1442,7 @@ items:
       type: System.Numerics.Complex
     return:
       type: System.Numerics.Complex
+      description: 
 - uid: System.Numerics.Complex.Pow(System.Numerics.Complex,System.Double)
   id: Pow(System.Numerics.Complex,System.Double)
   parent: System.Numerics.Complex
@@ -1413,6 +1467,7 @@ items:
       type: System.Double
     return:
       type: System.Numerics.Complex
+      description: 
 references:
 - uid: System.Numerics
   isExternal: false

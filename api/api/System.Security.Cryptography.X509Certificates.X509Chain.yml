@@ -20,7 +20,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Chain.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Chain.cs
     startLine: 17
   assemblies:
@@ -78,6 +78,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509ChainElementCollection
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Chain.ChainPolicy
   id: ChainPolicy
   parent: System.Security.Cryptography.X509Certificates.X509Chain
@@ -98,6 +99,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509ChainPolicy
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Chain.ChainStatus
   id: ChainStatus
   parent: System.Security.Cryptography.X509Certificates.X509Chain
@@ -118,6 +120,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509ChainStatus[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Chain.SafeHandle
   id: SafeHandle
   parent: System.Security.Cryptography.X509Certificates.X509Chain
@@ -138,6 +141,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeX509ChainHandle
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Chain.Build(System.Security.Cryptography.X509Certificates.X509Certificate2)
   id: Build(System.Security.Cryptography.X509Certificates.X509Certificate2)
   parent: System.Security.Cryptography.X509Certificates.X509Chain
@@ -160,6 +164,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Chain.Dispose
   id: Dispose
   parent: System.Security.Cryptography.X509Certificates.X509Chain

@@ -21,7 +21,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/NewExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/NewExpression.cs
     startLine: 16
   assemblies:
@@ -464,6 +464,7 @@ items:
       type: System.Int32
     return:
       type: System.Linq.Expressions.Expression
+      description: 
 - uid: System.Linq.Expressions.NewExpression.ArgumentCount
   id: ArgumentCount
   parent: System.Linq.Expressions.NewExpression
@@ -484,6 +485,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.Expressions.NewExpression.Members
   id: Members
   parent: System.Linq.Expressions.NewExpression

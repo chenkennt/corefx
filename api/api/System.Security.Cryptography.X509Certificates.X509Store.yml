@@ -22,7 +22,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Store.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Store.cs
     startLine: 15
   assemblies:
@@ -124,6 +124,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.StoreLocation
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Store.Name
   id: Name
   parent: System.Security.Cryptography.X509Certificates.X509Store
@@ -144,6 +145,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Store.Open(System.Security.Cryptography.X509Certificates.OpenFlags)
   id: Open(System.Security.Cryptography.X509Certificates.OpenFlags)
   parent: System.Security.Cryptography.X509Certificates.X509Store
@@ -184,6 +186,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Store.Add(System.Security.Cryptography.X509Certificates.X509Certificate2)
   id: Add(System.Security.Cryptography.X509Certificates.X509Certificate2)
   parent: System.Security.Cryptography.X509Certificates.X509Store

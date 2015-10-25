@@ -21,7 +21,7 @@ items:
       path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/Registry.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/Registry.cs
     startLine: 16
   assemblies:
@@ -168,6 +168,7 @@ items:
       type: System.Object
     return:
       type: System.Object
+      description: 
 - uid: Microsoft.Win32.Registry.SetValue(System.String,System.String,System.Object)
   id: SetValue(System.String,System.String,System.Object)
   parent: Microsoft.Win32.Registry

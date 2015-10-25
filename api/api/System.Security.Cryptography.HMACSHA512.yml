@@ -20,7 +20,7 @@ items:
       path: src/System.Security.Cryptography.Hashing.Algorithms/src/System/Security/Cryptography/HMACSHA512.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Hashing.Algorithms/src/System/Security/Cryptography/HMACSHA512.cs
     startLine: 16
   assemblies:
@@ -124,6 +124,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
   overridden: System.Security.Cryptography.HashAlgorithm.HashSize
 - uid: System.Security.Cryptography.HMACSHA512.Key
   id: Key
@@ -145,6 +146,7 @@ items:
     parameters: []
     return:
       type: System.Byte[]
+      description: 
   overridden: System.Security.Cryptography.HMAC.Key
 - uid: System.Security.Cryptography.HMACSHA512.HashCore(System.Byte[],System.Int32,System.Int32)
   id: HashCore(System.Byte[],System.Int32,System.Int32)
@@ -192,6 +194,7 @@ items:
     content.vb: Protected Overrides Function HashFinal As Byte()
     return:
       type: System.Byte[]
+      description: 
   overridden: System.Security.Cryptography.HMAC.HashFinal
 - uid: System.Security.Cryptography.HMACSHA512.Initialize
   id: Initialize

@@ -38,7 +38,7 @@ items:
       path: src/System.IO.Pipes/src/System/IO/Pipes/PipeStream.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/System/IO/Pipes/PipeStream.Windows.cs
     startLine: 14
   assemblies:
@@ -99,7 +99,7 @@ items:
       path: src/System.IO.Pipes/src/System/IO/Pipes/PipeStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/System/IO/Pipes/PipeStream.cs
     startLine: 30
   assemblies:
@@ -165,6 +165,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
   overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.IO.Pipes.PipeStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -196,6 +197,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
   overridden: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.Pipes.PipeStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -254,6 +256,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.Pipes.PipeStream.ReadByte
   id: ReadByte
@@ -274,6 +277,7 @@ items:
     content.vb: Public Overrides Function ReadByte As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.IO.Stream.ReadByte
 - uid: System.IO.Pipes.PipeStream.WriteByte(System.Byte)
   id: WriteByte(System.Byte)
@@ -355,6 +359,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.IO.Pipes.PipeStream.IsAsync
   id: IsAsync
   parent: System.IO.Pipes.PipeStream
@@ -375,6 +380,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.IO.Pipes.PipeStream.IsMessageComplete
   id: IsMessageComplete
   parent: System.IO.Pipes.PipeStream
@@ -395,6 +401,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.IO.Pipes.PipeStream.SafePipeHandle
   id: SafePipeHandle
   parent: System.IO.Pipes.PipeStream
@@ -415,6 +422,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafePipeHandle
+      description: 
 - uid: System.IO.Pipes.PipeStream.CanRead
   id: CanRead
   parent: System.IO.Pipes.PipeStream
@@ -435,6 +443,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanRead
 - uid: System.IO.Pipes.PipeStream.CanWrite
   id: CanWrite
@@ -456,6 +465,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanWrite
 - uid: System.IO.Pipes.PipeStream.CanSeek
   id: CanSeek
@@ -477,6 +487,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanSeek
 - uid: System.IO.Pipes.PipeStream.Length
   id: Length
@@ -498,6 +509,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Length
 - uid: System.IO.Pipes.PipeStream.Position
   id: Position
@@ -519,6 +531,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Position
 - uid: System.IO.Pipes.PipeStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -565,6 +578,7 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.Pipes.PipeStream.WaitForPipeDrain
   id: WaitForPipeDrain
@@ -603,6 +617,7 @@ items:
     parameters: []
     return:
       type: System.IO.Pipes.PipeTransmissionMode
+      description: 
 - uid: System.IO.Pipes.PipeStream.InBufferSize
   id: InBufferSize
   parent: System.IO.Pipes.PipeStream
@@ -623,6 +638,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.IO.Pipes.PipeStream.OutBufferSize
   id: OutBufferSize
   parent: System.IO.Pipes.PipeStream
@@ -643,6 +659,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.IO.Pipes.PipeStream.ReadMode
   id: ReadMode
   parent: System.IO.Pipes.PipeStream
@@ -663,6 +680,7 @@ items:
     parameters: []
     return:
       type: System.IO.Pipes.PipeTransmissionMode
+      description: 
 references:
 - uid: System.IO.Pipes
   isExternal: false
@@ -691,6 +709,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

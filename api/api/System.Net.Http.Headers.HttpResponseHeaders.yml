@@ -32,7 +32,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/HttpResponseHeaders.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/HttpResponseHeaders.cs
     startLine: 10
   assemblies:
@@ -86,6 +86,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Age
   id: Age
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -106,6 +107,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.TimeSpan}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.ETag
   id: ETag
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -126,6 +128,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.EntityTagHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Location
   id: Location
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -146,6 +149,7 @@ items:
     parameters: []
     return:
       type: Uri
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.ProxyAuthenticate
   id: ProxyAuthenticate
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -166,6 +170,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.AuthenticationHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.RetryAfter
   id: RetryAfter
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -186,6 +191,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.RetryConditionHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Server
   id: Server
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -206,6 +212,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ProductInfoHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Vary
   id: Vary
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -226,6 +233,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.WwwAuthenticate
   id: WwwAuthenticate
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -246,6 +254,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.AuthenticationHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.CacheControl
   id: CacheControl
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -266,6 +275,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.CacheControlHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Connection
   id: Connection
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -286,6 +296,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.ConnectionClose
   id: ConnectionClose
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -306,6 +317,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Date
   id: Date
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -326,6 +338,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Pragma
   id: Pragma
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -346,6 +359,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.NameValueHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Trailer
   id: Trailer
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -366,6 +380,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.String}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.TransferEncoding
   id: TransferEncoding
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -386,6 +401,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.TransferCodingHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.TransferEncodingChunked
   id: TransferEncodingChunked
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -406,6 +422,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.Boolean}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Upgrade
   id: Upgrade
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -426,6 +443,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ProductHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Via
   id: Via
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -446,6 +464,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.ViaHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.HttpResponseHeaders.Warning
   id: Warning
   parent: System.Net.Http.Headers.HttpResponseHeaders
@@ -466,6 +485,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpHeaderValueCollection{System.Net.Http.Headers.WarningHeaderValue}
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

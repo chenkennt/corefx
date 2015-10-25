@@ -15,7 +15,7 @@ items:
       path: src/System.IO.Pipes/src/Microsoft/Win32/SafeHandles/SafePipeHandle.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/Microsoft/Win32/SafeHandles/SafePipeHandle.Windows.cs
     startLine: 9
   assemblies:
@@ -60,7 +60,7 @@ items:
       path: src/System.IO.Pipes/src/Microsoft/Win32/SafeHandles/SafePipeHandle.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/Microsoft/Win32/SafeHandles/SafePipeHandle.cs
     startLine: 17
   assemblies:
@@ -93,6 +93,7 @@ items:
     content.vb: Protected Overrides Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
+      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
 - uid: Microsoft.Win32.SafeHandles.SafePipeHandle.IsInvalid
   id: IsInvalid
@@ -114,6 +115,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.IsInvalid
 references:
 - uid: Microsoft.Win32.SafeHandles

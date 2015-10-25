@@ -18,7 +18,7 @@ items:
       path: src/System.ComponentModel.TypeConverter/src/System/ComponentModel/EnumConverter.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ComponentModel.TypeConverter/src/System/ComponentModel/EnumConverter.cs
     startLine: 14
   assemblies:

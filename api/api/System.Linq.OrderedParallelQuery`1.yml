@@ -15,7 +15,7 @@ items:
       path: src/System.Linq.Parallel/src/System/Linq/Parallel/Enumerables/OrderedParallelQuery.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Parallel/src/System/Linq/Parallel/Enumerables/OrderedParallelQuery.cs
     startLine: 20
   assemblies:

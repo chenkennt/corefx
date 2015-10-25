@@ -33,7 +33,7 @@ items:
       path: src/System.Net.Requests/src/System/Net/WebRequest.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Requests/src/System/Net/WebRequest.cs
     startLine: 11
   assemblies:
@@ -74,6 +74,7 @@ items:
       type: System.String
     return:
       type: System.Net.WebRequest
+      description: 
 - uid: System.Net.WebRequest.Create(Uri)
   id: Create(Uri)
   parent: System.Net.WebRequest
@@ -96,6 +97,7 @@ items:
       type: Uri
     return:
       type: System.Net.WebRequest
+      description: 
 - uid: System.Net.WebRequest.CreateHttp(System.String)
   id: CreateHttp(System.String)
   parent: System.Net.WebRequest
@@ -118,6 +120,7 @@ items:
       type: System.String
     return:
       type: System.Net.HttpWebRequest
+      description: 
 - uid: System.Net.WebRequest.CreateHttp(Uri)
   id: CreateHttp(Uri)
   parent: System.Net.WebRequest
@@ -140,6 +143,7 @@ items:
       type: Uri
     return:
       type: System.Net.HttpWebRequest
+      description: 
 - uid: System.Net.WebRequest.RegisterPrefix(System.String,System.Net.IWebRequestCreate)
   id: RegisterPrefix(System.String,System.Net.IWebRequestCreate)
   parent: System.Net.WebRequest
@@ -164,6 +168,7 @@ items:
       type: System.Net.IWebRequestCreate
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.WebRequest.#ctor
   id: '#ctor'
   parent: System.Net.WebRequest
@@ -201,6 +206,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebRequest.RequestUri
   id: RequestUri
   parent: System.Net.WebRequest
@@ -221,6 +227,7 @@ items:
     parameters: []
     return:
       type: Uri
+      description: 
 - uid: System.Net.WebRequest.Headers
   id: Headers
   parent: System.Net.WebRequest
@@ -241,6 +248,7 @@ items:
     parameters: []
     return:
       type: WebHeaderCollection
+      description: 
 - uid: System.Net.WebRequest.ContentType
   id: ContentType
   parent: System.Net.WebRequest
@@ -261,6 +269,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.WebRequest.Credentials
   id: Credentials
   parent: System.Net.WebRequest
@@ -281,6 +290,7 @@ items:
     parameters: []
     return:
       type: ICredentials
+      description: 
 - uid: System.Net.WebRequest.UseDefaultCredentials
   id: UseDefaultCredentials
   parent: System.Net.WebRequest
@@ -301,6 +311,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.WebRequest.BeginGetResponse(System.AsyncCallback,System.Object)
   id: BeginGetResponse(System.AsyncCallback,System.Object)
   parent: System.Net.WebRequest
@@ -325,6 +336,7 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
+      description: 
 - uid: System.Net.WebRequest.EndGetResponse(System.IAsyncResult)
   id: EndGetResponse(System.IAsyncResult)
   parent: System.Net.WebRequest
@@ -347,6 +359,7 @@ items:
       type: System.IAsyncResult
     return:
       type: System.Net.WebResponse
+      description: 
 - uid: System.Net.WebRequest.BeginGetRequestStream(System.AsyncCallback,System.Object)
   id: BeginGetRequestStream(System.AsyncCallback,System.Object)
   parent: System.Net.WebRequest
@@ -371,6 +384,7 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
+      description: 
 - uid: System.Net.WebRequest.EndGetRequestStream(System.IAsyncResult)
   id: EndGetRequestStream(System.IAsyncResult)
   parent: System.Net.WebRequest
@@ -393,6 +407,7 @@ items:
       type: System.IAsyncResult
     return:
       type: System.IO.Stream
+      description: 
 - uid: System.Net.WebRequest.GetRequestStreamAsync
   id: GetRequestStreamAsync
   parent: System.Net.WebRequest
@@ -412,6 +427,7 @@ items:
     content.vb: Public Overridable Function GetRequestStreamAsync As Task(Of Stream)
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: 
 - uid: System.Net.WebRequest.GetResponseAsync
   id: GetResponseAsync
   parent: System.Net.WebRequest
@@ -431,6 +447,7 @@ items:
     content.vb: Public Overridable Function GetResponseAsync As Task(Of WebResponse)
     return:
       type: System.Threading.Tasks.Task{System.Net.WebResponse}
+      description: 
 - uid: System.Net.WebRequest.Abort
   id: Abort
   parent: System.Net.WebRequest
@@ -468,6 +485,7 @@ items:
     parameters: []
     return:
       type: IWebProxy
+      description: 
 - uid: System.Net.WebRequest.Proxy
   id: Proxy
   parent: System.Net.WebRequest
@@ -488,6 +506,7 @@ items:
     parameters: []
     return:
       type: IWebProxy
+      description: 
 references:
 - uid: System.Net
   isExternal: false

@@ -37,7 +37,7 @@ items:
       path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryStream.cs
     startLine: 72
   assemblies:
@@ -125,10 +125,13 @@ items:
     parameters:
     - id: buffer
       type: System.Runtime.InteropServices.SafeBuffer
+      description: 
     - id: offset
       type: System.Int64
+      description: 
     - id: length
       type: System.Int64
+      description: 
 - uid: System.IO.UnmanagedMemoryStream.#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
   id: '#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)'
   parent: System.IO.UnmanagedMemoryStream
@@ -177,12 +180,16 @@ items:
     parameters:
     - id: buffer
       type: System.Runtime.InteropServices.SafeBuffer
+      description: 
     - id: offset
       type: System.Int64
+      description: 
     - id: length
       type: System.Int64
+      description: 
     - id: access
       type: System.IO.FileAccess
+      description: 
 - uid: System.IO.UnmanagedMemoryStream.#ctor(System.Byte*,System.Int64)
   id: '#ctor(System.Byte*,System.Int64)'
   parent: System.IO.UnmanagedMemoryStream
@@ -347,6 +354,7 @@ items:
     parameters:
     - id: disposing
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.Dispose(System.Boolean)
 - uid: System.IO.UnmanagedMemoryStream.Flush
   id: Flush
@@ -388,8 +396,10 @@ items:
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: 
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
 - uid: System.IO.UnmanagedMemoryStream.Length
   id: Length
@@ -568,6 +578,7 @@ items:
     content.vb: Public Overrides Function ReadByte As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.IO.Stream.ReadByte
 - uid: System.IO.UnmanagedMemoryStream.Seek(System.Int64,System.IO.SeekOrigin)
   id: Seek(System.Int64,System.IO.SeekOrigin)
@@ -596,6 +607,7 @@ items:
       description: Origin for the offset parameter.
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.UnmanagedMemoryStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -618,6 +630,7 @@ items:
     parameters:
     - id: value
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.SetLength(System.Int64)
 - uid: System.IO.UnmanagedMemoryStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -708,6 +721,7 @@ items:
     parameters:
     - id: value
       type: System.Byte
+      description: 
   overridden: System.IO.Stream.WriteByte(System.Byte)
 references:
 - uid: System.IO
@@ -736,6 +750,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

@@ -19,7 +19,7 @@ items:
       path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexMatchTimeoutException.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexMatchTimeoutException.cs
     startLine: 11
   assemblies:
@@ -184,6 +184,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Text.RegularExpressions.RegexMatchTimeoutException.Input
   id: Input
   parent: System.Text.RegularExpressions.RegexMatchTimeoutException
@@ -204,6 +205,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Text.RegularExpressions.RegexMatchTimeoutException.MatchTimeout
   id: MatchTimeout
   parent: System.Text.RegularExpressions.RegexMatchTimeoutException
@@ -224,6 +226,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 references:
 - uid: System.Text.RegularExpressions
   isExternal: false

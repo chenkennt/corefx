@@ -18,7 +18,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/PropertyDefinition.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/PropertyDefinition.cs
     startLine: 7
   assemblies:
@@ -54,6 +54,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.PropertyDefinition.Attributes
   id: Attributes
   parent: System.Reflection.Metadata.PropertyDefinition
@@ -74,6 +75,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyAttributes
+      description: 
 - uid: System.Reflection.Metadata.PropertyDefinition.Signature
   id: Signature
   parent: System.Reflection.Metadata.PropertyDefinition
@@ -94,6 +96,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.BlobHandle
+      description: 
 - uid: System.Reflection.Metadata.PropertyDefinition.GetDefaultValue
   id: GetDefaultValue
   parent: System.Reflection.Metadata.PropertyDefinition
@@ -113,6 +116,7 @@ items:
     content.vb: Public Function GetDefaultValue As ConstantHandle
     return:
       type: System.Reflection.Metadata.ConstantHandle
+      description: 
 - uid: System.Reflection.Metadata.PropertyDefinition.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.PropertyDefinition
@@ -132,6 +136,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.PropertyDefinition.GetAccessors
   id: GetAccessors
   parent: System.Reflection.Metadata.PropertyDefinition
@@ -151,6 +156,7 @@ items:
     content.vb: Public Function GetAccessors As PropertyAccessors
     return:
       type: System.Reflection.Metadata.PropertyAccessors
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

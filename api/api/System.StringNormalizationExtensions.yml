@@ -16,7 +16,7 @@ items:
       path: src/Common/src/System/StringNormalizationExtensions.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Common/src/System/StringNormalizationExtensions.Windows.cs
     startLine: 11
   assemblies:
@@ -47,7 +47,7 @@ items:
       path: src/Common/src/System/StringNormalizationExtensions.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Common/src/System/StringNormalizationExtensions.cs
     startLine: 14
   assemblies:
@@ -61,6 +61,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.StringNormalizationExtensions.Normalize(System.String)
   id: Normalize(System.String)
   parent: System.StringNormalizationExtensions
@@ -83,6 +84,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.StringNormalizationExtensions.IsNormalized(System.String,System.Text.NormalizationForm)
   id: IsNormalized(System.String,System.Text.NormalizationForm)
   parent: System.StringNormalizationExtensions
@@ -107,6 +109,7 @@ items:
       type: System.Text.NormalizationForm
     return:
       type: System.Boolean
+      description: 
 - uid: System.StringNormalizationExtensions.Normalize(System.String,System.Text.NormalizationForm)
   id: Normalize(System.String,System.Text.NormalizationForm)
   parent: System.StringNormalizationExtensions
@@ -131,6 +134,7 @@ items:
       type: System.Text.NormalizationForm
     return:
       type: System.String
+      description: 
 references:
 - uid: System
   isExternal: false

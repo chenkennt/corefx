@@ -28,7 +28,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlReaderSettings.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlReaderSettings.cs
     startLine: 10
   assemblies:
@@ -84,6 +84,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReaderSettings.NameTable
   id: NameTable
   parent: System.Xml.XmlReaderSettings
@@ -104,6 +105,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNameTable
+      description: 
 - uid: System.Xml.XmlReaderSettings.LineNumberOffset
   id: LineNumberOffset
   parent: System.Xml.XmlReaderSettings
@@ -124,6 +126,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReaderSettings.LinePositionOffset
   id: LinePositionOffset
   parent: System.Xml.XmlReaderSettings
@@ -144,6 +147,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReaderSettings.ConformanceLevel
   id: ConformanceLevel
   parent: System.Xml.XmlReaderSettings
@@ -164,6 +168,7 @@ items:
     parameters: []
     return:
       type: System.Xml.ConformanceLevel
+      description: 
 - uid: System.Xml.XmlReaderSettings.CheckCharacters
   id: CheckCharacters
   parent: System.Xml.XmlReaderSettings
@@ -184,6 +189,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReaderSettings.MaxCharactersInDocument
   id: MaxCharactersInDocument
   parent: System.Xml.XmlReaderSettings
@@ -204,6 +210,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Xml.XmlReaderSettings.MaxCharactersFromEntities
   id: MaxCharactersFromEntities
   parent: System.Xml.XmlReaderSettings
@@ -224,6 +231,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Xml.XmlReaderSettings.IgnoreWhitespace
   id: IgnoreWhitespace
   parent: System.Xml.XmlReaderSettings
@@ -244,6 +252,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReaderSettings.IgnoreProcessingInstructions
   id: IgnoreProcessingInstructions
   parent: System.Xml.XmlReaderSettings
@@ -264,6 +273,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReaderSettings.IgnoreComments
   id: IgnoreComments
   parent: System.Xml.XmlReaderSettings
@@ -284,6 +294,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReaderSettings.DtdProcessing
   id: DtdProcessing
   parent: System.Xml.XmlReaderSettings
@@ -304,6 +315,7 @@ items:
     parameters: []
     return:
       type: System.Xml.DtdProcessing
+      description: 
 - uid: System.Xml.XmlReaderSettings.CloseInput
   id: CloseInput
   parent: System.Xml.XmlReaderSettings
@@ -324,6 +336,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReaderSettings.Reset
   id: Reset
   parent: System.Xml.XmlReaderSettings
@@ -360,6 +373,7 @@ items:
     content.vb: Public Function Clone As XmlReaderSettings
     return:
       type: System.Xml.XmlReaderSettings
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

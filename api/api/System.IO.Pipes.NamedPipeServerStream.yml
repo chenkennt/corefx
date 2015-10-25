@@ -25,7 +25,7 @@ items:
       path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeServerStream.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeServerStream.Windows.cs
     startLine: 17
   assemblies:
@@ -112,7 +112,7 @@ items:
       path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeServerStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeServerStream.cs
     startLine: 19
   assemblies:
@@ -318,6 +318,7 @@ items:
     content.vb: Public Function WaitForConnectionAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.IO.Pipes.NamedPipeServerStream.WaitForConnection
   id: WaitForConnection
   parent: System.IO.Pipes.NamedPipeServerStream
@@ -357,6 +358,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.IO.Pipes.NamedPipeServerStream.Disconnect
   id: Disconnect
   parent: System.IO.Pipes.NamedPipeServerStream
@@ -393,6 +395,7 @@ items:
     content.vb: Public Function GetImpersonationUserName As String
     return:
       type: System.String
+      description: 
 references:
 - uid: System.IO.Pipes
   isExternal: false
@@ -1028,6 +1031,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

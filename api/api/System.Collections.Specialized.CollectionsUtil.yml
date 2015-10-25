@@ -16,7 +16,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/Specialized/CollectionsUtil.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/Specialized/CollectionsUtil.cs
     startLine: 15
   assemblies:
@@ -54,6 +54,7 @@ items:
     content.vb: Public Shared Function CreateCaseInsensitiveHashtable As Hashtable
     return:
       type: System.Collections.Hashtable
+      description: 
 - uid: System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveHashtable(System.Int32)
   id: CreateCaseInsensitiveHashtable(System.Int32)
   parent: System.Collections.Specialized.CollectionsUtil
@@ -76,6 +77,7 @@ items:
       type: System.Int32
     return:
       type: System.Collections.Hashtable
+      description: 
 - uid: System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveHashtable(System.Collections.IDictionary)
   id: CreateCaseInsensitiveHashtable(System.Collections.IDictionary)
   parent: System.Collections.Specialized.CollectionsUtil
@@ -98,6 +100,7 @@ items:
       type: System.Collections.IDictionary
     return:
       type: System.Collections.Hashtable
+      description: 
 - uid: System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveSortedList
   id: CreateCaseInsensitiveSortedList
   parent: System.Collections.Specialized.CollectionsUtil
@@ -117,6 +120,7 @@ items:
     content.vb: Public Shared Function CreateCaseInsensitiveSortedList As SortedList
     return:
       type: System.Collections.SortedList
+      description: 
 references:
 - uid: System.Collections.Specialized
   isExternal: false

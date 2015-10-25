@@ -109,7 +109,7 @@ items:
       path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableArray`1.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableArray`1.cs
     startLine: 33
   assemblies:
@@ -1915,6 +1915,7 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Immutable.ImmutableArray`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{T}#GetEnumerator
   parent: System.Collections.Immutable.ImmutableArray`1
@@ -2610,6 +2611,7 @@ items:
       description: The index.
     return:
       type: System.Object
+      description: 
   exceptions:
   - type: System.NotSupportedException
     description: Always thrown from the setter.

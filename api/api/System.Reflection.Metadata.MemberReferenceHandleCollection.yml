@@ -16,7 +16,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
     startLine: 1520
   assemblies:
@@ -57,6 +57,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.MemberReferenceHandleCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Reflection.Metadata.MemberReferenceHandleCollection
@@ -76,6 +77,7 @@ items:
     content.vb: Public Function GetEnumerator As MemberReferenceHandleCollection.Enumerator
     return:
       type: System.Reflection.Metadata.MemberReferenceHandleCollection.Enumerator
+      description: 
 - uid: System.Reflection.Metadata.MemberReferenceHandleCollection.System#Collections#Generic#IEnumerable{System#Reflection#Metadata#MemberReferenceHandle}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{System#Reflection#Metadata#MemberReferenceHandle}#GetEnumerator
   parent: System.Reflection.Metadata.MemberReferenceHandleCollection
@@ -96,6 +98,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Reflection.Metadata.MemberReferenceHandle>.GetEnumerator As IEnumerator(Of MemberReferenceHandle) Implements IEnumerable(Of MemberReferenceHandle).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Reflection.Metadata.MemberReferenceHandle}
+      description: 
 - uid: System.Reflection.Metadata.MemberReferenceHandleCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Reflection.Metadata.MemberReferenceHandleCollection
@@ -116,6 +119,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Reflection.Metadata.MemberReferenceHandle
   parent: System.Reflection.Metadata

@@ -29,7 +29,7 @@ items:
       path: src/System.Collections.Specialized/src/System/Collections/Specialized/ListDictionary.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Specialized/src/System/Collections/Specialized/ListDictionary.cs
     startLine: 14
   assemblies:
@@ -113,6 +113,7 @@ items:
       type: System.Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.Count
   id: Count
   parent: System.Collections.Specialized.ListDictionary
@@ -133,6 +134,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.Keys
   id: Keys
   parent: System.Collections.Specialized.ListDictionary
@@ -153,6 +155,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.IsReadOnly
   id: IsReadOnly
   parent: System.Collections.Specialized.ListDictionary
@@ -173,6 +176,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.Specialized.ListDictionary
@@ -193,6 +197,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.Specialized.ListDictionary
@@ -213,6 +218,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.SyncRoot
   id: SyncRoot
   parent: System.Collections.Specialized.ListDictionary
@@ -233,6 +239,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.Values
   id: Values
   parent: System.Collections.Specialized.ListDictionary
@@ -253,6 +260,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.Add(System.Object,System.Object)
   id: Add(System.Object,System.Object)
   parent: System.Collections.Specialized.ListDictionary
@@ -314,6 +322,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.Specialized.ListDictionary
@@ -355,6 +364,7 @@ items:
     content.vb: Public Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Specialized.ListDictionary
@@ -375,6 +385,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.Specialized.ListDictionary.Remove(System.Object)
   id: Remove(System.Object)
   parent: System.Collections.Specialized.ListDictionary

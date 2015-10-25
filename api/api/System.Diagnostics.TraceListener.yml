@@ -40,7 +40,7 @@ items:
       path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/TraceListener.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/TraceListener.cs
     startLine: 15
   assemblies:
@@ -138,6 +138,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Diagnostics.TraceListener.Dispose
   id: Dispose
   parent: System.Diagnostics.TraceListener
@@ -252,6 +253,7 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.TraceFilter
+      description: 
 - uid: System.Diagnostics.TraceListener.NeedIndent
   id: NeedIndent
   parent: System.Diagnostics.TraceListener
@@ -292,6 +294,7 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.TraceOptions
+      description: 
 - uid: System.Diagnostics.TraceListener.Fail(System.String)
   id: Fail(System.String)
   parent: System.Diagnostics.TraceListener

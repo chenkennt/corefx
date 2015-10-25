@@ -23,7 +23,7 @@ items:
       path: src/System.Private.DataContractSerialization/src/System/Runtime/Serialization/Json/DataContractJsonSerializer.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.DataContractSerialization/src/System/Runtime/Serialization/Json/DataContractJsonSerializer.cs
     startLine: 19
   assemblies:
@@ -128,6 +128,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.Type}
+      description: 
 - uid: System.Runtime.Serialization.Json.DataContractJsonSerializer.MaxItemsInObjectGraph
   id: MaxItemsInObjectGraph
   parent: System.Runtime.Serialization.Json.DataContractJsonSerializer
@@ -148,6 +149,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Runtime.Serialization.Json.DataContractJsonSerializer.DateTimeFormat
   id: DateTimeFormat
   parent: System.Runtime.Serialization.Json.DataContractJsonSerializer
@@ -168,6 +170,7 @@ items:
     parameters: []
     return:
       type: System.Runtime.Serialization.DateTimeFormat
+      description: 
 - uid: System.Runtime.Serialization.Json.DataContractJsonSerializer.EmitTypeInformation
   id: EmitTypeInformation
   parent: System.Runtime.Serialization.Json.DataContractJsonSerializer
@@ -188,6 +191,7 @@ items:
     parameters: []
     return:
       type: System.Runtime.Serialization.EmitTypeInformation
+      description: 
 - uid: System.Runtime.Serialization.Json.DataContractJsonSerializer.SerializeReadOnlyTypes
   id: SerializeReadOnlyTypes
   parent: System.Runtime.Serialization.Json.DataContractJsonSerializer
@@ -208,6 +212,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.Json.DataContractJsonSerializer.UseSimpleDictionaryFormat
   id: UseSimpleDictionaryFormat
   parent: System.Runtime.Serialization.Json.DataContractJsonSerializer
@@ -228,6 +233,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(System.IO.Stream,System.Object)
   id: WriteObject(System.IO.Stream,System.Object)
   parent: System.Runtime.Serialization.Json.DataContractJsonSerializer
@@ -272,6 +278,7 @@ items:
       type: System.IO.Stream
     return:
       type: System.Object
+      description: 
 references:
 - uid: System.Runtime.Serialization.Json
   isExternal: false

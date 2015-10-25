@@ -30,7 +30,7 @@ items:
       path: src/System.Net.Requests/src/System/Net/HttpWebRequest.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Requests/src/System/Net/HttpWebRequest.cs
     startLine: 11
   assemblies:
@@ -78,6 +78,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.HttpWebRequest.AllowReadStreamBuffering
   id: AllowReadStreamBuffering
   parent: System.Net.HttpWebRequest
@@ -98,6 +99,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.HttpWebRequest.ContentType
   id: ContentType
   parent: System.Net.HttpWebRequest
@@ -118,6 +120,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Net.WebRequest.ContentType
 - uid: System.Net.HttpWebRequest.ContinueTimeout
   id: ContinueTimeout
@@ -139,6 +142,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.HttpWebRequest.CookieContainer
   id: CookieContainer
   parent: System.Net.HttpWebRequest
@@ -159,6 +163,7 @@ items:
     parameters: []
     return:
       type: CookieContainer
+      description: 
 - uid: System.Net.HttpWebRequest.Credentials
   id: Credentials
   parent: System.Net.HttpWebRequest
@@ -179,6 +184,7 @@ items:
     parameters: []
     return:
       type: ICredentials
+      description: 
   overridden: System.Net.WebRequest.Credentials
 - uid: System.Net.HttpWebRequest.HaveResponse
   id: HaveResponse
@@ -200,6 +206,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.HttpWebRequest.Headers
   id: Headers
   parent: System.Net.HttpWebRequest
@@ -220,6 +227,7 @@ items:
     parameters: []
     return:
       type: WebHeaderCollection
+      description: 
   overridden: System.Net.WebRequest.Headers
 - uid: System.Net.HttpWebRequest.Method
   id: Method
@@ -241,6 +249,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Net.WebRequest.Method
 - uid: System.Net.HttpWebRequest.RequestUri
   id: RequestUri
@@ -262,6 +271,7 @@ items:
     parameters: []
     return:
       type: Uri
+      description: 
   overridden: System.Net.WebRequest.RequestUri
 - uid: System.Net.HttpWebRequest.SupportsCookieContainer
   id: SupportsCookieContainer
@@ -283,6 +293,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.HttpWebRequest.UseDefaultCredentials
   id: UseDefaultCredentials
   parent: System.Net.HttpWebRequest
@@ -303,6 +314,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Net.WebRequest.UseDefaultCredentials
 - uid: System.Net.HttpWebRequest.Proxy
   id: Proxy
@@ -324,6 +336,7 @@ items:
     parameters: []
     return:
       type: IWebProxy
+      description: 
   overridden: System.Net.WebRequest.Proxy
 - uid: System.Net.HttpWebRequest.Abort
   id: Abort
@@ -367,6 +380,7 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
+      description: 
   overridden: System.Net.WebRequest.BeginGetRequestStream(System.AsyncCallback,System.Object)
 - uid: System.Net.HttpWebRequest.EndGetRequestStream(System.IAsyncResult)
   id: EndGetRequestStream(System.IAsyncResult)
@@ -390,6 +404,7 @@ items:
       type: System.IAsyncResult
     return:
       type: System.IO.Stream
+      description: 
   overridden: System.Net.WebRequest.EndGetRequestStream(System.IAsyncResult)
 - uid: System.Net.HttpWebRequest.BeginGetResponse(System.AsyncCallback,System.Object)
   id: BeginGetResponse(System.AsyncCallback,System.Object)
@@ -415,6 +430,7 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
+      description: 
   overridden: System.Net.WebRequest.BeginGetResponse(System.AsyncCallback,System.Object)
 - uid: System.Net.HttpWebRequest.EndGetResponse(System.IAsyncResult)
   id: EndGetResponse(System.IAsyncResult)
@@ -438,6 +454,7 @@ items:
       type: System.IAsyncResult
     return:
       type: System.Net.WebResponse
+      description: 
   overridden: System.Net.WebRequest.EndGetResponse(System.IAsyncResult)
 references:
 - uid: System.Net

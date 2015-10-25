@@ -36,7 +36,7 @@ items:
       path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSACryptoServiceProvider.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSACryptoServiceProvider.cs
     startLine: 14
   assemblies:
@@ -467,6 +467,7 @@ items:
     parameters:
     - id: keyBlob
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.ImportParameters(System.Security.Cryptography.RSAParameters)
   id: ImportParameters(System.Security.Cryptography.RSAParameters)
   parent: System.Security.Cryptography.RSACryptoServiceProvider

@@ -21,7 +21,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/MethodCallExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/MethodCallExpression.cs
     startLine: 16
   assemblies:
@@ -547,6 +547,7 @@ items:
       type: System.Int32
     return:
       type: System.Linq.Expressions.Expression
+      description: 
 - uid: System.Linq.Expressions.MethodCallExpression.ArgumentCount
   id: ArgumentCount
   parent: System.Linq.Expressions.MethodCallExpression
@@ -567,6 +568,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 references:
 - uid: System.Linq.Expressions
   isExternal: false

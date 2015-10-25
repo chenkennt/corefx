@@ -21,7 +21,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/TransferCodingHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/TransferCodingHeaderValue.cs
     startLine: 8
   assemblies:
@@ -57,6 +57,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.Parameters
   id: Parameters
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -77,6 +78,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{System.Net.Http.Headers.NameValueHeaderValue}
+      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.#ctor(System.Net.Http.Headers.TransferCodingHeaderValue)
   id: '#ctor(System.Net.Http.Headers.TransferCodingHeaderValue)'
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -139,6 +141,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.TransferCodingHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.TryParse(System.String,System.Net.Http.Headers.TransferCodingHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.TransferCodingHeaderValue@)
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -165,6 +168,7 @@ items:
       type: System.Net.Http.Headers.TransferCodingHeaderValue
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.ToString
   id: ToString
   parent: System.Net.Http.Headers.TransferCodingHeaderValue
@@ -184,6 +188,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -207,6 +212,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.TransferCodingHeaderValue.GetHashCode
   id: GetHashCode
@@ -227,6 +233,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Net.Http.Headers

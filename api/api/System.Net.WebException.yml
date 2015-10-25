@@ -19,7 +19,7 @@ items:
       path: src/System.Net.Requests/src/System/Net/WebException.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Requests/src/System/Net/WebException.cs
     startLine: 9
   assemblies:
@@ -182,6 +182,7 @@ items:
     parameters: []
     return:
       type: System.Net.WebExceptionStatus
+      description: 
 - uid: System.Net.WebException.Response
   id: Response
   parent: System.Net.WebException
@@ -202,6 +203,7 @@ items:
     parameters: []
     return:
       type: System.Net.WebResponse
+      description: 
 references:
 - uid: System.Net
   isExternal: false

@@ -16,7 +16,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/HandleCollections.cs
     startLine: 1848
   assemblies:
@@ -57,6 +57,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.AssemblyFileHandleCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Reflection.Metadata.AssemblyFileHandleCollection
@@ -76,6 +77,7 @@ items:
     content.vb: Public Function GetEnumerator As AssemblyFileHandleCollection.Enumerator
     return:
       type: System.Reflection.Metadata.AssemblyFileHandleCollection.Enumerator
+      description: 
 - uid: System.Reflection.Metadata.AssemblyFileHandleCollection.System#Collections#Generic#IEnumerable{System#Reflection#Metadata#AssemblyFileHandle}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{System#Reflection#Metadata#AssemblyFileHandle}#GetEnumerator
   parent: System.Reflection.Metadata.AssemblyFileHandleCollection
@@ -96,6 +98,7 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Reflection.Metadata.AssemblyFileHandle>.GetEnumerator As IEnumerator(Of AssemblyFileHandle) Implements IEnumerable(Of AssemblyFileHandle).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Reflection.Metadata.AssemblyFileHandle}
+      description: 
 - uid: System.Reflection.Metadata.AssemblyFileHandleCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Reflection.Metadata.AssemblyFileHandleCollection
@@ -116,6 +119,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Reflection.Metadata.AssemblyFileHandle
   parent: System.Reflection.Metadata

@@ -62,7 +62,7 @@ items:
       path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/Regex.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/Regex.cs
     startLine: 19
   assemblies:
@@ -273,6 +273,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Text.RegularExpressions.Regex.Options
   id: Options
   parent: System.Text.RegularExpressions.Regex
@@ -531,6 +532,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
+      description: 
 - uid: System.Text.RegularExpressions.Regex.IsMatch(System.String)
   id: IsMatch(System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -673,6 +675,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.Text.RegularExpressions.Match
+      description: 
 - uid: System.Text.RegularExpressions.Regex.Match(System.String)
   id: Match(System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -837,6 +840,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.Text.RegularExpressions.MatchCollection
+      description: 
 - uid: System.Text.RegularExpressions.Regex.Matches(System.String)
   id: Matches(System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -979,6 +983,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.String
+      description: 
 - uid: System.Text.RegularExpressions.Regex.Replace(System.String,System.String)
   id: Replace(System.String,System.String)
   parent: System.Text.RegularExpressions.Regex
@@ -1167,6 +1172,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.String
+      description: 
 - uid: System.Text.RegularExpressions.Regex.Replace(System.String,System.Text.RegularExpressions.MatchEvaluator)
   id: Replace(System.String,System.Text.RegularExpressions.MatchEvaluator)
   parent: System.Text.RegularExpressions.Regex
@@ -1342,6 +1348,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.String[]
+      description: 
 - uid: System.Text.RegularExpressions.Regex.Split(System.String)
   id: Split(System.String)
   parent: System.Text.RegularExpressions.Regex

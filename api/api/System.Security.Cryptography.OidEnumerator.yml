@@ -16,7 +16,7 @@ items:
       path: src/System.Security.Cryptography.Encoding/src/System/Security/Cryptography/OidEnumerator.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encoding/src/System/Security/Cryptography/OidEnumerator.cs
     startLine: 9
   assemblies:
@@ -57,6 +57,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.Oid
+      description: 
 - uid: System.Security.Cryptography.OidEnumerator.System#Collections#IEnumerator#Current
   id: System#Collections#IEnumerator#Current
   parent: System.Security.Cryptography.OidEnumerator
@@ -78,6 +79,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Security.Cryptography.OidEnumerator.MoveNext
   id: MoveNext
   parent: System.Security.Cryptography.OidEnumerator
@@ -97,6 +99,7 @@ items:
     content.vb: Public Function MoveNext As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.OidEnumerator.Reset
   id: Reset
   parent: System.Security.Cryptography.OidEnumerator

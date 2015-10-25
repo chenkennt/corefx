@@ -41,7 +41,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/CollectionBase.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/CollectionBase.cs
     startLine: 17
   assemblies:
@@ -121,6 +121,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.CollectionBase.List
   id: List
   parent: System.Collections.CollectionBase
@@ -141,6 +142,7 @@ items:
     parameters: []
     return:
       type: System.Collections.IList
+      description: 
 - uid: System.Collections.CollectionBase.Capacity
   id: Capacity
   parent: System.Collections.CollectionBase
@@ -161,6 +163,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.CollectionBase.Count
   id: Count
   parent: System.Collections.CollectionBase
@@ -181,6 +184,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.CollectionBase.Clear
   id: Clear
   parent: System.Collections.CollectionBase
@@ -239,6 +243,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#IList#IsFixedSize
   id: System#Collections#IList#IsFixedSize
   parent: System.Collections.CollectionBase
@@ -260,6 +265,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.CollectionBase
@@ -281,6 +287,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.CollectionBase
@@ -302,6 +309,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.CollectionBase
@@ -349,6 +357,7 @@ items:
       type: System.Int32
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#IList#Contains(System.Object)
   id: System#Collections#IList#Contains(System.Object)
   parent: System.Collections.CollectionBase
@@ -372,6 +381,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#IList#Add(System.Object)
   id: System#Collections#IList#Add(System.Object)
   parent: System.Collections.CollectionBase
@@ -395,6 +405,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#IList#Remove(System.Object)
   id: System#Collections#IList#Remove(System.Object)
   parent: System.Collections.CollectionBase
@@ -439,6 +450,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.CollectionBase.System#Collections#IList#Insert(System.Int32,System.Object)
   id: System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Collections.CollectionBase
@@ -481,6 +493,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
   id: OnSet(System.Int32,System.Object,System.Object)
   parent: System.Collections.CollectionBase

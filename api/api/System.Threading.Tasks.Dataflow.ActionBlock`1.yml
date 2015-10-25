@@ -25,7 +25,7 @@ items:
       path: src/System.Threading.Tasks.Dataflow/src/Blocks/ActionBlock.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Threading.Tasks.Dataflow/src/Blocks/ActionBlock.cs
     startLine: 23
   assemblies:

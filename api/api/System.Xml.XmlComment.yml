@@ -19,7 +19,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlComment.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlComment.cs
     startLine: 8
   assemblies:
@@ -125,6 +125,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlComment.LocalName
   id: LocalName
@@ -146,6 +147,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlComment.NodeType
   id: NodeType
@@ -167,6 +169,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlComment.CloneNode(System.Boolean)
   id: CloneNode(System.Boolean)
@@ -190,6 +193,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlComment.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)

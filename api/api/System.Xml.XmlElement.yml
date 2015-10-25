@@ -48,7 +48,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlElement.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlElement.cs
     startLine: 8
   assemblies:
@@ -143,6 +143,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlElement.Name
   id: Name
@@ -164,6 +165,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlElement.LocalName
   id: LocalName
@@ -185,6 +187,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlElement.NamespaceURI
   id: NamespaceURI
@@ -206,6 +209,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.NamespaceURI
 - uid: System.Xml.XmlElement.Prefix
   id: Prefix
@@ -227,6 +231,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Prefix
 - uid: System.Xml.XmlElement.NodeType
   id: NodeType
@@ -248,6 +253,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlElement.ParentNode
   id: ParentNode
@@ -269,6 +275,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.ParentNode
 - uid: System.Xml.XmlElement.OwnerDocument
   id: OwnerDocument
@@ -290,6 +297,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlDocument
+      description: 
   overridden: System.Xml.XmlNode.OwnerDocument
 - uid: System.Xml.XmlElement.IsEmpty
   id: IsEmpty
@@ -311,6 +319,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlElement.Attributes
   id: Attributes
   parent: System.Xml.XmlElement
@@ -331,6 +340,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlAttributeCollection
+      description: 
   overridden: System.Xml.XmlNode.Attributes
 - uid: System.Xml.XmlElement.HasAttributes
   id: HasAttributes
@@ -352,6 +362,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlElement.GetAttribute(System.String)
   id: GetAttribute(System.String)
   parent: System.Xml.XmlElement
@@ -374,6 +385,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlElement.SetAttribute(System.String,System.String)
   id: SetAttribute(System.String,System.String)
   parent: System.Xml.XmlElement
@@ -438,6 +450,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlElement.SetAttributeNode(System.Xml.XmlAttribute)
   id: SetAttributeNode(System.Xml.XmlAttribute)
   parent: System.Xml.XmlElement
@@ -460,6 +473,7 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlElement.RemoveAttributeNode(System.Xml.XmlAttribute)
   id: RemoveAttributeNode(System.Xml.XmlAttribute)
   parent: System.Xml.XmlElement
@@ -482,6 +496,7 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlElement.GetElementsByTagName(System.String)
   id: GetElementsByTagName(System.String)
   parent: System.Xml.XmlElement
@@ -504,6 +519,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNodeList
+      description: 
 - uid: System.Xml.XmlElement.GetAttribute(System.String,System.String)
   id: GetAttribute(System.String,System.String)
   parent: System.Xml.XmlElement
@@ -528,6 +544,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlElement.SetAttribute(System.String,System.String,System.String)
   id: SetAttribute(System.String,System.String,System.String)
   parent: System.Xml.XmlElement
@@ -554,6 +571,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlElement.RemoveAttribute(System.String,System.String)
   id: RemoveAttribute(System.String,System.String)
   parent: System.Xml.XmlElement
@@ -600,6 +618,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlElement.SetAttributeNode(System.String,System.String)
   id: SetAttributeNode(System.String,System.String)
   parent: System.Xml.XmlElement
@@ -624,6 +643,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlElement.RemoveAttributeNode(System.String,System.String)
   id: RemoveAttributeNode(System.String,System.String)
   parent: System.Xml.XmlElement
@@ -648,6 +668,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlElement.GetElementsByTagName(System.String,System.String)
   id: GetElementsByTagName(System.String,System.String)
   parent: System.Xml.XmlElement
@@ -672,6 +693,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlNodeList
+      description: 
 - uid: System.Xml.XmlElement.HasAttribute(System.String)
   id: HasAttribute(System.String)
   parent: System.Xml.XmlElement
@@ -694,6 +716,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlElement.HasAttribute(System.String,System.String)
   id: HasAttribute(System.String,System.String)
   parent: System.Xml.XmlElement
@@ -718,6 +741,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlElement.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)
   parent: System.Xml.XmlElement
@@ -782,6 +806,7 @@ items:
       type: System.Int32
     return:
       type: System.Xml.XmlNode
+      description: 
 - uid: System.Xml.XmlElement.RemoveAllAttributes
   id: RemoveAllAttributes
   parent: System.Xml.XmlElement
@@ -837,6 +862,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerXml
 - uid: System.Xml.XmlElement.InnerText
   id: InnerText
@@ -858,6 +884,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerText
 - uid: System.Xml.XmlElement.NextSibling
   id: NextSibling
@@ -879,6 +906,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlLinkedNode.NextSibling
 references:
 - uid: System.Xml

@@ -18,7 +18,7 @@ items:
       path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlAnyElementAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlSerializer/src/System/Xml/Serialization/XmlAnyElementAttribute.cs
     startLine: 16
   assemblies:

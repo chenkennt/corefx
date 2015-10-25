@@ -18,7 +18,7 @@ items:
       path: src/System.ComponentModel.Annotations/src/System/ComponentModel/DataAnnotations/DisplayColumnAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ComponentModel.Annotations/src/System/ComponentModel/DataAnnotations/DisplayColumnAttribute.cs
     startLine: 9
   assemblies:
@@ -169,6 +169,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.ComponentModel.DataAnnotations.DisplayColumnAttribute.SortColumn
   id: SortColumn
   parent: System.ComponentModel.DataAnnotations.DisplayColumnAttribute
@@ -189,6 +190,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.ComponentModel.DataAnnotations.DisplayColumnAttribute.SortDescending
   id: SortDescending
   parent: System.ComponentModel.DataAnnotations.DisplayColumnAttribute
@@ -209,6 +211,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.ComponentModel.DataAnnotations
   isExternal: false

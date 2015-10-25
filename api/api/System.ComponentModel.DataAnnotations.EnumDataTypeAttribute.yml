@@ -15,7 +15,7 @@ items:
       path: src/System.ComponentModel.Annotations/src/System/ComponentModel/DataAnnotations/EnumDataTypeAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ComponentModel.Annotations/src/System/ComponentModel/DataAnnotations/EnumDataTypeAttribute.cs
     startLine: 10
   assemblies:
@@ -132,6 +132,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
 - uid: System.ComponentModel.DataAnnotations.EnumDataTypeAttribute.IsValid(System.Object)
   id: IsValid(System.Object)
   parent: System.ComponentModel.DataAnnotations.EnumDataTypeAttribute
@@ -154,6 +155,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ComponentModel.DataAnnotations.DataTypeAttribute.IsValid(System.Object)
 references:
 - uid: System.ComponentModel.DataAnnotations

@@ -39,7 +39,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/DictionaryBase.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/DictionaryBase.cs
     startLine: 17
   assemblies:
@@ -82,6 +82,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Hashtable
+      description: 
 - uid: System.Collections.DictionaryBase.Dictionary
   id: Dictionary
   parent: System.Collections.DictionaryBase
@@ -102,6 +103,7 @@ items:
     parameters: []
     return:
       type: System.Collections.IDictionary
+      description: 
 - uid: System.Collections.DictionaryBase.Count
   id: Count
   parent: System.Collections.DictionaryBase
@@ -122,6 +124,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#IsReadOnly
   id: System#Collections#IDictionary#IsReadOnly
   parent: System.Collections.DictionaryBase
@@ -143,6 +146,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#IsFixedSize
   id: System#Collections#IDictionary#IsFixedSize
   parent: System.Collections.DictionaryBase
@@ -164,6 +168,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.DictionaryBase
@@ -185,6 +190,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Keys
   id: System#Collections#IDictionary#Keys
   parent: System.Collections.DictionaryBase
@@ -206,6 +212,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.DictionaryBase
@@ -227,6 +234,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Values
   id: System#Collections#IDictionary#Values
   parent: System.Collections.DictionaryBase
@@ -248,6 +256,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.DictionaryBase.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.DictionaryBase
@@ -294,6 +303,7 @@ items:
       type: System.Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Contains(System.Object)
   id: System#Collections#IDictionary#Contains(System.Object)
   parent: System.Collections.DictionaryBase
@@ -317,6 +327,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Add(System.Object,System.Object)
   id: System#Collections#IDictionary#Add(System.Object,System.Object)
   parent: System.Collections.DictionaryBase
@@ -397,6 +408,7 @@ items:
     content.vb: Public Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
+      description: 
 - uid: System.Collections.DictionaryBase.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.DictionaryBase
@@ -417,6 +429,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.DictionaryBase.OnGet(System.Object,System.Object)
   id: OnGet(System.Object,System.Object)
   parent: System.Collections.DictionaryBase
@@ -441,6 +454,7 @@ items:
       type: System.Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.DictionaryBase.OnSet(System.Object,System.Object,System.Object)
   id: OnSet(System.Object,System.Object,System.Object)
   parent: System.Collections.DictionaryBase

@@ -29,7 +29,7 @@ items:
       path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableInterlocked.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableInterlocked.cs
     startLine: 12
   assemblies:

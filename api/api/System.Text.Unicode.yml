@@ -13,7 +13,7 @@ items:
       path: src/System.Text.Encodings.Web/src/System/Text/Encodings/Web/UnicodeRanges.generated.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.Encodings.Web/src/System/Text/Encodings/Web/UnicodeRanges.generated.cs
     startLine: 6
   assemblies:

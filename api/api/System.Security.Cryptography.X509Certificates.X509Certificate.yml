@@ -39,7 +39,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Certificate.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Certificate.cs
     startLine: 15
   assemblies:
@@ -252,6 +252,7 @@ items:
     parameters: []
     return:
       type: System.IntPtr
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Issuer
   id: Issuer
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -272,6 +273,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Subject
   id: Subject
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -292,6 +294,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Dispose
   id: Dispose
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -351,6 +354,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Equals(System.Security.Cryptography.X509Certificates.X509Certificate)
   id: Equals(System.Security.Cryptography.X509Certificates.X509Certificate)
@@ -374,6 +378,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Export(System.Security.Cryptography.X509Certificates.X509ContentType)
   id: Export(System.Security.Cryptography.X509Certificates.X509ContentType)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -396,6 +401,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509ContentType
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String)
   id: Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -420,6 +426,7 @@ items:
       type: System.String
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetCertHash
   id: GetCertHash
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -439,6 +446,7 @@ items:
     content.vb: Public Overridable Function GetCertHash As Byte()
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetFormat
   id: GetFormat
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -458,6 +466,7 @@ items:
     content.vb: Public Overridable Function GetFormat As String
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetHashCode
   id: GetHashCode
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -477,6 +486,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithm
   id: GetKeyAlgorithm
@@ -497,6 +507,7 @@ items:
     content.vb: Public Overridable Function GetKeyAlgorithm As String
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithmParameters
   id: GetKeyAlgorithmParameters
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -516,6 +527,7 @@ items:
     content.vb: Public Overridable Function GetKeyAlgorithmParameters As Byte()
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithmParametersString
   id: GetKeyAlgorithmParametersString
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -535,6 +547,7 @@ items:
     content.vb: Public Overridable Function GetKeyAlgorithmParametersString As String
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetPublicKey
   id: GetPublicKey
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -554,6 +567,7 @@ items:
     content.vb: Public Overridable Function GetPublicKey As Byte()
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.GetSerialNumber
   id: GetSerialNumber
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -573,6 +587,7 @@ items:
     content.vb: Public Overridable Function GetSerialNumber As Byte()
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.ToString
   id: ToString
   parent: System.Security.Cryptography.X509Certificates.X509Certificate
@@ -592,6 +607,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate.ToString(System.Boolean)
   id: ToString(System.Boolean)
@@ -615,6 +631,7 @@ items:
       type: System.Boolean
     return:
       type: System.String
+      description: 
 references:
 - uid: System.Security.Cryptography.X509Certificates
   isExternal: false

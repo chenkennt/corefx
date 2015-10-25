@@ -23,7 +23,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlProcessingInstruction.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlProcessingInstruction.cs
     startLine: 9
   assemblies:
@@ -121,6 +121,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Name
 - uid: System.Xml.XmlProcessingInstruction.LocalName
   id: LocalName
@@ -142,6 +143,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.LocalName
 - uid: System.Xml.XmlProcessingInstruction.Value
   id: Value
@@ -163,6 +165,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.Value
 - uid: System.Xml.XmlProcessingInstruction.Target
   id: Target
@@ -184,6 +187,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlProcessingInstruction.Data
   id: Data
   parent: System.Xml.XmlProcessingInstruction
@@ -204,6 +208,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlProcessingInstruction.InnerText
   id: InnerText
   parent: System.Xml.XmlProcessingInstruction
@@ -224,6 +229,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Xml.XmlNode.InnerText
 - uid: System.Xml.XmlProcessingInstruction.NodeType
   id: NodeType
@@ -245,6 +251,7 @@ items:
     parameters: []
     return:
       type: XmlNodeType
+      description: 
   overridden: System.Xml.XmlNode.NodeType
 - uid: System.Xml.XmlProcessingInstruction.CloneNode(System.Boolean)
   id: CloneNode(System.Boolean)
@@ -268,6 +275,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNode.CloneNode(System.Boolean)
 - uid: System.Xml.XmlProcessingInstruction.WriteTo(XmlWriter)
   id: WriteTo(XmlWriter)

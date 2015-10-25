@@ -18,7 +18,7 @@ items:
       path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexCaptureCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexCaptureCollection.cs
     startLine: 20
   assemblies:
@@ -131,6 +131,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Text.RegularExpressions.CaptureCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Text.RegularExpressions.CaptureCollection
@@ -152,6 +153,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Text.RegularExpressions.CaptureCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Text.RegularExpressions.CaptureCollection

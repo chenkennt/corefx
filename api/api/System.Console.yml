@@ -62,7 +62,7 @@ items:
       path: src/System.Console/src/System/Console.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Console/src/System/Console.cs
     startLine: 11
   assemblies:
@@ -101,6 +101,7 @@ items:
     parameters: []
     return:
       type: System.IO.TextReader
+      description: 
 - uid: System.Console.Out
   id: Out
   parent: System.Console
@@ -121,6 +122,7 @@ items:
     parameters: []
     return:
       type: System.IO.TextWriter
+      description: 
 - uid: System.Console.Error
   id: Error
   parent: System.Console
@@ -141,6 +143,7 @@ items:
     parameters: []
     return:
       type: System.IO.TextWriter
+      description: 
 - uid: System.Console.BackgroundColor
   id: BackgroundColor
   parent: System.Console
@@ -161,6 +164,7 @@ items:
     parameters: []
     return:
       type: System.ConsoleColor
+      description: 
 - uid: System.Console.ForegroundColor
   id: ForegroundColor
   parent: System.Console
@@ -181,6 +185,7 @@ items:
     parameters: []
     return:
       type: System.ConsoleColor
+      description: 
 - uid: System.Console.ResetColor
   id: ResetColor
   parent: System.Console
@@ -234,6 +239,7 @@ items:
     content.vb: Public Shared Function OpenStandardInput As Stream
     return:
       type: System.IO.Stream
+      description: 
 - uid: System.Console.OpenStandardOutput
   id: OpenStandardOutput
   parent: System.Console
@@ -253,6 +259,7 @@ items:
     content.vb: Public Shared Function OpenStandardOutput As Stream
     return:
       type: System.IO.Stream
+      description: 
 - uid: System.Console.OpenStandardError
   id: OpenStandardError
   parent: System.Console
@@ -272,6 +279,7 @@ items:
     content.vb: Public Shared Function OpenStandardError As Stream
     return:
       type: System.IO.Stream
+      description: 
 - uid: System.Console.SetIn(System.IO.TextReader)
   id: SetIn(System.IO.TextReader)
   parent: System.Console
@@ -351,6 +359,7 @@ items:
     content.vb: Public Shared Function Read As Integer
     return:
       type: System.Int32
+      description: 
 - uid: System.Console.ReadLine
   id: ReadLine
   parent: System.Console
@@ -370,6 +379,7 @@ items:
     content.vb: Public Shared Function ReadLine As String
     return:
       type: System.String
+      description: 
 - uid: System.Console.WriteLine
   id: WriteLine
   parent: System.Console

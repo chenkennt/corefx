@@ -20,7 +20,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
     startLine: 2817
   assemblies:
@@ -60,6 +60,7 @@ items:
       type: System.Reflection.Metadata.BlobHandle
     return:
       type: System.Reflection.Metadata.Handle
+      description: 
 - uid: System.Reflection.Metadata.BlobHandle.op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.BlobHandle
   id: op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.BlobHandle
   parent: System.Reflection.Metadata.BlobHandle
@@ -84,6 +85,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Reflection.Metadata.BlobHandle
+      description: 
 - uid: System.Reflection.Metadata.BlobHandle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.BlobHandle
@@ -104,6 +106,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.BlobHandle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.BlobHandle
@@ -126,6 +129,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.BlobHandle.Equals(System.Reflection.Metadata.BlobHandle)
   id: Equals(System.Reflection.Metadata.BlobHandle)
@@ -149,6 +153,7 @@ items:
       type: System.Reflection.Metadata.BlobHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.BlobHandle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.BlobHandle
@@ -168,6 +173,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.BlobHandle.op_Equality(System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.BlobHandle)
   id: op_Equality(System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.BlobHandle)
@@ -193,6 +199,7 @@ items:
       type: System.Reflection.Metadata.BlobHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.BlobHandle.op_Inequality(System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.BlobHandle)
   id: op_Inequality(System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.BlobHandle)
   parent: System.Reflection.Metadata.BlobHandle
@@ -217,6 +224,7 @@ items:
       type: System.Reflection.Metadata.BlobHandle
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

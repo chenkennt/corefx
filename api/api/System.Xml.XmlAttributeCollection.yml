@@ -28,7 +28,7 @@ items:
       path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlAttributeCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlAttributeCollection.cs
     startLine: 9
   assemblies:
@@ -82,6 +82,7 @@ items:
       type: System.Int32
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.ItemOf(System.String)
   id: ItemOf(System.String)
   parent: System.Xml.XmlAttributeCollection
@@ -106,6 +107,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.ItemOf(System.String,System.String)
   id: ItemOf(System.String,System.String)
   parent: System.Xml.XmlAttributeCollection
@@ -132,6 +134,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.SetNamedItem(System.Xml.XmlNode)
   id: SetNamedItem(System.Xml.XmlNode)
   parent: System.Xml.XmlAttributeCollection
@@ -154,6 +157,7 @@ items:
       type: System.Xml.XmlNode
     return:
       type: System.Xml.XmlNode
+      description: 
   overridden: System.Xml.XmlNamedNodeMap.SetNamedItem(System.Xml.XmlNode)
 - uid: System.Xml.XmlAttributeCollection.Prepend(System.Xml.XmlAttribute)
   id: Prepend(System.Xml.XmlAttribute)
@@ -177,6 +181,7 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.Append(System.Xml.XmlAttribute)
   id: Append(System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -199,6 +204,7 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.InsertBefore(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   id: InsertBefore(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -223,6 +229,7 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.InsertAfter(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   id: InsertAfter(System.Xml.XmlAttribute,System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -247,6 +254,7 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.Remove(System.Xml.XmlAttribute)
   id: Remove(System.Xml.XmlAttribute)
   parent: System.Xml.XmlAttributeCollection
@@ -269,6 +277,7 @@ items:
       type: System.Xml.XmlAttribute
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.RemoveAt(System.Int32)
   id: RemoveAt(System.Int32)
   parent: System.Xml.XmlAttributeCollection
@@ -291,6 +300,7 @@ items:
       type: System.Int32
     return:
       type: System.Xml.XmlAttribute
+      description: 
 - uid: System.Xml.XmlAttributeCollection.RemoveAll
   id: RemoveAll
   parent: System.Xml.XmlAttributeCollection
@@ -352,6 +362,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlAttributeCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Xml.XmlAttributeCollection
@@ -373,6 +384,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XmlAttributeCollection.System#Collections#ICollection#Count
   id: System#Collections#ICollection#Count
   parent: System.Xml.XmlAttributeCollection
@@ -394,6 +406,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlAttributeCollection.CopyTo(System.Xml.XmlAttribute[],System.Int32)
   id: CopyTo(System.Xml.XmlAttribute[],System.Int32)
   parent: System.Xml.XmlAttributeCollection

@@ -42,7 +42,7 @@ items:
       path: src/System.Private.DataContractSerialization/src/System/Runtime/Serialization/Json/JsonFormatGeneratorStatics.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.DataContractSerialization/src/System/Runtime/Serialization/Json/JsonFormatGeneratorStatics.cs
     startLine: 13
   assemblies:
@@ -81,6 +81,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetCurrentMethod
   id: GetCurrentMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -101,6 +102,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetItemContractMethod
   id: GetItemContractMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -121,6 +123,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonDataContractMethod
   id: GetJsonDataContractMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -141,6 +144,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonMemberIndexMethod
   id: GetJsonMemberIndexMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -161,6 +165,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetRevisedItemContractMethod
   id: GetRevisedItemContractMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -181,6 +186,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetUninitializedObjectMethod
   id: GetUninitializedObjectMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -201,6 +207,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.IsStartElementMethod0
   id: IsStartElementMethod0
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -221,6 +228,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.IsStartElementMethod2
   id: IsStartElementMethod2
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -241,6 +249,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.LocalNameProperty
   id: LocalNameProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -261,6 +270,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.NamespaceProperty
   id: NamespaceProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -281,6 +291,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.MoveNextMethod
   id: MoveNextMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -301,6 +312,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.MoveToContentMethod
   id: MoveToContentMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -321,6 +333,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.NodeTypeProperty
   id: NodeTypeProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -341,6 +354,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ReadJsonValueMethod
   id: ReadJsonValueMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -361,6 +375,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.SerializationExceptionCtor
   id: SerializationExceptionCtor
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -381,6 +396,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.ConstructorInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ThrowDuplicateMemberExceptionMethod
   id: ThrowDuplicateMemberExceptionMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -401,6 +417,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ThrowMissingRequiredMembersMethod
   id: ThrowMissingRequiredMembersMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -421,6 +438,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.TypeHandleProperty
   id: TypeHandleProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -441,6 +459,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.UseSimpleDictionaryFormatReadProperty
   id: UseSimpleDictionaryFormatReadProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -461,6 +480,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.UseSimpleDictionaryFormatWriteProperty
   id: UseSimpleDictionaryFormatWriteProperty
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -481,6 +501,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteAttributeStringMethod
   id: WriteAttributeStringMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -501,6 +522,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteEndElementMethod
   id: WriteEndElementMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -521,6 +543,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteJsonISerializableMethod
   id: WriteJsonISerializableMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -541,6 +564,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteJsonNameWithMappingMethod
   id: WriteJsonNameWithMappingMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -561,6 +585,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteJsonValueMethod
   id: WriteJsonValueMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -581,6 +606,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteStartElementMethod
   id: WriteStartElementMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -601,6 +627,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.WriteStartElementStringMethod
   id: WriteStartElementStringMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -621,6 +648,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.ParseEnumMethod
   id: ParseEnumMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -641,6 +669,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Runtime.Serialization.JsonFormatGeneratorStatics.GetJsonMemberNameMethod
   id: GetJsonMemberNameMethod
   parent: System.Runtime.Serialization.JsonFormatGeneratorStatics
@@ -661,6 +690,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
+      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

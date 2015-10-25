@@ -29,7 +29,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/TypeDefinition.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/TypeDefinition.cs
     startLine: 9
   assemblies:
@@ -65,6 +65,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.TypeAttributes
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.Name
   id: Name
   parent: System.Reflection.Metadata.TypeDefinition
@@ -171,6 +172,7 @@ items:
     content.vb: Public Function GetLayout As TypeLayout
     return:
       type: System.Reflection.Metadata.TypeLayout
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetDeclaringType
   id: GetDeclaringType
   parent: System.Reflection.Metadata.TypeDefinition
@@ -210,6 +212,7 @@ items:
     content.vb: Public Function GetGenericParameters As GenericParameterHandleCollection
     return:
       type: System.Reflection.Metadata.GenericParameterHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetMethods
   id: GetMethods
   parent: System.Reflection.Metadata.TypeDefinition
@@ -229,6 +232,7 @@ items:
     content.vb: Public Function GetMethods As MethodDefinitionHandleCollection
     return:
       type: System.Reflection.Metadata.MethodDefinitionHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetFields
   id: GetFields
   parent: System.Reflection.Metadata.TypeDefinition
@@ -248,6 +252,7 @@ items:
     content.vb: Public Function GetFields As FieldDefinitionHandleCollection
     return:
       type: System.Reflection.Metadata.FieldDefinitionHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetProperties
   id: GetProperties
   parent: System.Reflection.Metadata.TypeDefinition
@@ -267,6 +272,7 @@ items:
     content.vb: Public Function GetProperties As PropertyDefinitionHandleCollection
     return:
       type: System.Reflection.Metadata.PropertyDefinitionHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetEvents
   id: GetEvents
   parent: System.Reflection.Metadata.TypeDefinition
@@ -286,6 +292,7 @@ items:
     content.vb: Public Function GetEvents As EventDefinitionHandleCollection
     return:
       type: System.Reflection.Metadata.EventDefinitionHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetNestedTypes
   id: GetNestedTypes
   parent: System.Reflection.Metadata.TypeDefinition
@@ -325,6 +332,7 @@ items:
     content.vb: Public Function GetMethodImplementations As MethodImplementationHandleCollection
     return:
       type: System.Reflection.Metadata.MethodImplementationHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetInterfaceImplementations
   id: GetInterfaceImplementations
   parent: System.Reflection.Metadata.TypeDefinition
@@ -344,6 +352,7 @@ items:
     content.vb: Public Function GetInterfaceImplementations As InterfaceImplementationHandleCollection
     return:
       type: System.Reflection.Metadata.InterfaceImplementationHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.TypeDefinition
@@ -363,6 +372,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.TypeDefinition.GetDeclarativeSecurityAttributes
   id: GetDeclarativeSecurityAttributes
   parent: System.Reflection.Metadata.TypeDefinition
@@ -382,6 +392,7 @@ items:
     content.vb: Public Function GetDeclarativeSecurityAttributes As DeclarativeSecurityAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.DeclarativeSecurityAttributeHandleCollection
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false
@@ -757,7 +768,8 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - {}
+  - name: 
+    fullName: 
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -767,7 +779,8 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - {}
+  - name: 
+    fullName: 
   - name: )
     fullName: )
 - uid: System.Reflection.Metadata.MethodImplementationHandleCollection

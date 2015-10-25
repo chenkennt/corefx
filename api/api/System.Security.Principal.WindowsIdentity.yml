@@ -39,7 +39,7 @@ items:
       path: src/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs
     startLine: 15
   assemblies:
@@ -162,6 +162,7 @@ items:
     content.vb: Public Shared Function GetCurrent As WindowsIdentity
     return:
       type: System.Security.Principal.WindowsIdentity
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.GetCurrent(System.Boolean)
   id: GetCurrent(System.Boolean)
   parent: System.Security.Principal.WindowsIdentity
@@ -184,6 +185,7 @@ items:
       type: System.Boolean
     return:
       type: System.Security.Principal.WindowsIdentity
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.GetCurrent(System.Security.Principal.TokenAccessLevels)
   id: GetCurrent(System.Security.Principal.TokenAccessLevels)
   parent: System.Security.Principal.WindowsIdentity
@@ -206,6 +208,7 @@ items:
       type: System.Security.Principal.TokenAccessLevels
     return:
       type: System.Security.Principal.WindowsIdentity
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.GetAnonymous
   id: GetAnonymous
   parent: System.Security.Principal.WindowsIdentity
@@ -225,6 +228,7 @@ items:
     content.vb: Public Shared Function GetAnonymous As WindowsIdentity
     return:
       type: System.Security.Principal.WindowsIdentity
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.AuthenticationType
   id: AuthenticationType
   parent: System.Security.Principal.WindowsIdentity
@@ -245,6 +249,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Security.Claims.ClaimsIdentity.AuthenticationType
 - uid: System.Security.Principal.WindowsIdentity.ImpersonationLevel
   id: ImpersonationLevel
@@ -266,6 +271,7 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.TokenImpersonationLevel
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.IsAuthenticated
   id: IsAuthenticated
   parent: System.Security.Principal.WindowsIdentity
@@ -286,6 +292,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Security.Claims.ClaimsIdentity.IsAuthenticated
 - uid: System.Security.Principal.WindowsIdentity.IsGuest
   id: IsGuest
@@ -307,6 +314,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.IsSystem
   id: IsSystem
   parent: System.Security.Principal.WindowsIdentity
@@ -327,6 +335,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.IsAnonymous
   id: IsAnonymous
   parent: System.Security.Principal.WindowsIdentity
@@ -347,6 +356,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.Name
   id: Name
   parent: System.Security.Principal.WindowsIdentity
@@ -367,6 +377,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Security.Claims.ClaimsIdentity.Name
 - uid: System.Security.Principal.WindowsIdentity.Owner
   id: Owner
@@ -388,6 +399,7 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.SecurityIdentifier
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.User
   id: User
   parent: System.Security.Principal.WindowsIdentity
@@ -408,6 +420,7 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.SecurityIdentifier
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.Groups
   id: Groups
   parent: System.Security.Principal.WindowsIdentity
@@ -428,6 +441,7 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.IdentityReferenceCollection
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.AccessToken
   id: AccessToken
   parent: System.Security.Principal.WindowsIdentity
@@ -448,6 +462,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Action)
   id: RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Action)
   parent: System.Security.Principal.WindowsIdentity
@@ -498,6 +513,7 @@ items:
     - id: T
     return:
       type: '{T}'
+      description: 
 - uid: System.Security.Principal.WindowsIdentity.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.Security.Principal.WindowsIdentity

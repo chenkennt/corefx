@@ -14,7 +14,7 @@ items:
       path: src/System.Runtime/src/System/Function.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime/src/System/Function.cs
     startLine: 8
   assemblies:
@@ -58,6 +58,7 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
+      description: 
 references:
 - uid: System
   isExternal: false

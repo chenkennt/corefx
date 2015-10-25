@@ -26,7 +26,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/HttpHeaderValueCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/HttpHeaderValueCollection.cs
     startLine: 34
   assemblies:
@@ -71,6 +71,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection`1.IsReadOnly
   id: IsReadOnly
   parent: System.Net.Http.Headers.HttpHeaderValueCollection`1
@@ -92,6 +93,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection`1.Add(`0)
   id: Add(`0)
   parent: System.Net.Http.Headers.HttpHeaderValueCollection`1
@@ -157,6 +159,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection`1.Clear
   id: Clear
   parent: System.Net.Http.Headers.HttpHeaderValueCollection`1
@@ -198,6 +201,7 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection`1.CopyTo(`0[],System.Int32)
   id: CopyTo(`0[],System.Int32)
   parent: System.Net.Http.Headers.HttpHeaderValueCollection`1
@@ -245,6 +249,7 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection`1.GetEnumerator
   id: GetEnumerator
   parent: System.Net.Http.Headers.HttpHeaderValueCollection`1
@@ -265,6 +270,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of T)
     return:
       type: System.Collections.Generic.IEnumerator{{T}}
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection`1.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Net.Http.Headers.HttpHeaderValueCollection`1
@@ -286,6 +292,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Net.Http.Headers.HttpHeaderValueCollection`1.ToString
   id: ToString
   parent: System.Net.Http.Headers.HttpHeaderValueCollection`1
@@ -306,6 +313,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Net.Http.Headers

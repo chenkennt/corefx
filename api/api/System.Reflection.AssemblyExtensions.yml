@@ -15,7 +15,7 @@ items:
       path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
     startLine: 212
   assemblies:
@@ -56,6 +56,7 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Type[]
+      description: 
 - uid: System.Reflection.AssemblyExtensions.GetModules(System.Reflection.Assembly)
   id: GetModules(System.Reflection.Assembly)
   parent: System.Reflection.AssemblyExtensions
@@ -78,6 +79,7 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Reflection.Module[]
+      description: 
 - uid: System.Reflection.AssemblyExtensions.GetTypes(System.Reflection.Assembly)
   id: GetTypes(System.Reflection.Assembly)
   parent: System.Reflection.AssemblyExtensions
@@ -100,6 +102,7 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Type[]
+      description: 
 references:
 - uid: System.Reflection
   isExternal: false

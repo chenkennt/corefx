@@ -54,7 +54,7 @@ items:
       path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableSortedDictionary`2+Builder.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableSortedDictionary`2+Builder.cs
     startLine: 29
   assemblies:
@@ -577,6 +577,7 @@ items:
       description: The key.
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.Immutable.ImmutableSortedDictionary`2.Builder

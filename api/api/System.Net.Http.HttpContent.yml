@@ -26,7 +26,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/HttpContent.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/HttpContent.cs
     startLine: 13
   assemblies:
@@ -67,6 +67,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpContentHeaders
+      description: 
 - uid: System.Net.Http.HttpContent.#ctor
   id: '#ctor'
   parent: System.Net.Http.HttpContent
@@ -103,6 +104,7 @@ items:
     content.vb: Public Function ReadAsStringAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 - uid: System.Net.Http.HttpContent.ReadAsByteArrayAsync
   id: ReadAsByteArrayAsync
   parent: System.Net.Http.HttpContent
@@ -122,6 +124,7 @@ items:
     content.vb: Public Function ReadAsByteArrayAsync As Task(Of Byte())
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
+      description: 
 - uid: System.Net.Http.HttpContent.ReadAsStreamAsync
   id: ReadAsStreamAsync
   parent: System.Net.Http.HttpContent
@@ -141,6 +144,7 @@ items:
     content.vb: Public Function ReadAsStreamAsync As Task(Of Stream)
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: 
 - uid: System.Net.Http.HttpContent.SerializeToStreamAsync(System.IO.Stream,TransportContext)
   id: SerializeToStreamAsync(System.IO.Stream,TransportContext)
   parent: System.Net.Http.HttpContent
@@ -165,6 +169,7 @@ items:
       type: TransportContext
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,TransportContext)
   id: CopyToAsync(System.IO.Stream,TransportContext)
   parent: System.Net.Http.HttpContent
@@ -189,6 +194,7 @@ items:
       type: TransportContext
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
   id: CopyToAsync(System.IO.Stream)
   parent: System.Net.Http.HttpContent
@@ -211,6 +217,7 @@ items:
       type: System.IO.Stream
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync
   id: LoadIntoBufferAsync
   parent: System.Net.Http.HttpContent
@@ -230,6 +237,7 @@ items:
     content.vb: Public Function LoadIntoBufferAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
   id: LoadIntoBufferAsync(System.Int64)
   parent: System.Net.Http.HttpContent
@@ -252,6 +260,7 @@ items:
       type: System.Int64
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Net.Http.HttpContent.CreateContentReadStreamAsync
   id: CreateContentReadStreamAsync
   parent: System.Net.Http.HttpContent
@@ -271,6 +280,7 @@ items:
     content.vb: Protected Overridable Function CreateContentReadStreamAsync As Task(Of Stream)
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: 
 - uid: System.Net.Http.HttpContent.TryComputeLength(System.Int64@)
   id: TryComputeLength(System.Int64@)
   parent: System.Net.Http.HttpContent
@@ -295,6 +305,7 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpContent.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.Net.Http.HttpContent

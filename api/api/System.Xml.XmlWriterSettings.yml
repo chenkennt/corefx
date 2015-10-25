@@ -28,7 +28,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriterSettings.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriterSettings.cs
     startLine: 30
   assemblies:
@@ -84,6 +84,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlWriterSettings.Encoding
   id: Encoding
   parent: System.Xml.XmlWriterSettings
@@ -104,6 +105,7 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
+      description: 
 - uid: System.Xml.XmlWriterSettings.OmitXmlDeclaration
   id: OmitXmlDeclaration
   parent: System.Xml.XmlWriterSettings
@@ -124,6 +126,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlWriterSettings.NewLineHandling
   id: NewLineHandling
   parent: System.Xml.XmlWriterSettings
@@ -144,6 +147,7 @@ items:
     parameters: []
     return:
       type: System.Xml.NewLineHandling
+      description: 
 - uid: System.Xml.XmlWriterSettings.NewLineChars
   id: NewLineChars
   parent: System.Xml.XmlWriterSettings
@@ -164,6 +168,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlWriterSettings.Indent
   id: Indent
   parent: System.Xml.XmlWriterSettings
@@ -184,6 +189,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlWriterSettings.IndentChars
   id: IndentChars
   parent: System.Xml.XmlWriterSettings
@@ -204,6 +210,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlWriterSettings.NewLineOnAttributes
   id: NewLineOnAttributes
   parent: System.Xml.XmlWriterSettings
@@ -224,6 +231,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlWriterSettings.CloseOutput
   id: CloseOutput
   parent: System.Xml.XmlWriterSettings
@@ -244,6 +252,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlWriterSettings.ConformanceLevel
   id: ConformanceLevel
   parent: System.Xml.XmlWriterSettings
@@ -264,6 +273,7 @@ items:
     parameters: []
     return:
       type: System.Xml.ConformanceLevel
+      description: 
 - uid: System.Xml.XmlWriterSettings.CheckCharacters
   id: CheckCharacters
   parent: System.Xml.XmlWriterSettings
@@ -284,6 +294,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlWriterSettings.NamespaceHandling
   id: NamespaceHandling
   parent: System.Xml.XmlWriterSettings
@@ -304,6 +315,7 @@ items:
     parameters: []
     return:
       type: System.Xml.NamespaceHandling
+      description: 
 - uid: System.Xml.XmlWriterSettings.WriteEndDocumentOnClose
   id: WriteEndDocumentOnClose
   parent: System.Xml.XmlWriterSettings
@@ -324,6 +336,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlWriterSettings.Reset
   id: Reset
   parent: System.Xml.XmlWriterSettings
@@ -360,6 +373,7 @@ items:
     content.vb: Public Function Clone As XmlWriterSettings
     return:
       type: System.Xml.XmlWriterSettings
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

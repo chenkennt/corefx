@@ -16,7 +16,7 @@ items:
       path: src/System.ComponentModel.Annotations/src/System/ComponentModel/DataAnnotations/FileExtensionsAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ComponentModel.Annotations/src/System/ComponentModel/DataAnnotations/FileExtensionsAttribute.cs
     startLine: 10
   assemblies:
@@ -129,6 +129,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.ComponentModel.DataAnnotations.FileExtensionsAttribute.FormatErrorMessage(System.String)
   id: FormatErrorMessage(System.String)
   parent: System.ComponentModel.DataAnnotations.FileExtensionsAttribute
@@ -151,6 +152,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
   overridden: System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(System.String)
 - uid: System.ComponentModel.DataAnnotations.FileExtensionsAttribute.IsValid(System.Object)
   id: IsValid(System.Object)
@@ -174,6 +176,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ComponentModel.DataAnnotations.DataTypeAttribute.IsValid(System.Object)
 references:
 - uid: System.ComponentModel.DataAnnotations

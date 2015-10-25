@@ -17,7 +17,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/MessageProcessingHandler.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/MessageProcessingHandler.cs
     startLine: 11
   assemblies:
@@ -104,6 +104,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Net.Http.HttpRequestMessage
+      description: 
 - uid: System.Net.Http.MessageProcessingHandler.ProcessResponse(System.Net.Http.HttpResponseMessage,System.Threading.CancellationToken)
   id: ProcessResponse(System.Net.Http.HttpResponseMessage,System.Threading.CancellationToken)
   parent: System.Net.Http.MessageProcessingHandler
@@ -128,6 +129,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Net.Http.HttpResponseMessage
+      description: 
 - uid: System.Net.Http.MessageProcessingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   id: SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   parent: System.Net.Http.MessageProcessingHandler
@@ -152,6 +154,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
   overridden: System.Net.Http.DelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
 references:
 - uid: System.Net.Http

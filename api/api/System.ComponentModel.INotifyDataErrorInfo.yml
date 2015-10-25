@@ -15,7 +15,7 @@ items:
       path: src/System.ObjectModel/src/System/ComponentModel/INotifyDataErrorInfo.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.ObjectModel/src/System/ComponentModel/INotifyDataErrorInfo.cs
     startLine: 8
   assemblies:
@@ -44,6 +44,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.ComponentModel.INotifyDataErrorInfo.GetErrors(System.String)
   id: GetErrors(System.String)
   parent: System.ComponentModel.INotifyDataErrorInfo
@@ -66,6 +67,7 @@ items:
       type: System.String
     return:
       type: System.Collections.IEnumerable
+      description: 
 - uid: System.ComponentModel.INotifyDataErrorInfo.ErrorsChanged
   id: ErrorsChanged
   parent: System.ComponentModel.INotifyDataErrorInfo

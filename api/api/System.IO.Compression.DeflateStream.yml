@@ -31,7 +31,7 @@ items:
       path: src/System.IO.Compression/src/System/IO/Compression/DeflateStream.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Compression/src/System/IO/Compression/DeflateStream.Windows.cs
     startLine: 5
   assemblies:
@@ -93,7 +93,7 @@ items:
       path: src/System.IO.Compression/src/System/IO/Compression/DeflateStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Compression/src/System/IO/Compression/DeflateStream.cs
     startLine: 35
   assemblies:
@@ -197,6 +197,7 @@ items:
     parameters: []
     return:
       type: System.IO.Stream
+      description: 
 - uid: System.IO.Compression.DeflateStream.CanRead
   id: CanRead
   parent: System.IO.Compression.DeflateStream
@@ -217,6 +218,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanRead
 - uid: System.IO.Compression.DeflateStream.CanWrite
   id: CanWrite
@@ -238,6 +240,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanWrite
 - uid: System.IO.Compression.DeflateStream.CanSeek
   id: CanSeek
@@ -259,6 +262,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanSeek
 - uid: System.IO.Compression.DeflateStream.Length
   id: Length
@@ -280,6 +284,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Length
 - uid: System.IO.Compression.DeflateStream.Position
   id: Position
@@ -301,6 +306,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Position
 - uid: System.IO.Compression.DeflateStream.Flush
   id: Flush
@@ -342,6 +348,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
 - uid: System.IO.Compression.DeflateStream.Seek(System.Int64,System.IO.SeekOrigin)
   id: Seek(System.Int64,System.IO.SeekOrigin)
@@ -367,6 +374,7 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.Compression.DeflateStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -417,6 +425,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
   overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.IO.Compression.DeflateStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -448,6 +457,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
   overridden: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.Compression.DeflateStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -527,6 +537,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 references:
 - uid: System.IO.Compression
@@ -556,6 +567,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

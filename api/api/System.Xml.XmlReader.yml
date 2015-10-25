@@ -132,7 +132,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlReaderAsync.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlReaderAsync.cs
     startLine: 19
   assemblies:
@@ -165,7 +165,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlReader.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlReader.cs
     startLine: 89
   assemblies:
@@ -177,6 +177,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlReaderSettings
+      description: 
 - uid: System.Xml.XmlReader.NodeType
   id: NodeType
   parent: System.Xml.XmlReader
@@ -197,6 +198,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNodeType
+      description: 
 - uid: System.Xml.XmlReader.Name
   id: Name
   parent: System.Xml.XmlReader
@@ -217,6 +219,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.LocalName
   id: LocalName
   parent: System.Xml.XmlReader
@@ -237,6 +240,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.NamespaceURI
   id: NamespaceURI
   parent: System.Xml.XmlReader
@@ -257,6 +261,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.Prefix
   id: Prefix
   parent: System.Xml.XmlReader
@@ -277,6 +282,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.HasValue
   id: HasValue
   parent: System.Xml.XmlReader
@@ -297,6 +303,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.Value
   id: Value
   parent: System.Xml.XmlReader
@@ -317,6 +324,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.Depth
   id: Depth
   parent: System.Xml.XmlReader
@@ -337,6 +345,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.BaseURI
   id: BaseURI
   parent: System.Xml.XmlReader
@@ -357,6 +366,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.IsEmptyElement
   id: IsEmptyElement
   parent: System.Xml.XmlReader
@@ -377,6 +387,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.IsDefault
   id: IsDefault
   parent: System.Xml.XmlReader
@@ -397,6 +408,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.XmlSpace
   id: XmlSpace
   parent: System.Xml.XmlReader
@@ -417,6 +429,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlSpace
+      description: 
 - uid: System.Xml.XmlReader.XmlLang
   id: XmlLang
   parent: System.Xml.XmlReader
@@ -437,6 +450,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.ValueType
   id: ValueType
   parent: System.Xml.XmlReader
@@ -457,6 +471,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsObject
   id: ReadContentAsObject
   parent: System.Xml.XmlReader
@@ -476,6 +491,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsObject As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsBoolean
   id: ReadContentAsBoolean
   parent: System.Xml.XmlReader
@@ -495,6 +511,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsBoolean As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsDateTimeOffset
   id: ReadContentAsDateTimeOffset
   parent: System.Xml.XmlReader
@@ -514,6 +531,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsDateTimeOffset As DateTimeOffset
     return:
       type: System.DateTimeOffset
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsDouble
   id: ReadContentAsDouble
   parent: System.Xml.XmlReader
@@ -533,6 +551,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsDouble As Double
     return:
       type: System.Double
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsFloat
   id: ReadContentAsFloat
   parent: System.Xml.XmlReader
@@ -552,6 +571,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsFloat As Single
     return:
       type: System.Single
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsDecimal
   id: ReadContentAsDecimal
   parent: System.Xml.XmlReader
@@ -571,6 +591,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsDecimal As Decimal
     return:
       type: System.Decimal
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsInt
   id: ReadContentAsInt
   parent: System.Xml.XmlReader
@@ -590,6 +611,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsInt As Integer
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsLong
   id: ReadContentAsLong
   parent: System.Xml.XmlReader
@@ -609,6 +631,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsLong As Long
     return:
       type: System.Int64
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsString
   id: ReadContentAsString
   parent: System.Xml.XmlReader
@@ -628,6 +651,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsString As String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAs(System.Type,System.Xml.IXmlNamespaceResolver)
   id: ReadContentAs(System.Type,System.Xml.IXmlNamespaceResolver)
   parent: System.Xml.XmlReader
@@ -652,6 +676,7 @@ items:
       type: System.Xml.IXmlNamespaceResolver
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsObject
   id: ReadElementContentAsObject
   parent: System.Xml.XmlReader
@@ -671,6 +696,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsObject As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsObject(System.String,System.String)
   id: ReadElementContentAsObject(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -695,6 +721,7 @@ items:
       type: System.String
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsBoolean
   id: ReadElementContentAsBoolean
   parent: System.Xml.XmlReader
@@ -714,6 +741,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsBoolean As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsBoolean(System.String,System.String)
   id: ReadElementContentAsBoolean(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -738,6 +766,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsDouble
   id: ReadElementContentAsDouble
   parent: System.Xml.XmlReader
@@ -757,6 +786,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsDouble As Double
     return:
       type: System.Double
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsDouble(System.String,System.String)
   id: ReadElementContentAsDouble(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -781,6 +811,7 @@ items:
       type: System.String
     return:
       type: System.Double
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsFloat
   id: ReadElementContentAsFloat
   parent: System.Xml.XmlReader
@@ -800,6 +831,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsFloat As Single
     return:
       type: System.Single
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsFloat(System.String,System.String)
   id: ReadElementContentAsFloat(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -824,6 +856,7 @@ items:
       type: System.String
     return:
       type: System.Single
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsDecimal
   id: ReadElementContentAsDecimal
   parent: System.Xml.XmlReader
@@ -843,6 +876,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsDecimal As Decimal
     return:
       type: System.Decimal
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsDecimal(System.String,System.String)
   id: ReadElementContentAsDecimal(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -867,6 +901,7 @@ items:
       type: System.String
     return:
       type: System.Decimal
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsInt
   id: ReadElementContentAsInt
   parent: System.Xml.XmlReader
@@ -886,6 +921,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsInt As Integer
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsInt(System.String,System.String)
   id: ReadElementContentAsInt(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -910,6 +946,7 @@ items:
       type: System.String
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsLong
   id: ReadElementContentAsLong
   parent: System.Xml.XmlReader
@@ -929,6 +966,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsLong As Long
     return:
       type: System.Int64
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsLong(System.String,System.String)
   id: ReadElementContentAsLong(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -953,6 +991,7 @@ items:
       type: System.String
     return:
       type: System.Int64
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsString
   id: ReadElementContentAsString
   parent: System.Xml.XmlReader
@@ -972,6 +1011,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsString As String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsString(System.String,System.String)
   id: ReadElementContentAsString(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -996,6 +1036,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAs(System.Type,System.Xml.IXmlNamespaceResolver)
   id: ReadElementContentAs(System.Type,System.Xml.IXmlNamespaceResolver)
   parent: System.Xml.XmlReader
@@ -1020,6 +1061,7 @@ items:
       type: System.Xml.IXmlNamespaceResolver
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAs(System.Type,System.Xml.IXmlNamespaceResolver,System.String,System.String)
   id: ReadElementContentAs(System.Type,System.Xml.IXmlNamespaceResolver,System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1048,6 +1090,7 @@ items:
       type: System.String
     return:
       type: System.Object
+      description: 
 - uid: System.Xml.XmlReader.AttributeCount
   id: AttributeCount
   parent: System.Xml.XmlReader
@@ -1068,6 +1111,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.GetAttribute(System.String)
   id: GetAttribute(System.String)
   parent: System.Xml.XmlReader
@@ -1090,6 +1134,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.GetAttribute(System.String,System.String)
   id: GetAttribute(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1114,6 +1159,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.GetAttribute(System.Int32)
   id: GetAttribute(System.Int32)
   parent: System.Xml.XmlReader
@@ -1136,6 +1182,7 @@ items:
       type: System.Int32
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Xml.XmlReader
@@ -1160,6 +1207,7 @@ items:
       type: System.Int32
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.Item(System.String)
   id: Item(System.String)
   parent: System.Xml.XmlReader
@@ -1184,6 +1232,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.Item(System.String,System.String)
   id: Item(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1210,6 +1259,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.MoveToAttribute(System.String)
   id: MoveToAttribute(System.String)
   parent: System.Xml.XmlReader
@@ -1232,6 +1282,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.MoveToAttribute(System.String,System.String)
   id: MoveToAttribute(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1256,6 +1307,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.MoveToAttribute(System.Int32)
   id: MoveToAttribute(System.Int32)
   parent: System.Xml.XmlReader
@@ -1295,6 +1347,7 @@ items:
     content.vb: Public MustOverride Function MoveToFirstAttribute As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.MoveToNextAttribute
   id: MoveToNextAttribute
   parent: System.Xml.XmlReader
@@ -1314,6 +1367,7 @@ items:
     content.vb: Public MustOverride Function MoveToNextAttribute As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.MoveToElement
   id: MoveToElement
   parent: System.Xml.XmlReader
@@ -1333,6 +1387,7 @@ items:
     content.vb: Public MustOverride Function MoveToElement As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadAttributeValue
   id: ReadAttributeValue
   parent: System.Xml.XmlReader
@@ -1352,6 +1407,7 @@ items:
     content.vb: Public MustOverride Function ReadAttributeValue As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.Read
   id: Read
   parent: System.Xml.XmlReader
@@ -1371,6 +1427,7 @@ items:
     content.vb: Public MustOverride Function Read As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.EOF
   id: EOF
   parent: System.Xml.XmlReader
@@ -1391,6 +1448,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadState
   id: ReadState
   parent: System.Xml.XmlReader
@@ -1411,6 +1469,7 @@ items:
     parameters: []
     return:
       type: System.Xml.ReadState
+      description: 
 - uid: System.Xml.XmlReader.Skip
   id: Skip
   parent: System.Xml.XmlReader
@@ -1448,6 +1507,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlNameTable
+      description: 
 - uid: System.Xml.XmlReader.LookupNamespace(System.String)
   id: LookupNamespace(System.String)
   parent: System.Xml.XmlReader
@@ -1470,6 +1530,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.CanResolveEntity
   id: CanResolveEntity
   parent: System.Xml.XmlReader
@@ -1490,6 +1551,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ResolveEntity
   id: ResolveEntity
   parent: System.Xml.XmlReader
@@ -1527,6 +1589,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsBase64(System.Byte[],System.Int32,System.Int32)
   id: ReadContentAsBase64(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -1555,6 +1618,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsBase64(System.Byte[],System.Int32,System.Int32)
   id: ReadElementContentAsBase64(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -1583,6 +1647,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsBinHex(System.Byte[],System.Int32,System.Int32)
   id: ReadContentAsBinHex(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -1611,6 +1676,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsBinHex(System.Byte[],System.Int32,System.Int32)
   id: ReadElementContentAsBinHex(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -1639,6 +1705,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.CanReadValueChunk
   id: CanReadValueChunk
   parent: System.Xml.XmlReader
@@ -1659,6 +1726,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadValueChunk(System.Char[],System.Int32,System.Int32)
   id: ReadValueChunk(System.Char[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -1687,6 +1755,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XmlReader.MoveToContent
   id: MoveToContent
   parent: System.Xml.XmlReader
@@ -1706,6 +1775,7 @@ items:
     content.vb: Public Overridable Function MoveToContent As XmlNodeType
     return:
       type: System.Xml.XmlNodeType
+      description: 
 - uid: System.Xml.XmlReader.ReadStartElement
   id: ReadStartElement
   parent: System.Xml.XmlReader
@@ -1801,6 +1871,7 @@ items:
     content.vb: Public Overridable Function IsStartElement As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.IsStartElement(System.String)
   id: IsStartElement(System.String)
   parent: System.Xml.XmlReader
@@ -1823,6 +1894,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.IsStartElement(System.String,System.String)
   id: IsStartElement(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1847,6 +1919,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadToFollowing(System.String)
   id: ReadToFollowing(System.String)
   parent: System.Xml.XmlReader
@@ -1869,6 +1942,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadToFollowing(System.String,System.String)
   id: ReadToFollowing(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1893,6 +1967,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadToDescendant(System.String)
   id: ReadToDescendant(System.String)
   parent: System.Xml.XmlReader
@@ -1915,6 +1990,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadToDescendant(System.String,System.String)
   id: ReadToDescendant(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1939,6 +2015,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadToNextSibling(System.String)
   id: ReadToNextSibling(System.String)
   parent: System.Xml.XmlReader
@@ -1961,6 +2038,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadToNextSibling(System.String,System.String)
   id: ReadToNextSibling(System.String,System.String)
   parent: System.Xml.XmlReader
@@ -1985,6 +2063,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.IsName(System.String)
   id: IsName(System.String)
   parent: System.Xml.XmlReader
@@ -2007,6 +2086,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.IsNameToken(System.String)
   id: IsNameToken(System.String)
   parent: System.Xml.XmlReader
@@ -2029,6 +2109,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.ReadInnerXml
   id: ReadInnerXml
   parent: System.Xml.XmlReader
@@ -2048,6 +2129,7 @@ items:
     content.vb: Public Overridable Function ReadInnerXml As String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.ReadOuterXml
   id: ReadOuterXml
   parent: System.Xml.XmlReader
@@ -2067,6 +2149,7 @@ items:
     content.vb: Public Overridable Function ReadOuterXml As String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlReader.ReadSubtree
   id: ReadSubtree
   parent: System.Xml.XmlReader
@@ -2086,6 +2169,7 @@ items:
     content.vb: Public Overridable Function ReadSubtree As XmlReader
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.HasAttributes
   id: HasAttributes
   parent: System.Xml.XmlReader
@@ -2106,6 +2190,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlReader.Dispose
   id: Dispose
   parent: System.Xml.XmlReader
@@ -2165,6 +2250,7 @@ items:
       type: System.String
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.String,System.Xml.XmlReaderSettings)
   id: Create(System.String,System.Xml.XmlReaderSettings)
   parent: System.Xml.XmlReader
@@ -2189,6 +2275,7 @@ items:
       type: System.Xml.XmlReaderSettings
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.IO.Stream)
   id: Create(System.IO.Stream)
   parent: System.Xml.XmlReader
@@ -2211,6 +2298,7 @@ items:
       type: System.IO.Stream
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.IO.Stream,System.Xml.XmlReaderSettings)
   id: Create(System.IO.Stream,System.Xml.XmlReaderSettings)
   parent: System.Xml.XmlReader
@@ -2235,6 +2323,7 @@ items:
       type: System.Xml.XmlReaderSettings
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)
   id: Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)
   parent: System.Xml.XmlReader
@@ -2261,6 +2350,7 @@ items:
       type: System.Xml.XmlParserContext
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.IO.TextReader)
   id: Create(System.IO.TextReader)
   parent: System.Xml.XmlReader
@@ -2283,6 +2373,7 @@ items:
       type: System.IO.TextReader
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.IO.TextReader,System.Xml.XmlReaderSettings)
   id: Create(System.IO.TextReader,System.Xml.XmlReaderSettings)
   parent: System.Xml.XmlReader
@@ -2307,6 +2398,7 @@ items:
       type: System.Xml.XmlReaderSettings
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)
   id: Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)
   parent: System.Xml.XmlReader
@@ -2333,6 +2425,7 @@ items:
       type: System.Xml.XmlParserContext
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.Create(System.Xml.XmlReader,System.Xml.XmlReaderSettings)
   id: Create(System.Xml.XmlReader,System.Xml.XmlReaderSettings)
   parent: System.Xml.XmlReader
@@ -2357,6 +2450,7 @@ items:
       type: System.Xml.XmlReaderSettings
     return:
       type: System.Xml.XmlReader
+      description: 
 - uid: System.Xml.XmlReader.GetValueAsync
   id: GetValueAsync
   parent: System.Xml.XmlReader
@@ -2376,6 +2470,7 @@ items:
     content.vb: Public Overridable Function GetValueAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsObjectAsync
   id: ReadContentAsObjectAsync
   parent: System.Xml.XmlReader
@@ -2395,6 +2490,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsObjectAsync As Task(Of Object)
     return:
       type: System.Threading.Tasks.Task{System.Object}
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsStringAsync
   id: ReadContentAsStringAsync
   parent: System.Xml.XmlReader
@@ -2414,6 +2510,7 @@ items:
     content.vb: Public Overridable Function ReadContentAsStringAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsAsync(System.Type,System.Xml.IXmlNamespaceResolver)
   id: ReadContentAsAsync(System.Type,System.Xml.IXmlNamespaceResolver)
   parent: System.Xml.XmlReader
@@ -2438,6 +2535,7 @@ items:
       type: System.Xml.IXmlNamespaceResolver
     return:
       type: System.Threading.Tasks.Task{System.Object}
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsObjectAsync
   id: ReadElementContentAsObjectAsync
   parent: System.Xml.XmlReader
@@ -2457,6 +2555,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsObjectAsync As Task(Of Object)
     return:
       type: System.Threading.Tasks.Task{System.Object}
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsStringAsync
   id: ReadElementContentAsStringAsync
   parent: System.Xml.XmlReader
@@ -2476,6 +2575,7 @@ items:
     content.vb: Public Overridable Function ReadElementContentAsStringAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsAsync(System.Type,System.Xml.IXmlNamespaceResolver)
   id: ReadElementContentAsAsync(System.Type,System.Xml.IXmlNamespaceResolver)
   parent: System.Xml.XmlReader
@@ -2500,6 +2600,7 @@ items:
       type: System.Xml.IXmlNamespaceResolver
     return:
       type: System.Threading.Tasks.Task{System.Object}
+      description: 
 - uid: System.Xml.XmlReader.ReadAsync
   id: ReadAsync
   parent: System.Xml.XmlReader
@@ -2519,6 +2620,7 @@ items:
     content.vb: Public Overridable Function ReadAsync As Task(Of Boolean)
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
+      description: 
 - uid: System.Xml.XmlReader.SkipAsync
   id: SkipAsync
   parent: System.Xml.XmlReader
@@ -2538,6 +2640,7 @@ items:
     content.vb: Public Overridable Function SkipAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsBase64Async(System.Byte[],System.Int32,System.Int32)
   id: ReadContentAsBase64Async(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -2566,6 +2669,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsBase64Async(System.Byte[],System.Int32,System.Int32)
   id: ReadElementContentAsBase64Async(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -2594,6 +2698,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
 - uid: System.Xml.XmlReader.ReadContentAsBinHexAsync(System.Byte[],System.Int32,System.Int32)
   id: ReadContentAsBinHexAsync(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -2622,6 +2727,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
 - uid: System.Xml.XmlReader.ReadElementContentAsBinHexAsync(System.Byte[],System.Int32,System.Int32)
   id: ReadElementContentAsBinHexAsync(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -2650,6 +2756,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
 - uid: System.Xml.XmlReader.ReadValueChunkAsync(System.Char[],System.Int32,System.Int32)
   id: ReadValueChunkAsync(System.Char[],System.Int32,System.Int32)
   parent: System.Xml.XmlReader
@@ -2678,6 +2785,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
 - uid: System.Xml.XmlReader.MoveToContentAsync
   id: MoveToContentAsync
   parent: System.Xml.XmlReader
@@ -2697,6 +2805,7 @@ items:
     content.vb: Public Overridable Function MoveToContentAsync As Task(Of XmlNodeType)
     return:
       type: System.Threading.Tasks.Task{System.Xml.XmlNodeType}
+      description: 
 - uid: System.Xml.XmlReader.ReadInnerXmlAsync
   id: ReadInnerXmlAsync
   parent: System.Xml.XmlReader
@@ -2716,6 +2825,7 @@ items:
     content.vb: Public Overridable Function ReadInnerXmlAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 - uid: System.Xml.XmlReader.ReadOuterXmlAsync
   id: ReadOuterXmlAsync
   parent: System.Xml.XmlReader
@@ -2735,6 +2845,7 @@ items:
     content.vb: Public Overridable Function ReadOuterXmlAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

@@ -15,7 +15,7 @@ items:
       path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/SafeHandles/SafeRegistryHandle.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/SafeHandles/SafeRegistryHandle.cs
     startLine: 8
   assemblies:
@@ -90,6 +90,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.IsInvalid
 - uid: Microsoft.Win32.SafeHandles.SafeRegistryHandle.ReleaseHandle
   id: ReleaseHandle
@@ -110,6 +111,7 @@ items:
     content.vb: Protected Overrides Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
+      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
 references:
 - uid: Microsoft.Win32.SafeHandles

@@ -26,7 +26,7 @@ items:
       path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeClientStream.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeClientStream.Windows.cs
     startLine: 16
   assemblies:
@@ -116,7 +116,7 @@ items:
       path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeClientStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/System/IO/Pipes/NamedPipeClientStream.cs
     startLine: 27
   assemblies:
@@ -327,6 +327,7 @@ items:
     content.vb: Public Function ConnectAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.IO.Pipes.NamedPipeClientStream.ConnectAsync(System.Int32)
   id: ConnectAsync(System.Int32)
   parent: System.IO.Pipes.NamedPipeClientStream
@@ -349,6 +350,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.IO.Pipes.NamedPipeClientStream.ConnectAsync(System.Threading.CancellationToken)
   id: ConnectAsync(System.Threading.CancellationToken)
   parent: System.IO.Pipes.NamedPipeClientStream
@@ -371,6 +373,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.IO.Pipes.NamedPipeClientStream.ConnectAsync(System.Int32,System.Threading.CancellationToken)
   id: ConnectAsync(System.Int32,System.Threading.CancellationToken)
   parent: System.IO.Pipes.NamedPipeClientStream
@@ -395,6 +398,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.IO.Pipes.NamedPipeClientStream.NumberOfServerInstances
   id: NumberOfServerInstances
   parent: System.IO.Pipes.NamedPipeClientStream
@@ -415,6 +419,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 references:
 - uid: System.IO.Pipes
   isExternal: false
@@ -1050,6 +1055,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

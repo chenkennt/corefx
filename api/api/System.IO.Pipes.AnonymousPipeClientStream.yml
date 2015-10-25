@@ -18,7 +18,7 @@ items:
       path: src/System.IO.Pipes/src/System/IO/Pipes/AnonymousPipeClientStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Pipes/src/System/IO/Pipes/AnonymousPipeClientStream.cs
     startLine: 13
   assemblies:
@@ -192,6 +192,7 @@ items:
     parameters: []
     return:
       type: System.IO.Pipes.PipeTransmissionMode
+      description: 
   overridden: System.IO.Pipes.PipeStream.TransmissionMode
 - uid: System.IO.Pipes.AnonymousPipeClientStream.ReadMode
   id: ReadMode
@@ -213,6 +214,7 @@ items:
     parameters: []
     return:
       type: System.IO.Pipes.PipeTransmissionMode
+      description: 
   overridden: System.IO.Pipes.PipeStream.ReadMode
 references:
 - uid: System.IO.Pipes
@@ -837,6 +839,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

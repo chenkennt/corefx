@@ -30,7 +30,7 @@ items:
       path: src/System.Runtime/src/System/Collections/Generic/ISet.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime/src/System/Collections/Generic/ISet.cs
     startLine: 5
   assemblies:

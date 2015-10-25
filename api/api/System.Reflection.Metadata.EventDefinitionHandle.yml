@@ -22,7 +22,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
     startLine: 1304
   assemblies:
@@ -62,6 +62,7 @@ items:
       type: System.Reflection.Metadata.EventDefinitionHandle
     return:
       type: System.Reflection.Metadata.Handle
+      description: 
 - uid: System.Reflection.Metadata.EventDefinitionHandle.op_Implicit(System.Reflection.Metadata.EventDefinitionHandle)~System.Reflection.Metadata.EntityHandle
   id: op_Implicit(System.Reflection.Metadata.EventDefinitionHandle)~System.Reflection.Metadata.EntityHandle
   parent: System.Reflection.Metadata.EventDefinitionHandle
@@ -86,6 +87,7 @@ items:
       type: System.Reflection.Metadata.EventDefinitionHandle
     return:
       type: System.Reflection.Metadata.EntityHandle
+      description: 
 - uid: System.Reflection.Metadata.EventDefinitionHandle.op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.EventDefinitionHandle
   id: op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.EventDefinitionHandle
   parent: System.Reflection.Metadata.EventDefinitionHandle
@@ -110,6 +112,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Reflection.Metadata.EventDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.EventDefinitionHandle.op_Explicit(System.Reflection.Metadata.EntityHandle)~System.Reflection.Metadata.EventDefinitionHandle
   id: op_Explicit(System.Reflection.Metadata.EntityHandle)~System.Reflection.Metadata.EventDefinitionHandle
   parent: System.Reflection.Metadata.EventDefinitionHandle
@@ -134,6 +137,7 @@ items:
       type: System.Reflection.Metadata.EntityHandle
     return:
       type: System.Reflection.Metadata.EventDefinitionHandle
+      description: 
 - uid: System.Reflection.Metadata.EventDefinitionHandle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.EventDefinitionHandle
@@ -154,6 +158,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.EventDefinitionHandle.op_Equality(System.Reflection.Metadata.EventDefinitionHandle,System.Reflection.Metadata.EventDefinitionHandle)
   id: op_Equality(System.Reflection.Metadata.EventDefinitionHandle,System.Reflection.Metadata.EventDefinitionHandle)
   parent: System.Reflection.Metadata.EventDefinitionHandle
@@ -178,6 +183,7 @@ items:
       type: System.Reflection.Metadata.EventDefinitionHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.EventDefinitionHandle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.EventDefinitionHandle
@@ -200,6 +206,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.EventDefinitionHandle.Equals(System.Reflection.Metadata.EventDefinitionHandle)
   id: Equals(System.Reflection.Metadata.EventDefinitionHandle)
@@ -223,6 +230,7 @@ items:
       type: System.Reflection.Metadata.EventDefinitionHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.EventDefinitionHandle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.EventDefinitionHandle
@@ -242,6 +250,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.EventDefinitionHandle.op_Inequality(System.Reflection.Metadata.EventDefinitionHandle,System.Reflection.Metadata.EventDefinitionHandle)
   id: op_Inequality(System.Reflection.Metadata.EventDefinitionHandle,System.Reflection.Metadata.EventDefinitionHandle)
@@ -267,6 +276,7 @@ items:
       type: System.Reflection.Metadata.EventDefinitionHandle
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

@@ -45,7 +45,7 @@ items:
       path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
     startLine: 11
   assemblies:
@@ -90,6 +90,7 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.ConstructorInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetConstructors(System.Type)
   id: GetConstructors(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -112,6 +113,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.ConstructorInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetConstructors(System.Type,System.Reflection.BindingFlags)
   id: GetConstructors(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -136,6 +138,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.ConstructorInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetDefaultMembers(System.Type)
   id: GetDefaultMembers(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -158,6 +161,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.MemberInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetEvent(System.Type,System.String)
   id: GetEvent(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -182,6 +186,7 @@ items:
       type: System.String
     return:
       type: System.Reflection.EventInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetEvent(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetEvent(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -208,6 +213,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetEvents(System.Type)
   id: GetEvents(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -230,6 +236,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.EventInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetEvents(System.Type,System.Reflection.BindingFlags)
   id: GetEvents(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -254,6 +261,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetField(System.Type,System.String)
   id: GetField(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -278,6 +286,7 @@ items:
       type: System.String
     return:
       type: System.Reflection.FieldInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetField(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetField(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -304,6 +313,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetFields(System.Type)
   id: GetFields(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -326,6 +336,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.FieldInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetFields(System.Type,System.Reflection.BindingFlags)
   id: GetFields(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -350,6 +361,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetGenericArguments(System.Type)
   id: GetGenericArguments(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -372,6 +384,7 @@ items:
       type: System.Type
     return:
       type: System.Type[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetInterfaces(System.Type)
   id: GetInterfaces(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -394,6 +407,7 @@ items:
       type: System.Type
     return:
       type: System.Type[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMember(System.Type,System.String)
   id: GetMember(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -418,6 +432,7 @@ items:
       type: System.String
     return:
       type: System.Reflection.MemberInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMember(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetMember(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -444,6 +459,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMembers(System.Type)
   id: GetMembers(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -466,6 +482,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.MemberInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMembers(System.Type,System.Reflection.BindingFlags)
   id: GetMembers(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -490,6 +507,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMethod(System.Type,System.String)
   id: GetMethod(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -514,6 +532,7 @@ items:
       type: System.String
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMethod(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetMethod(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -540,6 +559,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMethod(System.Type,System.String,System.Type[])
   id: GetMethod(System.Type,System.String,System.Type[])
   parent: System.Reflection.TypeExtensions
@@ -568,6 +588,7 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMethods(System.Type)
   id: GetMethods(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -590,6 +611,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.MethodInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetMethods(System.Type,System.Reflection.BindingFlags)
   id: GetMethods(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -614,6 +636,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetNestedType(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetNestedType(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -640,6 +663,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type
+      description: 
 - uid: System.Reflection.TypeExtensions.GetNestedTypes(System.Type,System.Reflection.BindingFlags)
   id: GetNestedTypes(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -664,6 +688,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetProperties(System.Type)
   id: GetProperties(System.Type)
   parent: System.Reflection.TypeExtensions
@@ -686,6 +711,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.PropertyInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetProperties(System.Type,System.Reflection.BindingFlags)
   id: GetProperties(System.Type,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -710,6 +736,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo[]
+      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String)
   id: GetProperty(System.Type,System.String)
   parent: System.Reflection.TypeExtensions
@@ -734,6 +761,7 @@ items:
       type: System.String
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String,System.Reflection.BindingFlags)
   id: GetProperty(System.Type,System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.TypeExtensions
@@ -760,6 +788,7 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String,System.Type)
   id: GetProperty(System.Type,System.String,System.Type)
   parent: System.Reflection.TypeExtensions
@@ -786,6 +815,7 @@ items:
       type: System.Type
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.GetProperty(System.Type,System.String,System.Type,System.Type[])
   id: GetProperty(System.Type,System.String,System.Type,System.Type[])
   parent: System.Reflection.TypeExtensions
@@ -816,6 +846,7 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.PropertyInfo
+      description: 
 - uid: System.Reflection.TypeExtensions.IsAssignableFrom(System.Type,System.Type)
   id: IsAssignableFrom(System.Type,System.Type)
   parent: System.Reflection.TypeExtensions
@@ -840,6 +871,7 @@ items:
       type: System.Type
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.TypeExtensions.IsInstanceOfType(System.Type,System.Object)
   id: IsInstanceOfType(System.Type,System.Object)
   parent: System.Reflection.TypeExtensions
@@ -864,6 +896,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Reflection
   isExternal: false

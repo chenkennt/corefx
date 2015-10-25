@@ -16,7 +16,7 @@ items:
       path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexCapture.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexCapture.cs
     startLine: 14
   assemblies:

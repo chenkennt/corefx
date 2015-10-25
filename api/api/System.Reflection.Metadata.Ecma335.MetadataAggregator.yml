@@ -15,7 +15,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MetadataAggregator.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MetadataAggregator.cs
     startLine: 9
   assemblies:
@@ -110,6 +110,7 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Metadata.Handle
+      description: 
 references:
 - uid: System.Reflection.Metadata.Ecma335
   isExternal: false

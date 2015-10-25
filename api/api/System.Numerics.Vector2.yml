@@ -64,7 +64,7 @@ items:
       path: src/System.Numerics.Vectors/src/System/Numerics/Vector2_Intrinsics.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Numerics.Vectors/src/System/Numerics/Vector2_Intrinsics.cs
     startLine: 12
   assemblies:
@@ -93,7 +93,7 @@ items:
       path: src/System.Numerics.Vectors/src/System/Numerics/Vector2.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Numerics.Vectors/src/System/Numerics/Vector2.cs
     startLine: 18
   assemblies:

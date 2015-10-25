@@ -27,7 +27,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/HttpMethod.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/HttpMethod.cs
     startLine: 11
   assemblies:
@@ -65,6 +65,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpMethod
+      description: 
 - uid: System.Net.Http.HttpMethod.Put
   id: Put
   parent: System.Net.Http.HttpMethod
@@ -85,6 +86,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpMethod
+      description: 
 - uid: System.Net.Http.HttpMethod.Post
   id: Post
   parent: System.Net.Http.HttpMethod
@@ -105,6 +107,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpMethod
+      description: 
 - uid: System.Net.Http.HttpMethod.Delete
   id: Delete
   parent: System.Net.Http.HttpMethod
@@ -125,6 +128,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpMethod
+      description: 
 - uid: System.Net.Http.HttpMethod.Head
   id: Head
   parent: System.Net.Http.HttpMethod
@@ -145,6 +149,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpMethod
+      description: 
 - uid: System.Net.Http.HttpMethod.Options
   id: Options
   parent: System.Net.Http.HttpMethod
@@ -165,6 +170,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpMethod
+      description: 
 - uid: System.Net.Http.HttpMethod.Trace
   id: Trace
   parent: System.Net.Http.HttpMethod
@@ -185,6 +191,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpMethod
+      description: 
 - uid: System.Net.Http.HttpMethod.Method
   id: Method
   parent: System.Net.Http.HttpMethod
@@ -205,6 +212,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.HttpMethod.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.Net.Http.HttpMethod
@@ -247,6 +255,7 @@ items:
       type: System.Net.Http.HttpMethod
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpMethod.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Net.Http.HttpMethod
@@ -269,6 +278,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.HttpMethod.GetHashCode
   id: GetHashCode
@@ -289,6 +299,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.HttpMethod.ToString
   id: ToString
@@ -309,6 +320,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.HttpMethod.op_Equality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)
   id: op_Equality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)
@@ -334,6 +346,7 @@ items:
       type: System.Net.Http.HttpMethod
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpMethod.op_Inequality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)
   id: op_Inequality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)
   parent: System.Net.Http.HttpMethod
@@ -358,6 +371,7 @@ items:
       type: System.Net.Http.HttpMethod
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http
   isExternal: false

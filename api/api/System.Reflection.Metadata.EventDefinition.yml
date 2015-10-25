@@ -17,7 +17,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/EventDefinition.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/EventDefinition.cs
     startLine: 7
   assemblies:
@@ -53,6 +53,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StringHandle
+      description: 
 - uid: System.Reflection.Metadata.EventDefinition.Attributes
   id: Attributes
   parent: System.Reflection.Metadata.EventDefinition
@@ -73,6 +74,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.EventAttributes
+      description: 
 - uid: System.Reflection.Metadata.EventDefinition.Type
   id: Type
   parent: System.Reflection.Metadata.EventDefinition
@@ -93,6 +95,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.EntityHandle
+      description: 
 - uid: System.Reflection.Metadata.EventDefinition.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.EventDefinition
@@ -112,6 +115,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 - uid: System.Reflection.Metadata.EventDefinition.GetAccessors
   id: GetAccessors
   parent: System.Reflection.Metadata.EventDefinition
@@ -131,6 +135,7 @@ items:
     content.vb: Public Function GetAccessors As EventAccessors
     return:
       type: System.Reflection.Metadata.EventAccessors
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

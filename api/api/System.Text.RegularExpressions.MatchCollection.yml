@@ -18,7 +18,7 @@ items:
       path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexMatchCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexMatchCollection.cs
     startLine: 21
   assemblies:
@@ -131,6 +131,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Text.RegularExpressions.MatchCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Text.RegularExpressions.MatchCollection
@@ -152,6 +153,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Text.RegularExpressions.MatchCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Text.RegularExpressions.MatchCollection

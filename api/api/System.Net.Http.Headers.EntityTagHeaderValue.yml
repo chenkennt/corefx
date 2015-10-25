@@ -22,7 +22,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/EntityTagHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/EntityTagHeaderValue.cs
     startLine: 8
   assemblies:
@@ -58,6 +58,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.Headers.EntityTagHeaderValue.IsWeak
   id: IsWeak
   parent: System.Net.Http.Headers.EntityTagHeaderValue
@@ -78,6 +79,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.Headers.EntityTagHeaderValue.Any
   id: Any
   parent: System.Net.Http.Headers.EntityTagHeaderValue
@@ -98,6 +100,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.EntityTagHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.EntityTagHeaderValue.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.Net.Http.Headers.EntityTagHeaderValue
@@ -159,6 +162,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.EntityTagHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -182,6 +186,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.EntityTagHeaderValue.GetHashCode
   id: GetHashCode
@@ -202,6 +207,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.EntityTagHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -225,6 +231,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.EntityTagHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.EntityTagHeaderValue.TryParse(System.String,System.Net.Http.Headers.EntityTagHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.EntityTagHeaderValue@)
   parent: System.Net.Http.Headers.EntityTagHeaderValue
@@ -251,6 +258,7 @@ items:
       type: System.Net.Http.Headers.EntityTagHeaderValue
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

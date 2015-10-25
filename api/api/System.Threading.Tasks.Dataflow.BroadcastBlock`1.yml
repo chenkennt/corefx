@@ -27,7 +27,7 @@ items:
       path: src/System.Threading.Tasks.Dataflow/src/Blocks/BroadcastBlock.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Threading.Tasks.Dataflow/src/Blocks/BroadcastBlock.cs
     startLine: 34
   assemblies:

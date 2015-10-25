@@ -20,7 +20,7 @@ items:
       path: src/System.Text.Encodings.Web/src/System/Text/Encodings/Web/TextEncoder.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.Encodings.Web/src/System/Text/Encodings/Web/TextEncoder.cs
     startLine: 11
   assemblies:
@@ -69,6 +69,7 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
+      description: 
 - uid: System.Text.Encodings.Web.TextEncoder.FindFirstCharacterToEncode(System.Char*,System.Int32)
   id: FindFirstCharacterToEncode(System.Char*,System.Int32)
   parent: System.Text.Encodings.Web.TextEncoder
@@ -93,6 +94,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Text.Encodings.Web.TextEncoder.WillEncode(System.Int32)
   id: WillEncode(System.Int32)
   parent: System.Text.Encodings.Web.TextEncoder
@@ -115,6 +117,7 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
+      description: 
 - uid: System.Text.Encodings.Web.TextEncoder.MaxOutputCharactersPerInputCharacter
   id: MaxOutputCharactersPerInputCharacter
   parent: System.Text.Encodings.Web.TextEncoder
@@ -135,6 +138,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Text.Encodings.Web.TextEncoder.Encode(System.String)
   id: Encode(System.String)
   parent: System.Text.Encodings.Web.TextEncoder
@@ -157,6 +161,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Text.Encodings.Web.TextEncoder.Encode(System.IO.TextWriter,System.String)
   id: Encode(System.IO.TextWriter,System.String)
   parent: System.Text.Encodings.Web.TextEncoder

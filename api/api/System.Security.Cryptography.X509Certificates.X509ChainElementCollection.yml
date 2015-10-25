@@ -20,7 +20,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509ChainElementCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509ChainElementCollection.cs
     startLine: 8
   assemblies:
@@ -62,6 +62,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainElementCollection.IsSynchronized
   id: IsSynchronized
   parent: System.Security.Cryptography.X509Certificates.X509ChainElementCollection
@@ -82,6 +83,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainElementCollection.SyncRoot
   id: SyncRoot
   parent: System.Security.Cryptography.X509Certificates.X509ChainElementCollection
@@ -102,6 +104,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainElementCollection.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Security.Cryptography.X509Certificates.X509ChainElementCollection
@@ -126,6 +129,7 @@ items:
       type: System.Int32
     return:
       type: System.Security.Cryptography.X509Certificates.X509ChainElement
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainElementCollection.CopyTo(System.Security.Cryptography.X509Certificates.X509ChainElement[],System.Int32)
   id: CopyTo(System.Security.Cryptography.X509Certificates.X509ChainElement[],System.Int32)
   parent: System.Security.Cryptography.X509Certificates.X509ChainElementCollection
@@ -192,6 +196,7 @@ items:
     content.vb: Public Function GetEnumerator As X509ChainElementEnumerator
     return:
       type: System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainElementCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Cryptography.X509Certificates.X509ChainElementCollection
@@ -212,6 +217,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Security.Cryptography.X509Certificates
   isExternal: false

@@ -14,7 +14,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/TypeSpecification.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/TypeSpecification.cs
     startLine: 7
   assemblies:
@@ -50,6 +50,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.BlobHandle
+      description: 
 - uid: System.Reflection.Metadata.TypeSpecification.GetCustomAttributes
   id: GetCustomAttributes
   parent: System.Reflection.Metadata.TypeSpecification
@@ -69,6 +70,7 @@ items:
     content.vb: Public Function GetCustomAttributes As CustomAttributeHandleCollection
     return:
       type: System.Reflection.Metadata.CustomAttributeHandleCollection
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

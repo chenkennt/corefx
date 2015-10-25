@@ -64,7 +64,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/ArrayList.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/ArrayList.cs
     startLine: 34
   assemblies:
@@ -164,6 +164,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.Count
   id: Count
   parent: System.Collections.ArrayList
@@ -184,6 +185,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.ArrayList
@@ -204,6 +206,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ArrayList.IsReadOnly
   id: IsReadOnly
   parent: System.Collections.ArrayList
@@ -224,6 +227,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ArrayList.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.ArrayList
@@ -244,6 +248,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ArrayList.SyncRoot
   id: SyncRoot
   parent: System.Collections.ArrayList
@@ -264,6 +269,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.ArrayList.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Collections.ArrayList
@@ -288,6 +294,7 @@ items:
       type: System.Int32
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.ArrayList.Adapter(System.Collections.IList)
   id: Adapter(System.Collections.IList)
   parent: System.Collections.ArrayList
@@ -310,6 +317,7 @@ items:
       type: System.Collections.IList
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.ArrayList.Add(System.Object)
   id: Add(System.Object)
   parent: System.Collections.ArrayList
@@ -332,6 +340,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.AddRange(System.Collections.ICollection)
   id: AddRange(System.Collections.ICollection)
   parent: System.Collections.ArrayList
@@ -380,6 +389,7 @@ items:
       type: System.Collections.IComparer
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.BinarySearch(System.Object)
   id: BinarySearch(System.Object)
   parent: System.Collections.ArrayList
@@ -402,6 +412,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.BinarySearch(System.Object,System.Collections.IComparer)
   id: BinarySearch(System.Object,System.Collections.IComparer)
   parent: System.Collections.ArrayList
@@ -426,6 +437,7 @@ items:
       type: System.Collections.IComparer
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.Clear
   id: Clear
   parent: System.Collections.ArrayList
@@ -462,6 +474,7 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.ArrayList.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.ArrayList
@@ -484,6 +497,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ArrayList.CopyTo(System.Array)
   id: CopyTo(System.Array)
   parent: System.Collections.ArrayList
@@ -574,6 +588,7 @@ items:
       type: System.Collections.IList
     return:
       type: System.Collections.IList
+      description: 
 - uid: System.Collections.ArrayList.FixedSize(System.Collections.ArrayList)
   id: FixedSize(System.Collections.ArrayList)
   parent: System.Collections.ArrayList
@@ -596,6 +611,7 @@ items:
       type: System.Collections.ArrayList
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.ArrayList.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.ArrayList
@@ -615,6 +631,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.ArrayList.GetEnumerator(System.Int32,System.Int32)
   id: GetEnumerator(System.Int32,System.Int32)
   parent: System.Collections.ArrayList
@@ -639,6 +656,7 @@ items:
       type: System.Int32
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.ArrayList.IndexOf(System.Object)
   id: IndexOf(System.Object)
   parent: System.Collections.ArrayList
@@ -661,6 +679,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32)
   id: IndexOf(System.Object,System.Int32)
   parent: System.Collections.ArrayList
@@ -685,6 +704,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32,System.Int32)
   id: IndexOf(System.Object,System.Int32,System.Int32)
   parent: System.Collections.ArrayList
@@ -711,6 +731,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.Insert(System.Int32,System.Object)
   id: Insert(System.Int32,System.Object)
   parent: System.Collections.ArrayList
@@ -777,6 +798,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32)
   id: LastIndexOf(System.Object,System.Int32)
   parent: System.Collections.ArrayList
@@ -801,6 +823,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32,System.Int32)
   id: LastIndexOf(System.Object,System.Int32,System.Int32)
   parent: System.Collections.ArrayList
@@ -827,6 +850,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ArrayList.ReadOnly(System.Collections.IList)
   id: ReadOnly(System.Collections.IList)
   parent: System.Collections.ArrayList
@@ -849,6 +873,7 @@ items:
       type: System.Collections.IList
     return:
       type: System.Collections.IList
+      description: 
 - uid: System.Collections.ArrayList.ReadOnly(System.Collections.ArrayList)
   id: ReadOnly(System.Collections.ArrayList)
   parent: System.Collections.ArrayList
@@ -871,6 +896,7 @@ items:
       type: System.Collections.ArrayList
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.ArrayList.Remove(System.Object)
   id: Remove(System.Object)
   parent: System.Collections.ArrayList
@@ -957,6 +983,7 @@ items:
       type: System.Int32
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.ArrayList.Reverse
   id: Reverse
   parent: System.Collections.ArrayList
@@ -1042,6 +1069,7 @@ items:
       type: System.Int32
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.ArrayList.Sort
   id: Sort
   parent: System.Collections.ArrayList
@@ -1125,6 +1153,7 @@ items:
       type: System.Collections.IList
     return:
       type: System.Collections.IList
+      description: 
 - uid: System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)
   id: Synchronized(System.Collections.ArrayList)
   parent: System.Collections.ArrayList
@@ -1147,6 +1176,7 @@ items:
       type: System.Collections.ArrayList
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.ArrayList.ToArray
   id: ToArray
   parent: System.Collections.ArrayList
@@ -1166,6 +1196,7 @@ items:
     content.vb: Public Overridable Function ToArray As Object()
     return:
       type: System.Object[]
+      description: 
 - uid: System.Collections.ArrayList.ToArray(System.Type)
   id: ToArray(System.Type)
   parent: System.Collections.ArrayList
@@ -1188,6 +1219,7 @@ items:
       type: System.Type
     return:
       type: System.Array
+      description: 
 - uid: System.Collections.ArrayList.TrimToSize
   id: TrimToSize
   parent: System.Collections.ArrayList

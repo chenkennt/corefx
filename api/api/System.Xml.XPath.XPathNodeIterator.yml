@@ -18,7 +18,7 @@ items:
       path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeIterator.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeIterator.cs
     startLine: 9
   assemblies:
@@ -58,6 +58,7 @@ items:
     content.vb: Public MustOverride Function Clone As XPathNodeIterator
     return:
       type: System.Xml.XPath.XPathNodeIterator
+      description: 
 - uid: System.Xml.XPath.XPathNodeIterator.MoveNext
   id: MoveNext
   parent: System.Xml.XPath.XPathNodeIterator
@@ -77,6 +78,7 @@ items:
     content.vb: Public MustOverride Function MoveNext As Boolean
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XPath.XPathNodeIterator.Current
   id: Current
   parent: System.Xml.XPath.XPathNodeIterator
@@ -97,6 +99,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XPath.XPathNavigator
+      description: 
 - uid: System.Xml.XPath.XPathNodeIterator.CurrentPosition
   id: CurrentPosition
   parent: System.Xml.XPath.XPathNodeIterator
@@ -117,6 +120,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XPath.XPathNodeIterator.Count
   id: Count
   parent: System.Xml.XPath.XPathNodeIterator
@@ -137,6 +141,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Xml.XPath.XPathNodeIterator.GetEnumerator
   id: GetEnumerator
   parent: System.Xml.XPath.XPathNodeIterator
@@ -156,6 +161,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Xml.XPath
   isExternal: false
@@ -431,6 +437,7 @@ references:
   href: System.Xml.XPath.XPathNavigator.yml
   name: XPathNavigator
   fullName: System.Xml.XPath.XPathNavigator
+  type: Class
 - uid: System.Int32
   parent: System
   isExternal: true

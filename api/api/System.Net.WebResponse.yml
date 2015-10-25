@@ -21,7 +21,7 @@ items:
       path: src/System.Net.Requests/src/System/Net/WebResponse.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Requests/src/System/Net/WebResponse.cs
     startLine: 16
   assemblies:
@@ -215,6 +215,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net
   isExternal: false

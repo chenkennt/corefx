@@ -19,7 +19,7 @@ items:
       path: src/System.Dynamic.Runtime/src/System/Dynamic/GetMemberBinder.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Dynamic.Runtime/src/System/Dynamic/GetMemberBinder.cs
     startLine: 10
   assemblies:

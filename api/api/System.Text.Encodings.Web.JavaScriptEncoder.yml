@@ -15,7 +15,7 @@ items:
       path: src/System.Text.Encodings.Web/src/System/Text/Encodings/Web/JavaScriptStringEncoder.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Text.Encodings.Web/src/System/Text/Encodings/Web/JavaScriptStringEncoder.cs
     startLine: 11
   assemblies:
@@ -63,6 +63,7 @@ items:
     parameters: []
     return:
       type: System.Text.Encodings.Web.JavaScriptEncoder
+      description: 
 - uid: System.Text.Encodings.Web.JavaScriptEncoder.Create(System.Text.Encodings.Web.TextEncoderSettings)
   id: Create(System.Text.Encodings.Web.TextEncoderSettings)
   parent: System.Text.Encodings.Web.JavaScriptEncoder
@@ -85,6 +86,7 @@ items:
       type: System.Text.Encodings.Web.TextEncoderSettings
     return:
       type: System.Text.Encodings.Web.JavaScriptEncoder
+      description: 
 - uid: System.Text.Encodings.Web.JavaScriptEncoder.Create(System.Text.Unicode.UnicodeRange[])
   id: Create(System.Text.Unicode.UnicodeRange[])
   parent: System.Text.Encodings.Web.JavaScriptEncoder
@@ -109,6 +111,7 @@ items:
       type: System.Text.Unicode.UnicodeRange[]
     return:
       type: System.Text.Encodings.Web.JavaScriptEncoder
+      description: 
 references:
 - uid: System.Text.Encodings.Web
   isExternal: false

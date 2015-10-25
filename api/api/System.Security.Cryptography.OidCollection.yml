@@ -23,7 +23,7 @@ items:
       path: src/System.Security.Cryptography.Encoding/src/System/Security/Cryptography/OidCollection.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encoding/src/System/Security/Cryptography/OidCollection.cs
     startLine: 11
   assemblies:
@@ -84,6 +84,7 @@ items:
       type: System.Security.Cryptography.Oid
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.OidCollection.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Security.Cryptography.OidCollection
@@ -108,6 +109,7 @@ items:
       type: System.Int32
     return:
       type: System.Security.Cryptography.Oid
+      description: 
 - uid: System.Security.Cryptography.OidCollection.Item(System.String)
   id: Item(System.String)
   parent: System.Security.Cryptography.OidCollection
@@ -132,6 +134,7 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.Oid
+      description: 
 - uid: System.Security.Cryptography.OidCollection.Count
   id: Count
   parent: System.Security.Cryptography.OidCollection
@@ -152,6 +155,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.OidCollection.GetEnumerator
   id: GetEnumerator
   parent: System.Security.Cryptography.OidCollection
@@ -171,6 +175,7 @@ items:
     content.vb: Public Function GetEnumerator As OidEnumerator
     return:
       type: System.Security.Cryptography.OidEnumerator
+      description: 
 - uid: System.Security.Cryptography.OidCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Cryptography.OidCollection
@@ -191,6 +196,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Security.Cryptography.OidCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Security.Cryptography.OidCollection
@@ -259,6 +265,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.OidCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Security.Cryptography.OidCollection
@@ -280,6 +287,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

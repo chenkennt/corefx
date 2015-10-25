@@ -40,7 +40,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Certificate2.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509Certificate2.cs
     startLine: 15
   assemblies:
@@ -271,6 +271,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.Extensions
   id: Extensions
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -291,6 +292,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509ExtensionCollection
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.FriendlyName
   id: FriendlyName
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -311,6 +313,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.HasPrivateKey
   id: HasPrivateKey
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -331,6 +334,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.IssuerName
   id: IssuerName
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -351,6 +355,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X500DistinguishedName
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.NotAfter
   id: NotAfter
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -371,6 +376,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.NotBefore
   id: NotBefore
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -391,6 +397,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.PrivateKey
   id: PrivateKey
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -411,6 +418,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.AsymmetricAlgorithm
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.PublicKey
   id: PublicKey
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -431,6 +439,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.PublicKey
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.RawData
   id: RawData
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -451,6 +460,7 @@ items:
     parameters: []
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.SerialNumber
   id: SerialNumber
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -471,6 +481,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.SignatureAlgorithm
   id: SignatureAlgorithm
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -491,6 +502,7 @@ items:
     parameters: []
     return:
       type: Oid
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.SubjectName
   id: SubjectName
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -511,6 +523,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X500DistinguishedName
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.Thumbprint
   id: Thumbprint
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -531,6 +544,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.Version
   id: Version
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -551,6 +565,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.GetCertContentType(System.Byte[])
   id: GetCertContentType(System.Byte[])
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -575,6 +590,7 @@ items:
       type: System.Byte[]
     return:
       type: System.Security.Cryptography.X509Certificates.X509ContentType
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.GetCertContentType(System.String)
   id: GetCertContentType(System.String)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -597,6 +613,7 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.X509Certificates.X509ContentType
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.GetNameInfo(System.Security.Cryptography.X509Certificates.X509NameType,System.Boolean)
   id: GetNameInfo(System.Security.Cryptography.X509Certificates.X509NameType,System.Boolean)
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -621,6 +638,7 @@ items:
       type: System.Boolean
     return:
       type: System.String
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.ToString
   id: ToString
   parent: System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -640,6 +658,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Security.Cryptography.X509Certificates.X509Certificate.ToString
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate2.ToString(System.Boolean)
   id: ToString(System.Boolean)
@@ -663,6 +682,7 @@ items:
       type: System.Boolean
     return:
       type: System.String
+      description: 
   overridden: System.Security.Cryptography.X509Certificates.X509Certificate.ToString(System.Boolean)
 references:
 - uid: System.Security.Cryptography.X509Certificates

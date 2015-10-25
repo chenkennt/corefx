@@ -52,7 +52,7 @@ items:
       path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableArray`1+Builder.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableArray`1+Builder.cs
     startLine: 17
   assemblies:
@@ -159,6 +159,7 @@ items:
       description: The index.
     return:
       type: '{T}'
+      description: 
   exceptions:
   - type: System.IndexOutOfRangeException
 - uid: System.Collections.Immutable.ImmutableArray`1.Builder.System#Collections#Generic#ICollection{T}#IsReadOnly

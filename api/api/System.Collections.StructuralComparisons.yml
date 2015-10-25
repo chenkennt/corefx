@@ -14,7 +14,7 @@ items:
       path: src/System.Collections/src/System/Collections/StructuralComparisons.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections/src/System/Collections/StructuralComparisons.cs
     startLine: 11
   assemblies:
@@ -53,6 +53,7 @@ items:
     parameters: []
     return:
       type: System.Collections.IComparer
+      description: 
 - uid: System.Collections.StructuralComparisons.StructuralEqualityComparer
   id: StructuralEqualityComparer
   parent: System.Collections.StructuralComparisons
@@ -73,6 +74,7 @@ items:
     parameters: []
     return:
       type: System.Collections.IEqualityComparer
+      description: 
 references:
 - uid: System.Collections
   isExternal: false

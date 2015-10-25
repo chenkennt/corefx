@@ -16,7 +16,7 @@ items:
       path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedViewAccessor.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedViewAccessor.cs
     startLine: 9
   assemblies:
@@ -94,6 +94,7 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.PointerOffset
   id: PointerOffset
   parent: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
@@ -114,6 +115,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor

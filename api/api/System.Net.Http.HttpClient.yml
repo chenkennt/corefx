@@ -51,7 +51,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/HttpClient.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/HttpClient.cs
     startLine: 12
   assemblies:
@@ -94,6 +94,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpRequestHeaders
+      description: 
 - uid: System.Net.Http.HttpClient.BaseAddress
   id: BaseAddress
   parent: System.Net.Http.HttpClient
@@ -114,6 +115,7 @@ items:
     parameters: []
     return:
       type: Uri
+      description: 
 - uid: System.Net.Http.HttpClient.Timeout
   id: Timeout
   parent: System.Net.Http.HttpClient
@@ -134,6 +136,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 - uid: System.Net.Http.HttpClient.MaxResponseContentBufferSize
   id: MaxResponseContentBufferSize
   parent: System.Net.Http.HttpClient
@@ -154,6 +157,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
 - uid: System.Net.Http.HttpClient.#ctor
   id: '#ctor'
   parent: System.Net.Http.HttpClient
@@ -235,6 +239,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 - uid: System.Net.Http.HttpClient.GetStringAsync(Uri)
   id: GetStringAsync(Uri)
   parent: System.Net.Http.HttpClient
@@ -257,6 +262,7 @@ items:
       type: Uri
     return:
       type: System.Threading.Tasks.Task{System.String}
+      description: 
 - uid: System.Net.Http.HttpClient.GetByteArrayAsync(System.String)
   id: GetByteArrayAsync(System.String)
   parent: System.Net.Http.HttpClient
@@ -279,6 +285,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
+      description: 
 - uid: System.Net.Http.HttpClient.GetByteArrayAsync(Uri)
   id: GetByteArrayAsync(Uri)
   parent: System.Net.Http.HttpClient
@@ -301,6 +308,7 @@ items:
       type: Uri
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
+      description: 
 - uid: System.Net.Http.HttpClient.GetStreamAsync(System.String)
   id: GetStreamAsync(System.String)
   parent: System.Net.Http.HttpClient
@@ -323,6 +331,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: 
 - uid: System.Net.Http.HttpClient.GetStreamAsync(Uri)
   id: GetStreamAsync(Uri)
   parent: System.Net.Http.HttpClient
@@ -345,6 +354,7 @@ items:
       type: Uri
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(System.String)
   id: GetAsync(System.String)
   parent: System.Net.Http.HttpClient
@@ -367,6 +377,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(Uri)
   id: GetAsync(Uri)
   parent: System.Net.Http.HttpClient
@@ -389,6 +400,7 @@ items:
       type: Uri
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(System.String,System.Net.Http.HttpCompletionOption)
   id: GetAsync(System.String,System.Net.Http.HttpCompletionOption)
   parent: System.Net.Http.HttpClient
@@ -413,6 +425,7 @@ items:
       type: System.Net.Http.HttpCompletionOption
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(Uri,System.Net.Http.HttpCompletionOption)
   id: GetAsync(Uri,System.Net.Http.HttpCompletionOption)
   parent: System.Net.Http.HttpClient
@@ -437,6 +450,7 @@ items:
       type: System.Net.Http.HttpCompletionOption
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(System.String,System.Threading.CancellationToken)
   id: GetAsync(System.String,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -461,6 +475,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(Uri,System.Threading.CancellationToken)
   id: GetAsync(Uri,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -485,6 +500,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
   id: GetAsync(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -511,6 +527,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.GetAsync(Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
   id: GetAsync(Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -537,6 +554,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PostAsync(System.String,System.Net.Http.HttpContent)
   id: PostAsync(System.String,System.Net.Http.HttpContent)
   parent: System.Net.Http.HttpClient
@@ -561,6 +579,7 @@ items:
       type: System.Net.Http.HttpContent
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PostAsync(Uri,System.Net.Http.HttpContent)
   id: PostAsync(Uri,System.Net.Http.HttpContent)
   parent: System.Net.Http.HttpClient
@@ -585,6 +604,7 @@ items:
       type: System.Net.Http.HttpContent
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   id: PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -611,6 +631,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PostAsync(Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   id: PostAsync(Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -637,6 +658,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PutAsync(System.String,System.Net.Http.HttpContent)
   id: PutAsync(System.String,System.Net.Http.HttpContent)
   parent: System.Net.Http.HttpClient
@@ -661,6 +683,7 @@ items:
       type: System.Net.Http.HttpContent
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PutAsync(Uri,System.Net.Http.HttpContent)
   id: PutAsync(Uri,System.Net.Http.HttpContent)
   parent: System.Net.Http.HttpClient
@@ -685,6 +708,7 @@ items:
       type: System.Net.Http.HttpContent
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   id: PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -711,6 +735,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.PutAsync(Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   id: PutAsync(Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -737,6 +762,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.DeleteAsync(System.String)
   id: DeleteAsync(System.String)
   parent: System.Net.Http.HttpClient
@@ -759,6 +785,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.DeleteAsync(Uri)
   id: DeleteAsync(Uri)
   parent: System.Net.Http.HttpClient
@@ -781,6 +808,7 @@ items:
       type: Uri
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.DeleteAsync(System.String,System.Threading.CancellationToken)
   id: DeleteAsync(System.String,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -805,6 +833,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.DeleteAsync(Uri,System.Threading.CancellationToken)
   id: DeleteAsync(Uri,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -829,6 +858,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage)
   id: SendAsync(System.Net.Http.HttpRequestMessage)
   parent: System.Net.Http.HttpClient
@@ -851,6 +881,7 @@ items:
       type: System.Net.Http.HttpRequestMessage
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   id: SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -875,6 +906,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
   overridden: System.Net.Http.HttpMessageInvoker.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
 - uid: System.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption)
   id: SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption)
@@ -900,6 +932,7 @@ items:
       type: System.Net.Http.HttpCompletionOption
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
   id: SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
   parent: System.Net.Http.HttpClient
@@ -926,6 +959,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: 
 - uid: System.Net.Http.HttpClient.CancelPendingRequests
   id: CancelPendingRequests
   parent: System.Net.Http.HttpClient

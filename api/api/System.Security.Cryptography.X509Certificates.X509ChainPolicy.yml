@@ -22,7 +22,7 @@ items:
       path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509ChainPolicy.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509ChainPolicy.cs
     startLine: 14
   assemblies:
@@ -78,6 +78,7 @@ items:
     parameters: []
     return:
       type: OidCollection
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.CertificatePolicy
   id: CertificatePolicy
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -98,6 +99,7 @@ items:
     parameters: []
     return:
       type: OidCollection
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationMode
   id: RevocationMode
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -118,6 +120,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509RevocationMode
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.RevocationFlag
   id: RevocationFlag
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -138,6 +141,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509RevocationFlag
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationFlags
   id: VerificationFlags
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -158,6 +162,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509VerificationFlags
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.VerificationTime
   id: VerificationTime
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -178,6 +183,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.UrlRetrievalTimeout
   id: UrlRetrievalTimeout
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -198,6 +204,7 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.ExtraStore
   id: ExtraStore
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy
@@ -218,6 +225,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate2Collection
+      description: 
 - uid: System.Security.Cryptography.X509Certificates.X509ChainPolicy.Reset
   id: Reset
   parent: System.Security.Cryptography.X509Certificates.X509ChainPolicy

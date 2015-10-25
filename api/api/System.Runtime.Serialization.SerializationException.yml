@@ -15,7 +15,7 @@ items:
       path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/SerializationException.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/SerializationException.cs
     startLine: 17
   assemblies:

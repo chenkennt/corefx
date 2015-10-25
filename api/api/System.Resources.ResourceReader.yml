@@ -15,7 +15,7 @@ items:
       path: src/System.Resources.ReaderWriter/src/System/Resources/ResourceReader.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Resources.ReaderWriter/src/System/Resources/ResourceReader.cs
     startLine: 13
   assemblies:
@@ -92,6 +92,7 @@ items:
     content.vb: Public Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
+      description: 
 references:
 - uid: System.Resources
   isExternal: false

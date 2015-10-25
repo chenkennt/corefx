@@ -20,7 +20,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/Handles.cs
     startLine: 2419
   assemblies:
@@ -60,6 +60,7 @@ items:
       type: System.Reflection.Metadata.UserStringHandle
     return:
       type: System.Reflection.Metadata.Handle
+      description: 
 - uid: System.Reflection.Metadata.UserStringHandle.op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.UserStringHandle
   id: op_Explicit(System.Reflection.Metadata.Handle)~System.Reflection.Metadata.UserStringHandle
   parent: System.Reflection.Metadata.UserStringHandle
@@ -84,6 +85,7 @@ items:
       type: System.Reflection.Metadata.Handle
     return:
       type: System.Reflection.Metadata.UserStringHandle
+      description: 
 - uid: System.Reflection.Metadata.UserStringHandle.IsNil
   id: IsNil
   parent: System.Reflection.Metadata.UserStringHandle
@@ -104,6 +106,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.UserStringHandle.op_Equality(System.Reflection.Metadata.UserStringHandle,System.Reflection.Metadata.UserStringHandle)
   id: op_Equality(System.Reflection.Metadata.UserStringHandle,System.Reflection.Metadata.UserStringHandle)
   parent: System.Reflection.Metadata.UserStringHandle
@@ -128,6 +131,7 @@ items:
       type: System.Reflection.Metadata.UserStringHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.UserStringHandle.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Metadata.UserStringHandle
@@ -150,6 +154,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Metadata.UserStringHandle.Equals(System.Reflection.Metadata.UserStringHandle)
   id: Equals(System.Reflection.Metadata.UserStringHandle)
@@ -173,6 +178,7 @@ items:
       type: System.Reflection.Metadata.UserStringHandle
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.UserStringHandle.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Metadata.UserStringHandle
@@ -192,6 +198,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Metadata.UserStringHandle.op_Inequality(System.Reflection.Metadata.UserStringHandle,System.Reflection.Metadata.UserStringHandle)
   id: op_Inequality(System.Reflection.Metadata.UserStringHandle,System.Reflection.Metadata.UserStringHandle)
@@ -217,6 +224,7 @@ items:
       type: System.Reflection.Metadata.UserStringHandle
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false

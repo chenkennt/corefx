@@ -25,7 +25,7 @@ items:
       path: src/System.Runtime/src/System/Collections/Generic/ISet.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime/src/System/Collections/Generic/ISet.cs
     startLine: 12
   assemblies:
@@ -73,6 +73,7 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.ISet`1.UnionWith(System.Collections.Generic.IEnumerable{`0})
   id: UnionWith(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.ISet`1
@@ -185,6 +186,7 @@ items:
       type: System.Collections.Generic.IEnumerable{{T}}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.ISet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
   id: IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.ISet`1
@@ -209,6 +211,7 @@ items:
       type: System.Collections.Generic.IEnumerable{{T}}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.ISet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
   id: IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.ISet`1
@@ -233,6 +236,7 @@ items:
       type: System.Collections.Generic.IEnumerable{{T}}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.ISet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
   id: IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.ISet`1
@@ -257,6 +261,7 @@ items:
       type: System.Collections.Generic.IEnumerable{{T}}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.ISet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})
   id: Overlaps(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.ISet`1
@@ -281,6 +286,7 @@ items:
       type: System.Collections.Generic.IEnumerable{{T}}
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Generic.ISet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})
   id: SetEquals(System.Collections.Generic.IEnumerable{`0})
   parent: System.Collections.Generic.ISet`1
@@ -305,6 +311,7 @@ items:
       type: System.Collections.Generic.IEnumerable{{T}}
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

@@ -15,7 +15,7 @@ items:
       path: src/System.Private.Uri/src/System/UriFormatException.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.Uri/src/System/UriFormatException.cs
     startLine: 8
   assemblies:

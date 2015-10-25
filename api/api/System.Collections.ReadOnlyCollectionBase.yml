@@ -18,7 +18,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/ReadOnlyCollectionBase.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/ReadOnlyCollectionBase.cs
     startLine: 17
   assemblies:
@@ -60,6 +60,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ArrayList
+      description: 
 - uid: System.Collections.ReadOnlyCollectionBase.Count
   id: Count
   parent: System.Collections.ReadOnlyCollectionBase
@@ -80,6 +81,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.ReadOnlyCollectionBase
@@ -101,6 +103,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.ReadOnlyCollectionBase
@@ -122,6 +125,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.ReadOnlyCollectionBase
@@ -164,6 +168,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Collections
   isExternal: false

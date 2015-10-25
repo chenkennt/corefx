@@ -26,7 +26,7 @@ items:
       path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStream.cs
     startLine: 8
   assemblies:
@@ -123,6 +123,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanRead
 - uid: System.Security.Cryptography.CryptoStream.CanSeek
   id: CanSeek
@@ -144,6 +145,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanSeek
 - uid: System.Security.Cryptography.CryptoStream.CanWrite
   id: CanWrite
@@ -165,6 +167,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanWrite
 - uid: System.Security.Cryptography.CryptoStream.Length
   id: Length
@@ -186,6 +189,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Length
 - uid: System.Security.Cryptography.CryptoStream.Position
   id: Position
@@ -207,6 +211,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Position
 - uid: System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock
   id: HasFlushedFinalBlock
@@ -228,6 +233,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Security.Cryptography.CryptoStream.FlushFinalBlock
   id: FlushFinalBlock
   parent: System.Security.Cryptography.CryptoStream
@@ -287,6 +293,7 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.Security.Cryptography.CryptoStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -337,6 +344,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
   overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.Security.Cryptography.CryptoStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -414,6 +422,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

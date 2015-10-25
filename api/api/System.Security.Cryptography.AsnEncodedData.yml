@@ -21,7 +21,7 @@ items:
       path: src/System.Security.Cryptography.Encoding/src/System/Security/Cryptography/AsnEncodedData.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.Cryptography.Encoding/src/System/Security/Cryptography/AsnEncodedData.cs
     startLine: 10
   assemblies:
@@ -167,6 +167,7 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.Oid
+      description: 
 - uid: System.Security.Cryptography.AsnEncodedData.RawData
   id: RawData
   parent: System.Security.Cryptography.AsnEncodedData
@@ -187,6 +188,7 @@ items:
     parameters: []
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Security.Cryptography.AsnEncodedData.CopyFrom(System.Security.Cryptography.AsnEncodedData)
   id: CopyFrom(System.Security.Cryptography.AsnEncodedData)
   parent: System.Security.Cryptography.AsnEncodedData
@@ -229,6 +231,7 @@ items:
       type: System.Boolean
     return:
       type: System.String
+      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

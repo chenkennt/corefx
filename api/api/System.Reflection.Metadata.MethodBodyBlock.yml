@@ -21,7 +21,7 @@ items:
       path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MethodBodyBlock.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Reflection.Metadata/src/System/Reflection/Metadata/MethodBodyBlock.cs
     startLine: 11
   assemblies:
@@ -81,6 +81,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Reflection.Metadata.MethodBodyBlock.LocalVariablesInitialized
   id: LocalVariablesInitialized
   parent: System.Reflection.Metadata.MethodBodyBlock
@@ -101,6 +102,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Reflection.Metadata.MethodBodyBlock.LocalSignature
   id: LocalSignature
   parent: System.Reflection.Metadata.MethodBodyBlock
@@ -121,6 +123,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.Metadata.StandaloneSignatureHandle
+      description: 
 - uid: System.Reflection.Metadata.MethodBodyBlock.ExceptionRegions
   id: ExceptionRegions
   parent: System.Reflection.Metadata.MethodBodyBlock
@@ -141,6 +144,7 @@ items:
     parameters: []
     return:
       type: ImmutableArray{System.Reflection.Metadata.ExceptionRegion}
+      description: 
 - uid: System.Reflection.Metadata.MethodBodyBlock.GetILBytes
   id: GetILBytes
   parent: System.Reflection.Metadata.MethodBodyBlock
@@ -160,6 +164,7 @@ items:
     content.vb: Public Function GetILBytes As Byte()
     return:
       type: System.Byte[]
+      description: 
 - uid: System.Reflection.Metadata.MethodBodyBlock.GetILContent
   id: GetILContent
   parent: System.Reflection.Metadata.MethodBodyBlock
@@ -179,6 +184,7 @@ items:
     content.vb: Public Function GetILContent As ImmutableArray(Of Byte)
     return:
       type: ImmutableArray{System.Byte}
+      description: 
 - uid: System.Reflection.Metadata.MethodBodyBlock.GetILReader
   id: GetILReader
   parent: System.Reflection.Metadata.MethodBodyBlock
@@ -198,6 +204,7 @@ items:
     content.vb: Public Function GetILReader As BlobReader
     return:
       type: System.Reflection.Metadata.BlobReader
+      description: 
 - uid: System.Reflection.Metadata.MethodBodyBlock.Create(System.Reflection.Metadata.BlobReader)
   id: Create(System.Reflection.Metadata.BlobReader)
   parent: System.Reflection.Metadata.MethodBodyBlock
@@ -220,6 +227,7 @@ items:
       type: System.Reflection.Metadata.BlobReader
     return:
       type: System.Reflection.Metadata.MethodBodyBlock
+      description: 
 references:
 - uid: System.Reflection.Metadata
   isExternal: false
@@ -541,7 +549,8 @@ references:
     isExternal: true
   - name: <
     fullName: <
-  - {}
+  - name: 
+    fullName: 
   - name: '>'
     fullName: '>'
   spec.vb:
@@ -551,7 +560,8 @@ references:
     isExternal: true
   - name: '(Of '
     fullName: '(Of '
-  - {}
+  - name: 
+    fullName: 
   - name: )
     fullName: )
 - uid: System.Byte[]

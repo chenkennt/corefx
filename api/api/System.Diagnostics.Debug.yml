@@ -35,7 +35,7 @@ items:
       path: src/Common/src/System/Diagnostics/Debug.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Common/src/System/Diagnostics/Debug.Windows.cs
     startLine: 9
   assemblies:
@@ -67,7 +67,7 @@ items:
       path: src/Common/src/System/Diagnostics/Debug.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/Common/src/System/Diagnostics/Debug.cs
     startLine: 14
   assemblies:

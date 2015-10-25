@@ -25,7 +25,7 @@ items:
       path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/CollectionDataContractAttribute.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Serialization.Primitives/src/System/Runtime/Serialization/CollectionDataContractAttribute.cs
     startLine: 5
   assemblies:
@@ -123,6 +123,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.IsNamespaceSetExplicitly
   id: IsNamespaceSetExplicitly
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -143,6 +144,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.Name
   id: Name
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -163,6 +165,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.IsNameSetExplicitly
   id: IsNameSetExplicitly
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -183,6 +186,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.ItemName
   id: ItemName
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -203,6 +207,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.IsItemNameSetExplicitly
   id: IsItemNameSetExplicitly
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -223,6 +228,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.KeyName
   id: KeyName
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -243,6 +249,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.IsReference
   id: IsReference
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -263,6 +270,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.IsReferenceSetExplicitly
   id: IsReferenceSetExplicitly
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -283,6 +291,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.IsKeyNameSetExplicitly
   id: IsKeyNameSetExplicitly
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -303,6 +312,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.ValueName
   id: ValueName
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -323,6 +333,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Runtime.Serialization.CollectionDataContractAttribute.IsValueNameSetExplicitly
   id: IsValueNameSetExplicitly
   parent: System.Runtime.Serialization.CollectionDataContractAttribute
@@ -343,6 +354,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

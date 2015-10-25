@@ -25,7 +25,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/HttpResponseMessage.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/HttpResponseMessage.cs
     startLine: 8
   assemblies:
@@ -65,6 +65,7 @@ items:
     parameters: []
     return:
       type: System.Version
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.Content
   id: Content
   parent: System.Net.Http.HttpResponseMessage
@@ -85,6 +86,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpContent
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.StatusCode
   id: StatusCode
   parent: System.Net.Http.HttpResponseMessage
@@ -105,6 +107,7 @@ items:
     parameters: []
     return:
       type: HttpStatusCode
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.ReasonPhrase
   id: ReasonPhrase
   parent: System.Net.Http.HttpResponseMessage
@@ -125,6 +128,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.Headers
   id: Headers
   parent: System.Net.Http.HttpResponseMessage
@@ -145,6 +149,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.HttpResponseHeaders
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.RequestMessage
   id: RequestMessage
   parent: System.Net.Http.HttpResponseMessage
@@ -165,6 +170,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.HttpRequestMessage
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.IsSuccessStatusCode
   id: IsSuccessStatusCode
   parent: System.Net.Http.HttpResponseMessage
@@ -185,6 +191,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.#ctor
   id: '#ctor'
   parent: System.Net.Http.HttpResponseMessage
@@ -241,6 +248,7 @@ items:
     content.vb: Public Function EnsureSuccessStatusCode As HttpResponseMessage
     return:
       type: System.Net.Http.HttpResponseMessage
+      description: 
 - uid: System.Net.Http.HttpResponseMessage.ToString
   id: ToString
   parent: System.Net.Http.HttpResponseMessage
@@ -260,6 +268,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.HttpResponseMessage.Dispose(System.Boolean)
   id: Dispose(System.Boolean)

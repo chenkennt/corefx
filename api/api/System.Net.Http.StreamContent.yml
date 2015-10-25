@@ -18,7 +18,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/StreamContent.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/StreamContent.cs
     startLine: 11
   assemblies:
@@ -115,6 +115,7 @@ items:
       type: TransportContext
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.Net.Http.HttpContent.SerializeToStreamAsync(System.IO.Stream,TransportContext)
 - uid: System.Net.Http.StreamContent.TryComputeLength(System.Int64@)
   id: TryComputeLength(System.Int64@)
@@ -140,6 +141,7 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
+      description: 
   overridden: System.Net.Http.HttpContent.TryComputeLength(System.Int64@)
 - uid: System.Net.Http.StreamContent.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -181,6 +183,7 @@ items:
     content.vb: Protected Overrides Function CreateContentReadStreamAsync As Task(Of Stream)
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: 
   overridden: System.Net.Http.HttpContent.CreateContentReadStreamAsync
 references:
 - uid: System.Net.Http

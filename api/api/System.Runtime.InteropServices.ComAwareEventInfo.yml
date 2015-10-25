@@ -25,7 +25,7 @@ items:
       path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComAwareEventInfo.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComAwareEventInfo.cs
     startLine: 5
   assemblies:
@@ -164,6 +164,7 @@ items:
     parameters: []
     return:
       type: System.Reflection.EventAttributes
+      description: 
   overridden: System.Reflection.EventInfo.Attributes
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.GetAddMethod(System.Boolean)
   id: GetAddMethod(System.Boolean)
@@ -187,6 +188,7 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
+      description: 
   overridden: System.Reflection.EventInfo.GetAddMethod(System.Boolean)
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.GetRaiseMethod(System.Boolean)
   id: GetRaiseMethod(System.Boolean)
@@ -210,6 +212,7 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
+      description: 
   overridden: System.Reflection.EventInfo.GetRaiseMethod(System.Boolean)
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.GetRemoveMethod(System.Boolean)
   id: GetRemoveMethod(System.Boolean)
@@ -233,6 +236,7 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
+      description: 
   overridden: System.Reflection.EventInfo.GetRemoveMethod(System.Boolean)
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.DeclaringType
   id: DeclaringType
@@ -254,6 +258,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
   overridden: System.Reflection.MemberInfo.DeclaringType
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -279,6 +284,7 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
+      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -302,6 +308,7 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
+      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -327,6 +334,7 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
+      description: 
   overridden: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.Name
   id: Name
@@ -348,6 +356,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
   overridden: System.Reflection.MemberInfo.Name
 - uid: System.Runtime.InteropServices.ComAwareEventInfo.ReflectedType
   id: ReflectedType
@@ -369,6 +378,7 @@ items:
     parameters: []
     return:
       type: System.Type
+      description: 
   overridden: System.Reflection.MemberInfo.ReflectedType
 references:
 - uid: System.Runtime.InteropServices

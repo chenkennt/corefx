@@ -44,7 +44,7 @@ items:
       path: src/System.Collections.NonGeneric/src/System/Collections/Hashtable.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Collections.NonGeneric/src/System/Collections/Hashtable.cs
     startLine: 56
   assemblies:
@@ -87,6 +87,7 @@ items:
     parameters: []
     return:
       type: System.Collections.IEqualityComparer
+      description: 
 - uid: System.Collections.Hashtable.#ctor
   id: '#ctor'
   parent: System.Collections.Hashtable
@@ -358,6 +359,7 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Hashtable.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.Hashtable
@@ -380,6 +382,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Hashtable.ContainsKey(System.Object)
   id: ContainsKey(System.Object)
   parent: System.Collections.Hashtable
@@ -402,6 +405,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Hashtable.ContainsValue(System.Object)
   id: ContainsValue(System.Object)
   parent: System.Collections.Hashtable
@@ -424,6 +428,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.Hashtable
@@ -470,6 +475,7 @@ items:
       type: System.Object
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Hashtable
@@ -490,6 +496,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 - uid: System.Collections.Hashtable.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.Hashtable
@@ -509,6 +516,7 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
+      description: 
 - uid: System.Collections.Hashtable.GetHash(System.Object)
   id: GetHash(System.Object)
   parent: System.Collections.Hashtable
@@ -531,6 +539,7 @@ items:
       type: System.Object
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Hashtable.IsReadOnly
   id: IsReadOnly
   parent: System.Collections.Hashtable
@@ -551,6 +560,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Hashtable.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.Hashtable
@@ -571,6 +581,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Hashtable.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.Hashtable
@@ -591,6 +602,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
   id: KeyEquals(System.Object,System.Object)
   parent: System.Collections.Hashtable
@@ -615,6 +627,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
 - uid: System.Collections.Hashtable.Keys
   id: Keys
   parent: System.Collections.Hashtable
@@ -635,6 +648,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.Hashtable.Values
   id: Values
   parent: System.Collections.Hashtable
@@ -655,6 +669,7 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
+      description: 
 - uid: System.Collections.Hashtable.Remove(System.Object)
   id: Remove(System.Object)
   parent: System.Collections.Hashtable
@@ -695,6 +710,7 @@ items:
     parameters: []
     return:
       type: System.Object
+      description: 
 - uid: System.Collections.Hashtable.Count
   id: Count
   parent: System.Collections.Hashtable
@@ -715,6 +731,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
   id: Synchronized(System.Collections.Hashtable)
   parent: System.Collections.Hashtable
@@ -737,6 +754,7 @@ items:
       type: System.Collections.Hashtable
     return:
       type: System.Collections.Hashtable
+      description: 
 references:
 - uid: System.Collections
   isExternal: false

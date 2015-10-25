@@ -22,7 +22,7 @@ items:
       path: src/System.Net.Http/src/System/Net/Http/Headers/RangeConditionHeaderValue.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Net.Http/src/System/Net/Http/Headers/RangeConditionHeaderValue.cs
     startLine: 7
   assemblies:
@@ -58,6 +58,7 @@ items:
     parameters: []
     return:
       type: System.Nullable{System.DateTimeOffset}
+      description: 
 - uid: System.Net.Http.Headers.RangeConditionHeaderValue.EntityTag
   id: EntityTag
   parent: System.Net.Http.Headers.RangeConditionHeaderValue
@@ -78,6 +79,7 @@ items:
     parameters: []
     return:
       type: System.Net.Http.Headers.EntityTagHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.RangeConditionHeaderValue.#ctor(System.DateTimeOffset)
   id: '#ctor(System.DateTimeOffset)'
   parent: System.Net.Http.Headers.RangeConditionHeaderValue
@@ -157,6 +159,7 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
+      description: 
   overridden: System.Object.ToString
 - uid: System.Net.Http.Headers.RangeConditionHeaderValue.Equals(System.Object)
   id: Equals(System.Object)
@@ -180,6 +183,7 @@ items:
       type: System.Object
     return:
       type: System.Boolean
+      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Net.Http.Headers.RangeConditionHeaderValue.GetHashCode
   id: GetHashCode
@@ -200,6 +204,7 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
+      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Net.Http.Headers.RangeConditionHeaderValue.Parse(System.String)
   id: Parse(System.String)
@@ -223,6 +228,7 @@ items:
       type: System.String
     return:
       type: System.Net.Http.Headers.RangeConditionHeaderValue
+      description: 
 - uid: System.Net.Http.Headers.RangeConditionHeaderValue.TryParse(System.String,System.Net.Http.Headers.RangeConditionHeaderValue@)
   id: TryParse(System.String,System.Net.Http.Headers.RangeConditionHeaderValue@)
   parent: System.Net.Http.Headers.RangeConditionHeaderValue
@@ -249,6 +255,7 @@ items:
       type: System.Net.Http.Headers.RangeConditionHeaderValue
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Net.Http.Headers
   isExternal: false

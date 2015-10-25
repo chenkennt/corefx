@@ -66,7 +66,7 @@ items:
       path: src/System.Private.DataContractSerialization/src/System/Xml/XmlDictionaryWriter.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Private.DataContractSerialization/src/System/Xml/XmlDictionaryWriter.cs
     startLine: 19
   assemblies:
@@ -99,6 +99,7 @@ items:
       type: System.IO.Stream
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary)
   id: CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary)
   parent: System.Xml.XmlDictionaryWriter
@@ -123,6 +124,7 @@ items:
       type: System.Xml.IXmlDictionary
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession)
   id: CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession)
   parent: System.Xml.XmlDictionaryWriter
@@ -149,6 +151,7 @@ items:
       type: System.Xml.XmlBinaryWriterSession
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession,System.Boolean)
   id: CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession,System.Boolean)
   parent: System.Xml.XmlDictionaryWriter
@@ -177,6 +180,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream)
   id: CreateTextWriter(System.IO.Stream)
   parent: System.Xml.XmlDictionaryWriter
@@ -199,6 +203,7 @@ items:
       type: System.IO.Stream
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream,System.Text.Encoding)
   id: CreateTextWriter(System.IO.Stream,System.Text.Encoding)
   parent: System.Xml.XmlDictionaryWriter
@@ -223,6 +228,7 @@ items:
       type: System.Text.Encoding
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateTextWriter(System.IO.Stream,System.Text.Encoding,System.Boolean)
   id: CreateTextWriter(System.IO.Stream,System.Text.Encoding,System.Boolean)
   parent: System.Xml.XmlDictionaryWriter
@@ -249,6 +255,7 @@ items:
       type: System.Boolean
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.CreateDictionaryWriter(XmlWriter)
   id: CreateDictionaryWriter(XmlWriter)
   parent: System.Xml.XmlDictionaryWriter
@@ -271,6 +278,7 @@ items:
       type: XmlWriter
     return:
       type: System.Xml.XmlDictionaryWriter
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.WriteStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   id: WriteStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString)
   parent: System.Xml.XmlDictionaryWriter
@@ -693,6 +701,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Xml.XmlDictionaryWriter.StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
   id: StartCanonicalization(System.IO.Stream,System.Boolean,System.String[])
   parent: System.Xml.XmlDictionaryWriter

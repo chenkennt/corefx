@@ -104,7 +104,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriterAsync.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriterAsync.cs
     startLine: 18
   assemblies:
@@ -137,7 +137,7 @@ items:
       path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
     startLine: 50
   assemblies:
@@ -149,6 +149,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlWriterSettings
+      description: 
 - uid: System.Xml.XmlWriter.WriteStartDocument
   id: WriteStartDocument
   parent: System.Xml.XmlWriter
@@ -792,6 +793,7 @@ items:
     parameters: []
     return:
       type: System.Xml.WriteState
+      description: 
 - uid: System.Xml.XmlWriter.Flush
   id: Flush
   parent: System.Xml.XmlWriter
@@ -831,6 +833,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlWriter.XmlSpace
   id: XmlSpace
   parent: System.Xml.XmlWriter
@@ -851,6 +854,7 @@ items:
     parameters: []
     return:
       type: System.Xml.XmlSpace
+      description: 
 - uid: System.Xml.XmlWriter.XmlLang
   id: XmlLang
   parent: System.Xml.XmlWriter
@@ -871,6 +875,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Xml.XmlWriter.WriteNmToken(System.String)
   id: WriteNmToken(System.String)
   parent: System.Xml.XmlWriter
@@ -1288,6 +1293,7 @@ items:
       type: System.IO.Stream
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.Create(System.IO.Stream,System.Xml.XmlWriterSettings)
   id: Create(System.IO.Stream,System.Xml.XmlWriterSettings)
   parent: System.Xml.XmlWriter
@@ -1312,6 +1318,7 @@ items:
       type: System.Xml.XmlWriterSettings
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.Create(System.IO.TextWriter)
   id: Create(System.IO.TextWriter)
   parent: System.Xml.XmlWriter
@@ -1334,6 +1341,7 @@ items:
       type: System.IO.TextWriter
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.Create(System.IO.TextWriter,System.Xml.XmlWriterSettings)
   id: Create(System.IO.TextWriter,System.Xml.XmlWriterSettings)
   parent: System.Xml.XmlWriter
@@ -1358,6 +1366,7 @@ items:
       type: System.Xml.XmlWriterSettings
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.Create(System.Text.StringBuilder)
   id: Create(System.Text.StringBuilder)
   parent: System.Xml.XmlWriter
@@ -1380,6 +1389,7 @@ items:
       type: System.Text.StringBuilder
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.Create(System.Text.StringBuilder,System.Xml.XmlWriterSettings)
   id: Create(System.Text.StringBuilder,System.Xml.XmlWriterSettings)
   parent: System.Xml.XmlWriter
@@ -1404,6 +1414,7 @@ items:
       type: System.Xml.XmlWriterSettings
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.Create(System.Xml.XmlWriter)
   id: Create(System.Xml.XmlWriter)
   parent: System.Xml.XmlWriter
@@ -1426,6 +1437,7 @@ items:
       type: System.Xml.XmlWriter
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.Create(System.Xml.XmlWriter,System.Xml.XmlWriterSettings)
   id: Create(System.Xml.XmlWriter,System.Xml.XmlWriterSettings)
   parent: System.Xml.XmlWriter
@@ -1450,6 +1462,7 @@ items:
       type: System.Xml.XmlWriterSettings
     return:
       type: System.Xml.XmlWriter
+      description: 
 - uid: System.Xml.XmlWriter.WriteStartDocumentAsync
   id: WriteStartDocumentAsync
   parent: System.Xml.XmlWriter
@@ -1469,6 +1482,7 @@ items:
     content.vb: Public Overridable Function WriteStartDocumentAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteStartDocumentAsync(System.Boolean)
   id: WriteStartDocumentAsync(System.Boolean)
   parent: System.Xml.XmlWriter
@@ -1491,6 +1505,7 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteEndDocumentAsync
   id: WriteEndDocumentAsync
   parent: System.Xml.XmlWriter
@@ -1510,6 +1525,7 @@ items:
     content.vb: Public Overridable Function WriteEndDocumentAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteDocTypeAsync(System.String,System.String,System.String,System.String)
   id: WriteDocTypeAsync(System.String,System.String,System.String,System.String)
   parent: System.Xml.XmlWriter
@@ -1538,6 +1554,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteStartElementAsync(System.String,System.String,System.String)
   id: WriteStartElementAsync(System.String,System.String,System.String)
   parent: System.Xml.XmlWriter
@@ -1564,6 +1581,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteEndElementAsync
   id: WriteEndElementAsync
   parent: System.Xml.XmlWriter
@@ -1583,6 +1601,7 @@ items:
     content.vb: Public Overridable Function WriteEndElementAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteFullEndElementAsync
   id: WriteFullEndElementAsync
   parent: System.Xml.XmlWriter
@@ -1602,6 +1621,7 @@ items:
     content.vb: Public Overridable Function WriteFullEndElementAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteAttributeStringAsync(System.String,System.String,System.String,System.String)
   id: WriteAttributeStringAsync(System.String,System.String,System.String,System.String)
   parent: System.Xml.XmlWriter
@@ -1630,6 +1650,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteStartAttributeAsync(System.String,System.String,System.String)
   id: WriteStartAttributeAsync(System.String,System.String,System.String)
   parent: System.Xml.XmlWriter
@@ -1656,6 +1677,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteEndAttributeAsync
   id: WriteEndAttributeAsync
   parent: System.Xml.XmlWriter
@@ -1675,6 +1697,7 @@ items:
     content.vb: Protected Overridable Function WriteEndAttributeAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteCDataAsync(System.String)
   id: WriteCDataAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -1697,6 +1720,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteCommentAsync(System.String)
   id: WriteCommentAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -1719,6 +1743,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteProcessingInstructionAsync(System.String,System.String)
   id: WriteProcessingInstructionAsync(System.String,System.String)
   parent: System.Xml.XmlWriter
@@ -1743,6 +1768,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteEntityRefAsync(System.String)
   id: WriteEntityRefAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -1765,6 +1791,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteCharEntityAsync(System.Char)
   id: WriteCharEntityAsync(System.Char)
   parent: System.Xml.XmlWriter
@@ -1787,6 +1814,7 @@ items:
       type: System.Char
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteWhitespaceAsync(System.String)
   id: WriteWhitespaceAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -1809,6 +1837,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteStringAsync(System.String)
   id: WriteStringAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -1831,6 +1860,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteSurrogateCharEntityAsync(System.Char,System.Char)
   id: WriteSurrogateCharEntityAsync(System.Char,System.Char)
   parent: System.Xml.XmlWriter
@@ -1855,6 +1885,7 @@ items:
       type: System.Char
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteCharsAsync(System.Char[],System.Int32,System.Int32)
   id: WriteCharsAsync(System.Char[],System.Int32,System.Int32)
   parent: System.Xml.XmlWriter
@@ -1883,6 +1914,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteRawAsync(System.Char[],System.Int32,System.Int32)
   id: WriteRawAsync(System.Char[],System.Int32,System.Int32)
   parent: System.Xml.XmlWriter
@@ -1911,6 +1943,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteRawAsync(System.String)
   id: WriteRawAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -1933,6 +1966,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteBase64Async(System.Byte[],System.Int32,System.Int32)
   id: WriteBase64Async(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlWriter
@@ -1961,6 +1995,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteBinHexAsync(System.Byte[],System.Int32,System.Int32)
   id: WriteBinHexAsync(System.Byte[],System.Int32,System.Int32)
   parent: System.Xml.XmlWriter
@@ -1989,6 +2024,7 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.FlushAsync
   id: FlushAsync
   parent: System.Xml.XmlWriter
@@ -2008,6 +2044,7 @@ items:
     content.vb: Public Overridable Function FlushAsync As Task
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteNmTokenAsync(System.String)
   id: WriteNmTokenAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -2030,6 +2067,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteNameAsync(System.String)
   id: WriteNameAsync(System.String)
   parent: System.Xml.XmlWriter
@@ -2052,6 +2090,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteQualifiedNameAsync(System.String,System.String)
   id: WriteQualifiedNameAsync(System.String,System.String)
   parent: System.Xml.XmlWriter
@@ -2076,6 +2115,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteAttributesAsync(System.Xml.XmlReader,System.Boolean)
   id: WriteAttributesAsync(System.Xml.XmlReader,System.Boolean)
   parent: System.Xml.XmlWriter
@@ -2100,6 +2140,7 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteNodeAsync(System.Xml.XmlReader,System.Boolean)
   id: WriteNodeAsync(System.Xml.XmlReader,System.Boolean)
   parent: System.Xml.XmlWriter
@@ -2124,6 +2165,7 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.Tasks.Task
+      description: 
 - uid: System.Xml.XmlWriter.WriteElementStringAsync(System.String,System.String,System.String,System.String)
   id: WriteElementStringAsync(System.String,System.String,System.String,System.String)
   parent: System.Xml.XmlWriter
@@ -2152,6 +2194,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
+      description: 
 references:
 - uid: System.Xml
   isExternal: false

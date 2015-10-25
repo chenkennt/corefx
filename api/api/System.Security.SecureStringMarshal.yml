@@ -14,7 +14,7 @@ items:
       path: src/System.Security.SecureString/src/System/Security/SecureStringMarshal.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Security.SecureString/src/System/Security/SecureStringMarshal.cs
     startLine: 7
   assemblies:
@@ -55,6 +55,7 @@ items:
       type: System.Security.SecureString
     return:
       type: System.IntPtr
+      description: 
 - uid: System.Security.SecureStringMarshal.ZeroFreeCoTaskMemUnicode(System.IntPtr)
   id: ZeroFreeCoTaskMemUnicode(System.IntPtr)
   parent: System.Security.SecureStringMarshal

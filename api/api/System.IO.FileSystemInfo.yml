@@ -28,7 +28,7 @@ items:
       path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
     startLine: 14
   assemblies:
@@ -118,6 +118,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.IO.FileSystemInfo.Extension
   id: Extension
   parent: System.IO.FileSystemInfo
@@ -138,6 +139,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.IO.FileSystemInfo.Name
   id: Name
   parent: System.IO.FileSystemInfo
@@ -158,6 +160,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.IO.FileSystemInfo.Exists
   id: Exists
   parent: System.IO.FileSystemInfo
@@ -178,6 +181,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.IO.FileSystemInfo.Delete
   id: Delete
   parent: System.IO.FileSystemInfo
@@ -215,6 +219,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.IO.FileSystemInfo.CreationTimeUtc
   id: CreationTimeUtc
   parent: System.IO.FileSystemInfo
@@ -235,6 +240,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.IO.FileSystemInfo.LastAccessTime
   id: LastAccessTime
   parent: System.IO.FileSystemInfo
@@ -255,6 +261,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.IO.FileSystemInfo.LastAccessTimeUtc
   id: LastAccessTimeUtc
   parent: System.IO.FileSystemInfo
@@ -275,6 +282,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.IO.FileSystemInfo.LastWriteTime
   id: LastWriteTime
   parent: System.IO.FileSystemInfo
@@ -295,6 +303,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.IO.FileSystemInfo.LastWriteTimeUtc
   id: LastWriteTimeUtc
   parent: System.IO.FileSystemInfo
@@ -315,6 +324,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
+      description: 
 - uid: System.IO.FileSystemInfo.Refresh
   id: Refresh
   parent: System.IO.FileSystemInfo
@@ -352,6 +362,7 @@ items:
     parameters: []
     return:
       type: System.IO.FileAttributes
+      description: 
 references:
 - uid: System.IO
   isExternal: false

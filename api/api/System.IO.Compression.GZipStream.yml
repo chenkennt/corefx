@@ -31,7 +31,7 @@ items:
       path: src/System.IO.Compression/src/System/IO/Compression/GZipStream.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.IO.Compression/src/System/IO/Compression/GZipStream.cs
     startLine: 9
   assemblies:
@@ -193,6 +193,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanRead
 - uid: System.IO.Compression.GZipStream.CanWrite
   id: CanWrite
@@ -214,6 +215,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanWrite
 - uid: System.IO.Compression.GZipStream.CanSeek
   id: CanSeek
@@ -235,6 +237,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
   overridden: System.IO.Stream.CanSeek
 - uid: System.IO.Compression.GZipStream.Length
   id: Length
@@ -256,6 +259,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Length
 - uid: System.IO.Compression.GZipStream.Position
   id: Position
@@ -277,6 +281,7 @@ items:
     parameters: []
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Position
 - uid: System.IO.Compression.GZipStream.Flush
   id: Flush
@@ -320,6 +325,7 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
+      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.Compression.GZipStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -370,6 +376,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
   overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.IO.Compression.GZipStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -439,6 +446,7 @@ items:
     parameters: []
     return:
       type: System.IO.Stream
+      description: 
 - uid: System.IO.Compression.GZipStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: System.IO.Compression.GZipStream
@@ -469,6 +477,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: 
   overridden: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.Compression.GZipStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   id: WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -500,6 +509,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.Compression.GZipStream.FlushAsync(System.Threading.CancellationToken)
   id: FlushAsync(System.Threading.CancellationToken)
@@ -523,6 +533,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: 
   overridden: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
 references:
 - uid: System.IO.Compression
@@ -552,6 +563,7 @@ references:
   parent: System.IO.Stream
   isExternal: true
   href: http://chenkennt.github.io/coreclr#api!api/System.IO.Stream.yml
+  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream

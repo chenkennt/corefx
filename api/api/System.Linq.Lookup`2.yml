@@ -20,7 +20,7 @@ items:
       path: src/System.Linq/src/System/Linq/Enumerable.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq/src/System/Linq/Enumerable.cs
     startLine: 2527
   assemblies:
@@ -67,6 +67,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Linq.Lookup`2.Item(`0)
   id: Item(`0)
   parent: System.Linq.Lookup`2
@@ -91,6 +92,7 @@ items:
       type: '{TKey}'
     return:
       type: System.Collections.Generic.IEnumerable{{TElement}}
+      description: 
 - uid: System.Linq.Lookup`2.Contains(`0)
   id: Contains(`0)
   parent: System.Linq.Lookup`2
@@ -114,6 +116,7 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
+      description: 
 - uid: System.Linq.Lookup`2.GetEnumerator
   id: GetEnumerator
   parent: System.Linq.Lookup`2
@@ -134,6 +137,7 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of IGrouping(Of TKey, TElement))
     return:
       type: System.Collections.Generic.IEnumerator{System.Linq.IGrouping{{TKey},{TElement}}}
+      description: 
 - uid: System.Linq.Lookup`2.ApplyResultSelector``1(System.Func{`0,System.Collections.Generic.IEnumerable{`1},``0})
   id: ApplyResultSelector``1(System.Func{`0,System.Collections.Generic.IEnumerable{`1},``0})
   parent: System.Linq.Lookup`2
@@ -160,6 +164,7 @@ items:
     - id: TResult
     return:
       type: System.Collections.Generic.IEnumerable{{TResult}}
+      description: 
 - uid: System.Linq.Lookup`2.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Linq.Lookup`2
@@ -181,6 +186,7 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
+      description: 
 references:
 - uid: System.Linq
   isExternal: false

@@ -38,7 +38,7 @@ items:
       path: src/System.Threading/src/System/Threading/ReaderWriterLockSlim.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Threading/src/System/Threading/ReaderWriterLockSlim.cs
     startLine: 52
   assemblies:
@@ -145,6 +145,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.TryEnterReadLock(System.Int32)
   id: TryEnterReadLock(System.Int32)
   parent: System.Threading.ReaderWriterLockSlim
@@ -167,6 +168,7 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.EnterWriteLock
   id: EnterWriteLock
   parent: System.Threading.ReaderWriterLockSlim
@@ -206,6 +208,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.TryEnterWriteLock(System.Int32)
   id: TryEnterWriteLock(System.Int32)
   parent: System.Threading.ReaderWriterLockSlim
@@ -228,6 +231,7 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.EnterUpgradeableReadLock
   id: EnterUpgradeableReadLock
   parent: System.Threading.ReaderWriterLockSlim
@@ -267,6 +271,7 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLock(System.Int32)
   id: TryEnterUpgradeableReadLock(System.Int32)
   parent: System.Threading.ReaderWriterLockSlim
@@ -289,6 +294,7 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.ExitReadLock
   id: ExitReadLock
   parent: System.Threading.ReaderWriterLockSlim
@@ -377,6 +383,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.IsUpgradeableReadLockHeld
   id: IsUpgradeableReadLockHeld
   parent: System.Threading.ReaderWriterLockSlim
@@ -397,6 +404,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.IsWriteLockHeld
   id: IsWriteLockHeld
   parent: System.Threading.ReaderWriterLockSlim
@@ -417,6 +425,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursionPolicy
   id: RecursionPolicy
   parent: System.Threading.ReaderWriterLockSlim
@@ -437,6 +446,7 @@ items:
     parameters: []
     return:
       type: System.Threading.LockRecursionPolicy
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.CurrentReadCount
   id: CurrentReadCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -457,6 +467,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursiveReadCount
   id: RecursiveReadCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -477,6 +488,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursiveUpgradeCount
   id: RecursiveUpgradeCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -497,6 +509,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.RecursiveWriteCount
   id: RecursiveWriteCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -517,6 +530,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.WaitingReadCount
   id: WaitingReadCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -537,6 +551,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.WaitingUpgradeCount
   id: WaitingUpgradeCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -557,6 +572,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 - uid: System.Threading.ReaderWriterLockSlim.WaitingWriteCount
   id: WaitingWriteCount
   parent: System.Threading.ReaderWriterLockSlim
@@ -577,6 +593,7 @@ items:
     parameters: []
     return:
       type: System.Int32
+      description: 
 references:
 - uid: System.Threading
   isExternal: false

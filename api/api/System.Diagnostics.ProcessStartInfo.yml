@@ -30,7 +30,7 @@ items:
       path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessStartInfo.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessStartInfo.Windows.cs
     startLine: 4
   assemblies:
@@ -61,7 +61,7 @@ items:
       path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessStartInfo.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessStartInfo.cs
     startLine: 33
   assemblies:
@@ -172,6 +172,7 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
+      description: 
 - uid: System.Diagnostics.ProcessStartInfo.RedirectStandardInput
   id: RedirectStandardInput
   parent: System.Diagnostics.ProcessStartInfo
@@ -252,6 +253,7 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
+      description: 
 - uid: System.Diagnostics.ProcessStartInfo.StandardOutputEncoding
   id: StandardOutputEncoding
   parent: System.Diagnostics.ProcessStartInfo
@@ -272,6 +274,7 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
+      description: 
 - uid: System.Diagnostics.ProcessStartInfo.UseShellExecute
   id: UseShellExecute
   parent: System.Diagnostics.ProcessStartInfo
@@ -292,6 +295,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 - uid: System.Diagnostics.ProcessStartInfo.FileName
   id: FileName
   parent: System.Diagnostics.ProcessStartInfo
@@ -352,6 +356,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Diagnostics.ProcessStartInfo.Password
   id: Password
   parent: System.Diagnostics.ProcessStartInfo
@@ -372,6 +377,7 @@ items:
     parameters: []
     return:
       type: System.Security.SecureString
+      description: 
 - uid: System.Diagnostics.ProcessStartInfo.Domain
   id: Domain
   parent: System.Diagnostics.ProcessStartInfo
@@ -392,6 +398,7 @@ items:
     parameters: []
     return:
       type: System.String
+      description: 
 - uid: System.Diagnostics.ProcessStartInfo.LoadUserProfile
   id: LoadUserProfile
   parent: System.Diagnostics.ProcessStartInfo
@@ -412,6 +419,7 @@ items:
     parameters: []
     return:
       type: System.Boolean
+      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

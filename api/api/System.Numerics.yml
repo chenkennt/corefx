@@ -23,7 +23,7 @@ items:
       path: src/System.Runtime.Numerics/src/System/Numerics/Complex.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Runtime.Numerics/src/System/Numerics/Complex.cs
     startLine: 16
   assemblies:

@@ -19,7 +19,7 @@ items:
       path: src/System.Threading/src/System/Threading/Semaphore.Windows.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Threading/src/System/Threading/Semaphore.Windows.cs
     startLine: 8
   assemblies:
@@ -83,7 +83,7 @@ items:
       path: src/System.Threading/src/System/Threading/Semaphore.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Threading/src/System/Threading/Semaphore.cs
     startLine: 16
   assemblies:
@@ -171,6 +171,7 @@ items:
       type: System.String
     return:
       type: System.Threading.Semaphore
+      description: 
 - uid: System.Threading.Semaphore.TryOpenExisting(System.String,System.Threading.Semaphore@)
   id: TryOpenExisting(System.String,System.Threading.Semaphore@)
   parent: System.Threading.Semaphore
@@ -197,6 +198,7 @@ items:
       type: System.Threading.Semaphore
     return:
       type: System.Boolean
+      description: 
 - uid: System.Threading.Semaphore.Release
   id: Release
   parent: System.Threading.Semaphore
@@ -216,6 +218,7 @@ items:
     content.vb: Public Function Release As Integer
     return:
       type: System.Int32
+      description: 
 - uid: System.Threading.Semaphore.Release(System.Int32)
   id: Release(System.Int32)
   parent: System.Threading.Semaphore
@@ -238,6 +241,7 @@ items:
       type: System.Int32
     return:
       type: System.Int32
+      description: 
 references:
 - uid: System.Threading
   isExternal: false

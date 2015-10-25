@@ -328,7 +328,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/UnaryExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/UnaryExpression.cs
     startLine: 306
   assemblies:
@@ -359,7 +359,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/BinaryExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/BinaryExpression.cs
     startLine: 625
   assemblies:
@@ -3557,7 +3557,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/BlockExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/BlockExpression.cs
     startLine: 713
   assemblies:
@@ -3931,7 +3931,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/CatchBlock.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/CatchBlock.cs
     startLine: 102
   assemblies:
@@ -4099,7 +4099,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/ConditionalExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/ConditionalExpression.cs
     startLine: 156
   assemblies:
@@ -4257,7 +4257,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/ConstantExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/ConstantExpression.cs
     startLine: 105
   assemblies:
@@ -4325,7 +4325,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/DebugInfoExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/DebugInfoExpression.cs
     startLine: 221
   assemblies:
@@ -4391,7 +4391,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/DefaultExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/DefaultExpression.cs
     startLine: 58
   assemblies:
@@ -4449,7 +4449,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/ElementInit.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/ElementInit.cs
     startLine: 89
   assemblies:
@@ -4511,7 +4511,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/Expression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/Expression.cs
     startLine: 50
   assemblies:
@@ -4952,7 +4952,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/GotoExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/GotoExpression.cs
     startLine: 130
   assemblies:
@@ -5480,7 +5480,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/IndexExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/IndexExpression.cs
     startLine: 145
   assemblies:
@@ -5684,7 +5684,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/InvocationExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/InvocationExpression.cs
     startLine: 146
   assemblies:
@@ -5784,7 +5784,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/LabelExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/LabelExpression.cs
     startLine: 94
   assemblies:
@@ -5841,7 +5841,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/LabelTarget.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/LabelTarget.cs
     startLine: 57
   assemblies:
@@ -5946,7 +5946,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/LambdaExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/LambdaExpression.cs
     startLine: 269
   assemblies:
@@ -6727,7 +6727,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/ListInitExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/ListInitExpression.cs
     startLine: 124
   assemblies:
@@ -6926,7 +6926,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/LoopExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/LoopExpression.cs
     startLine: 103
   assemblies:
@@ -7014,7 +7014,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberAssignment.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberAssignment.cs
     startLine: 56
   assemblies:
@@ -7074,7 +7074,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberExpression.cs
     startLine: 144
   assemblies:
@@ -7338,7 +7338,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberInitExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberInitExpression.cs
     startLine: 162
   assemblies:
@@ -7412,7 +7412,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberListBinding.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberListBinding.cs
     startLine: 62
   assemblies:
@@ -7556,7 +7556,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberMemberBinding.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/MemberMemberBinding.cs
     startLine: 63
   assemblies:
@@ -7688,7 +7688,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/MethodCallExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/MethodCallExpression.cs
     startLine: 593
   assemblies:
@@ -8265,6 +8265,7 @@ items:
       type: System.Reflection.ParameterInfo
     return:
       type: System.Linq.Expressions.Expression
+      description: 
 - uid: System.Linq.Expressions.Expression.ArrayIndex(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression[])
   id: ArrayIndex(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression[])
   parent: System.Linq.Expressions.Expression
@@ -8344,7 +8345,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/NewArrayExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/NewArrayExpression.cs
     startLine: 131
   assemblies:
@@ -8466,7 +8467,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/NewExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/NewExpression.cs
     startLine: 137
   assemblies:
@@ -8646,7 +8647,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/ParameterExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/ParameterExpression.cs
     startLine: 187
   assemblies:
@@ -8758,7 +8759,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/RuntimeVariablesExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/RuntimeVariablesExpression.cs
     startLine: 86
   assemblies:
@@ -8816,7 +8817,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/SwitchCase.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/SwitchCase.cs
     startLine: 77
   assemblies:
@@ -8880,7 +8881,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/SwitchExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/SwitchExpression.cs
     startLine: 132
   assemblies:
@@ -9095,7 +9096,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/SymbolDocumentInfo.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/SymbolDocumentInfo.cs
     startLine: 110
   assemblies:
@@ -9232,7 +9233,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/TryExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/TryExpression.cs
     startLine: 125
   assemblies:
@@ -9394,7 +9395,7 @@ items:
       path: src/System.Linq.Expressions/src/System/Linq/Expressions/TypeBinaryExpression.cs
       branch: master
       repo: https://github.com/chenkennt/corefx.git
-      key: f36ebcfc
+      key: 87ec42e3
     path: src/System.Linq.Expressions/src/System/Linq/Expressions/TypeBinaryExpression.cs
     startLine: 200
   assemblies:
