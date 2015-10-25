@@ -4,6 +4,8 @@ uid: System.Xml.Linq.XDocument
 
 ### Overview of the XDocument class
 
+@System.String
+
 The @System.Xml.Linq.XDocument class contains the information necessary for a valid XML document.
 This includes an XML declaration, processing instructions, and comments.
 
